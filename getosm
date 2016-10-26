@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# for bringing data down from Open Street Maps for Acton Conservation Land maps.
+# Jim Snyder-Grant 
+
+if [ $# -eq 0 ]; then
+  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'all'"
+  exit
+fi
+
+args=("$@")
+if [[ " ${args[@]} " =~ "all" ]]; then
+    unset args
+    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town')
+fi
+
+# Using a bounding box makes the searches go more quickly
+ ACTON_BBOX="[bbox:42.433,-71.5,42.534,-71.384]"
+ # using an Acton Area ID lets us skip trails that are in the bounding box but not in Acton. 
+ # One number is to get the boundary itself, the other is to use it as an area filter
+ ACTON_ID=1832779
+ ACTON_AREA_ID=3601832779
+ # we get canoe launch by ID since it's a conservation restriction not owned by Acton
+ CANOE_LAUNCH_ID="449483835"
+ # generic trails filter includes both paths and footways. There's a lot more on 
+ # the OSM wiki about the difference between these two. 
+ # Acton data is not entirely consistent, so we grab both. 
+ TRAILS_FILTER="way[\"highway\"~\"path|footway\"][\"name\""
+ # for trails, we surpress special treatment for trails that are entirely outside Acton 
+ AREA_FILTER="(area:$ACTON_AREA_ID)"
+ 
+ for arg in ${args[@]}; do
+   if [ ${arg} = "bounds" ]; then
+       filters="(way($CANOE_LAUNCH_ID);way[\"landuse\"=\"conservation\"][\"owner\"=\"Town Of Acton\"])"
+       KMLcolor="ffffffff"
+       AREA_FILTER=""
+   elif [ ${arg} = "red" ]; then
+        KMLcolor="ff0000ff"
+        filters="$TRAILS_FILTER~\"${arg}\",i]"
+   elif [ ${arg} = "blue" ]; then
+        KMLcolor="ffff0000"
+        filters="$TRAILS_FILTER~\"${arg}\",i]"
+   elif [ ${arg} = "yellow" ]; then
+        KMLcolor="ff00ffff"
+        filters="$TRAILS_FILTER~\"${arg}\",i]"
+   elif [ ${arg} = "othertrails" ]; then
+        KMLcolor="ffff00ff"
+        filters="$TRAILS_FILTER!~\"Red|Blue|Yellow\",i]"
+   elif [ ${arg} = "town" ]; then
+        KMLcolor="ff00ff00"
+        filters="rel($ACTON_ID)"
+        AREA_FILTER=""
+   else
+     echo "unprocessed arg ${arg}"
+   fi   
+   wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
+   echo "wget args: " ${wget_args}
+    wget -O ${arg}.osm "${wget_args}"
+    
+    # what sort of geometry will be extracting?
+    if [ -z $AREA_FILTER ] ; then
+      geometry="multipolygons"    
+    else
+     geometry="lines"
+    fi 
+    echo $AREA_FILTER
+    echo $geometry
+ 
+    # convert to KML for checking in Google Earth
+    rm -f ${arg}.kml
+    ogr2ogr -f KML ${arg}.kml ${arg}.osm ${geometry}
+    # Let's color the KML bounds 
+    sed -i  "s/<color>......../<color>${KMLcolor}/" ${arg}.kml
+    # convert to GeoJSON for importing into MapBox
+    rm -f ${arg}.json
+    ogr2ogr -f GeoJSON ${arg}.json ${arg}.osm ${geometry}
+    # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
+    # The key difference is that we must remove the crs line
+    sed -i s/\"crs.*$// ${arg}.json
+    
+    # just checking and announcing results
+    if [ -f ${arg}.kml ]; then
+    echo "created "  ${arg}.kml
+    fi
+    if [ -f ${arg}.json ]; then
+    echo "created "  ${arg}.json
+    fi
+    
+ done
+  
+
