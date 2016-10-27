@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="lines" id="lines">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="aerialway" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>lines</name>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">53541231</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4313119,42.522821 -71.4317147,42.5224537</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">58014674</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4968767,42.4630639 -71.4968351,42.4632534 -71.4968238,42.4632909</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">61912342</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4823989,42.4865729 -71.4824349,42.4864704</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">61912358</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4814091,42.4875624 -71.482226,42.4870651 -71.4823989,42.4865729</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">61912368</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4824349,42.4864704 -71.4825102,42.4862561 -71.483043,42.4862877 -71.4831047,42.4861933 -71.4837376,42.485226</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">86979494</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4312518,42.4469763 -71.4311659,42.4465725 -71.4311338,42.4462083 -71.4310694,42.4457887 -71.4310587,42.4454404 -71.4310265,42.4450762 -71.4310372,42.4447754 -71.4310157,42.4443083 -71.4310372,42.4440232 -71.4308504,42.4435673</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">86979495</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.429829,42.444248 -71.4299965,42.4443874 -71.4301467,42.4445141 -71.4301467,42.4446408 -71.4301253,42.4447754 -71.430018,42.4449416 -71.4298678,42.4450525 -71.4298248,42.4451871 -71.4296317,42.4453612 -71.4295459,42.4454562 -71.4294922,42.4455592 -71.4294064,42.4456858 -71.4294064,42.4458442 -71.429385,42.4460421</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">115637310</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;TODO&quot;=&gt;&quot;continues - probably to RED&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.478116,42.487734 -71.4782799,42.487686 -71.4784773,42.4876391</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">138183895</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4758855,42.4925956 -71.4761869,42.4926379</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">138183896</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4758489,42.4927904 -71.4761131,42.4928521</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">138183897</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4760464,42.4931047 -71.4761131,42.4928521 -71.4761196,42.4928274</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">138183898</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4765719,42.49234 -71.4764984,42.4926762 -71.4764017,42.4926657</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">139161744</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4555632,42.4776389 -71.4555149,42.4775756 -71.4555632,42.4773224 -71.4559728,42.4769698</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">139161747</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4555632,42.4773224 -71.4554613,42.4772393 -71.4552733,42.4771468</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Richard E Dow Track</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">139161764</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4592432,42.477991 -71.4592271,42.4782126 -71.4590233,42.4783471 -71.4588087,42.4783985 -71.4576822,42.4785647 -71.4574408,42.4785647 -71.457312,42.4785054 -71.4571833,42.4783788 -71.4571511,42.4782165 -71.4572262,42.4780899 -71.4573496,42.4779792 -71.4575266,42.4779198 -71.4587443,42.4777378 -71.4589428,42.4777695 -71.4591788,42.4778723 -71.4592432,42.477991</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">145696213</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4730589,42.4772062 -71.4731179,42.4773039 -71.4729998,42.4773552</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">151310044</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4543823,42.4740774 -71.4542788,42.4740575</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">151310051</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4543631,42.4741947 -71.4542295,42.4741799</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">151310459</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4579714,42.4605797 -71.4579928,42.460445</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">151310461</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4576849,42.4605464 -71.4576991,42.4604156</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">166663306</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.411603,42.5154219 -71.4117515,42.5156695 -71.4118643,42.5158565 -71.411912,42.5158902 -71.4120034,42.5159712 -71.4120596,42.5160836 -71.4121646,42.5162667 -71.4122061,42.5163204 -71.4123037,42.5164351 -71.4125479,42.5166597 -71.4126553,42.5168062 -71.4127188,42.5170162 -71.4127749,42.5172139 -71.4127505,42.5173678 -71.4126699,42.5175704 -71.4125533,42.5178445 -71.4124769,42.5180502 -71.4124481,42.5181163 -71.4124133,42.5181783</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">166663307</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4123378,42.516274 -71.4122061,42.5163204</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">166663308</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4123037,42.5164351 -71.4123085,42.5163277 -71.4123378,42.516274 -71.4124534,42.5161416</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">166663311</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4111978,42.5157877 -71.4110999,42.5158174 -71.4108143,42.5159786 -71.4105921,42.5161812 -71.4104993,42.5163448 -71.4104134,42.5164934 -71.4104324,42.5167722 -71.4104315,42.5170441 -71.4103538,42.5172427 -71.4103202,42.5174239 -71.4102649,42.5175914 -71.4102744,42.5177166 -71.4103374,42.5177994 -71.4104617,42.517865 -71.4105653,42.5179229 -71.410618,42.5179401 -71.4108502,42.5179755 -71.4111859,42.518143 -71.41176,42.518471 -71.4118317,42.5185355 -71.4118652,42.5185671 -71.4119206,42.5186144 -71.4119777,42.5186758 -71.4120137,42.518726 -71.4120723,42.5187974 -71.4121382,42.5188619 -71.4121727,42.5188886 -71.4122065,42.5189153 -71.4122344,42.5189356 -71.4122714,42.5189561 -71.4123127,42.5189838 -71.4123406,42.5190101 -71.4123848,42.5190674 -71.4124136,42.5191107 -71.4124537,42.5191923 -71.4124581,42.5192194 -71.4124573,42.5192409 -71.412449,42.5192833 -71.4124256,42.5193603 -71.4124017,42.5194403 -71.4123806,42.5195237 -71.4123634,42.5196092 -71.4123602,42.5196555 -71.4123606,42.5197061 -71.412369,42.5198219 -71.4123889,42.5200341 -71.4124116,42.5202212 -71.4124404,42.5204084 -71.412456,42.5205056 -71.41247,42.5205415 -71.4124851,42.5205588 -71.4125177,42.5205771 -71.4125492,42.5205849 -71.4129245,42.520639 -71.4129941,42.5206466 -71.4130356,42.5206497 -71.4130957,42.5206494 -71.4132252,42.5206398 -71.4139125,42.5205837 -71.4140708,42.520576 -71.4142309,42.5205644 -71.4142895,42.5205582 -71.4143197,42.5205524 -71.4143595,42.5205391 -71.4143826,42.5205246 -71.4143974,42.5205126 -71.4144126,42.5204976 -71.4144234,42.5204793 -71.4144242,42.5204779 -71.4144326,42.5204567 -71.4144375,42.5204354 -71.4144429,42.5203891 -71.4144457,42.5203272 -71.4144401,42.5202624 -71.4144306,42.5201811 -71.4143989,42.5200065 -71.4143703,42.519879 -71.4143314,42.5197521</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">166663312</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4125512,42.5161698 -71.4125721,42.5162447 -71.4126454,42.5162862 -71.4127259,42.5163057 -71.4127552,42.5163521</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">171689495</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4781465,42.4829485 -71.4779645,42.4830524 -71.4777936,42.4831476 -71.4777945,42.4832255</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">174654007</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4716676,42.4762853 -71.4716649,42.476379</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">174654008</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4716717,42.4761425 -71.4716682,42.4762629</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">189124302</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3961733,42.5016644 -71.396345,42.5019808 -71.3963879,42.5022339 -71.3966883,42.502408 -71.3969887,42.5024396 -71.3971603,42.5023763 -71.3973749,42.5022814</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">201850990</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4353476,42.4820088 -71.4353596,42.4819552 -71.4354814,42.4818573 -71.4355979,42.481828 -71.4357328,42.4818504 -71.4358223,42.4818164 -71.4358415,42.4817763 -71.4357991,42.4817362 -71.4357066,42.4817501 -71.4356318,42.4817787 -71.4355979,42.481828</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">201850992</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4376757,42.481896 -71.4374837,42.481888 -71.4374166,42.4818852</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">201850995</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4369496,42.482581 -71.4369217,42.4824761 -71.4369172,42.4824589</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204056248</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4813738,42.4592132 -71.4813493,42.4593646</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204056249</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;unknown&quot;,&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4813493,42.4593646 -71.4814536,42.4595446</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204056250</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4843698,42.454394 -71.4844325,42.4546937 -71.4843998,42.4551765 -71.4844755,42.4554221 -71.4848601,42.4558046 -71.4849869,42.4561954 -71.4852959,42.4566864 -71.4851895,42.4570608 -71.485214,42.4573227 -71.4851527,42.4575335 -71.4848355,42.4577524 -71.4842054,42.4579979 -71.4839742,42.4582188 -71.483473,42.4582986 -71.4834464,42.4586055 -71.482673,42.4582679 -71.482272,42.4583805 -71.4821902,42.4585585 -71.4819815,42.4586403 -71.4818444,42.4589042 -71.4814107,42.4590945 -71.4813738,42.4592132 -71.4811345,42.4592132 -71.4807785,42.4593257</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Route through parking area</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204493831</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4511033,42.4621612 -71.450673,42.4621761</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>corner of field</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204611022</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4524983,42.46217 -71.4525727,42.4623506 -71.4526213,42.4624341 -71.4527929,42.462438 -71.45288,42.46246</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">204817126</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;permissive&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4479109,42.4726649 -71.44792,42.473181</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859722</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4156806,42.4988516 -71.4157557,42.4988926</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859723</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4153872,42.4996402 -71.4154799,42.4995772</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859724</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.414662,42.4984605 -71.4148747,42.4985551</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859725</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4159872,42.4985791 -71.416051,42.4986265</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859727</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4150263,42.4986231 -71.4151367,42.4986645 -71.4153113,42.4987672 -71.4154104,42.4988075 -71.4156737,42.4987409 -71.4157403,42.4987842</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859728</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4166279,42.4984399 -71.4162686,42.4982727 -71.4159326,42.4981829 -71.4153891,42.4981597 -71.4149896,42.4981504 -71.4148789,42.4981163</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859729</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4153891,42.4981597 -71.4152916,42.4983672 -71.4151367,42.4986645 -71.4149018,42.4990382 -71.4148251,42.4990297 -71.4147191,42.499008 -71.4145991,42.4990033</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859731</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4153083,42.4999752 -71.4153067,42.4998569 -71.4153872,42.4996402 -71.4149986,42.4995163 -71.4149614,42.49949 -71.4149444,42.4994435 -71.4149413,42.4994172 -71.4148667,42.4993981</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">205859732</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4162686,42.4982727 -71.4161545,42.4984475 -71.4160639,42.4985365 -71.4159872,42.4985791 -71.4159036,42.4986201 -71.4157403,42.4987842 -71.4156806,42.4988516 -71.4156419,42.4988949 -71.4156079,42.4989962</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">206189207</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3978991,42.511672 -71.3978087,42.5122648 -71.397847,42.5123649 -71.397961,42.5124675 -71.3980367,42.5125644 -71.398101,42.5126995 -71.3980994,42.5128461 -71.3980798,42.5132727 -71.3980888,42.51346 -71.3981099,42.5135683 -71.3981954,42.5138784 -71.398272,42.5140494 -71.3984894,42.5143995 -71.3986758,42.5147056 -71.3987181,42.5147732 -71.3989428,42.5151021 -71.3991423,42.5152715 -71.3993442,42.5154058 -71.3994883,42.5155011 -71.3996276,42.5155964 -71.3998002,42.5157217 -71.3999068,42.5158691 -71.3999475,42.5159473 -71.4000021,42.5160482 -71.4002561,42.5165392 -71.4002797,42.5166035 -71.4002952,42.5166914 -71.4004067,42.517574 -71.4004507,42.5179982 -71.4004987,42.5181309 -71.4006233,42.5183857 -71.4008146,42.518612 -71.4011028,42.518897 -71.4012046,42.5190818 -71.4012445,42.5193399 -71.4011623,42.5196566 -71.4010524,42.519953 -71.4010662,42.5201126 -71.4011558,42.5202738 -71.4012974,42.520378 -71.4014529,42.5204325 -71.4015889,42.5204561 -71.4016296,42.5204382</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">206189635</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4138014,42.5027633 -71.4138165,42.5027278</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">229111129</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4166707,42.4863009 -71.4166482,42.4862442 -71.4166494,42.4860993 -71.4165855,42.4858436 -71.4165026,42.4855504 -71.4163938,42.4852283 -71.4163346,42.485203 -71.4161701,42.4846941 -71.4159975,42.484185 -71.4159925,42.4841452 -71.4160316,42.4841111 -71.4160162,42.4840692 -71.4159334,42.4838432 -71.4158515,42.4835836 -71.4158399,42.4835508 -71.4157109,42.4831624 -71.4156577,42.4830143 -71.4156327,42.4829433 -71.4155416,42.4825959 -71.4154126,42.4821682 -71.4153428,42.4820358 -71.4152831,42.4819557 -71.4152547,42.481873 -71.4152245,42.4817681 -71.4151777,42.4817064 -71.4151844,42.4816089 -71.4151409,42.4815262 -71.4150973,42.4813731 -71.4150697,42.4813123 -71.4150254,42.4811596 -71.4148595,42.4806118 -71.4146889,42.4800659 -71.4146501,42.4799836 -71.4146069,42.4798918 -71.4144362,42.4796672 -71.4142074,42.479261</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">236794430</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4562901,42.4726939 -71.4562635,42.4727459</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">236794436</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4568476,42.4724459 -71.4567728,42.4724418 -71.4565869,42.4724768</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">236794437</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4563564,42.4726909 -71.4562901,42.4726939 -71.4561952,42.4726917</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">236794439</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4563657,42.4729196 -71.4563339,42.4728623 -71.4563288,42.4727684 -71.4563564,42.4726909 -71.456392,42.4726453</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">247858198</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4371166,42.4751493 -71.4367208,42.4750292</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">247858199</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4368315,42.4748647 -71.4367208,42.4750292 -71.4365543,42.4751795</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">247888339</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4353305,42.4766605 -71.4360564,42.4756125</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">247888837</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4360564,42.4756125 -71.4359563,42.4755634 -71.4359035,42.4755764 -71.4356995,42.4754894 -71.4356415,42.4754129 -71.4353917,42.4752728 -71.4357241,42.4748811 -71.4358543,42.4749459 -71.4359316,42.4749304 -71.436148,42.474692</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">247888839</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4366795,42.4758378 -71.4370318,42.4754243 -71.4369527,42.4753555 -71.4370361,42.4752483</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">260995747</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4260043,42.527089 -71.4260569,42.5269278 -71.4260875,42.526834 -71.4260499,42.5267787 -71.4259936,42.5267332 -71.4259111,42.5267223 -71.4258595,42.5267154 -71.4257227,42.5267332 -71.4256774,42.526856 -71.4256637,42.5268933</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">260995749</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4254518,42.526067 -71.4254759,42.5260967 -71.4255859,42.5260651 -71.425661,42.5260532 -71.4257924,42.5259939 -71.4257576,42.5259524 -71.4257978,42.525901 -71.4258273,42.5258496 -71.42583,42.5257844 -71.4258166,42.5257251 -71.425779,42.5256559 -71.4257603,42.5256183 -71.4257871,42.5255828</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">260995750</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4249409,42.525541 -71.4249202,42.5255491 -71.4247142,42.5256302 -71.4246337,42.5255195 -71.4245993,42.525521</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">260995753</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4256771,42.5255452 -71.4257308,42.5254839 -71.4257924,42.5253381 -71.4258112,42.5252136 -71.4257992,42.5251069 -71.4257589,42.5249863 -71.4257026,42.5249013 -71.4256262,42.5248123 -71.4254558,42.5246809 -71.4252654,42.5245385 -71.4250361,42.5243685 -71.4249516,42.5242895 -71.4248778,42.5241857 -71.4248269,42.524075 -71.4248014,42.5239455 -71.4248054,42.5238358 -71.4248362,42.5237182 -71.424914,42.5235768 -71.4251125,42.5232961 -71.4251286,42.5232615 -71.4250911,42.5232092 -71.4250535,42.5231983 -71.4250719,42.5231495 -71.4250897,42.5231014</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">260995754</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4252592,42.5233557 -71.4251642,42.5233171 -71.4251125,42.5232961</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716751</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4254169,42.5268538 -71.4254411,42.5267411 -71.4253687,42.5265118 -71.4252372,42.5262015 -71.4252328,42.5260902</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716752</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4250897,42.5258101 -71.4250209,42.5257437 -71.4250843,42.5257191 -71.4249736,42.5255816 -71.4249409,42.525541 -71.4248561,42.5254358 -71.4248376,42.5254128 -71.4242931,42.5247347</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716753</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4249261,42.5258397 -71.42491,42.5258615 -71.4245211,42.5259405 -71.4244674,42.5259366</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716754</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4244674,42.5259366 -71.4244272,42.525903 -71.4244808,42.5258812 -71.4243181,42.5256873</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716755</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4243837,42.5259465 -71.4243011,42.5259781 -71.4242582,42.5259979 -71.42388,42.526069 -71.4237969,42.526075 -71.4237626,42.5260607 -71.4237852,42.5260451 -71.4238301,42.5260139 -71.423645,42.5257744 -71.423422,42.5254857</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716756</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.42362,42.5260502 -71.4235689,42.5260746 -71.4231129,42.526039 -71.4230244,42.526038</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716757</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4229493,42.5261269 -71.422905,42.5261378 -71.4228822,42.5261516 -71.4228701,42.5261744 -71.4228701,42.5261971 -71.4228795,42.5262179 -71.4229037,42.5262406 -71.4229251,42.5262574 -71.42296,42.5262663 -71.4229734,42.5262337 -71.4230713,42.5262436 -71.423129,42.5262465 -71.423184,42.5262406 -71.4232282,42.5262337 -71.4232765,42.5262198 -71.423314,42.52621 -71.4233503,42.5261961 -71.4233811,42.526209 -71.4235219,42.5262011 -71.4235689,42.5261971 -71.4236051,42.5261961 -71.423644,42.5262011 -71.4236735,42.5262021 -71.423715,42.5262169</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716759</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.424171,42.5266201 -71.4242054,42.526639 -71.4242141,42.5266438 -71.424383,42.526737 -71.424569,42.5268395 -71.4247245,42.5269252 -71.4248198,42.5269777 -71.4249049,42.5270247 -71.4249114,42.5270282 -71.4250953,42.5271296 -71.4252788,42.5272308 -71.425315,42.5272507 -71.4253405,42.5272586 -71.4253673,42.5272586 -71.4253968,42.5272457 -71.4255282,42.5271232 -71.42561,42.5270352 -71.4256223,42.5270102 -71.4256449,42.5269641 -71.4256637,42.5268933</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716763</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4249513,42.5268588 -71.4249835,42.526839 -71.4250545,42.5268237 -71.4249003,42.5263982</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716764</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4259101,42.5261702 -71.4259752,42.526335 -71.4259873,42.5263657 -71.4259767,42.5265531 -71.4259741,42.5265987</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716765</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4259111,42.5267223 -71.4259223,42.5266691 -71.4260209,42.5266886 -71.4260991,42.5267178 -71.4261804,42.5267785</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716766</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4250897,42.5231014 -71.4247494,42.5230234 -71.4245533,42.5229425 -71.4243712,42.5228461 -71.4241563,42.5226964 -71.4240069,42.522588 -71.4238878,42.5225209 -71.4237174,42.5224348 -71.4234722,42.522347 -71.4230869,42.5222627 -71.4228347,42.5222576 -71.4225102,42.5222576 -71.422321,42.5222799</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716767</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.422223,42.5222989 -71.4217816,42.5224124 -71.4216089,42.5224486 -71.4214501,42.5224744 -71.4212913,42.5224882</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262716768</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4211255,42.5224864 -71.4210251,42.5224761 -71.4208757,42.5224503 -71.4204694,42.5223212</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262722416</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4256771,42.5255452 -71.4256208,42.5256065 -71.4255323,42.5256717 -71.4254169,42.5257369 -71.4252801,42.5257883 -71.4251353,42.525818 -71.4250897,42.5258101</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262722629</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4327324,42.5221133 -71.432766,42.5220856 -71.4327975,42.5220938 -71.4328229,42.5220991 -71.4328656,42.5221028 -71.4329001,42.5220976 -71.4329377,42.5220811 -71.4331105,42.521944 -71.4332284,42.5218196 -71.4332914,42.5217545 -71.4333128,42.52172 -71.4333189,42.521696 -71.4333158,42.5216316 -71.4333136,42.5215901 -71.4333118,42.5215567 -71.4333026,42.5215155 -71.4332813,42.5214841 -71.4330577,42.5212803 -71.4327274,42.520938 -71.4326023,42.5207994 -71.4325017,42.5206473 -71.4323574,42.5204099 -71.43221,42.5201552 -71.4320789,42.5198226 -71.4320057,42.5196203</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761561</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4260174,42.5269193 -71.4260569,42.5269278</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761562</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4259534,42.5270785 -71.4260043,42.527089</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761563</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4256774,42.526856 -71.4256908,42.5268578</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761564</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4256436,42.5270152 -71.4256223,42.5270102</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761584</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4259752,42.526335 -71.4259232,42.5263474</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">262761585</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4259101,42.5261702 -71.4258625,42.5261813</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">267929727</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4266237,42.4906811 -71.4257225,42.4909976 -71.4236626,42.491409 -71.4217743,42.4918045 -71.4190277,42.4920102 -71.4185401,42.4920513 -71.416295,42.492236</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">268715991</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4250897,42.5231014 -71.4256105,42.5232064 -71.42583,42.5232644 -71.4259387,42.5233013 -71.4262021,42.523421 -71.4265749,42.5236299 -71.4269231,42.5238638 -71.4272219,42.5240954 -71.427567,42.5243894 -71.4277334,42.5245223 -71.4280399,42.5247391 -71.4285067,42.5250241 -71.4287994,42.5251819 -71.4291044,42.5253136 -71.4293602,42.5253897 -71.4295373,42.5254328 -71.4296618,42.525457 -71.42983,42.5254896 -71.4302968,42.5255089 -71.4305448,42.5254964 -71.4307497,42.5254691 -71.4310902,42.5253919 -71.4313875,42.5252966 -71.4315754,42.5252126 -71.4317495,42.5251149 -71.4318774,42.525032 -71.4319975,42.5249458 -71.432187,42.5247607 -71.4323596,42.5245836 -71.4324967,42.524428 -71.432588,42.5243222 -71.4326427,42.524245 -71.4327077,42.5241635 -71.4328017,42.524041 -71.4329157,42.5238944 -71.4329973,42.5237639 -71.4330836,42.5236015 -71.4331391,42.5234482 -71.4331884,42.5232813 -71.433205,42.5232138</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">268716015</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4303507,42.5253567 -71.4303446,42.5248311 -71.4303021,42.524804 -71.4301304,42.5246971 -71.4301381,42.5245813 -71.4295543,42.5242487</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">268716016</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4305432,42.5248753 -71.4303446,42.5248311</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">268716017</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.431027,42.5248424 -71.4310917,42.5247278 -71.4311903,42.5245802 -71.431215,42.5245472 -71.4312119,42.5245234 -71.4311934,42.524503 -71.430987,42.5243894 -71.43097,42.5244314</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273582606</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4230227,42.5256664 -71.4229198,42.5256041 -71.4228561,42.5255584 -71.4228429,42.5255329 -71.4228155,42.5255082 -71.422784,42.525491 -71.4227403,42.5254745 -71.4227088,42.5254655 -71.42266,42.525449 -71.4226203,42.5254356 -71.4225807,42.5254236 -71.4225679,42.5253585</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273582607</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4206775,42.5228904 -71.4206308,42.5228585 -71.4205992,42.5228164 -71.4205864,42.5228034 -71.4205736,42.5227716 -71.4205666,42.5227484 -71.4205642,42.5227234 -71.420563,42.5226856 -71.4205607,42.5226649 -71.4205444,42.5226408 -71.4205292,42.522609 -71.4205187,42.5225763 -71.4205082,42.5225574 -71.4204977,42.5225255</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273582614</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4207247,42.5237697 -71.4209096,42.5237459 -71.4209668,42.5237344 -71.4210837,42.5237158 -71.4212177,42.5236823 -71.4213169,42.5236415 -71.4213704,42.523605 -71.4214694,42.5235374 -71.4215253,42.5234752 -71.4215751,42.5234258 -71.4216655,42.5233726 -71.4217205,42.5233489 -71.4218027,42.5233134 -71.4218922,42.5232962 -71.421943,42.5232737 -71.4220467,42.5232183 -71.4221127,42.5231764 -71.4221483,42.5231554 -71.4222235,42.5231457</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273582616</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4223262,42.5231382 -71.4223465,42.5231704 -71.4223841,42.5231913 -71.4224766,42.5231958 -71.4226392,42.5232003 -71.422688,42.5232191 -71.4227388,42.523252 -71.422812,42.5233711 -71.4228476,42.5234086 -71.4228933,42.52344 -71.4229441,42.5234535 -71.4229848,42.5234722 -71.4231088,42.5235434 -71.4231372,42.5235696 -71.4231504,42.5236003 -71.4231494,42.523631 -71.4231403,42.5236707 -71.423123,42.5237022 -71.4230742,42.5237567 -71.4229919,42.5238333 -71.4229065,42.5238925 -71.4227988,42.5239494 -71.4226992,42.5239868 -71.4226138,42.5240123</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273582617</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4213169,42.5236415 -71.421232,42.5235759 -71.4211998,42.5235431 -71.421152,42.523457 -71.4211361,42.523337 -71.4211131,42.523264 -71.4210812,42.5232379 -71.4210246,42.5232183 -71.4209706,42.5232041 -71.4208848,42.5231831 -71.4207191,42.5231118</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273585253</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4124133,42.5181783 -71.4123581,42.5182778 -71.4122987,42.5183802 -71.4123181,42.5184084 -71.4122444,42.518438 -71.4122214,42.518405 -71.4120925,42.5184475 -71.4121092,42.5184743 -71.4120106,42.5185082 -71.4119971,42.5184861 -71.4118317,42.5185355</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">273585603</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.413656,42.517508 -71.4135075,42.5175538 -71.4134579,42.5176062 -71.4134377,42.5176507 -71.4134335,42.5177507 -71.4133975,42.5179255</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">286521708</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4316625,42.523534 -71.4316824,42.523711 -71.4316839,42.5237506</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">286521709</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4316824,42.523711 -71.431885,42.5235177 -71.4320931,42.523321 -71.43214,42.5233442 -71.4321769,42.5233054 -71.4322445,42.5232397</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">286521710</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4328017,42.524041 -71.4325981,42.5239324 -71.4325312,42.5238935 -71.4322531,42.5237318 -71.431984,42.5235753 -71.431885,42.5235177 -71.4316625,42.523534 -71.4313525,42.5235585</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287195156</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4273295,42.5186303 -71.427351,42.5186619 -71.4273724,42.5186896 -71.4273778,42.5187114 -71.4273671,42.5187311 -71.4273242,42.5187904 -71.4273054,42.518826 -71.427292,42.5188754 -71.4272893,42.5189268 -71.4273134,42.5189782 -71.427351,42.5190375 -71.4273912,42.5190988 -71.427407,42.5191424 -71.4274227,42.5192928 -71.4274306,42.5193466 -71.4274486,42.519392 -71.4274931,42.5194329</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287195157</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4278794,42.5186105 -71.4278606,42.518654 -71.4278365,42.5186936 -71.4277989,42.5187311 -71.4277533,42.5187885 -71.4277184,42.5188478 -71.4276755,42.5189249 -71.4276326,42.5189743 -71.4275843,42.5190138 -71.4275226,42.5190593 -71.427407,42.5191424</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287195159</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4275226,42.5190593 -71.4275602,42.5191008 -71.4275763,42.5191483 -71.4275709,42.5191997 -71.4275522,42.519255 -71.4275226,42.5193163 -71.4274985,42.5193815 -71.4274931,42.5194329 -71.4274958,42.5197156 -71.4275092,42.5197769 -71.4275414,42.5198422 -71.4276058,42.5199489</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287357426</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4327324,42.5221133 -71.4326246,42.5222097</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287357428</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4333652,42.523281 -71.4333718,42.5232436 -71.4333785,42.5231932 -71.4333866,42.5231269 -71.4333866,42.5230558 -71.4333812,42.5229984 -71.4333692,42.5228947 -71.4333531,42.5227998 -71.4333343,42.5227434 -71.4333296,42.522735</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287357429</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.433286,42.52261 -71.4332699,42.5225161 -71.4332552,42.5224528 -71.4332471,42.5223787 -71.4332471,42.5223125 -71.4332632,42.5222413 -71.4333088,42.5221771 -71.4335059,42.5219715 -71.4335918,42.5218865 -71.4336347,42.5218549 -71.4337058,42.5218381 -71.4337339,42.5218331</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287357430</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4334282,42.5215919 -71.4333136,42.5215901</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358330</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4269137,42.5219759 -71.4261211,42.5215509 -71.4251253,42.5210139 -71.4250764,42.5209875 -71.4247331,42.5212564 -71.4246834,42.521287 -71.424607,42.521289</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358331</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4261855,42.5214234 -71.4260833,42.5213663 -71.4254878,42.5210333 -71.4252399,42.5208947 -71.4251689,42.5208551 -71.4250481,42.5207692 -71.4249569,42.5206822 -71.4248737,42.5205853 -71.4248228,42.5205043 -71.424796,42.5204252 -71.4247718,42.5203165 -71.4247745,42.5202057 -71.4247933,42.5201069 -71.4248791,42.5198756 -71.4249408,42.5197076 -71.424973,42.5196166 -71.4249918,42.5195316 -71.4250186,42.5193735 -71.4250105,42.5191817 -71.4249542,42.518814 -71.4249033,42.5184918 -71.4248416,42.5181418 -71.4248282,42.518043 -71.4248255,42.5178848 -71.4248335,42.5178295 -71.424863,42.5177484 -71.424922,42.5176456 -71.4250159,42.5175329 -71.4254826,42.5170723 -71.4257642,42.5167797 -71.4260083,42.5165484 -71.4262631,42.5162934 -71.4263195,42.516236 -71.4264026,42.5161471 -71.4264723,42.5160423 -71.4265287,42.5159573 -71.4266038,42.5158189 -71.4266762,42.5156587 -71.4267298,42.5155638 -71.426821,42.515459 -71.4271724,42.5150893 -71.4272716,42.515011 -71.4273253,42.5149687 -71.4273736,42.5149292 -71.4274326,42.5149134 -71.4274996,42.5149173 -71.427556,42.5149252 -71.4277357,42.5150142 -71.427792,42.5150636 -71.4278161,42.5150814 -71.4278778,42.5150992 -71.4279154,42.5151091 -71.4283687,42.5153503</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358332</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4252399,42.5208947 -71.4251809,42.5209561 -71.4251253,42.5210139</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358333</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4260833,42.5213663 -71.4260272,42.521115 -71.4260205,42.5210666 -71.426038,42.521027 -71.4260956,42.5209717 -71.4261175,42.5209617 -71.4263022,42.5208768 -71.4264457,42.5208234</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358334</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4254878,42.5210333 -71.4255511,42.5210211 -71.4257469,42.521015 -71.4258033,42.5210132 -71.4259079,42.521029 -71.4260272,42.521115</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358335</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4261175,42.5209617 -71.4260017,42.5209539 -71.4259052,42.5209598 -71.4257952,42.5209826 -71.4257469,42.521015</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358336</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4261855,42.5214234 -71.4262466,42.5214484 -71.4263035,42.5214827 -71.4269164,42.5218138 -71.4270532,42.5218771 -71.4274783,42.5220402 -71.427768,42.5221183 -71.4278793,42.52214 -71.4279759,42.5221499 -71.428051,42.5221548 -71.4282119,42.5221568</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358337</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4282119,42.5221568 -71.4283554,42.522137 -71.4285029,42.5220995 -71.4286292,42.5220399</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358339</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4286292,42.5220399 -71.4287499,42.5219766 -71.4288478,42.5219104 -71.4289162,42.5218432 -71.4287298,42.5218066 -71.4286369,42.5218013</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358340</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4289162,42.5218432 -71.4292729,42.5214982</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358341</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4295519,42.5214537 -71.4294634,42.5215635 -71.4291482,42.5218501 -71.4289283,42.5220468 -71.4288626,42.5220923 -71.4287915,42.5221328 -71.4287016,42.5221773 -71.4286225,42.5222158 -71.4285836,42.5222267</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358342</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4285836,42.5222267 -71.4284388,42.5222623 -71.4282497,42.522288 -71.428137,42.5222949 -71.428015,42.5222949 -71.4278782,42.5222781 -71.4277709,42.5222613 -71.4275483,42.5222099 -71.4270561,42.5220428 -71.4269137,42.5219759</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358343</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4295519,42.5214537 -71.4302533,42.5207806 -71.4304625,42.520579 -71.4305027,42.5205408</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287358344</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4305027,42.5205408 -71.4310338,42.5200225 -71.4312162,42.5198554 -71.4312444,42.5198416</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287418931</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4051545,42.5177064 -71.4054841,42.5169411</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287418933</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4042524,42.5206573 -71.4042924,42.5204778 -71.4043548,42.5202029 -71.4043972,42.5199904 -71.4044395,42.5197739 -71.4044507,42.5197258 -71.4044875,42.5195765 -71.404535,42.519501 -71.404554,42.5194825 -71.4046286,42.51941 -71.4046938,42.5192192 -71.4046974,42.5190332 -71.4046994,42.5189322 -71.4047795,42.5186439 -71.4048878,42.5182406 -71.4051385,42.5177318 -71.4051545,42.5177064 -71.40613,42.5179378 -71.4066677,42.518073 -71.406833,42.5180787 -71.4071032,42.5180881 -71.4071293,42.5180604 -71.4071422,42.5179411</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">287418937</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.406833,42.5180787 -71.4067973,42.5181478 -71.4067643,42.5182215 -71.4068301,42.5183161 -71.4067592,42.5185315 -71.4067354,42.518604 -71.4066853,42.5186642 -71.4065312,42.5187224</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Nara Escape Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">294710960</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4124404,42.5204084 -71.4124174,42.5204233 -71.4124107,42.5204747 -71.4123664,42.5205242 -71.4122725,42.5205509 -71.4121786,42.5205854 -71.4120998,42.5205923 -71.4122255,42.5207614 -71.412524,42.520923 -71.4128265,42.5209946 -71.4132061,42.5211578 -71.4135383,42.5214726 -71.4136332,42.5216824 -71.4136253,42.5219447 -71.413562,42.5222186 -71.4135067,42.5224285 -71.4135858,42.52258 -71.4135699,42.5227549 -71.4134197,42.5229181 -71.4130163,42.5234252 -71.4128898,42.5238448 -71.4130401,42.5240838 -71.4135304,42.5242703 -71.4137677,42.5244044 -71.4138416,42.5245776 -71.4138464,42.5247934 -71.4138032,42.5250128 -71.4137696,42.5252959 -71.4137024,42.5254516 -71.41364,42.5255613 -71.413616,42.525763 -71.4136064,42.5259434 -71.4135727,42.5261451 -71.4135295,42.5262902 -71.4134479,42.5264034 -71.4132367,42.5265626</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Nara Escape Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">294713537</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4120998,42.5205923 -71.411992,42.5204935 -71.4118492,42.5203345 -71.4116131,42.5201497 -71.4112575,42.5198468 -71.4110563,42.5196406 -71.4109689,42.5195052 -71.4108231,42.519415 -71.4106249,42.5194472 -71.4105404,42.5194322 -71.4105113,42.5193097 -71.4105229,42.5192044 -71.4103305,42.5191378 -71.4101586,42.5190175 -71.4099953,42.5189853 -71.4098175,42.519024 -71.4095931,42.5190476 -71.4095231,42.519097 -71.4094698,42.5191579</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Nashua Acton &amp; Boston Railroad Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">294713538</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4094698,42.5191579 -71.4094397,42.5193883 -71.4094242,42.5194451 -71.4093666,42.5199348 -71.4093517,42.5205906 -71.4094246,42.5214907 -71.4095208,42.5220965 -71.4095557,42.5222224 -71.4097459,42.522909 -71.4099208,42.5232849 -71.4103056,42.5239251 -71.4106087,42.5243053 -71.4109847,42.5247285 -71.4116819,42.5254434 -71.4121908,42.5258715 -71.4132367,42.5265626 -71.4139097,42.5270427 -71.4153837,42.5279768 -71.4161711,42.5284934 -71.4168625,42.5289251 -71.418058,42.5296186 -71.4191911,42.5303828 -71.420257,42.5310516 -71.4208236,42.5314018 -71.421683,42.5319432 -71.4228209,42.5326472 -71.4238292,42.5332204 -71.4248614,42.5338643 -71.4258985,42.5345082 -71.426806,42.5350813 -71.4280207,42.5358314 -71.4291058,42.5365708 -71.4292552,42.5366866 -71.4293896,42.5369059 -71.4294377,42.5371996 -71.4294088,42.5373906 -71.4293176,42.5375534 -71.4291382,42.5377267</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">295850628</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4252636,42.5249716 -71.4252358,42.5249428 -71.4252157,42.5249457 -71.425095,42.5249971 -71.4250641,42.5249971 -71.425032,42.5249853 -71.4250118,42.5249665 -71.4250011,42.5249388 -71.4250615,42.5249131</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">295850629</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4250011,42.5249388 -71.4249716,42.5249309 -71.4249287,42.5249092 -71.4249206,42.5248775 -71.4249274,42.5248489 -71.4249542,42.5248281 -71.424985,42.5248143</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">295850630</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4249274,42.5248489 -71.4248871,42.5248212 -71.4248844,42.5247995 -71.4249099,42.5247599 -71.4249153,42.5247402 -71.4249097,42.5247278</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Robbins Mill trail to Carlisle Marion's Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297126587</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3910057,42.5069828 -71.3914865,42.5068557 -71.3916526,42.5068616 -71.3919768,42.507019 -71.3922773,42.5072813 -71.3925541,42.5075437 -71.392736,42.507876 -71.3929733,42.5080742 -71.3932264,42.5081967 -71.3933371,42.5084299 -71.3935269,42.5085931 -71.3937721,42.5086689 -71.3938353,42.5090245 -71.3939777,42.5091062 -71.3941991,42.5090129 -71.3944048,42.5089779 -71.3945313,42.5090129 -71.3947606,42.5091062 -71.3950295,42.509147 -71.3953854,42.5091586</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Log Hill Road Trail to Acton trails</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297126788</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3922969,42.5108522 -71.3922853,42.5107094 -71.3923722,42.5105578 -71.3926253,42.5104354 -71.3930366,42.5102605 -71.3933292,42.5101206 -71.3935149,42.5099683 -71.3934371,42.5097567 -71.3934291,42.5095274 -71.393519,42.5093452 -71.3938765,42.5091589 -71.3939777,42.5091062</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Pond Path</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297126829</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3938765,42.5091589 -71.3939144,42.5093685 -71.393867,42.50966 -71.3938116,42.5098815 -71.3938274,42.5101031 -71.39381,42.5102925 -71.3937697,42.5103875 -71.3937,42.5104448 -71.3936517,42.510336 -71.3935873,42.5101265 -71.3935444,42.5100513 -71.3935149,42.5099683</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Robbins Mill Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297127373</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3978991,42.511672 -71.3979379,42.5114305 -71.3980099,42.5113066 -71.3979955,42.5111403 -71.3978995,42.5110129 -71.3979139,42.5108819 -71.3980339,42.5107758 -71.398274,42.5106696 -71.3983508,42.5105563 -71.3983124,42.5104147 -71.39837,42.5102838 -71.3984948,42.5101741 -71.3985812,42.5100396 -71.3985764,42.5098697 -71.3985476,42.5097352 -71.3985188,42.5095759 -71.3985668,42.509452 -71.3986341,42.5093353 -71.3987829,42.5092963 -71.3990038,42.5093034 -71.3992102,42.5093317 -71.3993399,42.5093176 -71.3994455,42.5092326 -71.3995463,42.5090663 -71.3996327,42.508861 -71.3997576,42.5087477 -71.39982,42.5086026 -71.3997576,42.5083938 -71.3997624,42.508277 -71.3998296,42.5081212 -71.3999112,42.5079797 -71.4000408,42.5078806 -71.4001513,42.5077744 -71.4003577,42.5076965 -71.4005786,42.5076788 -71.4007566,42.507758</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Robbins Mill Loop Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297127374</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3997576,42.5087477 -71.3995655,42.508638 -71.3993495,42.508592 -71.3991382,42.5084752 -71.3988405,42.5084115 -71.3985572,42.5083371 -71.3984276,42.5082805 -71.3983892,42.5081319 -71.3983364,42.5080575 -71.3981443,42.5080575 -71.3979571,42.5080717 -71.3978274,42.5080363 -71.397645,42.508008 -71.3974673,42.5080681 -71.3973185,42.508192 -71.3972129,42.5083088 -71.3971265,42.5084398 -71.3971313,42.5086061 -71.3970928,42.5087619 -71.3969824,42.5088504 -71.3968,42.5089105 -71.3964927,42.5088964 -71.3962046,42.5088928 -71.3959693,42.5089176 -71.3957149,42.5089176 -71.3955756,42.5089495 -71.3954172,42.5090627 -71.3953854,42.5091586 -71.3953692,42.5092786 -71.3953452,42.5094768 -71.3953068,42.5096538 -71.3952396,42.5098024 -71.3952444,42.5099051 -71.3952924,42.5100325 -71.3952492,42.5101068 -71.3951051,42.510121 -71.3950523,42.510167 -71.3951531,42.5102696 -71.3953068,42.5102944 -71.3954604,42.5102944 -71.39559,42.510213 -71.3957293,42.5101033 -71.3958829,42.5100467 -71.3960414,42.5100254 -71.396243,42.5101139 -71.3964111,42.5101316 -71.3965791,42.5101316 -71.3968,42.5101599 -71.396968,42.5101635 -71.3971313,42.5101635 -71.3973665,42.5101316 -71.3975922,42.5100785 -71.3978082,42.5100502 -71.3981011,42.5100644 -71.3983604,42.5101068 -71.3984948,42.5101741</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Old road</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297127420</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3968,42.5101599 -71.3967712,42.5099759 -71.3966703,42.5097954 -71.3964687,42.5096326 -71.3961854,42.5095476 -71.3959357,42.5094697 -71.3957197,42.5093706 -71.3955804,42.5092822 -71.3953854,42.5091586</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mill race path to dam</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">297127635</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4050453,42.5133331 -71.4049244,42.5135 -71.4047707,42.5136184</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">302613759</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;grass&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.398818,42.487426 -71.398614,42.4878048 -71.3983145,42.488094 -71.3980507,42.4879731 -71.3978653,42.4880572</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">311677785</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4494083,42.4761932 -71.4493989,42.476249 -71.4492136,42.4763411</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">311677787</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4491553,42.4766459 -71.4492603,42.476519 -71.4492985,42.4764783 -71.4493295,42.4764578</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">311677790</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.449169,42.4763188 -71.4492136,42.4763411 -71.4492616,42.4763774 -71.4493295,42.4764578 -71.4493417,42.4764722</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">311677791</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4497208,42.4765951 -71.4496428,42.4766208 -71.4496118,42.4766492 -71.4495772,42.4766779 -71.4495401,42.4767009</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mill race path to dam</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">318884279</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4047707,42.5136184 -71.4046983,42.5136191</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mill race path to dam</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">318884280</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4046983,42.5136191 -71.4046315,42.5137512 -71.4045883,42.5138893 -71.4044971,42.5139954 -71.4043915,42.5140945 -71.4043003,42.5141972 -71.4042378,42.5142255 -71.403969,42.5142432</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">323871702</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4580519,42.4969525 -71.4588949,42.4961049 -71.4594292,42.4958608 -71.4598115,42.4957088 -71.4600856,42.4959967 -71.4600625,42.4962339 -71.4598046,42.4966623 -71.4590722,42.4969663 -71.4590261,42.4971966 -71.4585171,42.4974269 -71.4583237,42.4976596 -71.4582822,42.4978853 -71.4579947,42.497426 -71.4580519,42.4969525</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">323871703</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.458776,42.4981987 -71.4597494,42.4979783 -71.4602236,42.4975177 -71.4615976,42.4971001</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">323871704</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4559326,42.4976759 -71.4561642,42.497654 -71.4564313,42.4977664 -71.4569639,42.4977208 -71.4572977,42.4974472 -71.4579947,42.497426</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">323871705</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4582822,42.4978853 -71.4583502,42.4979829 -71.4582712,42.4980212 -71.4583029,42.4980855 -71.4583941,42.4980326 -71.458416,42.4980509</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">323871869</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.458416,42.4980509 -71.4585464,42.4981604 -71.458776,42.4981987</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083289</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4144234,42.5204793 -71.4144291,42.5204996 -71.4144279,42.5205212 -71.4144126,42.5205844 -71.4144009,42.5206516 -71.4143878,42.5207209 -71.4143767,42.5207677 -71.4143824,42.5208132 -71.4143869,42.520835 -71.4143913,42.520841 -71.4144006,42.5208466</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083292</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4149138,42.5207685 -71.4149121,42.5207506</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083294</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4149068,42.5206986 -71.4149056,42.5206868</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083295</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.414674,42.5204219 -71.4146185,42.520436 -71.4145907,42.5204489 -71.414567,42.5204628 -71.4145526,42.520474 -71.4145444,42.5204879 -71.4145393,42.520502 -71.4145361,42.520518 -71.4145334,42.5205383 -71.414533,42.5205633 -71.4145353,42.5206038 -71.4145431,42.5206322 -71.4145539,42.5206514 -71.4145662,42.5206659 -71.4145821,42.5206778 -71.4145994,42.5206864 -71.4146153,42.5206928 -71.4146337,42.520696 -71.4146532,42.5206974 -71.4146777,42.5206971 -71.4147469,42.5206959</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083296</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4148648,42.5206889 -71.4149056,42.5206868 -71.4151787,42.5206732</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">377083301</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4148321,42.5202488 -71.4146816,42.5202944 -71.4146678,42.5203047 -71.4146597,42.5203131 -71.4146582,42.5203398 -71.4146645,42.5203879 -71.414674,42.5204219 -71.4146759,42.520429 -71.4146865,42.5204668 -71.4146957,42.5205 -71.4147002,42.5205082 -71.4147087,42.520521 -71.4147256,42.5205453 -71.4147337,42.5205977 -71.4147381,42.5206299 -71.4147469,42.5206959 -71.4148648,42.5206889 -71.4148681,42.5207147 -71.4146484,42.5207279 -71.4146499,42.5207442 -71.4148633,42.5207317 -71.4148661,42.5207701 -71.4147791,42.520772 -71.4146804,42.5207776 -71.4145517,42.5207954 -71.414462,42.5208129 -71.4144277,42.5208247 -71.4144082,42.5208369 -71.4144006,42.5208466 -71.4143985,42.5208494 -71.4143921,42.5208684 -71.4143905,42.5208828 -71.414393,42.520913 -71.4143968,42.520942 -71.4144133,42.5209817 -71.4144276,42.5210129 -71.4144458,42.521043 -71.4144676,42.5210717 -71.4144929,42.5210989 -71.4145214,42.5211242 -71.414553,42.5211475 -71.4145873,42.5211686 -71.4146261,42.521191 -71.4146678,42.5212104 -71.414712,42.5212266 -71.4147582,42.5212393 -71.414806,42.5212485 -71.4148547,42.5212541 -71.4148794,42.5212553 -71.414904,42.5212559 -71.4149148,42.5212557 -71.4149255,42.5212546 -71.414936,42.5212528 -71.4149463,42.5212503 -71.4149562,42.521247 -71.4149656,42.5212431 -71.4149744,42.5212385 -71.4149826,42.5212333 -71.4149901,42.5212276 -71.4149969,42.5212213 -71.4150027,42.5212146 -71.4150113,42.5212007 -71.4150189,42.5211845 -71.4150251,42.521168 -71.4150379,42.5211276 -71.4150462,42.5210865 -71.415055,42.5210199 -71.415056,42.5209529 -71.4150497,42.5208658 -71.4150479,42.5208557 -71.4150448,42.5208458 -71.4150405,42.5208361 -71.4150349,42.5208268 -71.4150281,42.520818 -71.4150201,42.5208096 -71.4150111,42.5208019 -71.4150012,42.5207948 -71.4149894,42.520788 -71.4149768,42.520782 -71.4149635,42.5207769 -71.4149497,42.5207726 -71.4149138,42.5207685 -71.4148661,42.5207701</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">385785464</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4329739,42.524602 -71.433246,42.524427 -71.4329454,42.5241593 -71.4328017,42.524041</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389791961</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4105404,42.5194322 -71.4104305,42.5194552 -71.4103205,42.5194117 -71.4101918,42.519293 -71.4101006,42.5192654 -71.4099263,42.5193029 -71.4098646,42.5194413 -71.4098726,42.5195896 -71.4098163,42.5197141 -71.409709,42.5199257 -71.4096902,42.5200324 -71.4097385,42.5201451 -71.4097841,42.520238 -71.4098592,42.5204001 -71.4099155,42.5205701 -71.4099209,42.5207085 -71.4099772,42.520841 -71.409988,42.5209319 -71.4098968,42.5210703 -71.4098538,42.5212225 -71.4098914,42.5213589 -71.409937,42.5214439 -71.4100094,42.5214518 -71.4101247,42.5213292 -71.4102535,42.5212937 -71.410401,42.5213549 -71.4105378,42.521432 -71.4106585,42.5214538 -71.4107309,42.5214795 -71.4107738,42.5215902</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389791962</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.412524,42.520923 -71.4124542,42.5210357 -71.4124113,42.5211839 -71.4123711,42.5213619 -71.4122719,42.5215101 -71.4122289,42.5216841 -71.412186,42.5218304 -71.4121297,42.5219174 -71.4120144,42.5220063 -71.4118856,42.5220063 -71.4117756,42.5219727 -71.4117274,42.5218857 -71.4116952,42.5217572 -71.411671,42.5216979 -71.4116442,42.5216406 -71.4116791,42.5215477 -71.411671,42.5214864 -71.4116067,42.521433 -71.4115262,42.5214291 -71.4113867,42.5214548 -71.4112607,42.5214311 -71.4111078,42.521439 -71.4109951,42.5214528 -71.4108583,42.5215101 -71.4107738,42.5215902 -71.4106598,42.5216446 -71.4104104,42.5217197 -71.4103031,42.5217296 -71.4102146,42.5217217 -71.4101234,42.5217691 -71.4100242,42.5218917 -71.4099356,42.5220063 -71.4098605,42.5221407 -71.4097238,42.5221803 -71.4095708,42.5222201 -71.4095557,42.5222224</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389791968</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.406168,42.512915 -71.4060613,42.5130161 -71.4059218,42.5130872 -71.4058118,42.513192 -71.4057126,42.5132632 -71.4055658,42.5133102</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389799294</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4146808,42.5178155 -71.4145574,42.5178278 -71.4144555,42.5178239 -71.4143187,42.5177547 -71.4142168,42.5177428 -71.4140237,42.5177705 -71.4139421,42.5177858</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389799298</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.47308,42.46219 -71.4730883,42.4623384</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389799301</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4730883,42.4623384 -71.4731179,42.4625722 -71.4731018,42.4627186 -71.4730213,42.4629046 -71.4729945,42.4631025 -71.4731072,42.4632489 -71.4734022,42.4633953 -71.4738474,42.4634507 -71.4748989,42.463708 -71.4753602,42.463799 -71.4756767,42.4639217 -71.475843,42.4640641 -71.4757786,42.4643134 -71.475548,42.4646498 -71.4755641,42.4648556 -71.4756624,42.4650742</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">389799302</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.475843,42.4640641 -71.4763249,42.464334 -71.4765448,42.4645872 -71.476797,42.4648484 -71.4768273,42.4650888 -71.4767737,42.4654054 -71.4767487,42.4657981 -71.4768273,42.4660465 -71.4770437,42.4663205 -71.4771707,42.4664976 -71.4773423,42.4667113 -71.4774067,42.4669012 -71.477328,42.467104 -71.4770223,42.4672781 -71.4765985,42.4673217 -71.4763249,42.4674048 -71.4760728,42.4674562 -71.4758295,42.4673998 -71.4756042,42.4673682 -71.4754648,42.4673682 -71.4751965,42.467471 -71.4749498,42.4676452 -71.4748774,42.4678925 -71.4748559,42.4681497 -71.4748505,42.4684425 -71.4749042,42.4686364 -71.4749042,42.4688778 -71.4747969,42.4691152 -71.4746239,42.4693793 -71.4745595,42.4695455 -71.4745112,42.4696425 -71.4744488,42.4697319</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">400357345</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.437117,42.474647 -71.4372102,42.4745306 -71.437249,42.4743895 -71.4372123,42.4742483 -71.4371013,42.4741007 -71.436701,42.4736619</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">401982597</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4704228,42.4763104 -71.4704217,42.4761749</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">401983774</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4706505,42.4762469 -71.4706436,42.4761353</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">401983775</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4710218,42.4761456 -71.4706436,42.4761353 -71.4704194,42.4761305</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414234790</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4374218,42.4823264 -71.4374414,42.482328 -71.4375632,42.4823308 -71.4376148,42.4823349</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414234791</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4371598,42.4825602 -71.4373109,42.4826144 -71.4372739,42.4826754 -71.4373445,42.4827056</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414243454</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4368884,42.4824777 -71.4369217,42.4824761 -71.4370177,42.4824627</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414243455</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4370736,42.4827118 -71.4370874,42.4827967 -71.4371069,42.4828222 -71.4371687,42.4829029</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414243456</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4367639,42.4825095 -71.4367206,42.4825672 -71.4367406,42.4826692 -71.4368112,42.4827495 -71.436896,42.48284 -71.4369336,42.4828822 -71.4369855,42.482877 -71.4370675,42.4828406 -71.4371069,42.4828222</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414243585</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4371433,42.4825801 -71.4370523,42.482576 -71.4369496,42.482581 -71.4369041,42.4825901 -71.4368589,42.482586 -71.4367731,42.482542</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414268242</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4346,42.481531 -71.434517,42.4812511 -71.4344664,42.4811438 -71.4343532,42.4810524 -71.4343936,42.4808867 -71.4342926,42.4806721 -71.4342206,42.4804381 -71.4340053,42.4803605</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414268243</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.434149,42.4794621 -71.4342857,42.4794598 -71.4344101,42.4793658 -71.4345941,42.4792569 -71.4347563,42.4791217 -71.4350439,42.4792313 -71.435176,42.479263 -71.4353186,42.4793684 -71.4355171,42.4794612 -71.4358734,42.4795452 -71.4359208,42.4797652 -71.4361764,42.4797942 -71.436288,42.4798258 -71.436328,42.4799711 -71.4362921,42.4801838 -71.4362483,42.4802672</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414268244</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4332066,42.4771781 -71.4332643,42.4770208 -71.4332873,42.4769089 -71.4332378,42.4768134</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Unblazed</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414273697</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4341778,42.4772067 -71.4342519,42.4771726 -71.4344563,42.4771117 -71.434547,42.4774795 -71.4347089,42.4778044 -71.4346102,42.4783226 -71.4350112,42.4789055 -71.435176,42.479263</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">414282480</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4335286,42.4863693 -71.4334844,42.4863942 -71.4333696,42.4862949 -71.4332563,42.4862568 -71.433022,42.4860253</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550520</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.479163,42.480816 -71.4792222,42.4808729 -71.4792858,42.4809053 -71.4792924,42.4809055 -71.479413,42.4809089 -71.4795011,42.4808873 -71.4795646,42.4808404 -71.4795795,42.480773</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550521</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4797125,42.4807023 -71.4796362,42.4806699 -71.4794785,42.480595 -71.479303,42.4805313 -71.4791398,42.4804666 -71.4790987,42.4804363 -71.4791179,42.4803898 -71.4791988,42.4803776 -71.4792509,42.4803776 -71.4793564,42.4804059 -71.4794812,42.4804322 -71.4795827,42.4804221 -71.4796375,42.4803898 -71.4796595,42.4803463 -71.4796403,42.4802957 -71.4796334,42.4802553 -71.4796458,42.4802239 -71.4796979,42.4802007 -71.4797596,42.4801764 -71.4797911,42.4801278 -71.4798461,42.4800684 -71.479853,42.480072</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550525</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4792924,42.4809055 -71.4792476,42.4809285 -71.4792244,42.48095 -71.4792244,42.4809766 -71.4792304,42.4809931 -71.4792382,42.481014 -71.4792382,42.4810399 -71.479227,42.4810557 -71.4791995,42.4810722 -71.4791463,42.4810943 -71.479162,42.4811312</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550532</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.479853,42.480072 -71.4799841,42.4799177 -71.4800201,42.4798381 -71.4800332,42.4797628 -71.4800367,42.4797421 -71.480034,42.4796686 -71.4799855,42.4796114 -71.4799467,42.4795991 -71.4798692,42.4796012 -71.4798208,42.4796257 -71.4798208,42.4796798 -71.4798581,42.4797216 -71.4799634,42.4797492 -71.4800332,42.4797628</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550534</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4797432,42.4804701 -71.4798692,42.4805008 -71.4800104,42.4805232 -71.4801406,42.4805569 -71.4801738,42.4805774 -71.480196,42.4806223 -71.4801406,42.4806907 -71.4801129,42.480704 -71.4800409,42.480705 -71.4799315,42.4806856 -71.4798166,42.4806672 -71.4797432,42.4806795 -71.4797127,42.4806926</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550537</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4797813,42.4809917 -71.4799011,42.4810266 -71.479944,42.4810369 -71.4799689,42.4810277 -71.4800118,42.4809715 -71.4800229,42.4809113 -71.4800229,42.4808571 -71.4800021,42.4808326 -71.4799703,42.4808224 -71.4798166,42.4807887 -71.4797543,42.4807693 -71.4797268,42.4807607</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550539</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4789726,42.4811507 -71.478918,42.4812043 -71.4788253,42.4812339 -71.4787463,42.4812309 -71.4785442,42.4812013 -71.4783227,42.4811788 -71.4780804,42.4811441 -71.4778907,42.4810951 -71.4776525,42.4810654 -71.477546,42.4811043</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550541</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4773521,42.4826788 -71.4774725,42.4824572 -71.4775681,42.4822938 -71.4776484,42.4821637 -71.4777287,42.4820174 -71.4777728,42.4819256 -71.4778012,42.4818478 -71.4778075,42.4817456 -71.4778091,42.4816108 -71.4777933,42.4814912 -71.4777513,42.4814013 -71.4777457,42.4813914 -71.4776894,42.4812937 -71.4776122,42.4811764 -71.477546,42.4811043 -71.4775031,42.4810647</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">425550545</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4799703,42.4808224 -71.4800409,42.480705</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015381</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4071032,42.5180881 -71.4070869,42.5181356 -71.4071866,42.518194 -71.4078422,42.5183273 -71.4079489,42.5183595 -71.4080394,42.5183873 -71.407891,42.5186023 -71.4077853,42.5187731 -71.4076654,42.518869 -71.4075962,42.5189469 -71.4073554,42.5193312 -71.407208,42.5195769 -71.4073818,42.5196293 -71.4073381,42.519681 -71.4072986,42.5196986 -71.4072243,42.5197319 -71.4071724,42.5197319 -71.4070748,42.5198773 -71.4069996,42.5198525 -71.4069265,42.5199806 -71.406902,42.5199675 -71.4068472,42.5199417 -71.4066937,42.5201911 -71.4061022,42.5201072 -71.4056448,42.5200421 -71.4055594,42.5200248 -71.4055107,42.5199964 -71.4055086,42.5199252 -71.4055493,42.5197522 -71.405508,42.5197444 -71.4054446,42.5197289 -71.4054057,42.5197136 -71.4053635,42.5196845 -71.4053212,42.5196489 -71.4052636,42.5196306 -71.4052569,42.5195896 -71.4052656,42.5195416 -71.405279,42.5194873 -71.4053306,42.5194502 -71.4054024,42.5193746 -71.4055204,42.5193988 -71.4055847,42.5194205 -71.405627,42.5194245 -71.4056505,42.5193059 -71.4056599,42.5192451 -71.4056806,42.5192125 -71.4057169,42.5191927 -71.4057705,42.5191897 -71.4058999,42.5192179 -71.4061869,42.5192822 -71.4062023,42.5192855 -71.406488,42.5193469 -71.4070492,42.5194695 -71.4070774,42.5194818 -71.4071062,42.5194971 -71.4071022,42.5195426 -71.4069815,42.5197299 -71.4068472,42.5199417</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015382</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4065312,42.5187224 -71.4064461,42.5187638 -71.40632,42.5190702 -71.406261,42.5190603 -71.4061873,42.5192155 -71.4061907,42.5192437</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015383</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4061907,42.5192437 -71.4062023,42.5192855</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015384</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4052636,42.5196306 -71.4052034,42.5196371 -71.4049715,42.5196814 -71.4048158,42.5196749 -71.4047574,42.5196475 -71.4046495,42.5195262 -71.404554,42.5194825</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015385</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4054024,42.5193746 -71.4053025,42.519311 -71.4052193,42.5192523 -71.405176,42.5191874 -71.405168,42.5191753 -71.4050706,42.5191193 -71.4049397,42.519084 -71.404853,42.519084 -71.4047893,42.5190827 -71.4046974,42.5190332</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015386</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.405176,42.5191874 -71.4053009,42.5191328 -71.4053892,42.5190879 -71.4054529,42.5189353 -71.4055591,42.5189666 -71.4055785,42.5190527 -71.4056104,42.5190945 -71.4061873,42.5192155</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015387</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4042524,42.5206573 -71.4041712,42.5209481 -71.4041411,42.5210277</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015388</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4041411,42.5210277 -71.4050383,42.5211242 -71.4051781,42.5210825 -71.4060541,42.5213388 -71.4061,42.5213498 -71.4064097,42.5208151 -71.4069265,42.5199806</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015389</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4072986,42.5196986 -71.407347,42.5197522 -71.407347,42.5198779 -71.4073843,42.5199588 -71.4075715,42.5200845</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">426015390</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;footway&quot;=&gt;&quot;sidewalk&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4076654,42.518869 -71.4075829,42.5187631 -71.4073837,42.5187002 -71.4073979,42.5186448 -71.407091,42.5185849 -71.4070788,42.5186328 -71.4068633,42.5185819 -71.4068531,42.5185474 -71.4067592,42.5185315</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">443981198</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4145887,42.5039518 -71.415365,42.503242</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">443981542</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4076057,42.5069932 -71.407987,42.5070322</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">443982125</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.41111,42.508119 -71.4111611,42.5081248 -71.4111678,42.5081706</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">443982964</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4169015,42.5222435 -71.4170734,42.5221826</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">444210653</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4365838,42.4822843 -71.4365575,42.4823398 -71.436553,42.4823853 -71.4365796,42.4824283</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">444210654</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4344485,42.4823982 -71.4345719,42.4823411 -71.4346428,42.4822378 -71.4346561,42.4820425</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445108631</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.43789,42.50904 -71.4377349,42.5094306 -71.4374229,42.5094032 -71.4371529,42.5093953 -71.4369661,42.5093896 -71.4368192,42.5094431 -71.4363681,42.5094408 -71.4360788,42.5094351 -71.4359103,42.5093133 -71.4359889,42.5091253 -71.4359114,42.5089454 -71.4357223,42.5088155 -71.4355651,42.5087141 -71.4354148,42.5085854 -71.43543,42.50849</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445119242</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.43836,42.50914 -71.4382159,42.509516 -71.4379243,42.509475</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121243</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4270107,42.5040526 -71.4269811,42.5038818 -71.4269469,42.5038111 -71.4269287,42.5035856 -71.4268991,42.5032963 -71.4267487,42.5030298 -71.4266963,42.5028384 -71.4267032,42.5025719 -71.4265688,42.5025127 -71.4265027,42.5024033 -71.4265073,42.5022644 -71.4265278,42.5021641</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121245</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4277693,42.5035241 -71.4278695,42.5037246 -71.42789,42.5038476 -71.4278695,42.5040207 -71.4278672,42.5040982 -71.4279367,42.5042633 -71.4279686,42.5044569 -71.4280301,42.5045993 -71.4280791,42.5047918 -71.4281155,42.5049923 -71.4282032,42.5050606 -71.4283752,42.5051552 -71.4285597,42.5051187</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121247</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4261473,42.5037565 -71.4262043,42.5040754</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121248</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4244047,42.5012074 -71.4244912,42.5013008 -71.4246735,42.50136 -71.4248899,42.5014625 -71.4250038,42.5018247 -71.4250493,42.5019591 -71.4252703,42.5020685 -71.4253705,42.5023304 -71.4254093,42.5023942 -71.4254639,42.5024489 -71.4254685,42.5026607 -71.4255277,42.5029819 -71.4255391,42.503228 -71.4255346,42.5034375 -71.4259081,42.5039729 -71.4260517,42.5040344 -71.4262043,42.5040754 -71.4262635,42.5042166 -71.4262863,42.5043624 -71.4263615,42.5045355</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121250</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4239411,42.5019301 -71.4239024,42.5019916 -71.423809,42.5020258 -71.4237065,42.5020645 -71.42367,42.5020873 -71.4236586,42.5021465 -71.4237178,42.5022331 -71.4237589,42.5023629 -71.4237816,42.5024791 -71.42385,42.5025406 -71.4240823,42.5026431 -71.4241803,42.5027183 -71.42426,42.5028914 -71.4244992,42.5032217 -71.4247543,42.5034222 -71.4250801,42.5036773 -71.4252441,42.5039165 -71.4252851,42.5040213 -71.4253307,42.5041602 -71.4253666,42.5042531</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121252</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4286099,42.5053579 -71.4283638,42.5054422 -71.4281748,42.5054764 -71.428029,42.5055265 -71.4279971,42.5055584 -71.4279629,42.5056609 -71.427988,42.5057725 -71.4277488,42.5058978 -71.4274116,42.5059821 -71.4271223,42.5059616 -71.4269219,42.5060573 -71.4267989,42.5061233 -71.4265938,42.5061211 -71.4262544,42.5061848 -71.4256758,42.5062942 -71.4255255,42.5063215 -71.4253295,42.506219 -71.4251678,42.5062053 -71.4251177,42.5062896 -71.4249582,42.5063625 -71.4247418,42.5064559 -71.4246513,42.5064825 -71.4244297,42.5065151 -71.4241997,42.5065243 -71.4240334,42.5064149 -71.4241268,42.5063124 -71.4242566,42.506235</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121254</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4240334,42.5064149 -71.4239309,42.5064673 -71.4238147,42.5064946</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121255</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4349059,42.5068025 -71.4348874,42.5067017 -71.4348615,42.5066257 -71.4348438,42.5065568 -71.4348057,42.5064118 -71.4347934,42.5062655 -71.434735,42.506184 -71.4346858,42.5061054 -71.4346943,42.5059975 -71.434665,42.5058213 -71.4346337,42.5056985 -71.4346274,42.5055112 -71.4345932,42.5054554 -71.4345186,42.5054377 -71.4344403,42.5054653 -71.434378,42.5055297 -71.4342663,42.5056245 -71.4340978,42.5056792 -71.4339884,42.5057657 -71.4338666,42.505768 -71.4337652,42.5057931 -71.4336524,42.5058432 -71.4334895,42.5059161 -71.4333779,42.5060573 -71.4332447,42.5061006 -71.4331547,42.5060926 -71.4330852,42.506038 -71.4327036,42.5059582 -71.4325943,42.5059229 -71.4324736,42.5059434 -71.4322799,42.5059218 -71.4320533,42.5059138 -71.4318095,42.5058944 -71.4317469,42.5058705 -71.4315567,42.505817 -71.4312423,42.5056313 -71.431076,42.5055607 -71.4309837,42.5054912 -71.430781,42.5053261 -71.4305897,42.5052281</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121258</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4332435,42.5055254 -71.4330806,42.5054525 -71.4328494,42.5054001 -71.4325909,42.5053215 -71.4324667,42.5052338 -71.4321489,42.5050072 -71.4319234,42.5049707 -71.4317526,42.5049445 -71.4317082,42.5048477 -71.4316239,42.5047099 -71.4313562,42.5044217 -71.4311443,42.5044525 -71.4309109,42.5044525 -71.4308061,42.5044069 -71.4307764,42.5043306 -71.4307764,42.5041985 -71.4307764,42.5040561 -71.4306079,42.503957 -71.4302149,42.5037656 -71.4300725,42.5037053 -71.4298823,42.5037041 -71.4297445,42.5036984 -71.4295623,42.5035937 -71.429208,42.5035538 -71.4288641,42.503506 -71.4287707,42.5035128 -71.4285839,42.5035242 -71.4284369,42.5035504 -71.4283388,42.5036038 -71.4281884,42.5036972 -71.428095,42.5037656 -71.4280791,42.5038977 -71.4280973,42.5040799 -71.42816,42.5041825 -71.4282385,42.504285 -71.4282909,42.5044626 -71.4283342,42.5047064 -71.4282773,42.5048567 -71.4282978,42.5049501 -71.4284481,42.5050299 -71.4285597,42.5051187 -71.4286167,42.5052212 -71.4286099,42.5053579 -71.4290017,42.505326 -71.4291907,42.5052599</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445121260</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4235903,42.5014107 -71.4236222,42.50152 -71.423686,42.5016203 -71.4239411,42.5019301 -71.4240914,42.5019642 -71.4242555,42.5020371 -71.4243739,42.502208</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445123834</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.43314,42.50248 -71.4329067,42.5023398</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445125351</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4268009,42.514457 -71.4269012,42.514326 -71.4270049,42.5142338 -71.4271917,42.5141233 -71.4272725,42.5140492 -71.4273033,42.5139558 -71.4273043,42.5137845</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">445260043</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;width&quot;=&gt;&quot;1.52&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4383593,42.4807773 -71.4382949,42.4809 -71.43826,42.4810503 -71.4381313,42.4813529 -71.4380642,42.4814756 -71.4379382,42.4816358 -71.4378044,42.4817867 -71.4377906,42.4819484 -71.4376847,42.4820947 -71.4376297,42.4822372 -71.4376148,42.4823349 -71.4376196,42.4823775 -71.4376065,42.4824157 -71.4375832,42.4824795 -71.4375074,42.4825774 -71.4373445,42.4827056 -71.4372261,42.4828326 -71.4371687,42.4829029 -71.4370998,42.4830218 -71.4371259,42.4831264 -71.4372329,42.4832654 -71.4372978,42.4833121</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
