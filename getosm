@@ -31,7 +31,7 @@ fi
  
  for arg in ${args[@]}; do
    if [ ${arg} = "bounds" ]; then
-       filters="(way($CANOE_LAUNCH_ID);way[\"landuse\"=\"conservation\"][\"owner\"=\"Town Of Acton\"])"
+       filters="(way($CANOE_LAUNCH_ID);way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i])"
        KMLcolor="ffffffff"
        AREA_FILTER=""
    elif [ ${arg} = "red" ]; then
