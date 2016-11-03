@@ -3,6 +3,8 @@
 # for bringing data down from Open Street Maps for Acton Conservation Land maps.
 # Jim Snyder-Grant
 EXIT_STATUS=0
+# Uncomment to turn on debugging:
+#DEBUG=1
 
 if [ $# -eq 0 ]; then
   echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'all'"
@@ -58,7 +60,9 @@ fi
        exit $EXIT_STATUS
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
-   echo "wget args: " ${wget_args}
+   if [ ${DEBUG} ] ; then
+       echo "wget args: " ${wget_args}
+   fi
     wget -O ${arg}.osm "${wget_args}"
     
     # what sort of geometry will be extracting?
@@ -67,8 +71,12 @@ fi
     else
      geometry="lines"
     fi 
-    echo $AREA_FILTER
-    echo $geometry
+    if [ ${DEBUG} ] ; then
+	echo AREA_FILTER=$AREA_FILTER
+    fi
+    if [ ${DEBUG} ] ; then
+	echo geometry=$geometry
+    fi
  
     # convert to KML for checking in Google Earth
     rm -f ${arg}.kml
