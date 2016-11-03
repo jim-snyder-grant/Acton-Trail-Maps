@@ -5,7 +5,7 @@
 
 if [ $# -eq 0 ]; then
   echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'all'"
-  exit
+  exit 1
 fi
 
 args=("$@")
@@ -51,7 +51,8 @@ fi
         filters="rel($ACTON_ID)"
         AREA_FILTER=""
    else
-     echo "unprocessed arg ${arg}"
+       echo "unprocessed arg ${arg}"
+       exit 1
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
    echo "wget args: " ${wget_args}
