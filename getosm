@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # for bringing data down from Open Street Maps for Acton Conservation Land maps.
-# Jim Snyder-Grant 
+# Jim Snyder-Grant
+EXIT_STATUS=0
 
 if [ $# -eq 0 ]; then
   echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'all'"
-  exit 1
+  EXIT_STATUS=1
+  exit $EXIT_STATUS
 fi
 
 args=("$@")
@@ -51,8 +53,9 @@ fi
         filters="rel($ACTON_ID)"
         AREA_FILTER=""
    else
-       echo "unprocessed arg ${arg}"
-       exit 1
+       echo "ERROR: Invalid arg ${arg}"
+       EXIT_STATUS=1
+       exit $EXIT_STATUS
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
    echo "wget args: " ${wget_args}
@@ -81,12 +84,18 @@ fi
     
     # just checking and announcing results
     if [ -f ${arg}.kml ]; then
-    echo "created "  ${arg}.kml
+	echo "created "  ${arg}.kml
+    else
+	echo "ERROR: Did not create " ${arg}.kml
+	EXIT_STATUS=1
     fi
     if [ -f ${arg}.json ]; then
-    echo "created "  ${arg}.json
+	echo "created "  ${arg}.json
+    else
+	echo "ERROR: Did not create " ${arg}.json
+	EXIT_STATUS=1	
     fi
     
  done
-  
 
+ exit $EXIT_STATUS
