@@ -7,9 +7,13 @@
 # a quick debugging tip:launch this with 
 # bash-x  ./getosm (arguments)
 
+EXIT_STATUS=0
+#DEBUG=1
+
 if [ $# -eq 0 ]; then
   echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'all'"
-  exit
+  EXIT_STATUS=1
+  exit $EXIT_STATUS
 fi
 
 args=("$@")
@@ -66,13 +70,15 @@ fi
         filters="node[\"tourism\"=\"camp_site\"]"
         geometry="points" 
    else
-     echo "unprocessed arg ${arg}"
-     exit 1
+       echo "ERROR: Invalid arg ${arg}"
+       EXIT_STATUS=1
+       exit $EXIT_STATUS
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
-
-    wget -O ${arg}.osm "${wget_args}"
-     
+   if [ ${DEBUG} ] ; then
+       echo "wget args: " ${wget_args}
+   fi
+    wget -O ${arg}.osm "${wget_args}"    
     # convert to KML for checking in Google Earth
     rm -f ${arg}.kml
     ogr2ogr -f KML ${arg}.kml ${arg}.osm ${geometry}
@@ -87,12 +93,20 @@ fi
     
     # just checking and announcing results
     if [ -f ${arg}.kml ]; then
-    echo "created "  ${arg}.kml
+	    echo "created "  ${arg}.kml
+    else
+	    echo "ERROR: Did not create " ${arg}.kml
+	    EXIT_STATUS=1
     fi
+    
     if [ -f ${arg}.json ]; then
-    echo "created "  ${arg}.json
+	    echo "created "  ${arg}.json
+    else
+	    echo "ERROR: Did not create " ${arg}.json
+	    EXIT_STATUS=1	
     fi
     
  done
-  
 
+ exit $EXIT_STATUS
+ 
