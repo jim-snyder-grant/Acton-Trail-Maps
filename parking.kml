@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="multipolygons" id="multipolygons">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="admin_level" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="boundary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="geological" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="land_area" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>multipolygons</name>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">30695087</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4583998,42.4608508 -71.4582567,42.4609987 -71.4578338,42.4613466 -71.4576451,42.461408 -71.4574387,42.4613846 -71.4571429,42.4613447 -71.4570708,42.4613527 -71.4568978,42.4614598 -71.4564116,42.4618693 -71.4562879,42.4617667 -71.4567711,42.4613888 -71.4569355,42.4611733 -71.4569802,42.4610395 -71.4569982,42.4608652 -71.4570938,42.4607672 -71.4572525,42.460623 -71.4574092,42.4605054 -71.4580957,42.4605652 -71.4583142,42.460582 -71.4584073,42.4606638 -71.458408,42.4607556 -71.4583998,42.4608508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">30728733</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;paved&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4801641,42.4494948 -71.4801793,42.4496089 -71.4801108,42.4497268 -71.479776,42.4499285 -71.4798293,42.4500198 -71.4802896,42.4497611 -71.4803637,42.4495899 -71.4803011,42.4494339 -71.4801641,42.4494948</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">30729390</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.457617,42.4687503 -71.4574244,42.4688629 -71.4571006,42.4684986 -71.4563292,42.4689185 -71.4565946,42.4692001 -71.4568237,42.4692713 -71.4567695,42.4693396 -71.4567588,42.4694207 -71.4567615,42.4694623 -71.456703,42.4696749 -71.4565796,42.4696452 -71.4566333,42.4692792 -71.4563593,42.4692456 -71.4562535,42.4697705 -71.4560711,42.4697453 -71.4562813,42.4682619 -71.456537,42.4682833 -71.4569523,42.4681441 -71.4570182,42.4681742 -71.457617,42.4687503</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">30733061</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4853693,42.4344651 -71.4853315,42.433376 -71.487566,42.4338944 -71.4874733,42.4344761 -71.4853693,42.4344651</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">33390157</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.452733,42.4333612 -71.4520872,42.4332012 -71.4520893,42.4331586 -71.4520336,42.4331395 -71.4520772,42.4330423 -71.4528024,42.4332099 -71.452733,42.4333612</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">33832401</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4773764,42.4835165 -71.4776346,42.4842213 -71.477717,42.4841929 -71.477788,42.4843778 -71.4781316,42.4844938 -71.4782508,42.484548 -71.4784068,42.4844771 -71.4783308,42.4843564 -71.4782512,42.4843758 -71.4781432,42.4843614 -71.4781969,42.4843423 -71.4780487,42.484147 -71.4781993,42.484063 -71.4781558,42.4839432 -71.4779399,42.4840377 -71.4775015,42.4834063 -71.4778247,42.4832444 -71.4777368,42.4831449 -71.4775297,42.4832466 -71.4774875,42.4829746 -71.4772564,42.4829897 -71.4773322,42.4833752 -71.4773543,42.4834459 -71.4773764,42.4835165</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">43094596</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5001979,42.4361065 -71.4997742,42.4360446 -71.4998278,42.4358101 -71.4999969,42.4358419 -71.4999902,42.4359056 -71.5002213,42.4359457 -71.5001979,42.4361065</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">46809495</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4882909,42.4342639 -71.4882844,42.4344274 -71.4878477,42.4343945 -71.4878623,42.4342317 -71.4882909,42.4342639</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">46809502</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4887934,42.4340291 -71.4880889,42.4337997 -71.4882502,42.4335067 -71.4883621,42.4335331 -71.4882612,42.4337613 -71.4884839,42.4338326 -71.4884949,42.4338063 -71.4888586,42.4338941 -71.4887934,42.4340291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">48768024</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.451954,42.433392 -71.4513221,42.4332203 -71.4514034,42.4329374 -71.4520205,42.4329716 -71.4519968,42.4331369 -71.4520525,42.4331573 -71.451954,42.433392</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">49155903</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4546969,42.4319622 -71.4549137,42.4324046 -71.4553637,42.4322246 -71.4554563,42.4324299 -71.4548617,42.432686 -71.4542481,42.4330689 -71.4537435,42.4334961 -71.4536601,42.433478 -71.4535944,42.4335696 -71.4534112,42.4335051 -71.4536339,42.4331642 -71.4538031,42.4332192 -71.4541061,42.4328838 -71.4541496,42.432855 -71.454041,42.4327831 -71.454103,42.4326728 -71.4543106,42.4327756 -71.4544616,42.4326679 -71.4543586,42.4325685 -71.4543173,42.4324584 -71.4546462,42.4323653 -71.4545105,42.4320192 -71.4546969,42.4319622</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">49159562</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4883147,42.4348838 -71.4882181,42.4348625 -71.488211,42.4349122 -71.4879751,42.4348938 -71.4879907,42.4347175 -71.4882323,42.4347232 -71.4882764,42.4344461 -71.4883702,42.434456 -71.4883147,42.4348838</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">49159563</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4874081,42.4335451 -71.4878884,42.4337128 -71.4879666,42.4335366 -71.4874962,42.4333788 -71.4876255,42.4331586 -71.4881101,42.4333476 -71.4881783,42.4332467 -71.4875524,42.4330101 -71.4872588,42.4334854 -71.4874081,42.4335451</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">49159575</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4891846,42.436433 -71.4891836,42.4364854 -71.4892561,42.4364844 -71.4892596,42.4363767 -71.4891866,42.4363757 -71.4891846,42.436433</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">49159583</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4861152,42.4331207 -71.486135,42.4330756 -71.4863154,42.433132 -71.4863775,42.4330192 -71.4860137,42.432881 -71.4861321,42.4326893 -71.485762,42.4325317 -71.4857124,42.4326718 -71.4855757,42.4328225 -71.485479,42.4328814 -71.4861152,42.4331207</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">50312953</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4497019,42.4762364 -71.4495117,42.4763352 -71.4494885,42.4762976 -71.4492321,42.4764441 -71.4491832,42.4765008 -71.4492319,42.4765306 -71.4491031,42.4766834 -71.4489858,42.476857 -71.4488851,42.4768119 -71.4488286,42.4768347 -71.4486925,42.4766852 -71.4487497,42.4766573 -71.4487302,42.4766077 -71.4490802,42.4761183 -71.4491444,42.4761328 -71.4491625,42.4761106 -71.4492318,42.4760433 -71.4496581,42.4761053 -71.4496756,42.4761965 -71.4497019,42.4762364</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">50312956</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4505448,42.4766942 -71.451723,42.476117 -71.4515213,42.475738 -71.4513147,42.4758485 -71.4511708,42.4760591 -71.4512154,42.476117 -71.4511219,42.4761697 -71.4510999,42.4761341 -71.4505396,42.476536 -71.4505046,42.4765234 -71.4500985,42.4761741 -71.4500706,42.4761403 -71.4496283,42.4764195 -71.4497812,42.4766565 -71.4499248,42.4765806 -71.4501757,42.4768981 -71.4505448,42.4766942</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">50313869</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4158369,42.4840215 -71.415521,42.4829475 -71.4152634,42.4830204 -71.4152051,42.482792 -71.415419,42.4827386 -71.4153363,42.4824032 -71.4142332,42.4826171 -71.4144324,42.4832294 -71.414656,42.4832294 -71.4147775,42.4836279 -71.4148698,42.4836279 -71.4150205,42.484177 -71.4158369,42.4840215</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">53541036</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4335387,42.5232934 -71.4337285,42.523003 -71.4337462,42.5230116 -71.4340405,42.5225927 -71.4341105,42.5224424 -71.4336141,42.5222566 -71.4337338,42.5221489 -71.4339455,42.5220234 -71.4338404,42.5219251 -71.4336195,42.5219291 -71.4333835,42.5221774 -71.4333376,42.5222316 -71.4333125,42.5222818 -71.4332959,42.5223438 -71.4332927,42.5224024 -71.4333072,42.5224685 -71.4333461,42.5225634 -71.4335748,42.5225296 -71.4336252,42.5224607 -71.433898,42.5225635 -71.4336975,42.522861 -71.4335938,42.5228233 -71.4334424,42.5230315 -71.433427,42.5231658 -71.4334841,42.5231686 -71.433427,42.5232488 -71.4335387,42.5232934</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">53541041</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4320233,42.5247558 -71.4323131,42.5244684 -71.4322776,42.524444 -71.4324346,42.5242892 -71.431242,42.5236053 -71.4308898,42.5239451 -71.4310607,42.5240456 -71.4308794,42.5242195 -71.4315676,42.5245871 -71.4320233,42.5247558</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">53541234</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4310413,42.5226653 -71.4313119,42.522821 -71.4315976,42.5229853 -71.4314498,42.5231288 -71.4313767,42.5230846 -71.4311629,42.5232879 -71.4308255,42.5230928 -71.430889,42.523027 -71.4307512,42.5229466 -71.4310413,42.5226653</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">61912346</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4844204,42.4776012 -71.4844006,42.4777156 -71.4844559,42.4777906 -71.4844125,42.4778853 -71.484274,42.4778054 -71.4843222,42.4775863 -71.4844204,42.4776012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Maynard Parking</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">81598002</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;yes&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4529497,42.4325681 -71.4527494,42.4331323 -71.4527149,42.433176 -71.4522548,42.4330683 -71.4523302,42.4328938 -71.4523094,42.4327974 -71.4524547,42.4327876 -71.4524511,42.432605 -71.4528149,42.4325486 -71.4529497,42.4325681</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">86548609</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3962574,42.4400691 -71.3960859,42.440038 -71.3957826,42.439829 -71.3956468,42.4399414 -71.3955615,42.4398916 -71.3953615,42.4397687 -71.3957031,42.4394676 -71.3964139,42.4399401 -71.3962574,42.4400691</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">86971365</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3916311,42.444864 -71.3918116,42.4448757 -71.3918867,42.4445155 -71.3917214,42.4445048 -71.3916906,42.4446164 -71.3916851,42.444636 -71.3916311,42.444864</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">86977111</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.389301,42.4619132 -71.388469,42.4622354 -71.3881338,42.4618345 -71.3880611,42.4610751 -71.388478,42.4609169 -71.3879521,42.4601905 -71.3876914,42.4602373 -71.3874722,42.4601152 -71.3877229,42.4597543 -71.387922,42.459598 -71.3883362,42.4594713 -71.3883559,42.4593286 -71.3882103,42.4592774 -71.3881159,42.458958 -71.3886785,42.4591069 -71.3888389,42.4595832 -71.3898452,42.4611791 -71.3902422,42.4610288 -71.390581,42.4615542 -71.3897206,42.4619264 -71.3894104,42.4620732 -71.389301,42.4619132</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Jenks Land</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">115637309</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4781782,42.487683 -71.4782447,42.487669 -71.4782602,42.487717 -71.4781983,42.4877309 -71.4781782,42.487683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">123043221</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4296578,42.4419548 -71.4289775,42.4414437 -71.4276663,42.4417962 -71.4275042,42.4420922 -71.4277051,42.4428747 -71.4279589,42.4428007 -71.4278179,42.4424377 -71.4296754,42.4420817 -71.4298199,42.4425434 -71.4303346,42.4424623 -71.4302676,42.4422509 -71.4301442,42.4422544 -71.430035,42.4421663 -71.4299292,42.4421733 -71.4299327,42.4422156 -71.429894,42.4422262 -71.4298517,42.442198 -71.4297953,42.4420217 -71.4296578,42.4419548</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">123043222</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4315309,42.4423494 -71.4308649,42.4422295 -71.4308849,42.4421541 -71.4307451,42.442103 -71.4307406,42.4421319 -71.4301391,42.4418966 -71.4297128,42.4416679 -71.4295752,42.4415547 -71.4297217,42.4415059 -71.4297994,42.4415503 -71.4299393,42.4414104 -71.4301701,42.4415103 -71.4302478,42.4414148 -71.43029,42.4414282 -71.4303433,42.4414015 -71.4304188,42.4414215 -71.4307029,42.4413482 -71.4311824,42.4415303 -71.4313356,42.4415347 -71.4316663,42.441517 -71.4317396,42.4418499 -71.4314243,42.4418677 -71.4314266,42.4418078 -71.4311446,42.4418144 -71.4311402,42.4418499 -71.4316774,42.4419809 -71.4317906,42.442123 -71.4318705,42.4422872 -71.4318195,42.4423871 -71.4315309,42.4423494</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">123043878</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4872212,42.433497 -71.4870225,42.4334278 -71.4870568,42.4333353 -71.4872357,42.4333879 -71.4872107,42.433451 -71.4872423,42.4334655 -71.4872212,42.433497</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">138183900</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4762402,42.4930737 -71.4762045,42.4931893 -71.4759718,42.4931417 -71.4757849,42.4930092 -71.4757323,42.4928546 -71.4757526,42.4926083 -71.4758291,42.4926168 -71.4758359,42.4925709 -71.4757747,42.4925607 -71.4758291,42.492435 -71.4759106,42.4923331 -71.4760482,42.4922499 -71.4760856,42.4923144 -71.4761433,42.4922923 -71.4761196,42.4922363 -71.4762079,42.4922125 -71.4763217,42.4922074 -71.4764576,42.4922091 -71.4765239,42.4922957 -71.4765052,42.4924078 -71.4762419,42.4924044 -71.4761943,42.4923467 -71.4761416,42.4923688 -71.4761671,42.4924061 -71.4761111,42.4924333 -71.4760312,42.4925098 -71.4760074,42.4925879 -71.4759565,42.4927408 -71.4759565,42.4928359 -71.4759667,42.4929345 -71.4760465,42.493016 -71.476089,42.4930415 -71.4761366,42.49305 -71.4762402,42.4930737</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">139161746</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4560567,42.4762343 -71.4560031,42.4761948 -71.4560514,42.4761315 -71.4559012,42.4760682 -71.4558744,42.4761196 -71.4558314,42.4760959 -71.4558422,42.4760484 -71.4559119,42.4760325 -71.4559173,42.4760009 -71.4557671,42.4759376 -71.4556812,42.4761552 -71.455413,42.4762897 -71.4551233,42.4763174 -71.45478,42.4762739 -71.4545601,42.4761948 -71.4544045,42.4761829 -71.4543455,42.4762976 -71.4545011,42.4765706 -71.4547049,42.4765469 -71.4550214,42.4766142 -71.4553326,42.4765825 -71.4556705,42.4765192 -71.4559173,42.4763966 -71.4560567,42.4762343</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">139161751</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4588731,42.4809623 -71.4583259,42.4811363 -71.4582454,42.4810256 -71.4581381,42.4809781 -71.4580684,42.4810058 -71.4580362,42.4809148 -71.4586853,42.4806972 -71.4587765,42.480713 -71.4589267,42.4808673 -71.4588731,42.4809623</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">139161755</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4561372,42.476357 -71.455928,42.476539 -71.45559,42.4766775 -71.4553218,42.4767131 -71.4550161,42.4767249 -71.4546888,42.4766775 -71.4546727,42.4767249 -71.4545654,42.4766656 -71.4546727,42.4769742 -71.4549839,42.4771008 -71.4553594,42.4770889 -71.4557295,42.4770217 -71.4563089,42.4767487 -71.4561372,42.4765983 -71.4560621,42.4765983 -71.456223,42.4764836 -71.4561372,42.476357</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">139161758</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4567756,42.4758308 -71.4568346,42.47608 -71.4568936,42.4761512 -71.4569526,42.4764322 -71.4564913,42.4765034 -71.456266,42.4757754 -71.4567756,42.4758308</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">139161763</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4597083,42.4789208 -71.4595007,42.4789762 -71.4596241,42.4792492 -71.4598118,42.4806339 -71.4598923,42.4806418 -71.4598548,42.4807051 -71.4596295,42.4806378 -71.4597046,42.4806181 -71.4596026,42.4797674 -71.4595114,42.4797635 -71.4595222,42.4796646 -71.4593666,42.4796765 -71.4593773,42.4798149 -71.4590716,42.4798426 -71.4591413,42.4805429 -71.4594524,42.480535 -71.4594202,42.4806576 -71.4598816,42.4807763 -71.4599768,42.4806968 -71.4600519,42.4806185 -71.4598708,42.4792294 -71.4597083,42.4789208</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696235</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4728848,42.4761896 -71.4729119,42.4763192 -71.4731286,42.4763202 -71.4730792,42.4761954 -71.4728848,42.4761896</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696238</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4755432,42.4749274 -71.4756225,42.4749629 -71.476011,42.4749739 -71.4760684,42.4747085 -71.4755705,42.474677 -71.4755432,42.4749274</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696240</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;fee&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4710775,42.4764479 -71.4711002,42.4764546 -71.4712566,42.4765005 -71.4714214,42.4765037 -71.4714203,42.4764479 -71.4721255,42.4764479 -71.4721323,42.4764024 -71.4721265,42.476326 -71.4715747,42.476313 -71.4710797,42.4762833 -71.4710775,42.4764479</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696244</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4753817,42.4760764 -71.4751302,42.4760599 -71.4751689,42.4758665 -71.4754262,42.4756895 -71.4755877,42.4759033 -71.4754349,42.476 -71.475402,42.475971 -71.4753817,42.4760764</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696245</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4740629,42.4771453 -71.474209,42.4774335 -71.4741026,42.4774848 -71.4739817,42.4774654 -71.4738656,42.4772565 -71.4739295,42.4772333 -71.474002,42.4771588 -71.4740629,42.4771453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">145696247</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4728664,42.4773726 -71.472996,42.4776328 -71.4731953,42.4775544 -71.4731547,42.477477 -71.4730831,42.4774993 -71.4730638,42.4774712 -71.4729998,42.4773552 -71.4729864,42.477331 -71.4728664,42.4773726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">151310069</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4543845,42.4740394 -71.4546622,42.4740541 -71.4546247,42.4743251 -71.4549372,42.4743519 -71.4551035,42.4745048 -71.4560626,42.4745867 -71.4561525,42.474635 -71.4561244,42.4749877 -71.4565925,42.4750374 -71.4567038,42.4744928 -71.4555958,42.4744056 -71.4557246,42.4735363 -71.4545737,42.4734626 -71.4543845,42.4740394</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">151310071</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4506373,42.4751645 -71.4507615,42.4751484 -71.4509493,42.475081 -71.4509085,42.4750336 -71.4509967,42.4750402 -71.4510309,42.4748591 -71.4509778,42.4748534 -71.4509683,42.4748173 -71.4510337,42.4747974 -71.4510005,42.4747168 -71.4509247,42.4747377 -71.4509275,42.4746959 -71.4498879,42.474547 -71.4485439,42.4743725 -71.4484282,42.4748714 -71.4494402,42.4750057 -71.4496627,42.4750352 -71.4498981,42.4750664 -71.4501171,42.4750955 -71.4503418,42.4751253 -71.4506373,42.4751645</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">151310073</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4540274,42.4735701 -71.4539116,42.4738402 -71.4540801,42.473889 -71.454183,42.473613 -71.4540274,42.4735701</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">151310081</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4539291,42.4745061 -71.4537128,42.4744804 -71.4537716,42.4741001 -71.4532898,42.4740451 -71.453303,42.473972 -71.4533979,42.4739066 -71.4540713,42.4739986 -71.4540951,42.474084 -71.4539291,42.4745061</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">154249806</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4109656,42.5155495 -71.4110204,42.5156516 -71.411103,42.5156285 -71.4112186,42.5157662 -71.4114102,42.5159258 -71.411616,42.516043 -71.4119806,42.5159238 -71.4120241,42.5159409 -71.4122201,42.5158763 -71.4121055,42.5157272 -71.4121299,42.5156283 -71.4121936,42.5154088 -71.4122364,42.5153807 -71.4121303,42.5152027 -71.4120633,42.5152226 -71.412036,42.5151872 -71.4109656,42.5155495</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">154388597</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4421926,42.4375054 -71.4415083,42.4376562 -71.4415132,42.4376807 -71.4412616,42.4377394 -71.4413644,42.4380086 -71.4407819,42.4381516 -71.4405988,42.437711 -71.4411001,42.4375975 -71.441198,42.4375691 -71.442032,42.4373929 -71.4421544,42.4373655 -71.4421926,42.4375054</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">154388598</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4405634,42.4377204 -71.4404347,42.4377411 -71.4405025,42.4378893 -71.4404527,42.4379073 -71.4404721,42.4380125 -71.4406631,42.4379654 -71.4405634,42.4377204</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Upper Parking Lot</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">166663718</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4149807,42.5202887 -71.4146701,42.5203179 -71.4146678,42.5203047 -71.4146046,42.5199382 -71.4145202,42.519604 -71.4145215,42.5195903 -71.4145257,42.51958 -71.4145326,42.5195693 -71.4145416,42.5195594 -71.4146348,42.5195561 -71.4147403,42.5195524 -71.4148615,42.5199243 -71.4149807,42.5202887</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">169711540</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4537095,42.4744897 -71.4536332,42.4745194 -71.4536698,42.474583 -71.4535113,42.4746503 -71.4534789,42.4747007 -71.4534614,42.4747315 -71.4534556,42.4747845 -71.4535547,42.4747855 -71.4535781,42.4747712 -71.4536242,42.4747765 -71.4537185,42.4747468 -71.4537111,42.4747214 -71.4537265,42.4747065 -71.4537509,42.4747145 -71.4537959,42.474645 -71.4538145,42.4746138 -71.4538495,42.4745348 -71.4538484,42.4745056 -71.4537095,42.4744897</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">171689498</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4783311,42.4830038 -71.478119,42.483086 -71.4776277,42.4825428 -71.4776894,42.4825038 -71.4777803,42.4824584 -71.4778311,42.4825125 -71.4778798,42.4824854 -71.4783311,42.4830038</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700180</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4298306,42.5235003 -71.4284218,42.5248014 -71.4281426,42.524627 -71.428258,42.524546 -71.4283866,42.5246359 -71.428799,42.5242532 -71.4287493,42.5242205 -71.4291928,42.5238025 -71.4290296,42.5237024 -71.4294754,42.5232838 -71.4298306,42.5235003</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700182</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4306392,42.5233034 -71.4303507,42.5235795 -71.4301942,42.5235791 -71.4293874,42.5231134 -71.4298254,42.5227052 -71.4300518,42.5228314 -71.4303532,42.522541 -71.4306221,42.5226964 -71.4303487,42.5229475 -71.430281,42.5229093 -71.4301591,42.5230207 -71.4306392,42.5233034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700183</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4304185,42.5245469 -71.4295685,42.5253498 -71.4296822,42.5254108 -71.4297156,42.5253695 -71.429756,42.5253271 -71.4298942,42.5253443 -71.4298858,42.5254008 -71.4302333,42.5254294 -71.430235,42.5253761 -71.4303344,42.5253744 -71.4303273,42.5249326 -71.4301632,42.5249365 -71.4303021,42.524804 -71.4305102,42.5246056 -71.4304185,42.5245469</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700186</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4292788,42.5252005 -71.4288991,42.5249841 -71.429073,42.5248457 -71.4294349,42.5250515 -71.4292788,42.5252005</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700187</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4281595,42.5228079 -71.4276167,42.5233406 -71.427438,42.5232417 -71.4279808,42.522709 -71.4281595,42.5228079</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700190</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4308844,42.5240679 -71.42994,42.5235298 -71.4293139,42.5241267 -71.4302006,42.5246319 -71.4303917,42.5244496 -71.4304495,42.5244825 -71.4308844,42.5240679</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">174700191</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4328781,42.5237167 -71.4321769,42.5233054 -71.43214,42.5233442 -71.4320931,42.523321 -71.431885,42.5235177 -71.4316824,42.523711 -71.4324177,42.524127 -71.4328781,42.5237167</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">176719709</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3843805,42.4589669 -71.3837998,42.4593237 -71.3833934,42.458959 -71.3833921,42.4588725 -71.3839178,42.458548 -71.3843805,42.4589669</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">176719719</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.385507,42.4612465 -71.386317,42.4608665 -71.386423,42.4607286 -71.3859362,42.4601542 -71.3853246,42.4604906 -71.385672,42.4609146 -71.385334,42.4610888 -71.385507,42.4612465</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">176719727</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3858503,42.4599286 -71.3851301,42.4591377 -71.3847761,42.4592604 -71.3845736,42.4595012 -71.3846058,42.4595843 -71.3850296,42.4599721 -71.3851248,42.4599213 -71.3853823,42.4602023 -71.3858503,42.4599286</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">176719728</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3878074,42.4610694 -71.3874633,42.4612002 -71.3873074,42.4611514 -71.3868976,42.4606308 -71.38737,42.4604545 -71.3874709,42.4601574 -71.3876167,42.460237 -71.3876201,42.4604803 -71.3880016,42.4610126 -71.3878074,42.4610694</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">201851000</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;2&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Taylor Road&quot;,&quot;capacity&quot;=&gt;&quot;15&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4377774,42.4818683 -71.4375636,42.4818457 -71.4376341,42.4814359 -71.4376535,42.48127 -71.4379594,42.4813192 -71.4378044,42.4817867 -71.4377774,42.4818683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">201851504</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4346686,42.4870668 -71.4339984,42.4872276 -71.4339761,42.4871416 -71.4339079,42.4871763 -71.4338666,42.4870824 -71.4339169,42.4870657 -71.4338577,42.4869808 -71.4338007,42.4870165 -71.4336354,42.4868613 -71.4336879,42.4868289 -71.4337281,42.4867194 -71.433851,42.486601 -71.433641,42.486429 -71.4336376,42.4863698 -71.4335941,42.4863307 -71.4338912,42.4861218 -71.4341526,42.4864033 -71.4339671,42.4865563 -71.4340096,42.4866457 -71.4340531,42.4866194 -71.4342656,42.4868785 -71.4342088,42.4869061 -71.434249,42.4869827 -71.4345871,42.4868864 -71.4346686,42.4870668</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203009490</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4988352,42.5278572 -71.4988929,42.5277359 -71.4988608,42.5276256 -71.4990638,42.527517 -71.4995554,42.5276997 -71.4997157,42.527739 -71.4997435,42.5279328 -71.4995768,42.528117 -71.4997221,42.5282604 -71.4998247,42.5281296 -71.4999208,42.5278131 -71.4998931,42.5276603 -71.4992776,42.527391 -71.4990916,42.5273705 -71.498801,42.527487 -71.4986364,42.5277516 -71.4988352,42.5278572</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203014829</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4587346,42.5304076 -71.4582907,42.5304395 -71.4582694,42.5302784 -71.4581754,42.5302851 -71.4581352,42.5299816 -71.4586732,42.529943 -71.4587346,42.5304076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203890826</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4186122,42.5015974 -71.4184469,42.501684 -71.4188022,42.5020218 -71.4188809,42.5019898 -71.4190294,42.5021383 -71.4188954,42.5023305 -71.4190243,42.50238 -71.4192835,42.5020415 -71.4191684,42.501957 -71.419068,42.5020735 -71.4189122,42.5019534 -71.4189682,42.5019003 -71.4186122,42.5015974</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203890827</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4201953,42.502793 -71.4200428,42.5028741 -71.4199146,42.5025759 -71.4199921,42.5025529 -71.4200005,42.5025258 -71.419993,42.5024973 -71.419943,42.5023482 -71.4198565,42.5023709 -71.4197,42.5020105 -71.4196959,42.5019343 -71.4197124,42.501856 -71.4199265,42.5014545 -71.4199924,42.5014813 -71.4200793,42.5013609 -71.4200024,42.5013343 -71.4201294,42.5011319 -71.4203994,42.5012737 -71.4201936,42.5014237 -71.4206868,42.5017861 -71.4206641,42.5018057 -71.4207362,42.5018252 -71.4206298,42.5021796 -71.4205584,42.5021697 -71.4205431,42.5021804 -71.4205846,42.5022232 -71.4201647,42.5024415 -71.4201009,42.5025202 -71.4200887,42.5025383 -71.4200912,42.5025596 -71.4201579,42.5025428 -71.420225,42.5026795 -71.4201619,42.502696 -71.4201953,42.502793</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203893374</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4422614,42.5021976 -71.442323,42.5022927 -71.442098,42.502419 -71.4420349,42.5022942 -71.4422614,42.5021976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">203936048</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4556238,42.4982924 -71.4553024,42.4984332 -71.4552751,42.4983743 -71.4551764,42.4983533 -71.4548845,42.4979589 -71.4553672,42.4977436 -71.4554044,42.4978386 -71.4554578,42.4978475 -71.4556238,42.4982924</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">204493246</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4507146,42.4617527 -71.4511116,42.4617404 -71.4511491,42.4621999 -71.4507039,42.4622039 -71.4506723,42.4617538 -71.4507146,42.4617527</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">205714575</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4167131,42.4963479 -71.4167781,42.49634 -71.4169561,42.4967583 -71.4169189,42.496838 -71.4168299,42.4968154 -71.4168034,42.4968592 -71.4165138,42.4967703 -71.4165417,42.4967112 -71.4163651,42.4963114 -71.4164514,42.4963333 -71.4165869,42.4963061 -71.4167131,42.4963479</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">205811097</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;unknown&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4171407,42.4972897 -71.4171896,42.4972652 -71.4173004,42.4974606 -71.4172985,42.4976465 -71.41706,42.4976108 -71.4170881,42.4975019 -71.4169961,42.4973291 -71.4167426,42.4971957 -71.4167782,42.4971525 -71.4165867,42.4970248 -71.4165285,42.497068 -71.4164064,42.4969572 -71.4164515,42.4969084 -71.4164871,42.4968671 -71.4170224,42.497177 -71.4171407,42.4972897</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">205968074</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4054322,42.5134748 -71.4053746,42.5134253 -71.4055531,42.5132653 -71.4056084,42.5133182 -71.4054322,42.5134748</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">206178503</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4156545,42.4920841 -71.4155831,42.4920715 -71.4154171,42.4920196 -71.4155058,42.4916496 -71.4157358,42.4916862 -71.4156545,42.4920841</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">206189213</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;capacity&quot;=&gt;&quot;12&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;opening_hours&quot;=&gt;&quot;sunrise-sunset&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4138475,42.502762 -71.4137661,42.5027238 -71.4138516,42.5025723 -71.4139338,42.5026098 -71.4138475,42.502762</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">206189217</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;unknown&quot;,&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;61&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Canterbury Hill Rd&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3977963,42.5121972 -71.3977263,42.5121972 -71.3976351,42.5121646 -71.3975683,42.5121483 -71.3976473,42.5116525 -71.3978793,42.5116696 -71.3977963,42.5121972</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215339475</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3987496,42.4671891 -71.3987151,42.4660826 -71.3978812,42.4660753 -71.397975,42.4671053 -71.3980687,42.4671781 -71.3982661,42.4671963 -71.3987496,42.4671891</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215340467</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3965805,42.4621198 -71.3964829,42.4619775 -71.3966592,42.4619243 -71.3966908,42.4619599 -71.3967069,42.4619481 -71.396718,42.4619219 -71.3966992,42.4618924 -71.3965062,42.4618491 -71.3964674,42.4617959 -71.3964297,42.4616716 -71.3965229,42.4616519 -71.3964874,42.4613934 -71.3964253,42.4614098 -71.3964186,42.4612314 -71.3964633,42.4612113 -71.3964387,42.4611586 -71.3967402,42.4612429 -71.3968178,42.4612364 -71.3968422,42.4616028 -71.3968455,42.461656 -71.396952,42.4616617 -71.3969454,42.4617855 -71.3968367,42.4618133 -71.3968256,42.4618419 -71.3968678,42.4618697 -71.3969964,42.4618697 -71.3970008,42.4618976 -71.3969598,42.461899 -71.3968567,42.461918 -71.3968356,42.4619745 -71.3968577,42.4620249 -71.3965805,42.4621198</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215340470</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3963744,42.461044 -71.3965014,42.4609896 -71.3964104,42.4608404 -71.3964543,42.4608161 -71.3963853,42.4607004 -71.3961768,42.4607722 -71.3963744,42.461044</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215340471</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.395618,42.4607979 -71.3959529,42.4606441 -71.3958487,42.4604821 -71.3957844,42.460505 -71.3957733,42.460433 -71.3953918,42.4604445 -71.395618,42.4607979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215940900</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4924384,42.5274725 -71.4925072,42.5273613 -71.4923617,42.5273028 -71.4922849,42.5274237 -71.4924384,42.5274725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">215944255</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4458525,42.5194386 -71.4460232,42.5193586 -71.4459378,42.5192546 -71.4457512,42.5193345 -71.4458525,42.5194386</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">217701279</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4620984,42.5165298 -71.4621435,42.5164481 -71.4618892,42.5163816 -71.4618645,42.5164753 -71.4620984,42.5165298</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">217701280</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4489038,42.5264607 -71.4489522,42.5263347 -71.4490116,42.5263404 -71.4489802,42.5264409 -71.4489038,42.5264607</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">218020448</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4225162,42.5127837 -71.4220924,42.5126512 -71.4222748,42.512323 -71.4227013,42.5124653 -71.4225162,42.5127837</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">218020450</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4200781,42.5118801 -71.4202149,42.5116508 -71.4196705,42.511457 -71.4194398,42.5116488 -71.4200781,42.5118801</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">218397299</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4449065,42.530531 -71.4448691,42.5305205 -71.444812,42.5305941 -71.4445603,42.5304942 -71.4446049,42.530431 -71.4445871,42.5303627 -71.4445175,42.5303232 -71.4446799,42.5301194 -71.4447745,42.5299536 -71.4449155,42.5298353 -71.4451724,42.5297472 -71.4452974,42.5297314 -71.4453527,42.5298392 -71.4453818,42.5299058 -71.4449571,42.5305425 -71.4449065,42.530531</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">228908548</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4669166,42.533455 -71.4661369,42.5329577 -71.4660799,42.5329901 -71.4668861,42.5334799 -71.4669166,42.533455</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">228908553</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4654925,42.5326257 -71.4649149,42.5330102 -71.4648875,42.5329751 -71.4654531,42.5325863 -71.4653588,42.5325177 -71.4653518,42.5322762 -71.465415,42.5322379 -71.465502,42.5321833 -71.465743,42.5324683 -71.4654925,42.5326257</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">228908555</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4654738,42.5319962 -71.465423,42.531923 -71.4650761,42.532058 -71.465149,42.5321453 -71.4652531,42.5320995 -71.4653071,42.5321603 -71.4653806,42.5321236 -71.4653272,42.5320613 -71.4654738,42.5319962</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">229120837</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4253322,42.5134913 -71.4249448,42.5132762 -71.4251516,42.5130752 -71.4252593,42.513152 -71.4252992,42.5133159 -71.4253548,42.5133402 -71.4253844,42.5133582 -71.4253322,42.5134913</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">231618830</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4786922,42.4991125 -71.4785312,42.499148 -71.4784215,42.4992266 -71.4783223,42.4991639 -71.4784215,42.4990802 -71.4786278,42.4990373 -71.4788111,42.499007 -71.4788477,42.4990492 -71.4789765,42.4990413 -71.4791696,42.4991401 -71.479278,42.499606 -71.479294,42.4997029 -71.4791696,42.4999786 -71.479234,42.5001566 -71.4792071,42.5003425 -71.4795223,42.5005018 -71.4792874,42.5007764 -71.4790986,42.5006799 -71.4786791,42.5011958 -71.4784907,42.501401 -71.4784187,42.5013669 -71.4784354,42.5013177 -71.4782245,42.5011999 -71.4781378,42.5008728 -71.4780414,42.5005484 -71.4779712,42.5002805 -71.4780772,42.5002316 -71.4781162,42.5002244 -71.4781441,42.500184 -71.4780916,42.500117 -71.4781614,42.5000221 -71.4781935,42.4999153 -71.4780958,42.4995577 -71.4781468,42.4995489 -71.4782714,42.4994676 -71.4783892,42.49989 -71.4783335,42.499913 -71.4782844,42.499913 -71.478262,42.5000012 -71.4781421,42.5002319 -71.4781613,42.500251 -71.4781362,42.5003073 -71.4781919,42.5003309 -71.4782322,42.5002919 -71.4787805,42.5005255 -71.4790462,42.5002555 -71.4790784,42.5001605 -71.4787843,42.4991963 -71.4788556,42.4991752 -71.4788,42.4990788 -71.4787221,42.4990644 -71.4786922,42.4991125</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">231618894</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4777223,42.4980541 -71.4774191,42.4978552 -71.4770576,42.4976645 -71.4769758,42.4977202 -71.4765628,42.4976688 -71.4763503,42.4976627 -71.4763116,42.4975957 -71.4762742,42.4975551 -71.4762919,42.4974333 -71.4763982,42.4973491 -71.4767089,42.4973622 -71.4768839,42.4974304 -71.4770482,42.4975021 -71.4775337,42.4977914 -71.4778302,42.4979662 -71.4784464,42.4983587 -71.4781116,42.4986283 -71.4783354,42.4988268 -71.4784916,42.4986959 -71.4785761,42.4988141 -71.4777483,42.4996337 -71.4777045,42.4996064 -71.4776433,42.4996699 -71.4773299,42.499514 -71.4772936,42.4995542 -71.477068,42.499758 -71.4770157,42.4997667 -71.4769499,42.4997549 -71.4767751,42.4996601 -71.4766107,42.4995714 -71.4763234,42.4993242 -71.4761547,42.4993391 -71.4760484,42.4993028 -71.4760068,42.4992588 -71.476108,42.4985529 -71.4761495,42.4985624 -71.4761781,42.4985127 -71.4762974,42.4984955 -71.4765232,42.4985777 -71.4767022,42.4987805 -71.4767281,42.4989183 -71.4767048,42.4991249 -71.4767939,42.4992561 -71.4769334,42.4990168 -71.476887,42.4988733 -71.4771427,42.4985954 -71.4770443,42.4985451 -71.4770248,42.4985991 -71.4766907,42.4985677 -71.4767254,42.4983679 -71.4771761,42.4984108 -71.4771622,42.4984888 -71.4772428,42.498497 -71.4777223,42.4980541</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">232393662</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4586671,42.4433839 -71.4584579,42.44376 -71.4575392,42.443502 -71.4575996,42.443372 -71.4570524,42.4432176 -71.4569988,42.4433126 -71.4567715,42.4432463 -71.4570632,42.4426832 -71.4586886,42.443186 -71.4586671,42.4433839</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">232393664</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4545902,42.4427545 -71.4538982,42.4425486 -71.4540054,42.4423428 -71.4545151,42.4423546 -71.4545902,42.4427545</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">232393665</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4549925,42.4422913 -71.454853,42.4425684 -71.4549633,42.44261 -71.4551164,42.442317 -71.4549925,42.4422913</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">232393666</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4556309,42.4428693 -71.4550193,42.4426951 -71.4549818,42.4427861 -71.4555933,42.4429524 -71.4556309,42.4428693</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">233328789</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.390039,42.4586404 -71.3896198,42.4586966 -71.3893911,42.4579886 -71.3898242,42.4579323 -71.390039,42.4586404</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">237029225</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3969298,42.4581227 -71.3968822,42.4582922 -71.3968119,42.4582852 -71.3968682,42.458111 -71.3969298,42.4581227</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">241572272</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4528681,42.4739032 -71.4529646,42.4738122 -71.4527769,42.4737172 -71.4524979,42.4736876 -71.452433,42.4738806 -71.4525516,42.4739388 -71.4528681,42.4739032</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">241572273</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4529029,42.4745363 -71.4528493,42.4746629 -71.4526079,42.4746233 -71.4526025,42.4745936 -71.4526374,42.4744809 -71.4529029,42.4745363</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">244491809</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4506962,42.4361348 -71.4507883,42.4363115 -71.4508493,42.4364325 -71.4508547,42.4364839 -71.4507519,42.4364796 -71.4506084,42.4364036 -71.4506469,42.4363586 -71.4505773,42.4363768 -71.4505484,42.4363265 -71.4505002,42.4361862 -71.4506962,42.4361348</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">245139904</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4215,42.4790027 -71.4212355,42.4789837 -71.4212877,42.4785889 -71.4213929,42.4785964 -71.4215521,42.4786079 -71.4215,42.4790027</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">247888343</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4360194,42.4747315 -71.4359539,42.4746208 -71.4359677,42.4745075 -71.4360022,42.474435 -71.4360643,42.4743561 -71.4361626,42.4742683 -71.4360574,42.4741843 -71.4359625,42.4741563 -71.435771,42.4742721 -71.4356795,42.4744452 -71.4356502,42.4745304 -71.4356606,42.4746806 -71.4357037,42.4747557 -71.435771,42.4748295 -71.4360194,42.4747315</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">247888344</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4368059,42.4760087 -71.436968,42.4758089 -71.4366247,42.4756384 -71.4365453,42.4757135 -71.4364298,42.475702 -71.4363228,42.4757847 -71.4368059,42.4760087</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">247888841</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4377411,42.4750597 -71.4375856,42.4751927 -71.4373717,42.4751055 -71.4372722,42.4751441 -71.4371715,42.4752156 -71.4369688,42.4751156 -71.4371217,42.4750221 -71.4373095,42.4748891 -71.4373717,42.474857 -71.4375682,42.4749386 -71.4375943,42.4749707 -71.4377411,42.4750597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">260300725</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;public&quot;,&quot;capacity&quot;=&gt;&quot;10&quot;,&quot;fee&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4747029,42.5141291 -71.4745527,42.5139828 -71.4744877,42.5140256 -71.4746343,42.5141747 -71.4747029,42.5141291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">260995756</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4242931,42.5247347 -71.4242421,42.5247678 -71.4240906,42.524755 -71.4240436,42.5247827 -71.4245234,42.525376 -71.4248684,42.5258027 -71.4249271,42.52578 -71.4250209,42.5257437 -71.4250843,42.5257191 -71.4242931,42.5247347</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">260995978</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4249409,42.525541 -71.4249797,42.5255215 -71.4251192,42.5256816 -71.4251702,42.5256598 -71.4252104,42.5257053 -71.4256154,42.5255294 -71.4255806,42.5254898 -71.425594,42.5254464 -71.425661,42.5254543 -71.4256959,42.52531 -71.4256154,42.5253001 -71.4256047,42.5252823 -71.4256691,42.5252665 -71.4255832,42.5251518 -71.4255323,42.5251498 -71.4248561,42.5254358 -71.4249409,42.525541</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">262717227</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4215988,42.5222004 -71.4214726,42.5221962 -71.4214787,42.5221517 -71.4215064,42.5217214 -71.4216276,42.521725 -71.4215988,42.5222004</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">263211933</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4228438,42.5259881 -71.4229126,42.5260255 -71.4230148,42.5260251 -71.4230124,42.5259967 -71.4230726,42.5259524 -71.4229454,42.5258832 -71.4228438,42.5259881</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">268715992</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4338246,42.5237473 -71.4334053,42.5241683 -71.4332084,42.5240619 -71.4336278,42.5236408 -71.4338246,42.5237473</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">278808664</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3890455,42.4653514 -71.3889649,42.4655338 -71.3886556,42.465685 -71.3885074,42.4656559 -71.3885845,42.4654417 -71.3881052,42.4653284 -71.3879993,42.4655394 -71.3882111,42.465598 -71.3880708,42.4658696 -71.3873987,42.4657283 -71.3878585,42.4650583 -71.3890455,42.4653514</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">278808666</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3894965,42.465443 -71.3894508,42.4655436 -71.3891485,42.4654689 -71.3890881,42.4656017 -71.3889645,42.4655712 -71.3890706,42.4653377 -71.3894965,42.465443</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">278808672</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3876888,42.4650934 -71.3877698,42.4651188 -71.3872769,42.4658203 -71.387076,42.4660214 -71.3867681,42.4659437 -71.3865259,42.4658518 -71.3860444,42.4656744 -71.3861432,42.4655407 -71.3869975,42.465865 -71.3873723,42.4653106 -71.3874964,42.4653543 -71.3876888,42.4650934</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">286520933</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4316667,42.5214541 -71.4316369,42.5219158 -71.4318832,42.5222139 -71.4319804,42.5221491 -71.4317147,42.5217797 -71.4318443,42.5215723 -71.4322072,42.5219093 -71.4323498,42.5220389 -71.4323689,42.5220508 -71.4326246,42.5222097 -71.4327775,42.5223047 -71.4329083,42.5224069 -71.4329849,42.5224667 -71.4331015,42.5227972 -71.4331056,42.5229955 -71.433108,42.5231148 -71.433108,42.5231418 -71.433108,42.5232184 -71.4330432,42.5232573 -71.4330951,42.5233157 -71.4330367,42.5235425 -71.4328942,42.5236915 -71.4326609,42.5235166 -71.4329591,42.5231826 -71.4323951,42.5228555 -71.4323822,42.5227842 -71.4322655,42.5227194 -71.4318637,42.5224796 -71.4317147,42.5224537 -71.4313841,42.5222723 -71.4311897,42.5224343 -71.4309909,42.5223609 -71.431102,42.5220676 -71.4313246,42.522119 -71.4312955,42.522032 -71.431252,42.5220214 -71.4312362,42.5219585 -71.4312254,42.5219038 -71.4312179,42.521844 -71.4312147,42.5217818 -71.4312208,42.5217194 -71.4312854,42.5212846 -71.4315329,42.521301 -71.4316667,42.5214541</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287418938</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4071172,42.5180703 -71.4071366,42.518005 -71.4072857,42.5180321 -71.4073138,42.5180703 -71.4073743,42.5180655 -71.4073408,42.5180209 -71.4074538,42.5178689 -71.407666,42.5179652 -71.4075428,42.5181531 -71.4072641,42.5181436 -71.4071172,42.5180703</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287418939</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4065392,42.5186006 -71.4058677,42.5184577 -71.4059167,42.5183325 -71.4059588,42.5183414 -71.4064118,42.5184379 -71.4065883,42.5184755 -71.4065392,42.5186006</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287636618</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4206413,42.5222761 -71.4207099,42.521793 -71.4207687,42.5217976 -71.4207753,42.5217509 -71.4212559,42.521788 -71.4212495,42.5218333 -71.4213863,42.5218439 -71.4213344,42.5222097 -71.4212162,42.5221994 -71.4211979,42.5222226 -71.4211641,42.5222395 -71.4211538,42.5223157 -71.4206413,42.5222761</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287636621</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4236448,42.521998 -71.4235836,42.5220737 -71.4235049,42.5220384 -71.4234283,42.5220055 -71.4233032,42.5219501 -71.4231856,42.5219069 -71.4230646,42.5218685 -71.4229313,42.5218311 -71.4228306,42.5218068 -71.4228679,42.5217184 -71.4228172,42.5217119 -71.42278,42.5217096 -71.4227394,42.5217113 -71.4227213,42.5219401 -71.4226114,42.5219359 -71.4226237,42.5216598 -71.4227021,42.5216626 -71.4227189,42.5215953 -71.4228488,42.5216246 -71.422991,42.5216563 -71.4231427,42.5216963 -71.4232833,42.5217432 -71.4234201,42.5217946 -71.4235542,42.5218539 -71.4236615,42.5219034 -71.4237432,42.5219506 -71.4238144,42.5220002 -71.4238707,42.5220556 -71.4239087,42.5221127 -71.4239271,42.5221604 -71.4239351,42.5222098 -71.4239324,42.5222533 -71.4239217,42.5222948 -71.4238949,42.5223284 -71.42386,42.5223442 -71.4238211,42.5223563 -71.4236287,42.5222855 -71.4234988,42.522246 -71.423365,42.5222114 -71.423222,42.5221824 -71.4230873,42.5221615 -71.4229541,42.522147 -71.4228149,42.5221376 -71.422811,42.5220623 -71.4228043,42.5219749 -71.4228791,42.5219762 -71.4229805,42.5219867 -71.4231258,42.5220025 -71.4232738,42.5220254 -71.4234305,42.5220573 -71.4235768,42.5220951 -71.4236204,42.522119 -71.4236634,42.5221551 -71.4236226,42.5222039 -71.4236701,42.5222184 -71.4238125,42.5222706 -71.4238204,42.5222436 -71.4238223,42.5222129 -71.4238164,42.5221767 -71.4238032,42.5221425 -71.4237743,42.5220991 -71.4237335,42.5220592 -71.4236897,42.5220268 -71.4236448,42.521998</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287643571</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4212865,42.5237732 -71.4212984,42.5238387 -71.4213124,42.5239095 -71.4213306,42.523983 -71.4213518,42.52405 -71.421379,42.5241253 -71.4214088,42.5241983 -71.4214406,42.5242677 -71.4214728,42.5243349 -71.4215103,42.524408 -71.4215479,42.5244752 -71.4215881,42.5245444 -71.421631,42.5246097 -71.4216767,42.5246749 -71.4217254,42.5247379 -71.4217789,42.5248033 -71.4218322,42.5248647 -71.4218939,42.5249339 -71.4219529,42.5249951 -71.4220119,42.5250544 -71.4220763,42.5251137 -71.4221406,42.5251711 -71.422205,42.5252244 -71.4222801,42.5252818 -71.4223579,42.5253351 -71.4224401,42.5253884 -71.4225219,42.5254399 -71.4225984,42.5253771 -71.4226642,42.5253185 -71.4227083,42.5252738 -71.4227475,42.5252305 -71.422781,42.5251831 -71.4228086,42.5251385 -71.4228434,42.5250794 -71.422883,42.5250171 -71.4229145,42.5249729 -71.4229502,42.5249313 -71.423012,42.524866 -71.423117,42.5247643 -71.42305,42.5247091 -71.4230968,42.5246688 -71.42306,42.5246407 -71.4230252,42.5246118 -71.4229801,42.5245717 -71.4229371,42.524532 -71.4228979,42.5244927 -71.4228562,42.5244494 -71.4228115,42.5243992 -71.4227811,42.5243634 -71.4227508,42.5243221 -71.422718,42.5242751 -71.4226912,42.5242309 -71.4226554,42.5241656 -71.422621,42.5240976 -71.4225962,42.5240394 -71.4222864,42.5241221 -71.4222625,42.5240687 -71.4222431,42.524017 -71.4222288,42.5239674 -71.4222163,42.5239176 -71.4222052,42.5238625 -71.4221975,42.5238067 -71.4221914,42.5237532 -71.4221863,42.5236924 -71.4221829,42.5236372 -71.4221818,42.5235692 -71.4221858,42.5235004 -71.4221922,42.5234436 -71.4221987,42.5233921 -71.4217205,42.5233489 -71.4217143,42.523436 -71.4217135,42.5235101 -71.4215988,42.5235046 -71.4214888,42.5236074 -71.421373,42.5236195 -71.4213993,42.523762 -71.4212865,42.5237732</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287643704</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4226325,42.523318 -71.4224152,42.523353 -71.4224318,42.5234188 -71.4224532,42.5234682 -71.422472,42.5235136 -71.4224941,42.5235627 -71.422522,42.5236115 -71.4225479,42.5236519 -71.4225766,42.5236935 -71.4226195,42.5237489 -71.4226705,42.5238023 -71.4227241,42.5238497 -71.4228983,42.5237427 -71.4228506,42.5237005 -71.4228111,42.5236592 -71.4227762,42.5236142 -71.4227515,42.5235784 -71.4227315,42.5235471 -71.4227072,42.5235034 -71.4226863,42.5234588 -71.4226697,42.5234184 -71.4226509,42.5233751 -71.4226325,42.523318</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287646913</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4272824,42.5257353 -71.4273172,42.5257898 -71.4273547,42.5258352 -71.4273991,42.5258821 -71.427451,42.5259299 -71.427513,42.5259756 -71.4275827,42.5260191 -71.4276417,42.5260527 -71.4277051,42.5260818 -71.4282506,42.5263156 -71.4283015,42.5263274 -71.4283525,42.5263314 -71.4284059,42.5263272 -71.4284517,42.5263136 -71.428492,42.5262958 -71.4285271,42.526266 -71.4288607,42.525953 -71.4288987,42.5259109 -71.4289209,42.5258782 -71.4289344,42.5258408 -71.4289344,42.525803 -71.428924,42.5257672 -71.4288989,42.5257318 -71.4288608,42.5256984 -71.4280823,42.5252281 -71.4277025,42.5255916 -71.4272824,42.5257353</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287647225</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4297625,42.5257827 -71.4292838,42.5262395 -71.4294871,42.5263828 -71.4295291,42.5265074 -71.4296623,42.5266147 -71.4297876,42.5266971 -71.429672,42.5267987 -71.4298477,42.5269282 -71.4303706,42.5266168 -71.4304764,42.5265382 -71.4313128,42.5256987 -71.4311187,42.5255924 -71.430837,42.5258674 -71.4308994,42.5259019 -71.4308271,42.5259832 -71.4306494,42.5261518 -71.4303577,42.5259637 -71.4304049,42.5259251 -71.4302597,42.5258354 -71.430216,42.5258735 -71.4301213,42.5258132 -71.4300801,42.5257935 -71.43003,42.5257791 -71.4299742,42.5257751 -71.4299139,42.5257795 -71.4298691,42.5257954 -71.429832,42.5258168 -71.4297625,42.5257827</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">287648896</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4255779,42.5240988 -71.4255421,42.524069 -71.4255119,42.5240318 -71.4254883,42.5239903 -71.4254765,42.5239392 -71.4254815,42.5238892 -71.4255028,42.5238303 -71.4255275,42.5237871 -71.4255642,42.5237407 -71.4256056,42.5237022 -71.4256558,42.5236659 -71.4257186,42.5236312 -71.4257856,42.5236114 -71.4258527,42.5236074 -71.4259197,42.5236114 -71.4259787,42.5236252 -71.4260404,42.523649 -71.4261007,42.5236793 -71.4261674,42.5237207 -71.4262333,42.5237645 -71.4263035,42.523812 -71.4263808,42.5238712 -71.4264465,42.5239289 -71.4265086,42.5239906 -71.4265609,42.5240503 -71.4266107,42.5241145 -71.4266564,42.5241849 -71.4266965,42.5242556 -71.4267319,42.5243337 -71.4268197,42.5245694 -71.4261682,42.5247011 -71.4260854,42.5244787 -71.426064,42.5244316 -71.4260406,42.5243909 -71.4260132,42.524352 -71.4259841,42.524318 -71.4259492,42.5242812 -71.4259106,42.5242499 -71.4258665,42.5242173 -71.4258143,42.5242535 -71.4255779,42.5240988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">304412675</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4511637,42.4327418 -71.4514295,42.4326791 -71.4515145,42.4328738 -71.4515135,42.432919 -71.4513511,42.4329061 -71.4512819,42.4329329 -71.4512957,42.4329449 -71.4513474,42.4329467 -71.4512874,42.4331756 -71.4512182,42.4331618 -71.4510761,42.4331359 -71.4512034,42.4328424 -71.4512653,42.4328249 -71.4512643,42.4328074 -71.451197,42.4328249 -71.4511637,42.4327418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">308714091</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4553645,42.4645712 -71.4551709,42.4644888 -71.4549595,42.4646948 -71.4545445,42.4644431 -71.4544746,42.464371 -71.4546682,42.4642488 -71.4547041,42.4641267 -71.4546482,42.4640943 -71.4542492,42.4644402 -71.4544906,42.4646507 -71.4549515,42.464948 -71.4553645,42.4645712</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">308714092</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;fee&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4558772,42.4646212 -71.4555859,42.4644534 -71.4554343,42.4644137 -71.4554104,42.4642621 -71.4554962,42.4642474 -71.4557256,42.4643107 -71.4559949,42.464474 -71.4558772,42.4646212</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">311676888</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4522175,42.4338962 -71.4519622,42.4337336 -71.4519133,42.433779 -71.4518932,42.4338621 -71.4518827,42.4338734 -71.451825,42.433835 -71.4515269,42.4340928 -71.4515802,42.4341243 -71.4515462,42.434168 -71.4516108,42.4342143 -71.4516038,42.4342248 -71.4517035,42.4342869 -71.4517568,42.4342441 -71.451818,42.4342449 -71.4520147,42.4340684 -71.4522175,42.4338962</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">311677778</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4498045,42.4770756 -71.4492213,42.4773472 -71.4491558,42.4771969 -71.4495669,42.476958 -71.449596,42.4769883 -71.4497196,42.4769265 -71.4498045,42.4770756</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Warners Pond Viewpoint</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">311845711</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3987647,42.4620604 -71.3988401,42.4620566 -71.3988908,42.4620738 -71.3989168,42.4620969 -71.3989415,42.4621285 -71.3989854,42.4621631 -71.3989588,42.462212 -71.3989245,42.4622732 -71.3988626,42.4622526 -71.3988026,42.462232 -71.3987764,42.4622076 -71.3987375,42.4621922 -71.3986997,42.4621779 -71.3986633,42.4621659 -71.3986867,42.4621381 -71.3987647,42.4620604</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">313034849</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;destination&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4744433,42.4793813 -71.474008,42.4794476 -71.4739324,42.4791775 -71.4743678,42.4791112 -71.4744433,42.4793813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">314618397</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4588798,42.5256726 -71.4588646,42.5257692 -71.4588475,42.5258774 -71.458661,42.5258676 -71.4586686,42.5257456 -71.458777,42.5256698 -71.4588798,42.5256726</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">314769022</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4506341,42.5121697 -71.4507992,42.5121812 -71.4507838,42.5123588 -71.45062,42.5123492 -71.4506341,42.5121697</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">315039303</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4554578,42.512398 -71.4554477,42.5123388 -71.4553376,42.5123472 -71.4553531,42.5124069 -71.4554578,42.512398</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Avis Parking Lot</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">320318193</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;no&quot;,&quot;addr:city&quot;=&gt;&quot;Maynard&quot;,&quot;addr:housenumber&quot;=&gt;&quot;27&quot;,&quot;addr:postcode&quot;=&gt;&quot;01754&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Acton Street&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;operator&quot;=&gt;&quot;Avis&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4507697,42.4345739 -71.4509081,42.4344557 -71.4507459,42.4342368 -71.450481,42.4343536 -71.4505799,42.4344805 -71.4506431,42.4344601 -71.4507697,42.4345739</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">323874913</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4626523,42.4871287 -71.4620051,42.4878289 -71.4628918,42.4882711 -71.4631636,42.4880454 -71.4639305,42.4885613 -71.4643912,42.488278 -71.4643612,42.4881928 -71.4644234,42.4881467 -71.4641332,42.4879325 -71.4640111,42.4878841 -71.4635068,42.4881536 -71.4631958,42.4879601 -71.4631981,42.487898 -71.4629402,42.4877644 -71.4631336,42.4874408 -71.4628619,42.4873118 -71.4626523,42.4871287</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">323903814</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4745477,42.475672 -71.4742448,42.4756622 -71.4742545,42.4755009 -71.4745624,42.4754993 -71.4745477,42.475672</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">337266006</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4914855,42.4763722 -71.4909969,42.4768168 -71.4905792,42.4765213 -71.4911788,42.4760401 -71.4914855,42.4763722</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">337266007</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4907588,42.477644 -71.4901553,42.4782208 -71.489862,42.4783968 -71.4897772,42.4783012 -71.4901183,42.4780579 -71.4905224,42.477669 -71.4906561,42.4774664 -71.4906984,42.4775169 -71.4907588,42.477644</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">337266008</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4912562,42.47718 -71.4908216,42.4775732 -71.4905968,42.4774114 -71.4907771,42.4770735 -71.4905186,42.4766032 -71.4905914,42.4765477 -71.4909835,42.4768226 -71.4908803,42.4769301 -71.4912562,42.47718</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">338975525</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3957546,42.4602839 -71.3956178,42.4600811 -71.3955607,42.4601121 -71.395463,42.4599752 -71.3955257,42.45995 -71.3954874,42.4598897 -71.395432,42.4599093 -71.3952683,42.4596902 -71.3953343,42.459669 -71.3952732,42.4595883 -71.3951722,42.459625 -71.3951364,42.4595533 -71.3950948,42.4596193 -71.3950566,42.4596087 -71.3949637,42.4594914 -71.3948765,42.4595199 -71.3947446,42.4593073 -71.3949661,42.4592462 -71.3950452,42.4593497 -71.3953025,42.4592984 -71.3953921,42.4594833 -71.395573,42.459458 -71.3955941,42.4595338 -71.3956829,42.4595256 -71.3958817,42.4598319 -71.3958198,42.4598506 -71.3958466,42.459906 -71.3958303,42.4599459 -71.3960356,42.4602644 -71.3957546,42.4602839</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">338975526</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3958721,42.4591483 -71.3953457,42.4592393 -71.3954191,42.4594587 -71.3955919,42.4594391 -71.3956103,42.4595134 -71.3957105,42.4594967 -71.3956967,42.4594414 -71.3958027,42.4594023 -71.3958721,42.4591483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">338996881</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Concord&quot;,&quot;addr:country&quot;=&gt;&quot;US&quot;,&quot;addr:postcode&quot;=&gt;&quot;01742&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.392377,42.4567968 -71.3912158,42.4570393 -71.3912607,42.4571568 -71.3911225,42.4571787 -71.3908748,42.4566385 -71.3909935,42.4566131 -71.3916017,42.4566051 -71.3916063,42.4566523 -71.3916593,42.4566442 -71.3916743,42.4566914 -71.3918263,42.4566788 -71.3923343,42.4566189 -71.3924898,42.4568516 -71.3925025,42.4569414 -71.3924245,42.4569407 -71.392377,42.4567968</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">338996882</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3943238,42.4568532 -71.3943742,42.4569939 -71.3937572,42.4570823 -71.3937714,42.4571365 -71.3937238,42.4572646 -71.3937431,42.4573069 -71.3934541,42.4573724 -71.3935707,42.4576447 -71.3936274,42.457645 -71.3936845,42.4577679 -71.3936842,42.4579269 -71.3935976,42.4579972 -71.3937352,42.4582184 -71.3937613,42.4583281 -71.3935956,42.4583883 -71.3936752,42.4585143 -71.3934806,42.4585873 -71.3931381,42.4580833 -71.3932342,42.4580456 -71.3931108,42.4578616 -71.3932394,42.4578136 -71.3928356,42.457234 -71.3916672,42.4574557 -71.3916481,42.4574628 -71.3915789,42.4573611 -71.3929057,42.457091 -71.3929203,42.4571272 -71.393793,42.4569551 -71.3943238,42.4568532</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">339008247</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3880207,42.4573183 -71.3879538,42.4574381 -71.3881589,42.4576639 -71.3888316,42.4575533 -71.3889053,42.4577514 -71.3893338,42.4576708 -71.3893523,42.4576339 -71.3890366,42.4575648 -71.3890643,42.4574266 -71.3889906,42.4574139 -71.3886991,42.4574657 -71.3884549,42.4574323 -71.3883098,42.4574185 -71.388228,42.4574047 -71.3880207,42.4573183</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">340632870</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4476613,42.4332273 -71.4478214,42.4333265 -71.4478649,42.4332915 -71.4479243,42.4333381 -71.4481381,42.4332047 -71.4479341,42.4329573 -71.4477107,42.4331339 -71.4477582,42.4331572 -71.4476613,42.4332273</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">340632874</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4465679,42.4344209 -71.446995,42.434542 -71.4465066,42.4354088 -71.4463704,42.4355404 -71.4460301,42.4353869 -71.4465679,42.4344209</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">340639142</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4429952,42.4375246 -71.4433748,42.43744 -71.4432147,42.4371029 -71.4431692,42.4371132 -71.4433234,42.4373992 -71.4429754,42.4374707 -71.4429952,42.4375246</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">340654844</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4499737,42.4383773 -71.4496708,42.4386874 -71.4493061,42.4384638 -71.4494526,42.4383196 -71.4496187,42.4383989 -71.449762,42.4382812 -71.4499737,42.4383773</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">340662336</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4554159,42.4347653 -71.4557806,42.4348662 -71.4556764,42.4349864 -71.4563551,42.4348916 -71.4565189,42.4349304 -71.4565492,42.4348831 -71.4555233,42.4346619 -71.4554159,42.4347653</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">364803787</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4932774,42.4527941 -71.4931325,42.4527739 -71.4931671,42.452554 -71.4933164,42.4526059 -71.4932774,42.4527941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">373705704</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4540837,42.4338195 -71.4542316,42.4334908 -71.4540625,42.4334459 -71.4539776,42.4337401 -71.4540382,42.4337431 -71.4540242,42.4338122 -71.4540837,42.4338195</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">373706171</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4723267,42.4772508 -71.4721375,42.4773018 -71.4720902,42.4771998 -71.4720987,42.4771998 -71.472088,42.4771747 -71.472117,42.4771657 -71.4721277,42.4771819 -71.4721981,42.4771597 -71.4721654,42.4770758 -71.4722087,42.4770676 -71.4722395,42.4771465 -71.4722569,42.4771388 -71.4722365,42.4770975 -71.4722655,42.4770821 -71.4722906,42.4771312 -71.4723045,42.4772033 -71.4723267,42.4772508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">373706172</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4724267,42.4772211 -71.472329,42.4772513 -71.4723083,42.4772019 -71.4724062,42.477174 -71.4724267,42.4772211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">373706902</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.472666,42.4769101 -71.4731868,42.4767404 -71.4732657,42.4766868 -71.4732404,42.476656 -71.473302,42.4766347 -71.4732491,42.476529 -71.4730345,42.4765258 -71.4728743,42.4765345 -71.4729327,42.4766757 -71.4726684,42.476738 -71.4725816,42.4767586 -71.472666,42.4769101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">373706904</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4729906,42.4768463 -71.4731312,42.4770377 -71.4731932,42.4770014 -71.4732813,42.4769936 -71.4733566,42.4769573 -71.4731976,42.4767498 -71.4729906,42.4768463</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">374372155</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3928856,42.4566053 -71.3929572,42.4566036 -71.3929629,42.4567201 -71.3928831,42.4567152 -71.3928856,42.4566053</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">374372157</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3927153,42.4565944 -71.3926648,42.4566181 -71.3927829,42.4568013 -71.39284,42.4567769 -71.3927153,42.4565944</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">374372158</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3933876,42.456645 -71.3933672,42.4567745 -71.3931122,42.4567541 -71.3931766,42.4568967 -71.3937232,42.4567851 -71.3937276,42.4567248 -71.3937928,42.4567265 -71.3937924,42.4566727 -71.3933876,42.456645</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">377083286</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;capacity&quot;=&gt;&quot;8&quot;,&quot;capacity:disabled&quot;=&gt;&quot;8&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4150495,42.5205741 -71.4150423,42.5205216 -71.4147256,42.5205453 -71.4146789,42.5205488 -71.4146861,42.5206013 -71.4147337,42.5205977 -71.4150495,42.5205741</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">378058927</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3851685,42.4643954 -71.3853028,42.4644286 -71.3851593,42.464745 -71.3845971,42.4646061 -71.3846734,42.4644381 -71.3851012,42.4645437 -71.3851685,42.4643954</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">379487334</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.46827,42.5172849 -71.4680885,42.5172542 -71.468153,42.5169858 -71.4683156,42.5170436 -71.46827,42.5172849</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">380495309</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;capacity&quot;=&gt;&quot;2&quot;,&quot;capacity:disabled&quot;=&gt;&quot;0&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;opening_hours&quot;=&gt;&quot;sunrise-sunset&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4648909,42.5292091 -71.4648713,42.5291424 -71.4647762,42.5291412 -71.4647913,42.5291991 -71.4648909,42.5292091</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">380495310</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4620987,42.5251292 -71.4619373,42.5249935 -71.4619614,42.5248478 -71.4621651,42.5247444 -71.4624021,42.5249779 -71.4620987,42.5251292</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">384694911</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4882089,42.4350958 -71.4882183,42.4350394 -71.4879286,42.4350186 -71.4879085,42.4351809 -71.4882129,42.4352086 -71.4882116,42.4352205 -71.4884034,42.4352383 -71.4884825,42.4352472 -71.4884879,42.4351849 -71.4885348,42.4351898 -71.4885254,42.4352393 -71.488799,42.4352631 -71.4888138,42.4351017 -71.4884731,42.435075 -71.4884691,42.4351146 -71.4882089,42.4350958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">384694912</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;gravel&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4884825,42.4352472 -71.4884798,42.4352591 -71.4885469,42.435265 -71.4884973,42.4357094 -71.4882572,42.4356827 -71.4883216,42.4352581 -71.4884007,42.4352631 -71.4884034,42.4352383 -71.4884825,42.4352472</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">385825405</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.387376,42.4591895 -71.3870799,42.4588312 -71.3870458,42.4588454 -71.3869883,42.4587652 -71.3868115,42.4588234 -71.3867923,42.4588737 -71.3867263,42.4589318 -71.3863706,42.459067 -71.3863322,42.4590277 -71.3856548,42.4593404 -71.3864536,42.4602032 -71.3866539,42.4604499 -71.3868818,42.4603635 -71.3867306,42.4601136 -71.386509,42.4600806 -71.3865857,42.459738 -71.3862236,42.4592996 -71.3866858,42.4590764 -71.3868068,42.4592245 -71.3868903,42.4591927 -71.3870927,42.4594174 -71.387376,42.4591895</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">400355073</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3907662,42.5017409 -71.3907674,42.501525 -71.3906819,42.5014672 -71.3905413,42.5016623 -71.3907662,42.5017409</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">400355628</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4709736,42.4759773 -71.4709732,42.4758918 -71.4709329,42.475891 -71.4708518,42.4759727 -71.4709736,42.4759773</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">401982595</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;,&quot;capacity&quot;=&gt;&quot;10&quot;,&quot;capacity:disabled&quot;=&gt;&quot;2&quot;,&quot;lit&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4704143,42.4761766 -71.4703425,42.4761735 -71.4703015,42.4761438 -71.4696785,42.4761245 -71.4696876,42.4762361 -71.4697935,42.476276 -71.4701364,42.4763079 -71.4702639,42.4763978 -71.4704188,42.4764001 -71.4704143,42.4761766</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">412223151</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4068341,42.5231376 -71.4068783,42.5226914 -71.406354,42.5225263 -71.4062574,42.5226736 -71.4067214,42.5231322 -71.4068341,42.5231376</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">414240209</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4333234,42.484763 -71.4331569,42.4845574 -71.4332203,42.4845136 -71.4333032,42.4844514 -71.4333228,42.4843984 -71.4336176,42.4844802 -71.433598,42.484532 -71.4336418,42.4845493 -71.4335462,42.4846841 -71.4336959,42.4847886 -71.433738,42.4847535 -71.4338298,42.4848082 -71.4337714,42.4848686 -71.4336942,42.4848372 -71.4336375,42.4848551 -71.4336012,42.4848954 -71.4335151,42.484866 -71.4335336,42.4848093 -71.4333879,42.4847399 -71.4333234,42.484763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">417990685</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4293441,42.5154368 -71.4291497,42.5152806 -71.4294179,42.5150493 -71.4295748,42.5150196 -71.4296874,42.5150493 -71.4297062,42.5151946 -71.4296794,42.5152786 -71.4296271,42.5153221 -71.4293441,42.5154368</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">425378949</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;,&quot;capacity&quot;=&gt;&quot;20&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4786554,42.4806779 -71.4786017,42.4807493 -71.4785744,42.4808304 -71.4786678,42.4808724 -71.4787133,42.4808773 -71.4787281,42.480827 -71.4787786,42.4808357 -71.4787641,42.4808819 -71.4790655,42.4809151 -71.4790828,42.4808493 -71.4791085,42.4808165 -71.4790539,42.480798 -71.4789299,42.4807816 -71.4787786,42.4807529 -71.4787307,42.4807389 -71.4786554,42.4806779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">425378950</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;,&quot;capacity&quot;=&gt;&quot;12&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4793073,42.4800426 -71.4793416,42.4800884 -71.479393,42.4801184 -71.479513,42.4800931 -71.4796094,42.4800979 -71.4797015,42.4800995 -71.4797583,42.4800939 -71.4797722,42.4800615 -71.479784,42.4799762 -71.4797862,42.4799435 -71.4797187,42.4799462 -71.4797079,42.4799983 -71.4796812,42.4799983 -71.4796844,42.4799454 -71.4796611,42.4799453 -71.4796596,42.4799806 -71.4795393,42.4799777 -71.4794905,42.4799944 -71.479471,42.480012 -71.4794389,42.4800175 -71.4794176,42.4800212 -71.4793073,42.4800426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">425550523</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4791553,42.4811309 -71.4791379,42.48109 -71.4791142,42.481037 -71.479039,42.4810561 -71.4790759,42.4811307 -71.4791553,42.4811309</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Harrington Park Parking Lot</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">437973510</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;Town of Concord Conservation Land&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;grass&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4047522,42.449157 -71.4045598,42.4491536 -71.404428,42.4491663 -71.4044155,42.4492849 -71.4046192,42.4492821 -71.4047067,42.4492734 -71.4047455,42.4492573 -71.4047522,42.449157</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">442746322</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4084373,42.4502297 -71.408497,42.4502763 -71.4083286,42.4503922 -71.40827,42.4503465 -71.4084373,42.4502297</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">442753513</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4063093,42.4531108 -71.4060876,42.4531439 -71.4060578,42.4530351 -71.4062795,42.4530021 -71.4063093,42.4531108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">443910952</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.400806,42.4563481 -71.4007882,42.4566157 -71.4010569,42.456625 -71.401085,42.4563591 -71.400806,42.4563481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">444767839</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4004773,42.4585338 -71.4004908,42.4584385 -71.3993582,42.458351 -71.3993447,42.4584464 -71.4004773,42.4585338</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">444798213</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4037005,42.4578417 -71.4033101,42.4578562 -71.4032581,42.4578582 -71.4032473,42.4577019 -71.4035385,42.457691 -71.4036897,42.4576853 -71.4036949,42.4577597 -71.4037005,42.4578417</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">445119526</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4391043,42.500479 -71.4390149,42.5005622 -71.4389511,42.5004728 -71.4390599,42.5004329 -71.4391043,42.500479</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">450684748</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4743361,42.4771888 -71.474192,42.4772184 -71.474085,42.4769827 -71.4742216,42.4769382 -71.4743361,42.4771888</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">450684749</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;customers&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4742823,42.4765891 -71.4742196,42.4765994 -71.4740727,42.4766655 -71.4740089,42.476678 -71.4739759,42.4764684 -71.4740545,42.4764661 -71.4741274,42.4764513 -71.4741388,42.4762816 -71.4742356,42.4762714 -71.4742823,42.4765891</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">451258426</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;65&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Powder Mill Road&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4298672,42.4405997 -71.4299503,42.4405601 -71.4298283,42.4404185 -71.4297156,42.4404888 -71.4296673,42.4404492 -71.4296231,42.4404819 -71.4296551,42.4405055 -71.4298162,42.4406244 -71.4298377,42.4406145 -71.4298635,42.4406386 -71.4298961,42.4406231 -71.4298672,42.4405997</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
