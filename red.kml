@@ -465,7 +465,7 @@
 		<SimpleData name="highway">footway</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4049195,42.5099239 -71.40478,42.50975 -71.40467,42.50965 -71.40455,42.50957 -71.40444,42.50946 -71.40433,42.50939 -71.40416,42.50934 -71.40402,42.50926 -71.40393,42.50919 -71.40378,42.50911 -71.4037551,42.509097</coordinates></LineString>
+      <LineString><coordinates>-71.4049195,42.5099239 -71.40478,42.50975 -71.4047184,42.509694 -71.40467,42.50965 -71.40455,42.50957 -71.40444,42.50946 -71.40433,42.50939 -71.40416,42.50934 -71.40402,42.50926 -71.40393,42.50919 -71.40378,42.50911 -71.4037551,42.509097</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
@@ -586,6 +586,16 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3947697,42.5031571 -71.3948,42.50325 -71.39482,42.50328 -71.39479,42.50332 -71.39477,42.50338 -71.39476,42.50342 -71.39473,42.50346 -71.39469,42.5035 -71.39466,42.50354 -71.39467,42.50359 -71.39467,42.50364 -71.39469,42.50368 -71.39469,42.50372 -71.39471,42.50375 -71.39474,42.50378 -71.39477,42.5038 -71.3948,42.5038</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Red</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">206875508</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3869195,42.501758 -71.387112,42.501779 -71.387242,42.501824 -71.387339,42.501869 -71.387404,42.501891 -71.3875,42.501913 -71.387565,42.501935 -71.387629,42.501934 -71.387725,42.501955 -71.387789,42.501954 -71.387885,42.501976 -71.387948,42.501951 -71.388107,42.501947 -71.388172,42.50197 -71.388236,42.501968 -71.3883052,42.5019478 -71.388394,42.501941 -71.388522,42.501939 -71.388585,42.501914 -71.388648,42.501912 -71.388711,42.501887 -71.388775,42.501886 -71.388838,42.501861 -71.389029,42.501857 -71.389125,42.501879 -71.389189,42.501878 -71.389285,42.501876 -71.389348,42.501851 -71.389411,42.501849 -71.389505,42.5018 -71.389569,42.501799 -71.389663,42.50175 -71.389758,42.501748 -71.38982,42.501699 -71.389883,42.501674 -71.389977,42.501625 -71.39004,42.5016 -71.390135,42.501598 -71.390199,42.501597 -71.390294,42.501595 -71.390359,42.501617 -71.390456,42.501639 -71.390519,42.501637 -71.39062,42.50166</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>

@@ -2,16 +2,20 @@
 
 # for bringing data down from Open Street Maps for Acton Conservation Land maps.
 # Jim Snyder-Grant 
+# if this gets any more complicated, let's change it to PERL or some such
+#
+# a quick debugging tip:launch this with 
+# bash-x  ./getosm (arguments)
 
 if [ $# -eq 0 ]; then
-  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'all'"
+  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'all'"
   exit
 fi
 
 args=("$@")
 if [[ " ${args[@]} " =~ "all" ]]; then
     unset args
-    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town')
+    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping')
 fi
 
 # Using a bounding box makes the searches go more quickly
@@ -22,18 +26,21 @@ fi
  ACTON_AREA_ID=3601832779
  # we get canoe launch by ID since it's a conservation restriction not owned by Acton
  CANOE_LAUNCH_ID="449483835"
- # generic trails filter includes both paths and footways. There's a lot more on 
- # the OSM wiki about the difference between these two. 
+ # generic trails filter includes paths, footways and tracks. There's a lot more on 
+ # the OSM wiki about the difference between these. We might eventually remove footways 
  # Acton data is not entirely consistent, so we grab both. 
- TRAILS_FILTER="way[\"highway\"~\"path|footway\"][\"name\""
+ TRAILS_FILTER="way[\"highway\"~\"path|footway|track\"][\"name\""
  # for trails, we surpress special treatment for trails that are entirely outside Acton 
  AREA_FILTER="(area:$ACTON_AREA_ID)"
+ # by default, extract lines. But exceptions are made below 
+ geometry="lines"   
  
  for arg in ${args[@]}; do
    if [ ${arg} = "bounds" ]; then
        filters="(way($CANOE_LAUNCH_ID);way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i])"
        KMLcolor="ffffffff"
        AREA_FILTER=""
+       geometry="multipolygons"
    elif [ ${arg} = "red" ]; then
         KMLcolor="ff0000ff"
         filters="$TRAILS_FILTER~\"${arg}\",i]"
@@ -50,22 +57,22 @@ fi
         KMLcolor="ff00ff00"
         filters="rel($ACTON_ID)"
         AREA_FILTER=""
+   elif [ ${arg} = "parking" ]; then
+        KMLcolor="50BEBEBE"
+        filters="way[\"amenity\"=\"parking\"]"
+        geometry="multipolygons"
+   elif [ ${arg} = "camping" ]; then
+        KMLcolor="643C9614"
+        filters="node[\"tourism\"=\"camp_site\"]"
+        geometry="points" 
    else
      echo "unprocessed arg ${arg}"
+     exit 1
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
-   echo "wget args: " ${wget_args}
+
     wget -O ${arg}.osm "${wget_args}"
-    
-    # what sort of geometry will be extracting?
-    if [ -z $AREA_FILTER ] ; then
-      geometry="multipolygons"    
-    else
-     geometry="lines"
-    fi 
-    echo $AREA_FILTER
-    echo $geometry
- 
+     
     # convert to KML for checking in Google Earth
     rm -f ${arg}.kml
     ogr2ogr -f KML ${arg}.kml ${arg}.osm ${geometry}
