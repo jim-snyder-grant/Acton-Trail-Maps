@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="points" id="points">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="is_in" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">65211682</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3486235,42.4602749</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">65246011</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3274067,42.4748793</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">65275511</SimpleData>
+		<SimpleData name="highway">traffic_signals</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3401258,42.444383</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">66388255</SimpleData>
+		<SimpleData name="highway">traffic_signals</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.31406,42.18884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">67884927</SimpleData>
+		<SimpleData name="ref">A5</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.086301,42.617615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">67930079</SimpleData>
+		<SimpleData name="ref">23</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.109795,42.640868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">67963059</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;private&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1983796,42.6586499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">68345292</SimpleData>
+		<SimpleData name="ref">NA21</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.085402,42.617891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">70272476</SimpleData>
+		<SimpleData name="highway">traffic_signals</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3601424,42.362982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">70291301</SimpleData>
+		<SimpleData name="highway">traffic_signals</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3614059,42.3643746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">72802185</SimpleData>
+		<SimpleData name="highway">stop</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2760299,42.494441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">72806133</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.276241,42.4942933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">72827548</SimpleData>
+		<SimpleData name="highway">priority</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2784848,42.4932847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">73660541</SimpleData>
+		<SimpleData name="ref">16</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.998386,42.6410104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">73666567</SimpleData>
+		<SimpleData name="ref">14</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0026632,42.6412554</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">75259393</SimpleData>
+		<SimpleData name="highway">turning_circle</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4121872,42.2393198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">321331734</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1346805,42.6475375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>11</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">570286518</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3198474,42.163368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>12</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">570286545</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3206319,42.163317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>4</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">570296699</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3150488,42.1615181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">570296900</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3167868,42.1634785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">570296976</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3181909,42.1646785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>10</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571267460</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3188146,42.164773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571268197</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.315564,42.161878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571268546</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.314385,42.1602592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>6</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571268604</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3123247,42.1563197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>8A</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571523831</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3100674,42.160509</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>7</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571525588</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3118463,42.157633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Noon Hill Lookout</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571525656</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;viewpoint&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3106554,42.1574103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>17</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">571530360</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.330478,42.1639774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">572695975</SimpleData>
+		<SimpleData name="other_tags">&quot;railway&quot;=&gt;&quot;level_crossing&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.319353,42.1948498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>King Phillip's Overlook</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">599861495</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;viewpoint&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3460408,42.2160296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rocky Narrows Overlook</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">599862186</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;viewpoint&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3439916,42.2191761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">599862330</SimpleData>
+		<SimpleData name="other_tags">&quot;leisure&quot;=&gt;&quot;slipway&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3422535,42.2219649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cartopper Only Launch</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">602821396</SimpleData>
+		<SimpleData name="other_tags">&quot;leisure&quot;=&gt;&quot;slipway&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3604996,42.4194044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">626322188</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing_ref&quot;=&gt;&quot;zebra&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2860205,42.4890994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">626944406</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;source_ref&quot;=&gt;&quot;www.flickr.com/photos/12580474@N06/15409983727/in/set-72157648896634082/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2724279,42.5235944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">631002340</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3403718,42.4451103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">981562676</SimpleData>
+		<SimpleData name="ref">A6</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.088582,42.6166889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1053107586</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2549954,42.6555155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1072857666</SimpleData>
+		<SimpleData name="other_tags">&quot;railway&quot;=&gt;&quot;level_crossing&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3253812,42.1994058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098749</SimpleData>
+		<SimpleData name="ref">NA23</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0835402,42.6206893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098757</SimpleData>
+		<SimpleData name="ref">NA22</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0836042,42.6205052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098768</SimpleData>
+		<SimpleData name="ref">NA27</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0764113,42.6289404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098908</SimpleData>
+		<SimpleData name="ref">NA25</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0812727,42.6285689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098911</SimpleData>
+		<SimpleData name="ref">NA24</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0818093,42.6282666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1347098953</SimpleData>
+		<SimpleData name="ref">NA26</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0824071,42.6321858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1453783393</SimpleData>
+		<SimpleData name="ref">A8</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0934774,42.6185544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1517886296</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3596663,42.4041015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1676950129</SimpleData>
+		<SimpleData name="ref">4</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1087146,42.638204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1710143750</SimpleData>
+		<SimpleData name="ref">22</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1113831,42.6454299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1710220679</SimpleData>
+		<SimpleData name="ref">3</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1083652,42.6372074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1752559160</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.354832,42.2233295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1911650466</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.123297,42.6438033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1998096063</SimpleData>
+		<SimpleData name="other_tags">&quot;amenity&quot;=&gt;&quot;parking&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4729737,42.2715445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1998096076</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4730497,42.2717734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">1998096334</SimpleData>
+		<SimpleData name="other_tags">&quot;amenity&quot;=&gt;&quot;parking&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4828646,42.2845104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2031010249</SimpleData>
+		<SimpleData name="ref">9A</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0196792,42.6409258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2031010251</SimpleData>
+		<SimpleData name="ref">8A</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.014275,42.6397039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2032869808</SimpleData>
+		<SimpleData name="ref">21</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0071782,42.6471916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2059121947</SimpleData>
+		<SimpleData name="other_tags">&quot;amenity&quot;=&gt;&quot;parking&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3892524,42.4851459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2079408344</SimpleData>
+		<SimpleData name="ref">26</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0091577,42.6434736</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2099017109</SimpleData>
+		<SimpleData name="ref">22</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.003797,42.6461921</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2099017117</SimpleData>
+		<SimpleData name="ref">23</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0035237,42.6443648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2144893387</SimpleData>
+		<SimpleData name="other_tags">&quot;amenity&quot;=&gt;&quot;parking&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4014187,42.4863201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2457423448</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3522894,42.4638351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2457531781</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3497433,42.4613925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2464497278</SimpleData>
+		<SimpleData name="ref">17</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.9955557,42.6412537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2464497325</SimpleData>
+		<SimpleData name="ref">15</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.9993344,42.6409029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2500994135</SimpleData>
+		<SimpleData name="ref">A7</SimpleData>
+		<SimpleData name="other_tags">&quot;junction&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0909297,42.6186389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2587432680</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1334442,42.6459181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2587432687</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1333312,42.6459649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2928933075</SimpleData>
+		<SimpleData name="other_tags">&quot;railway&quot;=&gt;&quot;level_crossing&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3416347,42.2093357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3068613353</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4013974,42.4863437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3068716486</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3893346,42.4851513</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3131776217</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2753439,42.4957255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3131780552</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2757351,42.4991443</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3131780554</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.27572,42.4993544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3131861357</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;button_operated&quot;=&gt;&quot;yes&quot;,&quot;crossing&quot;=&gt;&quot;traffic_signals&quot;,&quot;crossing_ref&quot;=&gt;&quot;zebra&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;traffic_signals:sound&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2789402,42.4919421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3153058730</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;button_operated&quot;=&gt;&quot;yes&quot;,&quot;crossing&quot;=&gt;&quot;traffic_signals&quot;,&quot;crossing_ref&quot;=&gt;&quot;zebra&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;traffic_signals:sound&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2790522,42.4918829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3252316683</SimpleData>
+		<SimpleData name="other_tags">&quot;ford&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2700571,42.5241092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3252800355</SimpleData>
+		<SimpleData name="other_tags">&quot;ford&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3396643,42.4500808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3440914207</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3479136,42.4661157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3464149321</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;uncontrolled&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.282073,42.4930091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3468595069</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;uncontrolled&quot;,&quot;crossing_ref&quot;=&gt;&quot;zebra&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2798533,42.4922038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3468595073</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;uncontrolled&quot;,&quot;crossing_ref&quot;=&gt;&quot;zebra&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2801049,42.4923001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3468595097</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2828537,42.4932384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3475203616</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2831952,42.4927313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3476432864</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2838379,42.4881816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3479032482</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2783505,42.4934102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3485117547</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2851492,42.4887112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3613727696</SimpleData>
+		<SimpleData name="highway">stop</SimpleData>
+		<SimpleData name="other_tags">&quot;direction&quot;=&gt;&quot;backward&quot;,&quot;stop&quot;=&gt;&quot;minor&quot;,&quot;traffic_sign&quot;=&gt;&quot;stop&quot;,&quot;traffic_sign:backward&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2783245,42.4934297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3674224711</SimpleData>
+		<SimpleData name="ref">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0244758,42.6447927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3752759665</SimpleData>
+		<SimpleData name="other_tags">&quot;railway&quot;=&gt;&quot;level_crossing&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3707254,42.2536872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">3816344221</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3148277,42.4797305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4223781367</SimpleData>
+		<SimpleData name="highway">traffic_signals</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2789868,42.4918578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4360362683</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2753516,42.4953461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4360494385</SimpleData>
+		<SimpleData name="highway">crossing</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3491275,42.4605591</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
