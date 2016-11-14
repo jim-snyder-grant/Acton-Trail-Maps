@@ -11,7 +11,7 @@ EXIT_STATUS=0
 #DEBUG=1
 
 if [ $# -eq 0 ]; then
-  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'all'"
+  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' 'all'"
   EXIT_STATUS=1
   exit $EXIT_STATUS
 fi
@@ -19,7 +19,7 @@ fi
 args=("$@")
 if [[ " ${args[@]} " =~ "all" ]]; then
     unset args
-    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping')
+    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' )
 fi
 
 # Using a bounding box makes the searches go more quickly
@@ -30,10 +30,9 @@ fi
  ACTON_AREA_ID=3601832779
  # we get canoe launch by ID since it's a conservation restriction not owned by Acton
  CANOE_LAUNCH_ID="449483835"
- # generic trails filter includes paths, footways and tracks. There's a lot more on 
- # the OSM wiki about the difference between these. We might eventually remove footways 
- # Acton data is not entirely consistent, so we grab both. 
- TRAILS_FILTER="way[\"highway\"~\"path|footway|track\"][\"name\""
+ # generic trails filter includes paths and tracks. We removed 'footway' after editing to
+ # remove that use fortrails in Acton 
+ TRAILS_FILTER="way[\"highway\"~\"path|track\"][access!=private][\"name\""
  # for trails, we surpress special treatment for trails that are entirely outside Acton 
  AREA_FILTER="(area:$ACTON_AREA_ID)"
  # by default, extract lines. But exceptions are made below 
@@ -41,7 +40,9 @@ fi
  
  for arg in ${args[@]}; do
    if [ ${arg} = "bounds" ]; then
-       filters="(way($CANOE_LAUNCH_ID);way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i])"
+   # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
+   # and then there's the canoe launch, which isn't owned by the town of Acton
+       filters="(way($CANOE_LAUNCH_ID);relation[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i];way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i])"
        KMLcolor="ffffffff"
        AREA_FILTER=""
        geometry="multipolygons"
@@ -59,7 +60,7 @@ fi
         filters="$TRAILS_FILTER!~\"Red|Blue|Yellow\",i]"
    elif [ ${arg} = "town" ]; then
         KMLcolor="ff00ff00"
-        filters="rel($ACTON_ID)"
+        filters="relation($ACTON_ID)"
         AREA_FILTER=""
    elif [ ${arg} = "parking" ]; then
         KMLcolor="50BEBEBE"
@@ -69,6 +70,9 @@ fi
         KMLcolor="643C9614"
         filters="node[\"tourism\"=\"camp_site\"]"
         geometry="points" 
+   elif [ ${arg} = "BCT" ]; then
+        KMLcolor="55FF78F0"  
+        filters="relation[\"name\"~\"Bay Circuit Trail\"]"      
    else
        echo "ERROR: Invalid arg ${arg}"
        EXIT_STATUS=1
@@ -105,8 +109,10 @@ fi
 	    echo "ERROR: Did not create " ${arg}.json
 	    EXIT_STATUS=1	
     fi
-    
+    # server was returning 429 errors (too many requests), so lets slow our rate down. 
+    sleep 5
  done
 
  exit $EXIT_STATUS
+
  
