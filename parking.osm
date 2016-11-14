@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-11-05T18:06:02Z"/>
+<meta osm_base="2016-11-14T16:16:02Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
@@ -3297,6 +3297,8 @@
     <nd ref="2139046643"/>
     <nd ref="2139046639"/>
     <tag k="amenity" v="parking"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
   </way>
   <way id="203936048">
     <nd ref="2139390659"/>
@@ -3367,6 +3369,8 @@
     <nd ref="2159702000"/>
     <nd ref="2159702006"/>
     <tag k="amenity" v="parking"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
   </way>
   <way id="206178503">
     <nd ref="2161885722"/>
@@ -3392,6 +3396,7 @@
     <tag k="opening_hours" v="sunrise-sunset"/>
     <tag k="supervised" v="no"/>
     <tag k="surface" v="ground"/>
+    <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
   </way>
   <way id="206189217">
     <nd ref="2161970200"/>
@@ -3409,6 +3414,7 @@
     <tag k="addr:street" v="Canterbury Hill Rd"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/robbinsmill/"/>
   </way>
   <way id="215339475">
     <nd ref="2247525162"/>
@@ -4975,6 +4981,7 @@
     <nd ref="4029272877"/>
     <nd ref="4029272878"/>
     <tag k="amenity" v="parking"/>
+    <tag k="website" v="http://www.actontrails.org/camp-acton/"/>
   </way>
   <way id="400355628">
     <nd ref="4029279597"/>
@@ -5174,7 +5181,14 @@
     <nd ref="4425739948"/>
     <nd ref="4425739947"/>
     <nd ref="4425385894"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="221"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Nagog Hill Road"/>
     <tag k="amenity" v="parking"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
   </way>
   <way id="450684748">
     <nd ref="4476063327"/>
@@ -5218,6 +5232,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Powder Mill Road"/>
     <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="unpaved"/>
   </way>
 
