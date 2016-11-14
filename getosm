@@ -64,7 +64,7 @@ fi
         AREA_FILTER=""
    elif [ ${arg} = "parking" ]; then
         KMLcolor="50BEBEBE"
-        filters="way[\"amenity\"=\"parking\"]"
+        filters="way[\"amenity\"=\"parking\"][\"website\"~\"actontrails\",i]"
         geometry="multipolygons"
    elif [ ${arg} = "camping" ]; then
         KMLcolor="643C9614"
