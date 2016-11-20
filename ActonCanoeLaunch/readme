@@ -1,0 +1,9 @@
+Eventually, this will be parameterized & scripted, so that all or any of the maps can udpated easily. 
+But here's a prototype, to explore what's doable in creating maps for a guidebook and the website. 
+
+getmap.sh - fetches the basic map from mapbox
+legend.sh - builds the legend
+guidebook.sh - assembles the guidebook version 
+
+later: scale.sh to build the scale
+webpdf: build the 8.5 X 11 PDF for the website that includes a title.  
