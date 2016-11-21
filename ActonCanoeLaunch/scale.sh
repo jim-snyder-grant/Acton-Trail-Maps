@@ -8,6 +8,6 @@ convert scale.png  -gravity west -pointsize 28 -annotate +990+20 'Feet' scale.pn
 convert scale.png  -gravity center -pointsize 30 -annotate -520-15  '0' scale.png
 convert scale.png  -gravity center -pointsize 30 -annotate -398-15  '125' scale.png
 convert scale.png  -gravity center -pointsize 30 -annotate -276-15  '250' scale.png
-convert scale.png  -gravity center -pointsize 30 -annotate -154-15  '500' scale.png
+convert scale.png  -gravity center -pointsize 30 -annotate -32-15  '500' scale.png
 convert scale.png  -gravity center -pointsize 30 -annotate +456-15  '1000' scale.png
 
