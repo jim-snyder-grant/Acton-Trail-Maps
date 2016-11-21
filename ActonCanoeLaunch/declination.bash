@@ -2,7 +2,7 @@
 
 # Build the declination
 # Start with a transparent screen:
-convert -size 160x398 xc:white -font Arial declination.png
+convert -size 160x400 xc:transparent -font Arial declination.png
 
 # True north line:
 convert declination.png -stroke black -draw "stroke-width 3 line 130,380 130,46" declination.png
@@ -19,7 +19,7 @@ convert declination.png -stroke black -draw "stroke-width 3 line 54,90 58,121" d
 convert declination.png -stroke black -draw "stroke-width 3 line 54,90 60,119" declination.png
 
 # Label magnetic arrow:
-convert declination.png -stroke black -pointsize 16 -annotate 345x345+42+88 "MN" declination.png
+convert declination.png -stroke black -pointsize 18 -annotate 345x345+40+88 "MN" declination.png
 
 
 # Dotted arc:
@@ -27,12 +27,12 @@ convert declination.png -stroke black -fill none -draw "stroke-width 2 stroke-da
 
 
 # Date of declination:
-convert declination.png -stroke black -draw 'font-size 18 text 110 396 "2016"' declination.png
+convert declination.png -stroke black -draw 'font-size 20 text 108 398 "2016"' declination.png
 
 # Label declination value:
-convert declination.png -stroke black -draw "stroke-width 2 line 12,220 110,220" declination.png
-convert declination.png -stroke black -draw 'font-size 18 text 38 217 "14.6°"' declination.png
-convert declination.png -stroke black -draw 'font-size 18 text 10 237 "259 MILS"' declination.png
+convert declination.png -stroke black -draw "stroke-width 2 line 2,220 110,220" declination.png
+convert declination.png -stroke black -draw 'font-size 24 text 24 216 "14.6°"' declination.png
+convert declination.png -stroke black -draw 'font-size 20 text  0 239 "259 MILS"' declination.png
 
 
 
