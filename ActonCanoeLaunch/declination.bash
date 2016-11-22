@@ -5,11 +5,10 @@
 convert -size 160x400 xc:transparent -font Arial declination.png
 
 # True north line:
-convert declination.png -stroke black -draw "stroke-width 3 line 130,380 130,46" declination.png
+convert declination.png -stroke black -draw "stroke-width 3 line 130,380 130,43" declination.png
 
 # Label north line with star:
-convert declination.png -stroke black -draw "polygon 130,1 134,8 140,8 135,13 136,19 130,16 124,19 125,13 120,8 126,8" declination.png
-
+composite north_star.png -geometry +107+4 declination.png declination.png
 
 # Magnetic north arrow:
 convert declination.png -stroke black -draw "stroke-width 3 line 130,380 54,90" declination.png
