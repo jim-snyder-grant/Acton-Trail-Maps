@@ -11,7 +11,7 @@ EXIT_STATUS=0
 #DEBUG=1
 
 if [ $# -eq 0 ]; then
-  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' 'all'"
+  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' 'all'"
   EXIT_STATUS=1
   exit $EXIT_STATUS
 fi
@@ -19,7 +19,7 @@ fi
 args=("$@")
 if [[ " ${args[@]} " =~ "all" ]]; then
     unset args
-    args=('red' 'blue' 'yellow' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' )
+    args=('red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' )
 fi
 
 # Using a bounding box makes the searches go more quickly
@@ -35,10 +35,11 @@ fi
  TRAILS_FILTER="way[\"highway\"~\"path|track\"][access!=private][\"name\""
  # for trails, we surpress special treatment for trails that are entirely outside Acton 
  AREA_FILTER="(area:$ACTON_AREA_ID)"
- # by default, extract lines. But exceptions are made below 
- geometry="lines"   
+
  
  for arg in ${args[@]}; do
+    # by default, extract lines. But exceptions are made below 
+ geometry="lines"   
    if [ ${arg} = "bounds" ]; then
    # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
    # and then there's the canoe launch, which isn't owned by the town of Acton
@@ -54,6 +55,9 @@ fi
         filters="$TRAILS_FILTER~\"${arg}\",i]"
    elif [ ${arg} = "yellow" ]; then
         KMLcolor="ff00ffff"
+        filters="$TRAILS_FILTER~\"${arg}\",i]"
+   elif [ ${arg} = "green" ]; then
+        KMLcolor="ff00AA14"
         filters="$TRAILS_FILTER~\"${arg}\",i]"
    elif [ ${arg} = "othertrails" ]; then
         KMLcolor="ffff00ff"
@@ -72,7 +76,8 @@ fi
         geometry="points" 
    elif [ ${arg} = "BCT" ]; then
         KMLcolor="55FF78F0"  
-        filters="relation[\"name\"~\"Bay Circuit Trail\"]"      
+        filters="relation[\"name\"~\"Bay Circuit Trail\"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)"
+        AREA_FILTER=""
    else
        echo "ERROR: Invalid arg ${arg}"
        EXIT_STATUS=1
@@ -89,11 +94,11 @@ fi
     # Let's color the KML bounds 
     sed -i  "s/<color>......../<color>${KMLcolor}/" ${arg}.kml
     # convert to GeoJSON for importing into MapBox
-    rm -f ${arg}.json
-    ogr2ogr -f GeoJSON ${arg}.json ${arg}.osm ${geometry}
+    rm -f ${arg}.geojson
+    ogr2ogr -f GeoJSON ${arg}.geojson ${arg}.osm ${geometry}
     # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
     # The key difference is that we must remove the crs line
-    sed -i s/\"crs.*$// ${arg}.json
+    sed -i s/\"crs.*$// ${arg}.geojson
     
     # just checking and announcing results
     if [ -f ${arg}.kml ]; then
@@ -103,15 +108,17 @@ fi
 	    EXIT_STATUS=1
     fi
     
-    if [ -f ${arg}.json ]; then
-	    echo "created "  ${arg}.json
+    if [ -f ${arg}.geojson ]; then
+	    echo "created "  ${arg}.geojson
     else
-	    echo "ERROR: Did not create " ${arg}.json
+	    echo "ERROR: Did not create " ${arg}.geojson
 	    EXIT_STATUS=1	
     fi
     # server was returning 429 errors (too many requests), so lets slow our rate down. 
     sleep 5
  done
+ # post-processing: remove 'conservation lands' from bounds names
+ sed -i  "s/ Conservation Land//" bounds.geojson
 
  exit $EXIT_STATUS
 
