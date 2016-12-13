@@ -34,6 +34,16 @@
 	<name>Yellow</name>
 	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">61912345</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4813894,42.482045 -71.4813662,42.4819649</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Yellow</name>
+	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912351</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 	</SchemaData></ExtendedData>
@@ -101,7 +111,7 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">201850998</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;,&quot;width&quot;=&gt;&quot;1.2&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4358893,42.480287 -71.4359193,42.4802577 -71.4361025,42.4802465 -71.4362483,42.4802672 -71.4362767,42.4803034 -71.4362943,42.4803432 -71.4362913,42.4804418 -71.4363637,42.4805375 -71.4364995,42.4806408 -71.4366454,42.4808339 -71.4368048,42.4809369 -71.4368187,42.481088 -71.4367714,42.4813498 -71.4368135,42.481413 -71.4369101,42.481472 -71.4370201,42.4815577 -71.437131,42.4816569 -71.4372536,42.4817911 -71.4374166,42.4818852</coordinates></LineString>
   </Placemark>
@@ -453,7 +463,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4374166,42.4818852 -71.4373995,42.4821598 -71.4373924,42.4822937 -71.4374218,42.4823264 -71.4373459,42.4824001 -71.4372321,42.482473 -71.4371598,42.4825602 -71.4371433,42.4825801 -71.4371315,42.4826509 -71.4370736,42.4827118 -71.4370049,42.4826951 -71.4369176,42.4827174 -71.4368611,42.4827111 -71.4368203,42.4826853 -71.4367967,42.48266 -71.4367873,42.4826283 -71.4367731,42.482542 -71.4367639,42.4825095 -71.4367453,42.4824434 -71.4366893,42.4823899 -71.4366284,42.4823505 -71.4365838,42.4822843 -71.4365607,42.4822499 -71.436476,42.4821943 -71.4364238,42.4821241 -71.4363854,42.4819682 -71.4363592,42.4818517 -71.4363286,42.4818339 -71.4363395,42.4818253 -71.4361858,42.4818746 -71.4359652,42.4819062 -71.4356622,42.4819471 -71.4355504,42.4819552 -71.4354178,42.4819941 -71.4353476,42.4820088 -71.4351919,42.4820666 -71.4350654,42.4820543 -71.4347661,42.482029</coordinates></LineString>
+      <LineString><coordinates>-71.4374166,42.4818852 -71.4373995,42.4821598 -71.4373924,42.4822937 -71.4374218,42.4823264 -71.4373459,42.4824001 -71.4372321,42.482473 -71.4371598,42.4825602 -71.4371433,42.4825801 -71.4371315,42.4826509 -71.4370736,42.4827118 -71.4370049,42.4826951 -71.4369176,42.4827174 -71.4368611,42.4827111 -71.4368203,42.4826853 -71.4367967,42.48266 -71.4367873,42.4826283 -71.4367731,42.482542 -71.4367639,42.4825095 -71.4367453,42.4824434 -71.4366893,42.4823899 -71.4366284,42.4823505 -71.4365838,42.4822843 -71.4365607,42.4822499 -71.436476,42.4821943 -71.4364238,42.4821241 -71.4363854,42.4819682 -71.4363592,42.4818517 -71.4363286,42.4818339 -71.4363395,42.4818253 -71.4361858,42.4818746 -71.4359652,42.4819062 -71.4356622,42.4819471 -71.4355504,42.4819552 -71.4354178,42.4819941 -71.4353476,42.4820088 -71.4351852,42.482033 -71.43506,42.4820503 -71.4347661,42.482029</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2016-12-12T19:26:03Z" areas="2016-12-12T18:43:01Z"/>
+
+  <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
+
+  <node id="1997723827" lat="42.5016644" lon="-71.3961733"/>
+  <node id="1997723889" lat="42.5023763" lon="-71.3971603"/>
+  <node id="1997723894" lat="42.5024396" lon="-71.3969887"/>
+  <node id="1997723898" lat="42.5024080" lon="-71.3966883"/>
+  <node id="1997723903" lat="42.5022339" lon="-71.3963879"/>
+  <node id="1997723911" lat="42.5019808" lon="-71.3963450"/>
+  <node id="1997723925" lat="42.5022814" lon="-71.3973749"/>
+  <node id="2156888141" lat="42.5069932" lon="-71.4076057"/>
+  <node id="4414835657" lat="42.5070322" lon="-71.4079870"/>
+  <way id="189124302">
+    <nd ref="1997723827"/>
+    <nd ref="1997723911"/>
+    <nd ref="1997723903"/>
+    <nd ref="1997723898"/>
+    <nd ref="1997723894"/>
+    <nd ref="1997723889"/>
+    <nd ref="1997723925"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Green"/>
+    <tag k="surface" v="dirt"/>
+  </way>
+  <way id="443981542">
+    <nd ref="2156888141"/>
+    <nd ref="4414835657"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Green"/>
+    <tag k="note" v="geometry very approximate"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+
+</osm>

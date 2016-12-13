@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-11-15T16:05:02Z"/>
+<meta osm_base="2016-12-12T19:25:03Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
@@ -376,7 +376,7 @@
   <node id="327939734" lat="42.4578589" lon="-71.4618530"/>
   <node id="327939823" lat="42.4776245" lon="-71.4843065"/>
   <node id="327940056" lat="42.4874658" lon="-71.4014232"/>
-  <node id="327940566" lat="42.5214680" lon="-71.4040278"/>
+  <node id="327940566" lat="42.5216785" lon="-71.4031749"/>
   <node id="327940715" lat="42.5008001" lon="-71.4519469"/>
   <node id="327941160" lat="42.4647919" lon="-71.4681024"/>
   <node id="327941180" lat="42.4823754" lon="-71.4032021"/>
@@ -403,7 +403,7 @@
   <node id="327946823" lat="42.5000800" lon="-71.4476537"/>
   <node id="327947348" lat="42.4475662" lon="-71.4502278"/>
   <node id="327947357" lat="42.5003054" lon="-71.4408509"/>
-  <node id="327948247" lat="42.5215313" lon="-71.4044066"/>
+  <node id="327948247" lat="42.5219524" lon="-71.4033565"/>
   <node id="327948391" lat="42.4978067" lon="-71.4472820"/>
   <node id="327948505" lat="42.4858518" lon="-71.4795780"/>
   <node id="327949030" lat="42.4509932" lon="-71.4472834"/>
@@ -427,7 +427,7 @@
   <node id="327954787" lat="42.4971501" lon="-71.4527502"/>
   <node id="327954833" lat="42.4903861" lon="-71.4785753"/>
   <node id="327954927" lat="42.4866891" lon="-71.3983078"/>
-  <node id="327955353" lat="42.5216902" lon="-71.4046326"/>
+  <node id="327955353" lat="42.5220371" lon="-71.4035919"/>
   <node id="327955566" lat="42.4472125" lon="-71.4505587"/>
   <node id="327955789" lat="42.4657298" lon="-71.4649224"/>
   <node id="327955958" lat="42.4844130" lon="-71.4487565"/>
@@ -467,7 +467,7 @@
   <node id="327965660" lat="42.4854675" lon="-71.4796862"/>
   <node id="327965743" lat="42.4773091" lon="-71.4824815"/>
   <node id="327965895" lat="42.4833426" lon="-71.4506784"/>
-  <node id="327966849" lat="42.5220757" lon="-71.4046000"/>
+  <node id="327966849" lat="42.5224375" lon="-71.4034185"/>
   <node id="327967132" lat="42.4988197" lon="-71.4464460"/>
   <node id="327967380" lat="42.4867190" lon="-71.4008777"/>
   <node id="327968012" lat="42.4464259" lon="-71.4456566"/>
@@ -489,7 +489,7 @@
   <node id="327972856" lat="42.4848332" lon="-71.4041727"/>
   <node id="327972912" lat="42.4572699" lon="-71.4639653"/>
   <node id="327973124" lat="42.4995339" lon="-71.4480777"/>
-  <node id="327973996" lat="42.5220624" lon="-71.4037685"/>
+  <node id="327973996" lat="42.5223046" lon="-71.4028807"/>
   <node id="327974195" lat="42.5001338" lon="-71.4418475"/>
   <node id="327974208" lat="42.4859254" lon="-71.4796061"/>
   <node id="327974585" lat="42.4659123" lon="-71.4656321"/>
@@ -1231,6 +1231,134 @@
   <node id="4502587553" lat="42.4879828" lon="-71.4818750"/>
   <node id="4502587554" lat="42.4904928" lon="-71.4802841"/>
   <node id="4502587703" lat="42.5003754" lon="-71.4390674"/>
+  <node id="4505078107" lat="42.5220056" lon="-71.4035017"/>
+  <node id="4505078108" lat="42.5219790" lon="-71.4034191"/>
+  <node id="4505078109" lat="42.5219281" lon="-71.4033046"/>
+  <node id="4505078110" lat="42.5218893" lon="-71.4032545"/>
+  <node id="4505078111" lat="42.5218581" lon="-71.4032388"/>
+  <node id="4505078112" lat="42.5218266" lon="-71.4032363"/>
+  <node id="4505078113" lat="42.5217778" lon="-71.4032351"/>
+  <node id="4505078114" lat="42.5217440" lon="-71.4032251"/>
+  <node id="4505078115" lat="42.5217063" lon="-71.4032053"/>
+  <node id="4544200467" lat="42.4641683" lon="-71.4704235"/>
+  <node id="4544200468" lat="42.4637077" lon="-71.4695149"/>
+  <node id="4544200469" lat="42.4638185" lon="-71.4688698"/>
+  <node id="4544200470" lat="42.4647510" lon="-71.4683173"/>
+  <node id="4544200471" lat="42.4633184" lon="-71.4669997"/>
+  <node id="4544200472" lat="42.4626546" lon="-71.4672263"/>
+  <node id="4544200473" lat="42.4624913" lon="-71.4669809"/>
+  <node id="4544200474" lat="42.4625210" lon="-71.4667066"/>
+  <node id="4544200475" lat="42.4625156" lon="-71.4664860"/>
+  <node id="4544200476" lat="42.4623513" lon="-71.4663124"/>
+  <node id="4544200477" lat="42.4622222" lon="-71.4662788"/>
+  <node id="4544200478" lat="42.4621104" lon="-71.4664250"/>
+  <node id="4544200479" lat="42.4619155" lon="-71.4667053"/>
+  <node id="4544200480" lat="42.4617389" lon="-71.4669058"/>
+  <node id="4544200481" lat="42.4616118" lon="-71.4669829"/>
+  <node id="4544200482" lat="42.4615242" lon="-71.4669132"/>
+  <node id="4544200483" lat="42.4614985" lon="-71.4667368"/>
+  <node id="4544200484" lat="42.4614569" lon="-71.4665330"/>
+  <node id="4544200485" lat="42.4614535" lon="-71.4661809"/>
+  <node id="4544200486" lat="42.4596815" lon="-71.4674000"/>
+  <node id="4544200487" lat="42.4600109" lon="-71.4684528"/>
+  <node id="4544200488" lat="42.4601509" lon="-71.4675998"/>
+  <node id="4544200489" lat="42.4605170" lon="-71.4674463"/>
+  <node id="4544200490" lat="42.4604997" lon="-71.4673182"/>
+  <node id="4544200491" lat="42.4611453" lon="-71.4672538"/>
+  <node id="4544200492" lat="42.4611215" lon="-71.4674201"/>
+  <node id="4544200493" lat="42.4615356" lon="-71.4674764"/>
+  <node id="4544200494" lat="42.4615425" lon="-71.4671586"/>
+  <node id="4544200495" lat="42.4620367" lon="-71.4672277"/>
+  <node id="4544200496" lat="42.4619086" lon="-71.4677158"/>
+  <node id="4544200497" lat="42.4621238" lon="-71.4678593"/>
+  <node id="4544200498" lat="42.4625126" lon="-71.4679405"/>
+  <node id="4544200499" lat="42.4630439" lon="-71.4684937"/>
+  <node id="4544200500" lat="42.4629029" lon="-71.4691917"/>
+  <node id="4544200501" lat="42.4629276" lon="-71.4699025"/>
+  <node id="4544200502" lat="42.4628391" lon="-71.4698904"/>
+  <node id="4544200503" lat="42.4627302" lon="-71.4706300"/>
+  <node id="4544200504" lat="42.4642919" lon="-71.4686083"/>
+  <node id="4544200505" lat="42.4645981" lon="-71.4682033"/>
+  <node id="4544200506" lat="42.4644500" lon="-71.4680887"/>
+  <node id="4544200507" lat="42.4641785" lon="-71.4678620"/>
+  <node id="4544200508" lat="42.4637386" lon="-71.4674503"/>
+  <node id="4544200509" lat="42.4639541" lon="-71.4676595"/>
+  <node id="4544200510" lat="42.4635265" lon="-71.4672283"/>
+  <node id="4544200511" lat="42.4626308" lon="-71.4672035"/>
+  <node id="4544200512" lat="42.4626150" lon="-71.4671854"/>
+  <node id="4544200513" lat="42.4625878" lon="-71.4671495"/>
+  <node id="4544200514" lat="42.4625692" lon="-71.4671182"/>
+  <node id="4544200515" lat="42.4625555" lon="-71.4670864"/>
+  <node id="4544200516" lat="42.4625392" lon="-71.4670531"/>
+  <node id="4544200517" lat="42.4625232" lon="-71.4670291"/>
+  <node id="4544200518" lat="42.4625117" lon="-71.4670184"/>
+  <node id="4544200519" lat="42.4625035" lon="-71.4670117"/>
+  <node id="4544200520" lat="42.4624939" lon="-71.4669950"/>
+  <node id="4544200521" lat="42.4624898" lon="-71.4669651"/>
+  <node id="4544200522" lat="42.4624080" lon="-71.4663600"/>
+  <node id="4544200523" lat="42.4624580" lon="-71.4663972"/>
+  <node id="4544200524" lat="42.4624794" lon="-71.4664148"/>
+  <node id="4544200525" lat="42.4624999" lon="-71.4664457"/>
+  <node id="4544200526" lat="42.4625222" lon="-71.4665232"/>
+  <node id="4544200527" lat="42.4625261" lon="-71.4665660"/>
+  <node id="4544200528" lat="42.4625275" lon="-71.4666155"/>
+  <node id="4544200529" lat="42.4625252" lon="-71.4666604"/>
+  <node id="4544200530" lat="42.4623249" lon="-71.4662949"/>
+  <node id="4544200531" lat="42.4623022" lon="-71.4662862"/>
+  <node id="4544200532" lat="42.4622795" lon="-71.4662792"/>
+  <node id="4544200533" lat="42.4622514" lon="-71.4662763"/>
+  <node id="4544200534" lat="42.4621985" lon="-71.4662849"/>
+  <node id="4544200535" lat="42.4621782" lon="-71.4662953"/>
+  <node id="4544200536" lat="42.4621641" lon="-71.4663058"/>
+  <node id="4544200537" lat="42.4621511" lon="-71.4663238"/>
+  <node id="4544200538" lat="42.4621436" lon="-71.4663416"/>
+  <node id="4544200539" lat="42.4621364" lon="-71.4663665"/>
+  <node id="4544200540" lat="42.4621249" lon="-71.4663951"/>
+  <node id="4544200541" lat="42.4620130" lon="-71.4665839"/>
+  <node id="4544200542" lat="42.4619914" lon="-71.4666191"/>
+  <node id="4544200543" lat="42.4619683" lon="-71.4666508"/>
+  <node id="4544200544" lat="42.4619325" lon="-71.4666915"/>
+  <node id="4544200545" lat="42.4618883" lon="-71.4667288"/>
+  <node id="4544200546" lat="42.4618641" lon="-71.4667496"/>
+  <node id="4544200547" lat="42.4617990" lon="-71.4668263"/>
+  <node id="4544200548" lat="42.4616447" lon="-71.4669638"/>
+  <node id="4544200549" lat="42.4616769" lon="-71.4669489"/>
+  <node id="4544200550" lat="42.4617000" lon="-71.4669414"/>
+  <node id="4544200551" lat="42.4617229" lon="-71.4669276"/>
+  <node id="4544200552" lat="42.4615893" lon="-71.4669863"/>
+  <node id="4544200553" lat="42.4615676" lon="-71.4669786"/>
+  <node id="4544200554" lat="42.4615479" lon="-71.4669579"/>
+  <node id="4544200555" lat="42.4615341" lon="-71.4669369"/>
+  <node id="4544200556" lat="42.4615138" lon="-71.4668820"/>
+  <node id="4544200557" lat="42.4615071" lon="-71.4668449"/>
+  <node id="4544200558" lat="42.4615018" lon="-71.4667701"/>
+  <node id="4544200559" lat="42.4614911" lon="-71.4666926"/>
+  <node id="4544200560" lat="42.4614824" lon="-71.4666550"/>
+  <node id="4544200561" lat="42.4614721" lon="-71.4666141"/>
+  <node id="4544200562" lat="42.4614640" lon="-71.4665762"/>
+  <node id="4544200563" lat="42.4614547" lon="-71.4664931"/>
+  <node id="4544200564" lat="42.4614551" lon="-71.4664617"/>
+  <node id="4544200565" lat="42.4614548" lon="-71.4664326"/>
+  <node id="4544200566" lat="42.4614566" lon="-71.4664107"/>
+  <node id="4544200567" lat="42.4614585" lon="-71.4663589"/>
+  <node id="4544200568" lat="42.4614585" lon="-71.4663148"/>
+  <node id="4544200569" lat="42.4614560" lon="-71.4662586"/>
+  <node id="4544200570" lat="42.4604304" lon="-71.4668703"/>
+  <node id="4544200571" lat="42.4612284" lon="-71.4663371"/>
+  <node id="4544200572" lat="42.4629024" lon="-71.4699079"/>
+  <node id="4544200573" lat="42.4632435" lon="-71.4705784"/>
+  <node id="4544200574" lat="42.4635451" lon="-71.4705318"/>
+  <node id="4544200575" lat="42.4631239" lon="-71.4705855"/>
+  <node id="4544200576" lat="42.4625893" lon="-71.4706448"/>
+  <node id="4544200577" lat="42.4626209" lon="-71.4706414"/>
+  <node id="4544200578" lat="42.4626625" lon="-71.4703913"/>
+  <node id="4544200579" lat="42.4622509" lon="-71.4702753"/>
+  <node id="4544200580" lat="42.4621114" lon="-71.4703464"/>
+  <node id="4544200581" lat="42.4620308" lon="-71.4703578"/>
+  <node id="4544200582" lat="42.4620248" lon="-71.4703967"/>
+  <node id="4544200583" lat="42.4621065" lon="-71.4703886"/>
+  <node id="4544200584" lat="42.4622549" lon="-71.4703102"/>
+  <node id="4544200585" lat="42.4626209" lon="-71.4704161"/>
   <way id="29761444">
     <nd ref="327251718"/>
     <nd ref="327594355"/>
@@ -1289,7 +1417,7 @@
     <tag k="massgis:SITE_NAME" v="NORTH ACTON GARDENS"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="North Acton Gardens"/>
+    <tag k="name" v="North Acton Community Gardens"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1338,7 +1466,7 @@
     <tag k="massgis:SITE_NAME" v="PUTNAM LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Putnam Land"/>
+    <tag k="name" v="Grassy Pond Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1441,7 +1569,7 @@
     <tag k="access" v="yes"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Great Hill"/>
+    <tag k="name" v="Great Hill Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1601,7 +1729,7 @@
     <tag k="massgis:SITE_NAME" v="PACY LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Pacy Land"/>
+    <tag k="name" v="Pacy Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1684,7 +1812,7 @@
     <tag k="massgis:SITE_NAME" v="NAGOG HILL"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Nagog Hill"/>
+    <tag k="name" v="Nagog Hill Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1847,7 +1975,7 @@
     <tag k="access" v="yes"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Nashoba Brook"/>
+    <tag k="name" v="Nashoba Brook Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -1935,7 +2063,7 @@
     <tag k="access" v="yes"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Spring Hill"/>
+    <tag k="name" v="Spring Hill Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2008,7 +2136,7 @@
     <tag k="massgis:SITE_NAME" v="TOWN FOREST"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Bulette Town Forest"/>
+    <tag k="name" v="Bulette Conservation Land - Town Forest"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2055,7 +2183,7 @@
     <tag k="massgis:SITE_NAME" v="ROUTE 2 LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Wetherbee Land"/>
+    <tag k="name" v="Wetherbee Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2138,9 +2266,6 @@
     <nd ref="4487836213"/>
     <nd ref="327613134"/>
     <nd ref="327890958"/>
-    <tag k="access" v="yes"/>
-    <tag k="landuse" v="conservation"/>
-    <tag k="leisure" v="nature_reserve"/>
     <tag k="massgis:ARTICLE97" v="1"/>
     <tag k="massgis:ASSESS_ACR" v="0.00000000"/>
     <tag k="massgis:ATT_DATE" v="1997/06/25"/>
@@ -2170,12 +2295,7 @@
     <tag k="massgis:SITE_NAME" v="HEATH HEN MEADOW"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Heath Hen Meadow"/>
-    <tag k="owner" v="Town Of Acton"/>
-    <tag k="ownership" v="municipal"/>
-    <tag k="protected" v="perpetuity"/>
     <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
-    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
   </way>
   <way id="29770818">
     <nd ref="327876445"/>
@@ -2245,7 +2365,7 @@
     <tag k="massgis:SITE_NAME" v="PRESCOTT LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Prescott Land"/>
+    <tag k="name" v="Prescott Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2300,7 +2420,7 @@
     <tag k="massgis:SITE_NAME" v="Jenks Conservation Land"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Jenks Land"/>
+    <tag k="name" v="Jenks Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2432,10 +2552,10 @@
     <tag k="massgis:PRIM_PURP" v="C"/>
     <tag k="massgis:PROJ_ID1" v="DCS-SH7"/>
     <tag k="massgis:PUB_ACCESS" v="Y"/>
-    <tag k="massgis:SITE_NAME" v="MONSON LAND"/>
+    <tag k="massgis:SITE_NAME" v="MONSEN LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Monson Land"/>
+    <tag k="name" v="Monsen Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2487,7 +2607,7 @@
     <tag k="massgis:SITE_NAME" v="STEINMAN LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Steinman Land"/>
+    <tag k="name" v="Steinman Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2587,7 +2707,6 @@
     <nd ref="327949488"/>
     <tag k="access" v="yes"/>
     <tag k="area" v="yes"/>
-    <tag k="created_by" v="polyshp2osm"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="massgis:ARTICLE97" v="9"/>
@@ -2611,10 +2730,10 @@
     <tag k="massgis:POLY_ID" v="6138"/>
     <tag k="massgis:PRIM_PURP" v="C"/>
     <tag k="massgis:PUB_ACCESS" v="Y"/>
-    <tag k="massgis:SITE_NAME" v="PORTER/JENKS LAND"/>
+    <tag k="massgis:SITE_NAME" v="PATRIOT'S HILL CONSERVATION LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Porter/Jenks Land"/>
+    <tag k="name" v="Patriots Hill Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2661,7 +2780,7 @@
     <tag k="massgis:SITE_NAME" v="PUTNAM LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Putnam Land"/>
+    <tag k="name" v="Putnam Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2669,14 +2788,27 @@
   </way>
   <way id="29777010">
     <nd ref="327940566"/>
+    <nd ref="4505078115"/>
+    <nd ref="4505078114"/>
+    <nd ref="4505078113"/>
+    <nd ref="4505078112"/>
+    <nd ref="4505078111"/>
+    <nd ref="4505078110"/>
+    <nd ref="4505078109"/>
     <nd ref="327948247"/>
+    <nd ref="4505078108"/>
+    <nd ref="4505078107"/>
     <nd ref="327955353"/>
     <nd ref="327966849"/>
     <nd ref="327973996"/>
     <nd ref="327940566"/>
     <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="915"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Main Street"/>
     <tag k="area" v="yes"/>
-    <tag k="created_by" v="polyshp2osm"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="massgis:ARTICLE97" v="1"/>
@@ -2703,10 +2835,9 @@
     <tag k="massgis:PRIM_PURP" v="C"/>
     <tag k="massgis:PROJ_ID1" v="DCS-SH2"/>
     <tag k="massgis:PUB_ACCESS" v="Y"/>
-    <tag k="massgis:SITE_NAME" v="CARLISLE ROAD WOODS"/>
+    <tag k="massgis:SITE_NAME" v="915 Main St"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Carlisle Road Woods"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2753,7 +2884,7 @@
     <tag k="massgis:SITE_NAME" v="MCGLOIN LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Mcgloin Land"/>
+    <tag k="name" v="McGloin Conservatin Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -2801,7 +2932,7 @@
     <nd ref="3192391170"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Wright Hill"/>
+    <tag k="name" v="Wright Hill Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
   </way>
   <way id="323358960">
@@ -2828,7 +2959,7 @@
     <nd ref="3301607794"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Anderson Parcel"/>
+    <tag k="name" v="Anderson Conservation Land"/>
     <tag k="owner" v="Town of Acton"/>
   </way>
   <way id="449483835">
@@ -3200,6 +3331,131 @@
     <nd ref="4502491789"/>
     <nd ref="4502490575"/>
   </way>
+  <way id="458412733">
+    <nd ref="4544200467"/>
+    <nd ref="4544200468"/>
+    <nd ref="4544200469"/>
+    <nd ref="4544200504"/>
+    <nd ref="4544200470"/>
+    <nd ref="4544200505"/>
+    <nd ref="4544200506"/>
+    <nd ref="4544200507"/>
+    <nd ref="4544200509"/>
+    <nd ref="4544200508"/>
+    <nd ref="4544200510"/>
+    <nd ref="4544200471"/>
+    <nd ref="4544200472"/>
+    <nd ref="4544200511"/>
+    <nd ref="4544200512"/>
+    <nd ref="4544200513"/>
+    <nd ref="4544200514"/>
+    <nd ref="4544200515"/>
+    <nd ref="4544200516"/>
+    <nd ref="4544200517"/>
+    <nd ref="4544200518"/>
+    <nd ref="4544200519"/>
+    <nd ref="4544200520"/>
+    <nd ref="4544200473"/>
+    <nd ref="4544200521"/>
+    <nd ref="4544200474"/>
+    <nd ref="4544200529"/>
+    <nd ref="4544200528"/>
+    <nd ref="4544200527"/>
+    <nd ref="4544200526"/>
+    <nd ref="4544200475"/>
+    <nd ref="4544200525"/>
+    <nd ref="4544200524"/>
+    <nd ref="4544200523"/>
+    <nd ref="4544200522"/>
+    <nd ref="4544200476"/>
+    <nd ref="4544200530"/>
+    <nd ref="4544200531"/>
+    <nd ref="4544200532"/>
+    <nd ref="4544200533"/>
+    <nd ref="4544200477"/>
+    <nd ref="4544200534"/>
+    <nd ref="4544200535"/>
+    <nd ref="4544200536"/>
+    <nd ref="4544200537"/>
+    <nd ref="4544200538"/>
+    <nd ref="4544200539"/>
+    <nd ref="4544200540"/>
+    <nd ref="4544200478"/>
+    <nd ref="4544200541"/>
+    <nd ref="4544200542"/>
+    <nd ref="4544200543"/>
+    <nd ref="4544200544"/>
+    <nd ref="4544200479"/>
+    <nd ref="4544200545"/>
+    <nd ref="4544200546"/>
+    <nd ref="4544200547"/>
+    <nd ref="4544200480"/>
+    <nd ref="4544200551"/>
+    <nd ref="4544200550"/>
+    <nd ref="4544200549"/>
+    <nd ref="4544200548"/>
+    <nd ref="4544200481"/>
+    <nd ref="4544200552"/>
+    <nd ref="4544200553"/>
+    <nd ref="4544200554"/>
+    <nd ref="4544200555"/>
+    <nd ref="4544200482"/>
+    <nd ref="4544200556"/>
+    <nd ref="4544200557"/>
+    <nd ref="4544200558"/>
+    <nd ref="4544200483"/>
+    <nd ref="4544200559"/>
+    <nd ref="4544200560"/>
+    <nd ref="4544200561"/>
+    <nd ref="4544200562"/>
+    <nd ref="4544200484"/>
+    <nd ref="4544200563"/>
+    <nd ref="4544200564"/>
+    <nd ref="4544200565"/>
+    <nd ref="4544200566"/>
+    <nd ref="4544200567"/>
+    <nd ref="4544200568"/>
+    <nd ref="4544200569"/>
+    <nd ref="4544200485"/>
+    <nd ref="4544200571"/>
+    <nd ref="4544200570"/>
+    <nd ref="4544200486"/>
+    <nd ref="4544200487"/>
+    <nd ref="4544200488"/>
+    <nd ref="4544200489"/>
+    <nd ref="4544200490"/>
+    <nd ref="4544200491"/>
+    <nd ref="4544200492"/>
+    <nd ref="4544200493"/>
+    <nd ref="4544200494"/>
+    <nd ref="4544200495"/>
+    <nd ref="4544200496"/>
+    <nd ref="4544200497"/>
+    <nd ref="4544200498"/>
+    <nd ref="4544200499"/>
+    <nd ref="4544200500"/>
+    <nd ref="4544200501"/>
+    <nd ref="4544200572"/>
+    <nd ref="4544200502"/>
+    <nd ref="4544200503"/>
+    <nd ref="4544200575"/>
+    <nd ref="4544200573"/>
+    <nd ref="4544200574"/>
+    <nd ref="4544200467"/>
+  </way>
+  <way id="458412734">
+    <nd ref="4544200576"/>
+    <nd ref="4544200577"/>
+    <nd ref="4544200578"/>
+    <nd ref="4544200579"/>
+    <nd ref="4544200580"/>
+    <nd ref="4544200581"/>
+    <nd ref="4544200582"/>
+    <nd ref="4544200583"/>
+    <nd ref="4544200584"/>
+    <nd ref="4544200585"/>
+    <nd ref="4544200576"/>
+  </way>
   <relation id="6696667">
     <member type="way" ref="451571182" role=""/>
     <member type="way" ref="451730574" role=""/>
@@ -3218,7 +3474,7 @@
     <tag k="access" v="yes"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Will's Hole/Town Forest"/>
+    <tag k="name" v="Will's Hole Conservation Land - Town Forest"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="type" v="multipolygon"/>
@@ -3269,7 +3525,7 @@
     <tag k="massgis:SITE_NAME" v="STONEYMEADE LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Stoneymeade Land"/>
+    <tag k="name" v="Stoneymeade Conservation Land"/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
@@ -3292,7 +3548,21 @@
     <tag k="ownership" v="municipal"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="webside" v="http://www.actontrails.org/grassy-pond/"/>
+    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+  </relation>
+  <relation id="6776382">
+    <member type="way" ref="29770630" role=""/>
+    <member type="way" ref="458412733" role=""/>
+    <member type="way" ref="458412734" role=""/>
+    <tag k="access" v="yes"/>
+    <tag k="landuse" v="conservation"/>
+    <tag k="leisure" v="nature_reserve"/>
+    <tag k="name" v="Heath Hen Meadow Conservation Land"/>
+    <tag k="owner" v="Town of Acton"/>
+    <tag k="ownership" v="municipal"/>
+    <tag k="protected" v="perpetuity"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
   </relation>
 
 </osm>

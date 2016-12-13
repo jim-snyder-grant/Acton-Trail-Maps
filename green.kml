@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="lines" id="lines">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="aerialway" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>lines</name>
+  <Placemark>
+	<name>Green</name>
+	<Style><LineStyle><color>ff00AA14</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">189124302</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3961733,42.5016644 -71.396345,42.5019808 -71.3963879,42.5022339 -71.3966883,42.502408 -71.3969887,42.5024396 -71.3971603,42.5023763 -71.3973749,42.5022814</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Green</name>
+	<Style><LineStyle><color>ff00AA14</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">443981542</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4076057,42.5069932 -71.407987,42.5070322</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

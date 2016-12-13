@@ -25,16 +25,6 @@
 	<name>Red</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">61912345</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4813894,42.482045 -71.4813662,42.4819649</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Red</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912347</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
@@ -145,7 +135,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;hiking&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4699678,42.461518 -71.472754,42.460328 -71.4726,42.460331 -71.472511,42.460342 -71.472374,42.460358 -71.472084,42.46035 -71.472054,42.460346 -71.471985,42.460293 -71.471733,42.460266 -71.471642,42.460182 -71.471535,42.460186 -71.471489,42.460228 -71.471436,42.460297 -71.47126,42.460342 -71.471062,42.46035 -71.470932,42.460354 -71.470772,42.460365 -71.470726,42.460365 -71.47052,42.460381 -71.470497,42.460377 -71.470299,42.460339 -71.470207,42.460308 -71.470184,42.460316 -71.470001,42.460243 -71.469994,42.460239 -71.469887,42.460201 -71.469849,42.460114 -71.469879,42.459988 -71.469864,42.459919 -71.469696,42.459934 -71.469612,42.459957 -71.469521,42.459984 -71.469322,42.460003 -71.4692252,42.4599746</coordinates></LineString>
+      <LineString><coordinates>-71.4727814,42.4603288 -71.472754,42.460328 -71.4726,42.460331 -71.472511,42.460342 -71.472374,42.460358 -71.472084,42.46035 -71.472054,42.460346 -71.471985,42.460293 -71.471733,42.460266 -71.471642,42.460182 -71.471535,42.460186 -71.471489,42.460228 -71.471436,42.460297 -71.47126,42.460342 -71.471062,42.46035 -71.470932,42.460354 -71.470772,42.460365 -71.470726,42.460365 -71.47052,42.460381 -71.470497,42.460377 -71.470299,42.460339 -71.470207,42.460308 -71.470184,42.460316 -71.470001,42.460243 -71.469994,42.460239 -71.469887,42.460201 -71.469849,42.460114 -71.469879,42.459988 -71.469864,42.459919 -71.469696,42.459934 -71.469612,42.459957 -71.469521,42.459984 -71.469322,42.460003 -71.4692252,42.4599746</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
@@ -235,7 +225,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.450951,42.464554 -71.45092,42.46451 -71.4509,42.46446 -71.45087,42.46439 -71.45083,42.4643 -71.45078,42.46421 -71.45076,42.46412 -71.45081,42.46405 -71.45089,42.46397 -71.45096,42.4639 -71.45103,42.46384 -71.45104,42.46375 -71.45101,42.46366 -71.45098,42.46357 -71.45095,42.46346 -71.45093,42.46335 -71.4509,42.46325 -71.45087,42.46316 -71.45084,42.46304 -71.45082,42.46295 -71.4508,42.46283 -71.45078,42.46273 -71.45077,42.46265 -71.45074,42.46253 -71.45062,42.46229 -71.450616,42.462176</coordinates></LineString>
+      <LineString><coordinates>-71.450951,42.464554 -71.45092,42.46451 -71.4509,42.46446 -71.45087,42.46439 -71.45083,42.4643 -71.45078,42.46421 -71.4507695,42.4641628 -71.45076,42.46412 -71.45081,42.46405 -71.45089,42.46397 -71.45096,42.4639 -71.45103,42.46384 -71.45104,42.46375 -71.45101,42.46366 -71.45098,42.46357 -71.45095,42.46346 -71.45093,42.46335 -71.4509,42.46325 -71.45087,42.46316 -71.45084,42.46304 -71.45082,42.46295 -71.4508,42.46283 -71.45078,42.46273 -71.45077,42.46265 -71.45074,42.46253 -71.45062,42.46229 -71.450616,42.462176</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
