@@ -61,7 +61,7 @@ fi
         filters="$TRAILS_FILTER~\"${arg}\",i]"
    elif [ ${arg} = "othertrails" ]; then
         KMLcolor="ffff00ff"
-        filters="$TRAILS_FILTER!~\"Red|Blue|Yellow\",i]"
+        filters="$TRAILS_FILTER!~\"Red|Blue|Green|Yellow\",i]"
    elif [ ${arg} = "town" ]; then
         KMLcolor="ff00ff00"
         filters="relation($ACTON_ID)"
