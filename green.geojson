@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "189124302", "name": "Green", "highway": "path", "waterway": null, "aerialway": null, "barrier": null, "man_made": null, "other_tags": "\"foot\"=>\"yes\",\"surface\"=>\"dirt\"" }, "geometry": { "type": "LineString", "coordinates": [ [ -71.3961733, 42.5016644 ], [ -71.396345, 42.5019808 ], [ -71.3963879, 42.5022339 ], [ -71.3966883, 42.502408 ], [ -71.3969887, 42.5024396 ], [ -71.3971603, 42.5023763 ], [ -71.3973749, 42.5022814 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": "443981542", "name": "Green", "highway": "path", "waterway": null, "aerialway": null, "barrier": null, "man_made": null, "other_tags": "\"surface\"=>\"unpaved\"" }, "geometry": { "type": "LineString", "coordinates": [ [ -71.4076057, 42.5069932 ], [ -71.407987, 42.5070322 ] ] } }
+]
+}
