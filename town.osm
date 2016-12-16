@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-12-12T19:25:03Z"/>
+<meta osm_base="2016-12-16T16:52:02Z" areas="2016-12-16T08:48:02Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
@@ -74,16 +74,9 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source" v="massdot_import_101911"/>
   </way>
-  <way id="134063261">
+  <way id="451941414">
     <nd ref="1474480165"/>
     <nd ref="1474480104"/>
-    <nd ref="4487464861"/>
-    <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
-  </way>
-  <way id="451941414">
     <nd ref="4487464861"/>
     <nd ref="1474479510"/>
     <nd ref="1474479478"/>
@@ -95,7 +88,6 @@
   </way>
   <relation id="1832779">
     <member type="way" ref="134060963" role="outer"/>
-    <member type="way" ref="134063261" role="outer"/>
     <member type="way" ref="451941414" role="outer"/>
     <member type="way" ref="134060057" role="outer"/>
     <member type="way" ref="134054953" role="outer"/>

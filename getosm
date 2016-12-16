@@ -64,7 +64,8 @@ fi
         filters="$TRAILS_FILTER!~\"Red|Blue|Green|Yellow\",i]"
    elif [ ${arg} = "town" ]; then
         KMLcolor="ff00ff00"
-        filters="relation($ACTON_ID)"
+        filters="area[wikipedia=\"en:Acton, Massachusetts\"];rel(pivot)"
+        geometry="multipolygons"
         AREA_FILTER=""
    elif [ ${arg} = "parking" ]; then
         KMLcolor="50BEBEBE"

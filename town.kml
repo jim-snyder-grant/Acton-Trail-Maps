@@ -1,79 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="lines" id="lines">
+<Schema name="multipolygons" id="multipolygons">
 	<SimpleField name="osm_id" type="string"></SimpleField>
-	<SimpleField name="highway" type="string"></SimpleField>
-	<SimpleField name="waterway" type="string"></SimpleField>
-	<SimpleField name="aerialway" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="admin_level" type="string"></SimpleField>
 	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="boundary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="geological" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="land_area" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
 	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
 	<SimpleField name="other_tags" type="string"></SimpleField>
 </Schema>
-<Folder><name>lines</name>
+<Folder><name>multipolygons</name>
   <Placemark>
+	<name>Acton</name>
 	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">133980625</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_id">1832779</SimpleData>
+		<SimpleData name="type">boundary</SimpleData>
+		<SimpleData name="admin_level">8</SimpleData>
+		<SimpleData name="boundary">administrative</SimpleData>
+		<SimpleData name="other_tags">&quot;wikidata&quot;=&gt;&quot;Q344431&quot;,&quot;wikipedia&quot;=&gt;&quot;en:Acton, Massachusetts&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.498547,42.4637751 -71.4643283,42.45032</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134054953</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4303573,42.4370315 -71.4586167,42.4481384 -71.4643283,42.45032</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134055038</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4735285,42.5001774 -71.498547,42.4637751</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134060057</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3849174,42.5044813 -71.3879845,42.5000872 -71.4303573,42.4370315</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134060963</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4285678,42.5288611 -71.4237653,42.5261758 -71.3994888,42.5339633</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134062755</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4285678,42.5288611 -71.4350248,42.5221743 -71.4439424,42.5090438 -71.4735285,42.5001774</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">134063261</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3994888,42.5339633 -71.3978796,42.526388 -71.3915498,42.5068595</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff00ff00</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">451941414</SimpleData>
-		<SimpleData name="other_tags">&quot;admin_level&quot;=&gt;&quot;8&quot;,&quot;attribution&quot;=&gt;&quot;massGIS&quot;,&quot;boundary&quot;=&gt;&quot;administrative&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3915498,42.5068595 -71.3915372,42.5068205 -71.3849841,42.5044842 -71.3849174,42.5044813</coordinates></LineString>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4285678,42.5288611 -71.4237653,42.5261758 -71.3994888,42.5339633 -71.3978796,42.526388 -71.3915498,42.5068595 -71.3915372,42.5068205 -71.3849841,42.5044842 -71.3849174,42.5044813 -71.3879845,42.5000872 -71.4303573,42.4370315 -71.4586167,42.4481384 -71.4643283,42.45032 -71.498547,42.4637751 -71.4735285,42.5001774 -71.4439424,42.5090438 -71.4350248,42.5221743 -71.4285678,42.5288611</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder>
 </Document></kml>
