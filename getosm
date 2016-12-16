@@ -8,7 +8,6 @@
 # bash-x  ./getosm (arguments)
 
 EXIT_STATUS=0
-#DEBUG=1
 
 if [ $# -eq 0 ]; then
   echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' 'all'"
@@ -85,10 +84,9 @@ fi
        exit $EXIT_STATUS
    fi   
    wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
-   if [ ${DEBUG} ] ; then
-       echo "wget args: " ${wget_args}
-   fi
+   
     wget -O ${arg}.osm "${wget_args}"    
+    
     # convert to KML for checking in Google Earth
     rm -f ${arg}.kml
     ogr2ogr -f KML ${arg}.kml ${arg}.osm ${geometry}
@@ -97,6 +95,15 @@ fi
     # convert to GeoJSON for importing into MapBox
     rm -f ${arg}.geojson
     ogr2ogr -f GeoJSON ${arg}.geojson ${arg}.osm ${geometry}
+    
+    # if it's the BCT, do post-processing to create a single segment from the individual ways
+     if [ ${arg} = "BCT" ]; then
+        ogr2ogr temp BCT.geojson
+        rm BCT.geojson
+        ogr2ogr -f GeoJSON BCT.geojson temp -dialect sqlite -sql "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"
+        rm temp/*
+        rmdir temp
+     fi
     # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
     # The key difference is that we must remove the crs line
     sed -i s/\"crs.*$// ${arg}.geojson
