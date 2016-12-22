@@ -29,7 +29,17 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4076057,42.5069932 -71.407987,42.5070322</coordinates></LineString>
+      <LineString><coordinates>-71.4076216,42.5068946 -71.4077255,42.5068819 -71.4079084,42.5068391 -71.4080801,42.5067382 -71.4082517,42.5066789 -71.408418,42.5065899 -71.4085307,42.5065148 -71.408638,42.5063882 -71.4087506,42.5063368 -71.4087962,42.5062854 -71.4087989,42.5062399 -71.4087748,42.5062044 -71.4086916,42.5061866 -71.408477,42.5061371 -71.408302,42.5060934</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Green</name>
+	<Style><LineStyle><color>ff00AA14</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">461057524</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4069,42.50815 -71.4067651,42.5080576 -71.4065867,42.5079548 -71.4064432,42.5079142 -71.4064151,42.5079192 -71.4062515,42.5080398 -71.4060905,42.5080912 -71.4059967,42.5082029 -71.4058009,42.5083047</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
