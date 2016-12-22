@@ -383,7 +383,7 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">205716935</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.412387,42.505544 -71.41231,42.50551 -71.4120794,42.5053791 -71.4118781,42.5051754 -71.4119083,42.5050064 -71.412,42.50473 -71.4119149,42.5046518 -71.4117364,42.5044815 -71.4115845,42.5042776</coordinates></LineString>
   </Placemark>
@@ -476,6 +476,16 @@
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3935149,42.5099683 -71.3934371,42.5097567 -71.3934291,42.5095274 -71.393519,42.5093452 -71.3938765,42.5091589 -71.3939777,42.5091062</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Blue</name>
+	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">461057525</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.412,42.50473 -71.4121838,42.5047332 -71.4123796,42.5049052 -71.4124467,42.5050239 -71.412503,42.505101 -71.412664,42.50519 -71.4127417,42.5052532 -71.4127981,42.5053482 -71.41289,42.50541</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
