@@ -10,7 +10,7 @@
 EXIT_STATUS=0
 
 if [ $# -eq 0 ]; then
-  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' 'all'"
+  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'bct' 'bfrt' 'all'"
   EXIT_STATUS=1
   exit $EXIT_STATUS
 fi
@@ -18,11 +18,11 @@ fi
 args=("$@")
 if [[ " ${args[@]} " =~ "all" ]]; then
     unset args
-    args=('red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'BCT' )
+    args=('red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'bct' 'bfrt' )
 fi
 
 # Using a bounding box makes the searches go more quickly
- ACTON_BBOX="[bbox:42.433,-71.5,42.534,-71.384]"
+ ACTON_BBOX="[bbox:42.433,-71.5,42.534,-71.384];"
  # using an Acton Area ID lets us skip trails that are in the bounding box but not in Acton. 
  # One number is to get the boundary itself, the other is to use it as an area filter
  ACTON_ID=1832779
@@ -34,6 +34,8 @@ fi
  TRAILS_FILTER="way[\"highway\"~\"path|track\"][access!=private][\"name\""
  # for trails, we surpress special treatment for trails that are entirely outside Acton 
  AREA_FILTER="(area:$ACTON_AREA_ID)"
+ # special post-processing if we got new bounds
+ GOT_NEW_BOUNDS="NO"
 
  
  for arg in ${args[@]}; do
@@ -46,6 +48,7 @@ fi
        KMLcolor="ffffffff"
        AREA_FILTER=""
        geometry="multipolygons"
+       GOT_NEW_BOUNDS="YES"
    elif [ ${arg} = "red" ]; then
         KMLcolor="ff0000ff"
         filters="$TRAILS_FILTER~\"${arg}\",i]"
@@ -74,16 +77,22 @@ fi
         KMLcolor="643C9614"
         filters="node[\"tourism\"=\"camp_site\"]"
         geometry="points" 
-   elif [ ${arg} = "BCT" ]; then
+   elif [ ${arg} = "bct" ]; then
         KMLcolor="55FF78F0"  
         filters="relation[\"name\"~\"Bay Circuit Trail\"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)"
         AREA_FILTER=""
+   elif [ ${arg} = "bfrt" ]; then
+        KMLcolor="501450FF"  
+        filters="way[\"name\"~\"Bruce Freeman Rail Trail\"]"
+        AREA_FILTER=""
+        /* bigger box to get the entire bfrt */
+        ACTON_BBOX="[bbox:42,-72,43,-71];"
    else
        echo "ERROR: Invalid arg ${arg}"
        EXIT_STATUS=1
        exit $EXIT_STATUS
    fi   
-   wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX;$filters$AREA_FILTER;(._;>;);out body;"
+   wget_args="http://overpass-api.de/api/interpreter?data=$ACTON_BBOX$filters$AREA_FILTER;(._;>;);out body;"
    
     wget -O ${arg}.osm "${wget_args}"    
     
@@ -97,10 +106,10 @@ fi
     ogr2ogr -f GeoJSON ${arg}.geojson ${arg}.osm ${geometry}
     
     # if it's the BCT, do post-processing to create a single segment from the individual ways
-     if [ ${arg} = "BCT" ]; then
-        ogr2ogr temp BCT.geojson
-        rm BCT.geojson
-        ogr2ogr -f GeoJSON BCT.geojson temp -dialect sqlite -sql "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"
+     if [ ${arg} = "bct" ]; then
+        ogr2ogr temp bct.geojson
+        rm bct.geojson
+        ogr2ogr -f GeoJSON bct.geojson temp -dialect sqlite -sql "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"
         rm temp/*
         rmdir temp
      fi
@@ -126,8 +135,9 @@ fi
     sleep 5
  done
  # post-processing: remove 'conservation lands' from bounds names
- sed -i  "s/ Conservation Land//" bounds.geojson
-
+ if [ ${GOT_NEW_BOUNDS} = "YES" ]; then
+     sed -i  "s/ Conservation Land//" bounds.geojson
+ fi
  exit $EXIT_STATUS
 
  
