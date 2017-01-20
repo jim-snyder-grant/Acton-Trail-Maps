@@ -44,7 +44,8 @@ fi
    if [ ${arg} = "bounds" ]; then
    # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
    # and then there's the canoe launch, which isn't owned by the town of Acton
-       filters="(way($CANOE_LAUNCH_ID);relation[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i];way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i])"
+   # we are in a transition away from landuse=conservation
+       filters="(way($CANOE_LAUNCH_ID);relation[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i];way[\"landuse\"=\"conservation\"][\"owner\"~\"Town Of Acton\",i];relation[\"leisure\"=\"nature_reserve\"][\"owner\"~\"Town Of Acton\",i];way[\"leisure\"=\"nature_reserve\"][\"owner\"~\"Town Of Acton\",i])"
        KMLcolor="ffffffff"
        AREA_FILTER=""
        geometry="multipolygons"
@@ -83,10 +84,8 @@ fi
         AREA_FILTER=""
    elif [ ${arg} = "bfrt" ]; then
         KMLcolor="501450FF"  
-        filters="way[\"name\"~\"Bruce Freeman Rail Trail\"]"
+        filters="way[\"name\"=\"Bruce Freeman Rail Trail: Phase 2 (proposed)\"]"
         AREA_FILTER=""
-        /* bigger box to get the entire bfrt */
-        ACTON_BBOX="[bbox:42,-72,43,-71];"
    else
        echo "ERROR: Invalid arg ${arg}"
        EXIT_STATUS=1
