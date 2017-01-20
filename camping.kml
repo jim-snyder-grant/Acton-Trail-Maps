@@ -14,6 +14,15 @@
 </Schema>
 <Folder><name>points</name>
   <Placemark>
+	<name>1</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2169262377</SimpleData>
+		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.39177,42.50224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2169262543</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
@@ -21,6 +30,7 @@
       <Point><coordinates>-71.3926,42.50309</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>6</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2169262634</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
@@ -28,6 +38,7 @@
       <Point><coordinates>-71.39628,42.50339</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>4</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2169262652</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
@@ -35,6 +46,7 @@
       <Point><coordinates>-71.3941,42.50347</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>5</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2169262703</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
@@ -42,6 +54,7 @@
       <Point><coordinates>-71.3948,42.5038</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>7</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2169262743</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
@@ -49,11 +62,12 @@
       <Point><coordinates>-71.39755,42.50406</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>2</name>
 	<ExtendedData><SchemaData schemaUrl="#points">
-		<SimpleData name="osm_id">3929612885</SimpleData>
+		<SimpleData name="osm_id">4584515404</SimpleData>
 		<SimpleData name="other_tags">&quot;tourism&quot;=&gt;&quot;camp_site&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.3915587,42.5023539</coordinates></Point>
+      <Point><coordinates>-71.3922071,42.5021119</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>

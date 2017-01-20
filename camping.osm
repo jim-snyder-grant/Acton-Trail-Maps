@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-12-12T19:25:03Z"/>
+<meta osm_base="2017-01-20T16:29:02Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
+  <node id="2169262377" lat="42.5022400" lon="-71.3917700">
+    <tag k="name" v="1"/>
+    <tag k="tourism" v="camp_site"/>
+  </node>
   <node id="2169262543" lat="42.5030900" lon="-71.3926000">
+    <tag k="name" v="3"/>
     <tag k="tourism" v="camp_site"/>
   </node>
   <node id="2169262634" lat="42.5033900" lon="-71.3962800">
+    <tag k="name" v="6"/>
     <tag k="tourism" v="camp_site"/>
   </node>
   <node id="2169262652" lat="42.5034700" lon="-71.3941000">
+    <tag k="name" v="4"/>
     <tag k="tourism" v="camp_site"/>
   </node>
   <node id="2169262703" lat="42.5038000" lon="-71.3948000">
+    <tag k="name" v="5"/>
     <tag k="tourism" v="camp_site"/>
   </node>
   <node id="2169262743" lat="42.5040600" lon="-71.3975500">
+    <tag k="name" v="7"/>
     <tag k="tourism" v="camp_site"/>
   </node>
-  <node id="3929612885" lat="42.5023539" lon="-71.3915587">
+  <node id="4584515404" lat="42.5021119" lon="-71.3922071">
+    <tag k="name" v="2"/>
     <tag k="tourism" v="camp_site"/>
   </node>
 
