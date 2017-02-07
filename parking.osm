@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-01-20T16:28:02Z"/>
+<meta osm_base="2017-02-07T16:46:02Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
+  <node id="1305920427" lat="42.4877136" lon="-71.4782399"/>
+  <node id="1305920428" lat="42.4876222" lon="-71.4782064"/>
+  <node id="1305920430" lat="42.4875933" lon="-71.4783694"/>
+  <node id="1305920431" lat="42.4876828" lon="-71.4784012"/>
+  <node id="1305920434" lat="42.4876417" lon="-71.4783866"/>
   <node id="2139046639" lat="42.5021976" lon="-71.4422614"/>
   <node id="2139046642" lat="42.5022927" lon="-71.4423230"/>
   <node id="2139046643" lat="42.5022942" lon="-71.4420349"/>
@@ -42,6 +47,22 @@
   <node id="4480865214" lat="42.4406231" lon="-71.4298961"/>
   <node id="4480947584" lat="42.4406244" lon="-71.4298162"/>
   <node id="4480947587" lat="42.4405055" lon="-71.4296551"/>
+  <way id="115637309">
+    <nd ref="1305920428"/>
+    <nd ref="1305920430"/>
+    <nd ref="1305920434"/>
+    <nd ref="1305920431"/>
+    <nd ref="1305920427"/>
+    <nd ref="1305920428"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="396"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="ma"/>
+    <tag k="addr:street" v="Central St"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/jenks/"/>
+  </way>
   <way id="203893374">
     <nd ref="2139046639"/>
     <nd ref="2139046642"/>
