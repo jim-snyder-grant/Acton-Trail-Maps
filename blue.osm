@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-01-20T16:26:02Z" areas="2017-01-20T14:10:02Z"/>
+<meta osm_base="2017-02-07T16:44:02Z" areas="2017-02-07T09:05:02Z"/>
 
   <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
 
   <node id="771666372" lat="42.4835404" lon="-71.4847321"/>
   <node id="771666386" lat="42.4884498" lon="-71.4806346"/>
   <node id="771666392" lat="42.4840815" lon="-71.4843296"/>
-  <node id="771666398" lat="42.4852260" lon="-71.4837376"/>
   <node id="771666425" lat="42.4832038" lon="-71.4849522"/>
   <node id="771666426" lat="42.4823277" lon="-71.4812162"/>
   <node id="771666427" lat="42.4877214" lon="-71.4804307"/>
@@ -17,7 +16,6 @@
   <node id="771666451" lat="42.4837835" lon="-71.4845512"/>
   <node id="771666456" lat="42.4811728" lon="-71.4837297"/>
   <node id="771666480" lat="42.4828501" lon="-71.4850755"/>
-  <node id="771666481" lat="42.4844358" lon="-71.4839769"/>
   <node id="771666483" lat="42.4838792" lon="-71.4844801"/>
   <node id="771666494" lat="42.4834206" lon="-71.4848212"/>
   <node id="771666496" lat="42.4820207" lon="-71.4850505"/>
@@ -216,7 +214,6 @@
   <node id="2129514595" lat="42.4613900" lon="-71.4722700"/>
   <node id="2129514597" lat="42.4614500" lon="-71.4723800"/>
   <node id="2129514599" lat="42.4615000" lon="-71.4728800"/>
-  <node id="2129514600" lat="42.4615150" lon="-71.4728630"/>
   <node id="2129514601" lat="42.4615500" lon="-71.4724200"/>
   <node id="2129514602" lat="42.4616200" lon="-71.4728000"/>
   <node id="2129514603" lat="42.4616300" lon="-71.4723700"/>
@@ -914,7 +911,7 @@
   <node id="4245266994" lat="42.4842619" lon="-71.4837072"/>
   <node id="4245266995" lat="42.4842805" lon="-71.4837939"/>
   <node id="4245266996" lat="42.4843526" lon="-71.4839477"/>
-  <node id="4245266997" lat="42.4843919" lon="-71.4840206"/>
+  <node id="4245266997" lat="42.4843946" lon="-71.4840204"/>
   <node id="4247066311" lat="42.4818261" lon="-71.4849040"/>
   <node id="4247066312" lat="42.4817044" lon="-71.4846564"/>
   <node id="4247066313" lat="42.4816462" lon="-71.4845667"/>
@@ -1039,20 +1036,10 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
   </way>
-  <way id="61912349">
-    <nd ref="771666398"/>
-    <nd ref="771666481"/>
-    <nd ref="4245266997"/>
-    <nd ref="771666392"/>
-    <nd ref="771666483"/>
-    <tag k="highway" v="path"/>
-    <tag k="name" v="Blue"/>
-    <tag k="surface" v="earth"/>
-  </way>
   <way id="61912350">
     <nd ref="771666372"/>
     <nd ref="771666494"/>
-    <tag k="bridge" v="yes"/>
+    <tag k="bridge" v="boardwalk"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
   </way>
@@ -1070,7 +1057,7 @@
   <way id="61912354">
     <nd ref="771666483"/>
     <nd ref="771666451"/>
-    <tag k="bridge" v="yes"/>
+    <tag k="bridge" v="boardwalk"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
   </way>
@@ -1198,7 +1185,6 @@
   </way>
   <way id="202989780">
     <nd ref="2129514594"/>
-    <nd ref="2129514600"/>
     <nd ref="2129514599"/>
     <nd ref="2129514602"/>
     <nd ref="2129514607"/>
@@ -1236,6 +1222,7 @@
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
+    <tag k="surface" v="unpaved"/>
   </way>
   <way id="203048055">
     <nd ref="2130283193"/>
@@ -2139,9 +2126,12 @@
     <nd ref="4154407649"/>
     <nd ref="4154407648"/>
     <nd ref="2118697707"/>
+    <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Blue"/>
+    <tag k="name" v="Blue Orchard Trail"/>
+    <tag k="surface" v="fine gravel"/>
+    <tag k="wheelchair" v="yes"/>
   </way>
   <way id="425223129">
     <nd ref="771666456"/>
@@ -2375,6 +2365,15 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
     <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="467834829">
+    <nd ref="4245266997"/>
+    <nd ref="4245266997"/>
+    <nd ref="771666392"/>
+    <nd ref="771666483"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Blue"/>
+    <tag k="surface" v="earth"/>
   </way>
 
 </osm>
