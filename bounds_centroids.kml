@@ -179,6 +179,16 @@
       <Point><coordinates>-71.434727155088183,42.502653181005805</coordinates></Point>
   </Placemark>
   <Placemark>
+	<name>Acton Arboretum</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="osm_way_id">29768867</SimpleData>
+		<SimpleData name="boundary">protected_area</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;gnis:feature_id&quot;=&gt;&quot;1971962&quot;,&quot;owner&quot;=&gt;&quot;Town Of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://actonarboretum.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.434356088955425,42.480124400859154</coordinates></Point>
+  </Placemark>
+  <Placemark>
 	<name>Spring Hill</name>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="osm_way_id">29769395</SimpleData>
@@ -325,6 +335,16 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_easement&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/canoe-launch/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.429289677890608,42.440045889891131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caouette Simeone Farm</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="osm_way_id">460684752</SimpleData>
+		<SimpleData name="boundary">protected_area</SimpleData>
+		<SimpleData name="landuse">farmland</SimpleData>
+		<SimpleData name="other_tags">&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.45714217932688,42.45795898211977</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>176 Central St</name>
