@@ -22,3 +22,5 @@ A manual process is needed to then create bounds_centroids.geojson:
   the other options are irrelevant it seems
 7) After exiting QGIS (no need to save the project) and returning to the command line, the following command is needed:
 sed -i s/\"crs.*$// bounds_centroids.geojson
+8) Convert to KML format because diffs are easier to read:
+ocr2ogr -f KML bounds_centroids.kml bounds_centroids.geojson
