@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-03-09T02:25:03Z" areas="2017-03-09T02:05:03Z"/>
+<meta osm_base="2017-03-16T14:33:02Z" areas="2017-03-16T11:34:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -144,7 +144,6 @@
   <node id="2129514446" lat="42.4590070" lon="-71.4735360"/>
   <node id="2129514447" lat="42.4590298" lon="-71.4736383"/>
   <node id="2129514541" lat="42.4603288" lon="-71.4727814"/>
-  <node id="2129716450" lat="42.4624546" lon="-71.4606681"/>
   <node id="2129716453" lat="42.4625380" lon="-71.4606750"/>
   <node id="2129716457" lat="42.4626320" lon="-71.4606780"/>
   <node id="2129716460" lat="42.4626790" lon="-71.4606800"/>
@@ -860,7 +859,6 @@
   <node id="4247066345" lat="42.4870555" lon="-71.4837485"/>
   <node id="4247066346" lat="42.4872355" lon="-71.4837664"/>
   <node id="4248471295" lat="42.4814013" lon="-71.4777513"/>
-  <node id="4248471299" lat="42.4813914" lon="-71.4777457"/>
   <node id="4419514814" lat="42.4980407" lon="-71.4685357"/>
   <node id="4423135444" lat="42.4818927" lon="-71.4327120"/>
   <node id="4423135445" lat="42.4817921" lon="-71.4330278"/>
@@ -934,6 +932,7 @@
   <node id="4719564444" lat="42.4639009" lon="-71.4503904"/>
   <node id="4719564445" lat="42.4640039" lon="-71.4504063"/>
   <node id="4719564446" lat="42.4642868" lon="-71.4503929"/>
+  <node id="4732273829" lat="42.4624586" lon="-71.4606708"/>
   <way id="61912341">
     <nd ref="771666434"/>
     <nd ref="771666518"/>
@@ -1202,7 +1201,7 @@
     <nd ref="2129716460"/>
     <nd ref="2129716457"/>
     <nd ref="2129716453"/>
-    <nd ref="2129716450"/>
+    <nd ref="4732273829"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
@@ -2205,7 +2204,6 @@
     <nd ref="4247048371"/>
     <nd ref="4247048372"/>
     <nd ref="4248471295"/>
-    <nd ref="4248471299"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Red"/>
