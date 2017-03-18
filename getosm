@@ -9,10 +9,14 @@
 
 EXIT_STATUS=0
 
+function usage {
+    echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'bct' 'bfrt' 'all'"
+    EXIT_STATUS=1
+    exit $EXIT_STATUS
+    }
+
 if [ $# -eq 0 ]; then
-  echo "Arguments are one or more of  'red' 'blue' 'yellow' 'green' 'othertrails' 'bounds' 'town' 'parking' 'camping' 'bct' 'bfrt' 'all'"
-  EXIT_STATUS=1
-  exit $EXIT_STATUS
+    usage
 fi
 
 args=("$@")
@@ -86,6 +90,8 @@ fi
         KMLcolor="501450FF"  
         filters="way[\"name\"=\"Bruce Freeman Rail Trail: Phase 2 (proposed)\"]"
         AREA_FILTER=""
+   elif [ ${arg} = "-help" ]; then
+       usage
    else
        echo "ERROR: Invalid arg ${arg}"
        EXIT_STATUS=1
@@ -95,8 +101,8 @@ fi
    
     wget -O ${arg}.osm "${wget_args}"    
     
-    # convert to KML for checking in Google Earth
-    rm -f ${arg}.kml
+    # convert to KML for checking in Google Earth, save the old KML for comparing in qgis
+    if [ -r ${arg}.kml ]; then mv -f ${arg}.kml ${arg}_old.kml; fi
     ogr2ogr -f KML ${arg}.kml ${arg}.osm ${geometry}
     # Let's color the KML bounds 
     sed -i  "s/<color>......../<color>${KMLcolor}/" ${arg}.kml
@@ -133,10 +139,8 @@ fi
     # server was returning 429 errors (too many requests), so lets slow our rate down. 
     sleep 5
  done
- # post-processing: remove 'conservation lands' from bounds names
+ # post-processing: remove 'conservation land' from bounds names
  if [ ${GOT_NEW_BOUNDS} = "YES" ]; then
      sed -i  "s/ Conservation Land//" bounds.geojson
  fi
  exit $EXIT_STATUS
-
- 
