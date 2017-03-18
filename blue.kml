@@ -477,7 +477,7 @@
 		<SimpleData name="osm_id">414270290</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;fine gravel&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;wheelchair&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4363395,42.4818253 -71.4362399,42.481724 -71.4364259,42.4816388 -71.4365394,42.4815673 -71.4368135,42.481413</coordinates></LineString>
   </Placemark>

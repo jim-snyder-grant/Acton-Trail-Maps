@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-02-07T16:44:02Z" areas="2017-02-07T09:05:02Z"/>
+<meta osm_base="2017-03-16T14:33:02Z" areas="2017-03-16T11:34:02Z"/>
 
-  <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
+  <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
   <node id="771666372" lat="42.4835404" lon="-71.4847321"/>
   <node id="771666386" lat="42.4884498" lon="-71.4806346"/>
@@ -2129,8 +2129,9 @@
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue Orchard Trail"/>
-    <tag k="surface" v="fine gravel"/>
+    <tag k="surface" v="fine_gravel"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <way id="425223129">
