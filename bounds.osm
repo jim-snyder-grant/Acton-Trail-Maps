@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-03-16T14:33:02Z"/>
+<meta osm_base="2017-03-20T20:47:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -732,10 +732,8 @@
   <node id="3192400246" lat="42.4811247" lon="-71.4858279"/>
   <node id="3208409164" lat="42.4822995" lon="-71.4347349"/>
   <node id="3208409174" lat="42.4825749" lon="-71.4347232"/>
-  <node id="3301607761" lat="42.4937067" lon="-71.4601482"/>
-  <node id="3301607762" lat="42.4947398" lon="-71.4610468"/>
   <node id="3301607764" lat="42.4952666" lon="-71.4592141"/>
-  <node id="3301607765" lat="42.4955782" lon="-71.4596754"/>
+  <node id="3301607765" lat="42.4955940" lon="-71.4596754"/>
   <node id="3301607766" lat="42.4958233" lon="-71.4569611"/>
   <node id="3301607767" lat="42.4958769" lon="-71.4591835"/>
   <node id="3301607769" lat="42.4960016" lon="-71.4568014"/>
@@ -1467,8 +1465,7 @@
   <node id="4578610232" lat="42.4680129" lon="-71.4764627"/>
   <node id="4578610233" lat="42.4681275" lon="-71.4763765"/>
   <node id="4578610234" lat="42.4688390" lon="-71.4762236"/>
-  <node id="4581792011" lat="42.4937667" lon="-71.4601113"/>
-  <node id="4581792012" lat="42.4937697" lon="-71.4601197"/>
+  <node id="4581792012" lat="42.4937695" lon="-71.4601201"/>
   <node id="4581792013" lat="42.4949256" lon="-71.4594243"/>
   <node id="4581792014" lat="42.4959626" lon="-71.4589362"/>
   <node id="4581792015" lat="42.4961139" lon="-71.4586271"/>
@@ -2038,6 +2035,9 @@
   <node id="4689862133" lat="42.4566717" lon="-71.4804810"/>
   <node id="4689862134" lat="42.4582115" lon="-71.4843733"/>
   <node id="4730947981" lat="42.4802861" lon="-71.4324039"/>
+  <node id="4745707995" lat="42.4937071" lon="-71.4601481"/>
+  <node id="4745707996" lat="42.4937666" lon="-71.4601118"/>
+  <node id="4745707997" lat="42.4947398" lon="-71.4610468"/>
   <way id="29761444">
     <nd ref="327251718"/>
     <nd ref="4664196649"/>
@@ -2741,80 +2741,6 @@
     <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
   </way>
-  <way id="29769503">
-    <nd ref="327871568"/>
-    <nd ref="327881970"/>
-    <nd ref="3174012348"/>
-    <nd ref="3303440259"/>
-    <nd ref="327892871"/>
-    <nd ref="3174012351"/>
-    <nd ref="327902528"/>
-    <nd ref="327882324"/>
-    <nd ref="3174012356"/>
-    <nd ref="4493560036"/>
-    <nd ref="4493560037"/>
-    <nd ref="327851960"/>
-    <nd ref="327901331"/>
-    <nd ref="4493560039"/>
-    <nd ref="4493560038"/>
-    <nd ref="327871714"/>
-    <nd ref="327632116"/>
-    <nd ref="327895524"/>
-    <nd ref="327862956"/>
-    <nd ref="3174012357"/>
-    <nd ref="327611093"/>
-    <nd ref="327876991"/>
-    <nd ref="3174012354"/>
-    <nd ref="3174012355"/>
-    <nd ref="327636166"/>
-    <nd ref="3174012353"/>
-    <nd ref="327905697"/>
-    <nd ref="327866047"/>
-    <nd ref="3174012352"/>
-    <nd ref="3301607762"/>
-    <nd ref="3301607761"/>
-    <nd ref="327857439"/>
-    <nd ref="327871568"/>
-    <tag k="access" v="yes"/>
-    <tag k="area" v="yes"/>
-    <tag k="boundary" v="protected_area"/>
-    <tag k="leisure" v="nature_reserve"/>
-    <tag k="massgis:ARTICLE97" v="1"/>
-    <tag k="massgis:ASSESS_ACR" v="0.00000000"/>
-    <tag k="massgis:ATT_DATE" v="1997/06/25"/>
-    <tag k="massgis:COMMENTS" v="ADDITIONAL SCORP ID&quot;S ARE 2020 &amp; 2002"/>
-    <tag k="massgis:DCAM_ID" v="0"/>
-    <tag k="massgis:DEED_ACRES" v="0.00000000"/>
-    <tag k="massgis:EOEAINVOLV" v="1"/>
-    <tag k="massgis:FEESYM" v="M"/>
-    <tag k="massgis:FEE_OWNER" v="Town of Acton"/>
-    <tag k="massgis:FY_FUNDING" v="0"/>
-    <tag k="massgis:GRANTPROG1" v="DCS-SH"/>
-    <tag k="massgis:GRANTTYPE1" v="S"/>
-    <tag k="massgis:LEV_PROT" v="P"/>
-    <tag k="massgis:MANAGER" v="Town of Acton Conservation Commission"/>
-    <tag k="massgis:MANAGR_ABR" v="M002CC"/>
-    <tag k="massgis:MANAGR_TYP" v="M"/>
-    <tag k="massgis:OS_DEED_BO" v="0"/>
-    <tag k="massgis:OS_DEED_PA" v="0"/>
-    <tag k="massgis:OS_ID" v="2-6129"/>
-    <tag k="massgis:OWNER_ABRV" v="M002"/>
-    <tag k="massgis:OWNER_TYPE" v="M"/>
-    <tag k="massgis:POLY_ID" v="6129"/>
-    <tag k="massgis:PRIM_PURP" v="C"/>
-    <tag k="massgis:PROJ_ID1" v="DCS-SH1"/>
-    <tag k="massgis:PUB_ACCESS" v="Y"/>
-    <tag k="massgis:SITE_NAME" v="TOWN FOREST"/>
-    <tag k="massgis:SOURCE_MAP" v="1"/>
-    <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Bulette Conservation Land - Town Forest"/>
-    <tag k="owner" v="Town Of Acton"/>
-    <tag k="ownership" v="municipal"/>
-    <tag k="protect_class" v="5"/>
-    <tag k="protected" v="perpetuity"/>
-    <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
-  </way>
   <way id="29770133">
     <nd ref="4502587489"/>
     <nd ref="327896477"/>
@@ -3330,7 +3256,6 @@
     <tag k="massgis:SITE_NAME" v="WOODS ON MASS. AVE."/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="name" v="Woods On Mass. Ave."/>
     <tag k="owner" v="Town Of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
@@ -3803,6 +3728,11 @@
     <nd ref="3192391170"/>
   </way>
   <way id="323358960">
+    <nd ref="4745707997"/>
+    <nd ref="4581792028"/>
+    <nd ref="4581792027"/>
+    <nd ref="4581792026"/>
+    <nd ref="4581792025"/>
     <nd ref="3301607794"/>
     <nd ref="3301607783"/>
     <nd ref="3301607778"/>
@@ -3832,19 +3762,48 @@
     <nd ref="4581792013"/>
     <nd ref="3301610287"/>
     <nd ref="4581792012"/>
-    <nd ref="4581792011"/>
-    <nd ref="3301607761"/>
-    <nd ref="3301607762"/>
-    <nd ref="4581792028"/>
-    <nd ref="4581792027"/>
-    <nd ref="4581792026"/>
-    <nd ref="4581792025"/>
-    <nd ref="3301607794"/>
+    <nd ref="4745707996"/>
+    <nd ref="4745707995"/>
+    <nd ref="327857439"/>
+    <nd ref="327871568"/>
+    <nd ref="327881970"/>
+    <nd ref="3174012348"/>
+    <nd ref="3303440259"/>
+    <nd ref="327892871"/>
+    <nd ref="3174012351"/>
+    <nd ref="327902528"/>
+    <nd ref="327882324"/>
+    <nd ref="3174012356"/>
+    <nd ref="4493560036"/>
+    <nd ref="4493560037"/>
+    <nd ref="327851960"/>
+    <nd ref="327901331"/>
+    <nd ref="4493560039"/>
+    <nd ref="4493560038"/>
+    <nd ref="327871714"/>
+    <nd ref="327632116"/>
+    <nd ref="327895524"/>
+    <nd ref="327862956"/>
+    <nd ref="3174012357"/>
+    <nd ref="327611093"/>
+    <nd ref="327876991"/>
+    <nd ref="3174012354"/>
+    <nd ref="3174012355"/>
+    <nd ref="327636166"/>
+    <nd ref="3174012353"/>
+    <nd ref="327905697"/>
+    <nd ref="327866047"/>
+    <nd ref="3174012352"/>
+    <nd ref="4745707997"/>
+    <tag k="access" v="yes"/>
+    <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="Anderson Conservation Land"/>
+    <tag k="name" v="Bulette Conservation Land - Town Forest"/>
     <tag k="owner" v="Town of Acton"/>
+    <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
+    <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
   </way>
   <way id="449483835">
@@ -4522,10 +4481,14 @@
     <nd ref="4578610234"/>
     <nd ref="4578610217"/>
     <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="176"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Central St"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
-    <tag k="name" v="176 Central St"/>
-    <tag k="owner" v="Town of ACton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
