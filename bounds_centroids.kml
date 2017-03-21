@@ -326,7 +326,7 @@
       <Point><coordinates>-71.429289677890608,42.440045889891131</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Caouette Simeone Farm</name>
+	<name>Caouette Farm</name>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="osm_way_id">460684752</SimpleData>
 		<SimpleData name="boundary">protected_area</SimpleData>
