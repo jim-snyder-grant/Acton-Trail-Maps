@@ -4,8 +4,8 @@
     <meta charset='utf-8' />
     <title>Acton Trails Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
        #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -49,18 +49,35 @@ function formatLngLat(x, dim) {
         (seconds ? seconds + '"' : '') + dir;
 }
 
+var startCenter = new mapboxgl.LngLat(-71.449,42.468);
+// var looseBounds = new mapboxgl.LngLatBounds([-71.41583, 42.32917], [-71.45667,42.45694])      
+var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583])    
+    
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
-    center: [-71.449,42.468], // starting position
-    zoom: 10.1 // starting zoom  
+    center: startCenter , // starting position
+    zoom: 9.1 // starting zoom  
 });
-map.on('mousemove', function (e) {
+  
+function updateInfobox(where)
+{
     document.getElementById('info').innerHTML =
         "Acton LSC Townwide Trails Map" + '<br />' +       
-            // e.lngLat is the longitude, latitude geographical position of the event
-        '<pre>'+ formatLngLat(e.lngLat.lng, 'lng') + ' ' + formatLngLat(e.lngLat.lat, 'lat') + '</pre>';
+            //  is the longitude, latitude geographical position of the event
+        '<pre>'+ formatLngLat(where.lng, 'lng') + ' ' + formatLngLat(where.lat, 'lat') + '</pre>' + '<br />'; 
+}
+    
+map.on('load', function () {
+    map.fitBounds(
+    closeBounds, {duration:3000});
+    updateInfobox(startCenter);
+});
+
+    
+map.on('mousemove', function (e) {
+    updateInfobox(e.lngLat);
 });
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
@@ -70,6 +87,9 @@ map.addControl(new mapboxgl.GeolocateControl());
 map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
 map.touchZoomRotate.disableRotation();
+// scale(s)
+map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
+map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
 </script>
 
 </body>
