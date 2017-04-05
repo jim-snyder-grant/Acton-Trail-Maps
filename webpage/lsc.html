@@ -50,7 +50,8 @@ function formatLngLat(x, dim) {
 }
 
 var startCenter = new mapboxgl.LngLat(-71.449,42.468);
-// var looseBounds = new mapboxgl.LngLatBounds([-71.41583, 42.32917], [-71.45667,42.45694])      
+// 42.42917,-71.51583,42.55694,-71.35667]
+var looseBounds = new mapboxgl.LngLatBounds([-71.61583, 42.32917], [-71.25667,42.55694])     
 var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583])    
     
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
@@ -58,6 +59,7 @@ var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
     center: startCenter , // starting position
+    maxBounds: looseBounds,
     zoom: 9.1 // starting zoom  
 });
   
