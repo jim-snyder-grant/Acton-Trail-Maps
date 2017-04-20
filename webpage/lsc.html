@@ -8,7 +8,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
-       #map { position:absolute; top:0; bottom:0; width:100%; }
+       #map { position:absolute; top:0; bottom:10%; width:100%; }
     </style>
 </head>
 <body>
@@ -26,7 +26,7 @@
         font-size: 24px;
         text-align: center;
         color: #darkgreen;
-        background: #fff;
+        background: rgba(255, 255, 255, 0.8);
     }
     #position-info-old {
         display: inline-block;
@@ -41,14 +41,7 @@
         color: #222;
         background: #fff;
     }
-    #zoom-info{
-         font-size: 16px;
-        position: absolute;
-        right: 5px;
-        bottom: 60px;
-        overflow: auto;
-        background: rgba(255, 255, 255, 0.8);
-    }
+    
     #position-info {
          font-size: 16px;
         position: absolute;
@@ -57,22 +50,27 @@
         overflow: auto;
         background: rgba(255, 255, 255, 0.8);
     }
-    #map-title-old {
-        font-size: 36px;
-        font-weight: bold;
+    #position-info {
+         font-size: 16px;
         position: absolute;
-        top: 5px;
-        margin: auto;
-//        overflow: auto;
+        right: 5px;
+        top:85%;
+        overflow: auto;
         background: rgba(255, 255, 255, 0.8);
     }
+    #legend {
+        position: absolute;
+        top:90%;
+        overflow: auto; 
+    }
+
 </style>
     
     
 <div id='map'> </div>
 <div id='position-info'></div>
-<div id='zoom-info'></div>
-<div id ='map-title'>Acton Land Stewardship Committee Local Trail Map</div>    
+<div id ='map-title'>Acton Land Stewardship Committee Local Trail Map</div> 
+<div id='legend'> legend goes here </div>    
 
     
 <script>
@@ -132,10 +130,7 @@ function updatePositionInfo(where)
         formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';
     
 }
-function updateZoomInfo()
-{
-    document.getElementById('zoom-info').innerHTML = 'zoom: ' + map.getZoom().toFixed(3);             
-}
+
     
 function updateURL()
 {
@@ -152,11 +147,9 @@ map.on('load', function () {
     }
     map.easeTo({duration:3000, zoom:startZoom, center:startCenter});
     updatePositionInfo(startCenter);
-    updateZoomInfo();
 });
 
 map.on('zoom', function (e) {
-    updateZoomInfo();
     updateURL();
 });
 
