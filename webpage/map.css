@@ -1,0 +1,11 @@
+#map { position:absolute; top:0; bottom:0%; width:100%; }
+   
+#position-info {
+         font-size: 16px;
+        position: absolute;
+        right: 5px;
+        top:95%;
+        overflow: auto;
+        background: rgba(255, 255, 255, 0.8);
+}  
+
