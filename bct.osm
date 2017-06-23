@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-01-20T20:12:02Z"/>
+<meta osm_base="2017-06-12T14:16:33Z"/>
 
-  <bounds minlat="42.433" minlon="-71.5" maxlat="42.534" maxlon="-71.384"/>
+  <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
   <node id="65203403" lat="42.4742371" lon="-71.3898528">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>

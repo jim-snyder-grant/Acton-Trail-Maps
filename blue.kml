@@ -518,17 +518,6 @@
 	<name>Blue</name>
 	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">461057525</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.412,42.50473 -71.4121838,42.5047332 -71.4123796,42.5049052 -71.4124467,42.5050239 -71.412503,42.505101 -71.412664,42.50519 -71.4127417,42.5052532 -71.4127981,42.5053482 -71.41289,42.50541</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Blue</name>
-	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">461062467</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
@@ -611,7 +600,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;earth&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4840204,42.4843946 -71.4840204,42.4843946 -71.4843296,42.4840815 -71.4844801,42.4838792</coordinates></LineString>
+      <LineString><coordinates>-71.4840204,42.4843946 -71.4843296,42.4840815 -71.4844801,42.4838792</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>

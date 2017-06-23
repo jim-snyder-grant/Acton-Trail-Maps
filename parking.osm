@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-03-20T20:47:02Z"/>
+<meta osm_base="2017-06-12T14:21:32Z" areas="2017-06-12T02:57:38Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -51,10 +51,17 @@
   <node id="4699877932" lat="42.5188415" lon="-71.4030936"/>
   <node id="4699877933" lat="42.5188108" lon="-71.4032552"/>
   <node id="4699877934" lat="42.5190031" lon="-71.4034423"/>
+  <node id="4699934055" lat="42.5188258" lon="-71.4031764"/>
   <node id="4739123728" lat="42.4622299" lon="-71.4511378"/>
   <node id="4739123729" lat="42.4621495" lon="-71.4511330"/>
   <node id="4739123730" lat="42.4621644" lon="-71.4507281"/>
   <node id="4739123731" lat="42.4622403" lon="-71.4507327"/>
+  <node id="4867299581" lat="42.5076181" lon="-71.4339073"/>
+  <node id="4867299582" lat="42.5075380" lon="-71.4337813"/>
+  <node id="4867299583" lat="42.5074470" lon="-71.4338939"/>
+  <node id="4867299584" lat="42.5075162" lon="-71.4339918"/>
+  <node id="4867299585" lat="42.5075563" lon="-71.4339395"/>
+  <node id="4867299586" lat="42.5075736" lon="-71.4339637"/>
   <way id="115637309">
     <nd ref="1305920428"/>
     <nd ref="1305920430"/>
@@ -175,6 +182,7 @@
   <way id="476393372">
     <nd ref="4699877931"/>
     <nd ref="4699877932"/>
+    <nd ref="4699934055"/>
     <nd ref="4699877933"/>
     <nd ref="4699877934"/>
     <nd ref="4699877931"/>
@@ -199,6 +207,19 @@
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="paved"/>
     <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+  </way>
+  <way id="494952332">
+    <nd ref="4867299581"/>
+    <nd ref="4867299582"/>
+    <nd ref="4867299583"/>
+    <nd ref="4867299584"/>
+    <nd ref="4867299585"/>
+    <nd ref="4867299586"/>
+    <nd ref="4867299581"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="area" v="yes"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
   </way>
 
 </osm>
