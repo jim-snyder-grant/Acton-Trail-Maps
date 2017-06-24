@@ -2,16 +2,16 @@
 # Here is a python program to bring data down from OSM & transform it for use in LSC maps
 # typical use: "python osm2lsc.py args..."
 
-import requests
-import sys
-import os.path
-from time import sleep
-import re
-from tempfile import mkstemp
-import shutil
+import requests # for wget equivalent
+import sys #file operations
+import os.path # file name operations
+from time import sleep #rest
+import re# regular expressions as part of SED equivalent
+from tempfile import mkstemp # tempfile
+import shutil # higher level file operations
 # For calling gdal functionality directly:
 # from osgeo import ogr, osr, gdal, gdalconst
-# For calling ogr2ogr instead of underlying gdal functionality
+# For calling ogr2ogr instead of underlying gdal functionality:
 from subprocess import call
  
 EXIT_STATUS=0
@@ -37,16 +37,16 @@ else:
     args = sys.argv[1:]   # sys.argv[0] is the program name
 
 # Using a bounding box makes the searches go more quickly
-ACTON_BBOX="[bbox:42.42917,-71.51583,42.55694,-71.35667];"
+ACTON_BBOX="[bbox:42.433,-71.5,42.534,-71.384];"
  # using an Acton Area ID lets us skip trails that are in the bounding box but not in Acton. 
- # One number is to get the boundary itself, the other is to use it as an area filter
-ACTON_ID=1832779
-ACTON_AREA_ID=3601832779
+ACTON_AREA_ID="3601832779"
  # we get canoe launch by ID since it's a conservation restriction not owned by Acton
 CANOE_LAUNCH_ID="449483835"
  # generic trails filter includes paths and tracks. We removed 'footway' after editing to
- # remove that use fortrails in Acton 
+ # remove that use for trails in Acton 
 TRAILS_FILTER="way[\"highway\"~\"path|track\"][access!=private][\"name\""
+# for trails, we surpress special treatment for trails that are entirely outside Acton 
+AREA_FILTER="(area:"+ACTON_AREA_ID+")"
  # special post-processing if we got new bounds
 GOT_NEW_BOUNDS=False
 
@@ -116,7 +116,7 @@ for arg in args:
 #    kmlDriver = gdal.GetDriverByName("KML")
 #    geojsonDriver = gdal.GetDriverByName("GeoJSON")
  
-    url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+";(._;>;);out body;"
+    url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
     contents = response.text
     argFile = open(osmFile, 'w')
@@ -135,17 +135,6 @@ for arg in args:
         if os.path.exists(backupFile):
              os.remove(backupFile)
         os.rename(kmlFile, backupFile)
-        
-#    sourceDataset = gdal.OpenEx(osmFile,gdal.OF_VECTOR)   # used to have ,gdalconst.GA_ReadOnly    
-#  yes, tried a lot of things....
-#    destDataset = ogr.Open(src_dsname)
-#    destDataset = kmlDriver.Create(kmlFile,0, 0, 0, gdal.GDT_Unknown, []) 
-#    destDataset = gdal.OpenEx(kmlFile, gdal.OF_VECTOR)
-#   print (destDataset)
-# layers=geometry    
-#    translateOptions = gdal.VectorTranslateOptions(layers='lines', format='KML')
-#    gdal.VectorTranslate(destDataset, sourceDataset, options=translateOptions)
-#   destDataset = None;
     
     call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
     
