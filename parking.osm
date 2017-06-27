@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-06-12T14:21:32Z" areas="2017-06-12T02:57:38Z"/>
+<meta osm_base="2017-06-27T18:57:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -192,7 +192,6 @@
     <tag k="addr:state" v="ma"/>
     <tag k="addr:street" v="Carlisle Rd"/>
     <tag k="amenity" v="parking"/>
-    <tag k="area" v="yes"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/robbinsmill/"/>
   </way>
@@ -203,7 +202,6 @@
     <nd ref="4739123731"/>
     <nd ref="4739123728"/>
     <tag k="amenity" v="parking"/>
-    <tag k="area" v="yes"/>
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="paved"/>
     <tag k="website" v="http://www.actontrails.org/great-hill/"/>
@@ -217,7 +215,6 @@
     <nd ref="4867299586"/>
     <nd ref="4867299581"/>
     <tag k="amenity" v="parking"/>
-    <tag k="area" v="yes"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
   </way>
