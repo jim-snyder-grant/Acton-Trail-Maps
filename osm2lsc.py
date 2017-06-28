@@ -146,7 +146,7 @@ for arg in args:
             os.write(fid,outContents)
             os.close(fid)
         os.remove(filename)
-        os.rename(tempName, filename)  
+        shutil.move(tempName, filename)
     
     # now put in special color for looking at KML in google earth
     ourSED("<color>........", "<color>"+KMLcolor, kmlFile)   
