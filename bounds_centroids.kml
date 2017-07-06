@@ -37,7 +37,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;public&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/robbinsmill/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.399244602519474,42.511338886387449</coordinates></Point>
+      <Point><coordinates>-71.399244594071106,42.511338876233566</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wills Hole - Town Forest</name>
@@ -48,7 +48,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.419212653979585,42.519012862810555</coordinates></Point>
+      <Point><coordinates>-71.41929072025647,42.518952942824853</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Pratts Brook</name>
@@ -60,17 +60,6 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;gnis:feature_id&quot;=&gt;&quot;1973517&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protected&quot;=&gt;&quot;perpetuity&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/pratts-brook/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.441153630341148,42.454813611651169</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Stoneymeade</name>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="osm_id">6712388</SimpleData>
-		<SimpleData name="type">multipolygon</SimpleData>
-		<SimpleData name="boundary">protected_area</SimpleData>
-		<SimpleData name="leisure">nature_reserve</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;massgis:ARTICLE97&quot;=&gt;&quot;9&quot;,&quot;massgis:ASSESS_ACR&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:ATT_DATE&quot;=&gt;&quot;1993/12/09&quot;,&quot;massgis:DCAM_ID&quot;=&gt;&quot;0&quot;,&quot;massgis:DEED_ACRES&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:EOEAINVOLV&quot;=&gt;&quot;0&quot;,&quot;massgis:FEESYM&quot;=&gt;&quot;M&quot;,&quot;massgis:FEE_OWNER&quot;=&gt;&quot;Town of Acton&quot;,&quot;m</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.400808829259063,42.485511067567863</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Grassy Pond</name>
@@ -92,7 +81,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protected&quot;=&gt;&quot;perpetuity&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/heath-hen-meadow/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.473829439783628,42.458791183844482</coordinates></Point>
+      <Point><coordinates>-71.474015111327219,42.459685507186357</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Nashoba Brook</name>
@@ -103,7 +92,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town Of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protected&quot;=&gt;&quot;perpetuity&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/nashoba-brook/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.409606713645488,42.506729982004579</coordinates></Point>
+      <Point><coordinates>-71.409606712332206,42.506729983738957</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wright Hill</name>
@@ -176,7 +165,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;massgis:ARTICLE97&quot;=&gt;&quot;1&quot;,&quot;massgis:ASSESS_ACR&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:ATT_DATE&quot;=&gt;&quot;1997/06/25&quot;,&quot;massgis:DCAM_ID&quot;=&gt;&quot;0&quot;,&quot;massgis:DEED_ACRES&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:EOEAINVOLV&quot;=&gt;&quot;1&quot;,&quot;massgis:FEESYM&quot;=&gt;&quot;M&quot;,&quot;massgis:FEE_OWNER&quot;=&gt;&quot;Town of Acton&quot;,&quot;m</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.434727155088183,42.502653181005805</coordinates></Point>
+      <Point><coordinates>-71.434727154724953,42.50265317982177</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Acton Arboretum</name>
@@ -186,7 +175,7 @@
 		<SimpleData name="leisure">park</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;gnis:feature_id&quot;=&gt;&quot;1971962&quot;,&quot;owner&quot;=&gt;&quot;Town Of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://actonarboretum.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.434356088887725,42.480124400864774</coordinates></Point>
+      <Point><coordinates>-71.434354955387178,42.480123583692787</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Spring Hill</name>
@@ -196,7 +185,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town Of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protected&quot;=&gt;&quot;perpetuity&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/spring-hill/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.402075425360067,42.502976265753652</coordinates></Point>
+      <Point><coordinates>-71.402075425220403,42.502976265277141</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Wetherbee</name>
@@ -206,7 +195,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;massgis:ARTICLE97&quot;=&gt;&quot;9&quot;,&quot;massgis:ASSESS_ACR&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:ATT_DATE&quot;=&gt;&quot;1993/12/09&quot;,&quot;massgis:DCAM_ID&quot;=&gt;&quot;0&quot;,&quot;massgis:DEED_ACRES&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:EOEAINVOLV&quot;=&gt;&quot;0&quot;,&quot;massgis:FEESYM&quot;=&gt;&quot;M&quot;,&quot;massgis:FEE_OWNER&quot;=&gt;&quot;Town of Acton&quot;,&quot;m</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.416946319445074,42.472293858951389</coordinates></Point>
+      <Point><coordinates>-71.416953696055614,42.472305063947893</coordinates></Point>
   </Placemark>
   <Placemark>
 	<name>Camp Acton</name>
@@ -216,7 +205,7 @@
 		<SimpleData name="leisure">nature_reserve</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town Of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;,&quot;website&quot;=&gt;&quot;http://actontrails.org/DescCampActon.htm&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.394348464520519,42.5033925982856</coordinates></Point>
+      <Point><coordinates>-71.394348464982599,42.503392598408603</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
@@ -337,15 +326,6 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="osm_way_id">462464566</SimpleData>
-		<SimpleData name="boundary">protected_area</SimpleData>
-		<SimpleData name="leisure">nature_reserve</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;176&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Central St&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protected&quot;=&gt;&quot;perpetuity&quot;,&quot;protection_title&quot;=&gt;&quot;l</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.475770818567966,42.46814221485684</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="osm_way_id">463365988</SimpleData>
 		<SimpleData name="boundary">protected_area</SimpleData>
 		<SimpleData name="leisure">nature_reserve</SimpleData>
@@ -398,6 +378,16 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;145 Rear&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;ma&quot;,&quot;addr:street&quot;=&gt;&quot;Great Rd&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;,&quot;protect_class&quot;=&gt;&quot;5&quot;,&quot;protection_title&quot;=&gt;&quot;local_conservation_land&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.412983082897739,42.482928940928105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stoneymeade</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="osm_way_id">490426385</SimpleData>
+		<SimpleData name="boundary">protected_area</SimpleData>
+		<SimpleData name="leisure">nature_reserve</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;massgis:ARTICLE97&quot;=&gt;&quot;9&quot;,&quot;massgis:ASSESS_ACR&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:ATT_DATE&quot;=&gt;&quot;1993/12/09&quot;,&quot;massgis:DCAM_ID&quot;=&gt;&quot;0&quot;,&quot;massgis:DEED_ACRES&quot;=&gt;&quot;0.00000000&quot;,&quot;massgis:EOEAINVOLV&quot;=&gt;&quot;0&quot;,&quot;massgis:FEESYM&quot;=&gt;&quot;M&quot;,&quot;massgis:FEE_OWNER&quot;=&gt;&quot;Town of Acton&quot;,&quot;m</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.400791966949214,42.485588324482592</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
