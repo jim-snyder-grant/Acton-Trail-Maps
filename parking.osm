@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-06-27T18:57:02Z"/>
+<meta osm_base="2017-07-15T01:58:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -62,6 +62,11 @@
   <node id="4867299584" lat="42.5075162" lon="-71.4339918"/>
   <node id="4867299585" lat="42.5075563" lon="-71.4339395"/>
   <node id="4867299586" lat="42.5075736" lon="-71.4339637"/>
+  <node id="4970764458" lat="42.4651202" lon="-71.4758992"/>
+  <node id="4970764459" lat="42.4650262" lon="-71.4755786"/>
+  <node id="4970764460" lat="42.4648778" lon="-71.4756645"/>
+  <node id="4970764461" lat="42.4649461" lon="-71.4758764"/>
+  <node id="4970764462" lat="42.4650440" lon="-71.4759501"/>
   <way id="115637309">
     <nd ref="1305920428"/>
     <nd ref="1305920430"/>
@@ -217,6 +222,18 @@
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
+  </way>
+  <way id="507599989">
+    <nd ref="4970764458"/>
+    <nd ref="4970764459"/>
+    <nd ref="4970764460"/>
+    <nd ref="4970764461"/>
+    <nd ref="4970764462"/>
+    <nd ref="4970764458"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
   </way>
 
 </osm>
