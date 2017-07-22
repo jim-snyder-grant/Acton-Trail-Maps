@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-07-15T01:58:02Z"/>
+<meta osm_base="2017-07-22T21:27:02Z" areas="2017-07-22T20:01:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -10,6 +10,11 @@
   <node id="1305920430" lat="42.4875933" lon="-71.4783694"/>
   <node id="1305920431" lat="42.4876828" lon="-71.4784012"/>
   <node id="1305920434" lat="42.4876417" lon="-71.4783866"/>
+  <node id="2118697698" lat="42.4812700" lon="-71.4376535"/>
+  <node id="2118697705" lat="42.4814359" lon="-71.4376341"/>
+  <node id="2118697715" lat="42.4813192" lon="-71.4379594"/>
+  <node id="2118697732" lat="42.4818457" lon="-71.4375636"/>
+  <node id="2118697733" lat="42.4818683" lon="-71.4377774"/>
   <node id="2139046639" lat="42.5021976" lon="-71.4422614"/>
   <node id="2139046642" lat="42.5022927" lon="-71.4423230"/>
   <node id="2139046643" lat="42.5022942" lon="-71.4420349"/>
@@ -36,6 +41,7 @@
   <node id="4425739947" lat="42.5004329" lon="-71.4390599"/>
   <node id="4425739948" lat="42.5004728" lon="-71.4389511"/>
   <node id="4425739949" lat="42.5005622" lon="-71.4390149"/>
+  <node id="4427162256" lat="42.4817867" lon="-71.4378044"/>
   <node id="4480865205" lat="42.4405997" lon="-71.4298672"/>
   <node id="4480865206" lat="42.4405601" lon="-71.4299503"/>
   <node id="4480865207" lat="42.4404185" lon="-71.4298283"/>
@@ -82,6 +88,28 @@
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/jenks/"/>
+  </way>
+  <way id="201851000">
+    <nd ref="2118697733"/>
+    <nd ref="2118697732"/>
+    <nd ref="2118697705"/>
+    <nd ref="2118697698"/>
+    <nd ref="2118697715"/>
+    <nd ref="4427162256"/>
+    <nd ref="2118697733"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Taylor Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="15"/>
+    <tag k="fee" v="no"/>
+    <tag k="note" v="geometry approximate - just reconstructed"/>
+    <tag k="parking" v="surface"/>
+    <tag k="supervised" v="no"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
   </way>
   <way id="203893374">
     <nd ref="2139046639"/>
