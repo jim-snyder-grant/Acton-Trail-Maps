@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 
-                                                                                
+                                                                                                                                  
 "features": [
 { "type": "Feature", "properties": { "osm_id": "2169262377", "name": "1", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": "\"tourism\"=>\"camp_site\"" }, "geometry": { "type": "Point", "coordinates": [ -71.39177, 42.50224 ] } },
 { "type": "Feature", "properties": { "osm_id": "2169262543", "name": "3", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": "\"tourism\"=>\"camp_site\"" }, "geometry": { "type": "Point", "coordinates": [ -71.3926, 42.50309 ] } },
