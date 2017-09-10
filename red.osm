@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-07-15T01:58:02Z"/>
+<meta osm_base="2017-09-10T02:44:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1109,6 +1109,14 @@
   <node id="4624382862" lat="42.4868150" lon="-71.4822749"/>
   <node id="4624382863" lat="42.4869460" lon="-71.4822585"/>
   <node id="4624382867" lat="42.4866004" lon="-71.4822884"/>
+  <node id="4699934055" lat="42.5188258" lon="-71.4031764"/>
+  <node id="4699934056" lat="42.5186517" lon="-71.4030950"/>
+  <node id="4699934057" lat="42.5185093" lon="-71.4029475"/>
+  <node id="4699934058" lat="42.5183571" lon="-71.4027517"/>
+  <node id="4699934059" lat="42.5182760" lon="-71.4025693"/>
+  <node id="4699934060" lat="42.5182207" lon="-71.4023842"/>
+  <node id="4699934061" lat="42.5181792" lon="-71.4022125"/>
+  <node id="4699934063" lat="42.5180997" lon="-71.4019809"/>
   <node id="4732273829" lat="42.4624635" lon="-71.4606708"/>
   <node id="4747951088" lat="42.4644017" lon="-71.4508750"/>
   <node id="4838612652" lat="42.4950559" lon="-71.5027671"/>
@@ -1117,6 +1125,24 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009101726"/>
   </node>
+  <node id="5080628557" lat="42.5177023" lon="-71.4020106"/>
+  <node id="5080628558" lat="42.5173109" lon="-71.4021984"/>
+  <node id="5080628559" lat="42.5171675" lon="-71.4023526"/>
+  <node id="5080628560" lat="42.5170845" lon="-71.4024385"/>
+  <node id="5080628561" lat="42.5168829" lon="-71.4024358"/>
+  <node id="5080628562" lat="42.5167425" lon="-71.4026852"/>
+  <node id="5080628563" lat="42.5166871" lon="-71.4027335"/>
+  <node id="5080628564" lat="42.5166298" lon="-71.4027147"/>
+  <node id="5080628565" lat="42.5165744" lon="-71.4025672"/>
+  <node id="5080628566" lat="42.5164222" lon="-71.4026664"/>
+  <node id="5080628567" lat="42.5163095" lon="-71.4027067"/>
+  <node id="5080628568" lat="42.5161632" lon="-71.4026718"/>
+  <node id="5080628569" lat="42.5160861" lon="-71.4026959"/>
+  <node id="5080628570" lat="42.5159794" lon="-71.4027871"/>
+  <node id="5080628571" lat="42.5159299" lon="-71.4029829"/>
+  <node id="5080628572" lat="42.5159280" lon="-71.4031519"/>
+  <node id="5080628573" lat="42.5158904" lon="-71.4033075"/>
+  <node id="5080628574" lat="42.5158568" lon="-71.4034148"/>
   <way id="41887381">
     <nd ref="518254707"/>
     <nd ref="518254708"/>
@@ -2725,6 +2751,23 @@
     <tag k="name" v="Red"/>
     <tag k="surface" v="earth"/>
   </way>
+  <way id="476399225">
+    <nd ref="4699934055"/>
+    <nd ref="4699934056"/>
+    <nd ref="4699934057"/>
+    <nd ref="4699934058"/>
+    <nd ref="4699934059"/>
+    <nd ref="4699934060"/>
+    <nd ref="4699934061"/>
+    <nd ref="4699934063"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="track"/>
+    <tag k="history" v="Retrieved from v1"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Red"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
   <way id="493446513">
     <nd ref="2138420134"/>
     <nd ref="2138420133"/>
@@ -2784,6 +2827,31 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
     <tag k="surface" v="wood"/>
+  </way>
+  <way id="521417305">
+    <nd ref="4699934063"/>
+    <nd ref="5080628557"/>
+    <nd ref="5080628558"/>
+    <nd ref="5080628559"/>
+    <nd ref="5080628560"/>
+    <nd ref="5080628561"/>
+    <nd ref="5080628562"/>
+    <nd ref="5080628563"/>
+    <nd ref="5080628564"/>
+    <nd ref="5080628565"/>
+    <nd ref="5080628566"/>
+    <nd ref="5080628567"/>
+    <nd ref="5080628568"/>
+    <nd ref="5080628569"/>
+    <nd ref="5080628570"/>
+    <nd ref="5080628571"/>
+    <nd ref="5080628572"/>
+    <nd ref="5080628573"/>
+    <nd ref="5080628574"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Red"/>
+    <tag k="surface" v="unpaved"/>
   </way>
 
 </osm>
