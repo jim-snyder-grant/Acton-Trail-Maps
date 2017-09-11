@@ -66,18 +66,23 @@ for arg in args:
     elif arg == "red":
         KMLcolor="ff0000ff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        AREA_FILTER=""
     elif arg == "blue":
         KMLcolor="ffff0000"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        AREA_FILTER=""
     elif arg == "yellow":
         KMLcolor="ff00ffff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        AREA_FILTER=""
     elif arg == "green":
         KMLcolor="ff00AA14"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        AREA_FILTER=""
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
         filters=TRAILS_FILTER+'!~\"Red|Blue|Green|Yellow\",i]'
+        AREA_FILTER=""
     elif arg == "town":
         KMLcolor="ff00ff00"
         filters="area[wikipedia=\"en:Acton, Massachusetts\"];rel(pivot)"
