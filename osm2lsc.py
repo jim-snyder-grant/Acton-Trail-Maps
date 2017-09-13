@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # Here is a python program to bring data down from OSM & transform it for use in LSC maps
-# typical use: "python osm2lsc.py args..."
+# typical use: "python2 osm2lsc.py args..."
 
 import requests # for wget equivalent
 import sys #file operations
@@ -21,7 +21,7 @@ allArg = 'all'
 helpArg = "help"
 
 def usage():
-    print("Usage: python " + sys.argv[0] + " arguments ")
+    print("Usage: python2 " + sys.argv[0] + " arguments ")
     print (" arguments are one or more of " + ','.join( sorted ({allArg, helpArg} | regularArguments)))
    
 
@@ -44,13 +44,21 @@ ACTON_AREA_ID="3601832779"
 CANOE_LAUNCH_ID="449483835"
  # generic trails filter includes paths and tracks. We removed 'footway' after editing to
  # remove that use for trails in Acton 
-TRAILS_FILTER="way[\"highway\"~\"path|track\"][access!=private][\"name\""
+TRAILS_FILTER='way[highway~"path|track"][access!=private][name'
 # for trails, we surpress special treatment for trails that are entirely outside Acton 
 AREA_FILTER="(area:"+ACTON_AREA_ID+")"
  # special post-processing if we got new bounds
 GOT_NEW_BOUNDS=False
+# variable for time delay. We increase it if we get a too-many-requests error. 
+time_delay = 2
+start_arg = args[0]
 
 for arg in args:
+    # first time through, don't need to sleep
+    if arg != start_arg :
+        # we were getting too-many-requests errors.
+        sleep(time_delay)
+        
     # by default, extract lines. But exceptions are made below 
     geometry="lines"   
 
@@ -58,51 +66,48 @@ for arg in args:
    # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
    # and then there's the canoe launch, which isn't owned by the town of Acton
    # we are in a transition away from landuse=conservation
-       filters="(way("+CANOE_LAUNCH_ID+ ");relation[\"boundary\"=\"protected_area\"][\"owner\"~\"Town Of Acton\",i];way[\"boundary\"=\"protected_area\"][\"owner\"~\"Town Of Acton\",i];relation[\"leisure\"=\"nature_reserve\"][\"owner\"~\"Town Of Acton\",i];way[\"leisure\"=\"nature_reserve\"][\"owner\"~\"Town Of Acton\",i])"
-       KMLcolor="ffffffff"
+       filters='(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
+       KMLcolor='ffffffff'
        AREA_FILTER=""
        geometry="multipolygons"
        GOT_NEW_BOUNDS=True
     elif arg == "red":
         KMLcolor="ff0000ff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
-        AREA_FILTER=""
     elif arg == "blue":
         KMLcolor="ffff0000"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
-        AREA_FILTER=""
     elif arg == "yellow":
         KMLcolor="ff00ffff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
-        AREA_FILTER=""
     elif arg == "green":
         KMLcolor="ff00AA14"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
-        AREA_FILTER=""
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
-        filters=TRAILS_FILTER+'!~\"Red|Blue|Green|Yellow\",i]'
+        # This is all trails outside of Acton & the trails without special color names inside (but no private trails)
+        filters='way[highway~"path|track|footway"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;)'
         AREA_FILTER=""
     elif arg == "town":
         KMLcolor="ff00ff00"
-        filters="area[wikipedia=\"en:Acton, Massachusetts\"];rel(pivot)"
+        filters='area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
         geometry="multipolygons"
         AREA_FILTER=""
     elif arg == "parking":
         KMLcolor="50BEBEBE"
-        filters="way[\"amenity\"=\"parking\"][\"website\"~\"actontrails\",i]"
+        filters='way[amenity=parking][website~actontrails,i]'
         geometry="multipolygons"
     elif arg == "camping":
         KMLcolor="643C9614"
-        filters="node[\"tourism\"=\"camp_site\"]"
+        filters='node[tourism=camp_site]'
         geometry="points" 
     elif arg == "bct":
         KMLcolor="55FF78F0"  
-        filters="relation[\"name\"~\"Bay Circuit Trail\"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)"
+        filters='relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
         AREA_FILTER=""
     elif arg == "bfrt":
         KMLcolor="501450FF"  
-        filters="way[\"name\"=\"Bruce Freeman Rail Trail: Phase 2 (proposed)\"]"
+        filters='way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
         AREA_FILTER=""
     elif arg == helpArg:
         usage()
@@ -123,6 +128,15 @@ for arg in args:
  
     url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
+    while 429 == response.status_code:
+        print ("Too many requests: slowing down")
+        sleep(time_delay = time_delay+3)
+        response = requests.get(url)
+    if 200 != response.status_code :
+        print ("Status code:", response.status_code, "on this request:")
+        print (url)
+        EXIT_STATUS=1
+        exit (EXIT_STATUS)
     contents = response.text
     argFile = open(osmFile, 'w')
     argFile.write(contents)
@@ -185,8 +199,6 @@ for arg in args:
     else:
 	    print ("ERROR: Did not create " + geojsonFile)
 	    EXIT_STATUS=1
-# we were getting too-many-requests errors.
-    sleep(6)
     
 if GOT_NEW_BOUNDS:
      ourSED (" Conservation Land","", "bounds.geojson")
