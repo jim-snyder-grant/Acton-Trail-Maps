@@ -16,7 +16,7 @@ from subprocess import call
  
 EXIT_STATUS=0
 
-regularArguments = {'red', 'blue', 'yellow', 'green','othertrails','bounds','town','parking','camping','bct','bfrt'}
+regularArguments = {'bct','bfrt','blue','bounds','camping', 'green','othertrails','parking','red','town','yellow'}
 allArg = 'all'
 helpArg = "help"
 
@@ -32,7 +32,7 @@ if (1 == len(sys.argv)):
 
 
 if (sys.argv[1] == allArg):
-    args = list(regularArguments)
+    args = sorted(list(regularArguments))
 else:
     args = sys.argv[1:]   # sys.argv[0] is the program name
 
@@ -45,8 +45,6 @@ CANOE_LAUNCH_ID="449483835"
  # generic trails filter includes paths and tracks. We removed 'footway' after editing to
  # remove that use for trails in Acton 
 TRAILS_FILTER='way[highway~"path|track"][access!=private][name'
-# for trails, we surpress special treatment for trails that are entirely outside Acton 
-AREA_FILTER="(area:"+ACTON_AREA_ID+")"
  # special post-processing if we got new bounds
 GOT_NEW_BOUNDS=False
 # variable for time delay. We increase it if we get a too-many-requests error. 
@@ -61,16 +59,18 @@ for arg in args:
         
     # by default, extract lines. But exceptions are made below 
     geometry="lines"   
-
+    # we surpress special treatment for trails that are entirely outside Acton 
+    AREA_FILTER="(area:"+ACTON_AREA_ID+")"
+    
     if arg == "bounds":
    # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
    # and then there's the canoe launch, which isn't owned by the town of Acton
    # we are in a transition away from landuse=conservation
-       filters='(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
-       KMLcolor='ffffffff'
-       AREA_FILTER=""
-       geometry="multipolygons"
-       GOT_NEW_BOUNDS=True
+        KMLcolor='ffffffff'  
+        filters='(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
+        AREA_FILTER=""
+        geometry="multipolygons"
+        GOT_NEW_BOUNDS=True
     elif arg == "red":
         KMLcolor="ff0000ff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
@@ -86,7 +86,7 @@ for arg in args:
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
         # This is all trails outside of Acton & the trails without special color names inside (but no private trails)
-        filters='way[highway~"path|track|footway"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;)'
+        filters='way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;)'
         AREA_FILTER=""
     elif arg == "town":
         KMLcolor="ff00ff00"
@@ -129,8 +129,9 @@ for arg in args:
     url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
     while 429 == response.status_code:
-        print ("Too many requests: slowing down")
-        sleep(time_delay = time_delay+3)
+        print ("Too many requests: slowing down delay to",time_delay,"seconds")
+        time_delay = time_delay+3
+        sleep(time_delay)
         response = requests.get(url)
     if 200 != response.status_code :
         print ("Status code:", response.status_code, "on this request:")
