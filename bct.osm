@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-07-06T14:21:02Z"/>
+<meta osm_base="2017-09-15T23:42:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -808,7 +808,7 @@
   <node id="2156888283" lat="42.5091000" lon="-71.4039400"/>
   <node id="2156888299" lat="42.5093835" lon="-71.4081312"/>
   <node id="2156888311" lat="42.5095200" lon="-71.4080200"/>
-  <node id="2156888332" lat="42.5098511" lon="-71.4077003"/>
+  <node id="2156888332" lat="42.5098479" lon="-71.4076976"/>
   <node id="2156888341" lat="42.5100842" lon="-71.4073685"/>
   <node id="2156888344" lat="42.5101771" lon="-71.4072291"/>
   <node id="2156888353" lat="42.5104465" lon="-71.4068418"/>
@@ -1084,6 +1084,7 @@
   <node id="4953889417" lat="42.4857064" lon="-71.4044740"/>
   <node id="4953889418" lat="42.4856886" lon="-71.4044643"/>
   <node id="4953889419" lat="42.4856604" lon="-71.4044145"/>
+  <node id="5099200087" lat="42.4896828" lon="-71.4016626"/>
   <way id="8915136">
     <nd ref="65211382"/>
     <nd ref="65237142"/>
@@ -1214,7 +1215,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="Yellow"/>
+    <tag k="name" v="BCT Yellow"/>
   </way>
   <way id="205716939">
     <nd ref="2156888005"/>
@@ -1896,6 +1897,7 @@
     <nd ref="73232755"/>
     <nd ref="73243130"/>
     <nd ref="73242678"/>
+    <nd ref="5099200087"/>
     <nd ref="73310816"/>
     <nd ref="73199508"/>
     <nd ref="73234808"/>
