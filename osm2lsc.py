@@ -25,7 +25,7 @@ def usage():
     print (" arguments are one or more of " + ','.join( sorted ({allArg, helpArg} | regularArguments)))
    
 
-if (1 == len(sys.argv)):
+if 1 == len(sys.argv):
     usage()
     EXIT_STATUS=1
     exit(EXIT_STATUS);
@@ -129,8 +129,8 @@ for arg in args:
     url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
     while 429 == response.status_code:
-        print ("Too many requests: slowing down delay to",time_delay,"seconds")
         time_delay = time_delay+3
+        print ("Too many requests: slowing down delay to",time_delay,"seconds")
         sleep(time_delay)
         response = requests.get(url)
     if 200 != response.status_code :
@@ -186,7 +186,11 @@ for arg in args:
 
     # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
     # The key difference is that we must remove the crs line
-    ourSED(r"^.crs.*$", "", geojsonFile)    
+    ourSED(r"^.crs.*$", "", geojsonFile)   
+    
+    # remove the colors from the names of Acton trails 
+    if arg in ['blue','red','green','yellow']:
+        ourSED(r"\s?"+arg+r"\s?","", geojsonFile)
     
     # just checking and announcing results
     if os.path.exists(kmlFile):
