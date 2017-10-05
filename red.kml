@@ -816,12 +816,23 @@
 	<name>Red</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">521417305</SimpleData>
+		<SimpleData name="osm_id">521417307</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4019809,42.5180997 -71.4020106,42.5177023 -71.4021984,42.5173109 -71.4023526,42.5171675 -71.4024385,42.5170845 -71.4024358,42.5168829 -71.4026852,42.5167425 -71.4027335,42.5166871 -71.4027147,42.5166298 -71.4025672,42.5165744 -71.4026664,42.5164222 -71.4027067,42.5163095 -71.4026718,42.5161632 -71.4026959,42.5160861 -71.4027871,42.5159794 -71.4029829,42.5159299 -71.4031519,42.515928 -71.4033075,42.5158904 -71.4034148,42.5158568</coordinates></LineString>
+      <LineString><coordinates>-71.4019809,42.5180997 -71.4020106,42.5177023 -71.4021984,42.5173109 -71.4023526,42.5171675 -71.4024385,42.5170845 -71.4024358,42.5168829 -71.4026852,42.5167425 -71.4027335,42.5166871 -71.4027147,42.5166298 -71.4025672,42.5165744 -71.4026664,42.5164222 -71.4027067,42.5163095 -71.4026718,42.5161632 -71.4026959,42.5160861 -71.4027871,42.5159794 -71.4029829,42.5159299 -71.4031519,42.515928 -71.4033075,42.5158904 -71.4034148,42.5158568 -71.4034792,42.5157579 -71.4034818,42.515665 -71.4034523,42.5155523 -71.4032968,42.515491 -71.403109,42.5154871 -71.4029508,42.5155484 -71.4028006,42.5155701 -71.402704,42.5155602 -71.4026396,42.5155088 -71.4025511,42.5153625 -71.4023955,42.5150244 -71.4021676,42.514544 -71.4019825,42.5142257 -71.4019744,42.5141545</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Red</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">521417308</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4024975,42.5136652 -71.4045627,42.5122051</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
