@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-05T02:14:02Z" areas="2017-10-05T01:55:03Z"/>
+<meta osm_base="2017-10-07T17:06:02Z" areas="2017-10-07T16:44:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -7464,7 +7464,7 @@
     <nd ref="1011825723"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Target Traill (yellow)"/>
+    <tag k="name" v="Target Trail (yellow)"/>
   </way>
   <way id="86971393">
     <nd ref="1011825624"/>
@@ -7492,7 +7492,7 @@
     <nd ref="1011825924"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Target Traill (yellow)"/>
+    <tag k="name" v="Target Trail (yellow)"/>
   </way>
   <way id="86974797">
     <nd ref="1011825890"/>
@@ -10504,7 +10504,7 @@
     <nd ref="5099191078"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="Main Trail (yellow blazes)"/>
+    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="311564472">
@@ -14328,7 +14328,7 @@
     <nd ref="5099191094"/>
     <nd ref="5105862418"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="blue ribbon blazed"/>
+    <tag k="name" v="blue ribbon"/>
   </way>
   <way id="523877429">
     <nd ref="5099191117"/>
@@ -14378,7 +14378,7 @@
     <nd ref="5099191073"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="Main Trail (yellow blazes)"/>
+    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524227691">
@@ -14388,7 +14388,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="layer" v="1"/>
-    <tag k="name" v="Main Trail (yellow blazes)"/>
+    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="surface" v="wood"/>
   </way>
   <way id="524227694">
@@ -14398,7 +14398,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="layer" v="1"/>
-    <tag k="name" v="Main Trail (yellow blazes)"/>
+    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="surface" v="wood"/>
   </way>
   <way id="524227696">
@@ -14424,7 +14424,7 @@
     <nd ref="5101837627"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="Main Trail (yellow blazes)"/>
+    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524512890">
@@ -14471,7 +14471,7 @@
     <nd ref="5104164615"/>
     <nd ref="5104164614"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="blue blazed"/>
+    <tag k="name" v="blue"/>
   </way>
   <way id="524512894">
     <nd ref="2059121931"/>
@@ -14491,7 +14491,7 @@
     <nd ref="5105862537"/>
     <nd ref="5099191092"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="blue ribbon blazed"/>
+    <tag k="name" v="blue ribbon"/>
   </way>
   <way id="524724149">
     <nd ref="5105862418"/>
@@ -14499,7 +14499,7 @@
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="layer" v="1"/>
-    <tag k="name" v="blue ribbon blazed"/>
+    <tag k="name" v="blue ribbon"/>
   </way>
   <way id="524724152">
     <nd ref="5099191092"/>
@@ -14525,7 +14525,7 @@
     <nd ref="5105862528"/>
     <nd ref="5105862527"/>
     <tag k="highway" v="footway"/>
-    <tag k="name" v="blue ribbon blazed"/>
+    <tag k="name" v="blue ribbon"/>
   </way>
   <way id="524727426">
     <nd ref="2059121931"/>
@@ -14889,7 +14889,7 @@
     <nd ref="1011825624"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Target Traill (yellow)"/>
+    <tag k="name" v="Target Trail (yellow)"/>
   </way>
   <way id="526159814">
     <nd ref="1011825815"/>
@@ -14909,7 +14909,7 @@
     <nd ref="1011825379"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Target Traill (yellow)"/>
+    <tag k="name" v="Target Trail (yellow)"/>
   </way>
   <way id="526159817">
     <nd ref="65239595"/>

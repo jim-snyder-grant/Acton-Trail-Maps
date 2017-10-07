@@ -551,7 +551,7 @@
       <LineString><coordinates>-71.4042464,42.4463206 -71.4043965,42.4466373</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Target Traill (yellow)</name>
+	<name>Target Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">86971373</SimpleData>
@@ -562,7 +562,7 @@
       <LineString><coordinates>-71.3916933,42.4445986 -71.3920757,42.4445929 -71.3925412,42.4446343 -71.392863,42.4446185 -71.3937723,42.4445146 -71.3940969,42.4444918 -71.3944402,42.4444918 -71.3946977,42.4444364 -71.3949659,42.4443809 -71.3952221,42.4443674 -71.3952663,42.4443651 -71.3955882,42.4443334 -71.3958671,42.4443572 -71.3961139,42.4443493 -71.3964465,42.4443968 -71.3967147,42.4443651 -71.3969507,42.4443572 -71.3972619,42.4443255 -71.3975086,42.4443255 -71.3977661,42.4443018 -71.3980773,42.4443018 -71.3982704,42.4442859 -71.3987854,42.4442859 -71.3993701,42.4443572 -71.3998561,42.4443817</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Target Traill (yellow)</name>
+	<name>Target Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">86971393</SimpleData>
@@ -1909,7 +1909,7 @@
       <LineString><coordinates>-71.3930411,42.4837596 -71.3927293,42.4837205 -71.3924838,42.4837255 -71.3922371,42.4838204 -71.3919738,42.4839354 -71.3917744,42.4841141 -71.3915719,42.4843664 -71.3914634,42.4845321 -71.3912641,42.4847392 -71.3909496,42.4850547 -71.3907672,42.4851892 -71.3905222,42.4852527 -71.390145,42.4852411 -71.3892511,42.4851464 -71.3886378,42.4850902 -71.388317,42.485066</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Main Trail (yellow blazes)</name>
+	<name>Main Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">302623827</SimpleData>
@@ -4131,7 +4131,7 @@
       <LineString><coordinates>-71.403095,42.5186517 -71.4032471,42.5185099 -71.4033303,42.5183834 -71.4033652,42.5182964 -71.4033705,42.5181541</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>blue ribbon blazed</name>
+	<name>blue ribbon</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">523877427</SimpleData>
@@ -4171,7 +4171,7 @@
       <LineString><coordinates>-71.3951549,42.4824422 -71.3952836,42.4822849 -71.3954043,42.4820851 -71.395458,42.4818398 -71.3955304,42.4817627 -71.3956538,42.4816796 -71.3961093,42.4815346</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Main Trail (yellow blazes)</name>
+	<name>Main Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524227690</SimpleData>
@@ -4182,7 +4182,7 @@
       <LineString><coordinates>-71.4008127,42.4776159 -71.4009579,42.477567</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Main Trail (yellow blazes)</name>
+	<name>Main Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524227691</SimpleData>
@@ -4193,7 +4193,7 @@
       <LineString><coordinates>-71.4007943,42.4776267 -71.4008127,42.4776159</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Main Trail (yellow blazes)</name>
+	<name>Main Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524227694</SimpleData>
@@ -4204,7 +4204,7 @@
       <LineString><coordinates>-71.4009579,42.477567 -71.4009766,42.477563</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Main Trail (yellow blazes)</name>
+	<name>Main Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524227696</SimpleData>
@@ -4247,7 +4247,7 @@
       <LineString><coordinates>-71.394028,42.478952 -71.3938058,42.4790585 -71.3935724,42.4791773 -71.392859,42.4792544 -71.3925076,42.4793315 -71.3923444,42.4795477</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>blue blazed</name>
+	<name>blue</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524512893</SimpleData>
@@ -4267,7 +4267,7 @@
       <LineString><coordinates>-71.3945478,42.4827315 -71.3947595,42.4826627 -71.3949325,42.4825916 -71.3951549,42.4824422</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>blue ribbon blazed</name>
+	<name>blue ribbon</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524724148</SimpleData>
@@ -4277,7 +4277,7 @@
       <LineString><coordinates>-71.4015752,42.4796554 -71.4016204,42.4795616 -71.4016768,42.4794309 -71.4017314,42.479209 -71.4017812,42.4789022 -71.401874,42.4787417 -71.4020043,42.4786618 -71.4021313,42.4786273</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>blue ribbon blazed</name>
+	<name>blue ribbon</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524724149</SimpleData>
@@ -4288,7 +4288,7 @@
       <LineString><coordinates>-71.4015245,42.4796777 -71.4015752,42.4796554</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>blue ribbon blazed</name>
+	<name>blue ribbon</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">524724152</SimpleData>
@@ -4532,7 +4532,7 @@
       <LineString><coordinates>-71.399942,42.4447004 -71.3997375,42.4451964 -71.399751,42.4455844 -71.399751,42.4458456 -71.3996865,42.4460872 -71.399665,42.4463198</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Target Traill (yellow)</name>
+	<name>Target Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">526159813</SimpleData>
@@ -4543,7 +4543,7 @@
       <LineString><coordinates>-71.404654,42.4448837 -71.4052119,42.4450143 -71.405687,42.4450891 -71.405979,42.445135 -71.4066013,42.445339 -71.4070627,42.4455646 -71.407372,42.4456153</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Target Traill (yellow)</name>
+	<name>Target Trail (yellow)</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">526159814</SimpleData>
