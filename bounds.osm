@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-05T02:13:02Z"/>
+<meta osm_base="2017-10-17T02:20:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -876,7 +876,7 @@
   <node id="4485506115" lat="42.5148081" lon="-71.4035109"/>
   <node id="4485506116" lat="42.5127112" lon="-71.3981075"/>
   <node id="4485506117" lat="42.5126799" lon="-71.3981132"/>
-  <node id="4485506118" lat="42.5126579" lon="-71.3981331"/>
+  <node id="4485506118" lat="42.5126599" lon="-71.3981297"/>
   <node id="4485506119" lat="42.5135724" lon="-71.4001933"/>
   <node id="4485506120" lat="42.5137198" lon="-71.4001463"/>
   <node id="4485506121" lat="42.5137244" lon="-71.4001752"/>
@@ -2107,6 +2107,15 @@
   <node id="5106527642" lat="42.5179268" lon="-71.4173407"/>
   <node id="5125770643" lat="42.5025130" lon="-71.4480669"/>
   <node id="5125770652" lat="42.5003828" lon="-71.4449614"/>
+  <node id="5169911615" lat="42.4787346" lon="-71.4792182">
+    <tag k="access" v="private"/>
+    <tag k="highway" v="footway"/>
+  </node>
+  <node id="5169912641" lat="42.4796530" lon="-71.4812925">
+    <tag k="access" v="private"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="unpaved"/>
+  </node>
   <way id="29761444">
     <nd ref="327251718"/>
     <nd ref="4664196649"/>
@@ -3526,6 +3535,7 @@
     <nd ref="4247048360"/>
     <nd ref="4481785714"/>
     <nd ref="4481785713"/>
+    <nd ref="5169912641"/>
     <nd ref="327962586"/>
     <nd ref="327985563"/>
     <nd ref="327965743"/>
@@ -3839,6 +3849,7 @@
     <nd ref="4476061711"/>
     <nd ref="4476061713"/>
     <nd ref="3192391166"/>
+    <nd ref="5169911615"/>
     <nd ref="3192391172"/>
     <nd ref="3192391178"/>
     <nd ref="3192391177"/>
