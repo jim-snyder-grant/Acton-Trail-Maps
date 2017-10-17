@@ -45,7 +45,10 @@ CANOE_LAUNCH_ID="449483835"
  # generic trails filter includes paths and tracks. We removed 'footway' after editing to
  # remove that use for trails in Acton 
 TRAILS_FILTER='way[highway~"path|track"][access!=private][name'
+# 'Special' trail names
+SPECIAL_TRAIL="Blue and Green"
  # special post-processing if we got new bounds
+
 GOT_NEW_BOUNDS=False
 # variable for time delay. We increase it if we get a too-many-requests error. 
 time_delay = 2
@@ -85,8 +88,8 @@ for arg in args:
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
-        # This is all trails outside of Acton & the trails without special color names inside (but no private trails)
-        filters='way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;)'
+        # This is all trails outside of Acton & the trails without special color names inside (but no private trails), plus one special trail.
+        filters='way[name="'+SPECIAL_TRAIL+'"]->.special; way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;.special;)'
         AREA_FILTER=""
     elif arg == "town":
         KMLcolor="ff00ff00"
@@ -156,7 +159,15 @@ for arg in args:
              os.remove(backupFile)
         os.rename(kmlFile, backupFile)
     
-    call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
+    if arg in ['blue','green']:
+        # gotta deal with "blue and green" trail 
+        # remove it from generated KML by using a temp file
+        # and save it for later processing
+        call(['ogr2ogr','-nlt','LINESTRING','temp',osmFile])
+        call(['ogrinfo','-dialect','SQLite', '-sql', "delete from lines where name='Blue and Green'", 'temp'])
+        call(['ogr2ogr', '-f', 'KML', kmlFile, 'temp', 'lines'])   
+    else:
+        call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
     
     def ourSED(inPattern, outPattern, filename):
         with open(filename, 'r') as fin:
