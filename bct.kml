@@ -19,7 +19,7 @@
 		<SimpleData name="osm_id">8915136</SimpleData>
 		<SimpleData name="highway">residential</SimpleData>
 		<SimpleData name="z_order">3</SimpleData>
-		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;1&quot;,&quot;massgis:way_id&quot;=&gt;&quot;189159&quot;,&quot;width&quot;=&gt;&quot;6.1&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;1&quot;,&quot;width&quot;=&gt;&quot;6.1&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.389272,42.478151 -71.3891631,42.4784421 -71.3890883,42.4786505 -71.3890679,42.4789888 -71.389097,42.479253 -71.389112,42.479564 -71.3891566,42.479922 -71.3890746,42.4805735 -71.389013,42.480799 -71.388958,42.480932 -71.388905,42.481183 -71.388817,42.481379 -71.388728,42.481625 -71.388736,42.481824 -71.388876,42.482106 -71.388971,42.48231 -71.388991,42.482574 -71.388959,42.482714 -71.388954,42.482985 -71.388965,42.483296 -71.388929,42.4835 -71.388845,42.483661 -71.388657,42.483818 -71.388464,42.483974 -71.388,42.484313</coordinates></LineString>
   </Placemark>
@@ -30,7 +30,7 @@
 		<SimpleData name="osm_id">8915264</SimpleData>
 		<SimpleData name="highway">residential</SimpleData>
 		<SimpleData name="z_order">3</SimpleData>
-		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;deficient&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;massgis:way_id&quot;=&gt;&quot;189159&quot;,&quot;width&quot;=&gt;&quot;7.3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;condition&quot;=&gt;&quot;deficient&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;width&quot;=&gt;&quot;7.3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3873533,42.4726125 -71.3885652,42.4729404 -71.3890424,42.4732175 -71.3893915,42.4735123 -71.3895728,42.4737119 -71.3898528,42.4742371 -71.39019,42.474557 -71.390216,42.474704 -71.3899919,42.4750328 -71.389675,42.475304 -71.389251,42.476026 -71.389003,42.476607 -71.389313,42.477223 -71.389362,42.477807 -71.389272,42.478151</coordinates></LineString>
   </Placemark>
@@ -172,7 +172,7 @@
 		<SimpleData name="osm_id">302624649</SimpleData>
 		<SimpleData name="highway">tertiary</SimpleData>
 		<SimpleData name="z_order">4</SimpleData>
-		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;massgis:way_id&quot;=&gt;&quot;189038&quot;,&quot;width&quot;=&gt;&quot;10.7&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;width&quot;=&gt;&quot;10.7&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3873533,42.4726125 -71.3873036,42.4726439 -71.3872472,42.4726691 -71.3871733,42.472689 -71.3870916,42.4726992 -71.3869832,42.4727084 -71.3868734,42.4727112 -71.3849509,42.4727308 -71.3824883,42.4727382 -71.3820933,42.4727425 -71.381712,42.4727501 -71.3813309,42.4727638 -71.3809386,42.4727769 -71.380433,42.4727986 -71.3803397,42.4728026 -71.3795785,42.4728396 -71.3793604,42.4728543 -71.3791677,42.4728726 -71.3789711,42.472894 -71.3787647,42.4729244 -71.3785596,42.4729609 -71.3783374,42.4730066 -71.3781232,42.473062 -71.3779368,42.4731153 -71.377719,42.473192 -71.3766052,42.4736254 -71.376451,42.4736854 -71.3763614,42.4737123 -71.3762767,42.4737311 -71.3761768,42.4737435 -71.3760841,42.4737464 -71.3759808,42.4737405 -71.3758624,42.4737252 -71.3757524,42.4737062 -71.3751497,42.4735867 -71.3749572,42.473553 -71.374793,42.4735253 -71.3746295,42.4735014 -71.3744782,42.4734811 -71.3735722,42.4733746 -71.3734067,42.4733573 -71.3732094,42.4733404 -71.3730233,42.4733292 -71.3728484,42.4733203 -71.3726676,42.4733188 -71.3724787,42.4733229 -71.3722991,42.473331 -71.3720959,42.4733461 -71.371885,42.4733644 -71.3714814,42.4734115 -71.3712998,42.4734309 -71.3711373,42.4734469 -71.3709666,42.4734649 -71.3700423,42.4735598 -71.3698293,42.473584 -71.3696139,42.4736126 -71.3688046,42.4737369 -71.3685044,42.4737846 -71.3682743,42.4738219 -71.3680435,42.4738572 -71.3678501,42.4738871 -71.3676611,42.4739136 -71.3674856,42.4739309 -71.3673192,42.4739422 -71.3671647,42.4739503 -71.3660115,42.4740095 -71.3657756,42.4740239 -71.3647257,42.4741005 -71.3644501,42.474125</coordinates></LineString>
   </Placemark>
@@ -246,7 +246,7 @@
 		<SimpleData name="osm_id">467506543</SimpleData>
 		<SimpleData name="highway">tertiary</SimpleData>
 		<SimpleData name="z_order">4</SimpleData>
-		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;massgis:way_id&quot;=&gt;&quot;112393&quot;,&quot;width&quot;=&gt;&quot;9.8&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;width&quot;=&gt;&quot;9.8&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4031978,42.4877281 -71.403085,42.487855 -71.402529,42.488475 -71.402269,42.488827 -71.401935,42.489308 -71.4016626,42.4896828 -71.401326,42.490146 -71.400984,42.490649 -71.400574,42.491191 -71.400352,42.491533 -71.40011,42.491934 -71.400091,42.491966 -71.39986,42.49226 -71.399638,42.492535 -71.399494,42.492636</coordinates></LineString>
   </Placemark>
