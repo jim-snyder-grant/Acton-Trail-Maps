@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-05T02:14:02Z" areas="2017-10-05T01:55:03Z"/>
+<meta osm_base="2017-10-17T02:21:02Z" areas="2017-10-17T01:00:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -900,7 +900,7 @@
   <node id="4624382862" lat="42.4868150" lon="-71.4822749"/>
   <node id="4624382863" lat="42.4869460" lon="-71.4822585"/>
   <node id="4624382867" lat="42.4866004" lon="-71.4822884"/>
-  <node id="4699934055" lat="42.5188258" lon="-71.4031764"/>
+  <node id="4699934055" lat="42.5188136" lon="-71.4031737"/>
   <node id="4699934056" lat="42.5186517" lon="-71.4030950"/>
   <node id="4699934057" lat="42.5185093" lon="-71.4029475"/>
   <node id="4699934058" lat="42.5183571" lon="-71.4027517"/>
@@ -942,8 +942,14 @@
   <node id="5080628585" lat="42.5150244" lon="-71.4023955"/>
   <node id="5080628586" lat="42.5145440" lon="-71.4021676"/>
   <node id="5080628587" lat="42.5142257" lon="-71.4019825"/>
-  <node id="5080628588" lat="42.5141545" lon="-71.4019744"/>
-  <node id="5080628592" lat="42.5136652" lon="-71.4024975"/>
+  <node id="5080628588" lat="42.5141347" lon="-71.4019824"/>
+  <node id="5080628592" lat="42.5136988" lon="-71.4024506"/>
+  <node id="5163600926" lat="42.5188427" lon="-71.4031928"/>
+  <node id="5169912658" lat="42.4812663" lon="-71.4809360">
+    <tag k="access" v="private"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="unpaved"/>
+  </node>
   <way id="61912341">
     <nd ref="771666434"/>
     <nd ref="771666518"/>
@@ -2136,6 +2142,7 @@
     <nd ref="4247048351"/>
     <nd ref="4247048352"/>
     <nd ref="4247048353"/>
+    <nd ref="5169912658"/>
     <nd ref="4247048354"/>
     <nd ref="4247048355"/>
     <nd ref="4247048356"/>
@@ -2301,6 +2308,7 @@
     <tag k="surface" v="earth"/>
   </way>
   <way id="476399225">
+    <nd ref="5163600926"/>
     <nd ref="4699934055"/>
     <nd ref="4699934056"/>
     <nd ref="4699934057"/>
