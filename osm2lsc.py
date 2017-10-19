@@ -12,9 +12,7 @@ import shutil # higher level file operations
 # For calling gdal functionality directly:
 # from osgeo import ogr, osr, gdal, gdalconst
 # For calling ogr2ogr instead of underlying gdal functionality:
-from subprocess import call
- 
-EXIT_STATUS=0
+import subprocess
 
 regularArguments = {'bct','bfrt','blue','bounds','camping', 'green','othertrails','parking','red','town','yellow'}
 allArg = 'all'
@@ -27,8 +25,7 @@ def usage():
 
 if 1 == len(sys.argv):
     usage()
-    EXIT_STATUS=1
-    exit(EXIT_STATUS);
+    exit(0);
 
 
 if (sys.argv[1] == allArg):
@@ -53,6 +50,28 @@ GOT_NEW_BOUNDS=False
 # variable for time delay. We increase it if we get a too-many-requests error. 
 time_delay = 2
 start_arg = args[0]
+
+#helpful SED-lite worker function 
+def ourSED(inPattern, outPattern, filename):
+    with open(filename, 'r') as fin:
+        fid, tempName = mkstemp()
+        inContents = fin.read()
+        outContents = re.sub(inPattern, outPattern, inContents, flags=re.MULTILINE | re.IGNORECASE)
+        os.write(fid,outContents)
+        os.close(fid)
+    os.remove(filename)
+    shutil.move(tempName, filename)
+        
+# another worker function, to wrap the error handling of the 'call' function        
+def ourCall(args):
+    try:
+        output_text = subprocess.check_output(args,stderr=subprocess.STDOUT)
+    except subprocess.CalledProcessError, e:
+        print "Execution failed wih code ", e.returncode
+        print e.output
+        exit (e.returncode) 
+    
+
 
 for arg in args:
     # first time through, don't need to sleep
@@ -114,11 +133,10 @@ for arg in args:
         AREA_FILTER=""
     elif arg == helpArg:
         usage()
-        exit (EXIT_STATUS)
+        exit (0)
     else:
-        print ("ERROR: Invalid arg: " + arg)
-        EXIT_STATUS=1
-        exit (EXIT_STATUS) 
+        print "ERROR: Invalid arg: " + arg
+        exit (1) 
  
 	
     osmFile = arg + ".osm"
@@ -131,16 +149,17 @@ for arg in args:
  
     url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
-    while 429 == response.status_code:
+    while 429 == response.status_code or 504 == response.status_code:
         time_delay = time_delay+3
-        print ("Too many requests: slowing down delay to",time_delay,"seconds")
+        print "Too many requests: slowing down delay to ", time_delay , " seconds"
+        if time_delay > 60:
+            exit(1);
         sleep(time_delay)
         response = requests.get(url)
     if 200 != response.status_code :
-        print ("Status code:", response.status_code, "on this request:")
+        print "Status code: ", response.status_code, " on this request"
         print (url)
-        EXIT_STATUS=1
-        exit (EXIT_STATUS)
+        exit (1)
     contents = response.text
     argFile = open(osmFile, 'w')
     argFile.write(contents)
@@ -150,8 +169,7 @@ for arg in args:
 	    print ("created "  + osmFile)
     else:
         print ("ERROR: Did not create " + osmFile)
-        EXIT_STATUS=1
-        exit (EXIT_STATUS) 
+        exit(1)
     
     #save the old KML for comparing in qgis
     if os.path.exists(kmlFile):
@@ -161,23 +179,19 @@ for arg in args:
     
     if arg in ['blue','green']:
         # gotta deal with "blue and green" trail 
-        # remove it from generated KML by using a temp file
-        # and save it for later processing
-        call(['ogr2ogr','-nlt','LINESTRING','temp',osmFile])
-        call(['ogrinfo','-dialect','SQLite', '-sql', "delete from lines where name='Blue and Green'", 'temp'])
-        call(['ogr2ogr', '-f', 'KML', kmlFile, 'temp', 'lines'])   
+        # create shapefile in temp directory
+        ourCall(['ogr2ogr','-nlt','LINESTRING','-skipfailures','temp',osmFile])
+        # use SQL on temp file to filter out special trail
+        ourCall(['ogrinfo','-dialect','SQLite', '-sql', "delete from lines where name='"+SPECIAL_TRAIL+"'", 'temp'])
+#        subprocess.call(['ogr2ogr', '-f', 'KML', '-dialect','SQLite', '-sql', "delete from lines where name='"+SPECIAL_TRAIL+"'", kmlFile, 'temp'])  
+        # transfer to KML
+        ourCall(['ogr2ogr', '-f', 'KML', kmlFile, 'temp', 'lines']) 
+        # remove temp directory and shapefiles
+        shutil.rmtree("temp") 
     else:
-        call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
+        subprocess.call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
+   
     
-    def ourSED(inPattern, outPattern, filename):
-        with open(filename, 'r') as fin:
-            fid, tempName = mkstemp()
-            inContents = fin.read()
-            outContents = re.sub(inPattern, outPattern, inContents, flags=re.MULTILINE | re.IGNORECASE)
-            os.write(fid,outContents)
-            os.close(fid)
-        os.remove(filename)
-        shutil.move(tempName, filename)
     
     # now put in special color for looking at KML in google earth
     ourSED("<color>........", "<color>"+KMLcolor, kmlFile)   
@@ -186,13 +200,13 @@ for arg in args:
     if os.path.exists(geojsonFile):
         os.remove(geojsonFile)
 
-    call(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])    
+    ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])    
     
      # if it's the BCT, do post-processing to create a single segment from the individual ways
     if arg == "bct":
-        call(['ogr2ogr', "temp", geojsonFile])    
+        ourCall(['ogr2ogr', "temp", geojsonFile])    
         os.remove(geojsonFile)
-        call(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp", "-dialect", "sqlite", "-sql", "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
+        ourCall(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp", "-dialect", "sqlite", "-sql", "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
         shutil.rmtree("temp") 
 
     # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
@@ -208,17 +222,16 @@ for arg in args:
 	    print ("created "  + kmlFile)
     else:
 	    print ("ERROR: Did not create " + kmlFile)
-	    EXIT_STATUS=1
+	    exit(1)
     
     if os.path.exists(geojsonFile):
 	    print ("created "  + geojsonFile)
     else:
 	    print ("ERROR: Did not create " + geojsonFile)
-	    EXIT_STATUS=1
+	    exit(1)
     
 if GOT_NEW_BOUNDS:
      ourSED (" Conservation Land","", "bounds.geojson")
-    
-exit (EXIT_STATUS)    
+       
 
 
