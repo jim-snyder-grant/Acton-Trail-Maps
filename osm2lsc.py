@@ -98,13 +98,13 @@ for arg in args:
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
     elif arg == "blue":
         KMLcolor="ffff0000"
-        filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        filters=TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
     elif arg == "yellow":
         KMLcolor="ff00ffff"
         filters=TRAILS_FILTER+'~"'+arg+'",i]'
     elif arg == "green":
         KMLcolor="ff00AA14"
-        filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        filters=TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
         # This is all trails outside of Acton & the trails without special color names inside (but no private trails), plus one special trail.
@@ -177,22 +177,9 @@ for arg in args:
              os.remove(backupFile)
         os.rename(kmlFile, backupFile)
     
-    if arg in ['blue','green']:
-        # gotta deal with "blue and green" trail 
-        # create shapefile in temp directory
-        ourCall(['ogr2ogr','-nlt','LINESTRING','-skipfailures','temp',osmFile])
-        # use SQL on temp file to filter out special trail
-        ourCall(['ogrinfo','-dialect','SQLite', '-sql', "delete from lines where name='"+SPECIAL_TRAIL+"'", 'temp'])
-#        subprocess.call(['ogr2ogr', '-f', 'KML', '-dialect','SQLite', '-sql', "delete from lines where name='"+SPECIAL_TRAIL+"'", kmlFile, 'temp'])  
-        # transfer to KML
-        ourCall(['ogr2ogr', '-f', 'KML', kmlFile, 'temp', 'lines']) 
-        # remove temp directory and shapefiles
-        shutil.rmtree("temp") 
-    else:
-        subprocess.call(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
+    
+    ourCall(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
    
-    
-    
     # now put in special color for looking at KML in google earth
     ourSED("<color>........", "<color>"+KMLcolor, kmlFile)   
     
