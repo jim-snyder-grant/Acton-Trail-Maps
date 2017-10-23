@@ -43,7 +43,7 @@ CANOE_LAUNCH_ID="449483835"
  # remove that use for trails in Acton 
 TRAILS_FILTER='way[highway~"path|track"][access!=private][name'
 # 'Special' trail names
-SPECIAL_TRAIL="Blue and Green"
+SPECIAL_TRAIL="Blue and Green Trail"
  # special post-processing if we got new bounds
 
 GOT_NEW_BOUNDS=False
