@@ -233,9 +233,8 @@
 	<Style><LineStyle><color>55FF78F0</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">467506536</SimpleData>
-		<SimpleData name="highway">crossing</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;uncontrolled&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;uncontrolled&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4032874,42.4854378 -71.4031827,42.4854183</coordinates></LineString>
   </Placemark>
