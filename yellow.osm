@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-17T02:21:02Z" areas="2017-10-17T01:00:02Z"/>
+<meta osm_base="2017-11-03T14:40:03Z" areas="2017-11-03T09:07:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2318,6 +2318,10 @@
     <tag k="highway" v="path"/>
     <tag k="surface" v="unpaved"/>
   </node>
+  <node id="5195184444" lat="42.4819569" lon="-71.4813921">
+    <tag k="barrier" v="wall"/>
+    <tag k="wall" v="dry_stone"/>
+  </node>
   <way id="61912343">
     <nd ref="771666520"/>
     <nd ref="771666516"/>
@@ -2389,6 +2393,7 @@
   </way>
   <way id="61912356">
     <nd ref="771666370"/>
+    <nd ref="5195184444"/>
     <nd ref="771666492"/>
     <nd ref="771666490"/>
     <nd ref="771666457"/>
