@@ -70,7 +70,7 @@ def ourCall(args):
         print "Execution failed wih code ", e.returncode
         print e.output
         exit (e.returncode) 
-    
+    return output_text
 
 
 for arg in args:
@@ -166,59 +166,71 @@ for arg in args:
     argFile.close()
     
     if os.path.exists(osmFile):
-	    print ("created "  + osmFile)
+        print ("created "  + osmFile)
     else:
         print ("ERROR: Did not create " + osmFile)
         exit(1)
     
-    #save the old KML for comparing in qgis
-    if os.path.exists(kmlFile):
-        if os.path.exists(backupFile):
-             os.remove(backupFile)
-        os.rename(kmlFile, backupFile)
-    
-    
-    ourCall(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
-   
-    # now put in special color for looking at KML in google earth
-    ourSED("<color>........", "<color>"+KMLcolor, kmlFile)   
-    
-    # convert to GeoJSON for importing into MapBox
-    if os.path.exists(geojsonFile):
-        os.remove(geojsonFile)
-
-    ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])    
-    
-     # if it's the BCT, do post-processing to create a single segment from the individual ways
-    if arg == "bct":
-        ourCall(['ogr2ogr', "temp", geojsonFile])    
-        os.remove(geojsonFile)
-        ourCall(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp", "-dialect", "sqlite", "-sql", "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
-        shutil.rmtree("temp") 
-
-    # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
-    # The key difference is that we must remove the crs line
-    ourSED(r"^.crs.*$", "", geojsonFile)   
-    
-    # remove the colors from the names of Acton trails 
-    if arg in ['blue','red','green','yellow']:
-        ourSED(r"\s?"+arg+r"\s?","", geojsonFile)
-    
-    # just checking and announcing results
-    if os.path.exists(kmlFile):
-	    print ("created "  + kmlFile)
+    # Check to see if the OSM file has changed. We do this by simply running a git diff.
+    # If it is exactly 7 lines long, then we only have one changed line, which is the
+    # osm_base timestamp.
+    diff_bs    = ourCall(['git', 'diff', '-U0', osmFile])
+    diff_s     = diff_bs.decode('ASCII')
+    diff_lines = diff_s.count('\n')
+    if diff_lines == 7:
+        print ("No changes")
+        # If there are no changes, then restore the old file with git checkout
+        ourCall(['git', 'checkout', osmFile])
+        
     else:
+
+        #save the old KML for comparing in qgis
+        if os.path.exists(kmlFile):
+            if os.path.exists(backupFile):
+                os.remove(backupFile)
+            os.rename(kmlFile, backupFile)
+    
+    
+        ourCall(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
+   
+        # now put in special color for looking at KML in google earth
+        ourSED("<color>........", "<color>"+KMLcolor, kmlFile)   
+    
+        # convert to GeoJSON for importing into MapBox
+        if os.path.exists(geojsonFile):
+            os.remove(geojsonFile)
+
+        ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])    
+    
+        # if it's the BCT, do post-processing to create a single segment from the individual ways
+        if arg == "bct":
+            ourCall(['ogr2ogr', "temp", geojsonFile])    
+            os.remove(geojsonFile)
+            ourCall(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp", "-dialect", "sqlite", "-sql", "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
+            shutil.rmtree("temp") 
+
+        # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
+        # The key difference is that we must remove the crs line
+        ourSED(r"^.crs.*$", "", geojsonFile)   
+    
+        # remove the colors from the names of Acton trails 
+        if arg in ['blue','red','green','yellow']:
+            ourSED(r"\s?"+arg+r"\s?","", geojsonFile)
+    
+        # just checking and announcing results
+        if os.path.exists(kmlFile):
+	    print ("created "  + kmlFile)
+        else:
 	    print ("ERROR: Did not create " + kmlFile)
 	    exit(1)
     
-    if os.path.exists(geojsonFile):
+        if os.path.exists(geojsonFile):
 	    print ("created "  + geojsonFile)
-    else:
+        else:
 	    print ("ERROR: Did not create " + geojsonFile)
 	    exit(1)
+
     
-if GOT_NEW_BOUNDS:
-     ourSED (" Conservation Land","", "bounds.geojson")
+    if GOT_NEW_BOUNDS:
+        ourSED (" Conservation Land","", "bounds.geojson")
        
-
-
