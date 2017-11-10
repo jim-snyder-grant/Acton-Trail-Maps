@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-23T02:05:02Z" areas="2017-10-23T00:05:02Z"/>
+<meta osm_base="2017-11-10T04:28:02Z" areas="2017-11-10T02:44:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -881,6 +881,7 @@
   <node id="3929534685" lat="42.5103875" lon="-71.3937697"/>
   <node id="3929534686" lat="42.5101265" lon="-71.3935873"/>
   <node id="3929534687" lat="42.5100513" lon="-71.3935444"/>
+  <node id="3929605955" lat="42.4641241" lon="-71.4759834"/>
   <node id="3929606358" lat="42.4648484" lon="-71.4767970"/>
   <node id="4154044992" lat="42.4813256" lon="-71.4367233"/>
   <node id="4154407648" lat="42.4815673" lon="-71.4365394"/>
@@ -974,7 +975,6 @@
   <node id="4503533895" lat="42.4638190" lon="-71.4762768"/>
   <node id="4503533896" lat="42.4639457" lon="-71.4762285"/>
   <node id="4503533897" lat="42.4640288" lon="-71.4761266"/>
-  <node id="4503533898" lat="42.4641577" lon="-71.4760102"/>
   <node id="4503533920" lat="42.4648123" lon="-71.4772155"/>
   <node id="4503544004" lat="42.4824000" lon="-71.4338815"/>
   <node id="4503544005" lat="42.4823817" lon="-71.4337083"/>
@@ -2446,7 +2446,7 @@
     <nd ref="4503533895"/>
     <nd ref="4503533896"/>
     <nd ref="4503533897"/>
-    <nd ref="4503533898"/>
+    <nd ref="3929605955"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
     <tag k="surface" v="unpaved"/>
