@@ -1,31 +1,34 @@
 #!/usr/bin/env python2
-# Here is a python program to bring data down from OSM & transform it for use in LSC maps
+# Here is a python program to bring data down from OSM & transform it for use
+# in LSC maps
 # typical use: "python2 osm2lsc.py args..."
 
-import requests # for wget equivalent
-import sys #file operations
-import os.path # file name operations
-from time import sleep #rest
-import re# regular expressions as part of SED equivalent
-from tempfile import mkstemp # tempfile
-import shutil # higher level file operations
+import requests  # for wget equivalent
+import sys       # file operations
+import os.path   # file name operations
+from time import sleep  # rest
+import re        # regular expressions as part of SED equivalent
+from tempfile import mkstemp  # tempfile
+import shutil    # higher level file operations
 # For calling gdal functionality directly:
 # from osgeo import ogr, osr, gdal, gdalconst
 # For calling ogr2ogr instead of underlying gdal functionality:
 import subprocess
 
-regularArguments = {'bct','bfrt','blue','bounds','camping', 'green','othertrails','parking','red','town','yellow'}
+regularArguments = {'bct', 'bfrt', 'blue', 'bounds', 'camping', 'green',
+                    'othertrails', 'parking', 'red', 'town', 'yellow'}
 allArg = 'all'
 helpArg = "help"
 
+
 def usage():
     print("Usage: python2 " + sys.argv[0] + " arguments ")
-    print (" arguments are one or more of " + ','.join( sorted ({allArg, helpArg} | regularArguments)))
-   
+    print(" arguments are one or more of " + ','.join(sorted({allArg, helpArg} | regularArguments)))
+
 
 if 1 == len(sys.argv):
     usage()
-    exit(0);
+    exit(0)
 
 
 if (sys.argv[1] == allArg):
@@ -34,38 +37,42 @@ else:
     args = sys.argv[1:]   # sys.argv[0] is the program name
 
 # Using a bounding box makes the searches go more quickly
-ACTON_BBOX="[bbox:42.433,-71.5,42.534,-71.384];"
- # using an Acton Area ID lets us skip trails that are in the bounding box but not in Acton. 
-ACTON_AREA_ID="3601832779"
- # we get canoe launch by ID since it's a conservation restriction not owned by Acton
-CANOE_LAUNCH_ID="449483835"
- # generic trails filter includes paths and tracks. We removed 'footway' after editing to
- # remove that use for trails in Acton 
-TRAILS_FILTER='way[highway~"path|track"][access!=private][name'
+ACTON_BBOX = "[bbox:42.433,-71.5,42.534,-71.384];"
+# Using an Acton Area ID lets us detect trails that are in the bounding box
+# but not in Acton.
+ACTON_AREA_ID = "3601832779"
+# We get canoe launch by ID since it's a CR, not land owned by Acton
+CANOE_LAUNCH_ID = "449483835"
+# Generic trails filter includes paths and tracks. We removed 'footway' after
+# editing to remove that use for trails in Acton
+TRAILS_FILTER = 'way[highway~"path|track"][access!=private][name'
 # 'Special' trail names
-SPECIAL_TRAIL="Blue and Green Trail"
- # special post-processing if we got new bounds
+SPECIAL_TRAIL = "Blue and Green Trail"
+# Special post-processing if we got new bounds
 
-GOT_NEW_BOUNDS=False
-# variable for time delay. We increase it if we get a too-many-requests error. 
+GOT_NEW_BOUNDS = False
+# variable for time delay. We increase it if we get a too-many-requests error.
 time_delay = 2
 start_arg = args[0]
 
-#helpful SED-lite worker function 
+
+# helpful SED-lite worker function
 def ourSED(inPattern, outPattern, filename):
     with open(filename, 'r') as fin:
         fid, tempName = mkstemp()
         inContents = fin.read()
-        outContents = re.sub(inPattern, outPattern, inContents, flags=re.MULTILINE | re.IGNORECASE)
-        os.write(fid,outContents)
+        outContents = re.sub(inPattern, outPattern, inContents,
+        flags=re.MULTILINE | re.IGNORECASE)
+        os.write(fid, outContents)
         os.close(fid)
     os.remove(filename)
     shutil.move(tempName, filename)
-        
-# another worker function, to wrap the error handling of the 'call' function        
+
+
+# Another worker function, to wrap the error handling of the 'call' function
 def ourCall(args):
     try:
-        output_text = subprocess.check_output(args,stderr=subprocess.STDOUT)
+        output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError, e:
         print "Execution failed wih code ", e.returncode
         print e.output
@@ -75,62 +82,64 @@ def ourCall(args):
 
 for arg in args:
     # first time through, don't need to sleep
-    if arg != start_arg :
+    if arg != start_arg:
         # we were getting too-many-requests errors.
         sleep(time_delay)
-        
+
     # by default, extract lines. But exceptions are made below 
-    geometry="lines"   
-    # we surpress special treatment for trails that are entirely outside Acton 
-    AREA_FILTER="(area:"+ACTON_AREA_ID+")"
+    geometry = "lines"   
+    # we surpress special treatment for trails that are entirely outside Acton
+    AREA_FILTER = "(area:"+ACTON_AREA_ID+")"
     
     if arg == "bounds":
-   # some bounds are multipolygons stored in OSM as 'relation', others are plain old 'way'.
-   # and then there's the canoe launch, which isn't owned by the town of Acton
-   # we are in a transition away from landuse=conservation
-        KMLcolor='ffffffff'  
-        filters='(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
+        # Some bounds are multipolygons stored in OSM as 'relation', others are
+        # plain old 'way'. And then there's the canoe launch, which isn't
+        # owned by the town of Acton.
+        # We are in a transition away from landuse=conservation
+        KMLcolor = 'ffffffff'  
+        filters = '(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
         AREA_FILTER=""
-        geometry="multipolygons"
-        GOT_NEW_BOUNDS=True
+        geometry = "multipolygons"
+        GOT_NEW_BOUNDS = True
     elif arg == "red":
-        KMLcolor="ff0000ff"
-        filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        KMLcolor = "ff0000ff"
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'
     elif arg == "blue":
-        KMLcolor="ffff0000"
-        filters=TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
+        KMLcolor = "ffff0000"
+        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
     elif arg == "yellow":
-        KMLcolor="ff00ffff"
-        filters=TRAILS_FILTER+'~"'+arg+'",i]'
+        KMLcolor =" ff00ffff"
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'
     elif arg == "green":
-        KMLcolor="ff00AA14"
-        filters=TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
+        KMLcolor = "ff00AA14"
+        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
     elif arg == "othertrails":
         KMLcolor="ffff00ff"
-        # This is all trails outside of Acton & the trails without special color names inside (but no private trails), plus one special trail.
+        # This is all trails outside of Acton & the trails without special
+        # color names inside (but no private trails), plus one special trail.
         filters='way[name="'+SPECIAL_TRAIL+'"]->.special; way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;.special;)'
         AREA_FILTER=""
     elif arg == "town":
-        KMLcolor="ff00ff00"
-        filters='area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
-        geometry="multipolygons"
-        AREA_FILTER=""
+        KMLcolor = "ff00ff00"
+        filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
+        geometry = "multipolygons"
+        AREA_FILTER = ""
     elif arg == "parking":
-        KMLcolor="50BEBEBE"
-        filters='way[amenity=parking][website~actontrails,i]'
-        geometry="multipolygons"
+        KMLcolor = "50BEBEBE"
+        filters = 'way[amenity=parking][website~actontrails,i]'
+        geometry = "multipolygons"
     elif arg == "camping":
-        KMLcolor="643C9614"
-        filters='node[tourism=camp_site]'
-        geometry="points" 
+        KMLcolor = "643C9614"
+        filters = 'node[tourism=camp_site]'
+        geometry = "points" 
     elif arg == "bct":
-        KMLcolor="55FF78F0"  
-        filters='relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
-        AREA_FILTER=""
+        KMLcolor = "55FF78F0"  
+        filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
+        AREA_FILTER = ""
     elif arg == "bfrt":
-        KMLcolor="501450FF"  
-        filters='way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
-        AREA_FILTER=""
+        KMLcolor = "501450FF"  
+        filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
+        AREA_FILTER = ""
     elif arg == helpArg:
         usage()
         exit (0)
@@ -143,9 +152,9 @@ for arg in args:
     kmlFile = arg + ".kml"
     backupFile = arg + ".old.kml"
     geojsonFile = arg + ".geojson"
-#    osmDriver = gdal.GetDriverByName("OSM")
-#    kmlDriver = gdal.GetDriverByName("KML")
-#    geojsonDriver = gdal.GetDriverByName("GeoJSON")
+    # osmDriver = gdal.GetDriverByName("OSM")
+    # kmlDriver = gdal.GetDriverByName("KML")
+    # geojsonDriver = gdal.GetDriverByName("GeoJSON")
  
     url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
     response = requests.get(url)
@@ -153,9 +162,10 @@ for arg in args:
         time_delay = time_delay+3
         print "Too many requests: slowing down delay to ", time_delay , " seconds"
         if time_delay > 60:
-            exit(1);
+            exit(1)
         sleep(time_delay)
         response = requests.get(url)
+
     if 200 != response.status_code :
         print "Status code: ", response.status_code, " on this request"
         print (url)
@@ -166,14 +176,14 @@ for arg in args:
     argFile.close()
     
     if os.path.exists(osmFile):
-        print ("created "  + osmFile)
+        print("created " + osmFile)
     else:
-        print ("ERROR: Did not create " + osmFile)
+        print("ERROR: Did not create " + osmFile)
         exit(1)
     
-    # Check to see if the OSM file has changed. We do this by simply running a git diff.
-    # If it is exactly 7 lines long, then we only have one changed line, which is the
-    # osm_base timestamp.
+    # Check to see if the OSM file has changed. We do this by simply running
+    # a git diff. If it is exactly 7 lines long, then we only have one
+    # changed line, which is the osm_base timestamp.
     diff_bs    = ourCall(['git', 'diff', '-U0', osmFile])
     diff_s     = diff_bs.decode('ASCII')
     diff_lines = diff_s.count('\n')
@@ -200,13 +210,15 @@ for arg in args:
         if os.path.exists(geojsonFile):
             os.remove(geojsonFile)
 
-        ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])    
-    
+        ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])
+        
         # if it's the BCT, do post-processing to create a single segment from the individual ways
         if arg == "bct":
             ourCall(['ogr2ogr', "temp", geojsonFile])    
             os.remove(geojsonFile)
-            ourCall(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp", "-dialect", "sqlite", "-sql", "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
+            ourCall(['ogr2ogr', "-f", "GeoJSON", geojsonFile, "temp",
+                     "-dialect", "sqlite", "-sql",
+                     "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])    
             shutil.rmtree("temp") 
 
         # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946. 
@@ -215,22 +227,22 @@ for arg in args:
     
         # remove the colors from the names of Acton trails 
         if arg in ['blue','red','green','yellow']:
-            ourSED(r"\s?"+arg+r"\s?","", geojsonFile)
+            ourSED(r"\s?"+arg+r"\s?", "", geojsonFile)
     
         # just checking and announcing results
         if os.path.exists(kmlFile):
-	    print ("created "  + kmlFile)
+	    print("created " + kmlFile)
         else:
-	    print ("ERROR: Did not create " + kmlFile)
+	    print("ERROR: Did not create " + kmlFile)
 	    exit(1)
     
         if os.path.exists(geojsonFile):
-	    print ("created "  + geojsonFile)
+	    print("created " + geojsonFile)
         else:
-	    print ("ERROR: Did not create " + geojsonFile)
+	    print("ERROR: Did not create " + geojsonFile)
 	    exit(1)
 
     
     if GOT_NEW_BOUNDS:
-        ourSED (" Conservation Land","", "bounds.geojson")
+        ourSED(" Conservation Land", "", "bounds.geojson")
        
