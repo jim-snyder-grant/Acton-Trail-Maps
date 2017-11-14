@@ -14,7 +14,7 @@
 <Folder><name>lines</name>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912343</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -25,7 +25,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912344</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -36,7 +36,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912345</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -47,7 +47,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912351</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -57,7 +57,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912355</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -67,7 +67,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912356</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -77,7 +77,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912357</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -87,7 +87,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912361</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -97,7 +97,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">61912364</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -108,7 +108,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">189124303</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -119,7 +119,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">201850998</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -130,7 +130,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">202989782</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -141,7 +141,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203012590</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -152,7 +152,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203048061</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -163,7 +163,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203837873</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -174,7 +174,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203893361</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -185,7 +185,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203893362</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -196,7 +196,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203893363</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -207,7 +207,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203893364</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -218,7 +218,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203935185</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -229,7 +229,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">203935186</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -240,7 +240,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">204435871</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -251,18 +251,18 @@
   </Placemark>
   <Placemark>
 	<name>BCT Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">204489467</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4014771,42.486341 -71.4014348,42.4863646 -71.4014041,42.4863823 -71.401314,42.486436 -71.4010215,42.4865934 -71.4008392,42.4866973 -71.4006463,42.4868162 -71.4003959,42.4868966 -71.4000509,42.4870306 -71.3997361,42.4871666 -71.3993662,42.4872948 -71.3990657,42.4873817 -71.3988395,42.4874379 -71.3987385,42.4873616 -71.3986804,42.4872358 -71.3986056,42.4868659 -71.39843,42.4866423 -71.3982904,42.4865344 -71.3982612,42.486477 -71.3981376,42.4863077 -71.3980496,42.4861857 -71.3979829,42.4860637 -71.397938,42.4860014 -71.397913,42.485926 -71.3978715,42.485772 -71.397853,42.485616 -71.397788,42.485549 -71.3977627,42.4855052 -71.3975763,42.4851421 -71.3972917,42.4849238 -71.3967452,42.4849574 -71.3962784,42.4848567 -71.3956067,42.4846384 -71.3952082,42.4843613 -71.394935,42.4840674 -71.3946048,42.4839331 -71.3941494,42.4838659 -71.3930411,42.4837596</coordinates></LineString>
+      <LineString><coordinates>-71.4014771,42.486341 -71.4014348,42.4863646 -71.4014041,42.4863823 -71.401314,42.486436 -71.4010215,42.4865934 -71.4008392,42.4866973 -71.4006463,42.4868162 -71.4003959,42.4868966 -71.4000509,42.4870306 -71.3997361,42.4871666 -71.3993662,42.4872948 -71.3990657,42.4873817 -71.3988395,42.4874379 -71.3987385,42.4873616 -71.3986804,42.4872358 -71.3986056,42.4868659 -71.39843,42.4866423 -71.3982904,42.4865344 -71.3982612,42.486477 -71.3981376,42.4863077 -71.3980496,42.4861857 -71.3979829,42.4860637 -71.397938,42.4860014 -71.397913,42.485926 -71.3978715,42.485772 -71.397853,42.485616 -71.397788,42.485549 -71.3977627,42.4855052</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">204736475</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -273,7 +273,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">204759407</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -284,7 +284,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">204760904</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -295,7 +295,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">205716945</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -306,7 +306,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206189199</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -317,7 +317,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206189201</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -328,7 +328,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206189202</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -339,7 +339,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206189203</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -350,7 +350,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206189204</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -361,7 +361,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">206875511</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -372,7 +372,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">389799298</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -383,7 +383,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">389799301</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -394,7 +394,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">414234792</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -405,7 +405,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">414243453</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -416,7 +416,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">414268239</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -427,7 +427,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">414268241</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -438,7 +438,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">414268245</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -449,7 +449,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">444210651</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -460,7 +460,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">451941411</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -471,7 +471,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">452318494</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -482,7 +482,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Orchard Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">452318495</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -493,7 +493,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">462244127</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
@@ -504,7 +504,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">462966889</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -515,7 +515,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">462966890</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
@@ -526,7 +526,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">467501073</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -537,7 +537,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">467501074</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -548,7 +548,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">467502093</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -559,7 +559,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">467502094</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -570,7 +570,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Wildflower Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">469796627</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -581,7 +581,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow Orchard Trail</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">469796628</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -592,7 +592,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483102660</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -603,7 +603,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483102662</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -613,7 +613,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483745480</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -624,7 +624,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483745481</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -635,7 +635,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483745482</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -646,7 +646,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">483745483</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
@@ -657,7 +657,7 @@
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
-	<Style><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<Style><LineStyle><color> ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">525247002</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
