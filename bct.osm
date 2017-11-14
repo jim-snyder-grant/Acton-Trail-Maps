@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-11-03T14:34:02Z"/>
+<meta osm_base="2017-11-14T03:33:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -337,9 +337,7 @@
   <node id="2059121929" lat="42.4838204" lon="-71.3922371"/>
   <node id="2059121941" lat="42.4841141" lon="-71.3917744"/>
   <node id="2059121943" lat="42.4850902" lon="-71.3886378"/>
-  <node id="2059121947" lat="42.4851464" lon="-71.3892511">
-    <tag k="amenity" v="parking"/>
-  </node>
+  <node id="2059121947" lat="42.4851471" lon="-71.3892615"/>
   <node id="2059121951" lat="42.4850547" lon="-71.3909496"/>
   <node id="2059121958" lat="42.4837596" lon="-71.3930411"/>
   <node id="2059121961" lat="42.4839354" lon="-71.3919738"/>
@@ -354,9 +352,7 @@
   <node id="2144893384" lat="42.4859260" lon="-71.3979130"/>
   <node id="2144893385" lat="42.4861857" lon="-71.3980496"/>
   <node id="2144893386" lat="42.4863410" lon="-71.4014771"/>
-  <node id="2144893387" lat="42.4863646" lon="-71.4014348">
-    <tag k="amenity" v="parking"/>
-  </node>
+  <node id="2144893387" lat="42.4863646" lon="-71.4014348"/>
   <node id="2144893388" lat="42.4864770" lon="-71.3982612"/>
   <node id="2144893389" lat="42.4864360" lon="-71.4013140"/>
   <node id="2144893390" lat="42.4865934" lon="-71.4010215"/>
@@ -719,10 +715,7 @@
   <node id="3068613350" lat="42.4860014" lon="-71.3979380"/>
   <node id="3068613351" lat="42.4860637" lon="-71.3979829"/>
   <node id="3068613352" lat="42.4863077" lon="-71.3981376"/>
-  <node id="3068613353" lat="42.4863823" lon="-71.4014041">
-    <tag k="information" v="board"/>
-    <tag k="tourism" v="information"/>
-  </node>
+  <node id="3068613353" lat="42.4863823" lon="-71.4014041"/>
   <node id="3068613354" lat="42.4865344" lon="-71.3982904"/>
   <node id="3068613355" lat="42.4868162" lon="-71.4006463"/>
   <node id="3068613356" lat="42.4870306" lon="-71.4000509"/>
@@ -779,6 +772,7 @@
   <node id="4953889418" lat="42.4856886" lon="-71.4044643"/>
   <node id="4953889419" lat="42.4856604" lon="-71.4044145"/>
   <node id="5099200087" lat="42.4896828" lon="-71.4016626"/>
+  <node id="5222105481" lat="42.4728183" lon="-71.3800164"/>
   <way id="8915136">
     <nd ref="65211382"/>
     <nd ref="65237142"/>
@@ -889,16 +883,6 @@
     <nd ref="2144893383"/>
     <nd ref="2144893382"/>
     <nd ref="2144893381"/>
-    <nd ref="3068716487"/>
-    <nd ref="3068716484"/>
-    <nd ref="3068716485"/>
-    <nd ref="3068716483"/>
-    <nd ref="3068716482"/>
-    <nd ref="3068716481"/>
-    <nd ref="3068716480"/>
-    <nd ref="3068716479"/>
-    <nd ref="3068716478"/>
-    <nd ref="2059121958"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
@@ -1239,10 +1223,9 @@
     <nd ref="2059121911"/>
     <nd ref="2059121980"/>
     <nd ref="2059121947"/>
-    <nd ref="2059121943"/>
-    <nd ref="65255179"/>
-    <tag k="highway" v="footway"/>
-    <tag k="name" v="BCT Yellow"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="302623829">
     <nd ref="65204330"/>
@@ -1277,6 +1260,7 @@
     <nd ref="65242636"/>
     <nd ref="3805665483"/>
     <nd ref="65269146"/>
+    <nd ref="5222105481"/>
     <nd ref="65255186"/>
     <nd ref="65271534"/>
     <nd ref="2446534264"/>
@@ -1597,6 +1581,33 @@
     <tag k="lanes" v="2"/>
     <tag k="name" v="Pope Road"/>
     <tag k="width" v="9.8"/>
+  </way>
+  <way id="539716581">
+    <nd ref="2059121947"/>
+    <nd ref="2059121943"/>
+    <nd ref="65255179"/>
+    <tag k="highway" v="service"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
+  </way>
+  <way id="539716582">
+    <nd ref="2144893381"/>
+    <nd ref="3068716487"/>
+    <nd ref="3068716484"/>
+    <nd ref="3068716485"/>
+    <nd ref="3068716483"/>
+    <nd ref="3068716482"/>
+    <nd ref="3068716481"/>
+    <nd ref="3068716480"/>
+    <nd ref="3068716479"/>
+    <nd ref="3068716478"/>
+    <nd ref="2059121958"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
   </way>
 
 </osm>
