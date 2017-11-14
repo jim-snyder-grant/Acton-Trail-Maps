@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-11-10T04:29:02Z" areas="2017-11-10T02:44:02Z"/>
+<meta osm_base="2017-11-14T02:57:03Z" areas="2017-11-14T02:06:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -219,10 +219,6 @@
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
   <node id="65254525" lat="42.4349490" lon="-71.3840720">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
-  <node id="65255179" lat="42.4850660" lon="-71.3883170">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
@@ -1615,11 +1611,8 @@
   <node id="2059121935" lat="42.4830194" lon="-71.3942339"/>
   <node id="2059121939" lat="42.4795275" lon="-71.3921432"/>
   <node id="2059121941" lat="42.4841141" lon="-71.3917744"/>
-  <node id="2059121943" lat="42.4850902" lon="-71.3886378"/>
   <node id="2059121945" lat="42.4797535" lon="-71.3927413"/>
-  <node id="2059121947" lat="42.4851464" lon="-71.3892511">
-    <tag k="amenity" v="parking"/>
-  </node>
+  <node id="2059121947" lat="42.4851471" lon="-71.3892615"/>
   <node id="2059121951" lat="42.4850547" lon="-71.3909496"/>
   <node id="2059121953" lat="42.4787327" lon="-71.3911535"/>
   <node id="2059121955" lat="42.4789341" lon="-71.3913815"/>
@@ -1981,6 +1974,7 @@
   <node id="2140737941" lat="42.4532994" lon="-71.4810840"/>
   <node id="2140737944" lat="42.4533035" lon="-71.4824579"/>
   <node id="2144506925" lat="42.4976000" lon="-71.4636900"/>
+  <node id="2144893381" lat="42.4855052" lon="-71.3977627"/>
   <node id="2144893399" lat="42.4874379" lon="-71.3988395"/>
   <node id="2146042467" lat="42.4624582" lon="-71.4527804"/>
   <node id="2146042469" lat="42.4624341" lon="-71.4526213"/>
@@ -4009,6 +4003,15 @@
   <node id="3068716471" lat="42.4811928" lon="-71.3972294"/>
   <node id="3068716472" lat="42.4815208" lon="-71.3968873"/>
   <node id="3068716477" lat="42.4825916" lon="-71.3949325"/>
+  <node id="3068716478" lat="42.4838659" lon="-71.3941494"/>
+  <node id="3068716479" lat="42.4839331" lon="-71.3946048"/>
+  <node id="3068716480" lat="42.4840674" lon="-71.3949350"/>
+  <node id="3068716481" lat="42.4843613" lon="-71.3952082"/>
+  <node id="3068716482" lat="42.4846384" lon="-71.3956067"/>
+  <node id="3068716483" lat="42.4848567" lon="-71.3962784"/>
+  <node id="3068716484" lat="42.4849238" lon="-71.3972917"/>
+  <node id="3068716485" lat="42.4849574" lon="-71.3967452"/>
+  <node id="3068716487" lat="42.4851421" lon="-71.3975763"/>
   <node id="3094928618" lat="42.4920721" lon="-71.4185401"/>
   <node id="3172476035" lat="42.4930068" lon="-71.4970607"/>
   <node id="3172476036" lat="42.4929062" lon="-71.4968192"/>
@@ -7873,7 +7876,6 @@
     <nd ref="2059121963"/>
     <nd ref="2059121945"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="social trail"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="195575397">
@@ -10524,10 +10526,9 @@
     <nd ref="2059121911"/>
     <nd ref="2059121980"/>
     <nd ref="2059121947"/>
-    <nd ref="2059121943"/>
-    <nd ref="65255179"/>
-    <tag k="highway" v="footway"/>
-    <tag k="name" v="BCT Yellow"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="302623827">
     <nd ref="5101837631"/>
@@ -10544,6 +10545,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Main Trail (yellow)"/>
+    <tag k="operator" v="ctc"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="311564472">
@@ -14423,6 +14425,7 @@
     <nd ref="5105862418"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="blue ribbon"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="523877429">
     <nd ref="5099191117"/>
@@ -14444,6 +14447,7 @@
     <nd ref="5099191103"/>
     <nd ref="5099191102"/>
     <tag k="highway" v="path"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="523877442">
     <nd ref="2059121983"/>
@@ -14453,7 +14457,8 @@
     <nd ref="5101696586"/>
     <nd ref="2059121958"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Yellow"/>
+    <tag k="name" v="Red"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524206897">
     <nd ref="5101696588"/>
@@ -14465,6 +14470,7 @@
     <nd ref="5101696581"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Yellow"/>
+    <tag k="operator" v="ctc"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524227690">
@@ -14519,6 +14525,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Main Trail (yellow)"/>
+    <tag k="operator" v="ctc"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524512889">
@@ -14545,13 +14552,13 @@
     <nd ref="2059121931"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Red"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524512891">
     <nd ref="5104164614"/>
     <nd ref="5104164613"/>
     <nd ref="5104164612"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="social trail"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524512892">
@@ -14562,7 +14569,6 @@
     <nd ref="5104164609"/>
     <nd ref="2059121975"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="social trail"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="524512893">
@@ -14576,6 +14582,7 @@
     <nd ref="5104164614"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="blue"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524512894">
     <nd ref="2059121931"/>
@@ -14584,6 +14591,7 @@
     <nd ref="5101696588"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Yellow"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524724148">
     <nd ref="5099191093"/>
@@ -14596,6 +14604,7 @@
     <nd ref="5099191092"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="blue ribbon"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524724149">
     <nd ref="5105862418"/>
@@ -14639,6 +14648,7 @@
     <nd ref="5105862527"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="blue ribbon"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="524727426">
     <nd ref="2059121931"/>
@@ -14648,7 +14658,8 @@
     <nd ref="2059121983"/>
     <tag k="highway" v="path"/>
     <tag k="man_made" v="embankment"/>
-    <tag k="name" v="Yellow"/>
+    <tag k="name" v="Red"/>
+    <tag k="operator" v="ctc"/>
   </way>
   <way id="525247001">
     <nd ref="5110105030"/>
@@ -15147,6 +15158,25 @@
     <nd ref="3211230276"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
+  </way>
+  <way id="539716582">
+    <nd ref="2144893381"/>
+    <nd ref="3068716487"/>
+    <nd ref="3068716484"/>
+    <nd ref="3068716485"/>
+    <nd ref="3068716483"/>
+    <nd ref="3068716482"/>
+    <nd ref="3068716481"/>
+    <nd ref="3068716480"/>
+    <nd ref="3068716479"/>
+    <nd ref="3068716478"/>
+    <nd ref="2059121958"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
   </way>
 
 </osm>
