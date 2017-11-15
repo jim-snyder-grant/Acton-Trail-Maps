@@ -15,8 +15,10 @@ import shutil    # higher level file operations
 # For calling ogr2ogr instead of underlying gdal functionality:
 import subprocess
 
-regularArguments = {'bct', 'bfrt', 'blue', 'bounds', 'camping', 'green',
-                    'othertrails', 'parking', 'red', 'town', 'yellow'}
+regularArguments = {
+    'bct', 'bfrt', 'blue', 'bounds', 'camping', 'green', 'outside_trails',
+    'parking', 'red', 'town', 'unblazed_trails', 'yellow'
+}
 allArg = 'all'
 helpArg = "help"
 
@@ -97,7 +99,7 @@ for arg in args:
         # owned by the town of Acton.
         # We are in a transition away from landuse=conservation
         KMLcolor = 'ffffffff'
-        filters = '(way('+CANOE_LAUNCH_ID+ ');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
+        filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
         AREA_FILTER = ""
         geometry = "multipolygons"
         GOT_NEW_BOUNDS = True
@@ -113,11 +115,16 @@ for arg in args:
     elif arg == "green":
         KMLcolor = "ff00AA14"
         filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
-    elif arg == "othertrails":
+    elif arg == "outside_trails":
         KMLcolor = "ffff00ff"
-        # This is all trails outside of Acton & the trails without special
-        # color names inside (but no private trails), plus one special trail.
-        filters = 'way[name="'+SPECIAL_TRAIL+'"]->.special; way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.innards;((.everything; - way(area:3601832779););.innards;.special;)'
+        # This is all trails outside of Acton (but no private trails)
+        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;(.everything; - way(area:'+ACTON_AREA_ID+');)'
+        AREA_FILTER = ""
+    elif arg == "unblazed_trails":
+        KMLcolor = "ffff00ff"
+        # This is all the trails inside of Acton without special color names
+        # (but no private trails), plus one special trail.
+        filters = 'way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way(area:'+ACTON_AREA_ID+')->.intown; (way.unblazed.intown; way.special;)'
         AREA_FILTER = ""
     elif arg == "town":
         KMLcolor = "ff00ff00"
