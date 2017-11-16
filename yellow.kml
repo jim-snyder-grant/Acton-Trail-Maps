@@ -21,7 +21,7 @@
 		<SimpleData name="z_order">10</SimpleData>
 		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4828689,42.4808077 -71.4829698,42.4807158</coordinates></LineString>
+      <LineString><coordinates>-71.482869,42.480807 -71.4829698,42.4807158</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -43,7 +43,7 @@
 		<SimpleData name="z_order">10</SimpleData>
 		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4813894,42.482045 -71.4813662,42.4819649</coordinates></LineString>
+      <LineString><coordinates>-71.48139,42.482045 -71.4813662,42.4819649</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -53,7 +53,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4833587,42.4798547 -71.4834485,42.4802866 -71.483466,42.4803097 -71.4835248,42.4803483</coordinates></LineString>
+      <LineString><coordinates>-71.4834319,42.4801142 -71.4834485,42.4802866 -71.4834557,42.4803109 -71.4835248,42.4803483</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -63,7 +63,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4829698,42.4807158 -71.4830828,42.4805913 -71.4831298,42.4804703 -71.4831614,42.4803085 -71.4832798,42.4801191 -71.4833587,42.4798547</coordinates></LineString>
+      <LineString><coordinates>-71.4829698,42.4807158 -71.4833949,42.4802155 -71.4834319,42.4801142</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -73,7 +73,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4813662,42.4819649 -71.4813921,42.4819569 -71.4817209,42.4818556 -71.4822576,42.4816543 -71.4825181,42.4816622 -71.4827983,42.4814649 -71.4828022,42.4813465 -71.4828457,42.4812676 -71.4828607,42.4811698 -71.4828772,42.4810623 -71.4827707,42.4809795 -71.4828689,42.4808077</coordinates></LineString>
+      <LineString><coordinates>-71.4813662,42.4819649 -71.481393,42.4819591 -71.481935,42.481842 -71.482213,42.481734 -71.482605,42.481646 -71.482755,42.481587 -71.48285,42.481512 -71.482943,42.481327 -71.482951,42.481231 -71.482932,42.4811595 -71.482879,42.48096 -71.482869,42.480807</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -83,7 +83,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4853216,42.4824891 -71.4852678,42.482347 -71.4852147,42.482197 -71.4843454,42.4820885 -71.4842309,42.48212 -71.4839547,42.4820687 -71.4837889,42.4821555 -71.4835126,42.482266 -71.4833035,42.4822463 -71.4830943,42.4822818 -71.4829917,42.4824239 -71.4825141,42.4824239 -71.4821116,42.4824713 -71.4818708,42.4824752 -71.4818509,42.4824606 -71.4817248,42.4823687 -71.4815512,42.4823608 -71.4814921,42.4822911 -71.4814407,42.4822305 -71.4813894,42.482045</coordinates></LineString>
+      <LineString><coordinates>-71.4853216,42.4824891 -71.485278,42.482403 -71.485031,42.482095 -71.4849409,42.4820384 -71.484918,42.482029 -71.484837,42.482018 -71.484653,42.482026 -71.48441,42.482071 -71.483955,42.482099 -71.483519,42.482172 -71.483235,42.482185 -71.482688,42.482266 -71.482239,42.48236 -71.481922,42.482396 -71.4818604,42.4823933 -71.481738,42.482369 -71.481644,42.482313 -71.4815694,42.482252 -71.48139,42.482045</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
@@ -609,7 +609,7 @@
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4838071,42.480829 -71.4837693,42.4809954 -71.4837297,42.4811728 -71.4840897,42.4811765 -71.4845072,42.4811807 -71.4852263,42.4812194 -71.4854981,42.481254 -71.4856781,42.4812951 -71.4858594,42.4813123 -71.4860741,42.4813416 -71.4861479,42.481388 -71.4861111,42.4814294 -71.4860582,42.4815359 -71.4857701,42.4819898 -71.4854307,42.4823055 -71.4853711,42.4824702 -71.4853216,42.4824891</coordinates></LineString>
+      <LineString><coordinates>-71.4838071,42.480829 -71.4837693,42.4809954 -71.4837297,42.4811728 -71.48409,42.481176 -71.4845072,42.4811807 -71.4852263,42.4812194 -71.4854981,42.481254 -71.4856781,42.4812951 -71.4858594,42.4813123 -71.4860741,42.4813416 -71.4861479,42.481388 -71.4861111,42.4814294 -71.4860582,42.4815359 -71.4857701,42.4819898 -71.4854307,42.4823055 -71.4853711,42.4824702 -71.4853216,42.4824891</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Yellow</name>
