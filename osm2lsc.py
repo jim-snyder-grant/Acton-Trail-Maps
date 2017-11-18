@@ -92,7 +92,16 @@ for arg in args:
     # by default, extract lines. But exceptions are made below
     geometry = "lines"
 
-    if arg == "bounds":
+    if arg == "bct":
+        KMLcolor = "55FF78F0"
+        filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
+    elif arg == "bfrt":
+        KMLcolor = "501450FF"
+        filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
+    elif arg == "blue":
+        KMLcolor = "ffff0000"
+        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
+    elif arg == "bounds":
         # Some bounds are multipolygons stored in OSM as 'relation', others are
         # plain old 'way'. And then there's the canoe launch, which isn't
         # owned by the town of Acton.
@@ -101,15 +110,10 @@ for arg in args:
         filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
         geometry = "multipolygons"
         got_new_bounds = True
-    elif arg == "red":
-        KMLcolor = "ff0000ff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
-    elif arg == "blue":
-        KMLcolor = "ffff0000"
-        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
-    elif arg == "yellow":
-        KMLcolor = " ff00ffff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
+    elif arg == "camping":
+        KMLcolor = "643C9614"
+        filters = 'node[tourism=camp_site]'+IS_INSIDE_ACTON
+        geometry = "points"
     elif arg == "green":
         KMLcolor = "ff00AA14"
         filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
@@ -117,29 +121,25 @@ for arg in args:
         KMLcolor = "ffff00ff"
         # This is all trails outside of Acton (but no private trails)
         filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
+    elif arg == "parking":
+        KMLcolor = "50BEBEBE"
+        filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
+        geometry = "multipolygons"
+    elif arg == "red":
+        KMLcolor = "ff0000ff"
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
+    elif arg == "town":
+        KMLcolor = "ff00ff00"
+        filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
+        geometry = "multipolygons"
     elif arg == "unblazed_trails":
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
         filters = 'way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
-    elif arg == "town":
-        KMLcolor = "ff00ff00"
-        filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
-        geometry = "multipolygons"
-    elif arg == "parking":
-        KMLcolor = "50BEBEBE"
-        filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
-        geometry = "multipolygons"
-    elif arg == "camping":
-        KMLcolor = "643C9614"
-        filters = 'node[tourism=camp_site]'+IS_INSIDE_ACTON
-        geometry = "points"
-    elif arg == "bct":
-        KMLcolor = "55FF78F0"
-        filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
-    elif arg == "bfrt":
-        KMLcolor = "501450FF"
-        filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
+    elif arg == "yellow":
+        KMLcolor = " ff00ffff"
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
     elif arg == helpArg:
         usage()
         exit(0)
