@@ -38,21 +38,22 @@ if (sys.argv[1] == allArg):
 else:
     args = sys.argv[1:]   # sys.argv[0] is the program name
 
-# Using a bounding box makes the searches go more quickly
+# Box of area we are generating map for, also makes searches go more quickly
+# than just using the Acton area test.
 ACTON_BBOX = "[bbox:42.433,-71.5,42.534,-71.384];"
 # Using an Acton Area ID lets us detect trails that are in the bounding box
 # but not in Acton.
 ACTON_AREA_ID = "3601832779"
 # We get canoe launch by ID since it's a CR, not land owned by Acton
 CANOE_LAUNCH_ID = "449483835"
-# Generic trails filter includes paths and tracks. We removed 'footway' after
-# editing to remove that use for trails in Acton
+# Generic trails filter includes paths and tracks.
 TRAILS_FILTER = 'way[highway~"path|track"][access!=private][name'
 # 'Special' trail names
 SPECIAL_TRAIL = "Blue and Green Trail"
+# Test to see if we are in Acton
+IS_INSIDE_ACTON = "(area:"+ACTON_AREA_ID+")"
 # Special post-processing if we got new bounds
-
-GOT_NEW_BOUNDS = False
+got_new_bounds = False
 # variable for time delay. We increase it if we get a too-many-requests error.
 time_delay = 2
 start_arg = args[0]
@@ -90,8 +91,6 @@ for arg in args:
 
     # by default, extract lines. But exceptions are made below
     geometry = "lines"
-    # we surpress special treatment for trails that are entirely outside Acton
-    AREA_FILTER = "(area:"+ACTON_AREA_ID+")"
 
     if arg == "bounds":
         # Some bounds are multipolygons stored in OSM as 'relation', others are
@@ -100,53 +99,47 @@ for arg in args:
         # We are in a transition away from landuse=conservation
         KMLcolor = 'ffffffff'
         filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
-        AREA_FILTER = ""
         geometry = "multipolygons"
-        GOT_NEW_BOUNDS = True
+        got_new_bounds = True
     elif arg == "red":
         KMLcolor = "ff0000ff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
     elif arg == "blue":
         KMLcolor = "ffff0000"
-        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
+        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "yellow":
         KMLcolor = " ff00ffff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'
+        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
     elif arg == "green":
         KMLcolor = "ff00AA14"
-        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'
+        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "outside_trails":
         KMLcolor = "ffff00ff"
         # This is all trails outside of Acton (but no private trails)
-        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;(.everything; - way(area:'+ACTON_AREA_ID+');)'
-        AREA_FILTER = ""
+        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
     elif arg == "unblazed_trails":
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
-        filters = 'way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way(area:'+ACTON_AREA_ID+')->.intown; (way.unblazed.intown; way.special;)'
-        AREA_FILTER = ""
+        filters = 'way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
     elif arg == "town":
         KMLcolor = "ff00ff00"
         filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
         geometry = "multipolygons"
-        AREA_FILTER = ""
     elif arg == "parking":
         KMLcolor = "50BEBEBE"
-        filters = 'way[amenity=parking][website~actontrails,i]'
+        filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
         geometry = "multipolygons"
     elif arg == "camping":
         KMLcolor = "643C9614"
-        filters = 'node[tourism=camp_site]'
+        filters = 'node[tourism=camp_site]'+IS_INSIDE_ACTON
         geometry = "points"
     elif arg == "bct":
         KMLcolor = "55FF78F0"
         filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
-        AREA_FILTER = ""
     elif arg == "bfrt":
         KMLcolor = "501450FF"
         filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
-        AREA_FILTER = ""
     elif arg == helpArg:
         usage()
         exit(0)
@@ -162,7 +155,7 @@ for arg in args:
     # kmlDriver = gdal.GetDriverByName("KML")
     # geojsonDriver = gdal.GetDriverByName("GeoJSON")
 
-    url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+AREA_FILTER+";(._;>;);out body;"
+    url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+";(._;>;);out body;"
     response = requests.get(url)
     while 429 == response.status_code or 504 == response.status_code:
         time_delay = time_delay+3
@@ -247,5 +240,5 @@ for arg in args:
             print("ERROR: Did not create " + geojsonFile)
             exit(1)
 
-    if GOT_NEW_BOUNDS:
+    if got_new_bounds:
         ourSED(" Conservation Land", "", "bounds.geojson")
