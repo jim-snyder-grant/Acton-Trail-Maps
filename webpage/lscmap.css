@@ -2,10 +2,9 @@ body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0%; width:100%; }
 
 #map-title {
-        display: block;
+        display: table;
         position: relative;
         margin: 0px auto;
-        width: 60%;
         padding: 10px;
         border: none;
         border-radius: 3px;
