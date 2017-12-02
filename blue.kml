@@ -584,17 +584,6 @@
 	<name>Blue</name>
 	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">464849064</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;seasonal&quot;=&gt;&quot;winter&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4763424,42.4591153 -71.47647,42.45924 -71.4765,42.45929 -71.47654,42.45933 -71.47657,42.45936 -71.47663,42.4594 -71.47668,42.45943 -71.47673,42.45946 -71.47678,42.4595 -71.47683,42.45952 -71.47687,42.45955 -71.47693,42.45958 -71.477,42.45961 -71.47706,42.45964 -71.4771,42.45966 -71.47718,42.4597 -71.47726,42.45972 -71.47733,42.45976 -71.47737,42.45977 -71.47742,42.45982 -71.47743,42.45984 -71.47747,42.45988 -71.47751,42.45993 -71.47756,42.45998 -71.47761,42.46002 -71.47766,42.46004 -71.47773,42.46008</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Blue</name>
-	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">464849065</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
@@ -623,17 +612,6 @@
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;earth&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.484021,42.484394 -71.4843296,42.4840815 -71.4844801,42.4838792</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Blue</name>
-	<Style><LineStyle><color>ffff0000</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">507680316</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4772155,42.4648123 -71.476797,42.4648484</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
