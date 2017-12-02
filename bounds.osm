@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-11-10T04:28:02Z"/>
+<meta osm_base="2017-12-02T18:01:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -4883,8 +4883,8 @@
     <nd ref="4689862133"/>
     <nd ref="4689862134"/>
     <tag k="access" v="yes"/>
-    <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
+    <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Dunn Conservation Land"/>
     <tag k="owner" v="Town of Acton"/>
