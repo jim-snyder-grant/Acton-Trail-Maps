@@ -151,9 +151,9 @@
 		<SimpleData name="osm_id">302623825</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3936231,42.4838545 -71.3930619,42.48377 -71.3925643,42.4837532 -71.3922371,42.4838204 -71.3919738,42.4839354 -71.3917744,42.4841141 -71.3915719,42.4843664 -71.3914634,42.4845321 -71.3912641,42.4847392 -71.3909496,42.4850547 -71.3907672,42.4851892 -71.3905222,42.4852527 -71.390145,42.4852411 -71.3892615,42.4851471</coordinates></LineString>
+      <LineString><coordinates>-71.3978365,42.4854241 -71.3978706,42.4853321 -71.3979001,42.4852154 -71.3978519,42.4850967 -71.3977775,42.4850175 -71.3975438,42.4848427 -71.3973463,42.4848109 -71.3964582,42.4848447 -71.3961872,42.4847736 -71.3960622,42.4847235 -71.3956335,42.4845514 -71.3952913,42.4843376 -71.3949538,42.4840397 -71.3947794,42.4839346 -71.3945538,42.4838738 -71.3941494,42.4838659 -71.393728,42.4838568 -71.3936231,42.4838545 -71.3933725,42.4838168 -71.3930619,42.48377 -71.3925643,42.4837532 -71.3922371,42.4838204 -71.3919738,42.4839354 -71.3917744,42.4841141 -71.3915719,42.4843664 -71.3914634,42.4845321 -71.3912641,42.4847392 -71.3909496,42.4850547 -71.3907672,42.4851892 -71.3905222,42.4852527 -71.390145,42.4852411 -71.3892615,42.4851471</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Strawberry Hill Road</name>
@@ -260,17 +260,6 @@
 		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3892615,42.4851471 -71.3886378,42.4850902 -71.388317,42.485066</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Bay Circuit Trail (main-yellow)</name>
-	<Style><LineStyle><color>55FF78F0</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">539716582</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3978365,42.4854241 -71.3978706,42.4853321 -71.3979001,42.4852154 -71.3978519,42.4850967 -71.3977775,42.4850175 -71.3975438,42.4848427 -71.3973463,42.4848109 -71.3964582,42.4848447 -71.3961872,42.4847736 -71.3956335,42.4845514 -71.3952913,42.4843376 -71.3949538,42.4840397 -71.3947794,42.4839346 -71.3945538,42.4838738 -71.3941494,42.4838659 -71.3936231,42.4838545</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
