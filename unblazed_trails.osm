@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-11-16T19:40:02Z" areas="2017-11-16T18:30:02Z"/>
+<meta osm_base="2017-12-02T18:01:02Z" areas="2017-12-02T17:29:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -375,7 +375,7 @@
   <node id="2733182371" lat="42.4914090" lon="-71.4236626"/>
   <node id="2733182372" lat="42.4918045" lon="-71.4217743"/>
   <node id="2733182373" lat="42.4920102" lon="-71.4190277"/>
-  <node id="2761935340" lat="42.5377267" lon="-71.4291382"/>
+  <node id="2761935334" lat="42.5374661" lon="-71.4293665"/>
   <node id="2775010818" lat="42.5238178" lon="-71.4289389"/>
   <node id="2784153649" lat="42.5255584" lon="-71.4228561"/>
   <node id="2784153652" lat="42.5255329" lon="-71.4228429"/>
@@ -501,7 +501,6 @@
   <node id="2983212426" lat="42.5369059" lon="-71.4293896"/>
   <node id="2983212427" lat="42.5371996" lon="-71.4294377"/>
   <node id="2983212428" lat="42.5373906" lon="-71.4294088"/>
-  <node id="2983212429" lat="42.5375534" lon="-71.4293176"/>
   <node id="3009680510" lat="42.5091586" lon="-71.3953854"/>
   <node id="3009713004" lat="42.5101599" lon="-71.3968000"/>
   <node id="3009714135" lat="42.5099759" lon="-71.3967712"/>
@@ -1736,6 +1735,8 @@
   </node>
   <node id="5168297465" lat="42.4416058" lon="-71.4364800"/>
   <node id="5168297466" lat="42.4415771" lon="-71.4363379"/>
+  <node id="5239386845" lat="42.5378648" lon="-71.4291510"/>
+  <node id="5241026014" lat="42.5352791" lon="-71.4271263"/>
   <way id="9515619">
     <nd ref="73211531"/>
     <nd ref="73273174"/>
@@ -2187,20 +2188,21 @@
     <nd ref="2983212420"/>
     <nd ref="2983212421"/>
     <nd ref="2983212422"/>
+    <nd ref="5241026014"/>
     <nd ref="2983212423"/>
     <nd ref="2983212424"/>
     <nd ref="2983212425"/>
     <nd ref="2983212426"/>
     <nd ref="2983212427"/>
     <nd ref="2983212428"/>
-    <nd ref="2983212429"/>
-    <nd ref="2761935340"/>
+    <nd ref="2761935334"/>
+    <nd ref="5239386845"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
     <tag k="name" v="Nashua Acton &amp; Boston Railroad Trail"/>
-    <tag k="surface" v="dirt"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="297127420">
     <nd ref="3009713004"/>
