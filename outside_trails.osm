@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-11-16T19:40:02Z" areas="2017-11-16T18:30:02Z"/>
+<meta osm_base="2017-12-02T18:00:02Z" areas="2017-12-02T17:29:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -432,7 +432,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
   <node id="72275808" lat="42.5339040" lon="-71.4159440"/>
-  <node id="72280230" lat="42.5347570" lon="-71.4183660"/>
+  <node id="72280230" lat="42.5347768" lon="-71.4183150"/>
   <node id="72280286" lat="42.5285003" lon="-71.4268316">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
@@ -449,6 +449,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
+  <node id="72290714" lat="42.5388240" lon="-71.4328182"/>
   <node id="72298519" lat="42.5333780" lon="-71.4140680"/>
   <node id="72305009" lat="42.5279650" lon="-71.4263280">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -491,7 +492,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
-  <node id="72376425" lat="42.5347490" lon="-71.4181530"/>
+  <node id="72376425" lat="42.5347628" lon="-71.4181289"/>
   <node id="72378588" lat="42.5280312" lon="-71.4263605">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
@@ -557,7 +558,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
-  <node id="72475335" lat="42.5349140" lon="-71.4185010"/>
+  <node id="72475335" lat="42.5349199" lon="-71.4186110"/>
   <node id="72478681" lat="42.5287057" lon="-71.4247001">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
@@ -578,7 +579,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
-  <node id="72490012" lat="42.5340830" lon="-71.4165990"/>
+  <node id="72490012" lat="42.5341840" lon="-71.4168600"/>
   <node id="72491518" lat="42.5348680" lon="-71.4184780"/>
   <node id="72494497" lat="42.5296647" lon="-71.4261619">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -647,7 +648,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
-  <node id="72563303" lat="42.5347450" lon="-71.4182830"/>
+  <node id="72563303" lat="42.5347667" lon="-71.4182454"/>
   <node id="73714883" lat="42.5035044" lon="-71.4912254">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009101726"/>
@@ -820,10 +821,10 @@
   <node id="518254663" lat="42.4626487" lon="-71.4996564"/>
   <node id="518254664" lat="42.4509807" lon="-71.4814079"/>
   <node id="518254665" lat="42.4506281" lon="-71.4814361"/>
-  <node id="518254666" lat="42.4515166" lon="-71.4814079"/>
-  <node id="518254667" lat="42.4512909" lon="-71.4812809"/>
+  <node id="518254666" lat="42.4515562" lon="-71.4813864"/>
+  <node id="518254667" lat="42.4513067" lon="-71.4812541"/>
   <node id="518254668" lat="42.4522640" lon="-71.4822399"/>
-  <node id="518254669" lat="42.4516435" lon="-71.4817886"/>
+  <node id="518254669" lat="42.4516910" lon="-71.4817886"/>
   <node id="518254670" lat="42.4531548" lon="-71.4826152"/>
   <node id="518254671" lat="42.4528542" lon="-71.4824589"/>
   <node id="518254672" lat="42.4492355" lon="-71.4874431"/>
@@ -848,16 +849,16 @@
   <node id="518254701" lat="42.4516302" lon="-71.4951853"/>
   <node id="518254703" lat="42.4516717" lon="-71.4803219"/>
   <node id="518254704" lat="42.4523063" lon="-71.4804489"/>
-  <node id="518254705" lat="42.4496973" lon="-71.4808014"/>
+  <node id="518254705" lat="42.4497527" lon="-71.4808121"/>
   <node id="518254706" lat="42.4501768" lon="-71.4812950"/>
   <node id="518254707" lat="42.4495886" lon="-71.4803657"/>
-  <node id="518254708" lat="42.4495563" lon="-71.4804489"/>
+  <node id="518254708" lat="42.4496513" lon="-71.4804704"/>
   <node id="518254709" lat="42.4537589" lon="-71.4832976"/>
   <node id="518254710" lat="42.4533859" lon="-71.4828367"/>
   <node id="518254711" lat="42.4535335" lon="-71.4815316"/>
   <node id="518254712" lat="42.4534485" lon="-71.4817601"/>
   <node id="518254713" lat="42.4621513" lon="-71.4993828"/>
-  <node id="518254714" lat="42.4499862" lon="-71.4798070"/>
+  <node id="518254714" lat="42.4499921" lon="-71.4797829"/>
   <node id="518254715" lat="42.4501204" lon="-71.4794617"/>
   <node id="518254716" lat="42.4507022" lon="-71.4797990"/>
   <node id="518254717" lat="42.4512345" lon="-71.4797719"/>
@@ -876,8 +877,8 @@
   <node id="518254746" lat="42.4522781" lon="-71.4890516"/>
   <node id="518254747" lat="42.4533889" lon="-71.4865494"/>
   <node id="518254748" lat="42.4539141" lon="-71.4837489"/>
-  <node id="518254749" lat="42.4542106" lon="-71.4841272"/>
-  <node id="518254750" lat="42.4543940" lon="-71.4843698"/>
+  <node id="518254749" lat="42.4541136" lon="-71.4839529"/>
+  <node id="518254750" lat="42.4542416" lon="-71.4840131"/>
   <node id="518254795" lat="42.4526051" lon="-71.4930427"/>
   <node id="524880077" lat="42.4496608" lon="-71.4989116"/>
   <node id="524880079" lat="42.4493966" lon="-71.4983013"/>
@@ -1726,8 +1727,16 @@
   <node id="2139424256" lat="42.4463544" lon="-71.4791433"/>
   <node id="2139424260" lat="42.4468187" lon="-71.4795929"/>
   <node id="2139424262" lat="42.4468313" lon="-71.4796811"/>
-  <node id="2140737941" lat="42.4532994" lon="-71.4810840"/>
+  <node id="2140737941" lat="42.4532994" lon="-71.4810840">
+    <tag k="fixme" v="continues"/>
+  </node>
   <node id="2140737944" lat="42.4533035" lon="-71.4824579"/>
+  <node id="2140737951" lat="42.4546779" lon="-71.4841991"/>
+  <node id="2140737953" lat="42.4550677" lon="-71.4843596">
+    <tag k="fixme" v="impassable due to water, geometry needs field checking"/>
+  </node>
+  <node id="2140737955" lat="42.4554221" lon="-71.4844755"/>
+  <node id="2140737957" lat="42.4558224" lon="-71.4848453"/>
   <node id="2144893381" lat="42.4854241" lon="-71.3978365"/>
   <node id="2238971161" lat="42.5292095" lon="-71.4782660"/>
   <node id="2238971162" lat="42.5292404" lon="-71.4782471"/>
@@ -2463,7 +2472,6 @@
   <node id="2660018274" lat="42.5132188" lon="-71.4800968"/>
   <node id="2660018278" lat="42.5137155" lon="-71.4811990"/>
   <node id="2660018283" lat="42.5138934" lon="-71.4814480"/>
-  <node id="2733182229" lat="42.5348078" lon="-71.4184300"/>
   <node id="2754734136" lat="42.5194047" lon="-71.4459512">
     <tag k="entrance" v="yes"/>
   </node>
@@ -2602,13 +2610,13 @@
   <node id="2761935306" lat="42.5362493" lon="-71.4305539"/>
   <node id="2761935307" lat="42.5365909" lon="-71.4304973"/>
   <node id="2761935309" lat="42.5369613" lon="-71.4304902"/>
-  <node id="2761935310" lat="42.5372273" lon="-71.4305503"/>
+  <node id="2761935310" lat="42.5372352" lon="-71.4304645"/>
   <node id="2761935312" lat="42.5374828" lon="-71.4304300"/>
   <node id="2761935313" lat="42.5377619" lon="-71.4305787"/>
   <node id="2761935314" lat="42.5380957" lon="-71.4307238"/>
   <node id="2761935315" lat="42.5383173" lon="-71.4308158"/>
   <node id="2761935317" lat="42.5381217" lon="-71.4309538"/>
-  <node id="2761935318" lat="42.5379992" lon="-71.4310883"/>
+  <node id="2761935318" lat="42.5379933" lon="-71.4310414"/>
   <node id="2761935319" lat="42.5379887" lon="-71.4313325"/>
   <node id="2761935320" lat="42.5380565" lon="-71.4316440"/>
   <node id="2761935322" lat="42.5382991" lon="-71.4319908"/>
@@ -3302,9 +3310,17 @@
   </node>
   <node id="2925609485" lat="42.5326285" lon="-71.4207484"/>
   <node id="2983212416" lat="42.5314018" lon="-71.4208236"/>
+  <node id="2983212421" lat="42.5345082" lon="-71.4258985"/>
   <node id="2983277102" lat="42.5315884" lon="-71.4208330"/>
   <node id="2983277103" lat="42.5317707" lon="-71.4208411"/>
+  <node id="2983277121" lat="42.5336457" lon="-71.4278928"/>
+  <node id="2983277123" lat="42.5335404" lon="-71.4274789"/>
+  <node id="2983277127" lat="42.5338347" lon="-71.4268930"/>
+  <node id="2983277142" lat="42.5322817" lon="-71.4251616"/>
+  <node id="2983277156" lat="42.5307159" lon="-71.4251645"/>
   <node id="2983277165" lat="42.5299555" lon="-71.4239199"/>
+  <node id="2983277181" lat="42.5317684" lon="-71.4233661"/>
+  <node id="2983277183" lat="42.5320261" lon="-71.4232232"/>
   <node id="2995107670" lat="42.4645611" lon="-71.4996066"/>
   <node id="3009671590" lat="42.5119502" lon="-71.3876499">
     <tag k="junction" v="yes"/>
@@ -3384,7 +3400,7 @@
   <node id="3009744246" lat="42.5320078" lon="-71.4208027"/>
   <node id="3009744247" lat="42.5323227" lon="-71.4208363"/>
   <node id="3009744248" lat="42.5325173" lon="-71.4208315"/>
-  <node id="3009744249" lat="42.5327791" lon="-71.4205674"/>
+  <node id="3009744249" lat="42.5327188" lon="-71.4206760"/>
   <node id="3009744250" lat="42.5329489" lon="-71.4203513"/>
   <node id="3009744251" lat="42.5331364" lon="-71.4202265"/>
   <node id="3009744252" lat="42.5333381" lon="-71.4201017"/>
@@ -3393,11 +3409,11 @@
   <node id="3009744255" lat="42.5337803" lon="-71.4190982"/>
   <node id="3009744256" lat="42.5339431" lon="-71.4188389"/>
   <node id="3009744257" lat="42.5341624" lon="-71.4187429"/>
-  <node id="3009744258" lat="42.5344349" lon="-71.4187429"/>
-  <node id="3009744259" lat="42.5346436" lon="-71.4186997"/>
-  <node id="3009744260" lat="42.5347710" lon="-71.4186037"/>
-  <node id="3009744269" lat="42.5343534" lon="-71.4165892"/>
-  <node id="3009744270" lat="42.5346448" lon="-71.4166366"/>
+  <node id="3009744258" lat="42.5344270" lon="-71.4187080"/>
+  <node id="3009744259" lat="42.5346357" lon="-71.4186729"/>
+  <node id="3009744260" lat="42.5347710" lon="-71.4186306"/>
+  <node id="3009744269" lat="42.5344984" lon="-71.4168415"/>
+  <node id="3009744270" lat="42.5347308" lon="-71.4166683"/>
   <node id="3009744271" lat="42.5350119" lon="-71.4166208"/>
   <node id="3009744272" lat="42.5351168" lon="-71.4164705"/>
   <node id="3009744273" lat="42.5350410" lon="-71.4160277"/>
@@ -3426,7 +3442,7 @@
   <node id="3009744296" lat="42.5336971" lon="-71.4152149"/>
   <node id="3009744297" lat="42.5333743" lon="-71.4153159"/>
   <node id="3009744298" lat="42.5331070" lon="-71.4153921"/>
-  <node id="3009744299" lat="42.5328090" lon="-71.4153712"/>
+  <node id="3009744299" lat="42.5328090" lon="-71.4153720"/>
   <node id="3009760247" lat="42.5295118" lon="-71.4220780"/>
   <node id="3009760248" lat="42.5294127" lon="-71.4222678"/>
   <node id="3009760249" lat="42.5292495" lon="-71.4224339"/>
@@ -4486,7 +4502,7 @@
   <node id="5060441209" lat="42.5204610" lon="-71.3858220"/>
   <node id="5060441210" lat="42.5204960" lon="-71.3856360"/>
   <node id="5060441211" lat="42.5205620" lon="-71.3852180"/>
-  <node id="5060441212" lat="42.5205014" lon="-71.3848654"/>
+  <node id="5060441212" lat="42.5205972" lon="-71.3849090"/>
   <node id="5060441213" lat="42.5204850" lon="-71.3848020"/>
   <node id="5060441214" lat="42.5202230" lon="-71.3843110"/>
   <node id="5060441215" lat="42.5199170" lon="-71.3840070"/>
@@ -4502,12 +4518,10 @@
   <node id="5060441525" lat="42.5181210" lon="-71.3849530"/>
   <node id="5060441526" lat="42.5181250" lon="-71.3852710"/>
   <node id="5060441527" lat="42.5180870" lon="-71.3857770"/>
-  <node id="5060441528" lat="42.5179180" lon="-71.3863820"/>
+  <node id="5060441528" lat="42.5179281" lon="-71.3864031"/>
   <node id="5060441529" lat="42.5179610" lon="-71.3864190"/>
   <node id="5060441530" lat="42.5180600" lon="-71.3864340"/>
-  <node id="5060441531" lat="42.5183173" lon="-71.3863492"/>
-  <node id="5060441532" lat="42.5179930" lon="-71.3860570"/>
-  <node id="5060441533" lat="42.5179170" lon="-71.3862750"/>
+  <node id="5060441532" lat="42.5178857" lon="-71.3863998"/>
   <node id="5060441534" lat="42.5176255" lon="-71.3866000"/>
   <node id="5060441535" lat="42.5173840" lon="-71.3867210"/>
   <node id="5060441536" lat="42.5173240" lon="-71.3866900"/>
@@ -4515,7 +4529,7 @@
   <node id="5060518465" lat="42.5126363" lon="-71.3875750"/>
   <node id="5060518466" lat="42.5127761" lon="-71.3874652"/>
   <node id="5060518467" lat="42.5125221" lon="-71.3876252"/>
-  <node id="5060518469" lat="42.5186940" lon="-71.3861780"/>
+  <node id="5060518469" lat="42.5183173" lon="-71.3863492"/>
   <node id="5062363321" lat="42.5173743" lon="-71.3871606"/>
   <node id="5062363322" lat="42.5172646" lon="-71.3874409"/>
   <node id="5062363323" lat="42.5171035" lon="-71.3876742"/>
@@ -4592,7 +4606,7 @@
   <node id="5104164613" lat="42.4795907" lon="-71.3938487"/>
   <node id="5104164614" lat="42.4799293" lon="-71.3940884"/>
   <node id="5104164615" lat="42.4799982" lon="-71.3941277"/>
-  <node id="5104164616" lat="42.4804373" lon="-71.3940740"/>
+  <node id="5104164616" lat="42.4805339" lon="-71.3941077"/>
   <node id="5104164617" lat="42.4809438" lon="-71.3941463"/>
   <node id="5104164618" lat="42.4813136" lon="-71.3942966"/>
   <node id="5104164619" lat="42.4817766" lon="-71.3946587"/>
@@ -4786,7 +4800,6 @@
   <node id="5233264184" lat="42.5152220" lon="-71.3853550"/>
   <node id="5233264185" lat="42.5150780" lon="-71.3853950"/>
   <node id="5233264186" lat="42.5150030" lon="-71.3854710"/>
-  <node id="5233264187" lat="42.5179060" lon="-71.3863190"/>
   <node id="5233264188" lat="42.5180880" lon="-71.3854980"/>
   <node id="5233264189" lat="42.5180750" lon="-71.3842320"/>
   <node id="5233264190" lat="42.5181350" lon="-71.3840820"/>
@@ -4810,6 +4823,107 @@
   <node id="5233264208" lat="42.5200440" lon="-71.3887020"/>
   <node id="5233264209" lat="42.5199520" lon="-71.3888760"/>
   <node id="5233264210" lat="42.5199060" lon="-71.3894200"/>
+  <node id="5237304586" lat="42.5180289" lon="-71.3860731"/>
+  <node id="5237376551" lat="42.4836488" lon="-71.3935909"/>
+  <node id="5237376552" lat="42.4838168" lon="-71.3933725"/>
+  <node id="5237376553" lat="42.4838568" lon="-71.3937280"/>
+  <node id="5237376554" lat="42.4811893" lon="-71.3970538"/>
+  <node id="5237376555" lat="42.4813080" lon="-71.3967266"/>
+  <node id="5237376556" lat="42.4814623" lon="-71.3962653"/>
+  <node id="5237376557" lat="42.4815968" lon="-71.3958951"/>
+  <node id="5237376558" lat="42.4816641" lon="-71.3956859"/>
+  <node id="5237376559" lat="42.4817471" lon="-71.3956229"/>
+  <node id="5237376560" lat="42.4818619" lon="-71.3955505"/>
+  <node id="5237376561" lat="42.4819301" lon="-71.3955330"/>
+  <node id="5237376562" lat="42.4820715" lon="-71.3954110"/>
+  <node id="5237376563" lat="42.4822377" lon="-71.3953399"/>
+  <node id="5237376564" lat="42.4823366" lon="-71.3952742"/>
+  <node id="5237376565" lat="42.4824197" lon="-71.3952259"/>
+  <node id="5237376566" lat="42.4809420" lon="-71.3970144"/>
+  <node id="5237376567" lat="42.4808400" lon="-71.3966852"/>
+  <node id="5237376568" lat="42.4807572" lon="-71.3962924"/>
+  <node id="5237376569" lat="42.4806717" lon="-71.3959408"/>
+  <node id="5237376570" lat="42.4806744" lon="-71.3956864"/>
+  <node id="5237376571" lat="42.4806772" lon="-71.3953198"/>
+  <node id="5237376572" lat="42.4806441" lon="-71.3949606"/>
+  <node id="5237376573" lat="42.4806110" lon="-71.3945678"/>
+  <node id="5237376574" lat="42.4805585" lon="-71.3942798"/>
+  <node id="5237376575" lat="42.4847235" lon="-71.3960622"/>
+  <node id="5237376576" lat="42.4844983" lon="-71.3962234"/>
+  <node id="5237376577" lat="42.4842886" lon="-71.3963521"/>
+  <node id="5237376578" lat="42.4840394" lon="-71.3964809"/>
+  <node id="5237376579" lat="42.4839010" lon="-71.3967115"/>
+  <node id="5237376580" lat="42.4838495" lon="-71.3971300"/>
+  <node id="5237376581" lat="42.4838179" lon="-71.3973499"/>
+  <node id="5237376582" lat="42.4838377" lon="-71.3975699"/>
+  <node id="5237376583" lat="42.4838337" lon="-71.3977630"/>
+  <node id="5237376584" lat="42.4837783" lon="-71.3979346"/>
+  <node id="5237376585" lat="42.4836478" lon="-71.3980097"/>
+  <node id="5237376586" lat="42.4835212" lon="-71.3980741"/>
+  <node id="5237376587" lat="42.4833906" lon="-71.3980580"/>
+  <node id="5237376588" lat="42.4832680" lon="-71.3979936"/>
+  <node id="5237376589" lat="42.4831889" lon="-71.3979829"/>
+  <node id="5237376590" lat="42.4830069" lon="-71.3978971"/>
+  <node id="5237376591" lat="42.4827260" lon="-71.3977737"/>
+  <node id="5237376592" lat="42.4826627" lon="-71.3977522"/>
+  <node id="5237376593" lat="42.4823818" lon="-71.3979024"/>
+  <node id="5237376594" lat="42.4822117" lon="-71.3980687"/>
+  <node id="5237376595" lat="42.4821365" lon="-71.3980795"/>
+  <node id="5237376596" lat="42.4819862" lon="-71.3979990"/>
+  <node id="5237376597" lat="42.4818319" lon="-71.3979936"/>
+  <node id="5237376598" lat="42.4817013" lon="-71.3978864"/>
+  <node id="5237376599" lat="42.4815035" lon="-71.3978381"/>
+  <node id="5237376600" lat="42.4813651" lon="-71.3977308"/>
+  <node id="5237376601" lat="42.4812661" lon="-71.3976181"/>
+  <node id="5237376602" lat="42.4811949" lon="-71.3973982"/>
+  <node id="5238737963" lat="42.4496122" lon="-71.4802631"/>
+  <node id="5238737964" lat="42.4499397" lon="-71.4798684"/>
+  <node id="5238753272" lat="42.4552002" lon="-71.4844052">
+    <tag k="fixme" v="impassable due to water, geometry needs field checking"/>
+  </node>
+  <node id="5238753289" lat="42.4544193" lon="-71.4840943"/>
+  <node id="5238753290" lat="42.4543457" lon="-71.4844486">
+    <tag k="fixme" v="geometry of path vs property lines needs field checking"/>
+  </node>
+  <node id="5239386817" lat="42.5324569" lon="-71.4257240"/>
+  <node id="5239386818" lat="42.5328759" lon="-71.4266306"/>
+  <node id="5239386819" lat="42.5337614" lon="-71.4280844"/>
+  <node id="5239386820" lat="42.5339827" lon="-71.4284921"/>
+  <node id="5239386821" lat="42.5339906" lon="-71.4287871"/>
+  <node id="5239386822" lat="42.5338207" lon="-71.4291841"/>
+  <node id="5239386823" lat="42.5337966" lon="-71.4295396"/>
+  <node id="5239386828" lat="42.5335147" lon="-71.4197185"/>
+  <node id="5239386829" lat="42.5336685" lon="-71.4206305"/>
+  <node id="5239386830" lat="42.5339037" lon="-71.4210248"/>
+  <node id="5239386831" lat="42.5340163" lon="-71.4216068"/>
+  <node id="5239386832" lat="42.5341982" lon="-71.4216846"/>
+  <node id="5239386833" lat="42.5346093" lon="-71.4212689"/>
+  <node id="5239386834" lat="42.5350164" lon="-71.4203274"/>
+  <node id="5239386835" lat="42.5352259" lon="-71.4195389"/>
+  <node id="5239386836" lat="42.5352378" lon="-71.4189836"/>
+  <node id="5239386837" lat="42.5324727" lon="-71.4153278"/>
+  <node id="5239386838" lat="42.5319430" lon="-71.4155531"/>
+  <node id="5239386839" lat="42.5318165" lon="-71.4161217"/>
+  <node id="5239386840" lat="42.5318165" lon="-71.4172912"/>
+  <node id="5239386841" lat="42.5319509" lon="-71.4183855"/>
+  <node id="5239386842" lat="42.5322909" lon="-71.4191473"/>
+  <node id="5239386843" lat="42.5328996" lon="-71.4196086"/>
+  <node id="5241026019" lat="42.5317295" lon="-71.4239216"/>
+  <node id="5241026020" lat="42.5315082" lon="-71.4245761"/>
+  <node id="5241026921" lat="42.5311919" lon="-71.4249623"/>
+  <node id="5241026924" lat="42.5347229" lon="-71.4298307"/>
+  <node id="5241026927" lat="42.5356192" lon="-71.4305525"/>
+  <node id="5241855063" lat="42.5330210" lon="-71.4196303"/>
+  <node id="5241855064" lat="42.5330139" lon="-71.4203080"/>
+  <node id="5241855065" lat="42.5348038" lon="-71.4184246"/>
+  <node id="5241855066" lat="42.5352477" lon="-71.4192653"/>
+  <node id="5257881171" lat="42.4983719" lon="-71.4773649"/>
+  <node id="5257881172" lat="42.4983168" lon="-71.4771711"/>
+  <node id="5257881173" lat="42.4983489" lon="-71.4772838"/>
+  <node id="5257881174" lat="42.4982032" lon="-71.4774315"/>
+  <node id="5257881175" lat="42.4982493" lon="-71.4773848"/>
+  <node id="5257881176" lat="42.4981473" lon="-71.4772096"/>
+  <node id="5258452660" lat="42.5319390" lon="-71.4237982"/>
   <way id="8877892">
     <nd ref="2080640652"/>
     <nd ref="2080640648"/>
@@ -5199,6 +5313,7 @@
     <tag k="highway" v="footway"/>
   </way>
   <way id="41887357">
+    <nd ref="5238737964"/>
     <nd ref="518254714"/>
     <nd ref="518254715"/>
     <nd ref="518254716"/>
@@ -5259,6 +5374,7 @@
     <tag k="name" v="unblazed"/>
   </way>
   <way id="41887381">
+    <nd ref="5238737963"/>
     <nd ref="518254707"/>
     <nd ref="518254708"/>
     <nd ref="518254705"/>
@@ -5322,7 +5438,8 @@
     <nd ref="518254672"/>
     <nd ref="518254673"/>
     <nd ref="633083634"/>
-    <tag k="highway" v="footway"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
     <tag k="note" v="needs field check"/>
   </way>
   <way id="42057305">
@@ -5494,7 +5611,8 @@
     <nd ref="633083586"/>
     <nd ref="633083587"/>
     <nd ref="633083589"/>
-    <tag k="highway" v="footway"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
   </way>
   <way id="49827533">
     <nd ref="633083674"/>
@@ -5510,6 +5628,7 @@
     <nd ref="3208420391"/>
     <nd ref="3208420390"/>
     <nd ref="518254795"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -5815,15 +5934,12 @@
     <nd ref="72376425"/>
     <nd ref="72563303"/>
     <nd ref="72280230"/>
-    <nd ref="2733182229"/>
+    <nd ref="5241855065"/>
     <nd ref="72491518"/>
     <nd ref="72475335"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="highway" v="path"/>
-    <tag k="massgis:way_id" v="330"/>
     <tag k="name" v="Old road to Little Desert"/>
-    <tag k="source" v="massgis_import_v0.1_20071009094535"/>
-    <tag k="surface" v="dirt"/>
+    <tag k="surface" v="ground"/>
     <tag k="width" v="3"/>
   </way>
   <way id="195458653">
@@ -6349,6 +6465,7 @@
   </way>
   <way id="204056252">
     <nd ref="518254750"/>
+    <nd ref="5238753290"/>
     <nd ref="518254743"/>
     <nd ref="518254736"/>
     <nd ref="518254737"/>
@@ -6381,7 +6498,7 @@
     <nd ref="518254674"/>
     <nd ref="633083634"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
+    <tag k="highway" v="path"/>
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="214334425">
@@ -7595,13 +7712,16 @@
     <nd ref="2761935290"/>
     <nd ref="2761935291"/>
     <nd ref="2761935292"/>
+    <nd ref="5239386823"/>
     <nd ref="2761935294"/>
     <nd ref="2761935296"/>
     <nd ref="2761935297"/>
+    <nd ref="5241026924"/>
     <nd ref="2761935298"/>
     <nd ref="2761935300"/>
     <nd ref="2761935301"/>
     <nd ref="2761935302"/>
+    <nd ref="5241026927"/>
     <nd ref="2761935303"/>
     <nd ref="2761935304"/>
     <nd ref="2761935306"/>
@@ -7620,6 +7740,7 @@
     <nd ref="2761935322"/>
     <nd ref="2761935324"/>
     <nd ref="2761935325"/>
+    <nd ref="72290714"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -8077,18 +8198,13 @@
     <tag k="tracktype" v="grade2"/>
   </way>
   <way id="294717022">
-    <nd ref="2983212416"/>
-    <nd ref="2983277102"/>
-    <nd ref="2983277103"/>
-    <nd ref="3009744246"/>
-    <nd ref="3009744247"/>
-    <nd ref="3009744248"/>
-    <nd ref="2925609485"/>
     <nd ref="3009744249"/>
     <nd ref="3009744250"/>
+    <nd ref="5241855064"/>
     <nd ref="3009744251"/>
     <nd ref="3009744252"/>
     <nd ref="3009744253"/>
+    <nd ref="5239386828"/>
     <nd ref="3009744254"/>
     <nd ref="3009744255"/>
     <nd ref="3009744256"/>
@@ -8100,8 +8216,8 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="horse" v="yes"/>
-    <tag k="name" v="Nashoba Trail - yellow diamond"/>
-    <tag k="surface" v="dirt"/>
+    <tag k="name" v="Nashoba Trail (yellow)"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="297125903">
     <nd ref="3009674545"/>
@@ -8233,7 +8349,6 @@
     <nd ref="3009744298"/>
     <nd ref="3009744299"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Blocked path stub"/>
     <tag k="surface" v="sand"/>
   </way>
   <way id="297129292">
@@ -8325,7 +8440,25 @@
     <tag k="surface" v="dirt"/>
   </way>
   <way id="302623825">
+    <nd ref="2144893381"/>
+    <nd ref="5228174337"/>
+    <nd ref="5228174338"/>
+    <nd ref="5228174336"/>
+    <nd ref="3068716487"/>
+    <nd ref="3068716484"/>
+    <nd ref="5228174339"/>
+    <nd ref="3068716485"/>
+    <nd ref="3068716483"/>
+    <nd ref="5237376575"/>
+    <nd ref="3068716482"/>
+    <nd ref="3068716481"/>
+    <nd ref="3068716480"/>
+    <nd ref="5228174340"/>
+    <nd ref="3068716479"/>
+    <nd ref="3068716478"/>
+    <nd ref="5237376553"/>
     <nd ref="2059121958"/>
+    <nd ref="5237376552"/>
     <nd ref="2059121969"/>
     <nd ref="2059121973"/>
     <nd ref="2059121929"/>
@@ -8339,7 +8472,10 @@
     <nd ref="2059121911"/>
     <nd ref="2059121980"/>
     <nd ref="2059121947"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
     <tag k="operator" v="ctc"/>
   </way>
@@ -9061,7 +9197,8 @@
     <nd ref="3268938114"/>
     <nd ref="3268938115"/>
     <nd ref="3268938116"/>
-    <tag k="highway" v="footway"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
     <tag k="lit" v="no"/>
   </way>
   <way id="320383490">
@@ -10423,12 +10560,12 @@
     <tag k="highway" v="path"/>
   </way>
   <way id="518859337">
-    <nd ref="5060441531"/>
+    <nd ref="5060518469"/>
     <nd ref="5060441530"/>
     <nd ref="5060441529"/>
     <nd ref="5060441528"/>
-    <nd ref="5233264187"/>
     <nd ref="5060441532"/>
+    <nd ref="5237304586"/>
     <nd ref="5060441527"/>
     <nd ref="5233264188"/>
     <nd ref="5060441526"/>
@@ -10479,7 +10616,6 @@
     <nd ref="5233264201"/>
     <nd ref="5060441534"/>
     <nd ref="5233264202"/>
-    <nd ref="5060441533"/>
     <nd ref="5060441532"/>
     <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
@@ -10543,7 +10679,7 @@
     <nd ref="5099191094"/>
     <nd ref="5105862418"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="blue ribbon"/>
+    <tag k="name" v="blue"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="523877429">
@@ -10566,14 +10702,16 @@
     <nd ref="5099191103"/>
     <nd ref="5099191102"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Red"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="523877442">
     <nd ref="2059121983"/>
     <nd ref="2059121959"/>
-    <nd ref="2059121958"/>
+    <nd ref="5237376551"/>
+    <nd ref="5237376552"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Red"/>
+    <tag k="name" v="Yellow"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="524206897">
@@ -10582,7 +10720,6 @@
     <nd ref="5101696582"/>
     <nd ref="5101696581"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Yellow"/>
     <tag k="operator" v="ctc"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -10621,22 +10758,8 @@
     <nd ref="3068716472"/>
     <nd ref="3068716471"/>
     <nd ref="3068716470"/>
-    <nd ref="5105862417"/>
-    <nd ref="3068716469"/>
-    <nd ref="3068716468"/>
-    <nd ref="3068716466"/>
-    <nd ref="3068716465"/>
-    <nd ref="5099191117"/>
-    <nd ref="5099191080"/>
-    <nd ref="3068716462"/>
-    <nd ref="3068716460"/>
-    <nd ref="5105862538"/>
-    <nd ref="5099191102"/>
-    <nd ref="5105862539"/>
-    <nd ref="5101837627"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Main Trail (yellow)"/>
     <tag k="operator" v="ctc"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -10679,15 +10802,26 @@
     <nd ref="5104164618"/>
     <nd ref="5104164617"/>
     <nd ref="5104164616"/>
-    <nd ref="5104164615"/>
-    <nd ref="5104164614"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="blue"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="524512894">
-    <nd ref="2059121931"/>
+    <nd ref="3068716470"/>
+    <nd ref="5237376554"/>
+    <nd ref="5237376555"/>
+    <nd ref="5237376556"/>
+    <nd ref="5237376557"/>
+    <nd ref="5237376558"/>
+    <nd ref="5237376559"/>
+    <nd ref="5237376560"/>
+    <nd ref="5237376561"/>
+    <nd ref="5237376562"/>
+    <nd ref="5237376563"/>
+    <nd ref="5237376564"/>
+    <nd ref="5237376565"/>
     <nd ref="5101696588"/>
+    <nd ref="2059121931"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Yellow"/>
     <tag k="operator" v="ctc"/>
@@ -10702,7 +10836,7 @@
     <nd ref="5105862537"/>
     <nd ref="5099191092"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="blue ribbon"/>
+    <tag k="name" v="blue"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="524724149">
@@ -10711,7 +10845,7 @@
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="layer" v="1"/>
-    <tag k="name" v="blue ribbon"/>
+    <tag k="name" v="blue"/>
   </way>
   <way id="524724152">
     <nd ref="5099191092"/>
@@ -10737,7 +10871,7 @@
     <nd ref="5105862528"/>
     <nd ref="5105862527"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="blue ribbon"/>
+    <tag k="name" v="blue"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="524727426">
@@ -10746,7 +10880,7 @@
     <nd ref="2059121983"/>
     <tag k="highway" v="path"/>
     <tag k="man_made" v="embankment"/>
-    <tag k="name" v="Red"/>
+    <tag k="name" v="Yellow"/>
     <tag k="operator" v="ctc"/>
   </way>
   <way id="525695612">
@@ -11025,29 +11159,215 @@
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
   </way>
-  <way id="539716582">
-    <nd ref="2144893381"/>
-    <nd ref="5228174337"/>
-    <nd ref="5228174338"/>
-    <nd ref="5228174336"/>
-    <nd ref="3068716487"/>
-    <nd ref="3068716484"/>
-    <nd ref="5228174339"/>
-    <nd ref="3068716485"/>
-    <nd ref="3068716483"/>
-    <nd ref="3068716482"/>
-    <nd ref="3068716481"/>
-    <nd ref="3068716480"/>
-    <nd ref="5228174340"/>
-    <nd ref="3068716479"/>
-    <nd ref="3068716478"/>
-    <nd ref="2059121958"/>
-    <tag k="access" v="yes"/>
-    <tag k="foot" v="designated"/>
+  <way id="541641561">
+    <nd ref="5237376551"/>
+    <nd ref="5237376553"/>
     <tag k="highway" v="path"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="name" v="Blue"/>
     <tag k="operator" v="ctc"/>
+  </way>
+  <way id="541641562">
+    <nd ref="3068716470"/>
+    <nd ref="5105862417"/>
+    <nd ref="3068716469"/>
+    <nd ref="3068716468"/>
+    <nd ref="3068716466"/>
+    <nd ref="3068716465"/>
+    <nd ref="5099191117"/>
+    <nd ref="5099191080"/>
+    <nd ref="3068716462"/>
+    <nd ref="3068716460"/>
+    <nd ref="5105862538"/>
+    <nd ref="5099191102"/>
+    <nd ref="5105862539"/>
+    <nd ref="5101837627"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Main Trail (yellow)"/>
+    <tag k="operator" v="ctc"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="541641563">
+    <nd ref="3068716470"/>
+    <nd ref="5237376566"/>
+    <nd ref="5237376567"/>
+    <nd ref="5237376568"/>
+    <nd ref="5237376569"/>
+    <nd ref="5237376570"/>
+    <nd ref="5237376571"/>
+    <nd ref="5237376572"/>
+    <nd ref="5237376573"/>
+    <nd ref="5237376574"/>
+    <nd ref="5104164616"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Red"/>
+    <tag k="operator" v="ctc"/>
+  </way>
+  <way id="541641564">
+    <nd ref="5104164616"/>
+    <nd ref="5104164615"/>
+    <nd ref="5104164614"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="blue"/>
+    <tag k="operator" v="ctc"/>
+  </way>
+  <way id="541641565">
+    <nd ref="5237376575"/>
+    <nd ref="5237376576"/>
+    <nd ref="5237376577"/>
+    <nd ref="5237376578"/>
+    <nd ref="5237376579"/>
+    <nd ref="5237376580"/>
+    <nd ref="5237376581"/>
+    <nd ref="5237376582"/>
+    <nd ref="5237376583"/>
+    <nd ref="5237376584"/>
+    <nd ref="5237376585"/>
+    <nd ref="5237376586"/>
+    <nd ref="5237376587"/>
+    <nd ref="5237376588"/>
+    <nd ref="5237376589"/>
+    <nd ref="5237376590"/>
+    <nd ref="5237376591"/>
+    <nd ref="5237376592"/>
+    <nd ref="5237376593"/>
+    <nd ref="5237376594"/>
+    <nd ref="5237376595"/>
+    <nd ref="5237376596"/>
+    <nd ref="5237376597"/>
+    <nd ref="5237376598"/>
+    <nd ref="5237376599"/>
+    <nd ref="5237376600"/>
+    <nd ref="5237376601"/>
+    <nd ref="5237376602"/>
+    <nd ref="3068716470"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Red"/>
+    <tag k="operator" v="ctc"/>
+  </way>
+  <way id="541798788">
+    <nd ref="5238753289"/>
+    <nd ref="2140737951"/>
+    <nd ref="2140737953"/>
+    <tag k="access" v="no"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="541798789">
+    <nd ref="5238753272"/>
+    <nd ref="2140737955"/>
+    <nd ref="2140737957"/>
+    <tag k="access" v="no"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="541879830">
+    <nd ref="2983277123"/>
+    <nd ref="5239386818"/>
+    <nd ref="5239386817"/>
+    <nd ref="2983277142"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="541879832">
+    <nd ref="5239386823"/>
+    <nd ref="5239386822"/>
+    <nd ref="5239386821"/>
+    <nd ref="5239386820"/>
+    <nd ref="5239386819"/>
+    <nd ref="2983277121"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="541879834">
+    <nd ref="2983277127"/>
+    <nd ref="2983212421"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="541879837">
+    <nd ref="5239386836"/>
+    <nd ref="5241855066"/>
+    <nd ref="5239386835"/>
+    <nd ref="5239386834"/>
+    <nd ref="5239386833"/>
+    <nd ref="5239386832"/>
+    <nd ref="5239386831"/>
+    <nd ref="5239386830"/>
+    <nd ref="5239386829"/>
+    <nd ref="5239386828"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="541879838">
+    <nd ref="5239386828"/>
+    <nd ref="5241855063"/>
+    <nd ref="5239386843"/>
+    <nd ref="5239386842"/>
+    <nd ref="5239386841"/>
+    <nd ref="5239386840"/>
+    <nd ref="5239386839"/>
+    <nd ref="5239386838"/>
+    <nd ref="5239386837"/>
+    <nd ref="3009744299"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="542069396">
+    <nd ref="2983277156"/>
+    <nd ref="5241026921"/>
+    <nd ref="5241026020"/>
+    <nd ref="5241026019"/>
+    <nd ref="2983277181"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="542160594">
+    <nd ref="5241855064"/>
+    <nd ref="5241855063"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="542160595">
+    <nd ref="2925609485"/>
+    <nd ref="3009744249"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Marsh Trail - yellow diamond"/>
+    <tag k="surface" v="dirt"/>
+  </way>
+  <way id="542160596">
+    <nd ref="2983212416"/>
+    <nd ref="2983277102"/>
+    <nd ref="2983277103"/>
+    <nd ref="3009744246"/>
+    <nd ref="3009744247"/>
+    <nd ref="3009744248"/>
+    <nd ref="2925609485"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="yes"/>
+    <tag k="name" v="Marsh Trail - yellow diamond"/>
+    <tag k="surface" v="dirt"/>
+  </way>
+  <way id="543911873">
+    <nd ref="5257881171"/>
+    <nd ref="5257881173"/>
+    <nd ref="5257881172"/>
+    <tag k="highway" v="footway"/>
+  </way>
+  <way id="543911874">
+    <nd ref="5257881173"/>
+    <nd ref="5257881175"/>
+    <nd ref="5257881174"/>
+    <tag k="highway" v="footway"/>
+  </way>
+  <way id="543911875">
+    <nd ref="5257881175"/>
+    <nd ref="5257881176"/>
+    <tag k="highway" v="footway"/>
+  </way>
+  <way id="543981308">
+    <nd ref="2983277183"/>
+    <nd ref="5258452660"/>
+    <tag k="highway" v="path"/>
   </way>
 
 </osm>
