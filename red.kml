@@ -849,17 +849,6 @@
 	<name>Red</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">530131260</SimpleData>
-		<SimpleData name="highway">path</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4767657,42.4655311 -71.476343,42.4654758</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Red</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">533289929</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
