@@ -19,7 +19,7 @@ file2style = {
         {"KML": "FF0000FF", "JSON": "red"},
     "outside_trails": 
         {"KML": "FF00FFFF", "JSON": "black"},
-    "othertrails": 
+    "unblazed_trails": 
         {"KML": "FF00FFFF", "JSON": "black"},    
 }
 
