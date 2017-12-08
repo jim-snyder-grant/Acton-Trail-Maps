@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # combine all the trail files into one, 
 # and create KML and geojson versions. 
 
@@ -42,7 +43,9 @@ GeoJSONdriver = ogr.GetDriverByName("GeoJSON")
 outfileJSON = GeoJSONdriver.CreateDataSource( OUTFILEBASE + '.geojson' )
 outLayerJSON = outfileJSON.CreateLayer("OGRGeoJSON")
 colorField = ogr.FieldDefn(COLORKEY, ogr. OFTString )
+nameField = ogr.FieldDefn(NAMEKEY, ogr. OFTString )
 outLayerJSON.CreateField(colorField)
+outLayerJSON.CreateField(nameField)
 layerDefnJSON = outLayerJSON.GetLayerDefn()
 
 for base,info in file2style.items():
