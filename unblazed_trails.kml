@@ -62,16 +62,6 @@
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">58014675</SimpleData>
-		<SimpleData name="highway">track</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;no&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4968238,42.4632909 -71.4969568,42.4632992 -71.4978658,42.4635845 -71.4980607,42.4636621 -71.4981356,42.4637254 -71.498159,42.463811 -71.4981541,42.4638996 -71.498121,42.4639521</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">86979494</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>

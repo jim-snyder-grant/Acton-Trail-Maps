@@ -47,7 +47,7 @@ ACTON_AREA_ID = "3601832779"
 # We get canoe launch by ID since it's a CR, not land owned by Acton
 CANOE_LAUNCH_ID = "449483835"
 # Generic trails filter includes paths and tracks.
-TRAILS_FILTER = 'way[highway~"path|track"][access!=private][name'
+TRAILS_FILTER = 'way[highway~"^path$|^track$"][access!~"^private$|^no$"][name'
 # 'Special' trail names
 SPECIAL_TRAIL = "Blue and Green Trail"
 # Test to see if we are in Acton
@@ -120,7 +120,7 @@ for arg in args:
     elif arg == "outside_trails":
         KMLcolor = "ffff00ff"
         # This is all trails outside of Acton (but no private trails)
-        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!=private]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
+        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!~"^private$|^no$"]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
     elif arg == "parking":
         KMLcolor = "50BEBEBE"
         filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
@@ -136,7 +136,7 @@ for arg in args:
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
-        filters = 'way[highway~"path|track"][access!=private][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
+        filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
     elif arg == "yellow":
         KMLcolor = " ff00ffff"
         filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON

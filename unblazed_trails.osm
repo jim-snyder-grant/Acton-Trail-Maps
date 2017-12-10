@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-02T19:01:02Z" areas="2017-12-02T17:58:02Z"/>
+<meta osm_base="2017-12-10T02:17:02Z" areas="2017-12-10T01:48:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -87,10 +87,6 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="73260391" lat="42.4632909" lon="-71.4968238">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
   <node id="73263546" lat="42.4701040" lon="-71.4106820"/>
   <node id="73270682" lat="42.4703500" lon="-71.4123680"/>
   <node id="73271211" lat="42.4770660" lon="-71.4765360">
@@ -148,7 +144,6 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="719837620" lat="42.4635845" lon="-71.4978658"/>
   <node id="1011958818" lat="42.4469763" lon="-71.4312518"/>
   <node id="1011958819" lat="42.4465725" lon="-71.4311659"/>
   <node id="1011958820" lat="42.4462083" lon="-71.4311338"/>
@@ -158,12 +153,6 @@
   <node id="1011958825" lat="42.4447754" lon="-71.4310372"/>
   <node id="1011958826" lat="42.4443083" lon="-71.4310157"/>
   <node id="1011958827" lat="42.4440232" lon="-71.4310372"/>
-  <node id="1826801132" lat="42.4632992" lon="-71.4969568"/>
-  <node id="1826801133" lat="42.4636621" lon="-71.4980607"/>
-  <node id="1826801136" lat="42.4637254" lon="-71.4981356"/>
-  <node id="1826801146" lat="42.4638110" lon="-71.4981590"/>
-  <node id="1826801152" lat="42.4638996" lon="-71.4981541"/>
-  <node id="1826801157" lat="42.4639521" lon="-71.4981210"/>
   <node id="1826801349" lat="42.4770693" lon="-71.4865499"/>
   <node id="1826801353" lat="42.4772162" lon="-71.4870388"/>
   <node id="1826801358" lat="42.4774146" lon="-71.4862380"/>
@@ -1841,18 +1830,6 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
     <tag k="surface" v="unpaved"/>
-  </way>
-  <way id="58014675">
-    <nd ref="73260391"/>
-    <nd ref="1826801132"/>
-    <nd ref="719837620"/>
-    <nd ref="1826801133"/>
-    <nd ref="1826801136"/>
-    <nd ref="1826801146"/>
-    <nd ref="1826801152"/>
-    <nd ref="1826801157"/>
-    <tag k="access" v="no"/>
-    <tag k="highway" v="track"/>
   </way>
   <way id="86979494">
     <nd ref="1011958818"/>
