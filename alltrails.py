@@ -38,14 +38,14 @@ layerDefnKML = outLayerKML.GetLayerDefn()
     
 #geoJSON writing prep
 COLORKEY = "color"
+OSMKEY = "osm_id"
 inExtension = r".geojson"
 GeoJSONdriver = ogr.GetDriverByName("GeoJSON")
 outfileJSON = GeoJSONdriver.CreateDataSource( OUTFILEBASE + '.geojson' )
 outLayerJSON = outfileJSON.CreateLayer("OGRGeoJSON")
-colorField = ogr.FieldDefn(COLORKEY, ogr. OFTString )
-nameField = ogr.FieldDefn(NAMEKEY, ogr. OFTString )
-outLayerJSON.CreateField(colorField)
-outLayerJSON.CreateField(nameField)
+outLayerJSON.CreateField(ogr.FieldDefn(COLORKEY, ogr. OFTString ))
+outLayerJSON.CreateField(ogr.FieldDefn(NAMEKEY, ogr. OFTString ))
+outLayerJSON.CreateField(ogr.FieldDefn(OSMKEY, ogr. OFTString ))
 layerDefnJSON = outLayerJSON.GetLayerDefn()
 
 for base,info in file2style.items():
@@ -63,6 +63,7 @@ for base,info in file2style.items():
         # read from source file
         geom = infeature.GetGeometryRef()
         name = infeature.GetField(NAMEKEY)
+        osm_id = infeature.GetField(OSMKEY)
         # KML writing part
         outfeatureKML = ogr.Feature(layerDefnKML)
         outfeatureKML.SetGeometry(geom)
@@ -78,6 +79,7 @@ for base,info in file2style.items():
         outfeatureJSON.SetField(COLORKEY,color)
         if (name):
             outfeatureJSON.SetField(NAMEKEY, name)
+        outfeatureJSON.SetField(OSMKEY, osm_id)    
         outLayerJSON.CreateFeature(outfeatureJSON)
         outfeatureJSON = None
         
