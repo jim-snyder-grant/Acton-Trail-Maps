@@ -77,10 +77,23 @@ def ourCall(args):
     try:
         output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError, e:
-        print "Execution failed wih code ", e.returncode
+        print "Execution failed with code ", e.returncode
         print e.output
         exit(e.returncode)
     return output_text
+
+# Diff returns 1 on success when there is a difference, so do not exit in that case
+def ourDiffCall(args):
+    try:
+        output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
+    except subprocess.CalledProcessError, e:
+        if 1 == e.returncode:
+            return 1
+        else:
+            print "Execution failed with code ", e.returncode
+            print e.output
+            exit(e.returncode)
+    return 0
 
 
 for arg in args:
@@ -148,9 +161,14 @@ for arg in args:
         exit(1)
 
     osmFile = arg + ".osm"
-    kmlFile = arg + ".kml"
-    backupFile = arg + ".old.kml"
-    geojsonFile = arg + ".geojson"
+
+    # save the old OSM file for comparing with diff to see if there were really changes
+    osmFileOld = arg + ".old.osm"
+    if os.path.exists(osmFile):
+        if os.path.exists(osmFileOld):
+            os.remove(osmFileOld)
+        os.rename(osmFile, osmFileOld)
+
     # osmDriver = gdal.GetDriverByName("OSM")
     # kmlDriver = gdal.GetDriverByName("KML")
     # geojsonDriver = gdal.GetDriverByName("GeoJSON")
@@ -180,13 +198,15 @@ for arg in args:
         print("ERROR: Did not create " + osmFile)
         exit(1)
 
-    # Check to see if the OSM file has changed. We do this by simply running
-    # a git diff. If it is exactly 7 lines long, then we only have one
-    # changed line, which is the osm_base timestamp.
-    diff_bs = ourCall(['git', 'diff', '-U0', osmFile])
-    diff_s = diff_bs.decode('ASCII')
-    diff_lines = diff_s.count('\n')
-    if diff_lines == 7:
+    # Check to see if the OSM file has changed. We do this using diff and ignoring
+    # the osm_base and osm version lines.
+    if os.path.exists(osmFileOld):
+        diff_return = ourDiffCall(['diff', "-Imeta osm_base", "-Iosm version", osmFile, osmFileOld])
+        os.remove(osmFileOld)
+    else:
+        diff_return = 1
+
+    if diff_return == 0:
         print ("No changes")
         # If there are no changes, then restore the old file with git checkout
         ourCall(['git', 'checkout', osmFile])
@@ -194,10 +214,12 @@ for arg in args:
     else:
 
         # save the old KML for comparing in qgis
+        kmlFile = arg + ".kml"
         if os.path.exists(kmlFile):
-            if os.path.exists(backupFile):
-                os.remove(backupFile)
-            os.rename(kmlFile, backupFile)
+            kmlFileOld = arg + ".old.kml"
+            if os.path.exists(kmlFileOld):
+                os.remove(kmlFileOld)
+            os.rename(kmlFile, kmlFileOld)
 
         ourCall(['ogr2ogr', '-f', 'KML', kmlFile, osmFile, geometry])
 
@@ -205,6 +227,7 @@ for arg in args:
         ourSED("<color>........", "<color>"+KMLcolor, kmlFile)
 
         # convert to GeoJSON for importing into MapBox
+        geojsonFile = arg + ".geojson"
         if os.path.exists(geojsonFile):
             os.remove(geojsonFile)
 
