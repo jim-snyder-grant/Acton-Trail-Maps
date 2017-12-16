@@ -1530,5 +1530,35 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.436358,42.4416048 -71.4363379,42.4415771 -71.4363204,42.4415494 -71.4362614,42.4415177 -71.4360522,42.4414979 -71.4359396,42.4415217 -71.4358484,42.4415969 -71.4356982,42.4416088 -71.4355211,42.4416009 -71.4352583,42.4415494 -71.4351617,42.4415256 -71.4347701,42.4413594 -71.4343892,42.4413119 -71.4340942,42.441304 -71.4338528,42.4413079 -71.4337241,42.4412525 -71.4335417,42.4412802 -71.4334344,42.4413 -71.4333754,42.4412842 -71.4331983,42.4412169 -71.4329516,42.4410941 -71.4328431,42.4410532</coordinates></LineString>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">547155075</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.448988,42.458574 -71.4483776,42.4571193 -71.4482128,42.4567264</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">547155076</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4480076,42.4570386 -71.4483776,42.4571193</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">547155077</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;permissive&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4512644,42.4588272 -71.4504913,42.4589779 -71.4503304,42.458966 -71.4501748,42.4589225 -71.45003,42.4588433 -71.4499227,42.4587484 -71.4498945,42.4586856</coordinates></LineString>
+  </Placemark>
 </Folder>
 </Document></kml>

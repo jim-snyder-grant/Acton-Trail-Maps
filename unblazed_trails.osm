@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-10T02:17:02Z" areas="2017-12-10T01:48:02Z"/>
+<meta osm_base="2017-12-16T02:20:02Z" areas="2017-12-16T01:27:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -101,12 +101,14 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
+  <node id="73274104" lat="42.4585740" lon="-71.4489880"/>
   <node id="73277586" lat="42.5208565" lon="-71.4157751">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73279637" lat="42.4899883" lon="-71.4446697">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="noexit" v="yes"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73282302" lat="42.4792675" lon="-71.4201781">
@@ -925,6 +927,7 @@
   <node id="4503544006" lat="42.4825346" lon="-71.4339259"/>
   <node id="4503544007" lat="42.4827166" lon="-71.4339232"/>
   <node id="4503544013" lat="42.4824659" lon="-71.4338542"/>
+  <node id="4511003667" lat="42.4570386" lon="-71.4480076"/>
   <node id="4564511383" lat="42.4879830" lon="-71.3980413"/>
   <node id="4566190376" lat="42.5047332" lon="-71.4121838"/>
   <node id="4566190377" lat="42.5049052" lon="-71.4123796"/>
@@ -1758,6 +1761,15 @@
   <node id="5168297466" lat="42.4415771" lon="-71.4363379"/>
   <node id="5239386845" lat="42.5378648" lon="-71.4291510"/>
   <node id="5241026014" lat="42.5352791" lon="-71.4271263"/>
+  <node id="5286799520" lat="42.4567264" lon="-71.4482128"/>
+  <node id="5286800421" lat="42.4571193" lon="-71.4483776"/>
+  <node id="5286800422" lat="42.4588272" lon="-71.4512644"/>
+  <node id="5286800423" lat="42.4589779" lon="-71.4504913"/>
+  <node id="5286800424" lat="42.4589660" lon="-71.4503304"/>
+  <node id="5286800425" lat="42.4589225" lon="-71.4501748"/>
+  <node id="5286800426" lat="42.4588433" lon="-71.4500300"/>
+  <node id="5286800427" lat="42.4587484" lon="-71.4499227"/>
+  <node id="5286800428" lat="42.4586856" lon="-71.4498945"/>
   <way id="9515619">
     <nd ref="73211531"/>
     <nd ref="73273174"/>
@@ -4246,6 +4258,33 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue and Green Trail"/>
     <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="547155075">
+    <nd ref="73274104"/>
+    <nd ref="5286800421"/>
+    <nd ref="5286799520"/>
+    <tag k="access" v="permissive"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="track"/>
+  </way>
+  <way id="547155076">
+    <nd ref="4511003667"/>
+    <nd ref="5286800421"/>
+    <tag k="access" v="permissive"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+  </way>
+  <way id="547155077">
+    <nd ref="5286800422"/>
+    <nd ref="5286800423"/>
+    <nd ref="5286800424"/>
+    <nd ref="5286800425"/>
+    <nd ref="5286800426"/>
+    <nd ref="5286800427"/>
+    <nd ref="5286800428"/>
+    <tag k="access" v="permissive"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
   </way>
 
 </osm>
