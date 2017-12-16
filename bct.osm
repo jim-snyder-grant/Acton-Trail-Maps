@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-02T18:00:02Z"/>
+<meta osm_base="2017-12-16T02:19:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -784,6 +784,7 @@
   <node id="5237376552" lat="42.4838168" lon="-71.3933725"/>
   <node id="5237376553" lat="42.4838568" lon="-71.3937280"/>
   <node id="5237376575" lat="42.4847235" lon="-71.3960622"/>
+  <node id="5282303941" lat="42.4873422" lon="-71.3992106"/>
   <way id="8915136">
     <nd ref="65211382"/>
     <nd ref="65237142"/>
@@ -877,26 +878,10 @@
     <nd ref="3068613356"/>
     <nd ref="2144893395"/>
     <nd ref="2144893396"/>
-    <nd ref="2144893398"/>
-    <nd ref="2144893399"/>
-    <nd ref="4608205624"/>
-    <nd ref="2144893397"/>
-    <nd ref="2144893394"/>
-    <nd ref="2144893391"/>
-    <nd ref="3068613354"/>
-    <nd ref="2144893388"/>
-    <nd ref="3068613352"/>
-    <nd ref="2144893385"/>
-    <nd ref="3068613351"/>
-    <nd ref="3068613350"/>
-    <nd ref="2144893384"/>
-    <nd ref="3068613349"/>
-    <nd ref="2144893383"/>
-    <nd ref="2144893382"/>
-    <nd ref="2144893381"/>
+    <nd ref="5282303941"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
+    <tag k="highway" v="track"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="BCT Yellow"/>
   </way>
@@ -1621,6 +1606,31 @@
     <tag k="highway" v="service"/>
     <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
     <tag k="operator" v="ctc"/>
+  </way>
+  <way id="546621694">
+    <nd ref="5282303941"/>
+    <nd ref="2144893398"/>
+    <nd ref="2144893399"/>
+    <nd ref="4608205624"/>
+    <nd ref="2144893397"/>
+    <nd ref="2144893394"/>
+    <nd ref="2144893391"/>
+    <nd ref="3068613354"/>
+    <nd ref="2144893388"/>
+    <nd ref="3068613352"/>
+    <nd ref="2144893385"/>
+    <nd ref="3068613351"/>
+    <nd ref="3068613350"/>
+    <nd ref="2144893384"/>
+    <nd ref="3068613349"/>
+    <nd ref="2144893383"/>
+    <nd ref="2144893382"/>
+    <nd ref="2144893381"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="BCT Yellow"/>
   </way>
 
 </osm>
