@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-02T18:01:02Z"/>
+<meta osm_base="2017-12-16T02:15:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2257,7 +2257,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29762088">
     <nd ref="327590676"/>
@@ -2296,10 +2295,8 @@
     <tag k="massgis:POLY_ID" v="6173"/>
     <tag k="massgis:PRIM_PURP" v="C"/>
     <tag k="massgis:PUB_ACCESS" v="Y"/>
-    <tag k="massgis:SITE_NAME" v="PUTNAM LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29763031">
     <nd ref="327818941"/>
@@ -2404,7 +2401,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29763453">
     <nd ref="2784202768"/>
@@ -2587,7 +2583,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="website" v="http://www.actontrails.org/pacy/"/>
   </way>
   <way id="29764243">
@@ -2878,7 +2873,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
   </way>
   <way id="29770133">
@@ -2929,7 +2923,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="website" v="http://www.actontrails.org/wetherbee/"/>
   </way>
   <way id="29770630">
@@ -3037,7 +3030,6 @@
     <tag k="massgis:SITE_NAME" v="HEATH HEN MEADOW"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29770818">
     <nd ref="327876445"/>
@@ -3148,7 +3140,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776483">
     <nd ref="327944383"/>
@@ -3245,7 +3236,6 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Nagog Hill Road"/>
     <tag k="ele" v="95"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776495">
     <nd ref="327960968"/>
@@ -3313,7 +3303,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776541">
     <nd ref="327954582"/>
@@ -3411,7 +3400,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776556">
     <nd ref="327934627"/>
@@ -3523,7 +3511,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776625">
     <nd ref="327965743"/>
@@ -3592,7 +3579,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776697">
     <nd ref="327949488"/>
@@ -3650,7 +3636,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29776921">
     <nd ref="327937949"/>
@@ -3705,7 +3690,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29777010">
     <nd ref="327940566"/>
@@ -3764,7 +3748,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="29778038">
     <nd ref="327977243"/>
@@ -3817,7 +3800,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="236354645">
     <nd ref="2443898991"/>
@@ -3831,7 +3813,6 @@
     <nd ref="2443898989"/>
     <nd ref="2443898994"/>
     <nd ref="2443898991"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
   </way>
   <way id="311680473">
     <nd ref="327969207"/>
@@ -5145,7 +5126,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="website" v="http://www.actontrails.org/stoneymeade/"/>
   </way>
   <relation id="6696667">
@@ -5241,7 +5221,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="type" v="multipolygon"/>
     <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
   </relation>
@@ -5298,7 +5277,6 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="conservation_acton"/>
-    <tag k="source" v="MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)"/>
     <tag k="type" v="multipolygon"/>
   </relation>
   <relation id="6946413">
