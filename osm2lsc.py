@@ -82,6 +82,7 @@ def ourCall(args):
         exit(e.returncode)
     return output_text
 
+
 # Diff returns 1 on success when there is a difference, so do not exit in that case
 def ourDiffCall(args):
     try:
