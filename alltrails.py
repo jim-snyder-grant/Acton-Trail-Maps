@@ -11,13 +11,13 @@ from osgeo import ogr, gdal
 # The hex colors are in OGR order "RRGGBBAA" not KML order "AABBGGRR"
 # the driver does the conversion
 file2style = {
-    "yellow":
+    "yellow_trails":
         {"KML": "FFFF00FF", "JSON": "yellow"},
-    "blue":
+    "blue_trails":
         {"KML": "0000FFFF", "JSON": "blue"},
-    "green":
+    "green_trails":
         {"KML": "14AA00FF", "JSON": "green"},
-    "red":
+    "red_trails":
         {"KML": "FF0000FF", "JSON": "red"},
     "outside_trails":
         {"KML": "FF00FFFF", "JSON": "black"},
@@ -27,7 +27,7 @@ file2style = {
 
 gdal.UseExceptions()
 
-OUTFILEBASE = "alltrails"
+OUTFILEBASE = "all_trails"
 NAMEKEY = "name"
 
 # KML writing prep
