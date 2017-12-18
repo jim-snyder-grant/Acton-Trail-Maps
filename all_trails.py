@@ -5,36 +5,29 @@ import os
 from osgeo import ogr, gdal
 
 # For combined files, retain geometry and name.
-# For geojson add new field color=blue,red, yellow, green or black.
+# For geojson add new field color=blue, red, yellow, green or black.
 # For KML make sure Style/LineStyle/color gets
 # corresponding 6-digit hex values.
 # The hex colors are in OGR order "RRGGBBAA" not KML order "AABBGGRR"
 # the driver does the conversion
-file2style = {
-    "yellow_trails":
-        {"KML": "FFFF00FF", "COLOR": "yellow", "in_acton": True},
-    "blue_trails":
-        {"KML": "0000FFFF", "COLOR": "blue", "in_acton": True},
-    "green_trails":
-        {"KML": "14AA00FF", "COLOR": "green", "in_acton": True},
-    "red_trails":
-        {"KML": "FF0000FF", "COLOR": "red", "in_acton": True},
-    "outside_trails":
-        {"KML": "FF00FFFF", "COLOR": "black", "in_acton": False},
-    "unblazed_trails":
-        {"KML": "FF00FFFF", "COLOR": "black", "in_acton": True},
-}
+# This is a list at top level so the order remains the same.
+file2style = [
+    {"base": "blue_trails",     "KML": "0000FFFF", "COLOR": "blue", "in_acton": True},
+    {"base": "outside_trails",  "KML": "FF00FFFF", "COLOR": "black", "in_acton": False},
+    {"base": "yellow_trails",   "KML": "FFFF00FF", "COLOR": "yellow", "in_acton": True},
+    {"base": "green_trails",    "KML": "14AA00FF", "COLOR": "green", "in_acton": True},
+    {"base": "unblazed_trails", "KML": "FF00FFFF", "COLOR": "black", "in_acton": True},
+    {"base": "red_trails",      "KML": "FF0000FF", "COLOR": "red", "in_acton": True},
+]
 
 gdal.UseExceptions()
 
 OUTFILEBASEALL = "all_trails"
 OUTFILEBASEACTON = "acton_trails"
-
 NAMEKEY = "name"
-
+COLORKEY = "color"
 
 # geoJSON writing prep
-COLORKEY = "color"
 OSMKEY = "osm_id"
 inExtension = r".geojson"
 GeoJSONdriver = ogr.GetDriverByName("GeoJSON")
@@ -70,8 +63,8 @@ outLayerActonKML.CreateField(colorfield)
 
 layerDefnKML = outLayerAllKML.GetLayerDefn()
 
-
-for base, info in file2style.items():
+for info in file2style:
+    base = info["base"]
     inFile = base + inExtension
     # Second Open arg: 0 means read-only; 1 means writeable
     dataSource = GeoJSONdriver.Open(inFile, 0)
