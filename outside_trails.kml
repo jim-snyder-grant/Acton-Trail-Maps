@@ -3388,5 +3388,16 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4232232,42.5320261 -71.4237982,42.531939</coordinates></LineString>
   </Placemark>
+  <Placemark>
+	<name>Red</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">547555540</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4831512,42.4862146 -71.4834337,42.4863684 -71.483508,42.4864548 -71.4835906,42.4867036 -71.4836516,42.4868544 -71.4837485,42.4870555 -71.4837664,42.4872355 -71.4836579,42.487376</coordinates></LineString>
+  </Placemark>
 </Folder>
 </Document></kml>
