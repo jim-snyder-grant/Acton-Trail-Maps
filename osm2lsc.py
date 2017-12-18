@@ -115,7 +115,7 @@ for arg in args:
         filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
     elif arg == "blue_trails":
         KMLcolor = "ffff0000"
-        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
+        filters = TRAILS_FILTER+'~"blue",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "bounds":
         # Some bounds are multipolygons stored in OSM as 'relation', others are
         # plain old 'way'. And then there's the canoe launch, which isn't
@@ -131,7 +131,7 @@ for arg in args:
         geometry = "points"
     elif arg == "green_trails":
         KMLcolor = "ff00AA14"
-        filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
+        filters = TRAILS_FILTER+'~"green",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "outside_trails":
         KMLcolor = "ffff00ff"
         # This is all trails outside of Acton (but no private trails)
@@ -142,7 +142,7 @@ for arg in args:
         geometry = "multipolygons"
     elif arg == "red_trails":
         KMLcolor = "ff0000ff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
+        filters = TRAILS_FILTER+'~"red",i]'+IS_INSIDE_ACTON
     elif arg == "town":
         KMLcolor = "ff00ff00"
         filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
@@ -154,7 +154,7 @@ for arg in args:
         filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
     elif arg == "yellow_trails":
         KMLcolor = " ff00ffff"
-        filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
+        filters = TRAILS_FILTER+'~"yellow",i]'+IS_INSIDE_ACTON
     elif arg == helpArg:
         usage()
         exit(0)
