@@ -20,7 +20,7 @@ arg1 = ["compare", "update"]
 
 def usage():
     print("Usage: python2 " + sys.argv[0] + " '" + arg1[0] + "'|'" + arg1[1] + "' dataset-name")
-    print "'compare' will report on differences bewteen a local file with a geojson extension, and a mapbox dataset of the same name. "
+    print "'compare' will report on differences between a local file with a geojson extension, and a mapbox dataset of the same name. "
     print "'update' will make the same report, and also make the dataset match the file"
 
 if 3 != len(sys.argv):

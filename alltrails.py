@@ -5,25 +5,20 @@ import os
 from osgeo import ogr, gdal
 
 # For combined files, retain geometry and name.
-# For geojson add new field color=blue,red, yellow, green or black.
+# For geojson add new field color=blue, red, yellow, green or black.
 # For KML make sure Style/LineStyle/color gets
 # corresponding 6-digit hex values.
 # The hex colors are in OGR order "RRGGBBAA" not KML order "AABBGGRR"
 # the driver does the conversion
-file2style = {
-    "yellow_trails":
-        {"KML": "FFFF00FF", "JSON": "yellow"},
-    "blue_trails":
-        {"KML": "0000FFFF", "JSON": "blue"},
-    "green_trails":
-        {"KML": "14AA00FF", "JSON": "green"},
-    "red_trails":
-        {"KML": "FF0000FF", "JSON": "red"},
-    "outside_trails":
-        {"KML": "FF00FFFF", "JSON": "black"},
-    "unblazed_trails":
-        {"KML": "FF00FFFF", "JSON": "black"},
-}
+# This is a list at top level so the order remains the same.
+file2style = [
+    {"base": "blue_trails",     "KML": "0000FFFF", "JSON": "blue"},
+    {"base": "outside_trails",  "KML": "FF00FFFF", "JSON": "black"},
+    {"base": "yellow_trails",   "KML": "FFFF00FF", "JSON": "yellow"},
+    {"base": "green_trails",    "KML": "14AA00FF", "JSON": "green"},
+    {"base": "unblazed_trails", "KML": "FF00FFFF", "JSON": "black"},
+    {"base": "red_trails",      "KML": "FF0000FF", "JSON": "red"},
+]
 
 gdal.UseExceptions()
 
@@ -48,7 +43,8 @@ outLayerJSON.CreateField(ogr.FieldDefn(NAMEKEY, ogr. OFTString))
 outLayerJSON.CreateField(ogr.FieldDefn(OSMKEY, ogr. OFTString))
 layerDefnJSON = outLayerJSON.GetLayerDefn()
 
-for base, info in file2style.items():
+for info in file2style:
+    base = info["base"]
     inFile = base + inExtension
     # Second Open arg: 0 means read-only; 1 means writeable
     dataSource = GeoJSONdriver.Open(inFile, 0)
