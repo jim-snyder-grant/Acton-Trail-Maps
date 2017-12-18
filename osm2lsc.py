@@ -16,8 +16,9 @@ import shutil    # higher level file operations
 import subprocess
 
 regularArguments = {
-    'bct', 'bfrt', 'blue', 'bounds', 'camping', 'green', 'outside_trails',
-    'parking', 'red', 'town', 'unblazed_trails', 'yellow'
+    'bct', 'bfrt', 'blue_trails', 'bounds', 'camping', 'green_trails',
+    'outside_trails', 'parking', 'red_trails', 'town', 'unblazed_trails',
+    'yellow_trails'
 }
 allArg = 'all'
 helpArg = "help"
@@ -112,7 +113,7 @@ for arg in args:
     elif arg == "bfrt":
         KMLcolor = "501450FF"
         filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
-    elif arg == "blue":
+    elif arg == "blue_trails":
         KMLcolor = "ffff0000"
         filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "bounds":
@@ -128,7 +129,7 @@ for arg in args:
         KMLcolor = "643C9614"
         filters = 'node[tourism=camp_site]'+IS_INSIDE_ACTON
         geometry = "points"
-    elif arg == "green":
+    elif arg == "green_trails":
         KMLcolor = "ff00AA14"
         filters = TRAILS_FILTER+'~"'+arg+'",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
     elif arg == "outside_trails":
@@ -139,7 +140,7 @@ for arg in args:
         KMLcolor = "50BEBEBE"
         filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
         geometry = "multipolygons"
-    elif arg == "red":
+    elif arg == "red_trails":
         KMLcolor = "ff0000ff"
         filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
     elif arg == "town":
@@ -151,7 +152,7 @@ for arg in args:
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
         filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
-    elif arg == "yellow":
+    elif arg == "yellow_trails":
         KMLcolor = " ff00ffff"
         filters = TRAILS_FILTER+'~"'+arg+'",i]'+IS_INSIDE_ACTON
     elif arg == helpArg:
