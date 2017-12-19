@@ -151,7 +151,7 @@ for arg in args:
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
-        filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special;)'
+        filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special.intown;)'
     elif arg == "yellow_trails":
         KMLcolor = " ff00ffff"
         filters = TRAILS_FILTER+'~"yellow",i]'+IS_INSIDE_ACTON
