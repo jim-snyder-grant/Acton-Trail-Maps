@@ -244,14 +244,6 @@ for arg in args:
                      "SELECT ST_LineMerge(ST_Collect(geometry)) FROM OGRGeoJSON"])
             shutil.rmtree("temp")
 
-        # ogr2ogr emits geoJSON v 1.0. MapBox needs the successor, RFC 7946.
-        # The key difference is that we must remove the crs line
-        ourSED(r"^.crs.*$", "", geojsonFile)
-
-        # remove the colors from the names of Acton trails
-        if arg in ['blue', 'red', 'green', 'yellow']:
-            ourSED(r"\s?"+arg+r"\s?", "", geojsonFile)
-
         # just checking and announcing results
         if os.path.exists(kmlFile):
             print("created " + kmlFile)

@@ -2,6 +2,7 @@
 # Combine all the trail files into one, and create KML and geojson versions.
 
 import os
+import re
 from osgeo import ogr, gdal
 
 # For combined files, retain geometry and name.
@@ -74,17 +75,21 @@ for info in file2style:
     # This is an OGR style spec: http://www.gdal.org/ogr_feature_style.html
     # for writing into KML
     style = "PEN(c:#" + info["KML"] + ")"
+    # is this file holding data in Acton?
+    in_acton = info["in_acton"]
     # this is the value we will put into the new 'color' property in the
     # geoJSON and KML files.
     color = info["COLOR"]
-    # is this file holding data in Acton?
-    in_acton = info["in_acton"]
+    pattern = re.compile(color,flags=re.IGNORECASE)
     
     for infeature in inlayer:
     # read from source file
         geom = infeature.GetGeometryRef()
-        name = infeature.GetField(NAMEKEY)
         osm_id = infeature.GetField(OSMKEY)
+        name = infeature.GetField(NAMEKEY)
+        # remove the colors from the names of Acton trails
+        if name:
+            name = pattern.sub('',name)
         
     # JSON writing part
         outfeatureJSON = ogr.Feature(layerDefnJSON)
