@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="multipolygons" id="multipolygons">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="admin_level" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="boundary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="geological" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="land_area" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>multipolygons</name>
+  <Placemark>
+	<name>Morrison Farm</name>
+	<Style><LineStyle><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">29778386</SimpleData>
+		<SimpleData name="leisure">nature_reserve</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4173955,42.484127 -71.4174555,42.4837166 -71.417787,42.4833924 -71.4179155,42.4832421 -71.4180466,42.4829219 -71.4179487,42.4826051 -71.4175403,42.4824341 -71.4170921,42.4824234 -71.4169874,42.4823466 -71.4171692,42.481803 -71.4172723,42.4813433 -71.4173275,42.4810725 -71.4172501,42.4808893 -71.4171205,42.4807131 -71.4170262,42.4805167 -71.4171054,42.4801483 -71.4168233,42.4796702 -71.4165946,42.4794881 -71.4164274,42.4792365 -71.4162295,42.4787369 -71.4173389,42.4785039 -71.4172126,42.4782039 -71.4183979,42.4782743 -71.4204901,42.483041 -71.4215996,42.4837671 -71.4211813,42.484025 -71.4211084,42.4839615 -71.4206507,42.4842329 -71.4207088,42.484302 -71.4205922,42.4843809 -71.4173955,42.484127</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

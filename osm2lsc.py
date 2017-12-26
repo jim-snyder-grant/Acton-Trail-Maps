@@ -55,6 +55,7 @@ SPECIAL_TRAIL = "Blue and Green Trail"
 IS_INSIDE_ACTON = "(area:"+ACTON_AREA_ID+")"
 # Special post-processing if we got new bounds
 got_new_bounds = False
+got_new_town_land = False
 # variable for time delay. We increase it if we get a too-many-requests error.
 time_delay = 2
 start_arg = args[0]
@@ -120,9 +121,8 @@ for arg in args:
         # Some bounds are multipolygons stored in OSM as 'relation', others are
         # plain old 'way'. And then there's the canoe launch, which isn't
         # owned by the town of Acton.
-        # We are in a transition away from landuse=conservation
         KMLcolor = 'ffffffff'
-        filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];relation[leisure=nature_reserve][owner~"Town Of Acton",i];way[leisure=nature_reserve][owner~"Town Of Acton",i])'
+        filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i])'
         geometry = "multipolygons"
         got_new_bounds = True
     elif arg == "camping":
@@ -147,6 +147,13 @@ for arg in args:
         KMLcolor = "ff00ff00"
         filters = 'area[wikipedia="en:Acton, Massachusetts"];rel(pivot)'
         geometry = "multipolygons"
+    elif arg == "town_land":
+        # Capture town land used as conservation, but not actually conservation, by looking for nature_reserve
+        # which is not protected.
+        KMLcolor = 'ffffffff'
+        filters = '(way[leisure=nature_reserve][boundary!=protected_area][owner~"Town Of Acton",i])'
+        geometry = "multipolygons"
+        got_new_town_land = True
     elif arg == "unblazed_trails":
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
