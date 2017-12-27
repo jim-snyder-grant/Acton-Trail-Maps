@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-25T04:36:02Z" areas="2017-12-25T04:07:02Z"/>
+<meta osm_base="2017-12-27T02:51:02Z" areas="2017-12-27T01:53:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1116,7 +1116,7 @@
     <nd ref="2129514511"/>
     <nd ref="2129514519"/>
     <nd ref="2129514525"/>
-    <tag k="access" v="designated"/>
+    <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
@@ -1613,8 +1613,8 @@
     <nd ref="2144443061"/>
     <nd ref="2144442751"/>
     <nd ref="2144442746"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
@@ -1646,12 +1646,11 @@
     <nd ref="2144507078"/>
     <nd ref="2144507287"/>
     <nd ref="2144506914"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
-    <tag k="sidewalk" v="none"/>
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="204736472">
@@ -1747,12 +1746,11 @@
     <nd ref="2147190122"/>
     <nd ref="2147190124"/>
     <nd ref="2147190123"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
-    <tag k="sidewalk" v="none"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="204736473">
@@ -1866,8 +1864,8 @@
     <nd ref="2147365948"/>
     <nd ref="2147365950"/>
     <nd ref="2147365954"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
@@ -1885,12 +1883,11 @@
     <nd ref="2147366129"/>
     <nd ref="2147366132"/>
     <nd ref="2147366108"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
-    <tag k="sidewalk" v="none"/>
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="204760900">
@@ -1997,8 +1994,8 @@
     <nd ref="2169436975"/>
     <nd ref="2169436987"/>
     <nd ref="2139046627"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>

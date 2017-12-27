@@ -467,7 +467,7 @@
 		<SimpleData name="osm_id">204760901</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.441923,42.502366 -71.44177,42.502392 -71.441649,42.502463 -71.441559,42.502534 -71.441375,42.502584 -71.44119,42.502588 -71.44107,42.502682 -71.441013,42.502797 -71.440924,42.502891 -71.440774,42.503008 -71.440655,42.503125 -71.440472,42.503198 -71.44032,42.503269 -71.440136,42.503296 -71.439951,42.503323 -71.439767,42.50335 -71.439582,42.503377 -71.439368,42.503427 -71.439214,42.503453 -71.439123,42.503478 -71.43908,42.5035</coordinates></LineString>
   </Placemark>
@@ -588,7 +588,7 @@
 		<SimpleData name="osm_id">206189198</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.41293,42.50565 -71.413,42.50571 -71.41305,42.50578 -71.41311,42.50585 -71.41312,42.50589</coordinates></LineString>
   </Placemark>
@@ -643,7 +643,7 @@
 		<SimpleData name="osm_id">206886709</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4479883,42.4994798 -71.4479774,42.499577 -71.4480151,42.4997871 -71.4480312,42.4999694 -71.4480151,42.5001675 -71.4479452,42.5002983 -71.4479215,42.5003935</coordinates></LineString>
   </Placemark>
@@ -720,7 +720,7 @@
 		<SimpleData name="osm_id">452863164</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;private&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;private&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.416481,42.473578 -71.416288,42.473535 -71.416,42.473494 -71.415711,42.473453 -71.415391,42.473412 -71.415135,42.473394 -71.414847,42.473353 -71.41459,42.473311 -71.414526,42.473289 -71.414269,42.473247 -71.41411,42.473251 -71.413853,42.473209 -71.41363,42.473213 -71.413598,42.473191 -71.413373,42.473148 -71.413083,42.473083 -71.412764,42.473067 -71.412476,42.473025 -71.41225,42.472959 -71.412091,42.472963 -71.411962,42.472942 -71.411866,42.47292 -71.411802,42.472922 -71.4116679,42.4728934</coordinates></LineString>
   </Placemark>

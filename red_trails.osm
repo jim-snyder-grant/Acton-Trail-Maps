@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-25T04:36:02Z" areas="2017-12-25T04:19:02Z"/>
+<meta osm_base="2017-12-27T02:52:03Z" areas="2017-12-27T01:53:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1737,8 +1737,8 @@
     <nd ref="2147366041"/>
     <nd ref="2147366042"/>
     <nd ref="2147366044"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
@@ -1889,12 +1889,11 @@
     <nd ref="2156888052"/>
     <nd ref="2156888062"/>
     <nd ref="2156888069"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
-    <tag k="sidewalk" v="none"/>
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="206875508">
@@ -2109,8 +2108,8 @@
     <nd ref="2169436924"/>
     <nd ref="2169436928"/>
     <nd ref="2169436930"/>
-    <tag k="access" v="designated"/>
-    <tag k="foot" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
@@ -2253,7 +2252,6 @@
     <tag k="highway" v="track"/>
     <tag k="motor_vehicle" v="private"/>
     <tag k="name" v="Red"/>
-    <tag k="sidewalk" v="none"/>
     <tag k="surface" v="ground"/>
   </way>
   <way id="461065279">
