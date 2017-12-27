@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-16T02:19:02Z"/>
+<meta osm_base="2017-12-27T13:59:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -778,7 +778,9 @@
   <node id="5222105481" lat="42.4728183" lon="-71.3800164"/>
   <node id="5228174336" lat="42.4850967" lon="-71.3978519"/>
   <node id="5228174337" lat="42.4853321" lon="-71.3978706"/>
-  <node id="5228174338" lat="42.4852154" lon="-71.3979001"/>
+  <node id="5228174338" lat="42.4852095" lon="-71.3978934">
+    <tag k="note" v="Acton LSC wants a trail break at the town line"/>
+  </node>
   <node id="5228174339" lat="42.4848109" lon="-71.3973463"/>
   <node id="5228174340" lat="42.4839346" lon="-71.3947794"/>
   <node id="5237376552" lat="42.4838168" lon="-71.3933725"/>
@@ -1205,44 +1207,31 @@
     <tag k="width" v="9.8"/>
   </way>
   <way id="302623825">
+    <nd ref="5282303941"/>
+    <nd ref="2144893398"/>
+    <nd ref="2144893399"/>
+    <nd ref="4608205624"/>
+    <nd ref="2144893397"/>
+    <nd ref="2144893394"/>
+    <nd ref="2144893391"/>
+    <nd ref="3068613354"/>
+    <nd ref="2144893388"/>
+    <nd ref="3068613352"/>
+    <nd ref="2144893385"/>
+    <nd ref="3068613351"/>
+    <nd ref="3068613350"/>
+    <nd ref="2144893384"/>
+    <nd ref="3068613349"/>
+    <nd ref="2144893383"/>
+    <nd ref="2144893382"/>
     <nd ref="2144893381"/>
     <nd ref="5228174337"/>
     <nd ref="5228174338"/>
-    <nd ref="5228174336"/>
-    <nd ref="3068716487"/>
-    <nd ref="3068716484"/>
-    <nd ref="5228174339"/>
-    <nd ref="3068716485"/>
-    <nd ref="3068716483"/>
-    <nd ref="5237376575"/>
-    <nd ref="3068716482"/>
-    <nd ref="3068716481"/>
-    <nd ref="3068716480"/>
-    <nd ref="5228174340"/>
-    <nd ref="3068716479"/>
-    <nd ref="3068716478"/>
-    <nd ref="5237376553"/>
-    <nd ref="2059121958"/>
-    <nd ref="5237376552"/>
-    <nd ref="2059121969"/>
-    <nd ref="2059121973"/>
-    <nd ref="2059121929"/>
-    <nd ref="2059121961"/>
-    <nd ref="2059121941"/>
-    <nd ref="2059121977"/>
-    <nd ref="2059121915"/>
-    <nd ref="2059121919"/>
-    <nd ref="2059121951"/>
-    <nd ref="2059121967"/>
-    <nd ref="2059121911"/>
-    <nd ref="2059121980"/>
-    <nd ref="2059121947"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
-    <tag k="operator" v="ctc"/>
+    <tag k="name" v="BCT Yellow"/>
   </way>
   <way id="302623829">
     <nd ref="65204330"/>
@@ -1607,30 +1596,43 @@
     <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
     <tag k="operator" v="ctc"/>
   </way>
-  <way id="546621694">
-    <nd ref="5282303941"/>
-    <nd ref="2144893398"/>
-    <nd ref="2144893399"/>
-    <nd ref="4608205624"/>
-    <nd ref="2144893397"/>
-    <nd ref="2144893394"/>
-    <nd ref="2144893391"/>
-    <nd ref="3068613354"/>
-    <nd ref="2144893388"/>
-    <nd ref="3068613352"/>
-    <nd ref="2144893385"/>
-    <nd ref="3068613351"/>
-    <nd ref="3068613350"/>
-    <nd ref="2144893384"/>
-    <nd ref="3068613349"/>
-    <nd ref="2144893383"/>
-    <nd ref="2144893382"/>
-    <nd ref="2144893381"/>
+  <way id="549343402">
+    <nd ref="5228174338"/>
+    <nd ref="5228174336"/>
+    <nd ref="3068716487"/>
+    <nd ref="3068716484"/>
+    <nd ref="5228174339"/>
+    <nd ref="3068716485"/>
+    <nd ref="3068716483"/>
+    <nd ref="5237376575"/>
+    <nd ref="3068716482"/>
+    <nd ref="3068716481"/>
+    <nd ref="3068716480"/>
+    <nd ref="5228174340"/>
+    <nd ref="3068716479"/>
+    <nd ref="3068716478"/>
+    <nd ref="5237376553"/>
+    <nd ref="2059121958"/>
+    <nd ref="5237376552"/>
+    <nd ref="2059121969"/>
+    <nd ref="2059121973"/>
+    <nd ref="2059121929"/>
+    <nd ref="2059121961"/>
+    <nd ref="2059121941"/>
+    <nd ref="2059121977"/>
+    <nd ref="2059121915"/>
+    <nd ref="2059121919"/>
+    <nd ref="2059121951"/>
+    <nd ref="2059121967"/>
+    <nd ref="2059121911"/>
+    <nd ref="2059121980"/>
+    <nd ref="2059121947"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="BCT Yellow"/>
+    <tag k="name" v="Bay Circuit Trail (main-yellow)"/>
+    <tag k="operator" v="ctc"/>
   </way>
 
 </osm>

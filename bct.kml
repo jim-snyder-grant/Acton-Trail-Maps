@@ -145,15 +145,15 @@
       <LineString><coordinates>-71.40367,42.49247 -71.403282,42.4925 -71.402688,42.492554 -71.402434,42.492591 -71.402123,42.492662 -71.401786,42.492753 -71.401484,42.492874 -71.401086,42.493061 -71.400954,42.493119 -71.400806,42.493141 -71.400675,42.49314 -71.400492,42.493112 -71.400322,42.493064 -71.40013,42.493002 -71.39987,42.492899 -71.399691,42.492775 -71.399607,42.492697 -71.399494,42.492636</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Bay Circuit Trail (main-yellow)</name>
+	<name>BCT Yellow</name>
 	<Style><LineStyle><color>55FF78F0</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">302623825</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3978365,42.4854241 -71.3978706,42.4853321 -71.3979001,42.4852154 -71.3978519,42.4850967 -71.3977775,42.4850175 -71.3975438,42.4848427 -71.3973463,42.4848109 -71.3964582,42.4848447 -71.3961872,42.4847736 -71.3960622,42.4847235 -71.3956335,42.4845514 -71.3952913,42.4843376 -71.3949538,42.4840397 -71.3947794,42.4839346 -71.3945538,42.4838738 -71.3941494,42.4838659 -71.393728,42.4838568 -71.3936231,42.4838545 -71.3933725,42.4838168 -71.3930619,42.48377 -71.3925643,42.4837532 -71.3922371,42.4838204 -71.3919738,42.4839354 -71.3917744,42.4841141 -71.3915719,42.4843664 -71.3914634,42.4845321 -71.3912641,42.4847392 -71.3909496,42.4850547 -71.3907672,42.4851892 -71.3905222,42.4852527 -71.390145,42.4852411 -71.3892615,42.4851471</coordinates></LineString>
+      <LineString><coordinates>-71.3992106,42.4873422 -71.3990657,42.4873817 -71.3988395,42.4874379 -71.3987385,42.4873616 -71.3986804,42.4872358 -71.3986056,42.4868659 -71.39843,42.4866423 -71.3982904,42.4865344 -71.3982612,42.486477 -71.3981376,42.4863077 -71.3980496,42.4861857 -71.3979829,42.4860637 -71.397938,42.4860014 -71.397913,42.485926 -71.3978715,42.485772 -71.397853,42.485616 -71.3978269,42.4855085 -71.3978365,42.4854241 -71.3978706,42.4853321 -71.3978934,42.4852095</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Strawberry Hill Road</name>
@@ -262,15 +262,15 @@
       <LineString><coordinates>-71.3892615,42.4851471 -71.3886378,42.4850902 -71.388317,42.485066</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>BCT Yellow</name>
+	<name>Bay Circuit Trail (main-yellow)</name>
 	<Style><LineStyle><color>55FF78F0</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">546621694</SimpleData>
+		<SimpleData name="osm_id">549343402</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3992106,42.4873422 -71.3990657,42.4873817 -71.3988395,42.4874379 -71.3987385,42.4873616 -71.3986804,42.4872358 -71.3986056,42.4868659 -71.39843,42.4866423 -71.3982904,42.4865344 -71.3982612,42.486477 -71.3981376,42.4863077 -71.3980496,42.4861857 -71.3979829,42.4860637 -71.397938,42.4860014 -71.397913,42.485926 -71.3978715,42.485772 -71.397853,42.485616 -71.3978269,42.4855085 -71.3978365,42.4854241</coordinates></LineString>
+      <LineString><coordinates>-71.3978934,42.4852095 -71.3978519,42.4850967 -71.3977775,42.4850175 -71.3975438,42.4848427 -71.3973463,42.4848109 -71.3964582,42.4848447 -71.3961872,42.4847736 -71.3960622,42.4847235 -71.3956335,42.4845514 -71.3952913,42.4843376 -71.3949538,42.4840397 -71.3947794,42.4839346 -71.3945538,42.4838738 -71.3941494,42.4838659 -71.393728,42.4838568 -71.3936231,42.4838545 -71.3933725,42.4838168 -71.3930619,42.48377 -71.3925643,42.4837532 -71.3922371,42.4838204 -71.3919738,42.4839354 -71.3917744,42.4841141 -71.3915719,42.4843664 -71.3914634,42.4845321 -71.3912641,42.4847392 -71.3909496,42.4850547 -71.3907672,42.4851892 -71.3905222,42.4852527 -71.390145,42.4852411 -71.3892615,42.4851471</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>

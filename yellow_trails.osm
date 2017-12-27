@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-27T02:52:03Z" areas="2017-12-27T01:53:02Z"/>
+<meta osm_base="2017-12-27T14:00:02Z" areas="2017-12-27T13:29:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2159,6 +2159,10 @@
     <tag k="barrier" v="wall"/>
     <tag k="wall" v="dry_stone"/>
   </node>
+  <node id="5228174337" lat="42.4853321" lon="-71.3978706"/>
+  <node id="5228174338" lat="42.4852095" lon="-71.3978934">
+    <tag k="note" v="Acton LSC wants a trail break at the town line"/>
+  </node>
   <node id="5231020912" lat="42.4820290" lon="-71.4849180"/>
   <node id="5231020913" lat="42.4820180" lon="-71.4848370"/>
   <node id="5231020914" lat="42.4820260" lon="-71.4846530"/>
@@ -3793,6 +3797,33 @@
     <tag k="name" v="Yellow"/>
     <tag k="surface" v="dirt"/>
   </way>
+  <way id="302623825">
+    <nd ref="5282303941"/>
+    <nd ref="2144893398"/>
+    <nd ref="2144893399"/>
+    <nd ref="4608205624"/>
+    <nd ref="2144893397"/>
+    <nd ref="2144893394"/>
+    <nd ref="2144893391"/>
+    <nd ref="3068613354"/>
+    <nd ref="2144893388"/>
+    <nd ref="3068613352"/>
+    <nd ref="2144893385"/>
+    <nd ref="3068613351"/>
+    <nd ref="3068613350"/>
+    <nd ref="2144893384"/>
+    <nd ref="3068613349"/>
+    <nd ref="2144893383"/>
+    <nd ref="2144893382"/>
+    <nd ref="2144893381"/>
+    <nd ref="5228174337"/>
+    <nd ref="5228174338"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="BCT Yellow"/>
+  </way>
   <way id="389799298">
     <nd ref="2129514614"/>
     <nd ref="4620925322"/>
@@ -4690,31 +4721,6 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Yellow"/>
     <tag k="surface" v="unpaved"/>
-  </way>
-  <way id="546621694">
-    <nd ref="5282303941"/>
-    <nd ref="2144893398"/>
-    <nd ref="2144893399"/>
-    <nd ref="4608205624"/>
-    <nd ref="2144893397"/>
-    <nd ref="2144893394"/>
-    <nd ref="2144893391"/>
-    <nd ref="3068613354"/>
-    <nd ref="2144893388"/>
-    <nd ref="3068613352"/>
-    <nd ref="2144893385"/>
-    <nd ref="3068613351"/>
-    <nd ref="3068613350"/>
-    <nd ref="2144893384"/>
-    <nd ref="3068613349"/>
-    <nd ref="2144893383"/>
-    <nd ref="2144893382"/>
-    <nd ref="2144893381"/>
-    <tag k="access" v="yes"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="BCT Yellow"/>
   </way>
   <way id="547555227">
     <nd ref="2147366077"/>

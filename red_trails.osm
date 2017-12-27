@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-27T02:52:03Z" areas="2017-12-27T01:53:02Z"/>
+<meta osm_base="2017-12-27T14:00:02Z" areas="2017-12-27T13:33:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -858,7 +858,6 @@
   <node id="4427154603" lat="42.4805132" lon="-71.4280918"/>
   <node id="4427154604" lat="42.4805995" lon="-71.4279805"/>
   <node id="4482817892" lat="42.5096940" lon="-71.4047184"/>
-  <node id="4487464861" lat="42.5068595" lon="-71.3915498"/>
   <node id="4496947925" lat="42.4979343" lon="-71.4685028"/>
   <node id="4496947926" lat="42.4987423" lon="-71.4693368"/>
   <node id="4496947927" lat="42.4987824" lon="-71.4694529"/>
@@ -969,6 +968,7 @@
   <node id="5231022725" lat="42.4872240" lon="-71.4819150"/>
   <node id="5231022726" lat="42.4870940" lon="-71.4820790"/>
   <node id="5290848889" lat="42.4862146" lon="-71.4831512"/>
+  <node id="5305768949" lat="42.5068597" lon="-71.3915748"/>
   <way id="61912341">
     <nd ref="771666434"/>
     <nd ref="771666518"/>
@@ -2184,7 +2184,7 @@
     <tag k="surface" v="dirt"/>
   </way>
   <way id="451941413">
-    <nd ref="4487464861"/>
+    <nd ref="5305768949"/>
     <nd ref="3009680493"/>
     <nd ref="3009680494"/>
     <nd ref="3009680495"/>
