@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-16T02:15:02Z"/>
+<meta osm_base="2018-01-04T18:02:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2132,6 +2132,14 @@
   <node id="5219087653" lat="42.4807532" lon="-71.4771226"/>
   <node id="5219087661" lat="42.4793425" lon="-71.4764080"/>
   <node id="5219087662" lat="42.4783606" lon="-71.4765744"/>
+  <node id="5311404745" lat="42.4584716" lon="-71.4725393"/>
+  <node id="5311404746" lat="42.4584740" lon="-71.4729819"/>
+  <node id="5311404752" lat="42.4597531" lon="-71.4673494"/>
+  <node id="5311404753" lat="42.4600858" lon="-71.4671140"/>
+  <node id="5311404754" lat="42.4601445" lon="-71.4670725"/>
+  <node id="5319457664" lat="42.4456125" lon="-71.4518951"/>
+  <node id="5319457666" lat="42.4461506" lon="-71.4516725"/>
+  <node id="5319457667" lat="42.4463464" lon="-71.4515088"/>
   <way id="29761444">
     <nd ref="327251718"/>
     <nd ref="4664196649"/>
@@ -2221,7 +2229,6 @@
     <nd ref="2297751826"/>
     <nd ref="327251718"/>
     <tag k="access" v="yes"/>
-    <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="massgis:ARTICLE97" v="1"/>
@@ -2252,7 +2259,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="North Acton Community Gardens"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2396,7 +2403,7 @@
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Great Hill Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2578,7 +2585,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Pacy Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2677,7 +2684,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Nagog Hill Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2776,7 +2783,7 @@
     <tag k="gnis:feature_id" v="1971962"/>
     <tag k="leisure" v="park"/>
     <tag k="name" v="Acton Arboretum"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
@@ -2868,7 +2875,7 @@
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Spring Hill Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2918,7 +2925,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Wetherbee Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -2927,6 +2934,8 @@
   </way>
   <way id="29770630">
     <nd ref="327890958"/>
+    <nd ref="5311404746"/>
+    <nd ref="5311404745"/>
     <nd ref="327905583"/>
     <nd ref="327620407"/>
     <nd ref="4487836211"/>
@@ -3051,7 +3060,7 @@
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Camp Acton Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
@@ -3135,7 +3144,7 @@
     <tag k="massgis:SITE_NAME" v="PRESCOTT LAND"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3298,7 +3307,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Monsen Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3395,7 +3404,7 @@
     <tag k="massgis:SITE_NAME" v="WOODS ON MASS. AVE."/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3506,7 +3515,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Steinman Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3574,7 +3583,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Guggins Brook Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3631,7 +3640,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Patriots Hill Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3685,7 +3694,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Putnam Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3713,7 +3722,6 @@
     <tag k="addr:postcode" v="01720"/>
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Main Street"/>
-    <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="massgis:ARTICLE97" v="1"/>
@@ -3743,7 +3751,7 @@
     <tag k="massgis:SITE_NAME" v="915 Main St"/>
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -3751,6 +3759,7 @@
   </way>
   <way id="29778038">
     <nd ref="327977243"/>
+    <nd ref="5319457664"/>
     <nd ref="327968955"/>
     <nd ref="327963000"/>
     <nd ref="327952924"/>
@@ -3758,6 +3767,8 @@
     <nd ref="4622770779"/>
     <nd ref="327945597"/>
     <nd ref="327971926"/>
+    <nd ref="5319457666"/>
+    <nd ref="5319457667"/>
     <nd ref="4622770776"/>
     <nd ref="4622770777"/>
     <nd ref="327963656"/>
@@ -3795,7 +3806,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="McGloin Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -4332,6 +4343,9 @@
     <nd ref="4544200485"/>
     <nd ref="4544200571"/>
     <nd ref="4544200570"/>
+    <nd ref="5311404754"/>
+    <nd ref="5311404753"/>
+    <nd ref="5311404752"/>
     <nd ref="4544200486"/>
     <nd ref="4544200487"/>
     <nd ref="4544200488"/>
@@ -4509,14 +4523,12 @@
     <nd ref="4571054538"/>
     <nd ref="4571054537"/>
     <nd ref="4571054517"/>
-    <tag k="area" v="yes"/>
   </way>
   <way id="461633378">
     <nd ref="4571054539"/>
     <nd ref="4571054540"/>
     <nd ref="4571054541"/>
     <nd ref="4571054539"/>
-    <tag k="area" v="yes"/>
   </way>
   <way id="462464566">
     <nd ref="4578610217"/>
@@ -5121,7 +5133,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Stoneymeade Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -5216,7 +5228,7 @@
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Nashoba Brook Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
@@ -5232,7 +5244,7 @@
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Wright Hill Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
@@ -5272,7 +5284,7 @@
     <tag k="massgis:SOURCE_MAP" v="1"/>
     <tag k="massgis:TOWN_ID" v="2"/>
     <tag k="name" v="Jenks Conservation Land"/>
-    <tag k="owner" v="Town Of Acton"/>
+    <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
