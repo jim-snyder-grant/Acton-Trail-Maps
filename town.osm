@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-27T14:00:02Z" areas="2017-12-27T13:33:02Z"/>
+<meta osm_base="2018-01-04T18:03:02Z" areas="2018-01-04T17:34:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
-  <node id="327924327" lat="42.5090623" lon="-71.4439361"/>
   <node id="1474168153" lat="42.4503200" lon="-71.4643283"/>
   <node id="1474168155" lat="42.4637751" lon="-71.4985470"/>
   <node id="1474476433" lat="42.4369404" lon="-71.4303949"/>
@@ -17,12 +16,17 @@
   <node id="1474480104" lat="42.5263336" lon="-71.3979453"/>
   <node id="1474480165" lat="42.5340243" lon="-71.3995144"/>
   <node id="2903547049" lat="42.5288038" lon="-71.4285336"/>
+  <node id="3176570648" lat="42.5090041" lon="-71.4438843"/>
   <node id="4621515376" lat="42.4877191" lon="-71.4820925"/>
   <node id="4621515377" lat="42.4861245" lon="-71.4831885"/>
   <node id="4621543099" lat="42.4906811" lon="-71.4800565"/>
   <node id="4621543103" lat="42.4868719" lon="-71.4826748"/>
   <node id="4658433493" lat="42.4566717" lon="-71.4804810"/>
   <node id="4929100856" lat="42.4670443" lon="-71.4963008"/>
+  <node id="4937191184" lat="42.4950890" lon="-71.4770265">
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+  </node>
   <node id="4941127928" lat="42.5046057" lon="-71.3853249"/>
   <node id="4964059200" lat="42.4707927" lon="-71.4937252"/>
   <node id="5305768948" lat="42.4480865" lon="-71.4586632"/>
@@ -46,6 +50,7 @@
   </way>
   <way id="134055038">
     <nd ref="1474479360"/>
+    <nd ref="4937191184"/>
     <nd ref="4621543099"/>
     <nd ref="4621515376"/>
     <nd ref="4621543103"/>
@@ -78,7 +83,7 @@
   <way id="134062755">
     <nd ref="2903547049"/>
     <nd ref="1474480043"/>
-    <nd ref="327924327"/>
+    <nd ref="3176570648"/>
     <nd ref="1474479360"/>
     <tag k="admin_level" v="8"/>
     <tag k="attribution" v="massGIS"/>
