@@ -10,7 +10,12 @@ with open("lands.yaml", 'r') as stream:
         landInfo = yaml.load(stream)
     except yaml.YAMLError as exc:
         print(exc)
+# this is for capturing the envelope data        
+envjs = open("webpage/envelopes.js", "w");
+envjs.write("var Envelopes = {\n")
 
+LandsWithTrails=[];
+        
 NAMEKEY = "name"
 TRAILKEY = "trails"
 # So far, just '1' for lands that have no trails, and '2' for lands that do.
@@ -39,10 +44,17 @@ for infeature in inlayer:
             # print name, landInfo [name]
             hasTrails = landInfo[name][TRAILKEY]
             labelsize = 2 if hasTrails else 1
+            if hasTrails:
+                LandsWithTrails.append(name);     
             # Create the feature and set values
             featureDefn = outLayer.GetLayerDefn()
             outfeature = ogr.Feature(featureDefn)
             outfeature.SetGeometry(geom.Centroid())
+        
+            # Get Envelope returns a tuple (minX, maxX, minY, maxY)
+            env = geom.GetEnvelope()
+            envjs.write( "\"%s\": [[%f,%f], [%f,%f]],\n" %(name, env[0],env[2],env[1],env[3]))
+            
             outfeature.SetField(NAMEKEY, name)
             outfeature.SetField(LABELSIZEKEY, labelsize)
             outLayer.CreateFeature(outfeature)
@@ -52,3 +64,11 @@ for infeature in inlayer:
     # else: it's OK for there to be lands without names. Just keep moving...
 outLayer = None
 outfile = None
+envjs.write("};\n")
+# now create the dropdown of lands with trails
+dropdown = open("webpage/dropdown.html", "w");
+for name in sorted(LandsWithTrails):
+    dropdown.write(r'<li><a href="#!">'+name+r'</a></li>'+'\n');
+
+
+
