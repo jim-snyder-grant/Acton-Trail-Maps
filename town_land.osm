@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-01-06T03:34:02Z"/>
+<meta osm_base="2018-01-06T14:44:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -89,7 +89,11 @@
     <nd ref="2783645486"/>
     <nd ref="327980206"/>
     <tag k="access" v="yes"/>
-    <tag k="area" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Concord Rd"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Morrison Farm"/>
     <tag k="owner" v="Town of Acton"/>
@@ -129,10 +133,10 @@
     <nd ref="327985563"/>
     <tag k="access" v="yes"/>
     <tag k="addr:city" v="Acton"/>
-    <tag k="addr:housenumber" v="472"/>
+    <tag k="addr:housenumber" v="659"/>
     <tag k="addr:postcode" v="01720"/>
     <tag k="addr:state" v="MA"/>
-    <tag k="addr:street" v="Main St"/>
+    <tag k="addr:street" v="Mass Ave"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
