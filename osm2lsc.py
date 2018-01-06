@@ -17,8 +17,8 @@ import subprocess
 
 regularArguments = {
     'bct', 'bfrt', 'blue_trails', 'bounds', 'camping', 'green_trails',
-    'outside_trails', 'parking', 'red_trails', 'town', 'unblazed_trails',
-    'yellow_trails'
+    'outside_trails', 'parking', 'red_trails', 'town', 'town_land',
+    'unblazed_trails', 'yellow_trails'
 }
 allArg = 'all'
 helpArg = "help"
