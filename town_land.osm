@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-26T04:41:02Z"/>
+<meta osm_base="2018-01-06T03:34:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -23,6 +23,7 @@
   <node id="327960446" lat="42.4813433" lon="-71.4172723"/>
   <node id="327961669" lat="42.4785039" lon="-71.4173389"/>
   <node id="327962749" lat="42.4794881" lon="-71.4165946"/>
+  <node id="327965743" lat="42.4773091" lon="-71.4824815"/>
   <node id="327969913" lat="42.4787369" lon="-71.4162295"/>
   <node id="327971012" lat="42.4792365" lon="-71.4164274"/>
   <node id="327971670" lat="42.4833924" lon="-71.4177870"/>
@@ -30,11 +31,31 @@
   <node id="327978458" lat="42.4826051" lon="-71.4179487"/>
   <node id="327980206" lat="42.4841270" lon="-71.4173955"/>
   <node id="327984243" lat="42.4839615" lon="-71.4211084"/>
+  <node id="327985563" lat="42.4796565" lon="-71.4818648">
+    <tag k="barrier" v="wall"/>
+    <tag k="wall" v="dry_stone"/>
+  </node>
   <node id="2523855016" lat="42.4830410" lon="-71.4204901"/>
   <node id="2523855059" lat="42.4837671" lon="-71.4215996"/>
   <node id="2783645484" lat="42.4842329" lon="-71.4206507"/>
   <node id="2783645485" lat="42.4843020" lon="-71.4207088"/>
   <node id="2783645486" lat="42.4843809" lon="-71.4205922"/>
+  <node id="4496057432" lat="42.5189931" lon="-71.4149967"/>
+  <node id="4496057433" lat="42.5190012" lon="-71.4154583"/>
+  <node id="4496057434" lat="42.5181677" lon="-71.4162806"/>
+  <node id="5200376172" lat="42.4794900" lon="-71.4813945"/>
+  <node id="5321341215" lat="42.5189871" lon="-71.4157895"/>
+  <node id="5321341216" lat="42.5186470" lon="-71.4149634"/>
+  <node id="5321341217" lat="42.5183702" lon="-71.4148830"/>
+  <node id="5321341218" lat="42.5179729" lon="-71.4147596"/>
+  <node id="5321341219" lat="42.5178286" lon="-71.4148608"/>
+  <node id="5321341220" lat="42.5180272" lon="-71.4154187"/>
+  <node id="5321342321" lat="42.5180450" lon="-71.4154804"/>
+  <node id="5321342322" lat="42.5180569" lon="-71.4155408"/>
+  <node id="5321342323" lat="42.5180628" lon="-71.4156883"/>
+  <node id="5321342324" lat="42.5180479" lon="-71.4160595"/>
+  <node id="5323128552" lat="42.4770525" lon="-71.4809445"/>
+  <node id="5323128553" lat="42.4788990" lon="-71.4812685"/>
   <way id="29778386">
     <nd ref="327980206"/>
     <nd ref="327945889"/>
@@ -71,6 +92,48 @@
     <tag k="area" v="yes"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Morrison Farm"/>
+    <tag k="owner" v="Town of Acton"/>
+    <tag k="ownership" v="municipal"/>
+  </way>
+  <way id="550991856">
+    <nd ref="5321341215"/>
+    <nd ref="4496057433"/>
+    <nd ref="4496057432"/>
+    <nd ref="5321341216"/>
+    <nd ref="5321341217"/>
+    <nd ref="5321341218"/>
+    <nd ref="5321341219"/>
+    <nd ref="5321341220"/>
+    <nd ref="5321342321"/>
+    <nd ref="5321342322"/>
+    <nd ref="5321342323"/>
+    <nd ref="5321342324"/>
+    <nd ref="4496057434"/>
+    <nd ref="5321341215"/>
+    <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="70"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Quarry Rd"/>
+    <tag k="leisure" v="nature_reserve"/>
+    <tag k="owner" v="Town of Acton"/>
+    <tag k="ownership" v="municipal"/>
+  </way>
+  <way id="551181641">
+    <nd ref="327985563"/>
+    <nd ref="5200376172"/>
+    <nd ref="5323128553"/>
+    <nd ref="5323128552"/>
+    <nd ref="327965743"/>
+    <nd ref="327985563"/>
+    <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="472"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Main St"/>
+    <tag k="leisure" v="nature_reserve"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
   </way>

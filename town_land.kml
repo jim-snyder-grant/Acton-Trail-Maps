@@ -38,5 +38,23 @@
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4173955,42.484127 -71.4174555,42.4837166 -71.417787,42.4833924 -71.4179155,42.4832421 -71.4180466,42.4829219 -71.4179487,42.4826051 -71.4175403,42.4824341 -71.4170921,42.4824234 -71.4169874,42.4823466 -71.4171692,42.481803 -71.4172723,42.4813433 -71.4173275,42.4810725 -71.4172501,42.4808893 -71.4171205,42.4807131 -71.4170262,42.4805167 -71.4171054,42.4801483 -71.4168233,42.4796702 -71.4165946,42.4794881 -71.4164274,42.4792365 -71.4162295,42.4787369 -71.4173389,42.4785039 -71.4172126,42.4782039 -71.4183979,42.4782743 -71.4204901,42.483041 -71.4215996,42.4837671 -71.4211813,42.484025 -71.4211084,42.4839615 -71.4206507,42.4842329 -71.4207088,42.484302 -71.4205922,42.4843809 -71.4173955,42.484127</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">550991856</SimpleData>
+		<SimpleData name="leisure">nature_reserve</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;70&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Quarry Rd&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4157895,42.5189871 -71.4154583,42.5190012 -71.4149967,42.5189931 -71.4149634,42.518647 -71.414883,42.5183702 -71.4147596,42.5179729 -71.4148608,42.5178286 -71.4154187,42.5180272 -71.4154804,42.518045 -71.4155408,42.5180569 -71.4156883,42.5180628 -71.4160595,42.5180479 -71.4162806,42.5181677 -71.4157895,42.5189871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">551181641</SimpleData>
+		<SimpleData name="leisure">nature_reserve</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;472&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Main St&quot;,&quot;owner&quot;=&gt;&quot;Town of Acton&quot;,&quot;ownership&quot;=&gt;&quot;municipal&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4818648,42.4796565 -71.4813945,42.47949 -71.4812685,42.478899 -71.4809445,42.4770525 -71.4824815,42.4773091 -71.4818648,42.4796565</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder>
 </Document></kml>
