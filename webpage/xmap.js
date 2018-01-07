@@ -44,6 +44,7 @@ var newZoom = STARTZOOM;
 var STARTCENTER = new mapboxgl.LngLat(-71.4338,42.486);
 var newCenter = STARTCENTER;
 var ZOOMPADDING = 40;
+var ZOOMTIME = 3300; // milliseconds
     
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
@@ -68,7 +69,7 @@ $( document ).ready(function() {
         land = event.target.innerHTML;
         envelope = Envelopes[land]
         // console.log(land, envelope);
-        map.fitBounds(envelope,  {padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+        map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
     });
 });  
 
