@@ -1,7 +1,47 @@
-#map { position:absolute; top:0; bottom:0%; width:100%; }
-   
+:root {
+--navbar-height: 40px;
+}
+
+body { margin:0; padding:0; }
+
+#map { position:absolute; top: var(--navbar-height); bottom:0%; width:100%; }
+
+/* from 
+https://stackoverflow.com/questions/35552708/is-materialize-navbar-height-adjustment-possible
+(plus variable use)
+*/
+nav {
+    height: var(--navbar-height);
+    line-height: var(--navbar-height);
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: var(--navbar-height);
+    line-height: var(--navbar-height);
+}
+
+nav .button-collapse i {
+    height: var(--navbar-height);
+    line-height: var(--navbar-height);
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: var(--navbar-height);
+        line-height: var(--navbar-height);
+    }
+}
+
+
+
+/* for mouse-position info */
+
 #position-info {
-         font-size: 16px;
+        font-size: 16px;
         position: absolute;
         right: 5px;
         top:95%;
@@ -9,3 +49,8 @@
         background: rgba(255, 255, 255, 0.8);
 }  
 
+
+
+/* to fit all those conservation lands without scrolling dropdown on normal desktop */
+.dropdown-content li {min-height:20px;}
+.dropdown-content li > a {padding: 6px 16px;}

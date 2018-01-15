@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8' />
-    <title>Acton Trail Map</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link href='lscmap.css' rel='stylesheet' />
-</head>
-<body>
-    
-    
-<div id='map'> </div>
-<div id='position-info'></div>
-<div id ='map-title'>Acton Trail Map</div>    
+  <html>
+    <head>
+        <meta charset='utf-8' />
+        <title>Acton Trail Map</title>
+        <!-- mapbox GL -->
+         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-<script src='lscmap.js'></script>    
-    
-</body>
-</html>
+      <link href='map.css' rel='stylesheet' />
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       
+    </head>
+
+    <body>
+
+        <ul id="dropdown1" class="dropdown-content">
+            <!-- Dropdown Structure is inserted here by jQuery call  -->    
+        </ul>
+
+            <nav class="teal darken-1">
+              <div class="nav-wrapper">
+                <a href="#" class="center brand-logo">Acton Trail Map</a>
+                <ul class="right hide-on-med-and-down">
+                  <!-- Dropdown Trigger -->
+                  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Zoom to:<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+              </div>
+            </nav>
+        <div id='map'></div>
+        <div id='position-info'></div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>        
+      <script src='envelopes.js'></script>    
+      <script src='map.js'></script>    
+    </body>
+  </html>
