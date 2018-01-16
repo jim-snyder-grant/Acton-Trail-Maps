@@ -1,5 +1,6 @@
 
 
+
 function formatLngLat(x, dim) {
     var dirs = {
             lat: ['N', 'S'],
@@ -38,23 +39,45 @@ var currentState;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-var startZoom = 12.1; // default zoom
-var startCenter = new mapboxgl.LngLat(-71.4338,42.486);
+var STARTZOOM = 12.1;
+var newZoom = STARTZOOM; 
+var STARTCENTER = new mapboxgl.LngLat(-71.4338,42.486);
+var newCenter = STARTCENTER;
+var ZOOMPADDING = 40;
+var ZOOMTIME = 3300; // milliseconds
     
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
-    center: startCenter , // starting position
+    center: STARTCENTER , // starting position
     maxBounds: looseBounds,
     zoom: 9.1 // starting zoom  
 });
-  
+ 
+$( document ).ready(function() {    
+    $("#dropdown1").load("dropdown.html", function(){
+        $(".dropdown-button").dropdown({
+            constrainWidth: false, // Does not change width of dropdown to that of the activator
+            belowOrigin: true, // Displays dropdown below the button
+            hover: true, // Activate on hover
+        });  
+    }); 
+   
+    $( "#dropdown1" ).on( "click", function( event ) {
+        event.preventDefault();
+        land = event.target.innerHTML;
+        envelope = Envelopes[land]
+        // console.log(land, envelope);
+        map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+    });
+});  
 
 function updatePositionInfo(where)
 {
-    document.getElementById('position-info').innerHTML =              
-        formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
+    newPosition= formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
+    document.getElementById('position-info').innerHTML =  newPosition;            
+       
 }
 
     
@@ -86,14 +109,22 @@ map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
 map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
+    if (urlParams.goto){
+        switch (urlParams.goto) {
+        case 'town':
+                newZoom = STARTZOOM;
+                newCenter = STARTCENTER;
+        break;
+        }
+    }
     if (urlParams.zoom){
-       startZoom = urlParams.zoom;
+       newZoom = urlParams.zoom;
     }
     if (urlParams.lng && urlParams.lat){
-        startCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
+        newCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
     }
-    map.easeTo({duration:3000, zoom:startZoom, center:startCenter});
-    updatePositionInfo(startCenter);
+    map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
+    updatePositionInfo(newCenter);
     
 });
 
