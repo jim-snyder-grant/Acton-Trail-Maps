@@ -109,6 +109,18 @@ map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
 map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
+     map.addSource('dem', {
+        "type": "raster-dem",
+        "url": "mapbox://mapbox.terrain-rgb"
+    });
+    map.addLayer({
+        "id": "hillshading",
+        "source": "dem",
+        "type": "hillshade"
+    // insert below waterway-river-canal-shadow;
+    // where hillshading sits in the Mapbox Outdoors style
+    }, 'waterway-river-canal-shadow');
+    
     if (urlParams.goto){
         switch (urlParams.goto) {
         case 'town':
@@ -127,6 +139,3 @@ map.on('load', function () {
     updatePositionInfo(newCenter);
     
 });
-
-
-   
