@@ -44,7 +44,7 @@ fName = dsName + '.geojson'
 
 def float6(s):
     # mapbox truncates to 6 sig digits,
-    # so let's do the same for comparissons
+    # so let's do the same for comparisons
     parts = s.partition('.')
     return float(parts[0] + parts[1] + parts[2][0:6])
 
@@ -56,11 +56,15 @@ except EnvironmentError:
     print 'oops - are you sure there is a <', fName, '> file there?'
     exit()
 
-# pp.pprint inFromFile
-
-newDict = dict([feat['properties']['osm_id'], feat] for feat in newFromFile['features'])
-
-# pp.pprint (inDict)
+# pp.pprint (newFromFile)
+newDict = {}
+for feat in newFromFile['features']:
+    # regularize the use of osm_id (OSM sometimes uses osm_way_id instead
+    id = feat['properties']['osm_id'] or feat['properties']['osm_way_id'] 
+    feat['properties']['osm_id'] = id
+    newDict [id] = feat
+#    print ("name=", feat['properties']['name']," id=",id)
+print('new file has ',len(newDict),' features')
 
 datasets = Datasets()
 
@@ -99,7 +103,10 @@ for oldFeat in oldFeatures:
         pp.pprint(oldFeat)
         if doUpdates:
             retval = datasets.delete_feature(dsId, oldFeat['id'])
-            print "HTTP response code to deleting feature: ", retval.status_code
+            if retval.status_code in (200,204):
+                print "deletion succeeded"
+            else:
+                print "HTTP response code to deleting feature: ", retval.status_code
     else:
         changedGeom = newFeat['geometry'] != oldFeat['geometry']
         changedProps = newFeat['properties'] != oldFeat['properties']
@@ -115,17 +122,24 @@ for oldFeat in oldFeatures:
             pp.pprint(newFeat)
             if doUpdates:
                 retval = datasets.update_feature(dsId, oldFeat['id'], newFeat)
-                print "HTTP response code to updating feature: ", retval.status_code
+                if retval.status_code in (200,204):
+                    print "update succeeded"
+                else:
+                    print "HTTP response code to updating feature: ", retval.status_code
 # Any features not mapped earlier will remain in dictionary, and can be
-# added now.           
+# added now.  
+        
 if len(newDict):
 
     for id, newFeat in newDict.items():
         print "!-----New feature:"
         noChanges = False
-        pp.pprint(newFeat)
+        print ("name=", newFeat['properties']['name']," id=",id)
         if doUpdates:
             retval = datasets.update_feature(dsId, id, newFeat)
-            print "HTTP response code to adding new feature: ", retval.status_code
+            if retval.status_code in (200,204):
+                print "update succeeded"
+            else:
+                print "HTTP response code to adding new feature: ", retval.status_code
 if noChanges:
     print "No differences found"
