@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-01-04T18:03:02Z" areas="2018-01-04T16:57:02Z"/>
+<meta osm_base="2018-02-01T04:26:02Z" areas="2018-02-01T03:45:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -644,7 +644,6 @@
   <node id="2138420095" lat="42.4707150" lon="-71.4494630"/>
   <node id="2138420098" lat="42.4707530" lon="-71.4494550"/>
   <node id="2138420099" lat="42.4707600" lon="-71.4476930"/>
-  <node id="2138420100" lat="42.4707720" lon="-71.4476930"/>
   <node id="2138420101" lat="42.4708670" lon="-71.4476550"/>
   <node id="2138420102" lat="42.4708820" lon="-71.4494930"/>
   <node id="2138420103" lat="42.4709660" lon="-71.4476700"/>
@@ -659,7 +658,6 @@
   <node id="2138420112" lat="42.4713020" lon="-71.4475860"/>
   <node id="2138420113" lat="42.4713470" lon="-71.4485330"/>
   <node id="2138420114" lat="42.4713670" lon="-71.4475860"/>
-  <node id="2138420115" lat="42.4714200" lon="-71.4483200"/>
   <node id="2138420116" lat="42.4714320" lon="-71.4482960"/>
   <node id="2138420118" lat="42.4714620" lon="-71.4476320"/>
   <node id="2138420119" lat="42.4715310" lon="-71.4482350"/>
@@ -2789,7 +2787,6 @@
     <nd ref="2138420120"/>
     <nd ref="2138420119"/>
     <nd ref="2138420116"/>
-    <nd ref="2138420115"/>
     <nd ref="2138420113"/>
     <nd ref="2138420111"/>
     <nd ref="2138420110"/>
@@ -3026,7 +3023,6 @@
     <nd ref="2138420092"/>
     <nd ref="2138420094"/>
     <nd ref="2138420099"/>
-    <nd ref="2138420100"/>
     <nd ref="2138420101"/>
     <nd ref="2138420103"/>
     <nd ref="2138420105"/>
@@ -3037,6 +3033,7 @@
     <nd ref="2138420122"/>
     <nd ref="2138420123"/>
     <nd ref="2138420128"/>
+    <nd ref="2138420126"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
