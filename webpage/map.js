@@ -84,7 +84,7 @@ function updatePositionInfo(where)
 function updateURL()
 {
     var center = map.getBounds().getCenter();
-    var newURL = window.location.pathname + '?' +'zoom='+map.getZoom()+'&lng=' + center.lng + '&lat=' + center.lat; 
+    var newURL = window.location.pathname + '?' +'zoom='+map.getZoom().toFixed(2)+'&lng=' + center.lng.toFixed(6) + '&lat=' + center.lat.toFixed(6);
     window.history.replaceState(currentState, "", newURL );
 }
     
