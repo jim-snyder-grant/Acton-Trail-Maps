@@ -45,6 +45,7 @@ var STARTCENTER = new mapboxgl.LngLat(-71.4338,42.486);
 var newCenter = STARTCENTER;
 var ZOOMPADDING = 40;
 var ZOOMTIME = 3300; // milliseconds
+var FASTZOOMTIME = 1100; 
     
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
@@ -56,20 +57,48 @@ var map = new mapboxgl.Map({
 });
  
 $( document ).ready(function() {    
-    $("#dropdown1").load("dropdown.html", function(){
+    $("#dropdown-goto").load("dropdown.html", function(){
         $(".dropdown-button").dropdown({
             constrainWidth: false, // Does not change width of dropdown to that of the activator
             belowOrigin: true, // Displays dropdown below the button
             hover: true, // Activate on hover
         });  
     }); 
-   
-    $( "#dropdown1" ).on( "click", function( event ) {
+   $( "#dropdown-goto" ).on( "click", function( event ) {
         event.preventDefault();
         land = event.target.innerHTML;
         envelope = Envelopes[land]
         // console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+    });
+    $('#aerial-view').on('click', function(e) {
+        var a = $(this).data('state');
+        var b = $(this).prop('checked');
+        if (a && b) {
+            b = false;
+            $(this).prop('checked', b);
+        }
+        $(this).data('state', b);
+        map.setPaintProperty('mapbox-satellite', 'raster-opacity', b ? 0.82 : 0);
+    })
+    $('#bay-circuit-trail').on('click', function(e) {
+        var a = $(this).data('state');
+        var b = $(this).prop('checked');
+        if (a && b) {
+            b = false;
+            $(this).prop('checked', b);
+        }
+        $(this).data('state', b); 
+        map.setLayoutProperty('bct', 'visibility', b ? "visible": "none");
+
+    })
+     $( "#zoom-in" ).on( "click", function( event ) {
+         event.preventDefault();
+        map.zoomTo(map.getZoom()+1,  {duration:FASTZOOMTIME});
+    });
+     $( "#zoom-out" ).on( "click", function( event ) {
+         event.preventDefault();
+        map.zoomTo(map.getZoom()-1,  {duration:FASTZOOMTIME});
     });
 });  
 
@@ -88,7 +117,7 @@ function updateURL()
     window.history.replaceState(currentState, "", newURL );
 }
     
-map.on('zoom', function (e) {
+map.on('zoomend', function (e) {
     updateURL();
 });
 
@@ -96,8 +125,6 @@ map.on('mousemove', function (e) {
     updatePositionInfo(e.lngLat);
     updateURL();
 });
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.NavigationControl());
 // Add geolocate control to the map.
 map.addControl(new mapboxgl.GeolocateControl());
 // disable map rotation using right click + drag
@@ -109,18 +136,6 @@ map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
 map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
-     map.addSource('dem', {
-        "type": "raster-dem",
-        "url": "mapbox://mapbox.terrain-rgb"
-    });
-    map.addLayer({
-        "id": "hillshading",
-        "source": "dem",
-        "type": "hillshade"
-    // insert below waterway-river-canal-shadow;
-    // where hillshading sits in the Mapbox Outdoors style
-    }, 'waterway-river-canal-shadow');
-    
     if (urlParams.goto){
         switch (urlParams.goto) {
         case 'town':
