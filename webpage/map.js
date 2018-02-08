@@ -80,6 +80,9 @@ $( document ).ready(function() {
         }
         $(this).data('state', b);
         map.setPaintProperty('mapbox-satellite', 'raster-opacity', b ? 0.82 : 0);
+        map.setLayoutProperty('parking', 'visibility', b ? "none": "visible");
+        map.setLayoutProperty('grass', 'visibility', b ? "none": "visible");
+        
     })
     $('#bay-circuit-trail').on('click', function(e) {
         var a = $(this).data('state');
