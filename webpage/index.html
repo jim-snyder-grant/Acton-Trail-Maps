@@ -13,10 +13,8 @@
 
       <link href='map.css' rel='stylesheet' />
       <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-       
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>       
     </head>
-
     <body>
 
         <ul id="dropdown-goto" class="dropdown-content">
@@ -26,7 +24,7 @@
             <li><a href="#" class="small" tabIndex="-1"><input type="checkbox" data-state="false" id="aerial-view"/>
                 <label for="aerial-view">Aerial View</label>
             </a></li>
-            <li><a href="#" class="small"  tabIndex="-1"><input type="checkbox" data-state="false" checked="checked" id="bay-circuit-trail" />
+            <li><a href="#" class="small"  tabIndex="-1"><input type="checkbox" data-state="false" id="bay-circuit-trail" />
                 <label for="bay-circuit-trail">Bay Circuit Trail</label>
             </a></li>
         </ul>
@@ -34,19 +32,25 @@
             <nav class="teal darken-3">
               <div class="nav-wrapper">
                 <a href="http://actontrails.org" class="left brand-logo tooltipped" data-delay="520" data-tooltip=" to Acton Trails information website" >Acton Trails</a>
-                <ul class="right">     
-                  <li><a class="dropdown-button" href="#!" data-activates="dropdown-options"><i class="material-icons right">layers</i></a></li>  
-                  <li><a class="dropdown-button" href="#!" data-activates="dropdown-goto"><i class="material-icons right">forward</i></a></li>
-                  <li><a href="#!" class="tooltipped"  data-delay="520" data-tooltip="Zoom in" ><i id="zoom-in" class="material-icons right">zoom_in</i></a></li>
-                  <li><a href="#!" class="tooltipped"  data-delay="520" data-tooltip="Zoom out"><i id="zoom-out" class="material-icons right" >zoom_out</i></a></li>
+                <ul class="right"> 
+                 <li><a class="dropdown-button" href="#!" data-activates="dropdown-options" data-beloworigin="true">
+                      &zwnj;<i class="mdi-navigation-arrow-drop-down material-icons right">layers</i></a>
+                  </li>   
+                  <li><a class="dropdown-button" href="#!" data-activates="dropdown-goto" data-beloworigin="true">
+                      &zwnj;<i class="mdi-navigation-arrow-drop-down material-icons right">forward</i></a>
+                   </li>                    
+                  <li><a href="#!" class="tooltipped"  data-delay="520" data-position="bottom" data-tooltip="Zoom in" >
+                      &zwnj;<i id="zoom-in" class="material-icons right">zoom_in</i></a></li>
+                  <li><a href="#!" class="tooltipped"  data-delay="520" data-position="bottom" data-tooltip="Zoom out">
+                      &zwnj;<i id="zoom-out" class="material-icons right" >zoom_out</i></a></li>
                 </ul>
               </div>
-            </nav>
+            </nav>        
         <div id='map'></div>
         
         <div id='position-info'></div>
         <!-- info-card content should be programmatically  generated. This is just a prototype -->
-        <div id="info-card" class="card-panels hoverable teal darken-1 tooltipped" data-delay="520" data-tooltip="for more information">
+        <div id="info-card" class="card-panels hoverable teal darken-1 tooltipped" data-delay="520" data-tooltip="for more information about Guggins Brook">
             <div class="card-action">
                 <a class="white-text"  target="_blank" href="http://www.actontrails.org/guggins-brook-conservation-land"> 
                     Guggins Brook&nbsp;<i class="material-icons">info</i>

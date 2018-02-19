@@ -56,14 +56,16 @@ var map = new mapboxgl.Map({
     zoom: 9.1 // starting zoom  
 });
  
-$( document ).ready(function() {    
-    $("#dropdown-goto").load("dropdown.html", function(){
-        $(".dropdown-button").dropdown({
-            constrainWidth: false, // Does not change width of dropdown to that of the activator
-            belowOrigin: true, // Displays dropdown below the button
-            hover: true, // Activate on hover
-        });  
-    }); 
+$( document ).ready(function() {
+    $("#dropdown-goto").load("dropdown.html", function(){}); 
+    $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      hover: true, // Activate on hover
+      constrainWidth: false,
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'right' // Displays dropdown with edge aligned to the left of button
+    });
    $( "#dropdown-goto" ).on( "click", function( event ) {
         event.preventDefault();
         land = event.target.innerHTML;
@@ -111,8 +113,7 @@ function updatePositionInfo(where)
     document.getElementById('position-info').innerHTML =  newPosition;  
        
 }
-
-    
+   
 function updateURL()
 {
     var center = map.getBounds().getCenter();
@@ -164,6 +165,9 @@ map.on('load', function () {
     if (urlParams.lng && urlParams.lat){
         newCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
     }
+    var b = $('#bay-circuit-trail').prop('checked');
+    map.setLayoutProperty('bct', 'visibility', b ? "visible": "none");
+    
     map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
     updatePositionInfo(newCenter);
     
