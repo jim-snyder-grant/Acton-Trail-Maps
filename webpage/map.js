@@ -70,6 +70,11 @@ $( document ).ready(function() {
         envelope = Envelopes[land]
         // console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+/* testing the prototype */    
+       showInfoCard = (land == "Guggins Brook") ? "visible" : "hidden";
+       $("#info-card").css("visibility", showInfoCard);
+       console.log(land, showInfoCard);
+/* end test of prototype */
     });
     $('#aerial-view').on('click', function(e) {
         var a = $(this).data('state');
