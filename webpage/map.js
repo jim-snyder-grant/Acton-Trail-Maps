@@ -70,11 +70,6 @@ $( document ).ready(function() {
         envelope = Envelopes[land]
         // console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
-/* testing the prototype */    
-       showInfoCard = (land == "Guggins Brook") ? "visible" : "hidden";
-       $("#info-card").css("visibility", showInfoCard);
-       console.log(land, showInfoCard);
-/* end test of prototype */
     });
     $('#aerial-view').on('click', function(e) {
         var a = $(this).data('state');
@@ -113,7 +108,7 @@ $( document ).ready(function() {
 function updatePositionInfo(where)
 {
     newPosition= formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
-    document.getElementById('position-info').innerHTML =  newPosition;            
+    document.getElementById('position-info').innerHTML =  newPosition;  
        
 }
 
@@ -124,7 +119,18 @@ function updateURL()
     var newURL = window.location.pathname + '?' +'zoom='+map.getZoom().toFixed(2)+'&lng=' + center.lng.toFixed(6) + '&lat=' + center.lat.toFixed(6);
     window.history.replaceState(currentState, "", newURL );
 }
-    
+
+map.on('moveend', function() {
+        var center = map.getCenter()
+        // This is prototype code. Eventually work with Envelope data for all conservation lands.
+        showInfoCard = (center.lat > 42.477309 && 
+                        center.lat < 42.484540 && 
+                        center.lng > -71.486398 && 
+                        center.lng < -71.479276) ? 
+            "visible" : "hidden";
+         $("#info-card").css("visibility", showInfoCard);  
+    });
+
 map.on('zoomend', function (e) {
     updateURL();
 });
