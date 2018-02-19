@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-06-12T14:16:33Z"/>
+<meta osm_base="2018-02-19T14:45:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -402,7 +402,7 @@
     <nd ref="860754391"/>
     <tag k="name" v="Bruce Freeman Rail Trail: Phase 2 (proposed)"/>
     <tag k="proposed" v="cycleway"/>
-    <tag k="railway" v="disused"/>
+    <tag k="railway" v="abandoned"/>
     <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
   </way>
 
