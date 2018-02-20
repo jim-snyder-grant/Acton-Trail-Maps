@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-05T15:43:02Z"/>
+<meta osm_base="2018-02-20T21:41:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2293,6 +2293,8 @@
   <node id="5349184536" lat="42.4840628" lon="-71.4173861"/>
   <node id="5350260097" lat="42.4782547" lon="-71.4183545"/>
   <node id="5390182945" lat="42.5117739" lon="-71.4006298"/>
+  <node id="5422784749" lat="42.4547340" lon="-71.4357130"/>
+  <node id="5422784752" lat="42.4547487" lon="-71.4355989"/>
   <way id="29761444">
     <nd ref="327251718"/>
     <nd ref="4664196649"/>
@@ -2957,6 +2959,8 @@
     <nd ref="327609391"/>
     <nd ref="3482506638"/>
     <nd ref="327625756"/>
+    <nd ref="5422784749"/>
+    <nd ref="5422784752"/>
     <nd ref="3482506639"/>
     <nd ref="3482506637"/>
     <nd ref="3482506636"/>
@@ -3750,6 +3754,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
+    <tag k="website" v="http://www.actontrails.org/guggins-brook-conservation-land/"/>
   </way>
   <way id="29776697">
     <nd ref="327949488"/>
