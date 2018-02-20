@@ -173,7 +173,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4415859,42.4555049 -71.441796,42.455411 -71.441949,42.455362 -71.442133,42.455335 -71.442228,42.45531 -71.442316,42.455285 -71.442499,42.455213 -71.442775,42.455161 -71.443052,42.455155 -71.4433,42.455173</coordinates></LineString>
+      <LineString><coordinates>-71.4415492,42.4555594 -71.441881,42.455508 -71.4422825,42.4553834 -71.442448,42.455304 -71.44255,42.455276 -71.44306,42.455255 -71.443221,42.455224 -71.443322,42.455187</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
@@ -184,7 +184,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4422232,42.4560451 -71.442238,42.455994 -71.442375,42.455933 -71.442444,42.455875 -71.442474,42.455833 -71.442352,42.455708 -71.442307,42.455616 -71.442352,42.45549 -71.442261,42.455379 -71.442228,42.45531</coordinates></LineString>
+      <LineString><coordinates>-71.4421508,42.4560713 -71.442238,42.455994 -71.442375,42.455933 -71.442444,42.455875 -71.442474,42.455833 -71.442352,42.455708 -71.442307,42.455616 -71.442352,42.45549 -71.4422825,42.4553834</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
@@ -206,7 +206,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.443295,42.456614 -71.443236,42.456707 -71.44323,42.45676 -71.44309,42.45685 -71.44292,42.45691 -71.44273,42.45693 -71.44256,42.45697 -71.44242,42.45699 -71.44227,42.45699 -71.44214,42.45696 -71.44203,42.457 -71.44192,42.45701 -71.44182,42.45699 -71.44189,42.45688 -71.44187,42.45677 -71.44176,42.45672 -71.44159,42.4567 -71.4414,42.45667 -71.44124,42.45663 -71.44107,42.45655 -71.44092,42.45651 -71.44077,42.45648 -71.44062,42.45641 -71.44048,42.45634 -71.44036,42.45626 -71.44025,42.45623 -71.44014,42.45618 -71.44,42.45608 -71.43988,42.45602 -71.43976,42.45598 -71.43963,42.45595</coordinates></LineString>
+      <LineString><coordinates>-71.443303,42.4566434 -71.442915,42.456765 -71.442471,42.456822 -71.44227,42.456823 -71.442099,42.456846 -71.4419,42.456899 -71.441813,42.456891 -71.441698,42.456763 -71.441626,42.456722 -71.441546,42.456705 -71.441235,42.456708 -71.440877,42.456631 -71.440616,42.45654 -71.44028,42.456383 -71.440082,42.456262 -71.439842,42.456145 -71.439498,42.455933</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-01T04:26:02Z" areas="2018-02-01T03:45:02Z"/>
+<meta osm_base="2018-02-20T21:43:02Z" areas="2018-02-20T21:28:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -300,6 +300,9 @@
   <node id="2129514508" lat="42.4600800" lon="-71.4777300"/>
   <node id="2129514526" lat="42.4601700" lon="-71.4785400"/>
   <node id="2129514578" lat="42.4608297" lon="-71.4773705"/>
+  <node id="2130283106" lat="42.4538493" lon="-71.4447720">
+    <tag k="noexit" v="yes"/>
+  </node>
   <node id="2138419356" lat="42.4622133" lon="-71.4510815"/>
   <node id="2138419357" lat="42.4622570" lon="-71.4511181"/>
   <node id="2138419358" lat="42.4621652" lon="-71.4510550"/>
@@ -360,6 +363,7 @@
   <node id="2146042467" lat="42.4624582" lon="-71.4527804"/>
   <node id="2146042469" lat="42.4624341" lon="-71.4526213"/>
   <node id="2146042470" lat="42.4623506" lon="-71.4525727"/>
+  <node id="2147343496" lat="42.5168710" lon="-71.4193020"/>
   <node id="2147343628" lat="42.5213510" lon="-71.4183580"/>
   <node id="2147343629" lat="42.5213750" lon="-71.4181130"/>
   <node id="2147343632" lat="42.5214147" lon="-71.4168558"/>
@@ -2266,6 +2270,13 @@
   <node id="5355835996" lat="42.4784342" lon="-71.4525368"/>
   <node id="5355835997" lat="42.4784401" lon="-71.4525717"/>
   <node id="5368455391" lat="42.4546104" lon="-71.4832522"/>
+  <node id="5423833506" lat="42.4537910" lon="-71.4447867">
+    <tag k="noexit" v="yes"/>
+  </node>
+  <node id="5425489693" lat="42.5167237" lon="-71.4193669"/>
+  <node id="5425489694" lat="42.5165141" lon="-71.4194299"/>
+  <node id="5425489695" lat="42.5163362" lon="-71.4194460"/>
+  <node id="5425489696" lat="42.5161429" lon="-71.4194405"/>
   <way id="9515619">
     <nd ref="73211531"/>
     <nd ref="73273174"/>
@@ -5498,6 +5509,26 @@
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="surface" v="paved"/>
+  </way>
+  <way id="562636635">
+    <nd ref="5423833506"/>
+    <nd ref="2130283106"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="562885916">
+    <nd ref="2147343496"/>
+    <nd ref="5425489693"/>
+    <nd ref="5425489694"/>
+    <nd ref="5425489695"/>
+    <nd ref="5425489696"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
   </way>
 
 </osm>
