@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-17T02:21:02Z" areas="2017-10-17T01:00:02Z"/>
+<meta osm_base="2018-02-20T21:42:02Z" areas="2018-02-20T21:05:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
+  <node id="771666369" lat="42.4777906" lon="-71.4844559"/>
+  <node id="771666374" lat="42.4778853" lon="-71.4844125"/>
+  <node id="771666395" lat="42.4776012" lon="-71.4844204"/>
+  <node id="771666415" lat="42.4778054" lon="-71.4842740"/>
+  <node id="771666447" lat="42.4775863" lon="-71.4843222"/>
+  <node id="771666491" lat="42.4777156" lon="-71.4844006"/>
   <node id="1305920427" lat="42.4877136" lon="-71.4782399"/>
   <node id="1305920428" lat="42.4876222" lon="-71.4782064"/>
   <node id="1305920430" lat="42.4875933" lon="-71.4783694"/>
   <node id="1305920431" lat="42.4876828" lon="-71.4784012"/>
   <node id="1305920434" lat="42.4876417" lon="-71.4783866"/>
   <node id="2118697733" lat="42.4818732" lon="-71.4377787"/>
+  <node id="2130283146" lat="42.4547162" lon="-71.4357083"/>
   <node id="2139046639" lat="42.5021976" lon="-71.4422614"/>
   <node id="2139046642" lat="42.5022927" lon="-71.4423230"/>
   <node id="2139046643" lat="42.5022942" lon="-71.4420349"/>
@@ -80,6 +87,54 @@
   <node id="5166721294" lat="42.4816248" lon="-71.4375992"/>
   <node id="5166721298" lat="42.4813125" lon="-71.4377152"/>
   <node id="5166721303" lat="42.4813192" lon="-71.4378830"/>
+  <node id="5422784749" lat="42.4547340" lon="-71.4357130"/>
+  <node id="5422784750" lat="42.4546332" lon="-71.4356866"/>
+  <node id="5422784751" lat="42.4546501" lon="-71.4355706"/>
+  <node id="5422784752" lat="42.4547487" lon="-71.4355989"/>
+  <node id="5423842769" lat="42.4563303" lon="-71.4444053"/>
+  <node id="5423842770" lat="42.4561339" lon="-71.4443395"/>
+  <node id="5423842771" lat="42.4561057" lon="-71.4446118"/>
+  <node id="5423842772" lat="42.4562952" lon="-71.4446212"/>
+  <node id="5423842773" lat="42.4561705" lon="-71.4446336"/>
+  <node id="5425410264" lat="42.4677152" lon="-71.4560806"/>
+  <node id="5425410265" lat="42.4675881" lon="-71.4560906"/>
+  <node id="5425410266" lat="42.4675821" lon="-71.4558955"/>
+  <node id="5425410267" lat="42.4677414" lon="-71.4558808"/>
+  <node id="5425410268" lat="42.4677434" lon="-71.4559485"/>
+  <node id="5425410269" lat="42.4677824" lon="-71.4559445"/>
+  <node id="5425410270" lat="42.4677839" lon="-71.4560095"/>
+  <node id="5425410271" lat="42.4677137" lon="-71.4560155"/>
+  <node id="5425438447" lat="42.4968471" lon="-71.4534368"/>
+  <node id="5425438448" lat="42.4970038" lon="-71.4531076"/>
+  <node id="5425438449" lat="42.4970383" lon="-71.4531378"/>
+  <node id="5425438450" lat="42.4968817" lon="-71.4534671"/>
+  <node id="5425489688" lat="42.5133180" lon="-71.4225806"/>
+  <node id="5425489689" lat="42.5134137" lon="-71.4225574"/>
+  <node id="5425489690" lat="42.5134374" lon="-71.4227369"/>
+  <node id="5425489691" lat="42.5133416" lon="-71.4227602"/>
+  <node id="5425489699" lat="42.5205570" lon="-71.4154106"/>
+  <node id="5425489700" lat="42.5205256" lon="-71.4155048"/>
+  <node id="5425489701" lat="42.5204418" lon="-71.4154666"/>
+  <node id="5425489702" lat="42.5203716" lon="-71.4153627"/>
+  <node id="5425489703" lat="42.5203874" lon="-71.4153184"/>
+  <way id="61912346">
+    <nd ref="771666395"/>
+    <nd ref="771666491"/>
+    <nd ref="771666369"/>
+    <nd ref="771666374"/>
+    <nd ref="771666415"/>
+    <nd ref="771666447"/>
+    <nd ref="771666395"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="667"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Massachusetts Avenue"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/guggins-brook-conservation-land/"/>
+  </way>
   <way id="115637309">
     <nd ref="1305920428"/>
     <nd ref="1305920430"/>
@@ -276,6 +331,110 @@
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
+  </way>
+  <way id="562522259">
+    <nd ref="5422784749"/>
+    <nd ref="2130283146"/>
+    <nd ref="5422784750"/>
+    <nd ref="5422784751"/>
+    <nd ref="5422784752"/>
+    <nd ref="5422784749"/>
+    <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="95"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Parker St"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="3"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/pratts-brook/"/>
+  </way>
+  <way id="562638133">
+    <nd ref="5423842769"/>
+    <nd ref="5423842770"/>
+    <nd ref="5423842771"/>
+    <nd ref="5423842773"/>
+    <nd ref="5423842772"/>
+    <nd ref="5423842769"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Brewster Ln"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/pratts-brook/"/>
+  </way>
+  <way id="562877289">
+    <nd ref="5425410264"/>
+    <nd ref="5425410265"/>
+    <nd ref="5425410266"/>
+    <nd ref="5425410267"/>
+    <nd ref="5425410268"/>
+    <nd ref="5425410269"/>
+    <nd ref="5425410270"/>
+    <nd ref="5425410271"/>
+    <nd ref="5425410264"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="207"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Main St"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+  </way>
+  <way id="562879896">
+    <nd ref="5425438447"/>
+    <nd ref="5425438448"/>
+    <nd ref="5425438449"/>
+    <nd ref="5425438450"/>
+    <nd ref="5425438447"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="149"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Newtown Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+  </way>
+  <way id="562885909">
+    <nd ref="5425489688"/>
+    <nd ref="5425489689"/>
+    <nd ref="5425489690"/>
+    <nd ref="5425489691"/>
+    <nd ref="5425489688"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Captain Handley Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+  </way>
+  <way id="562885917">
+    <nd ref="5425489699"/>
+    <nd ref="5425489700"/>
+    <nd ref="5425489701"/>
+    <nd ref="5425489702"/>
+    <nd ref="5425489703"/>
+    <nd ref="5425489699"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="74"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Quarry Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
   </way>
 
 </osm>
