@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
+<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-20T21:42:02Z" areas="2018-02-20T21:05:02Z"/>
+<meta osm_base="2018-02-27T01:52:02Z" areas="2018-02-27T01:00:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -36,10 +36,10 @@
   <node id="2161970198" lat="42.5121646" lon="-71.3976351"/>
   <node id="2161970199" lat="42.5121972" lon="-71.3977263"/>
   <node id="2161970200" lat="42.5121972" lon="-71.3977963"/>
-  <node id="4029272875" lat="42.5014672" lon="-71.3906819"/>
-  <node id="4029272876" lat="42.5015250" lon="-71.3907674"/>
+  <node id="4029272875" lat="42.5014534" lon="-71.3906939"/>
+  <node id="4029272876" lat="42.5015755" lon="-71.3908640"/>
   <node id="4029272877" lat="42.5016623" lon="-71.3905413"/>
-  <node id="4029272878" lat="42.5017409" lon="-71.3907662"/>
+  <node id="4029272878" lat="42.5018160" lon="-71.3908681"/>
   <node id="4425385894" lat="42.5004790" lon="-71.4391043"/>
   <node id="4425739947" lat="42.5004329" lon="-71.4390599"/>
   <node id="4425739948" lat="42.5004728" lon="-71.4389511"/>
@@ -64,6 +64,13 @@
   <node id="4739123729" lat="42.4621495" lon="-71.4511330"/>
   <node id="4739123730" lat="42.4621644" lon="-71.4507281"/>
   <node id="4739123731" lat="42.4622403" lon="-71.4507327"/>
+  <node id="4747957819" lat="42.4784988" lon="-71.4182590"/>
+  <node id="4747957820" lat="42.4785918" lon="-71.4182590"/>
+  <node id="4747958421" lat="42.4785888" lon="-71.4183663"/>
+  <node id="4747958422" lat="42.4786383" lon="-71.4183743"/>
+  <node id="4747958423" lat="42.4786304" lon="-71.4184628"/>
+  <node id="4747958424" lat="42.4785077" lon="-71.4184414"/>
+  <node id="4747973573" lat="42.4785428" lon="-71.4182590"/>
   <node id="4867299581" lat="42.5076181" lon="-71.4339073"/>
   <node id="4867299582" lat="42.5075380" lon="-71.4337813"/>
   <node id="4867299583" lat="42.5074470" lon="-71.4338939"/>
@@ -117,6 +124,11 @@
   <node id="5425489701" lat="42.5204418" lon="-71.4154666"/>
   <node id="5425489702" lat="42.5203716" lon="-71.4153627"/>
   <node id="5425489703" lat="42.5203874" lon="-71.4153184"/>
+  <node id="5431797240" lat="42.5017536" lon="-71.3909156"/>
+  <node id="5431797241" lat="42.5016635" lon="-71.3908630"/>
+  <node id="5431797242" lat="42.5016013" lon="-71.3905305"/>
+  <node id="5432555338" lat="42.5017194" lon="-71.3906336"/>
+  <node id="5432555339" lat="42.5015045" lon="-71.3907950"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -237,11 +249,18 @@
   </way>
   <way id="400355073">
     <nd ref="4029272878"/>
+    <nd ref="5431797240"/>
+    <nd ref="5431797241"/>
     <nd ref="4029272876"/>
+    <nd ref="5432555339"/>
     <nd ref="4029272875"/>
+    <nd ref="5431797242"/>
     <nd ref="4029272877"/>
+    <nd ref="5432555338"/>
     <nd ref="4029272878"/>
     <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/camp-acton/"/>
   </way>
   <way id="445119526">
@@ -307,6 +326,25 @@
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="paved"/>
     <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+  </way>
+  <way id="481898762">
+    <nd ref="4747957819"/>
+    <nd ref="4747973573"/>
+    <nd ref="4747957820"/>
+    <nd ref="4747958421"/>
+    <nd ref="4747958422"/>
+    <nd ref="4747958423"/>
+    <nd ref="4747958424"/>
+    <nd ref="4747957819"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="ma"/>
+    <tag k="addr:street" v="Concord Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/"/>
   </way>
   <way id="494952332">
     <nd ref="4867299581"/>
