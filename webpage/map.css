@@ -63,6 +63,14 @@ nav .brand-logo {
 /* to make checkbox match regular menu items */
 .dropdown-content li > a label {color:rgb(38, 166, 154);}
 
+/* to allow dropdowns in "more" dropdown to spill over the bounds of the first dropdown */ 
+.dropdown-content.nested {
+   overflow-y: visible;
+}
+/* and keep the nested dropdowns from covering the initial dropdown */
+.dropdown-content .dropdown-content {
+   margin-left: 100%;
+
 /*
 .dropdown-content {
   background-color: #FFFFFF;

@@ -57,7 +57,9 @@ var map = new mapboxgl.Map({
 });
  
 $( document ).ready(function() {
-    $("#dropdown-goto").load("dropdown.html", function(){}); 
+    
+    $("#dropdown-goto, #dropdown-goto-more").load("dropdown.html", function(){});
+    
     $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
@@ -66,14 +68,21 @@ $( document ).ready(function() {
       belowOrigin: true, // Displays dropdown below the button
       alignment: 'right' // Displays dropdown with edge aligned to the left of button
     });
-   $( "#dropdown-goto" ).on( "click", function( event ) {
+   $('.dropdown-button-more').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      hover: true, // Activate on hover
+      constrainWidth: false,
+      belowOrigin: false      
+    });    
+   $("#dropdown-goto, #dropdown-goto-more").on( "click", function( event ) {
         event.preventDefault();
         land = event.target.innerHTML;
         envelope = Envelopes[land]
         // console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
     });
-    $('#aerial-view').on('click', function(e) {
+    $('#aerial-view, #aerial-view-more').on('click', function(e) {
         var a = $(this).data('state');
         var b = $(this).prop('checked');
         if (a && b) {
@@ -86,7 +95,7 @@ $( document ).ready(function() {
         map.setLayoutProperty('grass', 'visibility', b ? "none": "visible");
         
     })
-    $('#bay-circuit-trail').on('click', function(e) {
+    $('#bay-circuit-trail, #bay-circuit-trail-more').on('click', function(e) {
         var a = $(this).data('state');
         var b = $(this).prop('checked');
         if (a && b) {
@@ -97,11 +106,11 @@ $( document ).ready(function() {
         map.setLayoutProperty('bct', 'visibility', b ? "visible": "none");
 
     })
-     $( "#zoom-in" ).on( "click", function( event ) {
+     $( "#zoom-in, #zoom-in-more" ).on( "click", function( event ) {
          event.preventDefault();
         map.zoomTo(map.getZoom()+1,  {duration:FASTZOOMTIME});
     });
-     $( "#zoom-out" ).on( "click", function( event ) {
+     $( "#zoom-out, #zoom-out-more" ).on( "click", function( event ) {
          event.preventDefault();
         map.zoomTo(map.getZoom()-1,  {duration:FASTZOOMTIME});
     });
