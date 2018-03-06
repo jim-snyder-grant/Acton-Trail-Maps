@@ -4,8 +4,8 @@
         <meta charset='utf-8' />
         <title>Acton Trails</title>
         <!-- mapbox GL -->
-         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -79,18 +79,20 @@
                   </li>  
                 </ul>
               </div>
-            </nav>        
-        <div id='map'></div>
+            </nav>          
+        <div id='map'>
+        </div>
+            <div id='position-info' class="mapboxgl-ctrl-scale"></div>
         
-        <div id='position-info'></div>
-        <!-- info-card content should be programmatically  generated. This is just a prototype -->
-        <div id="info-card" class="card-panels hoverable teal darken-1 tooltipped" data-delay="520" data-tooltip="for more information about Guggins Brook">
-            <div class="card-action">
-                <a class="white-text"  target="_blank" href="http://www.actontrails.org/guggins-brook-conservation-land"> 
-                    Guggins Brook&nbsp;<i class="material-icons">info</i>
-                </a>
+            <!-- info-card content should be programmatically  generated. This is just a prototype -->
+            <div id="info-card" class="card-panels hoverable teal darken-1 tooltipped" data-delay="520" data-tooltip="for more information about Guggins Brook">
+                <div class="card-action">
+                    <a class="white-text"  target="_blank" href="http://www.actontrails.org/guggins-brook-conservation-land"> 
+                        Guggins Brook&nbsp;<i class="material-icons">info</i>
+                    </a>
+                </div>
             </div>
-        </div>        
+        
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>        

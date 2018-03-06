@@ -38,12 +38,15 @@ nav .brand-logo {
 
 /* for mouse-position info */
 #position-info {
-        font-size: 16px;
+//    font-size: 16px;
         position: absolute;
-        right: 5px;
-        top:95%;
-        overflow: auto;
-        background: rgba(255, 255, 255, 0.8);
+        left: 10px;
+        bottom: 65px;
+//        padding-left: 1em;
+//        padding right: 1em;
+//        text-align: center;
+//        overflow: auto;
+//        background: rgba(255, 255, 255, 0.8);
 }  
 
 #info-card {
@@ -54,7 +57,7 @@ nav .brand-logo {
         left: 0px;
         top:var(--navbar-height);
         overflow: auto;
-        /* background: rgba(255, 255, 255, 1.0); */s
+        /* background: rgba(255, 255, 255, 1.0); */
 }
 
 /* to fit all those conservation lands without scrolling dropdown on normal desktop */

@@ -1,23 +1,23 @@
 
 
 
-function formatLngLat(x, dim) {
-    var dirs = {
-            lat: ['N', 'S'],
-            lng: ['E', 'W']
-        }[dim] || '',
-        dir = dirs[x >= 0 ? 0 : 1],
-        abs = Math.abs(x),
-        whole = Math.floor(abs),
-        fraction = abs - whole,
-        fractionMinutes = fraction * 60,
-        minutes = Math.floor(fractionMinutes),
-        seconds = Math.floor((fractionMinutes - minutes) * 60);
-
-    return whole + '°'+
-        (minutes ? minutes + "'" : '') +
-        (seconds ? seconds + '"' : '') + dir;
-}
+//function formatLngLat(x, dim) {
+//    var dirs = {
+//            lat: ['N', 'S'],
+//            lng: ['E', 'W']
+//        }[dim] || '',
+//        dir = dirs[x >= 0 ? 0 : 1],
+//        abs = Math.abs(x),
+//        whole = Math.floor(abs),
+//        fraction = abs - whole,
+//        fractionMinutes = fraction * 60,
+//        minutes = Math.floor(fractionMinutes),
+//        seconds = Math.floor((fractionMinutes - minutes) * 60);
+//
+//    return whole + '°'+
+//        (minutes ? minutes + "'" : '') +
+//        (seconds ? seconds + '"' : '') + dir;
+//}
 
 
 // 42.42917,-71.51583,42.55694,-71.35667]
@@ -53,6 +53,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
     center: STARTCENTER , // starting position
     maxBounds: looseBounds,
+    attributionControl: false,
     zoom: 9.1 // starting zoom  
 });
  
@@ -118,7 +119,8 @@ $( document ).ready(function() {
 
 function updatePositionInfo(where)
 {
-    newPosition= formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
+    // newPosition= formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
+    newPosition= 'lat ' + where.lat.toFixed(4)+' lon ' + where.lng.toFixed(4);  
     document.getElementById('position-info').innerHTML =  newPosition;  
        
 }
@@ -157,7 +159,7 @@ map.dragRotate.disable();
 map.touchZoomRotate.disableRotation();
 // scale(s)
 map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
-map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
+// map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
     if (urlParams.goto){
