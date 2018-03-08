@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-27T01:51:02Z"/>
+<meta osm_base="2018-03-08T19:44:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2571,6 +2571,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
+    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
   </way>
   <way id="29763453">
     <nd ref="2784202768"/>
@@ -2951,7 +2952,7 @@
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://actonarboretum.org/"/>
+    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
   </way>
   <way id="29769277">
     <nd ref="327903550"/>
@@ -4265,6 +4266,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
+    <tag k="website" v="http://www.actontrails.org/bulette/"/>
   </way>
   <way id="449483835">
     <nd ref="4464354026"/>
@@ -5643,6 +5645,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="conservation_acton"/>
     <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://www.actontrails.org/jenks/"/>
   </relation>
   <relation id="6946413">
     <member type="way" ref="472033818" role=""/>
