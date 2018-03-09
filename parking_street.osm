@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2018-03-09T03:15:02Z" areas="2018-03-09T02:34:02Z"/>
+
+  <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
+
+  <node id="73210911" lat="42.4798771" lon="-71.4310583">
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="86"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Wood Ln"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="fee" v="no"/>
+    <tag k="park_ride" v="no"/>
+    <tag k="parking" v="surface"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+    <tag k="supervised" v="no"/>
+    <tag k="surface" v="ground"/>
+    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
+  </node>
+  <node id="2129716578" lat="42.4646930" lon="-71.4591089">
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Tupelo Way"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="website" v="http://www.actontrails.org/pacy/"/>
+  </node>
+  <node id="5425410276" lat="42.4708497" lon="-71.4530445">
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Kelley Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+  </node>
+  <node id="5425489698" lat="42.5161429" lon="-71.4194405">
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="22"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Alexandra Way"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+  </node>
+
+</osm>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="points" id="points">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="is_in" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">73210911</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;86&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Wood Ln&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/arboretum/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4310583,42.4798771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2129716578</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;13&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Tupelo Way&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/pacy/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4591089,42.464693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5425410276</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;11&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Kelley Road&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/great-hill/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4530445,42.4708497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5425489698</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;22&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Alexandra Way&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4194405,42.5161429</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -17,8 +17,8 @@ import subprocess
 
 regularArguments = {
     'bct', 'bfrt', 'blue_trails', 'bounds', 'camping', 'green_trails',
-    'outside_trails', 'parking', 'red_trails', 'town', 'town_land',
-    'unblazed_trails', 'yellow_trails'
+    'outside_trails', 'parking', 'parking_street', 'red_trails', 'town',
+    'town_land', 'unblazed_trails', 'yellow_trails'
 }
 allArg = 'all'
 helpArg = "help"
@@ -140,6 +140,10 @@ for arg in args:
         KMLcolor = "50BEBEBE"
         filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
         geometry = "multipolygons"
+    elif arg == "parking_street":
+        KMLcolor = "50BEBEBE"
+        filters = 'node[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON
+        geometry = "points"
     elif arg == "red_trails":
         KMLcolor = "ff0000ff"
         filters = TRAILS_FILTER+'~"red",i]'+IS_INSIDE_ACTON
