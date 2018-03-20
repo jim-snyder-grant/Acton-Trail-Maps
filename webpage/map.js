@@ -64,20 +64,20 @@ $( document ).ready(function() {
     $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
-      hover: true, // Activate on hover
+      // hover: true, // Activate on hover
       constrainWidth: false,
       belowOrigin: true, // Displays dropdown below the button
       alignment: 'right' // Displays dropdown with edge aligned to the left of button
     });
-   $('.dropdown-button-more').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      hover: true, // Activate on hover
-      constrainWidth: false,
-      belowOrigin: false      
-    });    
+    
+//   $('.dropdown-button-more').dropdown({
+//      inDuration: 300,
+//      outDuration: 225,
+//      hover: true, // Activate on hover
+//      constrainWidth: false,
+//      belowOrigin: false      
+//    });    
    $("#dropdown-goto, #dropdown-goto-more").on( "click", function( event ) {
-        event.preventDefault();
         land = event.target.innerHTML;
         envelope = Envelopes[land]
         // console.log(land, envelope);
