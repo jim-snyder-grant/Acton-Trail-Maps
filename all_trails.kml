@@ -678,13 +678,6 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4986587,42.4637294 -71.4984728,42.4640089 -71.4983708,42.4641623</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.395163,42.4396613 -71.3958537,42.4393582 -71.3959932,42.439287 -71.3961005,42.4392395 -71.3964116,42.4391524 -71.3965511,42.4391524</coordinates></LineString>
   </Placemark>
   <Placemark>
@@ -1545,7 +1538,7 @@
       <LineString><coordinates>-71.4532846,42.4338194 -71.4530491,42.4341814 -71.4528138,42.4346702 -71.4526729,42.4350966 -71.4525954,42.4356581 -71.4525954,42.4365498</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Farm Pond Trail (Dead End)</name>
+	<name>Farm Pond Trail</name>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
@@ -2864,6 +2857,13 @@
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4736714,42.4525897 -71.4734472,42.4524927 -71.4729188,42.4524126</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="color">black</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4984728,42.4640089 -71.4983708,42.4641623</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FF00FFFF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -4516,7 +4516,7 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.436358,42.4416048 -71.4363379,42.4415771 -71.4363204,42.4415494 -71.4362614,42.4415177 -71.4360522,42.4414979 -71.4359396,42.4415217 -71.4358484,42.4415969 -71.4356982,42.4416088 -71.4355211,42.4416009 -71.4352583,42.4415494 -71.4351617,42.4415256 -71.4347701,42.4413594 -71.4343892,42.4413119 -71.4340942,42.441304 -71.4338528,42.4413079 -71.4337241,42.4412525 -71.4335417,42.4412802 -71.4334344,42.4413 -71.4333754,42.4412842 -71.4331983,42.4412169 -71.4329516,42.4410941 -71.4328431,42.4410532</coordinates></LineString>
+      <LineString><coordinates>-71.436358,42.4416048 -71.4363379,42.4415771 -71.4363204,42.4415494 -71.4362614,42.4415177 -71.4360522,42.4414979 -71.4359396,42.4415217 -71.4358484,42.4415969 -71.4356982,42.4416088 -71.4355211,42.4416009 -71.4352583,42.4415494 -71.4351617,42.4415256 -71.4347701,42.4413594 -71.4343892,42.4413119 -71.4340942,42.441304 -71.4338528,42.4413079 -71.4337241,42.4412525 -71.4335417,42.4412802 -71.4334344,42.4413 -71.4333754,42.4412842 -71.4331983,42.4412169 -71.4329684,42.4410768 -71.4328431,42.4410532</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>

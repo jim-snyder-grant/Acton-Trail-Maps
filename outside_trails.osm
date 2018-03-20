@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-27T01:51:02Z" areas="2018-02-27T01:00:02Z"/>
+<meta osm_base="2018-03-20T19:42:02Z" areas="2018-03-20T18:37:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -5606,13 +5606,6 @@
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
   </way>
-  <way id="58014676">
-    <nd ref="518254484"/>
-    <nd ref="4998030958"/>
-    <nd ref="719837622"/>
-    <tag k="FIXME" v="continued north, not mapped"/>
-    <tag k="highway" v="footway"/>
-  </way>
   <way id="86548612">
     <nd ref="328239079"/>
     <nd ref="1005875071"/>
@@ -8465,7 +8458,7 @@
     <nd ref="3206613018"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
-    <tag k="name" v="Farm Pond Trail (Dead End)"/>
+    <tag k="name" v="Farm Pond Trail"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -11371,6 +11364,12 @@
     <nd ref="5368490320"/>
     <nd ref="5368490319"/>
     <tag k="highway" v="track"/>
+  </way>
+  <way id="568899709">
+    <nd ref="4998030958"/>
+    <nd ref="719837622"/>
+    <tag k="FIXME" v="continued north, not mapped"/>
+    <tag k="highway" v="footway"/>
   </way>
 
 </osm>

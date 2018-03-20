@@ -381,15 +381,6 @@
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">58014676</SimpleData>
-		<SimpleData name="highway">footway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4986587,42.4637294 -71.4984728,42.4640089 -71.4983708,42.4641623</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">86548612</SimpleData>
 		<SimpleData name="highway">footway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
@@ -1568,7 +1559,7 @@
       <LineString><coordinates>-71.4532846,42.4338194 -71.4530491,42.4341814 -71.4528138,42.4346702 -71.4526729,42.4350966 -71.4525954,42.4356581 -71.4525954,42.4365498</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Farm Pond Trail (Dead End)</name>
+	<name>Farm Pond Trail</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">314618398</SimpleData>
@@ -3358,6 +3349,15 @@
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4736714,42.4525897 -71.4734472,42.4524927 -71.4729188,42.4524126</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">568899709</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4984728,42.4640089 -71.4983708,42.4641623</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
