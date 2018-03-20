@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-03-08T19:44:03Z"/>
+<meta osm_base="2018-03-20T19:42:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -110,6 +110,7 @@
   <node id="327594355" lat="42.5173072" lon="-71.4041797"/>
   <node id="327596590" lat="42.4697909" lon="-71.4538432"/>
   <node id="327597534" lat="42.4799664" lon="-71.4299450"/>
+  <node id="327598158" lat="42.5082810" lon="-71.4353293"/>
   <node id="327599584" lat="42.5023768" lon="-71.4131127"/>
   <node id="327599603" lat="42.5055796" lon="-71.4148207"/>
   <node id="327599969" lat="42.5026877" lon="-71.4105316"/>
@@ -775,7 +776,6 @@
   <node id="3804458549" lat="42.5200815" lon="-71.4152194"/>
   <node id="3804458563" lat="42.5202194" lon="-71.4152606"/>
   <node id="3831785044" lat="42.4867811" lon="-71.4788055"/>
-  <node id="3929605932" lat="42.5082810" lon="-71.4353293"/>
   <node id="4044002894" lat="42.4785460" lon="-71.4696731"/>
   <node id="4154044481" lat="42.4772368" lon="-71.4330885"/>
   <node id="4154044482" lat="42.4775035" lon="-71.4328428"/>
@@ -2758,7 +2758,7 @@
     <tag k="website" v="http://www.actontrails.org/pacy/"/>
   </way>
   <way id="29764243">
-    <nd ref="3929605932"/>
+    <nd ref="327598158"/>
     <nd ref="327896252"/>
     <nd ref="4487789542"/>
     <nd ref="4487789543"/>
@@ -2817,7 +2817,7 @@
     <nd ref="4425725561"/>
     <nd ref="3601480107"/>
     <nd ref="327822267"/>
-    <nd ref="3929605932"/>
+    <nd ref="327598158"/>
     <tag k="access" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
@@ -5237,7 +5237,6 @@
     <tag k="addr:postcode" v="01720"/>
     <tag k="addr:state" v="ma"/>
     <tag k="addr:street" v="River St"/>
-    <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="owner" v="Town of Acton"/>
