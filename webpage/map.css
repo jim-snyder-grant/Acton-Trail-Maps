@@ -25,6 +25,11 @@ nav .button-collapse i {
     line-height: var(--navbar-height);
 }
 
+/* get those little icons closer together  */
+li a {padding-left: 5; padding-right: 5}
+li a i {margin-left: 0; margin-right: 0}
+
+
 nav .brand-logo { 
     font-size: 1.2rem; 
 }
