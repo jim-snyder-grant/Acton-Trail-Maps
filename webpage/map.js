@@ -152,7 +152,11 @@ map.on('mousemove', function (e) {
     updateURL();
 });
 // Add geolocate control to the map.
-map.addControl(new mapboxgl.GeolocateControl());
+map.addControl(new mapboxgl.GeolocateControl({
+    positionOptions: {enableHighAccuracy: true},
+    trackUserLocation: true
+}));
+
 // disable map rotation using right click + drag
 map.dragRotate.disable();
 // disable map rotation using touch rotation gesture
