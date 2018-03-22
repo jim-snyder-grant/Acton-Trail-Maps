@@ -1,26 +1,4 @@
 
-
-
-//function formatLngLat(x, dim) {
-//    var dirs = {
-//            lat: ['N', 'S'],
-//            lng: ['E', 'W']
-//        }[dim] || '',
-//        dir = dirs[x >= 0 ? 0 : 1],
-//        abs = Math.abs(x),
-//        whole = Math.floor(abs),
-//        fraction = abs - whole,
-//        fractionMinutes = fraction * 60,
-//        minutes = Math.floor(fractionMinutes),
-//        seconds = Math.floor((fractionMinutes - minutes) * 60);
-//
-//    return whole + '°'+
-//        (minutes ? minutes + "'" : '') +
-//        (seconds ? seconds + '"' : '') + dir;
-//}
-
-
-// 42.42917,-71.51583,42.55694,-71.35667]
 var looseBounds = new mapboxgl.LngLatBounds([-71.8578, 42.3236], [-71.1436,42.6537])     
 var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583])    
     
@@ -56,34 +34,32 @@ var map = new mapboxgl.Map({
     attributionControl: true,
     zoom: 9.1 // starting zoom  
 });
- 
+
+// put our ugly control in with the mapbox conttrols
+var LowerRightControls = document.getElementsByClassName('mapboxgl-ctrl-bottom-right')[0];
+// console.log(LowerRightControls);
+
+LowerRightControls.insertBefore(document.getElementById('position-info'), LowerRightControls.firstChild);
+
 $( document ).ready(function() {
     
-    $("#dropdown-goto, #dropdown-goto-more").load("dropdown.html", function(){});
+    $("#dropdown-goto").load("dropdown.html", function(){});
     
     $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
-      // hover: true, // Activate on hover
       constrainWidth: false,
       belowOrigin: true, // Displays dropdown below the button
-      alignment: 'right' // Displays dropdown with edge aligned to the left of button
+      alignment: 'right' 
     });
-    
-//   $('.dropdown-button-more').dropdown({
-//      inDuration: 300,
-//      outDuration: 225,
-//      hover: true, // Activate on hover
-//      constrainWidth: false,
-//      belowOrigin: false      
-//    });    
-   $("#dropdown-goto, #dropdown-goto-more").on( "click", function( event ) {
+      
+   $("#dropdown-goto").on( "click", function( event ) {
         land = event.target.innerHTML;
         envelope = Envelopes[land]
         // console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
     });
-    $('#aerial-view, #aerial-view-more').on('click', function(e) {
+    $('#aerial-view').on('click', function(e) {
         var a = $(this).data('state');
         var b = $(this).prop('checked');
         if (a && b) {
@@ -96,7 +72,7 @@ $( document ).ready(function() {
         map.setLayoutProperty('grass', 'visibility', b ? "none": "visible");
         
     })
-    $('#bay-circuit-trail, #bay-circuit-trail-more').on('click', function(e) {
+    $('#bay-circuit-trail').on('click', function(e) {
         var a = $(this).data('state');
         var b = $(this).prop('checked');
         if (a && b) {
@@ -107,11 +83,11 @@ $( document ).ready(function() {
         map.setLayoutProperty('bct', 'visibility', b ? "visible": "none");
 
     })
-     $( "#zoom-in, #zoom-in-more" ).on( "click", function( event ) {
+     $( "#zoom-in" ).on( "click", function( event ) {
          event.preventDefault();
         map.zoomTo(map.getZoom()+1,  {duration:FASTZOOMTIME});
     });
-     $( "#zoom-out, #zoom-out-more" ).on( "click", function( event ) {
+     $( "#zoom-out" ).on( "click", function( event ) {
          event.preventDefault();
         map.zoomTo(map.getZoom()-1,  {duration:FASTZOOMTIME});
     });
@@ -119,8 +95,7 @@ $( document ).ready(function() {
 
 function updatePositionInfo(where)
 {
-    // newPosition= formatLngLat(where.lng, 'lng') +' ('+where.lng.toFixed(4)+')' + ' ' + formatLngLat(where.lat, 'lat') +' ('+where.lat.toFixed(4)+')';  
-    newPosition= 'lat ' + where.lat.toFixed(4)+' lon ' + where.lng.toFixed(4);  
+    newPosition= 'lat ' + where.lat.toFixed(4)+'<br>lon ' + where.lng.toFixed(4);  
     document.getElementById('position-info').innerHTML =  newPosition;  
        
 }
@@ -155,7 +130,7 @@ map.on('mousemove', function (e) {
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {enableHighAccuracy: true},
     trackUserLocation: true
-}));
+}),'bottom-right');
 
 // disable map rotation using right click + drag
 map.dragRotate.disable();
