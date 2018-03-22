@@ -53,7 +53,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
     center: STARTCENTER , // starting position
     maxBounds: looseBounds,
-    attributionControl: false,
+    attributionControl: true,
     zoom: 9.1 // starting zoom  
 });
  
