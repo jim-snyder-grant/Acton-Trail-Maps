@@ -24,6 +24,9 @@ var newCenter = STARTCENTER;
 var ZOOMPADDING = 40;
 var ZOOMTIME = 3300; // milliseconds
 var FASTZOOMTIME = 1100; 
+
+var whichLandInfo = null;
+var landName = null;
     
 mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
@@ -55,9 +58,11 @@ $( document ).ready(function() {
       
    $("#dropdown-goto").on( "click", function( event ) {
         land = event.target.innerHTML;
-        envelope = Envelopes[land]
-        // console.log(land, envelope);
+        envelope = Envelopes[land].envelope;
+    //    console.log(land, envelope);
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+        whichLandInfo = Envelopes[land];
+        landName = land;
     });
     $('#aerial-view').on('click', function(e) {
         var a = $(this).data('state');
@@ -109,14 +114,48 @@ function updateURL()
 
 map.on('moveend', function() {
         var center = map.getCenter()
-        // This is prototype code. Eventually work with Envelope data for all conservation lands.
-        showInfoCard = (center.lat > 42.477309 && 
-                        center.lat < 42.484540 && 
-                        center.lng > -71.486398 && 
-                        center.lng < -71.479276) ? 
-            "visible" : "hidden";
-         $("#info-card").css("visibility", showInfoCard);  
-    });
+//        console.log("map centerlat/lng:")
+//        console.log(center.lat)
+//        console.log(center.lng)
+
+    // find first conservation land where the envelope encompasses the map center
+        // or see if we were sent here by a conservation land menu item
+        
+        if (!whichLandInfo)
+        {
+            for (var cl in Envelopes)
+            {
+//                console.log(cl)
+//                console.log(Envelopes[cl].envelope[0][1]);
+//                console.log(Envelopes[cl].envelope[1][1]);
+//                console.log(Envelopes[cl].envelope[1][0]);
+//                console.log(Envelopes[cl].envelope[0][0]);                
+                if (    center.lat > Envelopes[cl].envelope[0][1] && 
+                        center.lat < Envelopes[cl].envelope[1][1] && 
+                        center.lng > Envelopes[cl].envelope[0][0] && 
+                        center.lng < Envelopes[cl].envelope[1][0])
+                {
+                    whichLandInfo = Envelopes[cl]; 
+                    landName = cl; 
+                    break;     
+                }
+            }
+        }
+    
+        if (whichLandInfo)
+        {   
+            $("#card-land-name").attr("href", whichLandInfo.url);
+            $("#card-land-name").html(landName + '<i class="material-icons">info</i>' );
+            
+            $("#info-card").attr( "data-tooltip", "For More information about " + landName);
+            $("#info-card").css("visibility", "visible");  
+        }
+        else {
+            $("#info-card").css("visibility", "hidden");  
+        }
+        whichLandInfo = null;
+        
+});
 
 map.on('zoomend', function (e) {
     updateURL();
