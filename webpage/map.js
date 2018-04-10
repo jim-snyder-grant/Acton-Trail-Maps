@@ -168,6 +168,7 @@ map.on('mousemove', function (e) {
 // Add geolocate control to the map.
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {enableHighAccuracy: true},
+    fitBoundsOptions: {maxZoom: 16}, // Default 15
     trackUserLocation: true
 }),'bottom-right');
 
