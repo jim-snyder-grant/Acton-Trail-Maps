@@ -17,6 +17,7 @@ envjs.write("var Envelopes = {\n")
 LandsWithTrails=[];
         
 NAMEKEY = "name"
+URLKEY = "website"
 TRAILKEY = "trails"
 # So far, just '1' for lands that have no trails, and '2' for lands that do.
 LABELSIZEKEY = "labelsize"
@@ -53,7 +54,8 @@ for infeature in inlayer:
         
             # Get Envelope returns a tuple (minX, maxX, minY, maxY)
             env = geom.GetEnvelope()
-            envjs.write( "\"%s\": [[%f,%f], [%f,%f]],\n" %(name, env[0],env[2],env[1],env[3]))
+            url = infeature.GetField(URLKEY)
+            envjs.write( "\"%s\": {\"envelope\":[[%f,%f], [%f,%f]],\"url\":\"%s\"},\n" %(name, env[0],env[2],env[1],env[3],url))
             
             outfeature.SetField(NAMEKEY, name)
             outfeature.SetField(LABELSIZEKEY, labelsize)
