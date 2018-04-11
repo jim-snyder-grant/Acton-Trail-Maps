@@ -147,7 +147,9 @@ map.on('moveend', function() {
             $("#card-land-name").attr("href", whichLandInfo.url);
             $("#card-land-name").html(landName + '<i class="material-icons">info</i>' );
             
-            $("#info-card").attr( "data-tooltip", "For More information about " + landName);
+            $("#info-card").attr( "data-tooltip", "For more information about " + landName);
+            $("#info-card").tooltip();
+            
             $("#info-card").css("visibility", "visible");  
         }
         else {
