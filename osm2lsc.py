@@ -244,7 +244,7 @@ for arg in args:
         if os.path.exists(geojsonFile):
             os.remove(geojsonFile)
 
-        ourCall(['ogr2ogr', '-f', 'GeoJSON', geojsonFile, osmFile, geometry])
+        ourCall(['ogr2ogr', '-f', 'GeoJSON', '-oo', 'CONFIG_FILE=./osmconf.actontrails.ini',geojsonFile, osmFile, geometry])
 
         # if it's the BCT, do post-processing to create a single segment from the individual ways
         if arg == "bct":
