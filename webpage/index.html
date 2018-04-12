@@ -50,19 +50,23 @@
                 </ul>
                   
               </div>
-            </nav>          
+            </nav>  
+<!-- the map, and stuff laid on top of the map -->       
         <div id='map'>
         </div> 
-            <div id='position-info' class="mapboxgl-ctrl mapboxgl-ctrl-scale"></div>
-        
-            <!-- info-card content is programmatically  generated -->
-            <div id="info-card" class="card-panels hoverable teal darken-1 tooltipped" data-delay="520"> 
+        <div id='position-info' class="mapboxgl-ctrl mapboxgl-ctrl-scale">
+        </div>
+        <!-- info-card content is programmatically  generated -->
+        <div id="info-card" class="card horizontal z-depth-2 hoverable teal darken-1 tooltipped" data-delay="520"> 
+            <div class="card-stacked">
                 <div class="card-action">
                     <a class="white-text"  id="card-land-name" target="_blank" href="http://www.actontrails.org"> 
-                        <i class="material-icons">info</i>
+                        
                     </a>
+                    
                 </div>
             </div>
+        </div>
         
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

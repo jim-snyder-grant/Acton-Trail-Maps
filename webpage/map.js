@@ -145,7 +145,7 @@ map.on('moveend', function() {
         if (whichLandInfo)
         {   
             $("#card-land-name").attr("href", whichLandInfo.url);
-            $("#card-land-name").html(landName + '<i class="material-icons">info</i>' );
+            $("#card-land-name").html(landName + "&nbsp;" + "<i class='white-text material-icons'>info</i>");
             
             $("#info-card").attr( "data-tooltip", "For more information about " + landName);
             $("#info-card").tooltip();
