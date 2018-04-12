@@ -1,20 +1,23 @@
 
-var looseBounds = new mapboxgl.LngLatBounds([-71.8578, 42.3236], [-71.1436,42.6537])     
-var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583])    
+var looseBounds = new mapboxgl.LngLatBounds([-71.8578, 42.3236], [-71.1436,42.6537]);   
+var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583]);
     
 var urlParams;
 var currentState;
 (window.onpopstate = function () {
-    var match,
-        pl     = /\+/g,  // Regex for replacing addition symbol with a space
-        search = /([^&=]+)=?([^&]*)/g,
-        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-        query  = window.location.search.substring(1);
+//    console.log("popstate begin")
+    var match;
+    var pl     = /\+/g;  // Regex for replacing addition symbol with a space
+    var search = /([^&=]+)=?([^&]*)/g;
+    var decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); };
+    var query  = window.location.search.substring(1);
 
     urlParams = {};
     currentState = window.history.state;
     while (match = search.exec(query))
        urlParams[decode(match[1])] = decode(match[2]);
+//    console.log("popstate end: ")
+//    console.log(urlParams);
 })();
 
 var STARTZOOM = 12.1;
@@ -44,6 +47,18 @@ var LowerRightControls = document.getElementsByClassName('mapboxgl-ctrl-bottom-r
 
 LowerRightControls.insertBefore(document.getElementById('position-info'), LowerRightControls.firstChild);
 
+function gotoLand(where)
+{
+   envelope = Envelopes[where].envelope;
+    //    console.log(land, envelope);
+    if (envelope)
+    {
+        map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
+        whichLandInfo = Envelopes[where];
+        landName = where;
+    }
+}
+
 $( document ).ready(function() {
     
     $("#dropdown-goto").load("dropdown.html", function(){});
@@ -58,11 +73,7 @@ $( document ).ready(function() {
       
    $("#dropdown-goto").on( "click", function( event ) {
         land = event.target.innerHTML;
-        envelope = Envelopes[land].envelope;
-    //    console.log(land, envelope);
-        map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
-        whichLandInfo = Envelopes[land];
-        landName = land;
+        gotoLand(land);
     });
     $('#aerial-view').on('click', function(e) {
         var a = $(this).data('state');
@@ -114,9 +125,6 @@ function updateURL()
 
 map.on('moveend', function() {
         var center = map.getCenter()
-//        console.log("map centerlat/lng:")
-//        console.log(center.lat)
-//        console.log(center.lng)
 
     // find first conservation land where the envelope encompasses the map center
         // or see if we were sent here by a conservation land menu item
@@ -124,12 +132,7 @@ map.on('moveend', function() {
         if (!whichLandInfo)
         {
             for (var cl in Envelopes)
-            {
-//                console.log(cl)
-//                console.log(Envelopes[cl].envelope[0][1]);
-//                console.log(Envelopes[cl].envelope[1][1]);
-//                console.log(Envelopes[cl].envelope[1][0]);
-//                console.log(Envelopes[cl].envelope[0][0]);                
+            {           
                 if (    center.lat > Envelopes[cl].envelope[0][1] && 
                         center.lat < Envelopes[cl].envelope[1][1] && 
                         center.lng > Envelopes[cl].envelope[0][0] && 
@@ -141,8 +144,7 @@ map.on('moveend', function() {
                 }
             }
         }
-    
-        if (whichLandInfo)
+        if (whichLandInfo && "None" != whichLandInfo.url)
         {   
             $("#card-land-name").attr("href", whichLandInfo.url);
             $("#card-land-name").html(landName + "&nbsp;" + "<i class='white-text material-icons'>info</i>");
@@ -183,24 +185,22 @@ map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
 // map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
-    if (urlParams.goto){
-        switch (urlParams.goto) {
-        case 'town':
-                newZoom = STARTZOOM;
-                newCenter = STARTCENTER;
-        break;
-        }
-    }
-    if (urlParams.zoom){
-       newZoom = urlParams.zoom;
-    }
-    if (urlParams.lng && urlParams.lat){
-        newCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
-    }
     var b = $('#bay-circuit-trail').prop('checked');
     map.setLayoutProperty('bct', 'visibility', b ? "visible": "none");
+
+    if (urlParams.goto){
+        gotoLand(urlParams.goto);
+    } 
+    else
+    {
+        if (urlParams.zoom){
+            newZoom = urlParams.zoom;
+        }
+        if (urlParams.lng && urlParams.lat){
+            newCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
+        }
     
-    map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
-    updatePositionInfo(newCenter);
-    
+        map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
+        updatePositionInfo(newCenter);
+    }
 });
