@@ -38,7 +38,8 @@ var map = new mapboxgl.Map({
     center: STARTCENTER , // starting position
     maxBounds: looseBounds,
     attributionControl: true,
-    zoom: 9.1 // starting zoom  
+    zoom: 9.1, // starting zoom  
+    preserveDrawingBuffer: true
 });
 
 // put our ugly control in with the mapbox conttrols
