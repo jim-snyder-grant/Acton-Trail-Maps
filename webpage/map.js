@@ -53,6 +53,7 @@ function gotoLand(where)
     //    console.log(land, envelope);
     if (envelope)
     {
+        $("#info-card").css("visibility", "hidden");
         map.fitBounds(envelope,  {duration:ZOOMTIME, padding: {top: ZOOMPADDING, bottom:ZOOMPADDING, left: ZOOMPADDING, right: ZOOMPADDING}});
         whichLandInfo = Envelopes[where];
         landName = where;
