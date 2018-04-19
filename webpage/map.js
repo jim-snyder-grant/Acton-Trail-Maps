@@ -42,6 +42,18 @@ var map = new mapboxgl.Map({
     preserveDrawingBuffer: true
 });
 
+var hasMouse = null;
+
+// finding out if there is mouse support
+// https://stackoverflow.com/a/35133651
+$(window).bind('mousemove.hasMouse',function(){
+    $(window).unbind('.hasMouse');
+    hasMouse=true;
+}).bind('touchstart.hasMouse',function(){
+    $(window).unbind('.hasMouse');
+    hasMouse=false;
+});
+
 // put our ugly control in with the mapbox conttrols
 var LowerRightControls = document.getElementsByClassName('mapboxgl-ctrl-bottom-right')[0];
 // console.log(LowerRightControls);
@@ -109,6 +121,16 @@ $( document ).ready(function() {
          event.preventDefault();
         map.zoomTo(map.getZoom()-1,  {duration:FASTZOOMTIME});
     });
+     $( "#card-action" ).on( "click", function( event ) {
+        window.location = whichLandInfo.url;
+    });
+     $( "#card-land-name" ).on( "click", function( event ) {
+         whichLandInfo=null;
+         landName=null;
+         updateInfobox();
+    });
+    
+    
 });  
 
 function updatePositionInfo(where)
@@ -124,6 +146,23 @@ function updateURL()
     var newURL = window.location.pathname + '?' +'zoom='+map.getZoom().toFixed(2)+'&lng=' + center.lng.toFixed(6) + '&lat=' + center.lat.toFixed(6);
     window.history.replaceState(currentState, "", newURL );
 }
+
+function updateInfobox()
+{
+    if (whichLandInfo && "None" != whichLandInfo.url)
+    {   
+        $("#card-land-name").html("&nbsp;" + landName + "&nbsp;");
+        $("#info-card").css("visibility", "visible");  
+    }
+    else {
+        $("#info-card").css("visibility", "hidden");  
+    }
+}
+
+map.on('movestart', function() {
+        whichLandInfo = null;
+});
+
 
 map.on('moveend', function() {
         var center = map.getCenter()
@@ -146,22 +185,9 @@ map.on('moveend', function() {
                 }
             }
         }
-        if (whichLandInfo && "None" != whichLandInfo.url)
-        {   
-            $("#card-land-name").attr("href", whichLandInfo.url);
-            $("#card-land-name").html(landName + "&nbsp;" + "<i class='white-text material-icons'>info</i>");
-            
-            $("#info-card").attr( "data-tooltip", "For more information about " + landName);
-            $("#info-card").tooltip();
-            
-            $("#info-card").css("visibility", "visible");  
-        }
-        else {
-            $("#info-card").css("visibility", "hidden");  
-        }
-        whichLandInfo = null;
-        
+        updateInfobox();        
 });
+
 
 map.on('zoomend', function (e) {
     updateURL();
@@ -205,4 +231,36 @@ map.on('load', function () {
         map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
         updatePositionInfo(newCenter);
     }
+    if (!hasMouse)
+    {
+         $('.tooltipped').tooltip('remove');
+    }
 });
+ map.on('click', function (e) {
+        landName = null;
+        whichLandInfo = null
+        features = null;
+//        console.log(e)
+//        console.log(e.point)
+    
+        features = map.queryRenderedFeatures(
+                e.point,
+                { layers: ['bounds'] });    
+        
+        if (features && features[0])
+        {
+//            console.log(features)
+            landName = features[0].properties.name;
+        }
+        if (landName)
+        {
+            whichLandInfo = Envelopes[landName]; 
+        }
+//        console.log("e, landName, whichLandInfo")
+//        console.log(e)
+//        console.log(landName)
+//        console.log(whichLandInfo)
+     
+
+        updateInfobox();
+    });

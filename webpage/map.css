@@ -40,19 +40,6 @@ nav .brand-logo {
     }
 }
 
-/* for mouse-position info */
-/*
-// #position-info {
-//    font-size: 16px;
-//        position: absolute;
-//        float:right;
-//        padding-left: 1em;
-//        padding right: 1em;
-//        text-align: center;
-//        overflow: auto;
-//        background: rgba(255, 255, 255, 0.8);
-// }  
-*/
 
 #info-card {
         visibility: hidden;
@@ -64,6 +51,9 @@ nav .brand-logo {
         overflow: auto;
         /* background: rgba(255, 255, 255, 1.0); */
 }
+.card-action {
+    padding: 6px !important;
+}
 
 /* to fit all those conservation lands without scrolling dropdown on normal desktop */
 .dropdown-content li {min-height:20px;}
@@ -71,28 +61,4 @@ nav .brand-logo {
 /* to make checkbox match regular menu items */
 .dropdown-content li > a label {color:rgb(38, 166, 154);}
 
-/* to allow dropdowns in "more" dropdown to spill over the bounds of the first dropdown 
-.dropdown-content.nested {
-   overflow-y: visible;
-   overflow-x: visible;    
-}
-*/ 
-/* and keep the nested dropdowns from covering the initial dropdown 
-.dropdown-content .dropdown-content {
-   margin-left: 100%;
-*/
-/*
-.dropdown-content {
-  background-color: #FFFFFF;
-  margin: 0;
-  display: none;
-  max-height: auto;
-	margin-left: -1px;
-  overflow: auto; 
-  opacity: 0;
-  position: absolute;
-  white-space: nowrap;
-  z-index: 1;
-  will-change: width, height;
-}
-*/
+
