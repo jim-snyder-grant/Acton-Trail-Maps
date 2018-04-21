@@ -25,7 +25,12 @@ nav .button-collapse i {
     line-height: var(--navbar-height);
 }
 
-/* get those little icons closer together  */
+/* Force the "Acton Trails" nav bar .brand-logo.left text always in 0.5rem.
+   By default in materialize.css, goes to 0 when window is >992 pixels.
+*/
+nav .brand-logo.left {left: 0.5rem;}
+
+/* get those little icons on the right of the nav bar closer together */
 nav div ul li a {padding-left: 6px; padding-right: 6px;}
 li a i.right {margin-left: 5px; margin-right: 5px;}
 
