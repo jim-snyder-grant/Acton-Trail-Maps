@@ -125,9 +125,7 @@ $( document ).ready(function() {
         window.location = whichLandInfo.url;
     });
      $( "#card-land-name" ).on( "click", function( event ) {
-         whichLandInfo=null;
-         landName=null;
-         updateInfobox();
+         window.location = whichLandInfo.url;
     });
     
     
