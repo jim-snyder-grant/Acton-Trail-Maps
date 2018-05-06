@@ -122,7 +122,7 @@ for arg in args:
         # plain old 'way'. And then there's the canoe launch, which isn't
         # owned by the town of Acton.
         KMLcolor = 'ffffffff'
-        filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i])'
+        filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];)'
         geometry = "multipolygons"
         got_new_bounds = True
     elif arg == "camping":
@@ -155,7 +155,7 @@ for arg in args:
         # Capture town land used as conservation, but not actually conservation, by looking for nature_reserve
         # which is not protected.
         KMLcolor = 'ffffffff'
-        filters = '(way[leisure=nature_reserve][boundary!=protected_area][owner~"Town Of Acton",i])'
+        filters = '(way[leisure=nature_reserve][boundary!=protected_area][owner~"Town Of Acton",i];)'
         geometry = "multipolygons"
         got_new_town_land = True
     elif arg == "unblazed_trails":
