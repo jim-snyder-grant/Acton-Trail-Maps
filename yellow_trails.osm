@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
+<osm version="0.6" generator="Overpass API 0.7.55 579b1eec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-27T01:52:02Z" areas="2018-02-27T01:00:02Z"/>
+<meta osm_base="2018-05-07T16:13:02Z" areas="2018-05-07T15:45:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1827,15 +1827,8 @@
   <node id="5110105089" lat="42.4792214" lon="-71.4784751"/>
   <node id="5110105090" lat="42.4792333" lon="-71.4787259"/>
   <node id="5110105091" lat="42.4792175" lon="-71.4788937"/>
-  <node id="5110105092" lat="42.4791858" lon="-71.4789863">
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="unpaved"/>
-  </node>
-  <node id="5195184444" lat="42.4819591" lon="-71.4813930">
-    <tag k="barrier" v="wall"/>
-    <tag k="wall" v="dry_stone"/>
-  </node>
+  <node id="5110105092" lat="42.4791858" lon="-71.4789863"/>
+  <node id="5195184444" lat="42.4819591" lon="-71.4813930"/>
   <node id="5228174337" lat="42.4853321" lon="-71.3978706"/>
   <node id="5228174338" lat="42.4852095" lon="-71.3978934">
     <tag k="note" v="Acton LSC wants a trail break at the town line"/>
