@@ -113,7 +113,7 @@ for arg in args:
         filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
     elif arg == "bfrt":
         KMLcolor = "501450FF"
-        filters = 'way[name="Bruce Freeman Rail Trail: Phase 2 (proposed)"]'
+        filters = 'way[name="Bruce Freeman Rail Trail"]'
     elif arg == "blue_trails":
         KMLcolor = "ffff0000"
         filters = TRAILS_FILTER+'~"blue",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
