@@ -121,6 +121,7 @@ for arg in args:
         # Some bounds are multipolygons stored in OSM as 'relation', others are
         # plain old 'way'. And then there's the canoe launch, which isn't
         # owned by the town of Acton.
+        # TEMPORARY: ADDING ACTON GM LAND INTO BOUNDS CONSERVATION LAND.
         KMLcolor = 'ffffffff'
         filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];way[leisure=nature_reserve][boundary!=protected_area][owner~"Town Of Acton",i];)'
         geometry = "multipolygons"
@@ -162,7 +163,8 @@ for arg in args:
         KMLcolor = "ffff00ff"
         # This is all the trails inside of Acton without special color names
         # (but no private trails), plus one special trail.
-        filters = 'way[highway~"path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special.intown;)'
+        # TEMPORARY: ADDING CYCLEWAYS INTO UNBLAZED TRAILS.
+        filters = 'way[highway~"cycleway|path|track"][access!~"^private$|^no$"][name!~"Red|Blue|Green|Yellow",i]->.unblazed; way[name="'+SPECIAL_TRAIL+'"]->.special; way'+IS_INSIDE_ACTON+'->.intown; (way.unblazed.intown; way.special.intown;)'
     elif arg == "yellow_trails":
         KMLcolor = " ff00ffff"
         filters = TRAILS_FILTER+'~"yellow",i]'+IS_INSIDE_ACTON
