@@ -740,7 +740,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4742937,42.5317545 -71.4735813,42.5318135</coordinates></LineString>
+      <LineString><coordinates>-71.4742937,42.5317545 -71.4735695,42.5318149</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Durant Pond Trail</name>
