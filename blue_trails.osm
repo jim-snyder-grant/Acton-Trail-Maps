@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-27T01:51:02Z" areas="2018-02-27T01:00:02Z"/>
+<meta osm_base="2018-06-12T00:55:02Z" areas="2018-06-11T23:02:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1763,52 +1763,52 @@
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="204759401">
-    <nd ref="2147343628"/>
-    <nd ref="2147343625"/>
-    <nd ref="2147343624"/>
-    <nd ref="2147343621"/>
-    <nd ref="2147343620"/>
-    <nd ref="2147343617"/>
-    <nd ref="2147343609"/>
-    <nd ref="2147343599"/>
-    <nd ref="2147343587"/>
-    <nd ref="2147343584"/>
-    <nd ref="2147343582"/>
-    <nd ref="2147343579"/>
-    <nd ref="2147343578"/>
-    <nd ref="2147343570"/>
-    <nd ref="2147343563"/>
-    <nd ref="2147343561"/>
-    <nd ref="2147343559"/>
-    <nd ref="2147343557"/>
-    <nd ref="2147343556"/>
-    <nd ref="2147343554"/>
-    <nd ref="2147343552"/>
-    <nd ref="2147343548"/>
-    <nd ref="2147343550"/>
-    <nd ref="2147343551"/>
-    <nd ref="2147343560"/>
-    <nd ref="2147343567"/>
-    <nd ref="2147343573"/>
-    <nd ref="2147343575"/>
-    <nd ref="2147343572"/>
-    <nd ref="2147343571"/>
-    <nd ref="2147343569"/>
-    <nd ref="2147343565"/>
-    <nd ref="2147343566"/>
-    <nd ref="2147343574"/>
-    <nd ref="2147343583"/>
-    <nd ref="2147343585"/>
-    <nd ref="2147343586"/>
-    <nd ref="2147343589"/>
-    <nd ref="2147343588"/>
-    <nd ref="2147343597"/>
-    <nd ref="2147343598"/>
-    <nd ref="2147343596"/>
-    <nd ref="2147343595"/>
-    <nd ref="2147343592"/>
-    <nd ref="2147343591"/>
     <nd ref="2147343600"/>
+    <nd ref="2147343591"/>
+    <nd ref="2147343592"/>
+    <nd ref="2147343595"/>
+    <nd ref="2147343596"/>
+    <nd ref="2147343598"/>
+    <nd ref="2147343597"/>
+    <nd ref="2147343588"/>
+    <nd ref="2147343589"/>
+    <nd ref="2147343586"/>
+    <nd ref="2147343585"/>
+    <nd ref="2147343583"/>
+    <nd ref="2147343574"/>
+    <nd ref="2147343566"/>
+    <nd ref="2147343565"/>
+    <nd ref="2147343569"/>
+    <nd ref="2147343571"/>
+    <nd ref="2147343572"/>
+    <nd ref="2147343575"/>
+    <nd ref="2147343573"/>
+    <nd ref="2147343567"/>
+    <nd ref="2147343560"/>
+    <nd ref="2147343551"/>
+    <nd ref="2147343550"/>
+    <nd ref="2147343548"/>
+    <nd ref="2147343552"/>
+    <nd ref="2147343554"/>
+    <nd ref="2147343556"/>
+    <nd ref="2147343557"/>
+    <nd ref="2147343559"/>
+    <nd ref="2147343561"/>
+    <nd ref="2147343563"/>
+    <nd ref="2147343570"/>
+    <nd ref="2147343578"/>
+    <nd ref="2147343579"/>
+    <nd ref="2147343582"/>
+    <nd ref="2147343584"/>
+    <nd ref="2147343587"/>
+    <nd ref="2147343599"/>
+    <nd ref="2147343609"/>
+    <nd ref="2147343617"/>
+    <nd ref="2147343620"/>
+    <nd ref="2147343621"/>
+    <nd ref="2147343624"/>
+    <nd ref="2147343625"/>
+    <nd ref="2147343628"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
@@ -2256,6 +2256,19 @@
     <nd ref="3929605955"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="596655674">
+    <nd ref="2147343628"/>
+    <nd ref="2147343629"/>
+    <tag k="access" v="yes"/>
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Blue"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
     <tag k="surface" v="unpaved"/>
   </way>
 
