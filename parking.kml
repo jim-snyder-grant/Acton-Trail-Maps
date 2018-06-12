@@ -49,6 +49,15 @@
   <Placemark>
 	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">166663317</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4144888,42.5192436 -71.4145139,42.5194901 -71.4145793,42.5194865 -71.4145819,42.5195117 -71.4146261,42.5195092 -71.4146707,42.5195067 -71.4146683,42.5194823 -71.4147393,42.5194784 -71.4147141,42.5192311 -71.4144888,42.5192436</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">201851000</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
 		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;2&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Taylor Road&quot;,&quot;capacity&quot;=&gt;&quot;15&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/arboretum/&quot;</SimpleData>

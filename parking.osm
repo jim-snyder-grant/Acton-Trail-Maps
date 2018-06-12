@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-02-27T01:52:02Z" areas="2018-02-27T01:00:02Z"/>
+<meta osm_base="2018-06-12T00:55:02Z" areas="2018-06-11T23:02:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -16,6 +16,14 @@
   <node id="1305920430" lat="42.4875933" lon="-71.4783694"/>
   <node id="1305920431" lat="42.4876828" lon="-71.4784012"/>
   <node id="1305920434" lat="42.4876417" lon="-71.4783866"/>
+  <node id="1781082982" lat="42.5192311" lon="-71.4147141"/>
+  <node id="1781082991" lat="42.5192436" lon="-71.4144888"/>
+  <node id="1781082995" lat="42.5194784" lon="-71.4147393"/>
+  <node id="1781082997" lat="42.5194823" lon="-71.4146683"/>
+  <node id="1781082999" lat="42.5194901" lon="-71.4145139"/>
+  <node id="1781083001" lat="42.5194865" lon="-71.4145793"/>
+  <node id="1781083002" lat="42.5195117" lon="-71.4145819"/>
+  <node id="1781083004" lat="42.5195067" lon="-71.4146707"/>
   <node id="2118697733" lat="42.4818732" lon="-71.4377787"/>
   <node id="2130283146" lat="42.4547162" lon="-71.4357083"/>
   <node id="2139046639" lat="42.5021976" lon="-71.4422614"/>
@@ -36,6 +44,7 @@
   <node id="2161970198" lat="42.5121646" lon="-71.3976351"/>
   <node id="2161970199" lat="42.5121972" lon="-71.3977263"/>
   <node id="2161970200" lat="42.5121972" lon="-71.3977963"/>
+  <node id="3804458533" lat="42.5195092" lon="-71.4146261"/>
   <node id="4029272875" lat="42.5014534" lon="-71.3906939"/>
   <node id="4029272876" lat="42.5015755" lon="-71.3908640"/>
   <node id="4029272877" lat="42.5016623" lon="-71.3905413"/>
@@ -162,6 +171,21 @@
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/jenks/"/>
+  </way>
+  <way id="166663317">
+    <nd ref="1781082991"/>
+    <nd ref="1781082999"/>
+    <nd ref="1781083001"/>
+    <nd ref="1781083002"/>
+    <nd ref="3804458533"/>
+    <nd ref="1781083004"/>
+    <nd ref="1781082997"/>
+    <nd ref="1781082995"/>
+    <nd ref="1781082982"/>
+    <nd ref="1781082991"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
   </way>
   <way id="201851000">
     <nd ref="2118697733"/>
