@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55 579b1eec">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-05-15T18:28:02Z" areas="2018-05-15T18:07:02Z"/>
+<meta osm_base="2018-06-12T03:02:02Z" areas="2018-06-12T02:21:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -141,7 +141,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65221685" lat="42.4362350" lon="-71.4228130">
+  <node id="65221685" lat="42.4362484" lon="-71.4228257">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
@@ -230,7 +230,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65259542" lat="42.4578890" lon="-71.4094950">
+  <node id="65259542" lat="42.4579182" lon="-71.4094718">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
@@ -450,7 +450,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009094535"/>
   </node>
-  <node id="72290714" lat="42.5388240" lon="-71.4328182"/>
+  <node id="72290714" lat="42.5388203" lon="-71.4328384"/>
   <node id="72298519" lat="42.5333780" lon="-71.4140680"/>
   <node id="72305009" lat="42.5279650" lon="-71.4263280">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -897,7 +897,7 @@
   <node id="552589081" lat="42.4440853" lon="-71.4909630"/>
   <node id="565301963" lat="42.4605199" lon="-71.4999934"/>
   <node id="623589039" lat="42.4360496" lon="-71.4880730"/>
-  <node id="623589825" lat="42.4351098" lon="-71.4875632"/>
+  <node id="623589825" lat="42.4351099" lon="-71.4875684"/>
   <node id="623589828" lat="42.4351196" lon="-71.4876934"/>
   <node id="623589831" lat="42.4351441" lon="-71.4877757"/>
   <node id="623589833" lat="42.4352608" lon="-71.4877302"/>
@@ -1710,9 +1710,7 @@
   <node id="2139424256" lat="42.4463544" lon="-71.4791433"/>
   <node id="2139424260" lat="42.4468187" lon="-71.4795929"/>
   <node id="2139424262" lat="42.4468313" lon="-71.4796811"/>
-  <node id="2140737941" lat="42.4516449" lon="-71.4818204">
-    <tag k="fixme" v="continues"/>
-  </node>
+  <node id="2140737941" lat="42.4516449" lon="-71.4818204"/>
   <node id="2140737944" lat="42.4533035" lon="-71.4824579"/>
   <node id="2238971161" lat="42.5292095" lon="-71.4782660"/>
   <node id="2238971162" lat="42.5292404" lon="-71.4782471"/>
@@ -2023,7 +2021,7 @@
   <node id="2420115454" lat="42.4494900" lon="-71.4106167"/>
   <node id="2420115460" lat="42.4497179" lon="-71.4105493"/>
   <node id="2420115462" lat="42.4498295" lon="-71.4104820"/>
-  <node id="2420115466" lat="42.4485623" lon="-71.4105625"/>
+  <node id="2420115466" lat="42.4485621" lon="-71.4105619"/>
   <node id="2420115467" lat="42.4486409" lon="-71.4106417"/>
   <node id="2420115472" lat="42.4496468" lon="-71.4105622"/>
   <node id="2420115476" lat="42.4488353" lon="-71.4106906"/>
@@ -4054,8 +4052,8 @@
   <node id="3880479529" lat="42.4348596" lon="-71.4569840"/>
   <node id="3880479530" lat="42.4348075" lon="-71.4569734"/>
   <node id="3880505204" lat="42.4351007" lon="-71.4877060"/>
-  <node id="3880505205" lat="42.4350909" lon="-71.4875623"/>
-  <node id="4128052890" lat="42.4379730" lon="-71.4060880">
+  <node id="3880505205" lat="42.4350910" lon="-71.4875689"/>
+  <node id="4128052890" lat="42.4379772" lon="-71.4060951">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
