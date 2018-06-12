@@ -55,5 +55,12 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.4479834,42.4995232</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5683289957</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:housenumber&quot;=&gt;&quot;end&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Nagog Park&quot;,&quot;addr:town&quot;=&gt;&quot;Acton&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4201088,42.5224214</coordinates></Point>
+  </Placemark>
 </Folder>
 </Document></kml>
