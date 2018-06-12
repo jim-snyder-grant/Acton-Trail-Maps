@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-12-27T13:59:02Z"/>
+<meta osm_base="2018-06-12T00:54:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -462,7 +462,6 @@
   <node id="2156888198" lat="42.5079900" lon="-71.4102000"/>
   <node id="2156888199" lat="42.5079749" lon="-71.4111518"/>
   <node id="2156888200" lat="42.5080040" lon="-71.4100941"/>
-  <node id="2156888201" lat="42.5080119" lon="-71.4107614"/>
   <node id="2156888202" lat="42.5080100" lon="-71.4051853"/>
   <node id="2156888203" lat="42.5080100" lon="-71.4111400"/>
   <node id="2156888205" lat="42.5080343" lon="-71.4110864"/>
@@ -977,7 +976,6 @@
   </way>
   <way id="206189201">
     <nd ref="2156888195"/>
-    <nd ref="2156888201"/>
     <nd ref="2156888206"/>
     <nd ref="3067587756"/>
     <nd ref="2156888207"/>
