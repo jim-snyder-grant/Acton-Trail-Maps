@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55 579b1eec">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-05-15T21:04:02Z"/>
+<meta osm_base="2018-06-12T00:55:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -61,7 +61,6 @@
   <node id="2925609491" lat="42.5118867" lon="-71.4108861"/>
   <node id="3094928618" lat="42.4920721" lon="-71.4185401"/>
   <node id="4253399434" lat="42.5200845" lon="-71.4075715"/>
-  <node id="5452426278" lat="42.4766548" lon="-71.4124641"/>
   <node id="5484745501" lat="42.5153630" lon="-71.4101746"/>
   <node id="5484745502" lat="42.5154247" lon="-71.4103497"/>
   <node id="5484745503" lat="42.5154771" lon="-71.4104816"/>
@@ -171,6 +170,8 @@
     <nd ref="5607772126"/>
     <nd ref="5607772127"/>
     <nd ref="5607772128"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="surface" v="asphalt"/>
@@ -205,6 +206,7 @@
     <nd ref="5541432698"/>
     <nd ref="5541432708"/>
     <nd ref="5607891726"/>
+    <tag k="access" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
@@ -299,7 +301,6 @@
     <nd ref="1078465309"/>
     <nd ref="1078466024"/>
     <nd ref="2600852576"/>
-    <nd ref="5452426278"/>
     <nd ref="1078465528"/>
     <nd ref="1078465378"/>
     <nd ref="1078466056"/>
@@ -352,6 +353,7 @@
     <nd ref="1078465283"/>
     <nd ref="4253399434"/>
     <nd ref="5484745836"/>
+    <tag k="access" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
