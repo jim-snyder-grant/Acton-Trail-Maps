@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55 579b1eec">
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-05-07T16:14:02Z" areas="2018-05-07T15:51:02Z"/>
+<meta osm_base="2018-06-12T00:55:02Z" areas="2018-06-11T23:02:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
+  <node id="73209430" lat="42.5222912" lon="-71.4200508">
+    <tag k="barrier" v="gate"/>
+  </node>
   <node id="73211809" lat="42.5010310" lon="-71.3950900">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
@@ -13,8 +16,9 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="73215520" lat="42.5181633" lon="-71.4147380">
+  <node id="73237546" lat="42.5224519" lon="-71.4202878">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="highway" v="turning_circle"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73244534" lat="42.5087410" lon="-71.4102620">
@@ -435,7 +439,6 @@
   <node id="2147343513" lat="42.5178650" lon="-71.4207910"/>
   <node id="2147343516" lat="42.5179740" lon="-71.4210430"/>
   <node id="2147343521" lat="42.5180850" lon="-71.4212020"/>
-  <node id="2147343523" lat="42.5181857" lon="-71.4158388"/>
   <node id="2147343526" lat="42.5181740" lon="-71.4213290"/>
   <node id="2147343527" lat="42.5182180" lon="-71.4213920"/>
   <node id="2147343528" lat="42.5182850" lon="-71.4214570"/>
@@ -446,6 +449,7 @@
   <node id="2147343545" lat="42.5191606" lon="-71.4149306"/>
   <node id="2147343601" lat="42.5204010" lon="-71.4159000"/>
   <node id="2147343605" lat="42.5205000" lon="-71.4156110"/>
+  <node id="2147343656" lat="42.5221180" lon="-71.4197970"/>
   <node id="2147365895" lat="42.5005212" lon="-71.4389928"/>
   <node id="2147365896" lat="42.5005588" lon="-71.4388694"/>
   <node id="2147365897" lat="42.5005649" lon="-71.4387189"/>
@@ -811,8 +815,7 @@
   <node id="4247048369" lat="42.4814794" lon="-71.4782041"/>
   <node id="4247048370" lat="42.4814530" lon="-71.4781538"/>
   <node id="4247048371" lat="42.4814239" lon="-71.4779888"/>
-  <node id="4247048372" lat="42.4814371" lon="-71.4778739"/>
-  <node id="4248471295" lat="42.4814013" lon="-71.4777513"/>
+  <node id="4247048372" lat="42.4814111" lon="-71.4779540"/>
   <node id="4419514814" lat="42.4980407" lon="-71.4685357"/>
   <node id="4423135444" lat="42.4818927" lon="-71.4327120"/>
   <node id="4423135445" lat="42.4817921" lon="-71.4330278"/>
@@ -865,8 +868,6 @@
   <node id="4584533403" lat="42.5037607" lon="-71.3984806"/>
   <node id="4584533404" lat="42.5037517" lon="-71.3987575"/>
   <node id="4584533405" lat="42.5034886" lon="-71.3984116"/>
-  <node id="4593816479" lat="42.5181690" lon="-71.4154222"/>
-  <node id="4593816480" lat="42.5181611" lon="-71.4151218"/>
   <node id="4595595215" lat="42.5057795" lon="-71.4076603"/>
   <node id="4624382857" lat="42.4863662" lon="-71.4823277"/>
   <node id="4624382858" lat="42.4862548" lon="-71.4823935"/>
@@ -961,6 +962,24 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
+  <node id="5643944103" lat="42.4810843" lon="-71.4776007"/>
+  <node id="5643944104" lat="42.4813595" lon="-71.4778887"/>
+  <node id="5643944105" lat="42.4813265" lon="-71.4778439"/>
+  <node id="5643944106" lat="42.4812829" lon="-71.4778013"/>
+  <way id="9515848">
+    <nd ref="73237546"/>
+    <nd ref="73209430"/>
+    <nd ref="2147343656"/>
+    <tag k="access" v="yes"/>
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Red"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
   <way id="61912341">
     <nd ref="771666434"/>
     <nd ref="771666518"/>
@@ -2191,18 +2210,6 @@
     <tag k="name" v="Red"/>
     <tag k="surface" v="unpaved"/>
   </way>
-  <way id="464240571">
-    <nd ref="2147343523"/>
-    <nd ref="4593816479"/>
-    <nd ref="4593816480"/>
-    <nd ref="73215520"/>
-    <tag k="access" v="yes"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="Red"/>
-    <tag k="surface" v="unpaved"/>
-  </way>
   <way id="467839738">
     <nd ref="771666444"/>
     <nd ref="771666398"/>
@@ -2417,7 +2424,10 @@
     <nd ref="4247048370"/>
     <nd ref="4247048371"/>
     <nd ref="4247048372"/>
-    <nd ref="4248471295"/>
+    <nd ref="5643944104"/>
+    <nd ref="5643944105"/>
+    <nd ref="5643944106"/>
+    <nd ref="5643944103"/>
     <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="path"/>
