@@ -16,7 +16,7 @@ import shutil    # higher level file operations
 import subprocess
 
 regularArguments = {
-    'bct', 'bfrt', 'blue_trails', 'bounds', 'camping', 'green_trails',
+    'bct', 'bike_trails', 'blue_trails', 'bounds', 'camping', 'green_trails',
     'outside_trails', 'parking', 'parking_street', 'red_trails', 'town',
     'town_land', 'unblazed_trails', 'yellow_trails'
 }
@@ -111,9 +111,9 @@ for arg in args:
     if arg == "bct":
         KMLcolor = "55FF78F0"
         filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.433,-71.5,42.534,-71.384)'
-    elif arg == "bfrt":
+    elif arg == "bike_trails":
         KMLcolor = "501450FF"
-        filters = 'way[name="Bruce Freeman Rail Trail"]'
+        filters = 'way[highway="cycleway"]'+IS_INSIDE_ACTON
     elif arg == "blue_trails":
         KMLcolor = "ffff0000"
         filters = TRAILS_FILTER+'~"blue",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
