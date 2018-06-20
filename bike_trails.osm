@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2018-06-20T02:24:02Z"/>
+
+  <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
+
+  <node id="1078465217" lat="42.5039092" lon="-71.4153433"/>
+  <node id="1078465283" lat="42.5217793" lon="-71.4064779"/>
+  <node id="1078465309" lat="42.4787423" lon="-71.4145853"/>
+  <node id="1078465378" lat="42.4759842" lon="-71.4118247"/>
+  <node id="1078465474" lat="42.4952637" lon="-71.4188169"/>
+  <node id="1078465528" lat="42.4766452" lon="-71.4124452"/>
+  <node id="1078465537" lat="42.5093806" lon="-71.4115664"/>
+  <node id="1078465594" lat="42.4935878" lon="-71.4188133"/>
+  <node id="1078465605" lat="42.5298285" lon="-71.4004402"/>
+  <node id="1078465642" lat="42.4859998" lon="-71.4176305"/>
+  <node id="1078465688" lat="42.5263408" lon="-71.4035447"/>
+  <node id="1078465707" lat="42.4804000" lon="-71.4154817"/>
+  <node id="1078465786" lat="42.4978006" lon="-71.4183687"/>
+  <node id="1078465804" lat="42.5048324" lon="-71.4146776"/>
+  <node id="1078465875" lat="42.5251663" lon="-71.4043318"/>
+  <node id="1078465919" lat="42.4795882" lon="-71.4151192"/>
+  <node id="1078466024" lat="42.4777992" lon="-71.4137152"/>
+  <node id="1078466036" lat="42.5148661" lon="-71.4100636"/>
+  <node id="1078466056" lat="42.4751497" lon="-71.4112632"/>
+  <node id="1078466081" lat="42.4944084" lon="-71.4188433"/>
+  <node id="1078466083" lat="42.5309020" lon="-71.3997152"/>
+  <node id="1078466092" lat="42.4869234" lon="-71.4178151"/>
+  <node id="1078466118" lat="42.5086323" lon="-71.4118631"/>
+  <node id="1078466145" lat="42.5316451" lon="-71.3993592"/>
+  <node id="1078466171" lat="42.4896200" lon="-71.4181643"/>
+  <node id="1078466191" lat="42.5282935" lon="-71.4017717"/>
+  <node id="1078466219" lat="42.4850763" lon="-71.4173405"/>
+  <node id="1078466255" lat="42.5077479" lon="-71.4123904"/>
+  <node id="1078466314" lat="42.4964496" lon="-71.4186456"/>
+  <node id="1781082786" lat="42.5163448" lon="-71.4104993"/>
+  <node id="1781082797" lat="42.5164934" lon="-71.4104134"/>
+  <node id="1781082818" lat="42.5167722" lon="-71.4104324"/>
+  <node id="1781082831" lat="42.5170441" lon="-71.4104315"/>
+  <node id="1781082848" lat="42.5172427" lon="-71.4103538"/>
+  <node id="1781082854" lat="42.5174239" lon="-71.4103202"/>
+  <node id="1781082858" lat="42.5175914" lon="-71.4102649"/>
+  <node id="1781082867" lat="42.5177166" lon="-71.4102744"/>
+  <node id="1781082885" lat="42.5177994" lon="-71.4103374"/>
+  <node id="1781082893" lat="42.5178650" lon="-71.4104617"/>
+  <node id="1781082897" lat="42.5179229" lon="-71.4105653"/>
+  <node id="2156887892" lat="42.5043564" lon="-71.4150208"/>
+  <node id="2600731130" lat="42.4897154" lon="-71.4181802"/>
+  <node id="2600731131" lat="42.4928102" lon="-71.4186570"/>
+  <node id="2600731132" lat="42.4929360" lon="-71.4186729"/>
+  <node id="2600852577" lat="42.5052053" lon="-71.4143835"/>
+  <node id="2600852578" lat="42.5052861" lon="-71.4143255"/>
+  <node id="2600852579" lat="42.5231584" lon="-71.4056604"/>
+  <node id="2600852580" lat="42.5232189" lon="-71.4056210"/>
+  <node id="2600852581" lat="42.5254860" lon="-71.4041357"/>
+  <node id="2600852582" lat="42.5255234" lon="-71.4041115"/>
+  <node id="2600852583" lat="42.5300017" lon="-71.4003156"/>
+  <node id="2600852584" lat="42.5300408" lon="-71.4002916"/>
+  <node id="2925609491" lat="42.5118867" lon="-71.4108861"/>
+  <node id="3094928618" lat="42.4920721" lon="-71.4185401"/>
+  <node id="4253399434" lat="42.5200845" lon="-71.4075715"/>
+  <node id="5484745501" lat="42.5153630" lon="-71.4101746"/>
+  <node id="5484745502" lat="42.5154247" lon="-71.4103497"/>
+  <node id="5484745503" lat="42.5154771" lon="-71.4104816"/>
+  <node id="5484745504" lat="42.5155369" lon="-71.4105831"/>
+  <node id="5484745505" lat="42.5155874" lon="-71.4106288"/>
+  <node id="5484745506" lat="42.5156361" lon="-71.4106339"/>
+  <node id="5484745507" lat="42.5156978" lon="-71.4106288"/>
+  <node id="5484745508" lat="42.5158231" lon="-71.4105730"/>
+  <node id="5484745509" lat="42.5159372" lon="-71.4105324"/>
+  <node id="5484745510" lat="42.5161037" lon="-71.4105577"/>
+  <node id="5484745511" lat="42.5161922" lon="-71.4105577"/>
+  <node id="5484745512" lat="42.5179541" lon="-71.4106108"/>
+  <node id="5484745513" lat="42.5180650" lon="-71.4107311"/>
+  <node id="5484745514" lat="42.5181521" lon="-71.4108214"/>
+  <node id="5484745515" lat="42.5182138" lon="-71.4108601"/>
+  <node id="5484745516" lat="42.5183484" lon="-71.4108880"/>
+  <node id="5484745517" lat="42.5184672" lon="-71.4108601"/>
+  <node id="5484745518" lat="42.5186620" lon="-71.4107526"/>
+  <node id="5484745519" lat="42.5187681" lon="-71.4106559"/>
+  <node id="5484745520" lat="42.5188093" lon="-71.4104991"/>
+  <node id="5484745821" lat="42.5188204" lon="-71.4103379"/>
+  <node id="5484745822" lat="42.5187855" lon="-71.4101639"/>
+  <node id="5484745823" lat="42.5187950" lon="-71.4099619"/>
+  <node id="5484745824" lat="42.5188790" lon="-71.4098201"/>
+  <node id="5484745825" lat="42.5189756" lon="-71.4097170"/>
+  <node id="5484745826" lat="42.5190231" lon="-71.4096117"/>
+  <node id="5484745828" lat="42.5190152" lon="-71.4093066"/>
+  <node id="5484745829" lat="42.5189534" lon="-71.4091648"/>
+  <node id="5484745830" lat="42.5188489" lon="-71.4090595"/>
+  <node id="5484745831" lat="42.5187491" lon="-71.4089757"/>
+  <node id="5484745832" lat="42.5187143" lon="-71.4088855"/>
+  <node id="5484745833" lat="42.5187095" lon="-71.4087329"/>
+  <node id="5484745834" lat="42.5187539" lon="-71.4085782"/>
+  <node id="5484745835" lat="42.5188600" lon="-71.4083977"/>
+  <node id="5484745836" lat="42.5189088" lon="-71.4083300"/>
+  <node id="5541432694" lat="42.4989377" lon="-71.4182565"/>
+  <node id="5541432695" lat="42.4989788" lon="-71.4181548"/>
+  <node id="5541432696" lat="42.4990292" lon="-71.4181213"/>
+  <node id="5541432697" lat="42.4995711" lon="-71.4179161"/>
+  <node id="5541432698" lat="42.4995592" lon="-71.4178571"/>
+  <node id="5541432699" lat="42.4986040" lon="-71.4183761"/>
+  <node id="5541432700" lat="42.4989007" lon="-71.4180355"/>
+  <node id="5541432701" lat="42.4988225" lon="-71.4181307"/>
+  <node id="5541432702" lat="42.4985200" lon="-71.4183748"/>
+  <node id="5541432703" lat="42.4984142" lon="-71.4183158"/>
+  <node id="5541432704" lat="42.4986604" lon="-71.4183359"/>
+  <node id="5541432705" lat="42.4998034" lon="-71.4177498"/>
+  <node id="5541432706" lat="42.5018423" lon="-71.4166208"/>
+  <node id="5541432707" lat="42.5004716" lon="-71.4174709"/>
+  <node id="5541432708" lat="42.4991115" lon="-71.4180287"/>
+  <node id="5541432709" lat="42.4989773" lon="-71.4180100"/>
+  <node id="5550080792" lat="42.4733566" lon="-71.4101935"/>
+  <node id="5607772126" lat="42.5152958" lon="-71.4100787"/>
+  <node id="5607772127" lat="42.5152283" lon="-71.4100121"/>
+  <node id="5607772128" lat="42.5151664" lon="-71.4099889"/>
+  <node id="5607772129" lat="42.5190396" lon="-71.4094715"/>
+  <node id="5607824128" lat="42.5344421" lon="-71.3981918"/>
+  <node id="5607891726" lat="42.4990313" lon="-71.4180175"/>
+  <node id="5689360238" lat="42.4767396" lon="-71.4125470"/>
+  <way id="570487025">
+    <nd ref="5484745836"/>
+    <nd ref="5484745835"/>
+    <nd ref="5484745834"/>
+    <nd ref="5484745833"/>
+    <nd ref="5484745832"/>
+    <nd ref="5484745831"/>
+    <nd ref="5484745830"/>
+    <nd ref="5484745829"/>
+    <nd ref="5484745828"/>
+    <nd ref="5607772129"/>
+    <nd ref="5484745826"/>
+    <nd ref="5484745825"/>
+    <nd ref="5484745824"/>
+    <nd ref="5484745823"/>
+    <nd ref="5484745822"/>
+    <nd ref="5484745821"/>
+    <nd ref="5484745520"/>
+    <nd ref="5484745519"/>
+    <nd ref="5484745518"/>
+    <nd ref="5484745517"/>
+    <nd ref="5484745516"/>
+    <nd ref="5484745515"/>
+    <nd ref="5484745514"/>
+    <nd ref="5484745513"/>
+    <nd ref="5484745512"/>
+    <nd ref="1781082897"/>
+    <nd ref="1781082893"/>
+    <nd ref="1781082885"/>
+    <nd ref="1781082867"/>
+    <nd ref="1781082858"/>
+    <nd ref="1781082854"/>
+    <nd ref="1781082848"/>
+    <nd ref="1781082831"/>
+    <nd ref="1781082818"/>
+    <nd ref="1781082797"/>
+    <nd ref="1781082786"/>
+    <nd ref="5484745511"/>
+    <nd ref="5484745510"/>
+    <nd ref="5484745509"/>
+    <nd ref="5484745508"/>
+    <nd ref="5484745507"/>
+    <nd ref="5484745506"/>
+    <nd ref="5484745505"/>
+    <nd ref="5484745504"/>
+    <nd ref="5484745503"/>
+    <nd ref="5484745502"/>
+    <nd ref="5484745501"/>
+    <nd ref="5607772126"/>
+    <nd ref="5607772127"/>
+    <nd ref="5607772128"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="578257487">
+    <nd ref="5541432698"/>
+    <nd ref="5541432697"/>
+    <nd ref="5541432696"/>
+    <nd ref="5541432695"/>
+    <nd ref="5541432694"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587011490">
+    <nd ref="5607772128"/>
+    <nd ref="1078466036"/>
+    <nd ref="2925609491"/>
+    <nd ref="1078465537"/>
+    <nd ref="1078466118"/>
+    <nd ref="1078466255"/>
+    <nd ref="2600852578"/>
+    <nd ref="2600852577"/>
+    <nd ref="1078465804"/>
+    <nd ref="2156887892"/>
+    <nd ref="1078465217"/>
+    <nd ref="5541432706"/>
+    <nd ref="5541432707"/>
+    <nd ref="5541432705"/>
+    <nd ref="5541432698"/>
+    <nd ref="5541432708"/>
+    <nd ref="5607891726"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587017794">
+    <nd ref="5607824128"/>
+    <nd ref="1078466145"/>
+    <nd ref="1078466083"/>
+    <nd ref="2600852584"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587017795">
+    <nd ref="2600731132"/>
+    <nd ref="2600731131"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="proposed" v="cycleway"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587017796">
+    <nd ref="2600731131"/>
+    <nd ref="3094928618"/>
+    <nd ref="2600731130"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587026531">
+    <nd ref="1078465786"/>
+    <nd ref="1078466314"/>
+    <nd ref="1078465474"/>
+    <nd ref="1078466081"/>
+    <nd ref="1078465594"/>
+    <nd ref="2600731132"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="proposed" v="cycleway"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587026540">
+    <nd ref="5607891726"/>
+    <nd ref="5541432709"/>
+    <nd ref="5541432700"/>
+    <nd ref="5541432701"/>
+    <nd ref="5541432704"/>
+    <nd ref="5541432699"/>
+    <nd ref="5541432702"/>
+    <nd ref="5541432703"/>
+    <nd ref="1078465786"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="proposed" v="cycleway"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587026544">
+    <nd ref="2600731130"/>
+    <nd ref="1078466171"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587026545">
+    <nd ref="1078466171"/>
+    <nd ref="1078466092"/>
+    <nd ref="1078465642"/>
+    <nd ref="1078466219"/>
+    <nd ref="1078465707"/>
+    <nd ref="1078465919"/>
+    <nd ref="1078465309"/>
+    <nd ref="1078466024"/>
+    <nd ref="5689360238"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587036588">
+    <nd ref="2600852584"/>
+    <nd ref="2600852583"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587036589">
+    <nd ref="2600852583"/>
+    <nd ref="1078465605"/>
+    <nd ref="1078466191"/>
+    <nd ref="1078465688"/>
+    <nd ref="2600852582"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587061798">
+    <nd ref="2600852582"/>
+    <nd ref="2600852581"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="587061799">
+    <nd ref="2600852581"/>
+    <nd ref="1078465875"/>
+    <nd ref="2600852580"/>
+    <nd ref="2600852579"/>
+    <nd ref="1078465283"/>
+    <nd ref="4253399434"/>
+    <nd ref="5484745836"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="597562838">
+    <nd ref="5689360238"/>
+    <nd ref="1078465528"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="597562839">
+    <nd ref="1078465528"/>
+    <nd ref="1078465378"/>
+    <nd ref="1078466056"/>
+    <nd ref="5550080792"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+
+</osm>
