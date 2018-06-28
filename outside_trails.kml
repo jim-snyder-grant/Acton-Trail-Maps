@@ -1965,16 +1965,6 @@
       <LineString><coordinates>-71.4807014,42.4478811 -71.4805591,42.447974 -71.4804734,42.4480255 -71.4801853,42.448277 -71.4800221,42.4483545 -71.4797682,42.448379 -71.479347,42.4483963 -71.4790064,42.4483931</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">374372271</SimpleData>
-		<SimpleData name="highway">footway</SimpleData>
-		<SimpleData name="z_order">5</SimpleData>
-		<SimpleData name="other_tags">&quot;old_name:1970&quot;=&gt;&quot;Lowell Branch&quot;,&quot;old_railway_operator&quot;=&gt;&quot;NYNH&amp;H&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;source:old_name:1970&quot;=&gt;&quot;New Haven Region Timetable No. 2, January 18, 1970&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3924462,42.456399 -71.3919044,42.4556857 -71.3912297,42.4549447 -71.390976,42.4546964</coordinates></LineString>
-  </Placemark>
-  <Placemark>
 	<name>Blue Dot Trail</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
