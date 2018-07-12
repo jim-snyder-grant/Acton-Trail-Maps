@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-06-28T17:48:02Z" areas="2018-06-28T16:52:02Z"/>
+<meta osm_base="2018-07-12T19:49:02Z" areas="2018-07-12T19:26:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1182,11 +1182,6 @@
   <node id="1011871883" lat="42.4450468" lon="-71.4076989"/>
   <node id="1011871885" lat="42.4448805" lon="-71.4078062"/>
   <node id="1080512648" lat="42.4388704" lon="-71.3933494"/>
-  <node id="1080668025" lat="42.4338194" lon="-71.4532846"/>
-  <node id="1080668215" lat="42.4346702" lon="-71.4528138"/>
-  <node id="1080668449" lat="42.4341814" lon="-71.4530491"/>
-  <node id="1080668663" lat="42.4356581" lon="-71.4525954"/>
-  <node id="1080668688" lat="42.4350966" lon="-71.4526729"/>
   <node id="1305920429" lat="42.4473443" lon="-71.4980326"/>
   <node id="1305920433" lat="42.4472561" lon="-71.4979281"/>
   <node id="1305920435" lat="42.4473155" lon="-71.4979824"/>
@@ -3323,7 +3318,7 @@
   <node id="2995107670" lat="42.4645611" lon="-71.4996066"/>
   <node id="3009671590" lat="42.5119502" lon="-71.3876499">
     <tag k="junction" v="yes"/>
-    <tag k="name" v="B6"/>
+    <tag k="name" v="B5"/>
   </node>
   <node id="3009671591" lat="42.5117746" lon="-71.3878142"/>
   <node id="3009671592" lat="42.5116018" lon="-71.3877490"/>
@@ -3351,7 +3346,10 @@
   <node id="3009671614" lat="42.5075590" lon="-71.3906670"/>
   <node id="3009671615" lat="42.5072967" lon="-71.3908343"/>
   <node id="3009671616" lat="42.5071311" lon="-71.3909004"/>
-  <node id="3009671617" lat="42.5070289" lon="-71.3909202"/>
+  <node id="3009671617" lat="42.5070289" lon="-71.3909202">
+    <tag k="junction" v="yes"/>
+    <tag k="name" v="B6"/>
+  </node>
   <node id="3009671618" lat="42.5069656" lon="-71.3905239"/>
   <node id="3009671619" lat="42.5068003" lon="-71.3901329"/>
   <node id="3009671620" lat="42.5066754" lon="-71.3900027"/>
@@ -3452,7 +3450,7 @@
   <node id="3009760254" lat="42.5288998" lon="-71.4232485"/>
   <node id="3023383844" lat="42.5121215" lon="-71.3877541">
     <tag k="junction" v="yes"/>
-    <tag k="name" v="B5"/>
+    <tag k="name" v="B1"/>
   </node>
   <node id="3023383845" lat="42.5123469" lon="-71.3877720"/>
   <node id="3023383846" lat="42.5125643" lon="-71.3875810"/>
@@ -3507,7 +3505,6 @@
   <node id="3172476043" lat="42.4938286" lon="-71.4957101"/>
   <node id="3172476044" lat="42.4940875" lon="-71.4955807"/>
   <node id="3172476045" lat="42.4942284" lon="-71.4954328"/>
-  <node id="3173935312" lat="42.4365498" lon="-71.4525954"/>
   <node id="3206612992" lat="42.5231544" lon="-71.4522329"/>
   <node id="3206612994" lat="42.5233502" lon="-71.4523919"/>
   <node id="3206612995" lat="42.5234394" lon="-71.4524643"/>
@@ -8614,18 +8611,6 @@
     <nd ref="3172476045"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Red"/>
-  </way>
-  <way id="311677034">
-    <nd ref="1080668025"/>
-    <nd ref="1080668449"/>
-    <nd ref="1080668215"/>
-    <nd ref="1080668688"/>
-    <nd ref="1080668663"/>
-    <nd ref="3173935312"/>
-    <tag k="highway" v="path"/>
-    <tag k="note:old_railway_operator" v="Fitchburg"/>
-    <tag k="old_railway_operator" v="B&amp;M"/>
-    <tag k="railway" v="abandoned"/>
   </way>
   <way id="314618398">
     <nd ref="2788353118"/>
