@@ -135,7 +135,7 @@ for arg in args:
     elif arg == "outside_trails":
         KMLcolor = "ffff00ff"
         # This is all trails outside of Acton (but no private trails)
-        filters = 'way[highway~"path|track|footway"][footway!~"sidewalk|crossing"][access!~"^private$|^no$|^customers$"]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
+        filters = 'way[highway~"path|track|footway|cycleway"][footway!~"sidewalk|crossing"][access!~"^private$|^no$|^customers$"]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
     elif arg == "parking":
         KMLcolor = "50BEBEBE"
         filters = 'way[amenity=parking][website~actontrails,i]'+IS_INSIDE_ACTON

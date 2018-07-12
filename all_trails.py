@@ -5,13 +5,16 @@ import os
 import re
 from osgeo import ogr, gdal
 
-# For combined files, retain geometry and name.
+# For combined files, retain geometry, name, and 'highway' key (to detect railtrails)
 # For geojson add new field color=blue, red, yellow, green or black.
 # For KML make sure Style/LineStyle/color gets
 # corresponding 6-digit hex values.
 # The hex colors are in OGR order "RRGGBBAA" not KML order "AABBGGRR"
 # the driver does the conversion
 # This is a list at top level so the order remains the same.
+
+RAILTRAILCOLOR = "FFA000FF" # orangey for railtrails, also sprinkled into outside_trails as needed 
+
 file2style = [
     {"base": "blue_trails",     "KML": "0000FFFF", "COLOR": "blue", "in_acton": True},
     {"base": "outside_trails",  "KML": "FF00FFFF", "COLOR": "black", "in_acton": False},
@@ -19,7 +22,9 @@ file2style = [
     {"base": "green_trails",    "KML": "14AA00FF", "COLOR": "green", "in_acton": True},
     {"base": "unblazed_trails", "KML": "FF00FFFF", "COLOR": "black", "in_acton": True},
     {"base": "red_trails",      "KML": "FF0000FF", "COLOR": "red", "in_acton": True},
+    {"base": "bike_trails",     "KML": RAILTRAILCOLOR, "COLOR": "brown", "in_acton": True},
 ]
+
 
 gdal.UseExceptions()
 
@@ -27,6 +32,7 @@ OUTFILEBASEALL = "all_trails"
 OUTFILEBASEACTON = "acton_trails"
 NAMEKEY = "name"
 COLORKEY = "color"
+HIGHWAYKEY = "highway"  # yes this key is oddly named. It's an Open Street Map convention
 
 # geoJSON writing prep
 OSMKEY = "osm_id"
@@ -50,6 +56,10 @@ outLayerActonJSON.CreateField(namefield)
 osmfield = ogr.FieldDefn(OSMKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(osmfield)
 outLayerActonJSON.CreateField(osmfield)
+
+highwayfield = ogr.FieldDefn(HIGHWAYKEY, ogr. OFTString)
+outLayerAllJSON.CreateField(highwayfield)
+outLayerActonJSON.CreateField(highwayfield)
 
 layerDefnJSON = outLayerAllJSON.GetLayerDefn()
 
@@ -75,6 +85,7 @@ for info in file2style:
     # This is an OGR style spec: http://www.gdal.org/ogr_feature_style.html
     # for writing into KML
     style = "PEN(c:#" + info["KML"] + ")"
+    style_railtrail = "PEN(c:#" + RAILTRAILCOLOR + ")"
     # is this file holding data in Acton?
     in_acton = info["in_acton"]
     # this is the value we will put into the new 'color' property in the
@@ -87,6 +98,7 @@ for info in file2style:
         geom = infeature.GetGeometryRef()
         osm_id = infeature.GetField(OSMKEY)
         name = infeature.GetField(NAMEKEY)
+        highway = infeature.GetField(HIGHWAYKEY)
         # remove the colors from the names of Acton trails
         if name:
             name = pattern.sub('',name)
@@ -98,6 +110,7 @@ for info in file2style:
         if (name):
             outfeatureJSON.SetField(NAMEKEY, name)
         outfeatureJSON.SetField(OSMKEY, osm_id)
+        outfeatureJSON.SetField(HIGHWAYKEY, highway)
         outLayerAllJSON.CreateFeature(outfeatureJSON)
         if in_acton:
             outLayerActonJSON.CreateFeature(outfeatureJSON)
@@ -106,7 +119,10 @@ for info in file2style:
     # KML writing part
         outfeatureKML = ogr.Feature(layerDefnKML)
         outfeatureKML.SetGeometry(geom)
-        outfeatureKML.SetStyleString(style)
+        if (highway == "cycleway"):
+            outfeatureKML.SetStyleString(style_railtrail)
+        else:
+            outfeatureKML.SetStyleString(style)
         outfeatureKML.SetField(COLORKEY, color)
         if (name):
             outfeatureKML.SetField(NAMEKEY, name)
