@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-06-12T02:04:02Z" areas="2018-06-12T01:17:02Z"/>
+<meta osm_base="2018-06-28T17:49:02Z" areas="2018-06-28T16:52:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -42,6 +42,10 @@
   </node>
   <node id="73215767" lat="42.4701920" lon="-71.4119970"/>
   <node id="73221250" lat="42.4700760" lon="-71.4107550"/>
+  <node id="73222430" lat="42.4937478" lon="-71.4188191">
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+  </node>
   <node id="73222728" lat="42.5271400" lon="-71.4295506">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
@@ -52,6 +56,10 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73233486" lat="42.5032420" lon="-71.4153650">
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+  </node>
+  <node id="73233826" lat="42.5225180" lon="-71.4060460">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -78,6 +86,7 @@
   </node>
   <node id="73253292" lat="42.4701740" lon="-71.4105710"/>
   <node id="73253793" lat="42.4700990" lon="-71.4110920"/>
+  <node id="73254386" lat="42.4749180" lon="-71.4111250"/>
   <node id="73255990" lat="42.5214090" lon="-71.4169810">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
@@ -94,6 +103,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73270682" lat="42.4703500" lon="-71.4123680"/>
+  <node id="73271112" lat="42.5273193" lon="-71.4026562"/>
   <node id="73271211" lat="42.4770660" lon="-71.4765360">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
@@ -169,7 +179,7 @@
   <node id="1078465309" lat="42.4787423" lon="-71.4145853"/>
   <node id="1078465378" lat="42.4759842" lon="-71.4118247"/>
   <node id="1078465474" lat="42.4952637" lon="-71.4188169"/>
-  <node id="1078465528" lat="42.4766412" lon="-71.4124492"/>
+  <node id="1078465528" lat="42.4766452" lon="-71.4124452"/>
   <node id="1078465537" lat="42.5093806" lon="-71.4115664"/>
   <node id="1078465594" lat="42.4935878" lon="-71.4188133"/>
   <node id="1078465605" lat="42.5298285" lon="-71.4004402"/>
@@ -402,7 +412,6 @@
   <node id="2147343629" lat="42.5213750" lon="-71.4181130"/>
   <node id="2147343632" lat="42.5214147" lon="-71.4168558"/>
   <node id="2147343656" lat="42.5221180" lon="-71.4197970"/>
-  <node id="2147343658" lat="42.5221890" lon="-71.4171310"/>
   <node id="2147365976" lat="42.5025475" lon="-71.4332217"/>
   <node id="2147366201" lat="42.5084900" lon="-71.4354300"/>
   <node id="2147366248" lat="42.5089878" lon="-71.4378486"/>
@@ -521,7 +530,6 @@
   <node id="2600731130" lat="42.4897154" lon="-71.4181802"/>
   <node id="2600731131" lat="42.4928102" lon="-71.4186570"/>
   <node id="2600731132" lat="42.4929360" lon="-71.4186729"/>
-  <node id="2600852576" lat="42.4767314" lon="-71.4125484"/>
   <node id="2600852577" lat="42.5052053" lon="-71.4143835"/>
   <node id="2600852578" lat="42.5052861" lon="-71.4143255"/>
   <node id="2600852579" lat="42.5231584" lon="-71.4056604"/>
@@ -2168,7 +2176,6 @@
   <node id="5286800426" lat="42.4588433" lon="-71.4500300"/>
   <node id="5286800427" lat="42.4587484" lon="-71.4499227"/>
   <node id="5286800428" lat="42.4586987" lon="-71.4498958"/>
-  <node id="5290818127" lat="42.5222205" lon="-71.4170460"/>
   <node id="5292841985" lat="42.5286173" lon="-71.4163640"/>
   <node id="5293829621" lat="42.4404667" lon="-71.4394894"/>
   <node id="5296568536" lat="42.4817340" lon="-71.4180210"/>
@@ -2347,6 +2354,8 @@
   <node id="5670637011" lat="42.5177005" lon="-71.4203449"/>
   <node id="5670637012" lat="42.5179422" lon="-71.4206238"/>
   <node id="5670638022" lat="42.5159452" lon="-71.4119740"/>
+  <node id="5689360238" lat="42.4767396" lon="-71.4125470"/>
+  <node id="5717404118" lat="42.5276066" lon="-71.4023954"/>
   <way id="9515619">
     <nd ref="73211531"/>
     <nd ref="73273174"/>
@@ -5594,7 +5603,6 @@
     <nd ref="5541432694"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
@@ -5675,6 +5683,7 @@
     <nd ref="1078466314"/>
     <nd ref="1078465474"/>
     <nd ref="1078466081"/>
+    <nd ref="73222430"/>
     <nd ref="1078465594"/>
     <nd ref="2600731132"/>
     <tag k="foot" v="yes"/>
@@ -5692,11 +5701,10 @@
     <nd ref="5541432701"/>
     <nd ref="5541432704"/>
     <nd ref="5541432699"/>
-    <nd ref="5541432702"/>
-    <nd ref="5541432703"/>
-    <nd ref="1078465786"/>
+    <tag k="bridge" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="proposed" v="cycleway"/>
     <tag k="railway" v="abandoned"/>
@@ -5723,11 +5731,7 @@
     <nd ref="1078465919"/>
     <nd ref="1078465309"/>
     <nd ref="1078466024"/>
-    <nd ref="2600852576"/>
-    <nd ref="1078465528"/>
-    <nd ref="1078465378"/>
-    <nd ref="1078466056"/>
-    <nd ref="5550080792"/>
+    <nd ref="5689360238"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
@@ -5749,6 +5753,8 @@
     <nd ref="2600852583"/>
     <nd ref="1078465605"/>
     <nd ref="1078466191"/>
+    <nd ref="5717404118"/>
+    <nd ref="73271112"/>
     <nd ref="1078465688"/>
     <nd ref="2600852582"/>
     <tag k="foot" v="yes"/>
@@ -5773,6 +5779,7 @@
     <nd ref="1078465875"/>
     <nd ref="2600852580"/>
     <nd ref="2600852579"/>
+    <nd ref="73233826"/>
     <nd ref="1078465283"/>
     <nd ref="4253399434"/>
     <nd ref="5484745836"/>
@@ -5822,15 +5829,6 @@
     <tag k="name" v="unblazed"/>
     <tag k="surface" v="dirt"/>
   </way>
-  <way id="596650384">
-    <nd ref="2147343658"/>
-    <nd ref="5290818127"/>
-    <tag k="access" v="permissive"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
-    <tag k="note" v="Acton LSC voted to not maintain this trail."/>
-    <tag k="surface" v="unpaved"/>
-  </way>
   <way id="596655673">
     <nd ref="2147343629"/>
     <nd ref="73191938"/>
@@ -5867,6 +5865,41 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
     <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="597562838">
+    <nd ref="5689360238"/>
+    <nd ref="1078465528"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="597562839">
+    <nd ref="1078465528"/>
+    <nd ref="1078465378"/>
+    <nd ref="1078466056"/>
+    <nd ref="73254386"/>
+    <nd ref="5550080792"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="601629408">
+    <nd ref="5541432699"/>
+    <nd ref="5541432702"/>
+    <nd ref="5541432703"/>
+    <nd ref="1078465786"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="proposed" v="cycleway"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 
 </osm>
