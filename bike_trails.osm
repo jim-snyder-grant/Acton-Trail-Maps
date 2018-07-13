@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-07-12T19:49:02Z" areas="2018-07-12T16:05:02Z"/>
+<meta osm_base="2018-07-13T15:32:02Z" areas="2018-07-13T10:44:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -273,6 +273,7 @@
   <node id="5754849862" lat="42.4255668" lon="-71.4679976"/>
   <node id="5754849868" lat="42.4253391" lon="-71.4683833"/>
   <node id="5754849871" lat="42.4248765" lon="-71.4692634"/>
+  <node id="5757322353" lat="42.4462965" lon="-71.4541231"/>
   <way id="570487025">
     <nd ref="5484745836"/>
     <nd ref="5484745835"/>
@@ -591,6 +592,72 @@
     <nd ref="5726355144"/>
     <nd ref="1080668152"/>
     <nd ref="1080668207"/>
+    <nd ref="5757322353"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="note:old_railway_operator" v="Fitchburg"/>
+    <tag k="old_railway_operator" v="B&amp;M"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.arrtinc.org/"/>
+  </way>
+  <way id="603108312">
+    <nd ref="5726355143"/>
+    <nd ref="1080668786"/>
+    <nd ref="1080668246"/>
+    <nd ref="5754827112"/>
+    <nd ref="1080668764"/>
+    <nd ref="1080668358"/>
+    <nd ref="1080668049"/>
+    <nd ref="1080668032"/>
+    <nd ref="1080668453"/>
+    <nd ref="1080668145"/>
+    <nd ref="1080668592"/>
+    <nd ref="1080668549"/>
+    <nd ref="1080668589"/>
+    <nd ref="1080668412"/>
+    <nd ref="5726355169"/>
+    <nd ref="5726355170"/>
+    <nd ref="5726355171"/>
+    <nd ref="5726355172"/>
+    <nd ref="5726355173"/>
+    <nd ref="5726355174"/>
+    <nd ref="5726355175"/>
+    <nd ref="5726355176"/>
+    <nd ref="5726355177"/>
+    <nd ref="5726355178"/>
+    <nd ref="5726355179"/>
+    <nd ref="5726355180"/>
+    <nd ref="5726355181"/>
+    <nd ref="5726355182"/>
+    <nd ref="5726355183"/>
+    <nd ref="5726355184"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="note:old_railway_operator" v="Fitchburg"/>
+    <tag k="old_railway_operator" v="B&amp;M"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.arrtinc.org/"/>
+  </way>
+  <way id="607164333">
+    <nd ref="5754827100"/>
+    <nd ref="5754827101"/>
+    <nd ref="5754827102"/>
+    <nd ref="5754827103"/>
+    <nd ref="5754827104"/>
+    <nd ref="5754827105"/>
+    <nd ref="5754827106"/>
+    <nd ref="5754827107"/>
+    <nd ref="5754827108"/>
+    <nd ref="5754827109"/>
+    <nd ref="5754827110"/>
+    <nd ref="5754827111"/>
+    <nd ref="5754827112"/>
+    <tag k="highway" v="cycleway"/>
+  </way>
+  <way id="607502493">
+    <nd ref="5757322353"/>
     <nd ref="5726355185"/>
     <nd ref="1080668498"/>
     <nd ref="1080668054"/>
@@ -668,61 +735,6 @@
     <tag k="railway" v="abandoned"/>
     <tag k="surface" v="asphalt"/>
     <tag k="website" v="http://www.arrtinc.org/"/>
-  </way>
-  <way id="603108312">
-    <nd ref="5726355143"/>
-    <nd ref="1080668786"/>
-    <nd ref="1080668246"/>
-    <nd ref="5754827112"/>
-    <nd ref="1080668764"/>
-    <nd ref="1080668358"/>
-    <nd ref="1080668049"/>
-    <nd ref="1080668032"/>
-    <nd ref="1080668453"/>
-    <nd ref="1080668145"/>
-    <nd ref="1080668592"/>
-    <nd ref="1080668549"/>
-    <nd ref="1080668589"/>
-    <nd ref="1080668412"/>
-    <nd ref="5726355169"/>
-    <nd ref="5726355170"/>
-    <nd ref="5726355171"/>
-    <nd ref="5726355172"/>
-    <nd ref="5726355173"/>
-    <nd ref="5726355174"/>
-    <nd ref="5726355175"/>
-    <nd ref="5726355176"/>
-    <nd ref="5726355177"/>
-    <nd ref="5726355178"/>
-    <nd ref="5726355179"/>
-    <nd ref="5726355180"/>
-    <nd ref="5726355181"/>
-    <nd ref="5726355182"/>
-    <nd ref="5726355183"/>
-    <nd ref="5726355184"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Assabet River Rail Trail"/>
-    <tag k="note:old_railway_operator" v="Fitchburg"/>
-    <tag k="old_railway_operator" v="B&amp;M"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="website" v="http://www.arrtinc.org/"/>
-  </way>
-  <way id="607164333">
-    <nd ref="5754827100"/>
-    <nd ref="5754827101"/>
-    <nd ref="5754827102"/>
-    <nd ref="5754827103"/>
-    <nd ref="5754827104"/>
-    <nd ref="5754827105"/>
-    <nd ref="5754827106"/>
-    <nd ref="5754827107"/>
-    <nd ref="5754827108"/>
-    <nd ref="5754827109"/>
-    <nd ref="5754827110"/>
-    <nd ref="5754827111"/>
-    <nd ref="5754827112"/>
-    <tag k="highway" v="cycleway"/>
   </way>
 
 </osm>
