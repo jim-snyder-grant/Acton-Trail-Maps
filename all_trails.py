@@ -22,9 +22,9 @@ file2style = [
     {"base": "green_trails",    "KML": "14AA00FF", "COLOR": "green", "in_acton": True},
     {"base": "unblazed_trails", "KML": "FF00FFFF", "COLOR": "black", "in_acton": True},
     {"base": "red_trails",      "KML": "FF0000FF", "COLOR": "red", "in_acton": True},
+    {"base": "bct",             "KML": "FF19FFFF", "COLOR": "fuschia", "in_acton": True},    
     {"base": "bike_trails",     "KML": RAILTRAILCOLOR, "COLOR": "brown", "in_acton": True},
 ]
-
 
 gdal.UseExceptions()
 
@@ -96,9 +96,18 @@ for info in file2style:
     for infeature in inlayer:
     # read from source file
         geom = infeature.GetGeometryRef()
-        osm_id = infeature.GetField(OSMKEY)
-        name = infeature.GetField(NAMEKEY)
-        highway = infeature.GetField(HIGHWAYKEY)
+        try:
+            osm_id = infeature.GetField(OSMKEY)
+        except ValueError:
+            osm_id = "Fake_osm_id"
+        try:     
+            name = infeature.GetField(NAMEKEY)
+        except ValueError:
+            name = ""
+        try:    
+            highway = infeature.GetField(HIGHWAYKEY)
+        except ValueError:
+            highway = ""
         # remove the colors from the names of Acton trails
         if name:
             name = pattern.sub('',name)
