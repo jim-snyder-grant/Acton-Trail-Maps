@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-07-13T16:30:02Z" areas="2018-07-13T16:04:02Z"/>
+<meta osm_base="2018-09-12T02:39:02Z" areas="2018-09-12T02:25:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -14,6 +14,9 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73254386" lat="42.4749180" lon="-71.4111250"/>
+  <node id="73263453" lat="42.4779194" lon="-71.4138273">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="73271112" lat="42.5273193" lon="-71.4026562"/>
   <node id="1078465217" lat="42.5039092" lon="-71.4153433"/>
   <node id="1078465283" lat="42.5217793" lon="-71.4064779"/>
@@ -74,9 +77,9 @@
   <node id="2600731131" lat="42.4928102" lon="-71.4186570"/>
   <node id="2600731132" lat="42.4929360" lon="-71.4186729"/>
   <node id="2600852577" lat="42.5052053" lon="-71.4143835"/>
-  <node id="2600852578" lat="42.5052861" lon="-71.4143255"/>
+  <node id="2600852578" lat="42.5053222" lon="-71.4143010"/>
   <node id="2600852579" lat="42.5231584" lon="-71.4056604"/>
-  <node id="2600852580" lat="42.5232189" lon="-71.4056210"/>
+  <node id="2600852580" lat="42.5232298" lon="-71.4056143"/>
   <node id="2600852581" lat="42.5254860" lon="-71.4041357"/>
   <node id="2600852582" lat="42.5255234" lon="-71.4041115"/>
   <node id="2600852583" lat="42.5300017" lon="-71.4003156"/>
@@ -189,7 +192,7 @@
   <node id="5726355181" lat="42.4590715" lon="-71.4563200"/>
   <node id="5726355182" lat="42.4591071" lon="-71.4563683"/>
   <node id="5726355183" lat="42.4591546" lon="-71.4564005"/>
-  <node id="5726355184" lat="42.4598317" lon="-71.4565014"/>
+  <node id="5726355184" lat="42.4598515" lon="-71.4565235"/>
   <node id="5754827100" lat="42.4532813" lon="-71.4569722"/>
   <node id="5754827101" lat="42.4532806" lon="-71.4569947"/>
   <node id="5754827102" lat="42.4532733" lon="-71.4570065"/>
@@ -206,6 +209,15 @@
   <node id="5757322353" lat="42.4462817" lon="-71.4541191">
     <tag k="note" v="Break near town line used by Acton Land Stewardship Committee"/>
   </node>
+  <node id="5864220291" lat="42.5052339" lon="-71.4143632"/>
+  <node id="5864220292" lat="42.4990061" lon="-71.4180140"/>
+  <way id="254298249">
+    <nd ref="2600852584"/>
+    <nd ref="2600852583"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
   <way id="570487025">
     <nd ref="5484745836"/>
     <nd ref="5484745835"/>
@@ -271,7 +283,6 @@
     <nd ref="5541432694"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587011490">
@@ -282,21 +293,10 @@
     <nd ref="1078466118"/>
     <nd ref="1078466255"/>
     <nd ref="2600852578"/>
-    <nd ref="2600852577"/>
-    <nd ref="1078465804"/>
-    <nd ref="2156887892"/>
-    <nd ref="1078465217"/>
-    <nd ref="5541432706"/>
-    <nd ref="5541432707"/>
-    <nd ref="5541432705"/>
-    <nd ref="5541432698"/>
-    <nd ref="5541432708"/>
-    <nd ref="5607891726"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587017794">
@@ -307,7 +307,6 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587017795">
@@ -318,9 +317,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="proposed" v="cycleway"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587017796">
@@ -330,7 +326,6 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026531">
@@ -344,13 +339,11 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="proposed" v="cycleway"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026540">
     <nd ref="5607891726"/>
+    <nd ref="5864220292"/>
     <nd ref="5541432709"/>
     <nd ref="5541432700"/>
     <nd ref="5541432701"/>
@@ -361,9 +354,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="proposed" v="cycleway"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026544">
@@ -374,7 +364,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026545">
@@ -385,12 +374,12 @@
     <nd ref="1078465707"/>
     <nd ref="1078465919"/>
     <nd ref="1078465309"/>
+    <nd ref="73263453"/>
     <nd ref="1078466024"/>
     <nd ref="5689360238"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587036588">
@@ -415,7 +404,6 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587061798">
@@ -426,23 +414,16 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587061799">
     <nd ref="2600852581"/>
     <nd ref="1078465875"/>
     <nd ref="2600852580"/>
-    <nd ref="2600852579"/>
-    <nd ref="73233826"/>
-    <nd ref="1078465283"/>
-    <nd ref="4253399434"/>
-    <nd ref="5484745836"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="597562838">
@@ -452,7 +433,6 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="597562839">
@@ -464,7 +444,6 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="601629408">
@@ -476,8 +455,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="proposed" v="cycleway"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="603108308">
@@ -587,6 +564,72 @@
     <nd ref="5754827111"/>
     <nd ref="5754827112"/>
     <tag k="highway" v="cycleway"/>
+  </way>
+  <way id="620693707">
+    <nd ref="2600852580"/>
+    <nd ref="2600852579"/>
+    <tag k="access" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="620693708">
+    <nd ref="2600852579"/>
+    <nd ref="73233826"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="620704011">
+    <nd ref="2600852578"/>
+    <nd ref="5864220291"/>
+    <tag k="access" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="620704013">
+    <nd ref="5864220291"/>
+    <nd ref="2600852577"/>
+    <nd ref="1078465804"/>
+    <nd ref="2156887892"/>
+    <nd ref="1078465217"/>
+    <nd ref="5541432706"/>
+    <nd ref="5541432707"/>
+    <nd ref="5541432705"/>
+    <nd ref="5541432698"/>
+    <nd ref="5541432708"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="620704015">
+    <nd ref="5541432708"/>
+    <nd ref="5607891726"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="620704019">
+    <nd ref="73233826"/>
+    <nd ref="1078465283"/>
+    <nd ref="4253399434"/>
+    <nd ref="5484745836"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 
 </osm>
