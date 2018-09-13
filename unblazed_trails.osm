@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-07-13T15:35:02Z" areas="2018-07-13T14:58:02Z"/>
+<meta osm_base="2018-09-12T02:40:03Z" areas="2018-09-12T02:29:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2219,7 +2219,16 @@
   <node id="5425489693" lat="42.5167237" lon="-71.4193669"/>
   <node id="5425489694" lat="42.5165141" lon="-71.4194299"/>
   <node id="5425489695" lat="42.5163362" lon="-71.4194460"/>
-  <node id="5425489696" lat="42.5161429" lon="-71.4194405"/>
+  <node id="5425489698" lat="42.5161448" lon="-71.4194337">
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="22"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Alexandra Way"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="surface" v="paved"/>
+    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+  </node>
   <node id="5431920453" lat="42.4645739" lon="-71.4592585"/>
   <node id="5432560914" lat="42.5025500" lon="-71.3912300"/>
   <node id="5595546885" lat="42.4821770" lon="-71.4206544"/>
@@ -5410,7 +5419,7 @@
     <nd ref="5425489693"/>
     <nd ref="5425489694"/>
     <nd ref="5425489695"/>
-    <nd ref="5425489696"/>
+    <nd ref="5425489698"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
