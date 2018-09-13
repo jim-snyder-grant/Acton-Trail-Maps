@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-06-12T00:55:02Z" areas="2018-06-11T23:02:02Z"/>
+<meta osm_base="2018-09-12T02:39:02Z" areas="2018-09-12T02:25:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -429,13 +429,13 @@
   <node id="2138420058" lat="42.4700900" lon="-71.4503300"/>
   <node id="2138420059" lat="42.4700990" lon="-71.4524930"/>
   <node id="2138420077" lat="42.4703155" lon="-71.4503665"/>
-  <node id="2139046589" lat="42.5008368" lon="-71.4513979"/>
+  <node id="2139046589" lat="42.5008348" lon="-71.4513945"/>
   <node id="2139046590" lat="42.5007411" lon="-71.4506373"/>
-  <node id="2139046593" lat="42.5009760" lon="-71.4519522">
+  <node id="2139046593" lat="42.5008747" lon="-71.4516407">
     <tag k="amenity" v="bench"/>
   </node>
-  <node id="2139046594" lat="42.5009860" lon="-71.4519478"/>
-  <node id="2139046595" lat="42.5009972" lon="-71.4519426">
+  <node id="2139046594" lat="42.5008819" lon="-71.4516380"/>
+  <node id="2139046595" lat="42.5008907" lon="-71.4516348">
     <tag k="amenity" v="bench"/>
   </node>
   <node id="2139046627" lat="42.5018815" lon="-71.4470648"/>
@@ -872,8 +872,8 @@
   <node id="4503533897" lat="42.4640288" lon="-71.4761266"/>
   <node id="4503544004" lat="42.4824000" lon="-71.4338815"/>
   <node id="4503544005" lat="42.4823817" lon="-71.4337083"/>
-  <node id="4566213609" lat="42.5009633" lon="-71.4519576"/>
-  <node id="4566213610" lat="42.5010064" lon="-71.4519389"/>
+  <node id="4566213609" lat="42.5008657" lon="-71.4516438"/>
+  <node id="4566213610" lat="42.5008981" lon="-71.4516321"/>
   <node id="4566225234" lat="42.4878994" lon="-71.4804076"/>
   <node id="4566225235" lat="42.4879785" lon="-71.4803567"/>
   <node id="4566225236" lat="42.4879943" lon="-71.4801930"/>
@@ -1515,6 +1515,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
+    <tag k="surface" v="wood"/>
   </way>
   <way id="203893358">
     <nd ref="2139046590"/>
@@ -2092,6 +2093,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
+    <tag k="surface" v="wood"/>
   </way>
   <way id="461064268">
     <nd ref="771666427"/>

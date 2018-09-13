@@ -292,9 +292,9 @@
 		<SimpleData name="osm_id">203893357</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;wood&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4513979,42.5008368 -71.4519478,42.500986 -71.4519522,42.500976 -71.4519576,42.5009633</coordinates></LineString>
+      <LineString><coordinates>-71.4513945,42.5008348 -71.451638,42.5008819 -71.4516407,42.5008747 -71.4516438,42.5008657</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
@@ -305,7 +305,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4506373,42.5007411 -71.4508237,42.5007491 -71.4512135,42.5007927 -71.4513979,42.5008368</coordinates></LineString>
+      <LineString><coordinates>-71.4506373,42.5007411 -71.4508237,42.5007491 -71.4512135,42.5007927 -71.4513945,42.5008348</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
@@ -534,9 +534,9 @@
 		<SimpleData name="osm_id">461062467</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;wood&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4519478,42.500986 -71.4519426,42.5009972 -71.4519389,42.5010064</coordinates></LineString>
+      <LineString><coordinates>-71.451638,42.5008819 -71.4516348,42.5008907 -71.4516321,42.5008981</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Blue</name>
