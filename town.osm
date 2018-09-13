@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-03-20T19:42:02Z" areas="2018-03-20T18:37:02Z"/>
+<meta osm_base="2018-09-12T02:40:03Z" areas="2018-09-12T02:25:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
+  <node id="66365835" lat="42.4457022" lon="-71.4526174"/>
   <node id="1474168153" lat="42.4503200" lon="-71.4643283"/>
   <node id="1474168155" lat="42.4637751" lon="-71.4985470"/>
   <node id="1474476433" lat="42.4369404" lon="-71.4303949"/>
@@ -39,6 +40,7 @@
   </way>
   <way id="134054953">
     <nd ref="1474476433"/>
+    <nd ref="66365835"/>
     <nd ref="5305768948"/>
     <nd ref="1474168153"/>
     <tag k="admin_level" v="8"/>
@@ -107,6 +109,7 @@
     <member type="way" ref="133980625" role="outer"/>
     <member type="way" ref="134055038" role="outer"/>
     <member type="way" ref="134062755" role="outer"/>
+    <tag k="addr:county" v="Middlesex County"/>
     <tag k="admin_level" v="8"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Acton"/>

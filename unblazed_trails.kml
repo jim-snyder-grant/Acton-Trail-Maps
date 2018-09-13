@@ -1850,7 +1850,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.419302,42.516871 -71.4193669,42.5167237 -71.4194299,42.5165141 -71.419446,42.5163362 -71.4194405,42.5161429</coordinates></LineString>
+      <LineString><coordinates>-71.419302,42.516871 -71.4193669,42.5167237 -71.4194299,42.5165141 -71.419446,42.5163362 -71.4194337,42.5161448</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
