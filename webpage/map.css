@@ -61,8 +61,8 @@ nav .brand-logo {
 }
 
 /* to fit all those conservation lands without scrolling dropdown on normal desktop */
-.dropdown-content li {min-height:20px;}
-.dropdown-content li > a {padding: 6px 16px;}
+.dropdown-content li {min-height:18px;}
+.dropdown-content li > a {padding: 5px 1em;}
 /* to make checkbox match regular menu items */
 .dropdown-content li > a label {color:rgb(38, 166, 154);}
 
