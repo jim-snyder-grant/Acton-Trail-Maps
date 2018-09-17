@@ -18,6 +18,8 @@ LandsWithTrails=[];
         
 NAMEKEY = "name"
 URLKEY = "website"
+OSMKEY = "osm_id"
+OSMWAYKEY = "osm_way_id"
 TRAILKEY = "trails"
 # So far, just '1' for lands that have no trails, and '2' for lands that do.
 LABELSIZEKEY = "labelsize"
@@ -34,12 +36,17 @@ outLayer = outfile.CreateLayer("centroids")
 # Add fields
 nameField = ogr.FieldDefn(NAMEKEY, ogr. OFTString)
 outLayer.CreateField(nameField)
+
+osmfield = ogr.FieldDefn(OSMKEY, ogr. OFTString)
+outLayer.CreateField(osmfield)
+
 labelSizeField = ogr.FieldDefn(LABELSIZEKEY, ogr. OFTInteger)
 outLayer.CreateField(labelSizeField)
 
 for infeature in inlayer:
     geom = infeature.GetGeometryRef()
     name = infeature.GetField(NAMEKEY)
+    osm_id = infeature.GetField(OSMKEY) or infeature.GetField(OSMWAYKEY) 
     if (name):
         if name in landInfo:
             # print name, landInfo [name]
@@ -58,6 +65,7 @@ for infeature in inlayer:
             envjs.write( "\"%s\": {\"envelope\":[[%f,%f], [%f,%f]],\"url\":\"%s\"},\n" %(name, env[0],env[2],env[1],env[3],url))
             
             outfeature.SetField(NAMEKEY, name)
+            outfeature.SetField(OSMKEY, osm_id)
             outfeature.SetField(LABELSIZEKEY, labelsize)
             outLayer.CreateFeature(outfeature)
             outfeature = None
@@ -71,6 +79,4 @@ envjs.write("};\n")
 dropdown = open("webpage/dropdown.html", "w");
 for name in sorted(LandsWithTrails):
     dropdown.write(r'<li><a href="#!">'+name+r'</a></li>'+'\n');
-
-
 
