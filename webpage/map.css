@@ -51,7 +51,7 @@ nav .brand-logo {
         font-size: 22px;
         padding: 0px;
         position: absolute;
-        left: 0px;
+        left: 7px;
         top:var(--navbar-height);
         overflow: auto;
         /* background: rgba(255, 255, 255, 1.0); */
