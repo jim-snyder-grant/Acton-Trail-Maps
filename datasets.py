@@ -60,7 +60,10 @@ except EnvironmentError:
 newDict = {}
 for feat in newFromFile['features']:
     # regularize the use of osm_id (OSM sometimes uses osm_way_id instead
-    id = feat['properties']['osm_id'] or feat['properties']['osm_way_id'] 
+    if 'osm_id' in feat['properties']:
+        id = feat['properties']['osm_id']
+    if 'osm_way_id' in feat['properties']:
+        id = feat['properties']['osm_way_id']
     feat['properties']['osm_id'] = id
     newDict [id] = feat
 #    print ("name=", feat['properties']['name']," id=",id)
