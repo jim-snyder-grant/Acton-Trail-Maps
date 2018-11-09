@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-09-13T14:14:02Z" areas="2018-09-13T13:48:02Z"/>
+<meta osm_base="2018-11-08T23:22:02Z" areas="2018-11-08T22:26:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -4975,6 +4975,12 @@
   <node id="5290848889" lat="42.4862146" lon="-71.4831512"/>
   <node id="5292841985" lat="42.5286173" lon="-71.4163640"/>
   <node id="5305768949" lat="42.5068597" lon="-71.3915748"/>
+  <node id="5308664412" lat="42.4337112" lon="-71.4534424">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="5308664413" lat="42.4337470" lon="-71.4533560">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="5367261796" lat="42.4520096" lon="-71.4803738"/>
   <node id="5367261797" lat="42.4521154" lon="-71.4803763"/>
   <node id="5367261798" lat="42.4536233" lon="-71.4809505"/>
@@ -4994,6 +5000,7 @@
     <tag k="entrance" v="yes"/>
   </node>
   <node id="5551482115" lat="42.4338158" lon="-71.4533551"/>
+  <node id="5551482343" lat="42.4336930" lon="-71.4533461"/>
   <node id="5581152952" lat="42.4560714" lon="-71.5007051"/>
   <node id="5581152953" lat="42.4560166" lon="-71.5004531"/>
   <node id="5581152954" lat="42.4560646" lon="-71.5002661"/>
@@ -5165,6 +5172,7 @@
   <node id="5742709598" lat="42.4367034" lon="-71.4525954"/>
   <node id="5742709599" lat="42.4372576" lon="-71.4526530"/>
   <node id="5754848811" lat="42.4340060" lon="-71.4531552"/>
+  <node id="5754848812" lat="42.4337986" lon="-71.4533654"/>
   <node id="5754848814" lat="42.4337340" lon="-71.4535630"/>
   <node id="5754848815" lat="42.4334365" lon="-71.4538582"/>
   <node id="5754848816" lat="42.4333150" lon="-71.4539797"/>
@@ -11909,6 +11917,18 @@
     <nd ref="5864071724"/>
     <nd ref="5864071725"/>
     <nd ref="5754849826"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.arrtinc.org/"/>
+  </way>
+  <way id="609389692">
+    <nd ref="5551482115"/>
+    <nd ref="5754848812"/>
+    <nd ref="5308664413"/>
+    <nd ref="5551482343"/>
+    <nd ref="5308664412"/>
+    <nd ref="5754848814"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Assabet River Rail Trail"/>
     <tag k="surface" v="asphalt"/>
