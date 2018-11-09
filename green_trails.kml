@@ -41,7 +41,7 @@
 		<SimpleData name="osm_id">461057524</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4069,42.50815 -71.4067651,42.5080576 -71.4065867,42.5079548 -71.4064432,42.5079142 -71.4064151,42.5079192 -71.4062515,42.5080398 -71.4060905,42.5080912 -71.4059967,42.5082029 -71.4058009,42.5083047</coordinates></LineString>
   </Placemark>

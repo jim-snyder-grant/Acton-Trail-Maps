@@ -3466,6 +3466,17 @@
 	<name>Assabet River Rail Trail</name>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">609389692</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4533551,42.4338158 -71.4533654,42.4337986 -71.453356,42.433747 -71.4533461,42.433693 -71.4534424,42.4337112 -71.453563,42.433734</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Assabet River Rail Trail</name>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">609389693</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">5</SimpleData>

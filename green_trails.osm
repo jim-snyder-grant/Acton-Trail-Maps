@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-10-23T02:05:02Z" areas="2017-10-23T00:05:02Z"/>
+<meta osm_base="2018-11-08T23:23:03Z" areas="2018-11-08T22:22:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -92,6 +92,7 @@
     <nd ref="4566190373"/>
     <nd ref="4566190374"/>
     <nd ref="4566190375"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Green"/>
     <tag k="surface" v="unpaved"/>

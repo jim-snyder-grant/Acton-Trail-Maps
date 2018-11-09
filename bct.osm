@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-09-12T03:20:02Z"/>
+<meta osm_base="2018-11-08T23:22:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1037,6 +1037,8 @@
   <node id="5864239853" lat="42.5189101" lon="-71.4041638"/>
   <node id="5864239854" lat="42.5190137" lon="-71.4038090"/>
   <node id="5897680392" lat="42.4854619" lon="-71.4031638"/>
+  <node id="5976861307" lat="42.5080544" lon="-71.4097993"/>
+  <node id="5976861308" lat="42.5079728" lon="-71.4099403"/>
   <way id="8915136">
     <nd ref="65211382"/>
     <nd ref="65237142"/>
@@ -1154,7 +1156,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="track"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="BCT Yellow"/>
+    <tag k="name" v="Yellow"/>
   </way>
   <way id="205716939">
     <nd ref="2156888005"/>
@@ -1168,7 +1170,7 @@
     <nd ref="3067587754"/>
     <nd ref="2156888063"/>
     <tag k="access" v="yes"/>
-    <tag k="foot" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
@@ -1567,7 +1569,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="BCT Yellow"/>
+    <tag k="name" v="Yellow"/>
   </way>
   <way id="302623829">
     <nd ref="65204330"/>
@@ -1863,9 +1865,7 @@
     <nd ref="2156888226"/>
     <nd ref="3190896075"/>
     <nd ref="2156888212"/>
-    <nd ref="3190896073"/>
-    <nd ref="2156888184"/>
-    <nd ref="2156888200"/>
+    <nd ref="5976861307"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
@@ -2161,6 +2161,29 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Yellow"/>
     <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="633129332">
+    <nd ref="5976861308"/>
+    <nd ref="2156888184"/>
+    <nd ref="2156888200"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Yellow"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="633129333">
+    <nd ref="5976861307"/>
+    <nd ref="3190896073"/>
+    <nd ref="5976861308"/>
+    <tag k="access" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Yellow"/>
+    <tag k="surface" v="wood"/>
   </way>
 
 </osm>
