@@ -16,7 +16,7 @@ import shutil    # higher level file operations
 import subprocess
 
 regularArguments = {
-    'bct', 'bike_trails', 'blue_trails', 'bounds', 'camping', 'green_trails',
+    'bct', 'bike_trails', 'bike_trails_extended','blue_trails', 'bounds', 'camping', 'green_trails',
     'outside_trails', 'parking', 'parking_street', 'red_trails', 'town',
      'unblazed_trails', 'yellow_trails'
 }
@@ -42,6 +42,8 @@ else:
 # Box of area we are generating map for, also makes searches go more quickly
 # than just using the Acton area test.
 ACTON_BBOX = "[bbox:42.433,-71.5,42.534,-71.384];"
+# a bit less than the maximium bounds of online map
+MAP_BBOX = "[bbox:42.323,-71.6,42.653,-71.32];"
 # Using an Acton Area ID lets us detect trails that are in the bounding box
 # but not in Acton.
 ACTON_AREA_ID = "3601832779"
@@ -106,6 +108,9 @@ for arg in args:
 
     # by default, extract lines. But exceptions are made below
     geometry = "lines"
+    
+    # by default, extract only within Acton bounding box. 
+    bounding_box = ACTON_BBOX
 
     if arg == "bct":
         KMLcolor = "55FF78F0"
@@ -113,6 +118,10 @@ for arg in args:
     elif arg == "bike_trails":
         KMLcolor = "501450FF"
         filters = 'way[highway="cycleway"]'+IS_INSIDE_ACTON
+    elif arg == "bike_trails_extended":
+        KMLcolor = "501450FF"
+        filters = '(way[highway="cycleway"]; - way'+IS_INSIDE_ACTON+';)'
+        bounding_box = MAP_BBOX
     elif arg == "blue_trails":
         KMLcolor = "ffff0000"
         filters = TRAILS_FILTER+'~"blue",i][name!~"'+SPECIAL_TRAIL+'"]'+IS_INSIDE_ACTON
@@ -179,7 +188,7 @@ for arg in args:
     # kmlDriver = gdal.GetDriverByName("KML")
     # geojsonDriver = gdal.GetDriverByName("GeoJSON")
 
-    url = "http://overpass-api.de/api/interpreter?data="+ACTON_BBOX+filters+";(._;>;);out body;"
+    url = "http://overpass-api.de/api/interpreter?data="+bounding_box+filters+";(._;>;);out body;"
     response = requests.get(url)
     while 429 == response.status_code or 504 == response.status_code:
         time_delay = time_delay+3
@@ -195,7 +204,7 @@ for arg in args:
         exit(1)
     contents = response.text
     argFile = open(osmFile, 'w')
-    argFile.write(contents)
+    argFile.write(contents.encode('utf8'))
     argFile.close()
 
     if os.path.exists(osmFile):

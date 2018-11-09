@@ -2832,7 +2832,7 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">brown</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4099889,42.5151664 -71.4100636,42.5148661 -71.4108861,42.5118867 -71.4115664,42.5093806 -71.4118631,42.5086323 -71.4123904,42.5077479 -71.414301,42.5053222</coordinates></LineString>
+      <LineString><coordinates>-71.4099889,42.5151664 -71.4100636,42.5148661 -71.4105445,42.5131241 -71.4108861,42.5118867 -71.4115664,42.5093806 -71.4118033,42.5087831 -71.4118631,42.5086323 -71.4123904,42.5077479 -71.414301,42.5053222</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>

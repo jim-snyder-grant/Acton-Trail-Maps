@@ -24,6 +24,7 @@ file2style = [
     {"base": "red_trails",      "KML": "FF0000FF", "COLOR": "red", "in_acton": True},
     {"base": "bct",             "KML": "FF19FFFF", "COLOR": "fuschia", "in_acton": True},    
     {"base": "bike_trails",     "KML": RAILTRAILCOLOR, "COLOR": "brown", "in_acton": True},
+    {"base": "bike_trails_extended",     "KML": RAILTRAILCOLOR, "COLOR": "brown", "in_acton": False},
 ]
 
 gdal.UseExceptions()

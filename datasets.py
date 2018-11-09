@@ -137,7 +137,11 @@ if len(newDict):
     for id, newFeat in newDict.items():
         print "!-----New feature:"
         noChanges = False
-        print ("name=", newFeat['properties']['name']," id=",id)
+        try:
+            name = newFeat['properties']['name'];
+        except KeyError:
+            name = "(no name)"
+        print ("name=", name," id=",id)
         if doUpdates:
             retval = datasets.update_feature(dsId, id, newFeat)
             if retval.status_code in (200,204):
