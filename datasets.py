@@ -61,12 +61,13 @@ newDict = {}
 for feat in newFromFile['features']:
     # regularize the use of osm_id (OSM sometimes uses osm_way_id instead
     if 'osm_id' in feat['properties']:
-        id = feat['properties']['osm_id']
+        osm_id = feat['properties']['osm_id']
     if 'osm_way_id' in feat['properties']:
-        id = feat['properties']['osm_way_id']
+        osm_way_id = feat['properties']['osm_way_id']
+    id = osm_id or osm_way_id    
     feat['properties']['osm_id'] = id
     newDict [id] = feat
-#    print ("name=", feat['properties']['name']," id=",id)
+    print ("name=", feat['properties']['name']," id=",id)
 print('new file has ',len(newDict),' features')
 
 datasets = Datasets()
