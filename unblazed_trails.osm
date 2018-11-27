@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
+<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-09T01:49:02Z" areas="2018-11-09T00:51:02Z"/>
+<meta osm_base="2018-11-27T19:39:02Z" areas="2018-11-27T19:07:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -891,7 +891,7 @@
   <node id="3929606397" lat="42.4646656" lon="-71.4755802"/>
   <node id="3929606403" lat="42.4874955" lon="-71.4789560"/>
   <node id="3929612886" lat="42.5024686" lon="-71.3913549"/>
-  <node id="4154044999" lat="42.4823280" lon="-71.4374414"/>
+  <node id="4154044999" lat="42.4823285" lon="-71.4374709"/>
   <node id="4154045000" lat="42.4823308" lon="-71.4375632"/>
   <node id="4154045001" lat="42.4823349" lon="-71.4376148"/>
   <node id="4154045005" lat="42.4825622" lon="-71.4371632"/>
@@ -1966,6 +1966,11 @@
   <node id="5078009098" lat="42.4818471" lon="-71.4356412"/>
   <node id="5078009099" lat="42.4817402" lon="-71.4357461"/>
   <node id="5078009100" lat="42.4818393" lon="-71.4357789"/>
+  <node id="5080628588" lat="42.5141347" lon="-71.4019824"/>
+  <node id="5080628589" lat="42.5140399" lon="-71.4020147"/>
+  <node id="5080628590" lat="42.5138323" lon="-71.4021702"/>
+  <node id="5080628591" lat="42.5137462" lon="-71.4023553"/>
+  <node id="5080628592" lat="42.5136988" lon="-71.4024506"/>
   <node id="5080633984" lat="42.5185099" lon="-71.4032471"/>
   <node id="5080633985" lat="42.5183834" lon="-71.4033303"/>
   <node id="5080633986" lat="42.5182964" lon="-71.4033652"/>
@@ -2068,7 +2073,6 @@
   <node id="5110135604" lat="42.4781903" lon="-71.4779681"/>
   <node id="5110135605" lat="42.4781674" lon="-71.4779664"/>
   <node id="5110135606" lat="42.4781281" lon="-71.4779526"/>
-  <node id="5110135607" lat="42.4780250" lon="-71.4780317"/>
   <node id="5110135608" lat="42.4779250" lon="-71.4781179"/>
   <node id="5110135609" lat="42.4778069" lon="-71.4782263"/>
   <node id="5110135610" lat="42.4776774" lon="-71.4782573"/>
@@ -2262,6 +2266,22 @@
   <node id="6004080831" lat="42.4921409" lon="-71.4175983"/>
   <node id="6006302485" lat="42.5081354" lon="-71.4111627"/>
   <node id="6047579191" lat="42.5222174" lon="-71.4170569"/>
+  <node id="6053930219" lat="42.5079818" lon="-71.4071287"/>
+  <node id="6053930220" lat="42.5080435" lon="-71.4073037"/>
+  <node id="6094189653" lat="42.4782384" lon="-71.4160471"/>
+  <node id="6094199800" lat="42.4785231" lon="-71.4164917"/>
+  <node id="6094199801" lat="42.4785478" lon="-71.4164099"/>
+  <node id="6094199802" lat="42.4786071" lon="-71.4164206"/>
+  <node id="6094199803" lat="42.4787357" lon="-71.4164555"/>
+  <node id="6094199804" lat="42.4788435" lon="-71.4164984"/>
+  <node id="6094199805" lat="42.4789612" lon="-71.4166043"/>
+  <node id="6094199806" lat="42.4786494" lon="-71.4164320"/>
+  <node id="6094199807" lat="42.4786309" lon="-71.4162717"/>
+  <node id="6094199808" lat="42.4786121" lon="-71.4161805"/>
+  <node id="6094199809" lat="42.4785893" lon="-71.4161483"/>
+  <node id="6094199810" lat="42.4785438" lon="-71.4161296"/>
+  <node id="6094199811" lat="42.4783727" lon="-71.4160813"/>
+  <node id="6094491444" lat="42.4780250" lon="-71.4780317"/>
   <way id="9515140">
     <nd ref="2156888467"/>
     <nd ref="73234503"/>
@@ -3135,10 +3155,9 @@
   <way id="414234790">
     <nd ref="2118697761"/>
     <nd ref="4154044999"/>
-    <nd ref="4154045000"/>
-    <nd ref="4154045001"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="surface" v="fine_gravel"/>
   </way>
   <way id="414234791">
     <nd ref="4154045005"/>
@@ -4716,6 +4735,18 @@
     <tag k="highway" v="track"/>
     <tag k="surface" v="unpaved"/>
   </way>
+  <way id="521417309">
+    <nd ref="5080628588"/>
+    <nd ref="5080628589"/>
+    <nd ref="5080628590"/>
+    <nd ref="5080628591"/>
+    <nd ref="5080628592"/>
+    <tag k="access" v="permissive"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="dirt"/>
+  </way>
   <way id="521418163">
     <nd ref="4699934056"/>
     <nd ref="5080633984"/>
@@ -4885,7 +4916,7 @@
     <nd ref="5110135604"/>
     <nd ref="5110135605"/>
     <nd ref="5110135606"/>
-    <nd ref="5110135607"/>
+    <nd ref="6094491444"/>
     <nd ref="5110135608"/>
     <nd ref="5110135609"/>
     <nd ref="5110135610"/>
@@ -5533,6 +5564,56 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="ground"/>
+  </way>
+  <way id="643258194">
+    <nd ref="6053930219"/>
+    <nd ref="6053930220"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="ground"/>
+  </way>
+  <way id="647111070">
+    <nd ref="4154044999"/>
+    <nd ref="4154045000"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="wood"/>
+  </way>
+  <way id="647111071">
+    <nd ref="4154045000"/>
+    <nd ref="4154045001"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="surface" v="fine_gravel"/>
+  </way>
+  <way id="649338103">
+    <nd ref="6094199800"/>
+    <nd ref="6094199801"/>
+    <nd ref="6094199802"/>
+    <nd ref="6094199806"/>
+    <nd ref="6094199803"/>
+    <nd ref="6094199804"/>
+    <nd ref="6094199805"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="no"/>
+    <tag k="motor_vehicle" v="no"/>
+  </way>
+  <way id="649338104">
+    <nd ref="6094199806"/>
+    <nd ref="6094199807"/>
+    <nd ref="6094199808"/>
+    <nd ref="6094199809"/>
+    <nd ref="6094199810"/>
+    <nd ref="6094199811"/>
+    <nd ref="6094189653"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="horse" v="no"/>
+    <tag k="motor_vehicle" v="no"/>
   </way>
 
 </osm>
