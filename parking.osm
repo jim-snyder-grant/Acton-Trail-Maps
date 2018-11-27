@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-27T18:50:02Z" areas="2018-11-27T18:31:03Z"/>
+<meta osm_base="2018-11-27T19:11:02Z" areas="2018-11-27T18:31:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -138,6 +138,15 @@
   <node id="5431797242" lat="42.5016013" lon="-71.3905305"/>
   <node id="5432555338" lat="42.5017194" lon="-71.3906336"/>
   <node id="5432555339" lat="42.5015045" lon="-71.3907950"/>
+  <node id="5550319421" lat="42.5321991" lon="-71.4001465"/>
+  <node id="5550319422" lat="42.5318903" lon="-71.4003591"/>
+  <node id="5550319423" lat="42.5317609" lon="-71.3999062"/>
+  <node id="5550319424" lat="42.5320765" lon="-71.3996998"/>
+  <node id="5550319425" lat="42.5320470" lon="-71.4002513"/>
+  <node id="5754823443" lat="42.4533112" lon="-71.4566376"/>
+  <node id="5754823444" lat="42.4533015" lon="-71.4569664"/>
+  <node id="5754823445" lat="42.4531365" lon="-71.4569533"/>
+  <node id="5754823446" lat="42.4531452" lon="-71.4566231"/>
   <node id="6094189658" lat="42.4785459" lon="-71.4168483"/>
   <node id="6094189659" lat="42.4785283" lon="-71.4164468"/>
   <node id="6094189660" lat="42.4782709" lon="-71.4164675"/>
@@ -501,6 +510,35 @@
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+  </way>
+  <way id="579578261">
+    <nd ref="5550319421"/>
+    <nd ref="5550319425"/>
+    <nd ref="5550319422"/>
+    <nd ref="5550319423"/>
+    <nd ref="5550319424"/>
+    <nd ref="5550319421"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="Bruce Freeman Rail Trail North Acton Parking"/>
+    <tag k="website" v="https://brucefreemanrailtrail.org/"/>
+  </way>
+  <way id="607163720">
+    <nd ref="5754823443"/>
+    <nd ref="5754823444"/>
+    <nd ref="5754823445"/>
+    <nd ref="5754823446"/>
+    <nd ref="5754823443"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="4"/>
+    <tag k="fee" v="no"/>
+    <tag k="handicap" v="1"/>
+    <tag k="name" v="Assabet River Rail Trail Parking"/>
+    <tag k="park_ride" v="no"/>
+    <tag k="parking" v="surface"/>
+    <tag k="supervised" v="no"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.arrtinc.org/"/>
   </way>
   <way id="649336759">
     <nd ref="6094189658"/>

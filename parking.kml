@@ -227,6 +227,26 @@
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4154106,42.520557 -71.4155048,42.5205256 -71.4154666,42.5204418 -71.4153627,42.5203716 -71.4153184,42.5203874 -71.4154106,42.520557</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
+	<name>Bruce Freeman Rail Trail North Acton Parking</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">579578261</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;website&quot;=&gt;&quot;https://brucefreemanrailtrail.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4001465,42.5321991 -71.4002513,42.532047 -71.4003591,42.5318903 -71.3999062,42.5317609 -71.3996998,42.5320765 -71.4001465,42.5321991</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Assabet River Rail Trail Parking</name>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">607163720</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;capacity&quot;=&gt;&quot;4&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;handicap&quot;=&gt;&quot;1&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4566376,42.4533112 -71.4569664,42.4533015 -71.4569533,42.4531365 -71.4566231,42.4531452 -71.4566376,42.4533112</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
 	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">649336759</SimpleData>
