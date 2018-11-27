@@ -31,7 +31,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.40833,42.5189088 -71.4083977,42.51886 -71.4085782,42.5187539 -71.4087329,42.5187095 -71.4088855,42.5187143 -71.4089757,42.5187491 -71.4090595,42.5188489 -71.4091648,42.5189534 -71.4093066,42.5190152 -71.4094715,42.5190396 -71.4096117,42.5190231 -71.409717,42.5189756 -71.4098201,42.518879 -71.4099619,42.518795 -71.4101639,42.5187855 -71.4103379,42.5188204 -71.4104991,42.5188093 -71.4106559,42.5187681 -71.4107526,42.518662 -71.4108601,42.5184672 -71.410888,42.5183484 -71.4108601,42.5182138 -71.4108214,42.5181521 -71.4107311,42.518065 -71.4106108,42.5179541 -71.4105653,42.5179229 -71.4104617,42.517865 -71.4103374,42.5177994 -71.4102744,42.5177166 -71.4102649,42.5175914 -71.4103202,42.5174239 -71.4103538,42.5172427 -71.4104315,42.5170441 -71.4104324,42.5167722 -71.4104134,42.5164934 -71.4104993,42.5163448 -71.4105577,42.5161922 -71.4105577,42.5161037 -71.4105324,42.5159372 -71.410573,42.5158231 -71.4106288,42.5156978 -71.4106339,42.5156361 -71.4106288,42.5155874 -71.4105831,42.5155369 -71.4104816,42.5154771 -71.4103497,42.5154247 -71.4101746,42.515363 -71.4100787,42.5152958 -71.4100121,42.5152283 -71.4099889,42.5151664</coordinates></LineString>
+      <LineString><coordinates>-71.40833,42.5189088 -71.4083977,42.51886 -71.4085782,42.5187539 -71.4087329,42.5187095 -71.4088855,42.5187143 -71.4089757,42.5187491 -71.4090595,42.5188489 -71.4091648,42.5189534 -71.4093066,42.5190152 -71.4094715,42.5190396 -71.4096117,42.5190231 -71.409717,42.5189756 -71.4098201,42.518879 -71.4099619,42.518795 -71.4101639,42.5187855 -71.4103379,42.5188204 -71.4104991,42.5188093 -71.4106559,42.5187681 -71.4107526,42.518662 -71.4108601,42.5184672 -71.410888,42.5183484 -71.4108601,42.5182138 -71.4108214,42.5181521 -71.4107311,42.518065 -71.4106108,42.5179541 -71.4105653,42.5179229 -71.4104617,42.517865 -71.4103374,42.5177994 -71.4102744,42.5177166 -71.4102649,42.5175914 -71.4103202,42.5174239 -71.4103538,42.5172427 -71.4104315,42.5170441 -71.4104324,42.5167722 -71.4104134,42.5164934 -71.4104993,42.5163448 -71.4105577,42.5161922 -71.4105577,42.5161037 -71.4105324,42.5159372 -71.410573,42.5158231 -71.4106288,42.5156978 -71.4106339,42.5156361 -71.4106288,42.5155874 -71.4105803,42.5155341 -71.4104816,42.5154771 -71.4103497,42.5154247 -71.4101746,42.515363 -71.4100787,42.5152958 -71.4100121,42.5152283 -71.4099889,42.5151664</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -250,7 +250,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;note:old_railway_operator&quot;=&gt;&quot;Fitchburg&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4557475,42.4500049 -71.4565217,42.4514086 -71.4568767,42.4522237 -71.4570568,42.4528643 -71.4570684,42.4529057 -71.457136,42.4535004 -71.4571529,42.4540784 -71.4570853,42.4545566 -71.4569838,42.4549434 -71.4567753,42.4553468 -71.4563188,42.4559996 -71.4560989,42.4563292 -71.4559158,42.4567554 -71.4556903,42.4576806 -71.4557085,42.4578169 -71.4556763,42.4579911 -71.4556548,42.4581098 -71.4557353,42.4581889 -71.4558479,42.4582325 -71.4559713,42.458276 -71.4560196,42.4583354 -71.4559981,42.4584185 -71.4558104,42.4588736 -71.4558211,42.458933 -71.4558587,42.4589765 -71.455923,42.4590082 -71.45632,42.4590715 -71.4563683,42.4591071 -71.4564005,42.4591546 -71.4565235,42.4598515</coordinates></LineString>
+      <LineString><coordinates>-71.4557475,42.4500049 -71.4565217,42.4514086 -71.4568767,42.4522237 -71.4570568,42.4528643 -71.4570684,42.4529057 -71.457136,42.4535004 -71.4571529,42.4540784 -71.4570853,42.4545566 -71.4569838,42.4549434 -71.4567753,42.4553468 -71.4563188,42.4559996 -71.4560989,42.4563292 -71.4559158,42.4567554 -71.4557816,42.4573615</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -326,6 +326,28 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.406046,42.522518 -71.4064779,42.5217793 -71.4075715,42.5200845 -71.40833,42.5189088</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Assabet River Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">647120018</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">15</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Fitchburg&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4557816,42.4573615 -71.4557131,42.4575893</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Assabet River Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">647120019</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">5</SimpleData>
+		<SimpleData name="other_tags">&quot;note:old_railway_operator&quot;=&gt;&quot;Fitchburg&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4557131,42.4575893 -71.4556903,42.4576806 -71.4557085,42.4578169 -71.4556763,42.4579911 -71.4556548,42.4581098 -71.4557353,42.4581889 -71.4558479,42.4582325 -71.4559713,42.458276 -71.4560196,42.4583354 -71.4559981,42.4584185 -71.4558104,42.4588736 -71.4558211,42.458933 -71.4558587,42.4589765 -71.455923,42.4590082 -71.45632,42.4590715 -71.4563683,42.4591071 -71.4564005,42.4591546 -71.4565235,42.4598515</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>

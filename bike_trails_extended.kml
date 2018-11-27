@@ -817,7 +817,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;oneway&quot;=&gt;&quot;no&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;2&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.5778783,42.5800203 -71.5775785,42.5813073 -71.577396,42.582097 -71.5772746,42.5826099 -71.5771454,42.5831598 -71.5770748,42.5834806</coordinates></LineString>
+      <LineString><coordinates>-71.5778783,42.5800321 -71.5775785,42.5813073 -71.577396,42.582097 -71.5772746,42.5826099 -71.5771454,42.5831598 -71.5770748,42.5834806</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Nashua River Rail Trail</name>
@@ -828,7 +828,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;oneway&quot;=&gt;&quot;no&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;2&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.5896215,42.5599141 -71.589632,42.560034 -71.589664,42.560242 -71.589721,42.560539 -71.5897428,42.5609873 -71.5897317,42.5613763 -71.5897456,42.5619398 -71.5897498,42.5622465 -71.5897596,42.5624385 -71.589755,42.562532 -71.589636,42.563042 -71.589392,42.563808 -71.588975,42.565047 -71.588541,42.566179 -71.588108,42.567394 -71.587691,42.568478 -71.587369,42.569312 -71.587129,42.569848 -71.586678,42.570408 -71.586195,42.570873 -71.5855914,42.571328 -71.5849081,42.5717389 -71.583909,42.572387 -71.582879,42.572995 -71.5809216,42.574177 -71.5804426,42.5744985 -71.5800388,42.5748734 -71.579573,42.5753695 -71.5791604,42.5758921 -71.578972,42.576235 -71.5788066,42.5765808 -71.5786006,42.5771422 -71.578454,42.577726 -71.5779844,42.5795795 -71.577941,42.579751 -71.5778783,42.5800203</coordinates></LineString>
+      <LineString><coordinates>-71.5897631,42.5609034 -71.5897317,42.5613882 -71.5897456,42.5619517 -71.5897498,42.5622584 -71.5897596,42.5624504 -71.589755,42.5625439 -71.589636,42.5630539 -71.589392,42.5638199 -71.588975,42.5650589 -71.588541,42.5661909 -71.588108,42.5674059 -71.587691,42.5684899 -71.587369,42.5693239 -71.587129,42.5698599 -71.586678,42.5704199 -71.586195,42.5708849 -71.5855914,42.5713399 -71.5849081,42.5717508 -71.583909,42.5723989 -71.582879,42.5730069 -71.5809216,42.5741889 -71.5804426,42.5745104 -71.5800388,42.5748853 -71.579573,42.5753814 -71.5791604,42.575904 -71.578972,42.5762469 -71.5788066,42.5765927 -71.5786006,42.5771541 -71.578454,42.5777379 -71.5779844,42.5795914 -71.577941,42.5797629 -71.5778783,42.5800321</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Nashua River Rail Trail</name>
@@ -994,6 +994,17 @@
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4649044,42.4280053 -71.4649273,42.4279207 -71.4649044,42.4278225 -71.4648493,42.4277988 -71.4648007,42.4277865 -71.4646613,42.4277514 -71.46462,42.4277277 -71.4646254,42.4276885 -71.4646351,42.4276172 -71.4647127,42.4275318 -71.4649048,42.4274774 -71.4658449,42.4271396 -71.4661969,42.427008</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Nashua River Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">645337968</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">5</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;oneway&quot;=&gt;&quot;no&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;2&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5896215,42.5599141 -71.589632,42.560034 -71.589664,42.560242 -71.589721,42.560539 -71.5897631,42.5609034</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
