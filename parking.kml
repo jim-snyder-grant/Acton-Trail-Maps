@@ -226,5 +226,14 @@
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4154106,42.520557 -71.4155048,42.5205256 -71.4154666,42.5204418 -71.4153627,42.5203716 -71.4153184,42.5203874 -71.4154106,42.520557</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">649336759</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;120&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Concord Rd&quot;,&quot;capacity&quot;=&gt;&quot;26&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4168483,42.4785459 -71.4164468,42.4785283 -71.4164675,42.4782709 -71.4168691,42.4782885 -71.4168483,42.4785459</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
 </Folder>
 </Document></kml>
