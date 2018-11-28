@@ -67,7 +67,11 @@ for feat in newFromFile['features']:
     id = osm_id or osm_way_id    
     feat['properties']['osm_id'] = id
     newDict [id] = feat
-    print ("name=", feat['properties']['name']," id=",id)
+    #try:
+    #    name = feat['properties']['name'];
+    # except KeyError:
+    #    name = "(no name)"
+    # print ("name=", name," id=",id)
 print('new file has ',len(newDict),' features')
 
 datasets = Datasets()
