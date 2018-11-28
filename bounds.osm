@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
+<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-08T23:22:02Z"/>
+<meta osm_base="2018-11-27T19:38:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -5518,11 +5518,12 @@
   <relation id="6711648">
     <member type="way" ref="29769277" role=""/>
     <member type="way" ref="236354645" role=""/>
-    <tag k="access" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="gnis:feature_id" v="1973517"/>
+    <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Pratts Brook Conservation Land"/>
+    <tag k="note" v="yes"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
