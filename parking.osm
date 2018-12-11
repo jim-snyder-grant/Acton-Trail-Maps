@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-27T19:11:02Z" areas="2018-11-27T18:31:03Z"/>
+<meta osm_base="2018-12-11T03:44:02Z" areas="2018-12-11T02:31:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -16,6 +16,7 @@
   <node id="1305920430" lat="42.4875933" lon="-71.4783694"/>
   <node id="1305920431" lat="42.4876828" lon="-71.4784012"/>
   <node id="1305920434" lat="42.4876417" lon="-71.4783866"/>
+  <node id="1781082701" lat="42.5155741" lon="-71.4110525"/>
   <node id="1781082982" lat="42.5192311" lon="-71.4147141"/>
   <node id="1781082991" lat="42.5192436" lon="-71.4144888"/>
   <node id="1781082995" lat="42.5194784" lon="-71.4147393"/>
@@ -30,6 +31,7 @@
   <node id="2139046642" lat="42.5022927" lon="-71.4423230"/>
   <node id="2139046643" lat="42.5022942" lon="-71.4420349"/>
   <node id="2139046649" lat="42.5024190" lon="-71.4420980"/>
+  <node id="2158426169" lat="42.4940251" lon="-71.4185372"/>
   <node id="2159701992" lat="42.5132653" lon="-71.4055531"/>
   <node id="2159702000" lat="42.5133182" lon="-71.4056084"/>
   <node id="2159702002" lat="42.5134253" lon="-71.4053746"/>
@@ -138,19 +140,38 @@
   <node id="5431797242" lat="42.5016013" lon="-71.3905305"/>
   <node id="5432555338" lat="42.5017194" lon="-71.3906336"/>
   <node id="5432555339" lat="42.5015045" lon="-71.3907950"/>
-  <node id="5550319421" lat="42.5321991" lon="-71.4001465"/>
-  <node id="5550319422" lat="42.5318903" lon="-71.4003591"/>
-  <node id="5550319423" lat="42.5317609" lon="-71.3999062"/>
-  <node id="5550319424" lat="42.5320765" lon="-71.3996998"/>
-  <node id="5550319425" lat="42.5320470" lon="-71.4002513"/>
+  <node id="5550319421" lat="42.5321270" lon="-71.4001448"/>
+  <node id="5550319422" lat="42.5319387" lon="-71.4003098"/>
+  <node id="5550319423" lat="42.5318773" lon="-71.3998690"/>
+  <node id="5550319424" lat="42.5320651" lon="-71.3998765"/>
+  <node id="5550319425" lat="42.5320594" lon="-71.4002355"/>
   <node id="5754823443" lat="42.4533112" lon="-71.4566376"/>
   <node id="5754823444" lat="42.4533015" lon="-71.4569664"/>
   <node id="5754823445" lat="42.4531365" lon="-71.4569533"/>
   <node id="5754823446" lat="42.4531452" lon="-71.4566231"/>
+  <node id="5754827100" lat="42.4532843" lon="-71.4569650"/>
   <node id="6094189658" lat="42.4785459" lon="-71.4168483"/>
   <node id="6094189659" lat="42.4785283" lon="-71.4164468"/>
   <node id="6094189660" lat="42.4782709" lon="-71.4164675"/>
   <node id="6094189661" lat="42.4782885" lon="-71.4168691"/>
+  <node id="6094326199" lat="42.4938461" lon="-71.4185106"/>
+  <node id="6104762293" lat="42.4597524" lon="-71.4565531"/>
+  <node id="6104762294" lat="42.4597549" lon="-71.4565238"/>
+  <node id="6104762295" lat="42.4591329" lon="-71.4564242"/>
+  <node id="6104762296" lat="42.4591303" lon="-71.4564535"/>
+  <node id="6111650399" lat="42.5320473" lon="-71.4001907"/>
+  <node id="6111650400" lat="42.5319980" lon="-71.3998907"/>
+  <node id="6111650401" lat="42.5319968" lon="-71.3998562"/>
+  <node id="6111650402" lat="42.5318766" lon="-71.4000679"/>
+  <node id="6111650403" lat="42.5320846" lon="-71.4000066"/>
+  <node id="6111650404" lat="42.5318975" lon="-71.4001704"/>
+  <node id="6111650405" lat="42.5320724" lon="-71.3999362"/>
+  <node id="6111650406" lat="42.5318705" lon="-71.3999618"/>
+  <node id="6112031659" lat="42.5154033" lon="-71.4115481"/>
+  <node id="6112031660" lat="42.5153566" lon="-71.4115185"/>
+  <node id="6112031661" lat="42.5155273" lon="-71.4110229"/>
+  <node id="6112056290" lat="42.4940195" lon="-71.4186063"/>
+  <node id="6112075507" lat="42.4938405" lon="-71.4185798"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -513,24 +534,40 @@
   </way>
   <way id="579578261">
     <nd ref="5550319421"/>
+    <nd ref="6111650399"/>
     <nd ref="5550319425"/>
     <nd ref="5550319422"/>
+    <nd ref="6111650404"/>
+    <nd ref="6111650402"/>
+    <nd ref="6111650406"/>
     <nd ref="5550319423"/>
+    <nd ref="6111650401"/>
+    <nd ref="6111650400"/>
     <nd ref="5550319424"/>
+    <nd ref="6111650405"/>
+    <nd ref="6111650403"/>
     <nd ref="5550319421"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="1019"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Main Street"/>
     <tag k="amenity" v="parking"/>
     <tag k="name" v="Bruce Freeman Rail Trail North Acton Parking"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="website" v="https://brucefreemanrailtrail.org/"/>
   </way>
   <way id="607163720">
     <nd ref="5754823443"/>
     <nd ref="5754823444"/>
+    <nd ref="5754827100"/>
     <nd ref="5754823445"/>
     <nd ref="5754823446"/>
     <nd ref="5754823443"/>
     <tag k="access" v="yes"/>
     <tag k="amenity" v="parking"/>
     <tag k="capacity" v="4"/>
+    <tag k="capacity:disabled" v="1"/>
     <tag k="fee" v="no"/>
     <tag k="handicap" v="1"/>
     <tag k="name" v="Assabet River Rail Trail Parking"/>
@@ -555,6 +592,55 @@
     <tag k="capacity" v="26"/>
     <tag k="surface" v="asphalt"/>
     <tag k="website" v="http://www.actontrails.org/"/>
+  </way>
+  <way id="650854121">
+    <nd ref="6104762293"/>
+    <nd ref="6104762294"/>
+    <nd ref="6104762295"/>
+    <nd ref="6104762296"/>
+    <nd ref="6104762293"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="11"/>
+    <tag k="capacity:disabled" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.arrtinc.org/"/>
+  </way>
+  <way id="651837930">
+    <nd ref="6112031660"/>
+    <nd ref="6112031659"/>
+    <nd ref="1781082701"/>
+    <nd ref="6112031661"/>
+    <nd ref="6112031660"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="25"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Ledge Rock Way"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="16"/>
+    <tag k="capacity:disabled" v="1"/>
+    <tag k="operator" v="Town of Acton"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.brucefreemanrailtrail.org/"/>
+  </way>
+  <way id="651842561">
+    <nd ref="6112056290"/>
+    <nd ref="2158426169"/>
+    <nd ref="6094326199"/>
+    <nd ref="6112075507"/>
+    <nd ref="6112056290"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="48"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Brook Street"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="capacity:disabled" v="1"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.brucefreemanrailtrail.org/"/>
   </way>
 
 </osm>
