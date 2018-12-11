@@ -367,7 +367,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3981918,42.5344421 -71.3993592,42.5316451 -71.3997152,42.530902 -71.4002916,42.5300408</coordinates></LineString>
+      <LineString><coordinates>-71.3981918,42.5344421 -71.3991924,42.5320449 -71.3993592,42.5316451 -71.3997152,42.530902 -71.4002916,42.5300408</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
