@@ -22,6 +22,20 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">73244088</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;40&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Wetherbee Street&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wetherbee/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.411687,42.472815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">73252261</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;10&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Jay Lane&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/spring-hill/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.403113,42.493484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">2129716578</SimpleData>
 		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;13&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Tupelo Way&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/pacy/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
@@ -29,17 +43,17 @@
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5222105493</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;45&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Stoneymeade Way&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/stoneymeade/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4014031,42.4863062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">5425410276</SimpleData>
 		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;11&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Kelley Road&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/great-hill/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.4530445,42.4708497</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<ExtendedData><SchemaData schemaUrl="#points">
-		<SimpleData name="osm_id">5425489698</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;22&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Alexandra Way&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-71.4194337,42.5161448</coordinates></Point>
   </Placemark>
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#points">
@@ -61,6 +75,27 @@
 		<SimpleData name="other_tags">&quot;addr:housenumber&quot;=&gt;&quot;end&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Nagog Park&quot;,&quot;addr:town&quot;=&gt;&quot;Acton&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/wills-hole-town-forest/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.4201088,42.5224214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6110982973</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;84&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Robbins Street&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/heath-hen-meadow/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4731589,42.459053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6110982974</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;1&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Billing Street&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/heath-hen-meadow/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4731683,42.4559798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6111471906</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;19&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Spring Hill Road&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/spring-hill/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.395178,42.5010618</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
