@@ -139,7 +139,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;description&quot;=&gt;&quot;Spring Hill Conservation Land&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.39509,42.501031 -71.3955081,42.5012689 -71.3958514,42.501443 -71.3961733,42.5016644 -71.396557,42.50175 -71.3968814,42.5019334 -71.3972247,42.5020758 -71.3973749,42.5022814 -71.3978255,42.5022972</coordinates></LineString>
+      <LineString><coordinates>-71.395178,42.5010618 -71.3955081,42.5012689 -71.3958514,42.501443 -71.3961733,42.5016644 -71.396557,42.50175 -71.3968814,42.5019334 -71.3972247,42.5020758 -71.3973749,42.5022814 -71.3978255,42.5022972</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red Billings Trail</name>
@@ -733,7 +733,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4213962,42.5167194 -71.4215248,42.5166932 -71.4218199,42.5164836 -71.4220183,42.5164243 -71.4221203,42.5164125 -71.422308,42.5164915 -71.4227264,42.5167683 -71.4228552,42.5168869 -71.4229893,42.5169463 -71.4231234,42.516883 -71.4232253,42.5167406 -71.4232414,42.516626 -71.4232146,42.5165429 -71.4232522,42.5164599 -71.4234614,42.5163966 -71.4236116,42.5162385 -71.4236412,42.5161179</coordinates></LineString>
+      <LineString><coordinates>-71.4213962,42.5167194 -71.4215248,42.5166932 -71.4218199,42.5164836 -71.4220183,42.5164243 -71.4221203,42.5164125 -71.422308,42.5164915 -71.4227264,42.5167683 -71.4228552,42.5168869 -71.4229893,42.5169463 -71.4231234,42.516883 -71.4232253,42.5167406 -71.4232414,42.516626 -71.4232146,42.5165429 -71.4232522,42.5164599 -71.4234614,42.5163966 -71.4235901,42.5162385 -71.4236184,42.5161525</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
