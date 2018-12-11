@@ -1965,5 +1965,15 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.416432,42.4786494 -71.4162717,42.4786309 -71.4161805,42.4786121 -71.4161483,42.4785893 -71.4161296,42.4785438 -71.4160813,42.4783727 -71.4160471,42.4782384</coordinates></LineString>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">651848813</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4544756,42.4646766 -71.4543393,42.4645563 -71.4543434,42.4645484 -71.4543737,42.4645191 -71.4543261,42.4644656</coordinates></LineString>
+  </Placemark>
 </Folder>
 </Document></kml>

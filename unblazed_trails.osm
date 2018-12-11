@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-27T19:39:02Z" areas="2018-11-27T19:07:02Z"/>
+<meta osm_base="2018-12-11T03:45:02Z" areas="2018-12-11T02:31:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -351,6 +351,7 @@
   <node id="2138419463" lat="42.4635800" lon="-71.4511700"/>
   <node id="2138419464" lat="42.4636100" lon="-71.4510800"/>
   <node id="2138419466" lat="42.4636155" lon="-71.4510221"/>
+  <node id="2138419504" lat="42.4646766" lon="-71.4544756"/>
   <node id="2138420144" lat="42.4727094" lon="-71.4479136"/>
   <node id="2140737957" lat="42.4558224" lon="-71.4848453"/>
   <node id="2140737958" lat="42.4561776" lon="-71.4850379"/>
@@ -679,6 +680,7 @@
   <node id="3068613359" lat="42.4880572" lon="-71.3978653"/>
   <node id="3068613360" lat="42.4880327" lon="-71.3984768"/>
   <node id="3094928618" lat="42.4920721" lon="-71.4185401"/>
+  <node id="3139781854" lat="42.4644656" lon="-71.4543261"/>
   <node id="3208409178" lat="42.4825901" lon="-71.4369041"/>
   <node id="3250213265" lat="42.5256041" lon="-71.4229198"/>
   <node id="3306442208" lat="42.4957088" lon="-71.4598115"/>
@@ -2219,16 +2221,7 @@
   <node id="5425489693" lat="42.5167237" lon="-71.4193669"/>
   <node id="5425489694" lat="42.5165141" lon="-71.4194299"/>
   <node id="5425489695" lat="42.5163362" lon="-71.4194460"/>
-  <node id="5425489698" lat="42.5161448" lon="-71.4194337">
-    <tag k="addr:city" v="Acton"/>
-    <tag k="addr:housenumber" v="22"/>
-    <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="MA"/>
-    <tag k="addr:street" v="Alexandra Way"/>
-    <tag k="amenity" v="parking"/>
-    <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
-  </node>
+  <node id="5425489698" lat="42.5161448" lon="-71.4194337"/>
   <node id="5431920453" lat="42.4645739" lon="-71.4592585"/>
   <node id="5432560914" lat="42.5025500" lon="-71.3912300"/>
   <node id="5595546885" lat="42.4821770" lon="-71.4206544"/>
@@ -2282,6 +2275,9 @@
   <node id="6094199810" lat="42.4785438" lon="-71.4161296"/>
   <node id="6094199811" lat="42.4783727" lon="-71.4160813"/>
   <node id="6094491444" lat="42.4780250" lon="-71.4780317"/>
+  <node id="6112117770" lat="42.4645563" lon="-71.4543393"/>
+  <node id="6112117771" lat="42.4645484" lon="-71.4543434"/>
+  <node id="6112117772" lat="42.4645191" lon="-71.4543737"/>
   <way id="9515140">
     <nd ref="2156888467"/>
     <nd ref="73234503"/>
@@ -5614,6 +5610,18 @@
     <tag k="highway" v="path"/>
     <tag k="horse" v="no"/>
     <tag k="motor_vehicle" v="no"/>
+  </way>
+  <way id="651848813">
+    <nd ref="2138419504"/>
+    <nd ref="6112117770"/>
+    <nd ref="6112117771"/>
+    <nd ref="6112117772"/>
+    <nd ref="3139781854"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="dirt"/>
   </way>
 
 </osm>
