@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-12-11T03:45:02Z" areas="2018-12-11T02:31:02Z"/>
+<meta osm_base="2018-12-18T19:53:04Z" areas="2018-12-18T19:02:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -23,10 +23,6 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73208124" lat="42.4701340" lon="-71.4115960"/>
-  <node id="73209340" lat="42.4731810" lon="-71.4479200">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
   <node id="73209974" lat="42.4701530" lon="-71.4118300"/>
   <node id="73210312" lat="42.5175080" lon="-71.4136560">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -352,7 +348,8 @@
   <node id="2138419464" lat="42.4636100" lon="-71.4510800"/>
   <node id="2138419466" lat="42.4636155" lon="-71.4510221"/>
   <node id="2138419504" lat="42.4646766" lon="-71.4544756"/>
-  <node id="2138420144" lat="42.4727094" lon="-71.4479136"/>
+  <node id="2138420126" lat="42.4717520" lon="-71.4480310"/>
+  <node id="2138420129" lat="42.4718800" lon="-71.4480200"/>
   <node id="2140737957" lat="42.4558224" lon="-71.4848453"/>
   <node id="2140737958" lat="42.4561776" lon="-71.4850379"/>
   <node id="2140737959" lat="42.4566864" lon="-71.4852959"/>
@@ -2542,14 +2539,6 @@
     <tag k="note" v="Path alows the trails to connect through parking lot"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="204817126">
-    <nd ref="2138420144"/>
-    <nd ref="73209340"/>
-    <tag k="foot" v="permissive"/>
-    <tag k="highway" v="path"/>
-    <tag k="source" v="local knowledge"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
   <way id="206189635">
     <nd ref="2156887785"/>
     <nd ref="2161970176"/>
@@ -2691,10 +2680,6 @@
     <nd ref="2733182373"/>
     <nd ref="3094928618"/>
     <nd ref="6004080831"/>
-    <nd ref="4760403737"/>
-    <nd ref="4760403776"/>
-    <nd ref="4760403775"/>
-    <nd ref="73240960"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="track"/>
@@ -4305,20 +4290,6 @@
     <tag k="highway" v="path"/>
     <tag k="surface" v="metal"/>
   </way>
-  <way id="483283699">
-    <nd ref="6004080831"/>
-    <nd ref="4760403737"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="highway" v="track"/>
-    <tag k="surface" v="stone"/>
-  </way>
-  <way id="483283701">
-    <nd ref="4760403776"/>
-    <nd ref="4760403775"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="highway" v="track"/>
-    <tag k="surface" v="unpaved"/>
-  </way>
   <way id="484644862">
     <nd ref="4425892984"/>
     <nd ref="4773967489"/>
@@ -5622,6 +5593,61 @@
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="surface" v="dirt"/>
+  </way>
+  <way id="654631569">
+    <nd ref="2138420129"/>
+    <nd ref="2138420126"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="654636333">
+    <nd ref="6004080831"/>
+    <nd ref="4760403737"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="1"/>
+    <tag k="name" v="Acton Minutemen Line of March, April 19 1775"/>
+    <tag k="surface" v="stone"/>
+  </way>
+  <way id="654636334">
+    <nd ref="4760403737"/>
+    <nd ref="4760403776"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="1"/>
+    <tag k="name" v="Acton Minutemen Line of March, April 19 1775"/>
+    <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="654636335">
+    <nd ref="4760403776"/>
+    <nd ref="4760403775"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="1"/>
+    <tag k="name" v="Acton Minutemen Line of March, April 19 1775"/>
+    <tag k="surface" v="stone"/>
+  </way>
+  <way id="654636336">
+    <nd ref="4760403775"/>
+    <nd ref="73240960"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="1"/>
+    <tag k="name" v="Acton Minutemen Line of March, April 19 1775"/>
+    <tag k="surface" v="unpaved"/>
   </way>
 
 </osm>
