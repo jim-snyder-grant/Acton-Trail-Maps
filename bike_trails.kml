@@ -52,7 +52,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4099889,42.5151664 -71.4100636,42.5148661 -71.4105445,42.5131241 -71.4108861,42.5118867 -71.4115664,42.5093806 -71.4118033,42.5087831 -71.4118631,42.5086323 -71.4123904,42.5077479 -71.414301,42.5053222</coordinates></LineString>
+      <LineString><coordinates>-71.4099889,42.5151664 -71.4100636,42.5148661 -71.4105445,42.5131241 -71.4108861,42.5118867 -71.4108952,42.5118532</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -258,9 +258,9 @@
 		<SimpleData name="osm_id">607164333</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.456965,42.4532843 -71.4569947,42.4532806 -71.4570065,42.4532733 -71.4570094,42.4532516 -71.4569977,42.4531547 -71.4569928,42.4530816 -71.4569888,42.4530281 -71.456982,42.4529645 -71.456981,42.4529073 -71.4569928,42.4528704 -71.4570173,42.452856 -71.4570388,42.4528574 -71.4570568,42.4528643</coordinates></LineString>
+      <LineString><coordinates>-71.4569462,42.4532749 -71.45699,42.4532717 -71.4570065,42.4532634 -71.4570087,42.4532476 -71.4569977,42.4531547 -71.4569928,42.4530816 -71.4569888,42.4530281 -71.456982,42.4529645 -71.456981,42.4529073 -71.4569928,42.4528704 -71.4570173,42.452856 -71.4570388,42.4528574 -71.4570568,42.4528643</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -389,6 +389,17 @@
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4184696,42.4939369 -71.4188256,42.4939265</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">654199327</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4108952,42.5118532 -71.4115664,42.5093806 -71.4118033,42.5087831 -71.4118631,42.5086323 -71.4123904,42.5077479 -71.414301,42.5053222</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
