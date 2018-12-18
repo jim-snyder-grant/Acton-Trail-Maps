@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-12-11T03:44:02Z" areas="2018-12-11T02:31:02Z"/>
+<meta osm_base="2018-12-18T19:52:04Z" areas="2018-12-18T19:30:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -145,11 +145,11 @@
   <node id="5550319423" lat="42.5318773" lon="-71.3998690"/>
   <node id="5550319424" lat="42.5320651" lon="-71.3998765"/>
   <node id="5550319425" lat="42.5320594" lon="-71.4002355"/>
-  <node id="5754823443" lat="42.4533112" lon="-71.4566376"/>
-  <node id="5754823444" lat="42.4533015" lon="-71.4569664"/>
-  <node id="5754823445" lat="42.4531365" lon="-71.4569533"/>
-  <node id="5754823446" lat="42.4531452" lon="-71.4566231"/>
-  <node id="5754827100" lat="42.4532843" lon="-71.4569650"/>
+  <node id="5754823443" lat="42.4533092" lon="-71.4567821"/>
+  <node id="5754823444" lat="42.4533007" lon="-71.4569486"/>
+  <node id="5754823445" lat="42.4532007" lon="-71.4569393"/>
+  <node id="5754823446" lat="42.4532091" lon="-71.4567727"/>
+  <node id="5754827100" lat="42.4532749" lon="-71.4569462"/>
   <node id="6094189658" lat="42.4785459" lon="-71.4168483"/>
   <node id="6094189659" lat="42.4785283" lon="-71.4164468"/>
   <node id="6094189660" lat="42.4782709" lon="-71.4164675"/>
@@ -159,6 +159,14 @@
   <node id="6104762294" lat="42.4597549" lon="-71.4565238"/>
   <node id="6104762295" lat="42.4591329" lon="-71.4564242"/>
   <node id="6104762296" lat="42.4591303" lon="-71.4564535"/>
+  <node id="6110948776" lat="42.4829072" lon="-71.4738928"/>
+  <node id="6110948777" lat="42.4828562" lon="-71.4737269"/>
+  <node id="6110948778" lat="42.4824354" lon="-71.4739589"/>
+  <node id="6110948779" lat="42.4826604" lon="-71.4747049"/>
+  <node id="6110948780" lat="42.4830662" lon="-71.4744558"/>
+  <node id="6110948781" lat="42.4830268" lon="-71.4743270"/>
+  <node id="6110948782" lat="42.4827163" lon="-71.4744997"/>
+  <node id="6110948783" lat="42.4825887" lon="-71.4740799"/>
   <node id="6111650399" lat="42.5320473" lon="-71.4001907"/>
   <node id="6111650400" lat="42.5319980" lon="-71.3998907"/>
   <node id="6111650401" lat="42.5319968" lon="-71.3998562"/>
@@ -187,8 +195,9 @@
     <tag k="addr:street" v="Massachusetts Avenue"/>
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="parking" v="surface"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/guggins-brook-conservation-land/"/>
+    <tag k="website" v="http://www.actontrails.org/guggins-brook/"/>
   </way>
   <way id="115637309">
     <nd ref="1305920428"/>
@@ -604,6 +613,27 @@
     <tag k="capacity:disabled" v="2"/>
     <tag k="surface" v="asphalt"/>
     <tag k="website" v="http://www.arrtinc.org/"/>
+  </way>
+  <way id="651714638">
+    <nd ref="6110948776"/>
+    <nd ref="6110948777"/>
+    <nd ref="6110948778"/>
+    <nd ref="6110948779"/>
+    <nd ref="6110948780"/>
+    <nd ref="6110948781"/>
+    <nd ref="6110948782"/>
+    <nd ref="6110948783"/>
+    <nd ref="6110948776"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Elm St"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Town of Acton"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="website" v="http://www.actontrails.org/guggins-brook/"/>
   </way>
   <way id="651837930">
     <nd ref="6112031660"/>

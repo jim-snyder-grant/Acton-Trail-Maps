@@ -33,7 +33,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">61912346</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;667&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Massachusetts Avenue&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/guggins-brook-conservation-land/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;667&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Massachusetts Avenue&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/guggins-brook/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4844204,42.4776012 -71.4844006,42.4777156 -71.4844559,42.4777906 -71.4844125,42.4778853 -71.484274,42.4778054 -71.4843222,42.4775863 -71.4844204,42.4776012</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
@@ -244,7 +244,7 @@
 		<SimpleData name="amenity">parking</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;capacity&quot;=&gt;&quot;4&quot;,&quot;capacity:disabled&quot;=&gt;&quot;1&quot;,&quot;fee&quot;=&gt;&quot;no&quot;,&quot;handicap&quot;=&gt;&quot;1&quot;,&quot;park_ride&quot;=&gt;&quot;no&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;supervised&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4566376,42.4533112 -71.4569664,42.4533015 -71.456965,42.4532843 -71.4569533,42.4531365 -71.4566231,42.4531452 -71.4566376,42.4533112</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4567821,42.4533092 -71.4569486,42.4533007 -71.4569462,42.4532749 -71.4569393,42.4532007 -71.4567727,42.4532091 -71.4567821,42.4533092</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -263,6 +263,15 @@
 		<SimpleData name="other_tags">&quot;capacity&quot;=&gt;&quot;11&quot;,&quot;capacity:disabled&quot;=&gt;&quot;2&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4565531,42.4597524 -71.4565238,42.4597549 -71.4564242,42.4591329 -71.4564535,42.4591303 -71.4565531,42.4597524</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">651714638</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;7&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Elm St&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/guggins-brook/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4738928,42.4829072 -71.4737269,42.4828562 -71.4739589,42.4824354 -71.4747049,42.4826604 -71.4744558,42.4830662 -71.474327,42.4830268 -71.4744997,42.4827163 -71.4740799,42.4825887 -71.4738928,42.4829072</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
