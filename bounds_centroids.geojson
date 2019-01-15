@@ -1,10 +1,11 @@
 {
 "type": "FeatureCollection",
+                                                                                                                                  
 "features": [
 { "type": "Feature", "properties": { "name": "Robbins Mill", "osm_id": "6696667", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.39924193065049, 42.51133655862062 ] } },
 { "type": "Feature", "properties": { "name": "Wills Hole - Town Forest", "osm_id": "6704654", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.419290718365659, 42.518952942877881 ] } },
 { "type": "Feature", "properties": { "name": "Pratts Brook", "osm_id": "6711648", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.44115363205718, 42.454813611682425 ] } },
-{ "type": "Feature", "properties": { "name": "Grassy Pond", "osm_id": "6712418", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.447160222996118, 42.500092971459381 ] } },
+{ "type": "Feature", "properties": { "name": "Grassy Pond", "osm_id": "6712418", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.447820417287801, 42.499981750857025 ] } },
 { "type": "Feature", "properties": { "name": "Heath Hen Meadow", "osm_id": "6776382", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.47401511044815, 42.459685506534157 ] } },
 { "type": "Feature", "properties": { "name": "Nashoba Brook", "osm_id": "6799881", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.409606879228463, 42.506729832592832 ] } },
 { "type": "Feature", "properties": { "name": "Wright Hill", "osm_id": "6819076", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.477740089466579, 42.479285610930248 ] } },
