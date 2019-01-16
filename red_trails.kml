@@ -326,7 +326,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4520794,42.4982973 -71.452265,42.4983062 -71.4524026,42.4978622 -71.4524805,42.4977393 -71.4525477,42.4975847 -71.4526445,42.4974619 -71.453129,42.497015</coordinates></LineString>
+      <LineString><coordinates>-71.4520794,42.4982973 -71.452214,42.4982548 -71.4524026,42.4978622 -71.4524805,42.4977393 -71.4525477,42.4975847 -71.4526445,42.4974619 -71.453129,42.497015</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
