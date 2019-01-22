@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-01-15T22:24:04Z" areas="2019-01-15T21:29:02Z"/>
+<meta osm_base="2019-01-18T17:28:03Z" areas="2019-01-18T16:34:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -2803,16 +2803,12 @@
     <nd ref="4496057443"/>
     <nd ref="2147343506"/>
     <nd ref="2147343504"/>
-    <nd ref="2147343499"/>
-    <nd ref="2147343498"/>
-    <nd ref="2147343496"/>
     <tag k="access" v="yes"/>
-    <tag k="condition" v="poor"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Yellow"/>
-    <tag k="surface" v="paved"/>
+    <tag k="surface" v="fine_gravel"/>
   </way>
   <way id="204760904">
     <nd ref="2147365907"/>
@@ -4217,7 +4213,7 @@
     <tag k="layer" v="1"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Yellow"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="surface" v="concrete"/>
   </way>
   <way id="656119808">
     <nd ref="2147343496"/>
@@ -4320,7 +4316,20 @@
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Yellow"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="surface" v="dirt"/>
+  </way>
+  <way id="664306022">
+    <nd ref="2147343504"/>
+    <nd ref="2147343499"/>
+    <nd ref="2147343498"/>
+    <nd ref="2147343496"/>
+    <tag k="access" v="yes"/>
+    <tag k="condition" v="poor"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Yellow"/>
+    <tag k="surface" v="paved"/>
   </way>
 
 </osm>
