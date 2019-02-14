@@ -423,9 +423,9 @@
 		<SimpleData name="osm_id">204759403</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4208736,42.517799 -71.420757,42.517774 -71.420758,42.517797 -71.420758,42.51782 -71.4207815,42.5178518 -71.420791,42.517865</coordinates></LineString>
+      <LineString><coordinates>-71.4207703,42.5177684 -71.4207818,42.5178012 -71.4207828,42.5178296 -71.4207674,42.5178513 -71.420791,42.517865</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>

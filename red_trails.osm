@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-01-15T22:22:04Z" areas="2019-01-15T21:28:02Z"/>
+<meta osm_base="2019-02-14T04:18:03Z" areas="2019-02-14T02:25:04Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -409,10 +409,9 @@
   <node id="2147343460" lat="42.5160620" lon="-71.4205980"/>
   <node id="2147343461" lat="42.5160650" lon="-71.4204430"/>
   <node id="2147343462" lat="42.5162182" lon="-71.4203082"/>
-  <node id="2147343505" lat="42.5177990" lon="-71.4208736"/>
-  <node id="2147343507" lat="42.5177740" lon="-71.4207570"/>
-  <node id="2147343508" lat="42.5177970" lon="-71.4207580"/>
-  <node id="2147343510" lat="42.5178200" lon="-71.4207580"/>
+  <node id="2147343505" lat="42.5177684" lon="-71.4207703"/>
+  <node id="2147343507" lat="42.5178012" lon="-71.4207818"/>
+  <node id="2147343508" lat="42.5178296" lon="-71.4207828"/>
   <node id="2147343513" lat="42.5178650" lon="-71.4207910"/>
   <node id="2147343516" lat="42.5179740" lon="-71.4210430"/>
   <node id="2147343521" lat="42.5180850" lon="-71.4212020"/>
@@ -933,7 +932,7 @@
   <node id="5307496915" lat="42.5087714" lon="-71.4100651">
     <tag k="highway" v="turning_circle"/>
   </node>
-  <node id="5312958347" lat="42.5178518" lon="-71.4207815"/>
+  <node id="5312958347" lat="42.5178513" lon="-71.4207674"/>
   <node id="5423833505" lat="42.4533740" lon="-71.4431580"/>
   <node id="5429076403" lat="42.5023050" lon="-71.4418630">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -1602,7 +1601,6 @@
     <nd ref="2147343505"/>
     <nd ref="2147343507"/>
     <nd ref="2147343508"/>
-    <nd ref="2147343510"/>
     <nd ref="5312958347"/>
     <nd ref="2147343513"/>
     <tag k="access" v="yes"/>
@@ -1610,7 +1608,7 @@
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="surface" v="dirt"/>
   </way>
   <way id="204759404">
     <nd ref="73253421"/>
