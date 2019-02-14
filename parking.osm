@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-12-18T19:52:04Z" areas="2018-12-18T19:30:02Z"/>
+<meta osm_base="2019-02-14T04:18:03Z" areas="2019-02-14T02:25:04Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -180,6 +180,10 @@
   <node id="6112031661" lat="42.5155273" lon="-71.4110229"/>
   <node id="6112056290" lat="42.4940195" lon="-71.4186063"/>
   <node id="6112075507" lat="42.4938405" lon="-71.4185798"/>
+  <node id="6237196302" lat="42.4413004" lon="-71.4328748"/>
+  <node id="6237196303" lat="42.4413074" lon="-71.4329934"/>
+  <node id="6237196304" lat="42.4411787" lon="-71.4330074"/>
+  <node id="6237196305" lat="42.4411717" lon="-71.4328887"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -671,6 +675,21 @@
     <tag k="parking" v="surface"/>
     <tag k="surface" v="asphalt"/>
     <tag k="website" v="http://www.brucefreemanrailtrail.org/"/>
+  </way>
+  <way id="666206352">
+    <nd ref="6237196302"/>
+    <nd ref="6237196303"/>
+    <nd ref="6237196304"/>
+    <nd ref="6237196305"/>
+    <nd ref="6237196302"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Old High Street"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Town of Acton"/>
+    <tag k="surface" v="compacted"/>
+    <tag k="website" v="http://www.actontrails.org/"/>
   </way>
 
 </osm>
