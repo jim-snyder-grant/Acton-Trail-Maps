@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-11-27T19:37:02Z" areas="2018-11-27T18:31:03Z"/>
+<meta osm_base="2019-02-18T18:34:02Z" areas="2019-02-18T14:52:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -4114,13 +4114,6 @@
     <tag k="railway" v="abandoned"/>
     <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-  <way id="93038782">
-    <nd ref="860754391"/>
-    <nd ref="1078465560"/>
-    <nd ref="5607824128"/>
-    <tag k="highway" v="cycleway"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="93038795">

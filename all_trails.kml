@@ -5854,13 +5854,6 @@
       <LineString><coordinates>-71.3271516,42.6125441 -71.3271311,42.6125549 -71.3270831,42.6125724 -71.3270372,42.6125862 -71.3269836,42.6125981 -71.3269273,42.612604 -71.3268592,42.6125969</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<Style><LineStyle><color>FF00A0FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">brown</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.397463,42.5362797 -71.398153,42.5345351 -71.3981918,42.5344421</coordinates></LineString>
-  </Placemark>
-  <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
 	<Style><LineStyle><color>FF00A0FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
