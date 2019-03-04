@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-01-18T17:27:02Z" areas="2019-01-18T16:34:02Z"/>
+<meta osm_base="2019-03-04T02:50:02Z" areas="2019-03-04T02:18:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -914,13 +914,6 @@
   <node id="633083574" lat="42.4482279" lon="-71.4887076"/>
   <node id="633083576" lat="42.4481109" lon="-71.4888610"/>
   <node id="633083578" lat="42.4479837" lon="-71.4890507"/>
-  <node id="633083579" lat="42.4479211" lon="-71.4891880"/>
-  <node id="633083581" lat="42.4478807" lon="-71.4892324"/>
-  <node id="633083582" lat="42.4478262" lon="-71.4893374"/>
-  <node id="633083584" lat="42.4476607" lon="-71.4895271"/>
-  <node id="633083586" lat="42.4476284" lon="-71.4896180"/>
-  <node id="633083587" lat="42.4475780" lon="-71.4896624"/>
-  <node id="633083589" lat="42.4473972" lon="-71.4896645"/>
   <node id="633083594" lat="42.4491302" lon="-71.4881404"/>
   <node id="633083595" lat="42.4489304" lon="-71.4882373"/>
   <node id="633083597" lat="42.4488618" lon="-71.4882554"/>
@@ -5235,6 +5228,7 @@
   <node id="6217249525" lat="42.4493178" lon="-71.4780228"/>
   <node id="6217264154" lat="42.4485703" lon="-71.4783567"/>
   <node id="6217287342" lat="42.4509215" lon="-71.4778253"/>
+  <node id="6291464652" lat="42.4479356" lon="-71.4891561"/>
   <way id="8877892">
     <nd ref="2080640652"/>
     <nd ref="2080640648"/>
@@ -5296,7 +5290,7 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Wilderness Rd."/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="www.newenglandforestry.org"/>
+    <tag k="website" v="https://newenglandforestry.org/"/>
   </way>
   <way id="8915156">
     <nd ref="4404139424"/>
@@ -5861,13 +5855,7 @@
     <nd ref="633083574"/>
     <nd ref="633083576"/>
     <nd ref="633083578"/>
-    <nd ref="633083579"/>
-    <nd ref="633083581"/>
-    <nd ref="633083582"/>
-    <nd ref="633083584"/>
-    <nd ref="633083586"/>
-    <nd ref="633083587"/>
-    <nd ref="633083589"/>
+    <nd ref="6291464652"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
   </way>
@@ -7763,7 +7751,7 @@
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="source" v="GPS Trace"/>
     <tag k="surface" v="ground"/>
-    <tag k="website" v="http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
+    <tag k="website" v="https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
   </way>
   <way id="270455365">
     <nd ref="2754734136"/>
@@ -7777,7 +7765,7 @@
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="source" v="GPS Trace"/>
     <tag k="surface" v="ground"/>
-    <tag k="website" v="http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
+    <tag k="website" v="https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
   </way>
   <way id="270455368">
     <nd ref="2754734696"/>
@@ -9227,7 +9215,7 @@
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="source" v="GPS Trace"/>
     <tag k="surface" v="wood"/>
-    <tag k="website" v="http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
+    <tag k="website" v="https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
   </way>
   <way id="317371250">
     <nd ref="3236233264"/>
@@ -9288,7 +9276,7 @@
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="source" v="GPS Trace"/>
     <tag k="surface" v="ground"/>
-    <tag k="website" v="http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
+    <tag k="website" v="https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf"/>
   </way>
   <way id="317550780">
     <nd ref="3238191467"/>

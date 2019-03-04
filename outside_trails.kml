@@ -19,7 +19,7 @@
 		<SimpleData name="osm_id">8877892</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;www.newenglandforestry.org&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://newenglandforestry.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4773243,42.5327883 -71.4773287,42.5327657 -71.4773354,42.532757 -71.4773606,42.5327421 -71.4774127,42.5327223 -71.4774446,42.532705 -71.4774798,42.5326951 -71.4775151,42.5326914 -71.4775436,42.5326877 -71.4775738,42.5327112 -71.4775856,42.5327322 -71.4776225,42.5327743 -71.4776175,42.5327904 -71.4776158,42.532809 -71.4775923,42.5328275 -71.4775671,42.5328362 -71.4775319,42.532851 -71.4774865,42.532856 -71.4774143,42.5328436 -71.4773505,42.5328238 -71.4773354,42.5328065 -71.4773243,42.5327883 -71.4772078,42.5327236 -71.4771675,42.5326679 -71.4771105,42.532564 -71.4770651,42.5323809 -71.4770786,42.5322572 -71.4771927,42.5321384 -71.477439,42.532046 -71.4777206,42.5319395 -71.477825,42.531878 -71.478174,42.531819 -71.478533,42.531753 -71.47877,42.531749 -71.479,42.531787 -71.479185,42.531873 -71.4792852,42.5319159 -71.479421,42.531974 -71.479694,42.532124 -71.479865,42.532271 -71.480015,42.532432 -71.480344,42.532849 -71.480795,42.533394 -71.480997,42.533522 -71.481148,42.533631 -71.481368,42.533773 -71.48156,42.533903 -71.481877,42.534214 -71.482001,42.53436 -71.48211,42.534514 -71.482295,42.534861 -71.4824,42.535076 -71.4825282,42.5353809</coordinates></LineString>
   </Placemark>
@@ -354,7 +354,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4877852,42.4497837 -71.4878558,42.4497156 -71.4879567,42.449435 -71.4879749,42.4493624 -71.4880294,42.44932 -71.4881404,42.4491302 -71.4882373,42.4489304 -71.4882554,42.4488618 -71.4883907,42.4487406 -71.4884835,42.4485792 -71.488532,42.44845 -71.4886491,42.4482925 -71.4887076,42.4482279 -71.488861,42.4481109 -71.4890507,42.4479837 -71.489188,42.4479211 -71.4892324,42.4478807 -71.4893374,42.4478262 -71.4895271,42.4476607 -71.489618,42.4476284 -71.4896624,42.447578 -71.4896645,42.4473972</coordinates></LineString>
+      <LineString><coordinates>-71.4877852,42.4497837 -71.4878558,42.4497156 -71.4879567,42.449435 -71.4879749,42.4493624 -71.4880294,42.44932 -71.4881404,42.4491302 -71.4882373,42.4489304 -71.4882554,42.4488618 -71.4883907,42.4487406 -71.4884835,42.4485792 -71.488532,42.44845 -71.4886491,42.4482925 -71.4887076,42.4482279 -71.488861,42.4481109 -71.4890507,42.4479837 -71.4891561,42.4479356</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -1169,7 +1169,7 @@
 		<SimpleData name="osm_id">270455358</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4504837,42.5244785 -71.4505335,42.5244717 -71.4505697,42.5244633 -71.4506758,42.524427 -71.4507341,42.5244092 -71.4508004,42.5243824 -71.4509596,42.5243629</coordinates></LineString>
   </Placemark>
@@ -1180,7 +1180,7 @@
 		<SimpleData name="osm_id">270455365</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4459512,42.5194047 -71.4459955,42.5194126 -71.4460557,42.5195626 -71.4462067,42.519727 -71.4462928,42.5198981</coordinates></LineString>
   </Placemark>
@@ -1779,7 +1779,7 @@
 		<SimpleData name="osm_id">317371249</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;wood&quot;,&quot;website&quot;=&gt;&quot;http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;wood&quot;,&quot;website&quot;=&gt;&quot;https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4462928,42.5198981 -71.446397,42.5201276</coordinates></LineString>
   </Placemark>
@@ -1790,7 +1790,7 @@
 		<SimpleData name="osm_id">317371250</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;http://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;Littleton Conservation Trust&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;,&quot;website&quot;=&gt;&quot;https://littletonconservationtrust.org/guide/LittletonGuideMarch2007.pdf&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.446397,42.5201276 -71.4464671,42.5202968 -71.4464288,42.5203961 -71.4464714,42.5207402 -71.44656,42.5211252 -71.4465625,42.521211 -71.4466013,42.5212695 -71.4467706,42.5215567 -71.4469365,42.5218025 -71.4470201,42.5220563 -71.4471516,42.5222323 -71.4474165,42.5224514 -71.4475636,42.522449 -71.4477385,42.5224358 -71.4479031,42.5223823 -71.4479879,42.5224069 -71.4481013,42.5224397 -71.4483631,42.5224201 -71.4484944,42.5225406 -71.4486587,42.5226393 -71.4487384,42.522934 -71.448673,42.5230161 -71.4487181,42.5231211 -71.4487807,42.5232 -71.4488993,42.5231976 -71.448979,42.5231831 -71.4491153,42.5230788 -71.4494604,42.5230628 -71.4498009,42.523009 -71.449891,42.5230523 -71.4499594,42.5231257 -71.4500523,42.5234507 -71.449494,42.5240269 -71.4495172,42.5240692 -71.4495718,42.5240804 -71.4497248,42.5241092 -71.4498815,42.5241886 -71.4500958,42.5242142 -71.4502508,42.5243087 -71.4503652,42.524409 -71.4504837,42.5244785 -71.4504536,42.5246302 -71.4500503,42.5251905 -71.4499175,42.5252351 -71.4497449,42.525434 -71.4495712,42.5257894 -71.4496756,42.5259983 -71.4496194,42.526302 -71.4496656,42.5264098 -71.4496063,42.5264303 -71.4491652,42.5263054 -71.448807,42.5263868</coordinates></LineString>
   </Placemark>
