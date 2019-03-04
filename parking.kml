@@ -278,7 +278,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">651837930</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;25&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Ledge Rock Way&quot;,&quot;capacity&quot;=&gt;&quot;16&quot;,&quot;capacity:disabled&quot;=&gt;&quot;1&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.brucefreemanrailtrail.org/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;25&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Ledge Rock Way&quot;,&quot;capacity&quot;=&gt;&quot;16&quot;,&quot;capacity:disabled&quot;=&gt;&quot;1&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;https://brucefreemanrailtrail.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4115185,42.5153566 -71.4115481,42.5154033 -71.4110525,42.5155741 -71.4110229,42.5155273 -71.4115185,42.5153566</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
@@ -287,7 +287,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">651842561</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;48&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Brook Street&quot;,&quot;capacity&quot;=&gt;&quot;6&quot;,&quot;capacity:disabled&quot;=&gt;&quot;1&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.brucefreemanrailtrail.org/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;48&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Brook Street&quot;,&quot;capacity&quot;=&gt;&quot;6&quot;,&quot;capacity:disabled&quot;=&gt;&quot;1&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;https://brucefreemanrailtrail.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4186063,42.4940195 -71.4185372,42.4940251 -71.4185106,42.4938461 -71.4185798,42.4938405 -71.4186063,42.4940195</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
