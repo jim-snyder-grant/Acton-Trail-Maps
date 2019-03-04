@@ -1696,7 +1696,7 @@
 		<SimpleData name="osm_id">349837321</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3402195,42.4544737 -71.3401124,42.454397</coordinates></LineString>
   </Placemark>
@@ -1707,7 +1707,7 @@
 		<SimpleData name="osm_id">349837322</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3401124,42.454397 -71.3396896,42.4540886 -71.3394549,42.4538103 -71.339249,42.4537439 -71.3390257,42.4535796 -71.3386194,42.4533142 -71.3385514,42.4531531 -71.338723,42.4529433 -71.3388893,42.452869 -71.339075,42.4528113 -71.3392633,42.4527423 -71.3394013,42.4526388 -71.3396497,42.4523297 -71.3398481,42.4519799 -71.3401075,42.4517871 -71.3403023,42.451478 -71.3403233,42.4513615 -71.3402594,42.4511947 -71.340376,42.4510675 -71.3405605,42.451018 -71.3407275,42.451045 -71.3409014,42.4510432 -71.3409609,42.4509461 -71.3408817,42.4508406 -71.3407282,42.4508239 -71.3404246,42.4507787 -71.3402239,42.450678 -71.3401246,42.450587 -71.3401015,42.450156</coordinates></LineString>
   </Placemark>
@@ -1813,7 +1813,7 @@
 		<SimpleData name="osm_id">379682006</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3443417,42.4580635 -71.3445232,42.4576023 -71.3444137,42.4576145 -71.3443538,42.4576008 -71.3442877,42.4575352 -71.3442608,42.4574575 -71.3442257,42.457427 -71.3442349,42.4572566 -71.3441472,42.457235 -71.3438766,42.4571603 -71.3438952,42.4570537 -71.3438333,42.4570049 -71.3436618,42.4569348 -71.3435771,42.456918 -71.3434901,42.4568447 -71.3434657,42.45679 -71.3431234,42.4567155</coordinates></LineString>
   </Placemark>
@@ -1824,7 +1824,7 @@
 		<SimpleData name="osm_id">379682007</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;operator&quot;=&gt;&quot;ctc&quot;,&quot;website&quot;=&gt;&quot;https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3431234,42.4567155 -71.3431509,42.456639</coordinates></LineString>
   </Placemark>

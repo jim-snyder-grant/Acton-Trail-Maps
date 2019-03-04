@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-02-18T20:33:02Z"/>
+<meta osm_base="2019-03-04T02:49:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -9650,7 +9650,7 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Emerson Thoreau Amble"/>
     <tag k="operator" v="ctc"/>
-    <tag k="website" v="http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
+    <tag k="website" v="https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
   </way>
   <way id="349837322">
     <nd ref="3556277303"/>
@@ -9685,7 +9685,7 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Emerson Thoreau Amble"/>
     <tag k="operator" v="ctc"/>
-    <tag k="website" v="http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
+    <tag k="website" v="https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
   </way>
   <way id="370372693">
     <nd ref="70264765"/>
@@ -9850,7 +9850,7 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Emerson Thoreau Amble"/>
     <tag k="operator" v="ctc"/>
-    <tag k="website" v="http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
+    <tag k="website" v="https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
   </way>
   <way id="379682007">
     <nd ref="3025218117"/>
@@ -9860,7 +9860,7 @@
     <tag k="layer" v="1"/>
     <tag k="name" v="Emerson Thoreau Amble"/>
     <tag k="operator" v="ctc"/>
-    <tag k="website" v="http://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
+    <tag k="website" v="https://www.newenglandtravelplanner.com/go/ma/boston_west/concord/sights/emerson-thoreau_amble.html"/>
   </way>
   <way id="429289553">
     <nd ref="70305789"/>
