@@ -31,9 +31,12 @@ gdal.UseExceptions()
 
 OUTFILEBASEALL = "all_trails"
 OUTFILEBASEACTON = "acton_trails"
-NAMEKEY = "name"
+BRIDGEKEY = "bridge"
 COLORKEY = "color"
 HIGHWAYKEY = "highway"  # yes this key is oddly named. It's an Open Street Map convention
+NAMEKEY = "name"
+SURFACEKEY = "surface"
+WHEELCHAIRKEY = "wheelchair"
 
 # geoJSON writing prep
 OSMKEY = "osm_id"
@@ -45,6 +48,10 @@ outfileActonJSON = GeoJSONdriver.CreateDataSource(OUTFILEBASEACTON + '.geojson')
 
 outLayerAllJSON = outfileAllJSON.CreateLayer("OGRGeoJSON")
 outLayerActonJSON = outfileActonJSON.CreateLayer("OGRGeoJSON")
+
+bridgefield = ogr.FieldDefn(BRIDGEKEY, ogr. OFTString)
+outLayerAllJSON.CreateField(bridgefield)
+outLayerActonJSON.CreateField(bridgefield)
 
 colorfield = ogr.FieldDefn(COLORKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(colorfield)
@@ -61,6 +68,14 @@ outLayerActonJSON.CreateField(namefield)
 osmfield = ogr.FieldDefn(OSMKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(osmfield)
 outLayerActonJSON.CreateField(osmfield)
+
+surfacefield = ogr.FieldDefn(SURFACEKEY, ogr. OFTString)
+outLayerAllJSON.CreateField(surfacefield)
+outLayerActonJSON.CreateField(surfacefield)
+
+wheelchairfield = ogr.FieldDefn(WHEELCHAIRKEY, ogr. OFTString)
+outLayerAllJSON.CreateField(wheelchairfield)
+outLayerActonJSON.CreateField(wheelchairfield)
 
 layerDefnJSON = outLayerAllJSON.GetLayerDefn()
 
@@ -98,30 +113,50 @@ for info in file2style:
     # read from source file
         geom = infeature.GetGeometryRef()
         try:
-            osm_id = infeature.GetField(OSMKEY)
+            bridge = infeature.GetField(BRIDGEKEY)
         except ValueError:
-            osm_id = "Fake_osm_id"
-        try:     
-            name = infeature.GetField(NAMEKEY)
-        except ValueError:
-            name = ""
-        try:    
+            bridge = ""
+        try:
             highway = infeature.GetField(HIGHWAYKEY)
         except ValueError:
             highway = ""
+        try:
+            name = infeature.GetField(NAMEKEY)
+        except ValueError:
+            name = ""
         # remove the colors from the names of Acton trails
         if name:
             name = pattern.sub('',name)
+        try:
+            osm_id = infeature.GetField(OSMKEY)
+        except ValueError:
+            osm_id = "Fake_osm_id"
+        try:
+            surface = infeature.GetField(SURFACEKEY)
+        except ValueError:
+            surface = ""
+        try:
+            wheelchair = infeature.GetField(WHEELCHAIRKEY)
+        except ValueError:
+            wheelchair = ""
         
     # JSON writing part
         outfeatureJSON = ogr.Feature(layerDefnJSON)
         outfeatureJSON.SetGeometry(geom)
+        if (bridge):
+            outfeatureJSON.SetField(BRIDGEKEY, bridge)
+        outfeatureJSON.SetField(OSMKEY, osm_id)
         outfeatureJSON.SetField(COLORKEY, color)
         outfeatureJSON.SetField(HIGHWAYKEY, highway)
         if (name):
             outfeatureJSON.SetField(NAMEKEY, name)
         outfeatureJSON.SetField(OSMKEY, osm_id)
+        if (surface):
+            outfeatureJSON.SetField(SURFACEKEY, surface)
         outLayerAllJSON.CreateFeature(outfeatureJSON)
+        if (wheelchair):
+            outfeatureJSON.SetField(WHEELCHAIRKEY, wheelchair)
+        outfeatureJSON.SetField(OSMKEY, osm_id)
         if in_acton:
             outLayerActonJSON.CreateFeature(outfeatureJSON)
         outfeatureJSON = None
