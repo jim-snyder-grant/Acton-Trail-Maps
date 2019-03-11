@@ -50,6 +50,10 @@ colorfield = ogr.FieldDefn(COLORKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(colorfield)
 outLayerActonJSON.CreateField(colorfield)
 
+highwayfield = ogr.FieldDefn(HIGHWAYKEY, ogr. OFTString)
+outLayerAllJSON.CreateField(highwayfield)
+outLayerActonJSON.CreateField(highwayfield)
+
 namefield = ogr.FieldDefn(NAMEKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(namefield)
 outLayerActonJSON.CreateField(namefield)
@@ -57,10 +61,6 @@ outLayerActonJSON.CreateField(namefield)
 osmfield = ogr.FieldDefn(OSMKEY, ogr. OFTString)
 outLayerAllJSON.CreateField(osmfield)
 outLayerActonJSON.CreateField(osmfield)
-
-highwayfield = ogr.FieldDefn(HIGHWAYKEY, ogr. OFTString)
-outLayerAllJSON.CreateField(highwayfield)
-outLayerActonJSON.CreateField(highwayfield)
 
 layerDefnJSON = outLayerAllJSON.GetLayerDefn()
 
@@ -117,10 +117,10 @@ for info in file2style:
         outfeatureJSON = ogr.Feature(layerDefnJSON)
         outfeatureJSON.SetGeometry(geom)
         outfeatureJSON.SetField(COLORKEY, color)
+        outfeatureJSON.SetField(HIGHWAYKEY, highway)
         if (name):
             outfeatureJSON.SetField(NAMEKEY, name)
         outfeatureJSON.SetField(OSMKEY, osm_id)
-        outfeatureJSON.SetField(HIGHWAYKEY, highway)
         outLayerAllJSON.CreateFeature(outfeatureJSON)
         if in_acton:
             outLayerActonJSON.CreateFeature(outfeatureJSON)
