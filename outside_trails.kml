@@ -70,7 +70,7 @@
 		<SimpleData name="osm_id">8916087</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;massgis:way_id&quot;=&gt;&quot;160092&quot;,&quot;maxspeed&quot;=&gt;&quot;30 mph&quot;,&quot;source:maxspeed&quot;=&gt;&quot;massgis&quot;,&quot;tracktype&quot;=&gt;&quot;grade2&quot;,&quot;width&quot;=&gt;&quot;12.2&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;condition&quot;=&gt;&quot;fair&quot;,&quot;lanes&quot;=&gt;&quot;2&quot;,&quot;massgis:way_id&quot;=&gt;&quot;160092&quot;,&quot;maxspeed&quot;=&gt;&quot;30 mph&quot;,&quot;motor_vehicle&quot;=&gt;&quot;yes&quot;,&quot;source:maxspeed&quot;=&gt;&quot;massgis&quot;,&quot;tracktype&quot;=&gt;&quot;grade2&quot;,&quot;width&quot;=&gt;&quot;12.2&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4105619,42.4485621 -71.4106096,42.4486053 -71.4106417,42.4486409 -71.4106608,42.44868 -71.4106906,42.4488353 -71.4107116,42.4489651 -71.4107219,42.4490598 -71.4107135,42.4491456 -71.410697,42.4492166 -71.4106167,42.44949 -71.4105886,42.4495679 -71.4105622,42.4496468 -71.4105493,42.4497179 -71.4105233,42.4497785 -71.410482,42.4498295 -71.410425,42.4498881 -71.4103349,42.4499421 -71.4102255,42.4499994 -71.4098988,42.4501903</coordinates></LineString>
   </Placemark>
@@ -3402,7 +3402,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;note:old_railway_operator&quot;=&gt;&quot;Fitchburg&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;,&quot;website&quot;=&gt;&quot;http://www.arrtinc.org/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4541191,42.4462817 -71.4541094,42.4462501 -71.4539411,42.4456459 -71.4537861,42.4450064 -71.4536883,42.4444932 -71.4535324,42.4436755 -71.4528702,42.439563 -71.4527363,42.4380291 -71.452653,42.4372576 -71.4525954,42.4367241 -71.4525954,42.4367034 -71.4525954,42.4365498 -71.4525954,42.4356581 -71.4526729,42.4350966 -71.4528138,42.4346702 -71.4530491,42.4341814 -71.4531552,42.434006 -71.4533438,42.4338349 -71.4533551,42.4338158</coordinates></LineString>
+      <LineString><coordinates>-71.4541191,42.4462817 -71.4541094,42.4462501 -71.4539411,42.4456459 -71.4537861,42.4450064 -71.4536655,42.4445061 -71.4535324,42.4436755 -71.4528702,42.439563 -71.4527363,42.4380291 -71.452653,42.4372576 -71.4525954,42.4367241 -71.4525954,42.4367034 -71.4525954,42.4365498 -71.4525471,42.4361049 -71.4525552,42.4356561 -71.452606,42.4353734 -71.4526729,42.4350966 -71.4528138,42.4346702 -71.4530491,42.4341814 -71.4531552,42.434006 -71.4533438,42.4338349 -71.4533551,42.4338158</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>

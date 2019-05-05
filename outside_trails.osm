@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-03-04T02:50:02Z" areas="2019-03-04T02:18:02Z"/>
+<meta osm_base="2019-05-05T02:26:02Z" areas="2019-05-05T02:00:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1203,7 +1203,7 @@
   <node id="1080668407" lat="42.4395630" lon="-71.4528702"/>
   <node id="1080668449" lat="42.4341814" lon="-71.4530491"/>
   <node id="1080668498" lat="42.4456459" lon="-71.4539411"/>
-  <node id="1080668663" lat="42.4356581" lon="-71.4525954"/>
+  <node id="1080668663" lat="42.4356561" lon="-71.4525552"/>
   <node id="1080668688" lat="42.4350966" lon="-71.4526729"/>
   <node id="1305920429" lat="42.4473443" lon="-71.4980326"/>
   <node id="1305920433" lat="42.4472561" lon="-71.4979281"/>
@@ -5179,7 +5179,7 @@
   <node id="5757322353" lat="42.4462817" lon="-71.4541191">
     <tag k="note" v="Break near town line used by Acton Land Stewardship Committee"/>
   </node>
-  <node id="5800095717" lat="42.4444932" lon="-71.4536883"/>
+  <node id="5800095717" lat="42.4445061" lon="-71.4536655"/>
   <node id="5864071722" lat="42.4324103" lon="-71.4555000"/>
   <node id="5864071723" lat="42.4323824" lon="-71.4555026"/>
   <node id="5864071724" lat="42.4323477" lon="-71.4554905"/>
@@ -5229,6 +5229,8 @@
   <node id="6217264154" lat="42.4485703" lon="-71.4783567"/>
   <node id="6217287342" lat="42.4509215" lon="-71.4778253"/>
   <node id="6291464652" lat="42.4479356" lon="-71.4891561"/>
+  <node id="6379024268" lat="42.4361049" lon="-71.4525471"/>
+  <node id="6379024269" lat="42.4353734" lon="-71.4526060"/>
   <way id="8877892">
     <nd ref="2080640652"/>
     <nd ref="2080640648"/>
@@ -5395,6 +5397,7 @@
     <tag k="lanes" v="2"/>
     <tag k="massgis:way_id" v="160092"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="motor_vehicle" v="yes"/>
     <tag k="name" v="Off Harrington Avenue"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
     <tag k="source:maxspeed" v="massgis"/>
@@ -11896,7 +11899,9 @@
     <nd ref="1080668269"/>
     <nd ref="5742709598"/>
     <nd ref="3173935312"/>
+    <nd ref="6379024268"/>
     <nd ref="1080668663"/>
+    <nd ref="6379024269"/>
     <nd ref="1080668688"/>
     <nd ref="1080668215"/>
     <nd ref="1080668449"/>
