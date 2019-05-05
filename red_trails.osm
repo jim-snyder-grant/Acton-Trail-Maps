@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-03-04T02:50:02Z" areas="2019-03-04T02:45:02Z"/>
+<meta osm_base="2019-05-05T02:25:02Z" areas="2019-05-05T02:15:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -255,8 +255,7 @@
   <node id="2138419703" lat="42.4667900" lon="-71.4467400"/>
   <node id="2138419714" lat="42.4669300" lon="-71.4467900"/>
   <node id="2138419725" lat="42.4670160" lon="-71.4467580"/>
-  <node id="2138419730" lat="42.4670500" lon="-71.4549000"/>
-  <node id="2138419738" lat="42.4670800" lon="-71.4549800"/>
+  <node id="2138419732" lat="42.4670600" lon="-71.4548870"/>
   <node id="2138419743" lat="42.4671300" lon="-71.4550600"/>
   <node id="2138419751" lat="42.4671700" lon="-71.4551500"/>
   <node id="2138419754" lat="42.4672020" lon="-71.4433910"/>
@@ -1244,8 +1243,7 @@
     <tag k="surface" v="unpaved"/>
   </way>
   <way id="203837863">
-    <nd ref="2138419730"/>
-    <nd ref="2138419738"/>
+    <nd ref="2138419732"/>
     <nd ref="2138419743"/>
     <nd ref="2138419751"/>
     <nd ref="2138419757"/>

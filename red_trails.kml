@@ -249,7 +249,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4549,42.46705 -71.45498,42.46708 -71.45506,42.46713 -71.45515,42.46717 -71.45521,42.46722 -71.45527,42.46728 -71.45532,42.46735 -71.45536,42.4674 -71.45539,42.46746 -71.45546,42.46752 -71.45553,42.46756 -71.45561,42.46759 -71.455729,42.4676 -71.45582,42.4676 -71.4558604,42.467602 -71.4559043,42.4676057 -71.4559813,42.4676891</coordinates></LineString>
+      <LineString><coordinates>-71.454887,42.46706 -71.45506,42.46713 -71.45515,42.46717 -71.45521,42.46722 -71.45527,42.46728 -71.45532,42.46735 -71.45536,42.4674 -71.45539,42.46746 -71.45546,42.46752 -71.45553,42.46756 -71.45561,42.46759 -71.455729,42.4676 -71.45582,42.4676 -71.4558604,42.467602 -71.4559043,42.4676057 -71.4559813,42.4676891</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
