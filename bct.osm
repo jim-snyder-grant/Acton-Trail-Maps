@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-03-04T02:49:02Z"/>
+<meta osm_base="2019-05-05T02:25:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -345,10 +345,7 @@
   </node>
   <node id="65203403" lat="42.4742371" lon="-71.3898528"/>
   <node id="65204330" lat="42.4843130" lon="-71.3880000"/>
-  <node id="65204392" lat="42.4738905" lon="-71.3565681">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65204392" lat="42.4738905" lon="-71.3565681"/>
   <node id="65204465" lat="42.4734115" lon="-71.3714814"/>
   <node id="65205825" lat="42.4844170" lon="-71.3880800">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -359,10 +356,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
   <node id="65206594" lat="42.4700047" lon="-71.3528205"/>
-  <node id="65206648" lat="42.4736711" lon="-71.3575181">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65206648" lat="42.4736711" lon="-71.3575181"/>
   <node id="65207151" lat="42.4708340" lon="-71.3535523"/>
   <node id="65207567" lat="42.4599788" lon="-71.3479309">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -384,14 +378,8 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65210930" lat="42.4734811" lon="-71.3579594">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
-  <node id="65210948" lat="42.4714483" lon="-71.3539252">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65210930" lat="42.4734811" lon="-71.3579594"/>
+  <node id="65210948" lat="42.4714483" lon="-71.3539252"/>
   <node id="65211219" lat="42.4726890" lon="-71.3871733"/>
   <node id="65211382" lat="42.4781510" lon="-71.3892720"/>
   <node id="65211446" lat="42.4805735" lon="-71.3890746"/>
@@ -401,10 +389,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
   <node id="65212001" lat="42.4685850" lon="-71.3530610"/>
-  <node id="65212010" lat="42.4731869" lon="-71.3586398">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65212010" lat="42.4731869" lon="-71.3586398"/>
   <node id="65212702" lat="42.4597080" lon="-71.3473167">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
@@ -452,15 +437,9 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65220088" lat="42.4724338" lon="-71.3548215">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65220088" lat="42.4724338" lon="-71.3548215"/>
   <node id="65221828" lat="42.4726992" lon="-71.3870916"/>
-  <node id="65222657" lat="42.4738667" lon="-71.3564067">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65222657" lat="42.4738667" lon="-71.3564067"/>
   <node id="65222720" lat="42.4823100" lon="-71.3889710"/>
   <node id="65223320" lat="42.4726439" lon="-71.3873036"/>
   <node id="65223996" lat="42.4708262" lon="-71.3534558"/>
@@ -472,10 +451,7 @@
   <node id="65225934" lat="42.4685360" lon="-71.3529500"/>
   <node id="65226634" lat="42.4772230" lon="-71.3893130"/>
   <node id="65227915" lat="42.4835000" lon="-71.3889290"/>
-  <node id="65228137" lat="42.4738147" lon="-71.3571428">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65228137" lat="42.4738147" lon="-71.3571428"/>
   <node id="65228222" lat="42.4591623" lon="-71.3464509">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
@@ -494,10 +470,7 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65229323" lat="42.4738829" lon="-71.3564812">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65229323" lat="42.4738829" lon="-71.3564812"/>
   <node id="65229490" lat="42.4741005" lon="-71.3647257"/>
   <node id="65231013" lat="42.4727501" lon="-71.3817120"/>
   <node id="65231326" lat="42.4691900" lon="-71.3531990"/>
@@ -506,25 +479,19 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65232206" lat="42.4737751" lon="-71.3561918">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65232206" lat="42.4737751" lon="-71.3561918"/>
   <node id="65232364" lat="42.4713500" lon="-71.3538486"/>
   <node id="65233133" lat="42.4605768" lon="-71.3491419"/>
   <node id="65233218" lat="42.4613368" lon="-71.3496871"/>
   <node id="65233232" lat="42.4737846" lon="-71.3685044"/>
-  <node id="65233631" lat="42.4729962" lon="-71.3593465">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65233631" lat="42.4729962" lon="-71.3593465"/>
   <node id="65233851" lat="42.4731153" lon="-71.3779368"/>
   <node id="65233926" lat="42.4741831" lon="-71.3629662">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
   <node id="65234251" lat="42.4684830" lon="-71.3525270"/>
-  <node id="65235058" lat="42.4733746" lon="-71.3735722"/>
+  <node id="65235058" lat="42.4733809" lon="-71.3735618"/>
   <node id="65235103" lat="42.4592537" lon="-71.3465827">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
@@ -532,21 +499,12 @@
   <node id="65235448" lat="42.4735598" lon="-71.3700423"/>
   <node id="65235725" lat="42.4811830" lon="-71.3889050"/>
   <node id="65235841" lat="42.4735123" lon="-71.3893915"/>
-  <node id="65236158" lat="42.4738431" lon="-71.3570533">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65236158" lat="42.4738431" lon="-71.3570533"/>
   <node id="65236653" lat="42.4729244" lon="-71.3787647"/>
   <node id="65236852" lat="42.4737311" lon="-71.3762767"/>
   <node id="65237142" lat="42.4784421" lon="-71.3891631"/>
-  <node id="65237210" lat="42.4729840" lon="-71.3604094">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
-  <node id="65237246" lat="42.4729875" lon="-71.3605772">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65237210" lat="42.4729840" lon="-71.3604094"/>
+  <node id="65237246" lat="42.4729875" lon="-71.3605772"/>
   <node id="65237407" lat="42.4690510" lon="-71.3532810"/>
   <node id="65239249" lat="42.4838180" lon="-71.3886570"/>
   <node id="65240211" lat="42.4733188" lon="-71.3726676"/>
@@ -575,7 +533,7 @@
   <node id="65248540" lat="42.4732175" lon="-71.3890424"/>
   <node id="65248594" lat="42.4807990" lon="-71.3890130"/>
   <node id="65249855" lat="42.4726125" lon="-71.3873533"/>
-  <node id="65250174" lat="42.4733573" lon="-71.3734067"/>
+  <node id="65250174" lat="42.4733622" lon="-71.3734020"/>
   <node id="65250281" lat="42.4684800" lon="-71.3526670"/>
   <node id="65250701" lat="42.4799220" lon="-71.3891566"/>
   <node id="65251583" lat="42.4821060" lon="-71.3888760"/>
@@ -586,10 +544,7 @@
   </node>
   <node id="65252137" lat="42.4706233" lon="-71.3531459"/>
   <node id="65252422" lat="42.4707445" lon="-71.3532954"/>
-  <node id="65252600" lat="42.4738192" lon="-71.3562739">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65252600" lat="42.4738192" lon="-71.3562739"/>
   <node id="65252745" lat="42.4813790" lon="-71.3888170"/>
   <node id="65252885" lat="42.4733292" lon="-71.3730233"/>
   <node id="65253475" lat="42.4741425" lon="-71.3628801">
@@ -609,10 +564,7 @@
   <node id="65256805" lat="42.4739422" lon="-71.3673192"/>
   <node id="65257599" lat="42.4688539" lon="-71.3513933"/>
   <node id="65257918" lat="42.4686690" lon="-71.3518440"/>
-  <node id="65258393" lat="42.4737316" lon="-71.3573702">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65258393" lat="42.4737316" lon="-71.3573702"/>
   <node id="65259090" lat="42.4695890" lon="-71.3529080"/>
   <node id="65259292" lat="42.4687060" lon="-71.3532280"/>
   <node id="65260888" lat="42.4766070" lon="-71.3890030"/>
@@ -620,28 +572,16 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
-  <node id="65261234" lat="42.4730879" lon="-71.3588960">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65261234" lat="42.4730879" lon="-71.3588960"/>
   <node id="65261377" lat="42.4684900" lon="-71.3527720"/>
-  <node id="65262174" lat="42.4730030" lon="-71.3596091">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65262174" lat="42.4730030" lon="-71.3596091"/>
   <node id="65262451" lat="42.4604863" lon="-71.3490586"/>
   <node id="65262805" lat="42.4741250" lon="-71.3644501">
     <tag k="highway" v="stop"/>
     <tag k="stop" v="all"/>
   </node>
-  <node id="65262990" lat="42.4735539" lon="-71.3577921">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
-  <node id="65263898" lat="42.4731846" lon="-71.3555026">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65262990" lat="42.4735539" lon="-71.3577921"/>
+  <node id="65263898" lat="42.4731846" lon="-71.3555026"/>
   <node id="65264118" lat="42.4849460" lon="-71.3882660">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
@@ -649,10 +589,7 @@
   <node id="65265100" lat="42.4693440" lon="-71.3530760"/>
   <node id="65265904" lat="42.4735014" lon="-71.3746295"/>
   <node id="65266827" lat="42.4733310" lon="-71.3722991"/>
-  <node id="65267051" lat="42.4715398" lon="-71.3540030">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65267051" lat="42.4715398" lon="-71.3540030"/>
   <node id="65267156" lat="42.4739503" lon="-71.3671647"/>
   <node id="65267158" lat="42.4809320" lon="-71.3889580"/>
   <node id="65267322" lat="42.4587629" lon="-71.3459186">
@@ -675,10 +612,7 @@
   </node>
   <node id="65271326" lat="42.4736854" lon="-71.3764510"/>
   <node id="65271534" lat="42.4728543" lon="-71.3793604"/>
-  <node id="65272073" lat="42.4737135" lon="-71.3560991">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65272073" lat="42.4737135" lon="-71.3560991"/>
   <node id="65273474" lat="42.4729609" lon="-71.3785596"/>
   <node id="65273703" lat="42.4818240" lon="-71.3887360"/>
   <node id="65274060" lat="42.4729404" lon="-71.3885652"/>
@@ -713,10 +647,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
   </node>
   <node id="65277847" lat="42.4727308" lon="-71.3849509"/>
-  <node id="65277860" lat="42.4716131" lon="-71.3540699">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
-  </node>
+  <node id="65277860" lat="42.4716131" lon="-71.3540699"/>
   <node id="65278072" lat="42.4792530" lon="-71.3890970"/>
   <node id="65278192" lat="42.4742065" lon="-71.3630647">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -4097,6 +4028,9 @@
   </node>
   <node id="1692539554" lat="42.5663633" lon="-71.3824380"/>
   <node id="1692539557" lat="42.5679930" lon="-71.3812397"/>
+  <node id="1692539562" lat="42.5682979" lon="-71.3811114">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="1692539564" lat="42.5685369" lon="-71.3810266"/>
   <node id="1692539565" lat="42.5688931" lon="-71.3809367"/>
   <node id="1692539571" lat="42.5715065" lon="-71.3804108">
@@ -4721,7 +4655,7 @@
   <node id="2446534267" lat="42.4735867" lon="-71.3751497"/>
   <node id="2446534268" lat="42.4737062" lon="-71.3757524"/>
   <node id="2446534269" lat="42.4734469" lon="-71.3711373"/>
-  <node id="2446534270" lat="42.4733404" lon="-71.3732094"/>
+  <node id="2446534270" lat="42.4733362" lon="-71.3731601"/>
   <node id="2446534273" lat="42.4733644" lon="-71.3718850"/>
   <node id="2446534274" lat="42.4733229" lon="-71.3724787"/>
   <node id="2446534275" lat="42.4730066" lon="-71.3783374"/>
@@ -5616,6 +5550,13 @@
   <node id="6286874441" lat="42.5188051" lon="-71.4042435"/>
   <node id="6286874442" lat="42.5186981" lon="-71.4044105"/>
   <node id="6286874443" lat="42.5183012" lon="-71.4048272"/>
+  <node id="6377470470" lat="42.4910061" lon="-71.4007139"/>
+  <node id="6411628852" lat="42.4733947" lon="-71.3716253"/>
+  <node id="6411628855" lat="42.4734845" lon="-71.3707759"/>
+  <node id="6411628858" lat="42.4735488" lon="-71.3701498"/>
+  <node id="6411628881" lat="42.4733268" lon="-71.3723928"/>
+  <node id="6411631796" lat="42.4734044" lon="-71.3737614"/>
+  <node id="6412270884" lat="42.4735282" lon="-71.3768549"/>
   <way id="8842536">
     <nd ref="860754391"/>
     <nd ref="64034068"/>
@@ -8299,13 +8240,10 @@
     <nd ref="65262990"/>
     <nd ref="4529047430"/>
     <nd ref="65206648"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="condition" v="fair"/>
     <tag k="highway" v="residential"/>
     <tag k="lanes" v="2"/>
-    <tag k="massgis:way_id" v="189334"/>
     <tag k="name" v="Barnes Hill Road"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
     <tag k="width" v="9.1"/>
   </way>
   <way id="239480886">
@@ -8334,13 +8272,10 @@
     <nd ref="2472552070"/>
     <nd ref="65236158"/>
     <nd ref="65228137"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="condition" v="fair"/>
     <tag k="highway" v="residential"/>
     <tag k="lanes" v="2"/>
-    <tag k="massgis:way_id" v="109305"/>
     <tag k="name" v="Estabrook Road"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
     <tag k="width" v="9.1"/>
   </way>
   <way id="245531750">
@@ -8408,6 +8343,7 @@
     <nd ref="3013597657"/>
     <nd ref="64033957"/>
     <nd ref="1692539557"/>
+    <nd ref="1692539562"/>
     <nd ref="3441083088"/>
     <nd ref="1692539564"/>
     <nd ref="1692539565"/>
@@ -8909,6 +8845,7 @@
     <nd ref="65209769"/>
     <nd ref="65233851"/>
     <nd ref="65243334"/>
+    <nd ref="6412270884"/>
     <nd ref="3175828192"/>
     <nd ref="65271326"/>
     <nd ref="65216723"/>
@@ -8923,6 +8860,7 @@
     <nd ref="2446534256"/>
     <nd ref="65265904"/>
     <nd ref="65224847"/>
+    <nd ref="6411631796"/>
     <nd ref="65235058"/>
     <nd ref="65250174"/>
     <nd ref="2446534270"/>
@@ -8930,13 +8868,17 @@
     <nd ref="2446534279"/>
     <nd ref="65240211"/>
     <nd ref="2446534274"/>
+    <nd ref="6411628881"/>
     <nd ref="65266827"/>
     <nd ref="65255555"/>
     <nd ref="2446534273"/>
+    <nd ref="6411628852"/>
     <nd ref="65204465"/>
     <nd ref="2446534258"/>
     <nd ref="2446534269"/>
     <nd ref="65269004"/>
+    <nd ref="6411628855"/>
+    <nd ref="6411628858"/>
     <nd ref="65235448"/>
     <nd ref="65274878"/>
     <nd ref="65218142"/>
@@ -9917,13 +9859,10 @@
     <nd ref="65258393"/>
     <nd ref="2471342434"/>
     <nd ref="65228137"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="condition" v="fair"/>
     <tag k="highway" v="residential"/>
     <tag k="lanes" v="2"/>
-    <tag k="massgis:way_id" v="189334"/>
     <tag k="name" v="Barnes Hill Road"/>
-    <tag k="source" v="massgis_import_v0.1_20071009102506"/>
     <tag k="width" v="9.1"/>
   </way>
   <way id="461412484">
@@ -10559,6 +10498,7 @@
     <nd ref="5099200087"/>
     <nd ref="73310816"/>
     <nd ref="73199508"/>
+    <nd ref="6377470470"/>
     <nd ref="73234808"/>
     <nd ref="73288593"/>
     <nd ref="73307803"/>
