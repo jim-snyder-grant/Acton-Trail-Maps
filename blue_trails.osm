@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-05-05T02:25:02Z" areas="2019-05-05T02:00:01Z"/>
+<meta osm_base="2019-05-28T21:32:04Z" areas="2019-05-28T20:37:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -50,7 +50,7 @@
   <node id="2118697701" lat="42.4813498" lon="-71.4367714"/>
   <node id="2118697703" lat="42.4813452" lon="-71.4361770"/>
   <node id="2118697706" lat="42.4814183" lon="-71.4362326"/>
-  <node id="2118697707" lat="42.4814130" lon="-71.4368135"/>
+  <node id="2118697707" lat="42.4814491" lon="-71.4368718"/>
   <node id="2118697708" lat="42.4814259" lon="-71.4363045"/>
   <node id="2118697717" lat="42.4816699" lon="-71.4332655"/>
   <node id="2118697727" lat="42.4817776" lon="-71.4331613"/>
@@ -779,8 +779,8 @@
   <node id="3929605955" lat="42.4641241" lon="-71.4759834"/>
   <node id="4154044992" lat="42.4813256" lon="-71.4367233"/>
   <node id="4154407648" lat="42.4815673" lon="-71.4365394"/>
-  <node id="4154407649" lat="42.4816388" lon="-71.4364259"/>
-  <node id="4154407650" lat="42.4817240" lon="-71.4362399"/>
+  <node id="4154407649" lat="42.4816472" lon="-71.4364306"/>
+  <node id="4154407650" lat="42.4817265" lon="-71.4362828"/>
   <node id="4154436607" lat="42.4809809" lon="-71.4330551"/>
   <node id="4154436610" lat="42.4812871" lon="-71.4332319"/>
   <node id="4245260405" lat="42.4811559" lon="-71.4834993"/>
@@ -920,8 +920,9 @@
   <node id="6399712297" lat="42.4682021" lon="-71.4532722"/>
   <node id="6399712298" lat="42.4678187" lon="-71.4519022"/>
   <node id="6399712299" lat="42.4675651" lon="-71.4520965"/>
-  <node id="6399712300" lat="42.4676549" lon="-71.4523315"/>
-  <node id="6399712301" lat="42.4676539" lon="-71.4523031"/>
+  <node id="6399712301" lat="42.4676541" lon="-71.4523158">
+    <tag k="ford" v="yes"/>
+  </node>
   <node id="6399712302" lat="42.4660528" lon="-71.4518799"/>
   <node id="6399712303" lat="42.4667207" lon="-71.4510225"/>
   <node id="6399712304" lat="42.4666783" lon="-71.4509650"/>
@@ -938,7 +939,10 @@
   <node id="6399712315" lat="42.4661823" lon="-71.4515530"/>
   <node id="6399712316" lat="42.4662595" lon="-71.4516983"/>
   <node id="6399712317" lat="42.4663096" lon="-71.4518995"/>
-  <node id="6399712319" lat="42.4676554" lon="-71.4523162"/>
+  <node id="6489756834" lat="42.4817793" lon="-71.4362847"/>
+  <node id="6489756835" lat="42.4817522" lon="-71.4362690"/>
+  <node id="6489756836" lat="42.4816854" lon="-71.4363493"/>
+  <node id="6489756837" lat="42.4814958" lon="-71.4367224"/>
   <way id="61912339">
     <nd ref="771666440"/>
     <nd ref="4567020370"/>
@@ -1263,7 +1267,7 @@
     <nd ref="2138419801"/>
     <nd ref="2138419796"/>
     <nd ref="2138419792"/>
-    <nd ref="6399712300"/>
+    <nd ref="6399712301"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
@@ -2009,9 +2013,13 @@
   </way>
   <way id="414270290">
     <nd ref="3208409055"/>
+    <nd ref="6489756834"/>
+    <nd ref="6489756835"/>
     <nd ref="4154407650"/>
+    <nd ref="6489756836"/>
     <nd ref="4154407649"/>
     <nd ref="4154407648"/>
+    <nd ref="6489756837"/>
     <nd ref="2118697707"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
@@ -2291,18 +2299,6 @@
     <nd ref="2138419857"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="name" v="Blue"/>
-    <tag k="surface" v="unpaved"/>
-  </way>
-  <way id="683262289">
-    <nd ref="6399712300"/>
-    <nd ref="6399712319"/>
-    <nd ref="6399712301"/>
-    <tag k="access" v="yes"/>
-    <tag k="foot" v="designated"/>
-    <tag k="ford" v="stepping_stones"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
