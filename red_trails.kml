@@ -203,7 +203,7 @@
 		<SimpleData name="osm_id">202989781</SimpleData>
 		<SimpleData name="highway">track</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;yes&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4730873,42.4589801 -71.4732675,42.4590234 -71.473568,42.459049 -71.4736028,42.459061</coordinates></LineString>
   </Placemark>
@@ -357,7 +357,7 @@
 		<SimpleData name="osm_id">203935180</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;wood&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4500423,42.4993354 -71.4500067,42.4992582</coordinates></LineString>
   </Placemark>
@@ -491,7 +491,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4150208,42.5043564 -71.414987,42.504333 -71.4148686,42.5042801 -71.414769,42.5042623 -71.414666,42.5042556 -71.4144682,42.5041899</coordinates></LineString>
+      <LineString><coordinates>-71.4149913,42.5043366 -71.4149548,42.5043172 -71.4148686,42.5042801 -71.414769,42.5042623 -71.414666,42.5042556 -71.4144682,42.5041899</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
