@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-03-04T02:50:02Z" areas="2019-03-04T02:18:02Z"/>
+<meta osm_base="2019-05-28T21:32:04Z" areas="2019-05-28T21:12:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -55,7 +55,7 @@
   <node id="4425739947" lat="42.5004329" lon="-71.4390599"/>
   <node id="4425739948" lat="42.5004728" lon="-71.4389511"/>
   <node id="4425739949" lat="42.5005622" lon="-71.4390149"/>
-  <node id="4427162256" lat="42.4817333" lon="-71.4378071"/>
+  <node id="4427162256" lat="42.4817397" lon="-71.4378078"/>
   <node id="4480865205" lat="42.4405997" lon="-71.4298672"/>
   <node id="4480865206" lat="42.4405601" lon="-71.4299503"/>
   <node id="4480865207" lat="42.4404185" lon="-71.4298283"/>
@@ -94,16 +94,16 @@
   <node id="4970764461" lat="42.4649461" lon="-71.4758764"/>
   <node id="4970764462" lat="42.4650440" lon="-71.4759501"/>
   <node id="5078009851" lat="42.4816202" lon="-71.4376748"/>
-  <node id="5166721286" lat="42.4813685" lon="-71.4379436"/>
-  <node id="5166721287" lat="42.4816854" lon="-71.4378284"/>
+  <node id="5166721286" lat="42.4813799" lon="-71.4379456"/>
+  <node id="5166721287" lat="42.4816834" lon="-71.4378224"/>
   <node id="5166721288" lat="42.4816273" lon="-71.4377453"/>
   <node id="5166721289" lat="42.4816921" lon="-71.4377239"/>
   <node id="5166721290" lat="42.4816811" lon="-71.4376549"/>
   <node id="5166721291" lat="42.4817394" lon="-71.4376414"/>
   <node id="5166721292" lat="42.4818000" lon="-71.4376313"/>
   <node id="5166721293" lat="42.4818506" lon="-71.4376374"/>
-  <node id="5166721294" lat="42.4816248" lon="-71.4375992"/>
-  <node id="5166721298" lat="42.4813125" lon="-71.4377152"/>
+  <node id="5166721294" lat="42.4816406" lon="-71.4375938"/>
+  <node id="5166721298" lat="42.4813298" lon="-71.4377320"/>
   <node id="5166721303" lat="42.4813192" lon="-71.4378830"/>
   <node id="5422784749" lat="42.4547340" lon="-71.4357130"/>
   <node id="5422784750" lat="42.4546332" lon="-71.4356866"/>
@@ -184,6 +184,10 @@
   <node id="6237196303" lat="42.4413074" lon="-71.4329934"/>
   <node id="6237196304" lat="42.4411787" lon="-71.4330074"/>
   <node id="6237196305" lat="42.4411717" lon="-71.4328887"/>
+  <node id="6489756839" lat="42.4815104" lon="-71.4376441"/>
+  <node id="6489756840" lat="42.4813522" lon="-71.4378055"/>
+  <node id="6489756841" lat="42.4813016" lon="-71.4378462"/>
+  <node id="6489756842" lat="42.4813434" lon="-71.4378878"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -242,8 +246,12 @@
     <nd ref="5166721290"/>
     <nd ref="5078009851"/>
     <nd ref="5166721294"/>
+    <nd ref="6489756839"/>
     <nd ref="5166721298"/>
+    <nd ref="6489756840"/>
+    <nd ref="6489756841"/>
     <nd ref="5166721303"/>
+    <nd ref="6489756842"/>
     <nd ref="5166721286"/>
     <nd ref="5166721287"/>
     <nd ref="5166721288"/>
@@ -258,10 +266,9 @@
     <tag k="amenity" v="parking"/>
     <tag k="capacity" v="15"/>
     <tag k="fee" v="no"/>
-    <tag k="note" v="geometry approximate - just reconstructed"/>
     <tag k="parking" v="surface"/>
     <tag k="supervised" v="no"/>
-    <tag k="surface" v="paved"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="website" v="http://www.actontrails.org/arboretum/"/>
   </way>
   <way id="203893374">
