@@ -65,7 +65,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">5467710319</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;21&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Willis Holden Drive&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/grassy-pond/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;21&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Willis Holden Drive&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/grassy-pond/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.4479834,42.4995232</coordinates></Point>
   </Placemark>
