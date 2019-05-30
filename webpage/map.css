@@ -66,4 +66,42 @@ nav .brand-logo {
 /* to make checkbox match regular menu items */
 .dropdown-content li > a label {color:rgb(38, 166, 154);}
 
+/* markers */
+.marker-template { 
+    visibility:hidden;    
+}
+.marker 
+{
+    display:flex;
+    flex-direction:row;
+}
 
+.marker, #marker-button{ 
+    font-size: 22px; color:crimson; background-color: aliceblue;
+}
+ 
+.marker-arrow, .marker-close {
+    display:inline-block;
+}
+p.marker-arrow, p.marker-close {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+p.marker-close{ 
+    cursor: pointer;
+}
+
+::placeholder {
+  color: blue;
+}
+/* .marker-text {float:left; display:none;} */
+input.marker-text-input[type=text] {
+       
+        border: 0;
+        background-color: #fff;
+        padding: 0em;
+        margin: 0px;
+        display: inline-block;
+        height: 1.2em;
+        width:auto;
+    }

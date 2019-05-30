@@ -1,11 +1,25 @@
 
 var looseBounds = new mapboxgl.LngLatBounds([-71.8578, 42.3236], [-71.1436,42.6537]);   
 var closeBounds = new mapboxgl.LngLatBounds([-71.50583, 42.43861], [-71.38528,42.53583]);
-    
 var urlParams;
 var currentState;
+var STARTZOOM = 12.1;
+var newZoom = STARTZOOM; 
+var STARTCENTER = new mapboxgl.LngLat(-71.4338,42.486);
+var newCenter = STARTCENTER;
+var ZOOMPADDING = 40;
+var ZOOMTIME = 3300; // milliseconds
+var FASTZOOMTIME = 1100; 
+var Markers = [];
+var MARKERID = "marker-"
+var whichLandInfo = null;
+var landName = null;
+var MarkerElementTemplate=null;
+var InputTester = null;
+    
+mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
+
 (window.onpopstate = function () {
-//    console.log("popstate begin")
     var match;
     var pl     = /\+/g;  // Regex for replacing addition symbol with a space
     var search = /([^&=]+)=?([^&]*)/g;
@@ -16,22 +30,8 @@ var currentState;
     currentState = window.history.state;
     while (match = search.exec(query))
        urlParams[decode(match[1])] = decode(match[2]);
-//    console.log("popstate end: ")
-//    console.log(urlParams);
 })();
 
-var STARTZOOM = 12.1;
-var newZoom = STARTZOOM; 
-var STARTCENTER = new mapboxgl.LngLat(-71.4338,42.486);
-var newCenter = STARTCENTER;
-var ZOOMPADDING = 40;
-var ZOOMTIME = 3300; // milliseconds
-var FASTZOOMTIME = 1100; 
-
-var whichLandInfo = null;
-var landName = null;
-    
-mapboxgl.accessToken = 'pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw';
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/jimsg/civ17sdex00l02io48dp99x1m', //stylesheet location
@@ -54,16 +54,14 @@ $(window).bind('mousemove.hasMouse',function(){
     hasMouse=false;
 });
 
-// put our ugly control in with the mapbox conttrols
+// put our two controls in with the mapbox conttrols
 var LowerRightControls = document.getElementsByClassName('mapboxgl-ctrl-bottom-right')[0];
-// console.log(LowerRightControls);
-
 LowerRightControls.insertBefore(document.getElementById('position-info'), LowerRightControls.firstChild);
+LowerRightControls.insertBefore(document.getElementById('marker-button'), LowerRightControls.firstChild);
 
 function gotoLand(where)
 {
    envelope = Envelopes[where].envelope;
-    //    console.log(land, envelope);
     if (envelope)
     {
         $("#info-card").css("visibility", "hidden");
@@ -72,6 +70,43 @@ function gotoLand(where)
         landName = where;
     }
 }
+
+function addMarker(where, text)
+{
+     newMarkerElement = MarkerElementTemplate.cloneNode(true);
+     newMarkerElement.className = "marker";
+     newMarkerElement.id = MARKERID + Markers.length;
+     newMarker = new mapboxgl.Marker({element:newMarkerElement,draggable:true,anchor:'left'})
+     newMarker.setLngLat(where)
+     Markers.push(newMarker); 
+     inputElement = newMarkerElement.children[1];
+     inputElement.value = text;
+     newMarker.addTo(map);
+     inputElement.focus();
+          
+     closeElement = newMarkerElement.children[2];
+     closeElement.onclick = function(e){
+        markerElement = e.target.parentElement;
+        marker = markerElement.parentElement;    
+        Markers = Markers.filter(function(item) { 
+            return markerElement.id != item.getElement().id;
+        }); 
+        marker.removeChild(markerElement); 
+        updateURL();  
+     };
+
+     inputElement.onblur = function(e){
+        InputTester.value = e.target.value + "--"; //-- for padding
+        var positionInfo = InputTester.getBoundingClientRect();
+        var txtlength = positionInfo.width + "px"
+        $(this).css({width: txtlength}); 
+        InputTester.value = "" 
+     }
+     newMarker.on("dragend",function(e){
+         markersToJSON();
+     });
+}
+   
 
 $( document ).ready(function() {
     
@@ -128,7 +163,13 @@ $( document ).ready(function() {
          window.location = whichLandInfo.url;
     });
     
+    MarkerElementTemplate = document.querySelector( "#marker-template" );
+    /* we use the input elemnt of the template to measure text size */
+    InputTester = MarkerElementTemplate.children[1];
     
+    $( "#marker-button" ).on( "click",function( event) {
+        addMarker(map.getCenter(),"");
+    });
 });  
 
 function updatePositionInfo(where)
@@ -138,10 +179,32 @@ function updatePositionInfo(where)
        
 }
    
+function markersToJSON()
+{
+    var simplerMarkers = [];
+    Markers.forEach(function(marker) {
+        where = marker.getLngLat();
+        el = marker.getElement();
+        label = el.children[1].value;
+        simplerMarkers.push({t:label, x:where.lng.toFixed(6), y:where.lat.toFixed(6)});
+                             
+    }); 
+    markerString = JSON.stringify(simplerMarkers);
+    return markerString;
+}
+
+function JSONToMarkers(markerString)
+{   
+    simpleMarkers  = JSON.parse(markerString)
+    simpleMarkers.forEach(function(info){
+        addMarker([info.x,info.y],info.t);
+    });
+}
+
 function updateURL()
 {
     var center = map.getBounds().getCenter();
-    var newURL = window.location.pathname + '?' +'zoom='+map.getZoom().toFixed(2)+'&lng=' + center.lng.toFixed(6) + '&lat=' + center.lat.toFixed(6);
+    var newURL = window.location.pathname + '?' +'zoom='+map.getZoom().toFixed(2)+'&lng=' + center.lng.toFixed(6) + '&lat=' + center.lat.toFixed(6) + '&m=' + markersToJSON();
     window.history.replaceState(currentState, "", newURL );
 }
 
@@ -160,7 +223,6 @@ function updateInfobox()
 map.on('movestart', function() {
         whichLandInfo = null;
 });
-
 
 map.on('moveend', function() {
         var center = map.getCenter()
@@ -186,7 +248,6 @@ map.on('moveend', function() {
         updateInfobox();        
 });
 
-
 map.on('zoomend', function (e) {
     updateURL();
 });
@@ -208,7 +269,6 @@ map.dragRotate.disable();
 map.touchZoomRotate.disableRotation();
 // scale(s)
 map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}));
-// map.addControl(new mapboxgl.ScaleControl({unit: 'metric'}));
     
 map.on('load', function () {
     var b = $('#bay-circuit-trail').prop('checked');
@@ -225,7 +285,9 @@ map.on('load', function () {
         if (urlParams.lng && urlParams.lat){
             newCenter = new mapboxgl.LngLat(urlParams.lng, urlParams.lat);
         }
-    
+        if (urlParams.m){
+            JSONToMarkers(urlParams.m)
+        }
         map.easeTo({duration:3000, zoom:newZoom, center:newCenter});
         updatePositionInfo(newCenter);
     }
@@ -233,32 +295,23 @@ map.on('load', function () {
     {
          $('.tooltipped').tooltip('remove');
     }
+
 });
  map.on('click', function (e) {
         landName = null;
         whichLandInfo = null
         features = null;
-//        console.log(e)
-//        console.log(e.point)
     
         features = map.queryRenderedFeatures(
                 e.point,
-                { layers: ['bounds'] });    
-        
+                { layers: ['bounds'] });         
         if (features && features[0])
         {
-//            console.log(features)
             landName = features[0].properties.name;
         }
         if (landName)
         {
             whichLandInfo = Envelopes[landName]; 
         }
-//        console.log("e, landName, whichLandInfo")
-//        console.log(e)
-//        console.log(landName)
-//        console.log(whichLandInfo)
-     
-
         updateInfobox();
     });
