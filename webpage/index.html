@@ -4,8 +4,8 @@
         <meta charset='utf-8' />
         <title>Acton Trails</title>
         <!-- mapbox GL -->
-         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -54,6 +54,11 @@
 <!-- the map, and stuff laid on top of the map -->       
         <div id='map'>
         </div> 
+<!-- marker button -->   
+        <button name="button" id='marker-button' class="mapboxgl-ctrl">&#x2B05;</button>
+    
+<!-- position info -->        
+        
         <div id='position-info' class="mapboxgl-ctrl mapboxgl-ctrl-scale">
         </div>
 <!-- info-card content is programmatically  generated -->
@@ -67,7 +72,15 @@
                 </a>
             </div>
         </div>
-        
+
+
+<!-- marker template -->
+    <div id="marker-template" class='marker-template'>
+        <p class='marker-arrow'>&#x2B05;</p>        
+        <input class='marker-text-input' type='text' name='text-input' placeholder='Type label. Drag to place'/>
+        <p class='marker-close'>&#x274c;</p>  
+    </div>     
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>        
