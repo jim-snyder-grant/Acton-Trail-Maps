@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-05-28T21:32:04Z" areas="2019-05-28T18:55:02Z"/>
+<meta osm_base="2019-09-25T10:26:02Z" areas="2019-09-25T10:05:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -1022,6 +1022,7 @@
     <tag k="highway" v="crossing"/>
     <tag k="source" v="massgis_import_v0.1_20071009102326"/>
   </node>
+  <node id="65228415" lat="42.4513590" lon="-71.3891880"/>
   <node id="65255722" lat="42.4313850" lon="-71.3950560">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009102506"/>
@@ -1211,7 +1212,7 @@
   <node id="1078465482" lat="42.4483322" lon="-71.3895051"/>
   <node id="1078465560" lat="42.5345351" lon="-71.3981530"/>
   <node id="1078465564" lat="42.4492806" lon="-71.3892283"/>
-  <node id="1078465611" lat="42.4438137" lon="-71.3917594"/>
+  <node id="1078465611" lat="42.4440044" lon="-71.3916717"/>
   <node id="1078465659" lat="42.4549447" lon="-71.3912297"/>
   <node id="1078465760" lat="42.4529963" lon="-71.3895842"/>
   <node id="1078465881" lat="42.4426950" lon="-71.3922142"/>
@@ -1294,7 +1295,7 @@
   <node id="1080668794" lat="42.3917871" lon="-71.5612179"/>
   <node id="1080668810" lat="42.3639390" lon="-71.5602918"/>
   <node id="1080813145" lat="42.6697255" lon="-71.5657805"/>
-  <node id="1080904490" lat="42.5599141" lon="-71.5896215"/>
+  <node id="1080904490" lat="42.5599230" lon="-71.5896188"/>
   <node id="1082934904" lat="42.3640064" lon="-71.3647223"/>
   <node id="1082934931" lat="42.3648805" lon="-71.3580930"/>
   <node id="1082935055" lat="42.3642806" lon="-71.3620022"/>
@@ -3646,7 +3647,7 @@
   <node id="4421369400" lat="42.6559315" lon="-71.3509998"/>
   <node id="4421369434" lat="42.6545878" lon="-71.3500146"/>
   <node id="4422420196" lat="42.4451393" lon="-71.3911348"/>
-  <node id="4422420199" lat="42.4457984" lon="-71.3908075"/>
+  <node id="4422420199" lat="42.4457904" lon="-71.3907730"/>
   <node id="4439826896" lat="42.4684367" lon="-71.3482826"/>
   <node id="4439826898" lat="42.4693781" lon="-71.3487921"/>
   <node id="4581669223" lat="42.4641776" lon="-71.3277014"/>
@@ -3846,6 +3847,11 @@
   <node id="6496437030" lat="42.5970175" lon="-71.3524379"/>
   <node id="6496437031" lat="42.6006880" lon="-71.3477852"/>
   <node id="6496437032" lat="42.5975649" lon="-71.3517510"/>
+  <node id="6530673637" lat="42.5568403" lon="-71.3911731"/>
+  <node id="6530673638" lat="42.5569015" lon="-71.3911509"/>
+  <node id="6530673639" lat="42.5615238" lon="-71.3884675"/>
+  <node id="6530673640" lat="42.5615674" lon="-71.3884097"/>
+  <node id="6562435062" lat="42.4641872" lon="-71.3977656"/>
   <way id="8842446">
     <nd ref="64055791"/>
     <nd ref="64055786"/>
@@ -3916,21 +3922,7 @@
     <nd ref="64034016"/>
     <nd ref="1692539537"/>
     <nd ref="1692539538"/>
-    <nd ref="1692539539"/>
-    <nd ref="1692539540"/>
-    <nd ref="1692539541"/>
-    <nd ref="1692539542"/>
-    <nd ref="1692539543"/>
-    <nd ref="1692539544"/>
-    <nd ref="64034047"/>
-    <nd ref="1692539546"/>
-    <nd ref="1692539547"/>
-    <nd ref="1692539548"/>
-    <nd ref="65159891"/>
-    <nd ref="64034055"/>
-    <nd ref="1692539549"/>
-    <nd ref="64034037"/>
-    <nd ref="1692539550"/>
+    <nd ref="6530673637"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
@@ -5235,27 +5227,6 @@
     <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="254298230">
-    <nd ref="64033866"/>
-    <nd ref="1584191938"/>
-    <nd ref="1584191955"/>
-    <nd ref="1584191975"/>
-    <nd ref="1584191988"/>
-    <nd ref="1584253230"/>
-    <nd ref="1584253233"/>
-    <nd ref="1651067570"/>
-    <nd ref="1651067569"/>
-    <nd ref="6496437031"/>
-    <nd ref="1651067571"/>
-    <nd ref="1651067573"/>
-    <nd ref="1651067579"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
-    <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
   <way id="254298231">
     <nd ref="2600852586"/>
     <nd ref="1692539551"/>
@@ -5279,39 +5250,6 @@
     <nd ref="1692539581"/>
     <nd ref="1692539582"/>
     <nd ref="2600852593"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="old_name:1970" v="Lowell Branch"/>
-    <tag k="old_railway_operator" v="NYNH&amp;H"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
-    <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-  <way id="254298232">
-    <nd ref="1651067579"/>
-    <nd ref="64033871"/>
-    <nd ref="65215889"/>
-    <nd ref="64033875"/>
-    <nd ref="1527364942"/>
-    <nd ref="1527365145"/>
-    <nd ref="64033878"/>
-    <nd ref="1527365446"/>
-    <nd ref="1527365448"/>
-    <nd ref="1527365460"/>
-    <nd ref="1527365593"/>
-    <nd ref="1527366086"/>
-    <nd ref="4414139654"/>
-    <nd ref="4414139656"/>
-    <nd ref="4414139657"/>
-    <nd ref="4414139658"/>
-    <nd ref="4414139662"/>
-    <nd ref="1527367495"/>
-    <nd ref="2600852599"/>
-    <nd ref="1527367843"/>
-    <nd ref="1527367934"/>
-    <nd ref="1527367962"/>
-    <nd ref="1078466138"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="old_name:1970" v="Lowell Branch"/>
@@ -5374,6 +5312,7 @@
     <nd ref="1584191614"/>
     <nd ref="64033861"/>
     <nd ref="64033866"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="old_name:1970" v="Lowell Branch"/>
@@ -6865,6 +6804,7 @@
     <nd ref="1078465760"/>
     <nd ref="1078465952"/>
     <nd ref="1078465355"/>
+    <nd ref="65228415"/>
     <nd ref="1078466050"/>
     <nd ref="1078465564"/>
     <nd ref="1078465482"/>
@@ -6983,6 +6923,7 @@
     <tag k="highway" v="cycleway"/>
   </way>
   <way id="598197474">
+    <nd ref="6562435062"/>
     <nd ref="5693765397"/>
     <nd ref="5693765395"/>
     <nd ref="5693765390"/>
@@ -7679,6 +7620,114 @@
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Assabet River Rail Trail"/>
     <tag k="source" v="http://www.arrtinc.org"/>
+  </way>
+  <way id="695522242">
+    <nd ref="6530673638"/>
+    <nd ref="1692539539"/>
+    <nd ref="1692539540"/>
+    <nd ref="1692539541"/>
+    <nd ref="1692539542"/>
+    <nd ref="1692539543"/>
+    <nd ref="1692539544"/>
+    <nd ref="64034047"/>
+    <nd ref="1692539546"/>
+    <nd ref="6530673639"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="695522243">
+    <nd ref="6530673637"/>
+    <nd ref="6530673638"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="695522244">
+    <nd ref="6530673640"/>
+    <nd ref="1692539547"/>
+    <nd ref="1692539548"/>
+    <nd ref="65159891"/>
+    <nd ref="64034055"/>
+    <nd ref="1692539549"/>
+    <nd ref="64034037"/>
+    <nd ref="1692539550"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="695522245">
+    <nd ref="6530673639"/>
+    <nd ref="6530673640"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="695522248">
+    <nd ref="1651067579"/>
+    <nd ref="64033871"/>
+    <nd ref="65215889"/>
+    <nd ref="64033875"/>
+    <nd ref="1527364942"/>
+    <nd ref="1527365145"/>
+    <nd ref="64033878"/>
+    <nd ref="1527365446"/>
+    <nd ref="1527365448"/>
+    <nd ref="1527365460"/>
+    <nd ref="1527365593"/>
+    <nd ref="1527366086"/>
+    <nd ref="4414139654"/>
+    <nd ref="4414139656"/>
+    <nd ref="4414139657"/>
+    <nd ref="4414139658"/>
+    <nd ref="4414139662"/>
+    <nd ref="1527367495"/>
+    <nd ref="2600852599"/>
+    <nd ref="1527367843"/>
+    <nd ref="1527367934"/>
+    <nd ref="1527367962"/>
+    <nd ref="1078466138"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="old_name:1970" v="Lowell Branch"/>
+    <tag k="old_railway_operator" v="NYNH&amp;H"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="695522249">
+    <nd ref="64033866"/>
+    <nd ref="1584191938"/>
+    <nd ref="1584191955"/>
+    <nd ref="1584191975"/>
+    <nd ref="1584191988"/>
+    <nd ref="1584253230"/>
+    <nd ref="1584253233"/>
+    <nd ref="1651067570"/>
+    <nd ref="1651067569"/>
+    <nd ref="6496437031"/>
+    <nd ref="1651067571"/>
+    <nd ref="1651067573"/>
+    <nd ref="1651067579"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="old_name:1970" v="Lowell Branch"/>
+    <tag k="old_railway_operator" v="NYNH&amp;H"/>
+    <tag k="railway" v="abandoned"/>
+    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 
 </osm>
