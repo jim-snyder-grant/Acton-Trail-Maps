@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-05-28T21:32:04Z" areas="2019-05-28T21:12:02Z"/>
+<meta osm_base="2019-09-25T10:28:02Z" areas="2019-09-25T10:05:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -37,8 +37,6 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Jay Lane"/>
     <tag k="amenity" v="parking"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
     <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
   </node>
   <node id="2129716578" lat="42.4646930" lon="-71.4591089">

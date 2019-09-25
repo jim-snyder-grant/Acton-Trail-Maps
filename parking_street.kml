@@ -30,7 +30,7 @@
   <Placemark>
 	<ExtendedData><SchemaData schemaUrl="#points">
 		<SimpleData name="osm_id">73252261</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;10&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Jay Lane&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/spring-hill/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;10&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Jay Lane&quot;,&quot;amenity&quot;=&gt;&quot;parking&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/spring-hill/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.403113,42.493484</coordinates></Point>
   </Placemark>
