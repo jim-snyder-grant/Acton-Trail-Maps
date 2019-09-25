@@ -78,7 +78,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">205968074</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/nashoba-brook/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;19&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Wheeler Ln&quot;,&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;http://www.actontrails.org/nashoba-brook/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4054322,42.5134748 -71.4053746,42.5134253 -71.4055531,42.5132653 -71.4056084,42.5133182 -71.4054322,42.5134748</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-05-28T21:32:04Z" areas="2019-05-28T21:12:02Z"/>
+<meta osm_base="2019-09-25T10:28:02Z" areas="2019-09-25T10:05:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -287,7 +287,14 @@
     <nd ref="2159701992"/>
     <nd ref="2159702000"/>
     <nd ref="2159702006"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="19"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Wheeler Ln"/>
     <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="parking" v="surface"/>
     <tag k="surface" v="unpaved"/>
     <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
   </way>
