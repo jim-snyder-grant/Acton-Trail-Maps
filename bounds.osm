@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-05-28T21:32:04Z"/>
+<meta osm_base="2019-11-19T21:52:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -909,8 +909,16 @@
   <node id="4485506122" lat="42.5138847" lon="-71.4001209"/>
   <node id="4485506123" lat="42.5138844" lon="-71.4005173"/>
   <node id="4485506124" lat="42.5146101" lon="-71.4020566"/>
-  <node id="4485506125" lat="42.5151951" lon="-71.4024085"/>
-  <node id="4485506126" lat="42.5171045" lon="-71.4024037"/>
+  <node id="4485506125" lat="42.5151951" lon="-71.4024085">
+    <tag k="man_made" v="survey_point"/>
+    <tag k="material" v="stone"/>
+    <tag k="name" v="boundary stone"/>
+  </node>
+  <node id="4485506126" lat="42.5171045" lon="-71.4024037">
+    <tag k="man_made" v="survey_point"/>
+    <tag k="material" v="stone"/>
+    <tag k="name" v="Boundary Stone"/>
+  </node>
   <node id="4485506127" lat="42.5153529" lon="-71.4033661"/>
   <node id="4485506128" lat="42.5150360" lon="-71.4032879"/>
   <node id="4485506129" lat="42.5151705" lon="-71.4032358"/>
@@ -5613,7 +5621,7 @@
   <relation id="6696667">
     <member type="way" ref="451571182" role="outer"/>
     <member type="way" ref="451730574" role="outer"/>
-    <tag k="access" v="public"/>
+    <tag k="access" v="yes"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Robbins Mill Conservation Land"/>
