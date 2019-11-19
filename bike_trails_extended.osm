@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-09-25T10:26:02Z" areas="2019-09-25T10:05:02Z"/>
+<meta osm_base="2019-11-19T21:52:02Z" areas="2019-11-19T21:22:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -20,10 +20,6 @@
   <node id="63492126" lat="42.3923451" lon="-71.5578049">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="64029858" lat="42.4660422" lon="-71.3480740"/>
-  <node id="64029873" lat="42.4685676" lon="-71.3483422"/>
-  <node id="64029888" lat="42.4680481" lon="-71.3482171"/>
-  <node id="64029891" lat="42.4683635" lon="-71.3482493"/>
   <node id="64033861" lat="42.5991464" lon="-71.3501382">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071010205040"/>
@@ -1932,7 +1928,6 @@
   <node id="2433996178" lat="42.4538911" lon="-71.3901852"/>
   <node id="2433996180" lat="42.4540829" lon="-71.3903533"/>
   <node id="2434574387" lat="42.4583144" lon="-71.3936920"/>
-  <node id="2471567587" lat="42.4692883" lon="-71.3487436"/>
   <node id="2472155591" lat="42.6017290" lon="-71.5021659"/>
   <node id="2472155593" lat="42.6018705" lon="-71.5021910"/>
   <node id="2472155595" lat="42.6019813" lon="-71.5023582"/>
@@ -2495,8 +2490,12 @@
   <node id="3447562838" lat="42.3718948" lon="-71.5693157"/>
   <node id="3447562839" lat="42.3717857" lon="-71.5693787"/>
   <node id="3447562840" lat="42.3717276" lon="-71.5694123"/>
-  <node id="3447572247" lat="42.3609316" lon="-71.5567442"/>
-  <node id="3447572249" lat="42.3608438" lon="-71.5567255"/>
+  <node id="3447572247" lat="42.3609316" lon="-71.5567442">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3447572249" lat="42.3608438" lon="-71.5567255">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="3447580926" lat="42.3560713" lon="-71.5587547"/>
   <node id="3447582218" lat="42.3554599" lon="-71.5588372"/>
   <node id="3447582219" lat="42.3551159" lon="-71.5588526"/>
@@ -3648,8 +3647,6 @@
   <node id="4421369434" lat="42.6545878" lon="-71.3500146"/>
   <node id="4422420196" lat="42.4451393" lon="-71.3911348"/>
   <node id="4422420199" lat="42.4457904" lon="-71.3907730"/>
-  <node id="4439826896" lat="42.4684367" lon="-71.3482826"/>
-  <node id="4439826898" lat="42.4693781" lon="-71.3487921"/>
   <node id="4581669223" lat="42.4641776" lon="-71.3277014"/>
   <node id="4870667607" lat="42.3638696" lon="-71.5638180"/>
   <node id="4870667608" lat="42.3637024" lon="-71.5639046"/>
@@ -3852,6 +3849,7 @@
   <node id="6530673639" lat="42.5615238" lon="-71.3884675"/>
   <node id="6530673640" lat="42.5615674" lon="-71.3884097"/>
   <node id="6562435062" lat="42.4641872" lon="-71.3977656"/>
+  <node id="6906819266" lat="42.4563215" lon="-71.3924655"/>
   <way id="8842446">
     <nd ref="64055791"/>
     <nd ref="64055786"/>
@@ -3927,18 +3925,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="surface" v="asphalt"/>
-  </way>
-  <way id="39680972">
-    <nd ref="4439826898"/>
-    <nd ref="2471567587"/>
-    <nd ref="64029873"/>
-    <nd ref="4439826896"/>
-    <nd ref="64029891"/>
-    <nd ref="64029888"/>
-    <nd ref="64029858"/>
-    <tag k="cycleway" v="track"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Minute Man NHP/North Bridge"/>
   </way>
   <way id="50072964">
     <nd ref="635883833"/>
@@ -4683,36 +4669,6 @@
     <tag k="highway" v="cycleway"/>
   </way>
   <way id="222826930">
-    <nd ref="65905526"/>
-    <nd ref="3447609437"/>
-    <nd ref="3447605275"/>
-    <nd ref="3447608186"/>
-    <nd ref="3447605533"/>
-    <nd ref="3447605532"/>
-    <nd ref="3447590430"/>
-    <nd ref="3447589474"/>
-    <nd ref="3447588229"/>
-    <nd ref="3447587737"/>
-    <nd ref="3447583986"/>
-    <nd ref="3447583935"/>
-    <nd ref="3447582384"/>
-    <nd ref="3447582525"/>
-    <nd ref="3447582219"/>
-    <nd ref="3447582218"/>
-    <nd ref="1080668693"/>
-    <nd ref="3447580926"/>
-    <nd ref="1080668664"/>
-    <nd ref="1080668271"/>
-    <nd ref="1080668010"/>
-    <nd ref="1080668411"/>
-    <nd ref="1080668379"/>
-    <nd ref="1080668060"/>
-    <nd ref="1080668499"/>
-    <nd ref="1080668211"/>
-    <nd ref="1080668175"/>
-    <nd ref="1080668615"/>
-    <nd ref="3447572249"/>
-    <nd ref="3447572247"/>
     <nd ref="1080668254"/>
     <nd ref="2318901482"/>
     <nd ref="2318931128"/>
@@ -4840,30 +4796,10 @@
     <nd ref="2317666572"/>
     <nd ref="1080668048"/>
     <nd ref="1080668495"/>
-    <nd ref="2317652529"/>
-    <nd ref="2317652528"/>
-    <nd ref="1080668451"/>
-    <nd ref="2317652534"/>
-    <nd ref="2317652523"/>
-    <nd ref="2317652518"/>
-    <nd ref="2317652522"/>
-    <nd ref="2317666568"/>
-    <nd ref="2317666618"/>
-    <nd ref="2317666564"/>
-    <nd ref="2317666551"/>
-    <nd ref="2317666593"/>
-    <nd ref="2317666616"/>
-    <nd ref="2317666611"/>
-    <nd ref="2317666547"/>
-    <nd ref="2317666575"/>
-    <nd ref="2317666519"/>
-    <nd ref="2317666562"/>
-    <nd ref="2317666583"/>
-    <nd ref="2317666614"/>
-    <nd ref="2317666603"/>
-    <nd ref="2317666480"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="source" v="http://www.arrtinc.org"/>
   </way>
   <way id="224687944">
@@ -6933,6 +6869,7 @@
   </way>
   <way id="598197476">
     <nd ref="5693765396"/>
+    <nd ref="6906819266"/>
     <nd ref="5693765393"/>
     <nd ref="5693765392"/>
     <nd ref="5693765398"/>
@@ -7728,6 +7665,72 @@
     <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
     <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
     <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="743408257">
+    <nd ref="65905526"/>
+    <nd ref="3447609437"/>
+    <nd ref="3447605275"/>
+    <nd ref="3447608186"/>
+    <nd ref="3447605533"/>
+    <nd ref="3447605532"/>
+    <nd ref="3447590430"/>
+    <nd ref="3447589474"/>
+    <nd ref="3447588229"/>
+    <nd ref="3447587737"/>
+    <nd ref="3447583986"/>
+    <nd ref="3447583935"/>
+    <nd ref="3447582384"/>
+    <nd ref="3447582525"/>
+    <nd ref="3447582219"/>
+    <nd ref="3447582218"/>
+    <nd ref="1080668693"/>
+    <nd ref="3447580926"/>
+    <nd ref="1080668664"/>
+    <nd ref="1080668271"/>
+    <nd ref="1080668010"/>
+    <nd ref="1080668411"/>
+    <nd ref="1080668379"/>
+    <nd ref="1080668060"/>
+    <nd ref="1080668499"/>
+    <nd ref="1080668211"/>
+    <nd ref="1080668175"/>
+    <nd ref="1080668615"/>
+    <nd ref="3447572249"/>
+    <nd ref="3447572247"/>
+    <nd ref="1080668254"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="segregated" v="no"/>
+    <tag k="source" v="http://www.arrtinc.org"/>
+  </way>
+  <way id="743408258">
+    <nd ref="1080668495"/>
+    <nd ref="2317652529"/>
+    <nd ref="2317652528"/>
+    <nd ref="1080668451"/>
+    <nd ref="2317652534"/>
+    <nd ref="2317652523"/>
+    <nd ref="2317652518"/>
+    <nd ref="2317652522"/>
+    <nd ref="2317666568"/>
+    <nd ref="2317666618"/>
+    <nd ref="2317666564"/>
+    <nd ref="2317666551"/>
+    <nd ref="2317666593"/>
+    <nd ref="2317666616"/>
+    <nd ref="2317666611"/>
+    <nd ref="2317666547"/>
+    <nd ref="2317666575"/>
+    <nd ref="2317666519"/>
+    <nd ref="2317666562"/>
+    <nd ref="2317666583"/>
+    <nd ref="2317666614"/>
+    <nd ref="2317666603"/>
+    <nd ref="2317666480"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Assabet River Rail Trail"/>
+    <tag k="source" v="http://www.arrtinc.org"/>
   </way>
 
 </osm>
