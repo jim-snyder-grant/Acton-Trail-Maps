@@ -21,7 +21,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;dirt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3961733,42.5016644 -71.396345,42.5019808 -71.3963879,42.5022339 -71.3966883,42.502408 -71.3969887,42.5024396 -71.3971603,42.5023763 -71.3973749,42.5022814</coordinates></LineString>
+      <LineString><coordinates>-71.3962055,42.5016308 -71.396345,42.5019808 -71.3963879,42.5022339 -71.3966883,42.502408 -71.3969887,42.5024396 -71.3971603,42.5023763 -71.3974138,42.5022567</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Green</name>
@@ -32,7 +32,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4076216,42.5068946 -71.4077255,42.5068819 -71.4079084,42.5068391 -71.4080801,42.5067382 -71.4082517,42.5066789 -71.408418,42.5065899 -71.4085307,42.5065148 -71.408638,42.5063882 -71.4087506,42.5063368 -71.4087962,42.5062854 -71.4087989,42.5062399 -71.4087748,42.5062044 -71.4086916,42.5061866 -71.408477,42.5061371 -71.408302,42.5060934</coordinates></LineString>
+      <LineString><coordinates>-71.4075385,42.5070587 -71.4077644,42.5069719 -71.4079594,42.5069103 -71.4081311,42.5068212 -71.4082463,42.5067669 -71.4084435,42.5066749 -71.408591,42.5065751 -71.4087051,42.5063457 -71.4085749,42.506235 -71.4084247,42.5062073 -71.4083168,42.5061122</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Green</name>
@@ -43,7 +43,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4069,42.50815 -71.4067651,42.5080576 -71.4065867,42.5079548 -71.4064432,42.5079142 -71.4064151,42.5079192 -71.4062515,42.5080398 -71.4060905,42.5080912 -71.4059967,42.5082029 -71.4058009,42.5083047</coordinates></LineString>
+      <LineString><coordinates>-71.4068906,42.5081629 -71.4067651,42.5080576 -71.4066108,42.5079854 -71.4064392,42.5079458 -71.4063521,42.5079825 -71.4062488,42.5080645 -71.406049,42.5082118 -71.4059645,42.5082859</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Green</name>
