@@ -50,7 +50,7 @@
 		<SimpleData name="osm_id">587011490</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4100667,42.5151555 -71.4101928,42.5146894 -71.4102874,42.5143311 -71.4104532,42.5137197 -71.4104761,42.5136381 -71.4105071,42.5135635 -71.4105449,42.5134918 -71.4105699,42.5134424 -71.4105871,42.51339 -71.4106007,42.5133324 -71.410609,42.5132768 -71.4106081,42.513217 -71.4105982,42.5131567 -71.4105821,42.5131093 -71.4105744,42.5130668 -71.4105794,42.5129986 -71.410603,42.512924 -71.4106293,42.5128495 -71.4106677,42.5127888 -71.4107178,42.5127001 -71.4107666,42.5125527 -71.4109475,42.5118621</coordinates></LineString>
   </Placemark>
@@ -290,8 +290,8 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">620704011</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="z_order">20</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4143144,42.5053291 -71.4143766,42.5052398</coordinates></LineString>
   </Placemark>
@@ -302,7 +302,7 @@
 		<SimpleData name="osm_id">620704013</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4143766,42.5052398 -71.4146575,42.5048275 -71.4149913,42.5043366 -71.4153004,42.5038835 -71.4166664,42.5018611 -71.4168393,42.5016092 -71.4170041,42.5013454 -71.4171916,42.5010058 -71.4173205,42.5007323 -71.4174414,42.5004528 -71.4176325,42.4999897 -71.4178155,42.4995305 -71.4179838,42.499113</coordinates></LineString>
   </Placemark>
@@ -397,7 +397,7 @@
 		<SimpleData name="osm_id">654199327</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4109475,42.5118621 -71.4116241,42.5093875 -71.4117418,42.5089449 -71.4118033,42.5087831 -71.4118604,42.5086333 -71.4119661,42.5083938 -71.4120905,42.5081564 -71.4122052,42.5079622 -71.4123649,42.507737 -71.4125426,42.5075039 -71.4137089,42.5061603 -71.4140047,42.5057866 -71.4143144,42.5053291</coordinates></LineString>
   </Placemark>
