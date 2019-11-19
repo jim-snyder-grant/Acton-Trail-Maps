@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-09-25T10:26:02Z"/>
+<meta osm_base="2019-11-19T22:34:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -273,7 +273,10 @@
     <tag k="source" v="massgis_import_v0.1_20071010205040"/>
   </node>
   <node id="64057966" lat="42.4638922" lon="-71.3522068"/>
-  <node id="64058007" lat="42.4747408" lon="-71.3277368"/>
+  <node id="64058007" lat="42.4747408" lon="-71.3277368">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="64670531" lat="42.4192214" lon="-71.3293540"/>
   <node id="64670679" lat="42.4163320" lon="-71.3273350"/>
   <node id="64671380" lat="42.4227540" lon="-71.3386382"/>
@@ -1653,7 +1656,7 @@
   <node id="71040546" lat="42.3529612" lon="-71.4025290"/>
   <node id="71041247" lat="42.3604417" lon="-71.4237567"/>
   <node id="71041448" lat="42.3620357" lon="-71.4140996"/>
-  <node id="71041657" lat="42.3603458" lon="-71.4326593"/>
+  <node id="71041657" lat="42.3603433" lon="-71.4327333"/>
   <node id="71043453" lat="42.3620860" lon="-71.4171830"/>
   <node id="71043472" lat="42.3602361" lon="-71.4306120"/>
   <node id="71043829" lat="42.3601600" lon="-71.4350360"/>
@@ -2230,10 +2233,6 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="73193940" lat="42.4864120" lon="-71.4016380">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
   <node id="73195308" lat="42.4931120" lon="-71.4004920"/>
   <node id="73195983" lat="42.4932770" lon="-71.4032650"/>
   <node id="73196460" lat="42.4931400" lon="-71.4006750"/>
@@ -2259,10 +2258,6 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73209024" lat="42.5223970" lon="-71.4059520">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73210355" lat="42.4861290" lon="-71.4028590">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -2292,23 +2287,11 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="73223340" lat="42.4863910" lon="-71.4025770">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73225132" lat="42.4864700" lon="-71.4018170">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
   <node id="73227733" lat="42.5221710" lon="-71.4059030">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73228882" lat="42.5223580" lon="-71.4059380">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73229504" lat="42.4864960" lon="-71.4020690">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -2329,10 +2312,6 @@
   <node id="73242678" lat="42.4893080" lon="-71.4019350"/>
   <node id="73243130" lat="42.4888270" lon="-71.4022690"/>
   <node id="73245426" lat="42.5217240" lon="-71.4055230">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73247063" lat="42.4862520" lon="-71.4027650">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -2361,19 +2340,11 @@
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
-  <node id="73254223" lat="42.4864770" lon="-71.4023210">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
   <node id="73258475" lat="42.5215460" lon="-71.4047480">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73259158" lat="42.4929440" lon="-71.4040980">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73259947" lat="42.4859290" lon="-71.4029550">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -2387,10 +2358,6 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
   <node id="73262971" lat="42.5215840" lon="-71.4050870">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="73263693" lat="42.4855970" lon="-71.4031050">
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
   </node>
@@ -2797,49 +2764,30 @@
   <node id="1201097076" lat="42.4144274" lon="-71.3632925"/>
   <node id="1201097081" lat="42.4145779" lon="-71.3630672"/>
   <node id="1201105767" lat="42.4176102" lon="-71.3617636"/>
-  <node id="1282329213" lat="42.4248935" lon="-71.3290253"/>
-  <node id="1282329214" lat="42.4251000" lon="-71.3287805"/>
+  <node id="1282329213" lat="42.4250361" lon="-71.3288375"/>
   <node id="1282329215" lat="42.4254360" lon="-71.3287351"/>
   <node id="1282329237" lat="42.4264181" lon="-71.3281877"/>
-  <node id="1282329780" lat="42.4221023" lon="-71.3303077"/>
-  <node id="1282329781" lat="42.4219993" lon="-71.3301360"/>
-  <node id="1282329782" lat="42.4216825" lon="-71.3301789"/>
-  <node id="1282329783" lat="42.4214766" lon="-71.3301468"/>
-  <node id="1282329784" lat="42.4213499" lon="-71.3301146"/>
-  <node id="1282329785" lat="42.4209697" lon="-71.3298893"/>
-  <node id="1282329786" lat="42.4219043" lon="-71.3301468"/>
-  <node id="1282329787" lat="42.4207634" lon="-71.3298292"/>
-  <node id="1282329788" lat="42.4212231" lon="-71.3300502"/>
-  <node id="1282329789" lat="42.4206208" lon="-71.3298399"/>
-  <node id="1282329790" lat="42.4204545" lon="-71.3298292"/>
-  <node id="1282329791" lat="42.4200664" lon="-71.3297970"/>
-  <node id="1282329793" lat="42.4202010" lon="-71.3298185"/>
-  <node id="1282329803" lat="42.4249455" lon="-71.3292348"/>
-  <node id="1282329804" lat="42.4249059" lon="-71.3290953"/>
-  <node id="1282329805" lat="42.4249692" lon="-71.3294065"/>
-  <node id="1282329806" lat="42.4249534" lon="-71.3295889"/>
-  <node id="1282329807" lat="42.4248742" lon="-71.3297283"/>
-  <node id="1282329808" lat="42.4247792" lon="-71.3299000"/>
-  <node id="1282329809" lat="42.4247075" lon="-71.3300867"/>
-  <node id="1282329810" lat="42.4245812" lon="-71.3302862"/>
-  <node id="1282329811" lat="42.4244465" lon="-71.3305008"/>
-  <node id="1282329812" lat="42.4243594" lon="-71.3306081"/>
-  <node id="1282329813" lat="42.4242961" lon="-71.3307690"/>
-  <node id="1282329814" lat="42.4240664" lon="-71.3309300"/>
-  <node id="1282329815" lat="42.4241535" lon="-71.3308656"/>
-  <node id="1282329816" lat="42.4239238" lon="-71.3311553"/>
-  <node id="1282329817" lat="42.4237571" lon="-71.3312239"/>
-  <node id="1282329818" lat="42.4234249" lon="-71.3313484"/>
-  <node id="1282329819" lat="42.4235991" lon="-71.3312840"/>
+  <node id="1282329782" lat="42.4218211" lon="-71.3300287"/>
+  <node id="1282329783" lat="42.4216231" lon="-71.3299430"/>
+  <node id="1282329784" lat="42.4214212" lon="-71.3301146"/>
+  <node id="1282329785" lat="42.4207321" lon="-71.3297176"/>
+  <node id="1282329788" lat="42.4209934" lon="-71.3300770"/>
+  <node id="1282329789" lat="42.4203396" lon="-71.3297004"/>
+  <node id="1282329791" lat="42.4201001" lon="-71.3296790"/>
+  <node id="1282329805" lat="42.4251316" lon="-71.3292027"/>
+  <node id="1282329806" lat="42.4251593" lon="-71.3294011"/>
+  <node id="1282329807" lat="42.4251039" lon="-71.3296317"/>
+  <node id="1282329808" lat="42.4249851" lon="-71.3298517"/>
+  <node id="1282329809" lat="42.4247550" lon="-71.3299580"/>
+  <node id="1282329813" lat="42.4245416" lon="-71.3301038"/>
+  <node id="1282329817" lat="42.4238363" lon="-71.3309396"/>
+  <node id="1282329818" lat="42.4233774" lon="-71.3313377"/>
+  <node id="1282329819" lat="42.4236823" lon="-71.3311445"/>
   <node id="1282329820" lat="42.4233298" lon="-71.3313484"/>
-  <node id="1282329821" lat="42.4231235" lon="-71.3313312"/>
-  <node id="1282329822" lat="42.4229576" lon="-71.3312304"/>
-  <node id="1282329823" lat="42.4226721" lon="-71.3309986"/>
-  <node id="1282329824" lat="42.4224824" lon="-71.3308549"/>
-  <node id="1282329825" lat="42.4224191" lon="-71.3307261"/>
-  <node id="1282329826" lat="42.4223395" lon="-71.3305909"/>
-  <node id="1282329827" lat="42.4221815" lon="-71.3304257"/>
-  <node id="1282329828" lat="42.4227992" lon="-71.3311124"/>
+  <node id="1282329821" lat="42.4228107" lon="-71.3313205"/>
+  <node id="1282329822" lat="42.4226250" lon="-71.3312304"/>
+  <node id="1282329823" lat="42.4219355" lon="-71.3303120"/>
+  <node id="1282329828" lat="42.4222963" lon="-71.3309568"/>
   <node id="1316730124" lat="42.4337415" lon="-71.3248649"/>
   <node id="1316730125" lat="42.4329081" lon="-71.3249642"/>
   <node id="1316730126" lat="42.4327418" lon="-71.3250688"/>
@@ -3950,14 +3898,14 @@
     <tag k="barrier" v="gate"/>
   </node>
   <node id="1997723783" lat="42.5083401" lon="-71.4026535"/>
-  <node id="1997723784" lat="42.5024396" lon="-71.3980830"/>
+  <node id="1997723784" lat="42.5024277" lon="-71.3981313"/>
   <node id="1997723785" lat="42.5068373" lon="-71.4010656"/>
   <node id="1997723797" lat="42.5048600" lon="-71.4008940"/>
   <node id="1997723798" lat="42.5065368" lon="-71.4008081"/>
-  <node id="1997723804" lat="42.5080478" lon="-71.4015769"/>
+  <node id="1997723804" lat="42.5080280" lon="-71.4015796"/>
   <node id="1997723814" lat="42.5062214" lon="-71.4006275"/>
   <node id="1997723817" lat="42.5081855" lon="-71.4021133"/>
-  <node id="1997723821" lat="42.5079463" lon="-71.4011920"/>
+  <node id="1997723821" lat="42.5079206" lon="-71.4011544"/>
   <node id="1997723829" lat="42.5059420" lon="-71.4006624"/>
   <node id="1997723839" lat="42.5077685" lon="-71.4007476"/>
   <node id="1997723845" lat="42.5057142" lon="-71.4012588"/>
@@ -3968,13 +3916,13 @@
   <node id="1997723876" lat="42.5071824" lon="-71.4009505"/>
   <node id="1997723917" lat="42.5022972" lon="-71.3978255"/>
   <node id="1997723930" lat="42.5047641" lon="-71.4003462"/>
-  <node id="1997723940" lat="42.5022339" lon="-71.3986838"/>
+  <node id="1997723940" lat="42.5022646" lon="-71.3987026"/>
   <node id="1997723948" lat="42.5022972" lon="-71.3983191"/>
   <node id="1997723951" lat="42.5021074" lon="-71.3993490"/>
   <node id="1997723952" lat="42.5020441" lon="-71.3997996"/>
-  <node id="1997723954" lat="42.5019017" lon="-71.4002288"/>
-  <node id="1997723957" lat="42.5016803" lon="-71.4004219"/>
-  <node id="1997723962" lat="42.5015062" lon="-71.4006365"/>
+  <node id="1997723954" lat="42.5019462" lon="-71.4000410"/>
+  <node id="1997723957" lat="42.5016763" lon="-71.4003763"/>
+  <node id="1997723962" lat="42.5014785" lon="-71.4006405"/>
   <node id="2059121911" lat="42.4852527" lon="-71.3905222"/>
   <node id="2059121915" lat="42.4845321" lon="-71.3914634"/>
   <node id="2059121919" lat="42.4847392" lon="-71.3912641"/>
@@ -3995,7 +3943,7 @@
   <node id="2144893383" lat="42.4856160" lon="-71.3978530"/>
   <node id="2144893384" lat="42.4859260" lon="-71.3979130"/>
   <node id="2144893385" lat="42.4861857" lon="-71.3980496"/>
-  <node id="2144893386" lat="42.4863410" lon="-71.4014771"/>
+  <node id="2144893386" lat="42.4863447" lon="-71.4015288"/>
   <node id="2144893387" lat="42.4863646" lon="-71.4014348"/>
   <node id="2144893388" lat="42.4864770" lon="-71.3982612"/>
   <node id="2144893389" lat="42.4864360" lon="-71.4013140"/>
@@ -4030,9 +3978,8 @@
   <node id="2156887941" lat="42.5049335" lon="-71.4107800"/>
   <node id="2156887980" lat="42.5053300" lon="-71.4130500"/>
   <node id="2156887993" lat="42.5054100" lon="-71.4128900"/>
-  <node id="2156888005" lat="42.5054866" lon="-71.4067403"/>
-  <node id="2156888006" lat="42.5054890" lon="-71.4067730"/>
-  <node id="2156888008" lat="42.5055403" lon="-71.4072164"/>
+  <node id="2156888005" lat="42.5054510" lon="-71.4068436"/>
+  <node id="2156888008" lat="42.5055047" lon="-71.4072016"/>
   <node id="2156888012" lat="42.5055440" lon="-71.4123870"/>
   <node id="2156888017" lat="42.5055637" lon="-71.4067127"/>
   <node id="2156888019" lat="42.5055661" lon="-71.4128021"/>
@@ -4044,9 +3991,9 @@
   <node id="2156888044" lat="42.5057435" lon="-71.4092259"/>
   <node id="2156888049" lat="42.5057616" lon="-71.4076223"/>
   <node id="2156888051" lat="42.5057856" lon="-71.4066353"/>
-  <node id="2156888063" lat="42.5058462" lon="-71.4082805"/>
+  <node id="2156888063" lat="42.5058304" lon="-71.4082859"/>
   <node id="2156888065" lat="42.5058700" lon="-71.4065204"/>
-  <node id="2156888071" lat="42.5058564" lon="-71.4079096"/>
+  <node id="2156888071" lat="42.5058693" lon="-71.4079404"/>
   <node id="2156888074" lat="42.5059471" lon="-71.4117982"/>
   <node id="2156888075" lat="42.5059581" lon="-71.4064128"/>
   <node id="2156888079" lat="42.5060537" lon="-71.4063355"/>
@@ -4413,7 +4360,6 @@
   <node id="2527160139" lat="42.3493149" lon="-71.4556574"/>
   <node id="2527160142" lat="42.3493691" lon="-71.4556803"/>
   <node id="2527160145" lat="42.3494775" lon="-71.4557628"/>
-  <node id="2579979821" lat="42.4249916" lon="-71.3289090"/>
   <node id="2579979822" lat="42.4252894" lon="-71.3287222"/>
   <node id="2579979823" lat="42.4255849" lon="-71.3287606"/>
   <node id="2579979824" lat="42.4262694" lon="-71.3282502"/>
@@ -4592,8 +4538,7 @@
   <node id="3067587749" lat="42.5054277" lon="-71.4099720"/>
   <node id="3067587750" lat="42.5055990" lon="-71.4097488"/>
   <node id="3067587751" lat="42.5056325" lon="-71.4074164"/>
-  <node id="3067587753" lat="42.5058251" lon="-71.4077572"/>
-  <node id="3067587754" lat="42.5058553" lon="-71.4080526"/>
+  <node id="3067587753" lat="42.5058567" lon="-71.4078216"/>
   <node id="3067587755" lat="42.5065899" lon="-71.4111321"/>
   <node id="3067587756" lat="42.5080629" lon="-71.4109178"/>
   <node id="3068613349" lat="42.4857720" lon="-71.3978715"/>
@@ -5053,7 +4998,7 @@
   <node id="4596534490" lat="42.4280261" lon="-71.3363414"/>
   <node id="4596540107" lat="42.3681845" lon="-71.3611172"/>
   <node id="4608205624" lat="42.4873616" lon="-71.3987385"/>
-  <node id="4621175916" lat="42.4854182" lon="-71.4031823"/>
+  <node id="4621175916" lat="42.4854224" lon="-71.4032009"/>
   <node id="4621175917" lat="42.4877281" lon="-71.4031978"/>
   <node id="4699934055" lat="42.5188136" lon="-71.4031737"/>
   <node id="4699934056" lat="42.5186517" lon="-71.4030950"/>
@@ -5109,6 +5054,9 @@
   <node id="5080628586" lat="42.5145440" lon="-71.4021676"/>
   <node id="5080628587" lat="42.5142257" lon="-71.4019825"/>
   <node id="5080628588" lat="42.5141347" lon="-71.4019824"/>
+  <node id="5080628589" lat="42.5140399" lon="-71.4020147"/>
+  <node id="5080628590" lat="42.5138323" lon="-71.4021702"/>
+  <node id="5080628591" lat="42.5137462" lon="-71.4023553"/>
   <node id="5080628592" lat="42.5136988" lon="-71.4024506"/>
   <node id="5099200087" lat="42.4896828" lon="-71.4016626"/>
   <node id="5163600926" lat="42.5188427" lon="-71.4031928"/>
@@ -5219,7 +5167,6 @@
   <node id="5864239851" lat="42.5187456" lon="-71.4047468"/>
   <node id="5864239852" lat="42.5189825" lon="-71.4046904"/>
   <node id="5891913147" lat="42.4350342" lon="-71.3330671"/>
-  <node id="5897680392" lat="42.4854619" lon="-71.4031638"/>
   <node id="5903773387" lat="42.3603706" lon="-71.4315872"/>
   <node id="5914975308" lat="42.3876620" lon="-71.3534171"/>
   <node id="5917348795" lat="42.3602232" lon="-71.4368161"/>
@@ -5301,7 +5248,6 @@
   <node id="6755562376" lat="42.4916235" lon="-71.4002974"/>
   <node id="6755562382" lat="42.4921608" lon="-71.3999380"/>
   <node id="6755569187" lat="42.4923315" lon="-71.3998023"/>
-  <node id="6755569192" lat="42.4864369" lon="-71.4024404"/>
   <node id="6755702438" lat="42.4891794" lon="-71.4020243"/>
   <node id="6755745788" lat="42.4592895" lon="-71.3466335"/>
   <node id="6755758090" lat="42.3878583" lon="-71.3532468"/>
@@ -5331,6 +5277,43 @@
   <node id="6806332431" lat="42.4354737" lon="-71.3353168"/>
   <node id="6806332432" lat="42.4364904" lon="-71.3397512"/>
   <node id="6806332433" lat="42.4365753" lon="-71.3401361"/>
+  <node id="6861244509" lat="42.4860458" lon="-71.4029443"/>
+  <node id="6861244510" lat="42.4864593" lon="-71.4017752"/>
+  <node id="6861244514" lat="42.4865074" lon="-71.4020591"/>
+  <node id="6861244515" lat="42.4864837" lon="-71.4023486"/>
+  <node id="6861244516" lat="42.4863908" lon="-71.4026112"/>
+  <node id="6861244517" lat="42.4862392" lon="-71.4028175"/>
+  <node id="6861244518" lat="42.4861136" lon="-71.4029120"/>
+  <node id="6861244519" lat="42.4861783" lon="-71.4028695"/>
+  <node id="6861244520" lat="42.4863461" lon="-71.4026876"/>
+  <node id="6861244521" lat="42.4862953" lon="-71.4027566"/>
+  <node id="6861244522" lat="42.4864601" lon="-71.4024407"/>
+  <node id="6861244523" lat="42.4864290" lon="-71.4025286"/>
+  <node id="6861244524" lat="42.4865075" lon="-71.4021566"/>
+  <node id="6861244525" lat="42.4864996" lon="-71.4022535"/>
+  <node id="6861244526" lat="42.4864993" lon="-71.4019622"/>
+  <node id="6861244527" lat="42.4864832" lon="-71.4018672"/>
+  <node id="6861244528" lat="42.4864280" lon="-71.4016875"/>
+  <node id="6861244529" lat="42.4863897" lon="-71.4016050"/>
+  <node id="6862382607" lat="42.4863786" lon="-71.4026320"/>
+  <node id="6862382614" lat="42.4864946" lon="-71.4019345"/>
+  <node id="6862536830" lat="42.3772599" lon="-71.3674048"/>
+  <node id="6866808246" lat="42.4739672" lon="-71.3668364"/>
+  <node id="6866874690" lat="42.3916440" lon="-71.3504210"/>
+  <node id="6866874695" lat="42.3923430" lon="-71.3504916"/>
+  <node id="6869597966" lat="42.4925223" lon="-71.4030364"/>
+  <node id="6869678701" lat="42.4865075" lon="-71.4021240"/>
+  <node id="6869678706" lat="42.4880200" lon="-71.4029370"/>
+  <node id="6870847558" lat="42.4752178" lon="-71.3897757"/>
+  <node id="6871123177" lat="42.4931233" lon="-71.4009251"/>
+  <node id="6871202267" lat="42.5201070" lon="-71.4043739"/>
+  <node id="6877668458" lat="42.3560692" lon="-71.3726182"/>
+  <node id="6878679968" lat="42.4727376" lon="-71.3826716"/>
+  <node id="6880910958" lat="42.4045203" lon="-71.3610001"/>
+  <node id="6886098215" lat="42.4272828" lon="-71.3279320"/>
+  <node id="6906950477" lat="42.3775152" lon="-71.3672967"/>
+  <node id="6908008712" lat="42.3535939" lon="-71.3783203"/>
+  <node id="6982512838" lat="42.5025907" lon="-71.3983440"/>
   <way id="8842536">
     <nd ref="860754391"/>
     <nd ref="64034068"/>
@@ -5456,6 +5439,7 @@
     <nd ref="65268893"/>
     <nd ref="65268234"/>
     <nd ref="65229030"/>
+    <nd ref="6870847558"/>
     <nd ref="65209162"/>
     <nd ref="6772238180"/>
     <nd ref="65280636"/>
@@ -5673,7 +5657,9 @@
     <nd ref="70295801"/>
     <nd ref="70275209"/>
     <nd ref="70316345"/>
+    <nd ref="6862536830"/>
     <nd ref="70297691"/>
+    <nd ref="6906950477"/>
     <nd ref="70305941"/>
     <nd ref="70264406"/>
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
@@ -5693,6 +5679,7 @@
     <nd ref="70327218"/>
     <nd ref="70322384"/>
     <nd ref="70287106"/>
+    <nd ref="6880910958"/>
     <nd ref="70286155"/>
     <nd ref="70282576"/>
     <nd ref="70291962"/>
@@ -5988,8 +5975,10 @@
     <nd ref="64029888"/>
     <nd ref="64029858"/>
     <tag k="cycleway" v="track"/>
-    <tag k="highway" v="cycleway"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
     <tag k="name" v="Minute Man NHP/North Bridge"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="39681030">
     <nd ref="65210874"/>
@@ -6251,6 +6240,7 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="55202155">
     <nd ref="635883746"/>
@@ -6351,22 +6341,12 @@
   </way>
   <way id="112928655">
     <nd ref="1282329791"/>
-    <nd ref="1282329793"/>
-    <nd ref="1282329790"/>
     <nd ref="1282329789"/>
-    <nd ref="1282329787"/>
     <nd ref="1282329785"/>
     <nd ref="1282329788"/>
     <nd ref="1282329784"/>
     <nd ref="1282329783"/>
     <nd ref="1282329782"/>
-    <nd ref="1282329786"/>
-    <nd ref="1282329781"/>
-    <nd ref="1282329780"/>
-    <nd ref="1282329827"/>
-    <nd ref="1282329826"/>
-    <nd ref="1282329825"/>
-    <nd ref="1282329824"/>
     <nd ref="1282329823"/>
     <nd ref="1282329828"/>
     <nd ref="1282329822"/>
@@ -6375,20 +6355,12 @@
     <nd ref="1282329818"/>
     <nd ref="1282329819"/>
     <nd ref="1282329817"/>
-    <nd ref="1282329816"/>
-    <nd ref="1282329814"/>
-    <nd ref="1282329815"/>
     <nd ref="1282329813"/>
-    <nd ref="1282329812"/>
-    <nd ref="1282329811"/>
-    <nd ref="1282329810"/>
     <nd ref="1282329809"/>
     <nd ref="1282329808"/>
     <nd ref="1282329807"/>
     <nd ref="1282329806"/>
     <nd ref="1282329805"/>
-    <nd ref="1282329803"/>
-    <nd ref="1282329804"/>
     <nd ref="1282329213"/>
     <tag k="highway" v="path"/>
   </way>
@@ -7437,6 +7409,7 @@
     <nd ref="70287535"/>
     <nd ref="70320317"/>
     <nd ref="70286655"/>
+    <nd ref="6908008712"/>
     <nd ref="70319544"/>
     <nd ref="70276150"/>
     <nd ref="70326841"/>
@@ -7579,14 +7552,12 @@
   </way>
   <way id="205716939">
     <nd ref="2156888005"/>
-    <nd ref="2156888006"/>
     <nd ref="2156888008"/>
     <nd ref="3067587751"/>
     <nd ref="2156888049"/>
     <nd ref="4595595215"/>
     <nd ref="3067587753"/>
     <nd ref="2156888071"/>
-    <nd ref="3067587754"/>
     <nd ref="2156888063"/>
     <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
@@ -8466,12 +8437,14 @@
     <nd ref="65279066"/>
     <nd ref="1680996418"/>
     <nd ref="1680984372"/>
+    <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="299825115">
     <nd ref="693003904"/>
@@ -8490,6 +8463,7 @@
     <nd ref="3816149477"/>
     <nd ref="3021930490"/>
     <nd ref="3441019102"/>
+    <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cycleway" v="track"/>
     <tag k="embankment" v="yes"/>
@@ -8498,19 +8472,7 @@
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="service" v="driveway"/>
-    <tag k="vehicle" v="forestry"/>
-  </way>
-  <way id="300649223">
-    <nd ref="3816149476"/>
-    <nd ref="65246011"/>
-    <nd ref="64058007"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
-    <tag k="old_railway_operator" v="B&amp;M"/>
-    <tag k="railway" v="abandoned"/>
-    <tag k="service" v="driveway"/>
+    <tag k="surface" v="compacted"/>
     <tag k="vehicle" v="forestry"/>
   </way>
   <way id="302500276">
@@ -8529,34 +8491,10 @@
     <tag k="source:maxspeed" v="massgis"/>
     <tag k="width" v="12.2"/>
   </way>
-  <way id="302504897">
-    <nd ref="2144893386"/>
-    <nd ref="73193940"/>
-    <nd ref="73225132"/>
-    <nd ref="73229504"/>
-    <nd ref="73254223"/>
-    <nd ref="6755569192"/>
-    <nd ref="73223340"/>
-    <nd ref="73247063"/>
-    <nd ref="73210355"/>
-    <nd ref="73259947"/>
-    <nd ref="73263693"/>
-    <nd ref="5897680392"/>
-    <nd ref="4621175916"/>
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="condition" v="fair"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="massgis:way_id" v="183341"/>
-    <tag k="maxspeed" v="25 mph"/>
-    <tag k="name" v="Stoneymeade Way"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-    <tag k="source:maxspeed" v="massgis"/>
-    <tag k="width" v="15.2"/>
-  </way>
   <way id="302504898">
     <nd ref="73297042"/>
     <nd ref="73197439"/>
+    <nd ref="6869597966"/>
     <nd ref="73298896"/>
     <nd ref="73286384"/>
     <nd ref="73283352"/>
@@ -8564,6 +8502,7 @@
     <nd ref="73294193"/>
     <nd ref="73281404"/>
     <nd ref="73261240"/>
+    <nd ref="6871123177"/>
     <nd ref="73199273"/>
     <nd ref="73196460"/>
     <nd ref="73195308"/>
@@ -8633,6 +8572,7 @@
     <nd ref="65219223"/>
     <nd ref="65281288"/>
     <nd ref="65277847"/>
+    <nd ref="6878679968"/>
     <nd ref="65243957"/>
     <nd ref="2446534261"/>
     <nd ref="65231013"/>
@@ -8698,6 +8638,7 @@
     <nd ref="65228253"/>
     <nd ref="65256805"/>
     <nd ref="65267156"/>
+    <nd ref="6866808246"/>
     <nd ref="6755980495"/>
     <nd ref="65242539"/>
     <nd ref="65214829"/>
@@ -8986,9 +8927,11 @@
     <nd ref="70325738"/>
     <nd ref="70309134"/>
     <nd ref="70268906"/>
+    <nd ref="6866874695"/>
     <nd ref="70278675"/>
     <nd ref="70300968"/>
     <nd ref="70281600"/>
+    <nd ref="6866874690"/>
     <nd ref="70317592"/>
     <nd ref="70269916"/>
     <nd ref="70312134"/>
@@ -9277,6 +9220,7 @@
     <nd ref="70271602"/>
     <nd ref="6771806125"/>
     <nd ref="70304484"/>
+    <nd ref="6877668458"/>
     <nd ref="70275187"/>
     <nd ref="70326015"/>
     <nd ref="6771806133"/>
@@ -9337,6 +9281,7 @@
     <nd ref="64058007"/>
     <nd ref="6597199306"/>
     <nd ref="3816149466"/>
+    <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
@@ -9345,6 +9290,7 @@
     <tag k="note:old_railway_operator" v="Boston and Lowell"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="345925089">
     <nd ref="457961251"/>
@@ -9503,6 +9449,7 @@
     <nd ref="3440915170"/>
     <nd ref="3440914207"/>
     <nd ref="64029858"/>
+    <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
@@ -9522,18 +9469,25 @@
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="service" v="driveway"/>
+    <tag k="surface" v="compacted"/>
     <tag k="vehicle" v="forestry"/>
   </way>
   <way id="378205125">
     <nd ref="3441019102"/>
     <nd ref="3816149476"/>
-    <tag k="bicycle" v="yes"/>
+    <nd ref="65246011"/>
+    <nd ref="64058007"/>
+    <tag k="abandoned:railway" v="rail"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="cycleway" v="track"/>
     <tag k="embankment" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="service"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="service" v="driveway"/>
+    <tag k="surface" v="compacted"/>
+    <tag k="vehicle" v="forestry"/>
   </way>
   <way id="378205130">
     <nd ref="3206902367"/>
@@ -9544,11 +9498,13 @@
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="378205132">
     <nd ref="1680984372"/>
     <nd ref="3207488841"/>
     <nd ref="3441036640"/>
+    <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cutting" v="yes"/>
     <tag k="cycleway" v="track"/>
@@ -9556,6 +9512,7 @@
     <tag k="highway" v="path"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="378222567">
     <nd ref="64029858"/>
@@ -10218,6 +10175,7 @@
     <nd ref="2169262545"/>
     <nd ref="2169262537"/>
     <nd ref="1997723867"/>
+    <nd ref="6982512838"/>
     <nd ref="1997723784"/>
     <nd ref="1997723917"/>
     <nd ref="1997723948"/>
@@ -10293,12 +10251,14 @@
   <way id="467506536">
     <nd ref="4502440523"/>
     <nd ref="4621175916"/>
-    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing" v="marked"/>
     <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
   </way>
   <way id="467506543">
     <nd ref="4621175917"/>
     <nd ref="73280390"/>
+    <nd ref="6869678706"/>
     <nd ref="6755562364"/>
     <nd ref="73232755"/>
     <nd ref="73243130"/>
@@ -10389,10 +10349,12 @@
     <nd ref="5080628586"/>
     <nd ref="5080628587"/>
     <nd ref="5080628588"/>
+    <tag k="bicycle" v="no"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Red"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="smoothness" v="horrible"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="521417308">
     <nd ref="5080628592"/>
@@ -10401,6 +10363,18 @@
     <tag k="highway" v="path"/>
     <tag k="name" v="Red"/>
     <tag k="surface" v="unpaved"/>
+  </way>
+  <way id="521417309">
+    <nd ref="5080628588"/>
+    <nd ref="5080628589"/>
+    <nd ref="5080628590"/>
+    <nd ref="5080628591"/>
+    <nd ref="5080628592"/>
+    <tag k="access" v="permissive"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="dirt"/>
   </way>
   <way id="530949656">
     <nd ref="70275539"/>
@@ -10700,11 +10674,11 @@
     <nd ref="2910197224"/>
     <nd ref="2910197225"/>
     <nd ref="2910197226"/>
+    <nd ref="6871202267"/>
     <nd ref="2910197227"/>
     <nd ref="2910197228"/>
     <nd ref="2910197229"/>
     <nd ref="4253399423"/>
-    <tag k="foot" v="designated"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paved"/>
@@ -11123,8 +11097,6 @@
     <nd ref="2579979823"/>
     <nd ref="1282329215"/>
     <nd ref="2579979822"/>
-    <nd ref="1282329214"/>
-    <nd ref="2579979821"/>
     <nd ref="1282329213"/>
     <tag k="highway" v="path"/>
   </way>
@@ -11132,6 +11104,7 @@
     <nd ref="64680231"/>
     <nd ref="64679504"/>
     <nd ref="64671759"/>
+    <nd ref="6886098215"/>
     <nd ref="64678698"/>
     <nd ref="64671789"/>
     <nd ref="64671713"/>
@@ -11156,7 +11129,42 @@
     <nd ref="3886654197"/>
     <nd ref="3886654198"/>
     <nd ref="3886654199"/>
-    <tag k="highway" v="footway"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="747148255">
+    <nd ref="2144893386"/>
+    <nd ref="6861244529"/>
+    <nd ref="6861244528"/>
+    <nd ref="6861244510"/>
+    <nd ref="6861244527"/>
+    <nd ref="6862382614"/>
+    <nd ref="6861244526"/>
+    <nd ref="6861244514"/>
+    <nd ref="6869678701"/>
+    <nd ref="6861244524"/>
+    <nd ref="6861244525"/>
+    <nd ref="6861244515"/>
+    <nd ref="6861244522"/>
+    <nd ref="6861244523"/>
+    <nd ref="6861244516"/>
+    <nd ref="6862382607"/>
+    <nd ref="6861244520"/>
+    <nd ref="6861244521"/>
+    <nd ref="6861244517"/>
+    <nd ref="6861244519"/>
+    <nd ref="6861244518"/>
+    <nd ref="6861244509"/>
+    <nd ref="4621175916"/>
+    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
+    <tag k="condition" v="fair"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="massgis:way_id" v="183341"/>
+    <tag k="maxspeed" v="25 mph"/>
+    <tag k="name" v="Stoneymeade Way"/>
+    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
+    <tag k="source:maxspeed" v="massgis"/>
+    <tag k="width" v="15.2"/>
   </way>
 
 </osm>
