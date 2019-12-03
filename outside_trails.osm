@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-11-19T21:52:02Z" areas="2019-11-19T21:35:02Z"/>
+<meta osm_base="2019-12-03T02:30:02Z" areas="2019-12-03T01:21:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -5181,6 +5181,20 @@
   <node id="6988317974" lat="42.5334491" lon="-71.4763454"/>
   <node id="6989702920" lat="42.5263471" lon="-71.4489818"/>
   <node id="6989702921" lat="42.5193491" lon="-71.4459120"/>
+  <node id="6992224826" lat="42.5323185" lon="-71.4950538"/>
+  <node id="6992224827" lat="42.5328245" lon="-71.4956492"/>
+  <node id="6992224828" lat="42.5315752" lon="-71.4948760"/>
+  <node id="6992224829" lat="42.5320695" lon="-71.4946407"/>
+  <node id="6992224830" lat="42.5323383" lon="-71.4940024"/>
+  <node id="6992224831" lat="42.5316821" lon="-71.4938843"/>
+  <node id="6992224832" lat="42.5314765" lon="-71.4943779"/>
+  <node id="6992224833" lat="42.5316821" lon="-71.4950699"/>
+  <node id="6992224834" lat="42.5319430" lon="-71.4958423"/>
+  <node id="6992224835" lat="42.5330657" lon="-71.4957941"/>
+  <node id="6992224836" lat="42.5337021" lon="-71.4945468"/>
+  <node id="6992224837" lat="42.5342871" lon="-71.4940989"/>
+  <node id="6992224838" lat="42.5352643" lon="-71.4941007"/>
+  <node id="6992278431" lat="42.5334254" lon="-71.4952362"/>
   <way id="8877892">
     <nd ref="2080640652"/>
     <nd ref="2080640648"/>
@@ -9588,29 +9602,6 @@
     <tag k="symbol" v="blue"/>
   </way>
   <way id="380495313">
-    <nd ref="3838231258"/>
-    <nd ref="2788382453"/>
-    <nd ref="2788382456"/>
-    <nd ref="2788382458"/>
-    <nd ref="2788382460"/>
-    <nd ref="2788382462"/>
-    <nd ref="2788382465"/>
-    <nd ref="2788382467"/>
-    <nd ref="2788382469"/>
-    <nd ref="2788382471"/>
-    <nd ref="2788382475"/>
-    <nd ref="2788382477"/>
-    <nd ref="2788382479"/>
-    <nd ref="2788382482"/>
-    <nd ref="2788353073"/>
-    <nd ref="2788382484"/>
-    <nd ref="2788382486"/>
-    <nd ref="2788382488"/>
-    <nd ref="2788382491"/>
-    <nd ref="2788382493"/>
-    <nd ref="2788382496"/>
-    <nd ref="2788382498"/>
-    <nd ref="2788382501"/>
     <nd ref="2788353070"/>
     <nd ref="2788382537"/>
     <nd ref="2788382540"/>
@@ -9672,81 +9663,6 @@
     <nd ref="2788382816"/>
     <nd ref="2788382812"/>
     <nd ref="2788353111"/>
-    <nd ref="3827837767"/>
-    <nd ref="3827837768"/>
-    <nd ref="3827837769"/>
-    <nd ref="3827837770"/>
-    <nd ref="3827837771"/>
-    <nd ref="3827837772"/>
-    <nd ref="3827837773"/>
-    <nd ref="3827837774"/>
-    <nd ref="3827837775"/>
-    <nd ref="3827837776"/>
-    <nd ref="3827837782"/>
-    <nd ref="4567118331"/>
-    <nd ref="3827837785"/>
-    <nd ref="3827837786"/>
-    <nd ref="3827837784"/>
-    <nd ref="3827837781"/>
-    <nd ref="3827837779"/>
-    <nd ref="3827837778"/>
-    <nd ref="3827837780"/>
-    <nd ref="3827837783"/>
-    <nd ref="3827837787"/>
-    <nd ref="3827837788"/>
-    <nd ref="3827837789"/>
-    <nd ref="3827837790"/>
-    <nd ref="2788382239"/>
-    <nd ref="2788382242"/>
-    <nd ref="2788382245"/>
-    <nd ref="2788382247"/>
-    <nd ref="2788382249"/>
-    <nd ref="2788382252"/>
-    <nd ref="2788353166"/>
-    <nd ref="2788382254"/>
-    <nd ref="2788382256"/>
-    <nd ref="2788382258"/>
-    <nd ref="2788353154"/>
-    <nd ref="2788382260"/>
-    <nd ref="2788382262"/>
-    <nd ref="2788382264"/>
-    <nd ref="2788382267"/>
-    <nd ref="2788382269"/>
-    <nd ref="2788353146"/>
-    <nd ref="2788382271"/>
-    <nd ref="2788382273"/>
-    <nd ref="2788382276"/>
-    <nd ref="2788382278"/>
-    <nd ref="2788382280"/>
-    <nd ref="2788382283"/>
-    <nd ref="2788382285"/>
-    <nd ref="2788382287"/>
-    <nd ref="2788382289"/>
-    <nd ref="2788382293"/>
-    <nd ref="2788382295"/>
-    <nd ref="2788382297"/>
-    <nd ref="2788382299"/>
-    <nd ref="2788382301"/>
-    <nd ref="2788382304"/>
-    <nd ref="2788382305"/>
-    <nd ref="3838231294"/>
-    <nd ref="3838231285"/>
-    <nd ref="3838231280"/>
-    <nd ref="3838231276"/>
-    <nd ref="3838231275"/>
-    <nd ref="3838231273"/>
-    <nd ref="3838231269"/>
-    <nd ref="3838231266"/>
-    <nd ref="3838231264"/>
-    <nd ref="3838231263"/>
-    <nd ref="3838231262"/>
-    <nd ref="3838231260"/>
-    <nd ref="4567118325"/>
-    <nd ref="5210999584"/>
-    <nd ref="4567118326"/>
-    <nd ref="5210999583"/>
-    <nd ref="4567118324"/>
-    <nd ref="3838231258"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Main Loop Trail - Yellow"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
@@ -9766,6 +9682,7 @@
     <nd ref="3838231296"/>
     <nd ref="3838231286"/>
     <tag k="highway" v="track"/>
+    <tag k="name" v="AT&amp;T Right of Way"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
   </way>
   <way id="380495315">
@@ -9801,6 +9718,7 @@
     <nd ref="3838231301"/>
     <nd ref="3838231303"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="AT&amp;T Right of Way"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="dirt"/>
     <tag k="symbol" v="blue"/>
@@ -9809,6 +9727,7 @@
     <nd ref="3838231304"/>
     <nd ref="2788353126"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="AT&amp;T Right of Way"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="dirt"/>
   </way>
@@ -9834,6 +9753,7 @@
     <nd ref="2788382361"/>
     <nd ref="2788353108"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="AT&amp;T Right of Way"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="dirt"/>
   </way>
@@ -11189,6 +11109,7 @@
     <nd ref="5210999595"/>
     <nd ref="2788353110"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="AT&amp;T Right of Way"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="ground"/>
   </way>
@@ -12043,6 +11964,159 @@
     <tag k="highway" v="path"/>
     <tag k="operator" v="Littleton Conservation Trust"/>
     <tag k="surface" v="ground"/>
+  </way>
+  <way id="747267786">
+    <nd ref="6992224835"/>
+    <nd ref="6992224827"/>
+    <nd ref="6992224826"/>
+    <nd ref="6992224829"/>
+    <nd ref="6992224828"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="747267787">
+    <nd ref="6992224838"/>
+    <nd ref="6992224837"/>
+    <nd ref="6992224836"/>
+    <nd ref="6992278431"/>
+    <nd ref="6992224835"/>
+    <nd ref="6992224834"/>
+    <nd ref="6992224833"/>
+    <nd ref="6992224828"/>
+    <nd ref="6992224832"/>
+    <nd ref="6992224831"/>
+    <nd ref="6992224830"/>
+    <nd ref="6992224836"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="747285835">
+    <nd ref="2788353111"/>
+    <nd ref="3827837767"/>
+    <nd ref="3827837768"/>
+    <nd ref="3827837769"/>
+    <nd ref="3827837770"/>
+    <nd ref="3827837771"/>
+    <nd ref="3827837772"/>
+    <nd ref="3827837773"/>
+    <nd ref="3827837774"/>
+    <nd ref="3827837775"/>
+    <nd ref="3827837776"/>
+    <nd ref="3827837782"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Main Loop Trail - Yellow"/>
+    <tag k="operator" v="Littleton Conservation Trust"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="symbol" v="yellow"/>
+  </way>
+  <way id="747285836">
+    <nd ref="3827837782"/>
+    <nd ref="4567118331"/>
+    <nd ref="3827837785"/>
+    <nd ref="3827837786"/>
+    <nd ref="3827837784"/>
+    <nd ref="3827837781"/>
+    <nd ref="3827837779"/>
+    <nd ref="3827837778"/>
+    <nd ref="3827837780"/>
+    <nd ref="3827837783"/>
+    <nd ref="3827837787"/>
+    <nd ref="3827837788"/>
+    <nd ref="3827837789"/>
+    <nd ref="3827837790"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Main Loop Trail - Yellow"/>
+    <tag k="operator" v="Littleton Conservation Trust"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="symbol" v="yellow"/>
+  </way>
+  <way id="747285837">
+    <nd ref="3827837790"/>
+    <nd ref="2788382239"/>
+    <nd ref="2788382242"/>
+    <nd ref="2788382245"/>
+    <nd ref="2788382247"/>
+    <nd ref="2788382249"/>
+    <nd ref="2788382252"/>
+    <nd ref="2788353166"/>
+    <nd ref="2788382254"/>
+    <nd ref="2788382256"/>
+    <nd ref="2788382258"/>
+    <nd ref="2788353154"/>
+    <nd ref="2788382260"/>
+    <nd ref="2788382262"/>
+    <nd ref="2788382264"/>
+    <nd ref="2788382267"/>
+    <nd ref="2788382269"/>
+    <nd ref="2788353146"/>
+    <nd ref="2788382271"/>
+    <nd ref="2788382273"/>
+    <nd ref="2788382276"/>
+    <nd ref="2788382278"/>
+    <nd ref="2788382280"/>
+    <nd ref="2788382283"/>
+    <nd ref="2788382285"/>
+    <nd ref="2788382287"/>
+    <nd ref="2788382289"/>
+    <nd ref="2788382293"/>
+    <nd ref="2788382295"/>
+    <nd ref="2788382297"/>
+    <nd ref="2788382299"/>
+    <nd ref="2788382301"/>
+    <nd ref="2788382304"/>
+    <nd ref="2788382305"/>
+    <nd ref="3838231294"/>
+    <nd ref="3838231285"/>
+    <nd ref="3838231280"/>
+    <nd ref="3838231276"/>
+    <nd ref="3838231275"/>
+    <nd ref="3838231273"/>
+    <nd ref="3838231269"/>
+    <nd ref="3838231266"/>
+    <nd ref="3838231264"/>
+    <nd ref="3838231263"/>
+    <nd ref="3838231262"/>
+    <nd ref="3838231260"/>
+    <nd ref="4567118325"/>
+    <nd ref="5210999584"/>
+    <nd ref="4567118326"/>
+    <nd ref="5210999583"/>
+    <nd ref="4567118324"/>
+    <nd ref="3838231258"/>
+    <nd ref="2788382453"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Main Loop Trail - Yellow"/>
+    <tag k="operator" v="Littleton Conservation Trust"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="symbol" v="yellow"/>
+  </way>
+  <way id="747285838">
+    <nd ref="2788382453"/>
+    <nd ref="2788382456"/>
+    <nd ref="2788382458"/>
+    <nd ref="2788382460"/>
+    <nd ref="2788382462"/>
+    <nd ref="2788382465"/>
+    <nd ref="2788382467"/>
+    <nd ref="2788382469"/>
+    <nd ref="2788382471"/>
+    <nd ref="2788382475"/>
+    <nd ref="2788382477"/>
+    <nd ref="2788382479"/>
+    <nd ref="2788382482"/>
+    <nd ref="2788353073"/>
+    <nd ref="2788382484"/>
+    <nd ref="2788382486"/>
+    <nd ref="2788382488"/>
+    <nd ref="2788382491"/>
+    <nd ref="2788382493"/>
+    <nd ref="2788382496"/>
+    <nd ref="2788382498"/>
+    <nd ref="2788382501"/>
+    <nd ref="2788353070"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Main Loop Trail - Yellow"/>
+    <tag k="operator" v="Littleton Conservation Trust"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="symbol" v="yellow"/>
   </way>
 
 </osm>
