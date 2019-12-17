@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-12-03T02:28:02Z"/>
+<meta osm_base="2019-12-17T02:12:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -366,10 +366,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009090112"/>
   </node>
   <node id="64681032" lat="42.4196159" lon="-71.3295810"/>
-  <node id="64681622" lat="42.4160560" lon="-71.3270030">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009090112"/>
-  </node>
+  <node id="64681622" lat="42.4160560" lon="-71.3270030"/>
   <node id="64681777" lat="42.4180763" lon="-71.3284679"/>
   <node id="64681839" lat="42.4161830" lon="-71.3272190"/>
   <node id="64681946" lat="42.4180470" lon="-71.3617930">
@@ -5287,6 +5284,7 @@
   <node id="6982512838" lat="42.5025907" lon="-71.3983440"/>
   <node id="7009937572" lat="42.4176713" lon="-71.3532438"/>
   <node id="7015650352" lat="42.4122974" lon="-71.3633925"/>
+  <node id="7046960453" lat="42.3877005" lon="-71.3577951"/>
   <way id="8842536">
     <nd ref="860754391"/>
     <nd ref="64034068"/>
@@ -6159,11 +6157,12 @@
     <nd ref="3816149462"/>
     <nd ref="3440929313"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="segregated" v="no"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="55202155">
     <nd ref="635883746"/>
@@ -8362,9 +8361,9 @@
     <nd ref="1680984372"/>
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="segregated" v="no"/>
@@ -8388,10 +8387,10 @@
     <nd ref="3441019102"/>
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="embankment" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="service" v="driveway"/>
@@ -8901,6 +8900,7 @@
     <nd ref="70322128"/>
     <nd ref="1517902714"/>
     <nd ref="70308267"/>
+    <nd ref="7046960453"/>
     <nd ref="70272687"/>
     <nd ref="70318547"/>
     <nd ref="70282821"/>
@@ -9191,7 +9191,6 @@
     <nd ref="64057966"/>
     <nd ref="2457423448"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
@@ -9204,10 +9203,10 @@
     <nd ref="3816149466"/>
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="note:old_railway_operator" v="Boston and Lowell"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
@@ -9371,7 +9370,6 @@
     <nd ref="64029858"/>
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
@@ -9383,9 +9381,9 @@
     <nd ref="3441036640"/>
     <nd ref="3816149477"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="service" v="driveway"/>
@@ -9399,13 +9397,13 @@
     <nd ref="64058007"/>
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="embankment" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="path"/>
+    <tag k="highway" v="track"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
-    <tag k="service" v="driveway"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="compacted"/>
     <tag k="vehicle" v="forestry"/>
   </way>
@@ -9414,11 +9412,12 @@
     <nd ref="626812841"/>
     <nd ref="626812793"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="segregated" v="no"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="378205132">
     <nd ref="1680984372"/>
@@ -9427,9 +9426,9 @@
     <tag k="abandoned:railway" v="rail"/>
     <tag k="bicycle" v="designated"/>
     <tag k="cutting" v="yes"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="segregated" v="no"/>
@@ -9440,7 +9439,6 @@
     <nd ref="3440912969"/>
     <nd ref="2457410052"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
@@ -9453,12 +9451,12 @@
     <nd ref="3440929313"/>
     <nd ref="3206902367"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="track"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="tracktype" v="grade2"/>
+    <tag k="name" v="Reformatory Branch Trail"/>
+    <tag k="segregated" v="no"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="379682006">
     <nd ref="3025218938"/>
