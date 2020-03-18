@@ -13,12 +13,13 @@
 </Schema>
 <Folder><name>lines</name>
   <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">254298249</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4003117,42.5300517 -71.4003371,42.5300155</coordinates></LineString>
   </Placemark>
@@ -29,7 +30,7 @@
 		<SimpleData name="osm_id">570487025</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4084561,42.5187551 -71.4084896,42.5187216 -71.4085333,42.5186926 -71.4085813,42.51867 -71.4086294,42.5186534 -71.4086828,42.5186421 -71.4087389,42.5186349 -71.4087951,42.5186355 -71.4088514,42.5186423 -71.408909,42.518656 -71.4089568,42.5186751 -71.4090032,42.5186982 -71.4090461,42.5187278 -71.4090763,42.518756 -71.4091061,42.5187968 -71.4091259,42.5188365 -71.40915,42.5188757 -71.4091839,42.5189106 -71.4092191,42.5189415 -71.4092649,42.5189677 -71.4093106,42.518989 -71.4093653,42.5190034 -71.4094241,42.5190131 -71.4094736,42.5190159 -71.4095413,42.5190114 -71.4095889,42.5190029 -71.4096426,42.5189853 -71.4096909,42.5189637 -71.4097368,42.5189336 -71.4097719,42.5189026 -71.4097971,42.5188745 -71.4098409,42.5188385 -71.4098831,42.5188125 -71.4099293,42.5187925 -71.4099784,42.518776 -71.410029,42.5187664 -71.4100862,42.5187595 -71.410142,42.5187615 -71.4101979,42.5187681 -71.4102645,42.518784 -71.4103572,42.5188022 -71.4104036,42.5188061 -71.4104611,42.518804 -71.4105125,42.5187974 -71.4105631,42.518781 -71.4106083,42.5187646 -71.410656,42.5187413 -71.4106925,42.5187157 -71.4107236,42.5186797 -71.4107398,42.5186467 -71.4107835,42.5185728 -71.4108238,42.5184905 -71.410853,42.5184057 -71.4108635,42.5183693 -71.4108649,42.5183266 -71.4108583,42.518281 -71.4108451,42.5182431 -71.4108259,42.5182133 -71.4107832,42.5181551 -71.4107063,42.5180764 -71.4106101,42.5179912 -71.4105184,42.5179264 -71.4104017,42.5178536 -71.410331,42.5178043 -71.4103019,42.5177769 -71.4102808,42.5177505 -71.4102627,42.5177183 -71.4102532,42.517686 -71.410251,42.5176536 -71.4102556,42.51762 -71.4102622,42.5175934 -71.4103058,42.5174202 -71.4103354,42.5172578 -71.4103477,42.5172179 -71.4104052,42.5170892 -71.4104144,42.517054 -71.4104176,42.5170207 -71.4104086,42.5169384 -71.4104069,42.5168925 -71.4104098,42.5168451 -71.410414,42.5167977 -71.4104113,42.5167495 -71.4104043,42.5166987 -71.4103993,42.5166276 -71.4104023,42.5165572 -71.4104228,42.5164716 -71.410434,42.5164363 -71.410448,42.5164004 -71.4104946,42.5163183 -71.4105423,42.5162301 -71.4105845,42.5161822 -71.4105577,42.5161037 -71.4105325,42.5160544 -71.4105209,42.516013 -71.4105183,42.5159693 -71.4105286,42.5159105 -71.4105416,42.5158605 -71.4105636,42.5158016 -71.410598,42.5157349 -71.4106127,42.5157064 -71.4106319,42.5156702 -71.410642,42.515641 -71.4105966,42.515602 -71.4105434,42.5155637 -71.4104796,42.5155176 -71.4104106,42.5154852 -71.4102833,42.5154444 -71.4102378,42.5154325 -71.4101931,42.5154141 -71.4101535,42.5153907 -71.4101199,42.5153612 -71.4100916,42.5153268 -71.410074,42.5152926 -71.4100641,42.5152575 -71.4100595,42.5152235 -71.4100597,42.51519 -71.4100667,42.5151555</coordinates></LineString>
   </Placemark>
@@ -39,7 +40,7 @@
 		<SimpleData name="osm_id">578257487</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4178155,42.4995305 -71.4178718,42.4995424 -71.4180998,42.4989817 -71.4181333,42.4989452 -71.4182417,42.498909</coordinates></LineString>
   </Placemark>
@@ -61,7 +62,7 @@
 		<SimpleData name="osm_id">587017794</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3981918,42.5344421 -71.3989328,42.5327509 -71.3992501,42.5320755 -71.3994195,42.5316668 -71.3997863,42.5309287 -71.4000825,42.5304012 -71.4003117,42.5300517</coordinates></LineString>
   </Placemark>
@@ -72,7 +73,7 @@
 		<SimpleData name="osm_id">587017795</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4186729,42.492936 -71.418657,42.4928102</coordinates></LineString>
   </Placemark>
@@ -83,7 +84,7 @@
 		<SimpleData name="osm_id">587017796</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.418657,42.4928102 -71.4185401,42.4920721 -71.4181802,42.4897154</coordinates></LineString>
   </Placemark>
@@ -94,7 +95,7 @@
 		<SimpleData name="osm_id">587026531</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4182815,42.4983622 -71.4183215,42.4982515 -71.4184104,42.4979357 -71.4184776,42.4975653 -71.4185286,42.4972087 -71.4186255,42.4964466 -71.4188263,42.4949483 -71.4188487,42.4944114 -71.4188472,42.494251 -71.4188108,42.4939275 -71.4188116,42.4938411 -71.4188137,42.4937468 -71.4188202,42.4936881 -71.4188133,42.4936293 -71.4188023,42.4935722 -71.4187485,42.493428 -71.4186729,42.492936</coordinates></LineString>
   </Placemark>
@@ -105,7 +106,7 @@
 		<SimpleData name="osm_id">587026540</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4179867,42.4990264 -71.4179724,42.4989784 -71.4179724,42.4989239 -71.4179899,42.498878 -71.4180301,42.4988294 -71.418289,42.4986357 -71.4183211,42.4985872</coordinates></LineString>
   </Placemark>
@@ -116,7 +117,7 @@
 		<SimpleData name="osm_id">587026544</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4181802,42.4897154 -71.4181643,42.48962</coordinates></LineString>
   </Placemark>
@@ -127,20 +128,9 @@
 		<SimpleData name="osm_id">587026545</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4181643,42.48962 -71.4177668,42.4869293 -71.4175956,42.4859978 -71.4173405,42.4850763 -71.4171436,42.484487 -71.4167845,42.4836186 -71.4154254,42.4804158 -71.41523,42.479954 -71.4149408,42.479332 -71.4145705,42.4787453 -71.4143592,42.4784604 -71.4139994,42.4780851 -71.4139241,42.4779993 -71.4138783,42.4779214 -71.4138544,42.4778811 -71.4137942,42.4778253 -71.4137503,42.4777891 -71.4136876,42.4777509 -71.413565,42.4776805 -71.412547,42.4767396</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Bruce Freeman Rail Trail</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">587036588</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4003117,42.5300517 -71.4003371,42.5300155</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -149,7 +139,7 @@
 		<SimpleData name="osm_id">587036589</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4003371,42.5300155 -71.4005864,42.5296812 -71.4008894,42.5293284 -71.4012032,42.5289874 -71.4017891,42.5283044 -71.4021419,42.5279071 -71.4022626,42.5277376 -71.4023082,42.5276807 -71.4023914,42.5276214 -71.4025171,42.5275271 -71.4025745,42.5274615 -71.4025981,42.5274112 -71.4026264,42.5273562 -71.4026562,42.5273193 -71.4035259,42.5263141 -71.4041061,42.5255511</coordinates></LineString>
   </Placemark>
@@ -160,7 +150,7 @@
 		<SimpleData name="osm_id">587061798</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">20</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4041061,42.5255511 -71.4041478,42.5254909</coordinates></LineString>
   </Placemark>
@@ -171,7 +161,7 @@
 		<SimpleData name="osm_id">587061799</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4041478,42.5254909 -71.4043667,42.5251801 -71.4048108,42.5245069 -71.4056116,42.5232268</coordinates></LineString>
   </Placemark>
@@ -182,7 +172,7 @@
 		<SimpleData name="osm_id">597562838</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.412547,42.4767396 -71.4124452,42.4766452</coordinates></LineString>
   </Placemark>
@@ -193,7 +183,7 @@
 		<SimpleData name="osm_id">597562839</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4124452,42.4766452 -71.4121342,42.4763093 -71.4118312,42.4759675 -71.4115444,42.4756004 -71.4113253,42.475287 -71.4112835,42.4752193 -71.4112552,42.4751537 -71.4111545,42.4748587 -71.4111342,42.4747918 -71.4110951,42.4747071 -71.4104498,42.4735956 -71.4102766,42.4733269</coordinates></LineString>
   </Placemark>
@@ -204,7 +194,7 @@
 		<SimpleData name="osm_id">601629408</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4183211,42.4985872 -71.4183265,42.4985546 -71.4183265,42.4985185 -71.4182809,42.4984083 -71.4182815,42.4983622</coordinates></LineString>
   </Placemark>
@@ -269,7 +259,7 @@
 		<SimpleData name="osm_id">620693707</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">10</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4056116,42.5232268 -71.4056577,42.5231574</coordinates></LineString>
   </Placemark>
@@ -280,7 +270,7 @@
 		<SimpleData name="osm_id">620693708</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4056577,42.5231574 -71.4060581,42.5225308</coordinates></LineString>
   </Placemark>
@@ -313,7 +303,7 @@
 		<SimpleData name="osm_id">620704015</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4179838,42.499113 -71.4179889,42.4990724 -71.4179867,42.4990264</coordinates></LineString>
   </Placemark>
@@ -324,7 +314,7 @@
 		<SimpleData name="osm_id">620704019</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4060581,42.5225308 -71.4065262,42.5217971 -71.407601,42.5201033 -71.4084561,42.5187551</coordinates></LineString>
   </Placemark>
@@ -366,7 +356,7 @@
 		<SimpleData name="osm_id">651790931</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;concrete&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;concrete&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3998842,42.5319611 -71.3994953,42.5321182 -71.3994282,42.5321845 -71.3993209,42.5321657 -71.3993571,42.5320955 -71.3992501,42.5320755</coordinates></LineString>
   </Placemark>
@@ -376,7 +366,7 @@
 		<SimpleData name="osm_id">651837932</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4110366,42.5156075 -71.4109879,42.5155898 -71.410959,42.5155383 -71.4109269,42.5155516 -71.410642,42.515641</coordinates></LineString>
   </Placemark>
@@ -386,7 +376,7 @@
 		<SimpleData name="osm_id">651842562</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4184696,42.4939369 -71.4188108,42.4939275</coordinates></LineString>
   </Placemark>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
+<osm version="0.6" generator="Overpass API 0.7.56.2 b688b00f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-11-19T21:51:02Z" areas="2019-11-19T21:35:02Z"/>
+<meta osm_base="2020-03-18T01:06:03Z" areas="2020-03-18T00:43:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -395,7 +395,10 @@
     <nd ref="2600852584"/>
     <nd ref="2600852583"/>
     <tag k="bridge" v="yes"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="570487025">
@@ -520,6 +523,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="578257487">
@@ -530,6 +534,7 @@
     <nd ref="5541432694"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587011490">
@@ -573,6 +578,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587017795">
@@ -583,6 +589,7 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587017796">
@@ -592,6 +599,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026531">
@@ -615,6 +623,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026540">
@@ -630,6 +639,7 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026544">
@@ -640,6 +650,7 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587026545">
@@ -666,17 +677,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-  <way id="587036588">
-    <nd ref="2600852584"/>
-    <nd ref="2600852583"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="layer" v="1"/>
-    <tag k="name" v="Bruce Freeman Rail Trail"/>
-    <tag k="source" v="http://www.brucefreemanrailtrail.org/"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587036589">
@@ -699,6 +700,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587061798">
@@ -709,6 +711,7 @@
     <tag k="highway" v="cycleway"/>
     <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="587061799">
@@ -720,6 +723,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="597562838">
@@ -729,6 +733,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="597562839">
@@ -747,6 +752,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="601629408">
@@ -758,6 +764,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="603108308">
@@ -875,6 +882,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="620693708">
@@ -884,6 +892,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="620704011">
@@ -926,6 +935,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="620704019">
@@ -937,6 +947,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="647120018">
@@ -1007,6 +1018,7 @@
     <nd ref="6111650415"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="concrete"/>
   </way>
   <way id="651837932">
@@ -1017,6 +1029,7 @@
     <nd ref="6112031664"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="651842562">
@@ -1024,6 +1037,7 @@
     <nd ref="6112075509"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="654199327">
