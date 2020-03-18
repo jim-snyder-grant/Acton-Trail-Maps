@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.56.1002 b121d216">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-09-25T10:28:02Z" areas="2019-09-25T10:05:02Z"/>
+<meta osm_base="2020-03-18T01:07:02Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -31,7 +31,7 @@
   <node id="2139046642" lat="42.5022927" lon="-71.4423230"/>
   <node id="2139046643" lat="42.5022942" lon="-71.4420349"/>
   <node id="2139046649" lat="42.5024190" lon="-71.4420980"/>
-  <node id="2158426169" lat="42.4940251" lon="-71.4185372"/>
+  <node id="2158426169" lat="42.4940305" lon="-71.4185072"/>
   <node id="2159701992" lat="42.5132653" lon="-71.4055531"/>
   <node id="2159702000" lat="42.5133182" lon="-71.4056084"/>
   <node id="2159702002" lat="42.5134253" lon="-71.4053746"/>
@@ -150,11 +150,13 @@
   <node id="5754823445" lat="42.4532007" lon="-71.4569393"/>
   <node id="5754823446" lat="42.4532091" lon="-71.4567727"/>
   <node id="5754827100" lat="42.4532749" lon="-71.4569462"/>
-  <node id="6094189658" lat="42.4785459" lon="-71.4168483"/>
-  <node id="6094189659" lat="42.4785283" lon="-71.4164468"/>
-  <node id="6094189660" lat="42.4782709" lon="-71.4164675"/>
-  <node id="6094189661" lat="42.4782885" lon="-71.4168691"/>
-  <node id="6094326199" lat="42.4938461" lon="-71.4185106"/>
+  <node id="6094189658" lat="42.4785304" lon="-71.4168392"/>
+  <node id="6094189659" lat="42.4785422" lon="-71.4164478"/>
+  <node id="6094189660" lat="42.4782803" lon="-71.4164333"/>
+  <node id="6094189661" lat="42.4782685" lon="-71.4168247"/>
+  <node id="6094326197" lat="42.4938226" lon="-71.4182934"/>
+  <node id="6094326198" lat="42.4938055" lon="-71.4183007"/>
+  <node id="6094326199" lat="42.4938600" lon="-71.4184787"/>
   <node id="6104762293" lat="42.4597524" lon="-71.4565531"/>
   <node id="6104762294" lat="42.4597549" lon="-71.4565238"/>
   <node id="6104762295" lat="42.4591329" lon="-71.4564242"/>
@@ -178,8 +180,8 @@
   <node id="6112031659" lat="42.5154033" lon="-71.4115481"/>
   <node id="6112031660" lat="42.5153566" lon="-71.4115185"/>
   <node id="6112031661" lat="42.5155273" lon="-71.4110229"/>
-  <node id="6112056290" lat="42.4940195" lon="-71.4186063"/>
-  <node id="6112075507" lat="42.4938405" lon="-71.4185798"/>
+  <node id="6112056290" lat="42.4940204" lon="-71.4186079"/>
+  <node id="6112075507" lat="42.4938419" lon="-71.4185788"/>
   <node id="6237196302" lat="42.4413004" lon="-71.4328748"/>
   <node id="6237196303" lat="42.4413074" lon="-71.4329934"/>
   <node id="6237196304" lat="42.4411787" lon="-71.4330074"/>
@@ -188,6 +190,9 @@
   <node id="6489756840" lat="42.4813522" lon="-71.4378055"/>
   <node id="6489756841" lat="42.4813016" lon="-71.4378462"/>
   <node id="6489756842" lat="42.4813434" lon="-71.4378878"/>
+  <node id="7115130686" lat="42.4938485" lon="-71.4185023"/>
+  <node id="7115130687" lat="42.4937509" lon="-71.4183205"/>
+  <node id="7115130688" lat="42.4937923" lon="-71.4185254"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -264,8 +269,10 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Taylor Road"/>
     <tag k="amenity" v="parking"/>
-    <tag k="capacity" v="15"/>
+    <tag k="capacity" v="25"/>
+    <tag k="capacity:disabled" v="2"/>
     <tag k="fee" v="no"/>
+    <tag k="operator" v="Town of Acton"/>
     <tag k="parking" v="surface"/>
     <tag k="supervised" v="no"/>
     <tag k="surface" v="asphalt"/>
@@ -408,6 +415,8 @@
     <nd ref="4739123731"/>
     <nd ref="4739123728"/>
     <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="10"/>
+    <tag k="capacity:disabled" v="1"/>
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="paved"/>
     <tag k="website" v="http://www.actontrails.org/great-hill/"/>
@@ -427,6 +436,9 @@
     <tag k="addr:state" v="ma"/>
     <tag k="addr:street" v="Concord Road"/>
     <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="5"/>
+    <tag k="capacity:disabled" v="0"/>
+    <tag k="operator" v="Town of Acton"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="paved"/>
     <tag k="website" v="http://www.actontrails.org/"/>
@@ -676,6 +688,11 @@
     <nd ref="6112056290"/>
     <nd ref="2158426169"/>
     <nd ref="6094326199"/>
+    <nd ref="6094326197"/>
+    <nd ref="6094326198"/>
+    <nd ref="7115130687"/>
+    <nd ref="7115130688"/>
+    <nd ref="7115130686"/>
     <nd ref="6112075507"/>
     <nd ref="6112056290"/>
     <tag k="addr:city" v="Acton"/>
@@ -684,7 +701,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Brook Street"/>
     <tag k="amenity" v="parking"/>
-    <tag k="capacity" v="6"/>
+    <tag k="capacity" v="12"/>
     <tag k="capacity:disabled" v="1"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="asphalt"/>
