@@ -152,7 +152,7 @@ for arg in args:
         filters = 'way[highway~"path|track|footway|cycleway"][footway!~"sidewalk|crossing"][access!~"^private$|^no$|^customers$"]->.everything;(.everything; - way'+IS_INSIDE_ACTON+';)'
     elif arg == "parking":
         KMLcolor = "50BEBEBE"
-        filters = 'way[amenity=parking][website~"actontrails|arrtinc|brucefreemanrailtrail"]'+IS_INSIDE_ACTON
+        filters = 'way[amenity=parking][website~"trails.actonma|arrtinc|brucefreemanrailtrail"]'+IS_INSIDE_ACTON
         geometry = "multipolygons"
     elif arg == "parking_street":
         KMLcolor = "50BEBEBE"
