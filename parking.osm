@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.1002 b121d216">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-03-18T01:07:02Z" areas="2020-03-06T11:03:01Z"/>
+<meta osm_base="2020-03-29T17:32:02Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -193,6 +193,11 @@
   <node id="7115130686" lat="42.4938485" lon="-71.4185023"/>
   <node id="7115130687" lat="42.4937509" lon="-71.4183205"/>
   <node id="7115130688" lat="42.4937923" lon="-71.4185254"/>
+  <node id="7257055325" lat="42.4923948" lon="-71.4037002"/>
+  <node id="7257055326" lat="42.4922989" lon="-71.4036633"/>
+  <node id="7257055327" lat="42.4922870" lon="-71.4034515"/>
+  <node id="7257055328" lat="42.4924017" lon="-71.4035400"/>
+  <node id="7257055329" lat="42.4923983" lon="-71.4036184"/>
   <way id="61912346">
     <nd ref="771666395"/>
     <nd ref="771666491"/>
@@ -210,7 +215,7 @@
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/guggins-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/guggins-brook/"/>
   </way>
   <way id="115637309">
     <nd ref="1305920428"/>
@@ -226,7 +231,7 @@
     <tag k="addr:street" v="Central St"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/jenks/"/>
+    <tag k="website" v="https://trails.actonma.gov/jenks/"/>
   </way>
   <way id="166663317">
     <nd ref="1781082991"/>
@@ -241,7 +246,7 @@
     <nd ref="1781082991"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+    <tag k="website" v="https://trails.actonma.gov/wills-hole-town-forest/"/>
   </way>
   <way id="201851000">
     <nd ref="2118697733"/>
@@ -276,7 +281,7 @@
     <tag k="parking" v="surface"/>
     <tag k="supervised" v="no"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
+    <tag k="website" v="https://trails.actonma.gov/arboretum/"/>
   </way>
   <way id="203893374">
     <nd ref="2139046639"/>
@@ -286,7 +291,7 @@
     <nd ref="2139046639"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+    <tag k="website" v="https://trails.actonma.gov/grassy-pond/"/>
   </way>
   <way id="205968074">
     <nd ref="2159702006"/>
@@ -303,7 +308,7 @@
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/nashoba-brook/"/>
   </way>
   <way id="206189213">
     <nd ref="2161970178"/>
@@ -319,7 +324,7 @@
     <tag k="opening_hours" v="sunrise-sunset"/>
     <tag k="supervised" v="no"/>
     <tag k="surface" v="ground"/>
-    <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/nashoba-brook/"/>
   </way>
   <way id="206189217">
     <nd ref="2161970200"/>
@@ -337,7 +342,7 @@
     <tag k="addr:street" v="Canterbury Hill Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/robbinsmill/"/>
+    <tag k="website" v="https://trails.actonma.gov/robbinsmill/"/>
   </way>
   <way id="400355073">
     <nd ref="4029272878"/>
@@ -353,7 +358,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/camp-acton/"/>
+    <tag k="website" v="https://trails.actonma.gov/camp-acton/"/>
   </way>
   <way id="445119526">
     <nd ref="4425385894"/>
@@ -368,7 +373,7 @@
     <tag k="addr:street" v="Nagog Hill Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/nagog-hill/"/>
   </way>
   <way id="451258426">
     <nd ref="4480865205"/>
@@ -391,7 +396,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/canoe-launch/"/>
+    <tag k="website" v="https://trails.actonma.gov/canoe-launch/"/>
   </way>
   <way id="476393372">
     <nd ref="4699877931"/>
@@ -406,7 +411,7 @@
     <tag k="addr:street" v="Carlisle Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/robbinsmill/"/>
+    <tag k="website" v="https://trails.actonma.gov/robbinsmill/"/>
   </way>
   <way id="480962645">
     <nd ref="4739123728"/>
@@ -419,7 +424,7 @@
     <tag k="capacity:disabled" v="1"/>
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/great-hill/"/>
   </way>
   <way id="481898762">
     <nd ref="4747957819"/>
@@ -441,7 +446,7 @@
     <tag k="operator" v="Town of Acton"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/"/>
+    <tag k="website" v="https://trails.actonma.gov/"/>
   </way>
   <way id="494952332">
     <nd ref="4867299581"/>
@@ -453,7 +458,7 @@
     <nd ref="4867299581"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/nagog-hill/"/>
   </way>
   <way id="507599989">
     <nd ref="4970764458"/>
@@ -465,7 +470,7 @@
     <tag k="access" v="yes"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
+    <tag k="website" v="https://trails.actonma.gov/heath-hen-meadow/"/>
   </way>
   <way id="562522259">
     <nd ref="5422784749"/>
@@ -484,7 +489,7 @@
     <tag k="capacity" v="3"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/pratts-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/pratts-brook/"/>
   </way>
   <way id="562638133">
     <nd ref="5423842769"/>
@@ -500,7 +505,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/pratts-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/pratts-brook/"/>
   </way>
   <way id="562877289">
     <nd ref="5425410264"/>
@@ -520,7 +525,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/great-hill/"/>
   </way>
   <way id="562879896">
     <nd ref="5425438447"/>
@@ -536,7 +541,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+    <tag k="website" v="https://trails.actonma.gov/grassy-pond/"/>
   </way>
   <way id="562885909">
     <nd ref="5425489688"/>
@@ -552,7 +557,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+    <tag k="website" v="https://trails.actonma.gov/wills-hole-town-forest/"/>
   </way>
   <way id="562885917">
     <nd ref="5425489699"/>
@@ -569,7 +574,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="unpaved"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+    <tag k="website" v="https://trails.actonma.gov/wills-hole-town-forest/"/>
   </way>
   <way id="579578261">
     <nd ref="5550319421"/>
@@ -630,7 +635,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="capacity" v="26"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="website" v="http://www.actontrails.org/"/>
+    <tag k="website" v="https://trails.actonma.gov/"/>
   </way>
   <way id="650854121">
     <nd ref="6104762293"/>
@@ -663,7 +668,7 @@
     <tag k="operator" v="Town of Acton"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="website" v="http://www.actontrails.org/guggins-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/guggins-brook/"/>
   </way>
   <way id="651837930">
     <nd ref="6112031660"/>
@@ -720,7 +725,25 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Town of Acton"/>
     <tag k="surface" v="compacted"/>
-    <tag k="website" v="http://www.actontrails.org/"/>
+    <tag k="website" v="https://trails.actonma.gov/assabet-river-blue-and-green-trail/"/>
+  </way>
+  <way id="777623976">
+    <nd ref="7257055325"/>
+    <nd ref="7257055326"/>
+    <nd ref="7257055327"/>
+    <nd ref="7257055328"/>
+    <nd ref="7257055329"/>
+    <nd ref="7257055325"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="99"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:state" v="MA"/>
+    <tag k="addr:street" v="Strawberry Hill Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Acton Land Stewardship Committee"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="ground"/>
+    <tag k="website" v="https://trails.actonma.gov/spring-hill/"/>
   </way>
 
 </osm>
