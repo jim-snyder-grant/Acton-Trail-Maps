@@ -148,7 +148,7 @@
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3376474,42.4189936 -71.3369822,42.4187243 -71.3357913,42.4182689 -71.3346755,42.4178293 -71.3345145,42.417762 -71.3343643,42.4177263 -71.3341551,42.4176827 -71.3340582,42.4176494 -71.3339244,42.4176035 -71.333565,42.417457 -71.3332056,42.4173105 -71.3329535,42.4172036 -71.3326906,42.4170729 -71.3324814,42.4169659 -71.3322293,42.4168313 -71.3319289,42.4166531 -71.3318757,42.4166207 -71.3316553,42.4164867 -71.3314246,42.4163442 -71.3312208,42.4162333 -71.3311564,42.4161857 -71.3310706,42.4161026 -71.330974,42.4159481 -71.3308667,42.4157382 -71.3307809,42.415564 -71.3306682,42.4153065 -71.3305931,42.4151244 -71.3305502,42.4150412 -71.3305127,42.4149699 -71.330459,42.4148867 -71.3303947,42.4147956 -71.3302766,42.4146531 -71.3301586,42.4145145 -71.3300084,42.4143481 -71.329885,42.4142135 -71.3297456,42.4140788 -71.3296544,42.4139798 -71.3296168,42.4139045 -71.3295954,42.4138372 -71.3296115,42.4138016 -71.3296007,42.4137422 -71.3295723,42.4136907 -71.329531,42.4136313 -71.3294757,42.4135917 -71.3294006,42.4135758 -71.3293379,42.4135441 -71.3292735,42.4135283 -71.3292129,42.4135006 -71.32917,42.4134728 -71.3291163,42.4134253 -71.3290375,42.4133223 -71.3289768,42.4132392 -71.3289031,42.4131613</coordinates></LineString>
+      <LineString><coordinates>-71.3376474,42.4189936 -71.3369822,42.4187243 -71.3357913,42.4182689 -71.3346755,42.4178293 -71.3345065,42.4177679 -71.3343643,42.4177263 -71.3341551,42.4176827 -71.3340582,42.4176494 -71.3339244,42.4176035 -71.333565,42.417457 -71.3332056,42.4173105 -71.3329535,42.4172036 -71.3326906,42.4170729 -71.3324814,42.4169659 -71.3322293,42.4168313 -71.3319289,42.4166531 -71.3318757,42.4166207 -71.3316553,42.4164867 -71.3314246,42.4163442 -71.3312208,42.4162333 -71.3311564,42.4161857 -71.3310706,42.4161026 -71.330974,42.4159481 -71.3308667,42.4157382 -71.3307809,42.415564 -71.3306682,42.4153065 -71.3305931,42.4151244 -71.3305502,42.4150412 -71.3305127,42.4149699 -71.330459,42.4148867 -71.3303947,42.4147956 -71.3302766,42.4146531 -71.3301586,42.4145145 -71.3300084,42.4143481 -71.329885,42.4142135 -71.3297456,42.4140788 -71.3296544,42.4139798 -71.3296168,42.4139045 -71.3295954,42.4138372 -71.3296115,42.4138016 -71.3296007,42.4137422 -71.3295723,42.4136907 -71.329531,42.4136313 -71.3294757,42.4135917 -71.3294006,42.4135758 -71.3293379,42.4135441 -71.3292735,42.4135283 -71.3292129,42.4135006 -71.32917,42.4134728 -71.3291163,42.4134253 -71.3290375,42.4133223 -71.3290023,42.4132512 -71.3289583,42.4132006</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -200,7 +200,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3362159,42.4284894 -71.3360209,42.4287125 -71.3360125,42.4289447 -71.3359765,42.4289961 -71.3359738,42.4290535 -71.3359738,42.4291174 -71.3359368,42.429286 -71.335871,42.4294882 -71.3357749,42.4295619 -71.3357621,42.4296404 -71.3356999,42.4297738 -71.335614,42.4298423</coordinates></LineString>
+      <LineString><coordinates>-71.3362159,42.4284894 -71.3360209,42.4287125 -71.3360179,42.4288457 -71.3359765,42.4289961 -71.3359738,42.4290535 -71.3359738,42.4291174 -71.3359368,42.429286 -71.335871,42.4294882 -71.3357749,42.4295619 -71.3357621,42.4296404 -71.3356999,42.4297738 -71.335614,42.4298423</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bay Circuit Trail</name>
@@ -329,15 +329,6 @@
 		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.5683799,42.378423 -71.5685577,42.3786087</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">234702106</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3563081,42.3252192 -71.3564224,42.3251988 -71.3565224,42.3251767 -71.3566133,42.3251484 -71.3568625,42.3250531 -71.3570923,42.3250287 -71.357325,42.32509 -71.357486,42.325169 -71.357621,42.32525 -71.357779,42.325311 -71.357961,42.325384 -71.358168,42.325513 -71.358373,42.325629 -71.358599,42.3256894 -71.358852,42.325721 -71.359135,42.325701 -71.359493,42.325629 -71.359766,42.325563 -71.359977,42.325466 -71.360276,42.325344 -71.3605428,42.3252014 -71.3605595,42.3251871 -71.360572,42.3251662 -71.3605913,42.325093 -71.3606147,42.3250603 -71.3606359,42.325039 -71.3606637,42.3250268</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -652,15 +643,6 @@
 		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3373161,42.3673132 -71.3372611,42.3673199 -71.3372238,42.3673244</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">574052176</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3620119,42.3259343 -71.3616075,42.3254446</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -1068,6 +1050,61 @@
 	<name>Bruce Freeman Rail Trail</name>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757718137</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;dismount&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3939928,42.4569066 -71.3939678,42.4568358 -71.3939552,42.4568003 -71.3939497,42.4567847</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757718138</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3940771,42.4568951 -71.3939928,42.4569066</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757718139</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3941622,42.4570642 -71.3941281,42.4569963 -71.3940771,42.4568951</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757718141</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3943039,42.4589874 -71.3942355,42.4588392 -71.3941797,42.4587469 -71.3939138,42.4584302 -71.3938935,42.4583953 -71.3938498,42.4583258 -71.3937599,42.4581589 -71.3937473,42.4580354 -71.3937471,42.4578211 -71.3937783,42.4576248 -71.3938896,42.4573824 -71.3939423,42.4573093 -71.394028,42.4571903 -71.3941622,42.4570642</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757718142</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;dismount&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3928375,42.4568108 -71.3928174,42.4568563 -71.3927691,42.4568675 -71.3927288,42.4568454 -71.3926336,42.4567059 -71.3925907,42.4566921 -71.3925317,42.456638 -71.3925404,42.4564892 -71.3925201,42.456447 -71.3924882,42.4563848 -71.3924642,42.4563235</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">757718146</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">5</SimpleData>
@@ -1126,6 +1163,17 @@
       <LineString><coordinates>-71.3924642,42.4563235 -71.3923869,42.4562785 -71.3923145,42.4562102</coordinates></LineString>
   </Placemark>
   <Placemark>
+	<name>Bruce Freeman Rail Trail</name>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">757860052</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;dismount&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.3939497,42.4567847 -71.3938857,42.4567576 -71.3936945,42.4567949 -71.3932524,42.4568813 -71.3932012,42.4568373 -71.3931409,42.4568092 -71.3930067,42.4567672 -71.3928705,42.4567732 -71.3928375,42.4568108</coordinates></LineString>
+  </Placemark>
+  <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">768562399</SimpleData>
@@ -1133,7 +1181,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3354899,42.4297143 -71.3352753,42.4299142 -71.3351921,42.4300785 -71.3351868,42.430225 -71.3351492,42.4303418 -71.3350138,42.4305474 -71.3348973,42.4307053 -71.3347769,42.4308664 -71.3347008,42.4310107 -71.3346547,42.4310665</coordinates></LineString>
+      <LineString><coordinates>-71.3354899,42.4297143 -71.3352485,42.4298845 -71.3351868,42.4299637 -71.3351639,42.430026 -71.3351586,42.4300884 -71.3351693,42.4301582 -71.3351761,42.4302497 -71.3351492,42.4303418 -71.3350232,42.4305533 -71.3348973,42.4307053 -71.3347769,42.4308664 -71.3347008,42.4310107 -71.3346547,42.4310665</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
