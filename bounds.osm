@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.1009 5e627b63">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-12-03T02:29:01Z"/>
+<meta osm_base="2020-07-20T18:06:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -1720,7 +1720,7 @@
   <node id="4658433511" lat="42.4593565" lon="-71.4828538"/>
   <node id="4658433512" lat="42.4593861" lon="-71.4820609"/>
   <node id="4658433513" lat="42.4581909" lon="-71.4830265"/>
-  <node id="4658433556" lat="42.4583245" lon="-71.4844479"/>
+  <node id="4658433556" lat="42.4583136" lon="-71.4844342"/>
   <node id="4658433557" lat="42.4583488" lon="-71.4844591"/>
   <node id="4658433558" lat="42.4583748" lon="-71.4844606"/>
   <node id="4658433559" lat="42.4584046" lon="-71.4844466"/>
@@ -1928,8 +1928,8 @@
   <node id="4664324028" lat="42.5021141" lon="-71.4512225"/>
   <node id="4664324029" lat="42.5008001" lon="-71.4519469"/>
   <node id="4664324030" lat="42.5009125" lon="-71.4519005"/>
-  <node id="4689862133" lat="42.4566717" lon="-71.4804810"/>
-  <node id="4689862134" lat="42.4582115" lon="-71.4843733"/>
+  <node id="4689862133" lat="42.4566737" lon="-71.4804885"/>
+  <node id="4689862134" lat="42.4581977" lon="-71.4843626"/>
   <node id="4730947981" lat="42.4802802" lon="-71.4324012"/>
   <node id="4745707995" lat="42.4937071" lon="-71.4601481"/>
   <node id="4745707996" lat="42.4937666" lon="-71.4601118"/>
@@ -2630,7 +2630,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/great-hill/"/>
   </way>
   <way id="29763453">
     <nd ref="2784202768"/>
@@ -2814,7 +2814,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/pacy/"/>
+    <tag k="website" v="https://trails.actonma.gov/pacy/"/>
   </way>
   <way id="29764243">
     <nd ref="327598158"/>
@@ -2913,7 +2913,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/nagog-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/nagog-hill/"/>
   </way>
   <way id="29768867">
     <nd ref="327894174"/>
@@ -3011,7 +3011,8 @@
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
+    <tag k="website" v="https://trails.actonma.gov/arboretum/"/>
+    <tag k="wikidata" v="Q49471844"/>
   </way>
   <way id="29769277">
     <nd ref="327903550"/>
@@ -3106,7 +3107,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/spring-hill/"/>
   </way>
   <way id="29770133">
     <nd ref="4502587489"/>
@@ -3156,7 +3157,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/wetherbee/"/>
+    <tag k="website" v="https://trails.actonma.gov/wetherbee/"/>
   </way>
   <way id="29770630">
     <nd ref="327890958"/>
@@ -3290,7 +3291,7 @@
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/camp-acton/"/>
+    <tag k="website" v="https://trails.actonma.gov/camp-acton/"/>
   </way>
   <way id="29776348">
     <nd ref="327964624"/>
@@ -3828,7 +3829,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/guggins-brook/"/>
+    <tag k="website" v="https://traills.actonma.gov/guggins-brook/"/>
   </way>
   <way id="29776697">
     <nd ref="327949488"/>
@@ -4193,6 +4194,7 @@
     <tag k="name" v="Morrison Farm"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
+    <tag k="website" v="https://trails.actonma.gov/morrison-farm/"/>
   </way>
   <way id="236354645">
     <nd ref="2443898991"/>
@@ -4340,7 +4342,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/bulette/"/>
+    <tag k="website" v="https://trails.actonma.gov/bulette/"/>
   </way>
   <way id="449483835">
     <nd ref="4464354026"/>
@@ -4404,7 +4406,7 @@
     <tag k="name" v="Acton Canoe Launch"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_easement"/>
-    <tag k="website" v="http://www.actontrails.org/canoe-launch/"/>
+    <tag k="website" v="https://trails.actonma.gov/canoe-launch/"/>
   </way>
   <way id="451571182">
     <nd ref="4483926647"/>
@@ -5524,7 +5526,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
-    <tag k="website" v="http://www.actontrails.org/stoneymeade/"/>
+    <tag k="website" v="https://trails.actonma.gov/stoneymeade/"/>
   </way>
   <way id="550991856">
     <nd ref="5321341215"/>
@@ -5632,7 +5634,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/robbinsmill/"/>
+    <tag k="website" v="https://trails.actonma.gov/robbinsmill/"/>
   </relation>
   <relation id="6704654">
     <member type="way" ref="29763453" role="outer"/>
@@ -5646,7 +5648,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+    <tag k="website" v="https://trails.actonma.gov/wills-hole-town-forest/"/>
   </relation>
   <relation id="6711648">
     <member type="way" ref="29769277" role="outer"/>
@@ -5662,7 +5664,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/pratts-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/pratts-brook/"/>
   </relation>
   <relation id="6712418">
     <member type="way" ref="29776483" role="outer"/>
@@ -5683,7 +5685,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+    <tag k="website" v="https://trails.actonma.gov/grassy-pond/"/>
   </relation>
   <relation id="6776382">
     <member type="way" ref="29770630" role="outer"/>
@@ -5700,7 +5702,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
+    <tag k="website" v="https://trails.actonma.gov/heath-hen-meadow/"/>
   </relation>
   <relation id="6799881">
     <member type="way" ref="460261162" role="outer"/>
@@ -5715,7 +5717,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/nashoba-brook/"/>
+    <tag k="website" v="https://trails.actonma.gov/nashoba-brook/"/>
   </relation>
   <relation id="6819076">
     <member type="way" ref="313326150" role="outer"/>
@@ -5730,6 +5732,7 @@
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="local_conservation_land"/>
     <tag k="type" v="multipolygon"/>
+    <tag k="website" v="https://trails.actonma.gov/wright-hill/"/>
   </relation>
   <relation id="6897012">
     <member type="way" ref="467543706" role="outer"/>
@@ -5771,7 +5774,7 @@
     <tag k="protected" v="perpetuity"/>
     <tag k="protection_title" v="conservation_acton"/>
     <tag k="type" v="multipolygon"/>
-    <tag k="website" v="http://www.actontrails.org/jenks/"/>
+    <tag k="website" v="https://trails.actonma.gov/jenks/"/>
   </relation>
   <relation id="6946413">
     <member type="way" ref="472033818" role=""/>
