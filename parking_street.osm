@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-09-25T10:28:02Z" areas="2019-09-25T10:05:02Z"/>
+<meta osm_base="2020-07-20T19:27:03Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -19,7 +19,7 @@
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
     <tag k="supervised" v="no"/>
     <tag k="surface" v="ground"/>
-    <tag k="website" v="http://www.actontrails.org/arboretum/"/>
+    <tag k="website" v="https://trails.actonma.gov/arboretum/"/>
   </node>
   <node id="73244088" lat="42.4728150" lon="-71.4116870">
     <tag k="addr:city" v="Acton"/>
@@ -28,7 +28,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Wetherbee Street"/>
     <tag k="amenity" v="parking"/>
-    <tag k="website" v="http://www.actontrails.org/wetherbee/"/>
+    <tag k="website" v="https://trails.actonma.gov/wetherbee/"/>
   </node>
   <node id="73252261" lat="42.4934840" lon="-71.4031130">
     <tag k="addr:city" v="Acton"/>
@@ -37,7 +37,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Jay Lane"/>
     <tag k="amenity" v="parking"/>
-    <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/spring-hill/"/>
   </node>
   <node id="2129716578" lat="42.4646930" lon="-71.4591089">
     <tag k="addr:city" v="Acton"/>
@@ -46,7 +46,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Tupelo Way"/>
     <tag k="amenity" v="parking"/>
-    <tag k="website" v="http://www.actontrails.org/pacy/"/>
+    <tag k="website" v="https://trails.actonma.gov/pacy/"/>
   </node>
   <node id="5222105493" lat="42.4863062" lon="-71.4014031">
     <tag k="addr:city" v="Acton"/>
@@ -56,7 +56,7 @@
     <tag k="addr:street" v="Stoneymeade Way"/>
     <tag k="amenity" v="parking"/>
     <tag k="parking" v="surface"/>
-    <tag k="website" v="http://www.actontrails.org/stoneymeade/"/>
+    <tag k="website" v="https://trails.actonma.gov/stoneymeade/"/>
   </node>
   <node id="5425410276" lat="42.4708497" lon="-71.4530445">
     <tag k="addr:city" v="Acton"/>
@@ -66,7 +66,7 @@
     <tag k="addr:street" v="Kelley Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/great-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/great-hill/"/>
   </node>
   <node id="5467685104" lat="42.4987602" lon="-71.4693887">
     <tag k="addr:city" v="Acton"/>
@@ -77,7 +77,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/bulette/"/>
+    <tag k="website" v="https://trails.actonma.gov/bulette/"/>
   </node>
   <node id="5467710319" lat="42.4995232" lon="-71.4479834">
     <tag k="addr:city" v="Acton"/>
@@ -89,7 +89,7 @@
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="parking" v="surface"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/grassy-pond/"/>
+    <tag k="website" v="https://trails.actonma.gov/grassy-pond/"/>
   </node>
   <node id="5683289957" lat="42.5224214" lon="-71.4201088">
     <tag k="addr:housenumber" v="end"/>
@@ -100,7 +100,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="operator" v="Acton Land Stewardship Committee"/>
     <tag k="surface" v="paved"/>
-    <tag k="website" v="http://www.actontrails.org/wills-hole-town-forest/"/>
+    <tag k="website" v="https://trails.actonma.gov/wills-hole-town-forest/"/>
   </node>
   <node id="6110982973" lat="42.4590530" lon="-71.4731589">
     <tag k="addr:city" v="Acton"/>
@@ -109,7 +109,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Robbins Street"/>
     <tag k="amenity" v="parking"/>
-    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
+    <tag k="website" v="https://trails.actonma.gov/heath-hen-meadow/"/>
   </node>
   <node id="6110982974" lat="42.4559798" lon="-71.4731683">
     <tag k="addr:city" v="Acton"/>
@@ -118,7 +118,7 @@
     <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Billings Street"/>
     <tag k="amenity" v="parking"/>
-    <tag k="website" v="http://www.actontrails.org/heath-hen-meadow/"/>
+    <tag k="website" v="https://trails.actonma.gov/heath-hen-meadow/"/>
   </node>
   <node id="6111471906" lat="42.5010618" lon="-71.3951780">
     <tag k="addr:city" v="Acton"/>
@@ -129,7 +129,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-    <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/spring-hill/"/>
   </node>
 
 </osm>
