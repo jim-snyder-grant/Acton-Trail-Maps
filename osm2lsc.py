@@ -156,7 +156,7 @@ for arg in args:
         geometry = "multipolygons"
     elif arg == "parking_street":
         KMLcolor = "50BEBEBE"
-        filters = 'node[amenity=parking][website~trails.actonma]'+IS_INSIDE_ACTON
+        filters = 'node[amenity=parking][website~"trails.actonma"]'+IS_INSIDE_ACTON
         geometry = "points"
     elif arg == "red_trails":
         KMLcolor = "ff0000ff"
