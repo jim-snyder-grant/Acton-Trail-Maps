@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.2 b688b00f">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-03-18T01:07:02Z" areas="2020-03-18T00:43:02Z"/>
+<meta osm_base="2020-07-21T20:52:08Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -181,6 +181,10 @@
     <tag k="tourism" v="information"/>
   </node>
   <node id="7064760870" lat="42.4641172" lon="-71.4760032">
+    <tag k="information" v="board"/>
+    <tag k="tourism" v="information"/>
+  </node>
+  <node id="7563109325" lat="42.4772042" lon="-71.4335004">
     <tag k="information" v="board"/>
     <tag k="tourism" v="information"/>
   </node>
