@@ -21,7 +21,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;attribution&quot;=&gt;&quot;Office of Geographic and Environmental Information (MassGIS)&quot;,&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4202878,42.5224519 -71.4200508,42.5222912 -71.419797,42.522118</coordinates></LineString>
+      <LineString><coordinates>-71.4202878,42.5224519 -71.4200508,42.5222912 -71.4200042,42.5222594 -71.419797,42.522118</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
