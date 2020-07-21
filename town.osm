@@ -1,107 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-01-15T22:22:04Z" areas="2019-01-15T21:28:02Z"/>
+<meta osm_base="2020-07-21T21:01:03Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
-  <node id="66365835" lat="42.4457022" lon="-71.4526174"/>
   <node id="1474168153" lat="42.4503200" lon="-71.4643283"/>
   <node id="1474168155" lat="42.4637751" lon="-71.4985470"/>
-  <node id="1474476433" lat="42.4369404" lon="-71.4303949"/>
-  <node id="1474479360" lat="42.5001774" lon="-71.4735285"/>
-  <node id="1474479477" lat="42.5044640" lon="-71.3849469"/>
-  <node id="1474480043" lat="42.5221713" lon="-71.4350168"/>
-  <node id="1474480102" lat="42.5261896" lon="-71.4237945"/>
-  <node id="1474480104" lat="42.5263336" lon="-71.3979453"/>
-  <node id="1474480165" lat="42.5340243" lon="-71.3995144"/>
-  <node id="2903547049" lat="42.5288038" lon="-71.4285336"/>
-  <node id="4621515374" lat="42.4861245" lon="-71.4831885"/>
-  <node id="4621515375" lat="42.4877191" lon="-71.4820925"/>
-  <node id="4621543099" lat="42.4906811" lon="-71.4800565"/>
-  <node id="4621543103" lat="42.4868719" lon="-71.4826748"/>
-  <node id="4929100856" lat="42.4670443" lon="-71.4963008"/>
-  <node id="4937191184" lat="42.4950890" lon="-71.4770265">
-    <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
-    <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-  </node>
-  <node id="4941127928" lat="42.5046057" lon="-71.3853249"/>
-  <node id="4964059200" lat="42.4708085" lon="-71.4937252"/>
-  <node id="5305768948" lat="42.4480865" lon="-71.4586632"/>
-  <node id="5341954059" lat="42.5090606" lon="-71.4439359"/>
-  <node id="5390182944" lat="42.5068200" lon="-71.3915634"/>
-  <node id="6174124038" lat="42.4641232" lon="-71.4983079"/>
+  <node id="1474476433" lat="42.4369393" lon="-71.4303940"/>
+  <node id="1474479360" lat="42.5001773" lon="-71.4735288"/>
+  <node id="1474479461" lat="42.5044645" lon="-71.3849469"/>
+  <node id="1474480043" lat="42.5221704" lon="-71.4350172"/>
+  <node id="1474480102" lat="42.5261896" lon="-71.4237948"/>
+  <node id="1474480104" lat="42.5263361" lon="-71.3979464"/>
+  <node id="1474480165" lat="42.5340164" lon="-71.3995147"/>
+  <node id="1666808351" lat="42.5288034" lon="-71.4285338"/>
+  <node id="5390182944" lat="42.5068200" lon="-71.3915635"/>
+  <node id="7566366065" lat="42.5090599" lon="-71.4439395"/>
   <way id="133980625">
     <nd ref="1474168155"/>
     <nd ref="1474168153"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="134054953">
     <nd ref="1474476433"/>
-    <nd ref="66365835"/>
-    <nd ref="5305768948"/>
     <nd ref="1474168153"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="134055038">
     <nd ref="1474479360"/>
-    <nd ref="4937191184"/>
-    <nd ref="4621543099"/>
-    <nd ref="4621515375"/>
-    <nd ref="4621543103"/>
-    <nd ref="4621515374"/>
-    <nd ref="4964059200"/>
-    <nd ref="4929100856"/>
-    <nd ref="6174124038"/>
     <nd ref="1474168155"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="134060057">
-    <nd ref="1474479477"/>
+    <nd ref="1474479461"/>
     <nd ref="1474476433"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="134060963">
-    <nd ref="2903547049"/>
+    <nd ref="1666808351"/>
     <nd ref="1474480102"/>
     <nd ref="1474480165"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="134062755">
-    <nd ref="2903547049"/>
+    <nd ref="1666808351"/>
     <nd ref="1474480043"/>
-    <nd ref="5341954059"/>
+    <nd ref="7566366065"/>
     <nd ref="1474479360"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <way id="451941414">
     <nd ref="1474480165"/>
     <nd ref="1474480104"/>
     <nd ref="5390182944"/>
-    <nd ref="4941127928"/>
-    <nd ref="1474479477"/>
+    <nd ref="1474479461"/>
     <tag k="admin_level" v="8"/>
-    <tag k="attribution" v="massGIS"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="massdot_import_101911"/>
   </way>
   <relation id="1832779">
     <member type="way" ref="134060963" role="outer"/>
@@ -115,6 +76,8 @@
     <tag k="admin_level" v="8"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Acton"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="21929"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q344431"/>
     <tag k="wikipedia" v="en:Acton, Massachusetts"/>
