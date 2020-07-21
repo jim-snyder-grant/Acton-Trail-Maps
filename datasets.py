@@ -60,13 +60,20 @@ except EnvironmentError:
 newDict = {}
 for feat in newFromFile['features']:
     # regularize the use of osm_id (OSM sometimes uses osm_way_id instead
+    osm_id = None
+    osm_way_id = None
+    
     if 'osm_id' in feat['properties']:
         osm_id = feat['properties']['osm_id']
     if 'osm_way_id' in feat['properties']:
         osm_way_id = feat['properties']['osm_way_id']
-    id = osm_id or osm_way_id    
-    feat['properties']['osm_id'] = id
-    newDict [id] = feat
+    
+    if (osm_id is None):
+        osm_id = osm_way_id
+#    pp.pprint (feat)    
+#    print ('id / way id', osm_id, osm_way_id)
+    feat['properties']['osm_id'] = osm_id
+    newDict [osm_id] = feat
     #try:
     #    name = feat['properties']['name'];
     # except KeyError:
