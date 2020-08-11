@@ -114,7 +114,7 @@ for arg in args:
 
     if arg == "bct":
         KMLcolor = "55FF78F0"
-        filters = 'relation[name~"Bay Circuit Trail"];(._;>;)->.a;way.a(42.323,-71.6,42.653,-71.32)'
+        filters = 'relation[name~"Bay Circuit Trail|BCT "];(._;>;)->.a;way.a(42.323,-71.6,42.653,-71.32)'
         bounding_box = MAP_BBOX
     elif arg == "bike_trails":
         KMLcolor = "501450FF"
