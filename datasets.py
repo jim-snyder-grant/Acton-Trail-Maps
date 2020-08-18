@@ -37,7 +37,7 @@ doUpdates = operation == arg1[1]
 
 dsName = sys.argv[2]
 print("processing ", dsName)
-print ("Will do updates" if doUpdates else "Will not do updates")
+print("Will do updates" if doUpdates else "Will not do updates")
 
 fName = dsName + '.geojson'
 
@@ -56,7 +56,7 @@ except EnvironmentError:
     print('oops - are you sure there is a <', fName, '> file there?')
     exit()
 
-# pp.pprint (newFromFile)
+# pp.pprint(newFromFile)
 newDict = {}
 for feat in newFromFile['features']:
     # regularize the use of osm_id (OSM sometimes uses osm_way_id instead
@@ -70,15 +70,15 @@ for feat in newFromFile['features']:
     
     if (osm_id is None):
         osm_id = osm_way_id
-#    pp.pprint (feat)
-#    print ('id / way id', osm_id, osm_way_id)
+#    pp.pprint(feat)
+#    print('id / way id', osm_id, osm_way_id)
     feat['properties']['osm_id'] = osm_id
     newDict [osm_id] = feat
     #try:
     #    name = feat['properties']['name'];
     # except KeyError:
     #    name = "(no name)"
-    # print ("name=", name," id=",id)
+    # print("name=", name," id=",id)
 print('new file has ',len(newDict),' features')
 
 datasets = Datasets()
@@ -126,9 +126,9 @@ for oldFeat in oldFeatures:
         changedGeom = newFeat['geometry'] != oldFeat['geometry']
         changedProps = newFeat['properties'] != oldFeat['properties']
         if changedGeom:
-            print ("!-----Changed Geometry")
+            print("!-----Changed Geometry")
         if changedProps:
-            print ("!-----Changed Properties")
+            print("!-----Changed Properties")
         if changedProps or changedGeom:
             noChanges = False
             print("OLD FEATURE:")
@@ -153,7 +153,7 @@ if len(newDict):
             name = newFeat['properties']['name'];
         except KeyError:
             name = "(no name)"
-        print ("name=", name," id=",id)
+        print("name=", name," id=",id)
         if doUpdates:
             retval = datasets.update_feature(dsId, id, newFeat)
             if retval.status_code in (200,204):

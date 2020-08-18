@@ -80,8 +80,8 @@ def ourCall(args):
     try:
         output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError, e:
-        print "Execution failed with code ", e.returncode
-        print e.output
+        print("Execution failed with code ", e.returncode)
+        print(e.output)
         exit(e.returncode)
     return output_text
 
@@ -94,8 +94,8 @@ def ourDiffCall(args):
         if 1 == e.returncode:
             return 1
         else:
-            print "Execution failed with code ", e.returncode
-            print e.output
+            print("Execution failed with code ", e.returncode)
+            print(e.output)
             exit(e.returncode)
     return 0
 
@@ -177,7 +177,7 @@ for arg in args:
         usage()
         exit(0)
     else:
-        print "ERROR: Invalid arg: " + arg
+        print("ERROR: Invalid arg: " + arg)
         exit(1)
 
     osmFile = arg + ".osm"
@@ -197,14 +197,14 @@ for arg in args:
     response = requests.get(url)
     while 429 == response.status_code or 504 == response.status_code:
         time_delay = time_delay+3
-        print "Too many requests: slowing down delay to ", time_delay, " seconds"
+        print("Too many requests: slowing down delay to ", time_delay, " seconds")
         if time_delay > 60:
             exit(1)
         sleep(time_delay)
         response = requests.get(url)
 
     if 200 != response.status_code:
-        print "Status code: ", response.status_code, " on this request"
+        print("Status code: ", response.status_code, " on this request")
         print(url)
         exit(1)
     contents = response.text
@@ -227,7 +227,7 @@ for arg in args:
         diff_return = 1
 
     if diff_return == 0:
-        print ("No changes")
+        print("No changes")
         # If there are no changes, then restore the old file with git checkout
         ourCall(['git', 'checkout', osmFile])
 

@@ -51,7 +51,7 @@ for infeature in inlayer:
     
     if (name):
         if name in landInfo:
-            # print name, landInfo [name]
+            # print(name, landInfo [name])
             hasTrails = landInfo[name][TRAILKEY]
             labelsize = 2 if hasTrails else 1
             if hasTrails:
@@ -72,7 +72,7 @@ for infeature in inlayer:
             outLayer.CreateFeature(outfeature)
             outfeature = None
         else:
-            print "oops, no landInfo for ", name, "fix lands.yaml"
+            print("oops, no landInfo for ", name, "fix lands.yaml")
     # else: it's OK for there to be lands without names. Just keep moving...
 outLayer = None
 outfile = None
