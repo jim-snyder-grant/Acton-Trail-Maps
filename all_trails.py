@@ -114,30 +114,30 @@ for info in file2style:
         geom = infeature.GetGeometryRef()
         try:
             bridge = infeature.GetField(BRIDGEKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             bridge = ""
         try:
             highway = infeature.GetField(HIGHWAYKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             highway = ""
         try:
             name = infeature.GetField(NAMEKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             name = ""
         # remove the colors from the names of Acton trails
         if name:
             name = pattern.sub('',name)
         try:
             osm_id = infeature.GetField(OSMKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             osm_id = "Fake_osm_id"
         try:
             surface = infeature.GetField(SURFACEKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             surface = ""
         try:
             wheelchair = infeature.GetField(WHEELCHAIRKEY)
-        except ValueError:
+        except (ValueError, KeyError):
             wheelchair = ""
         
     # JSON writing part
