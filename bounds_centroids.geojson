@@ -12,7 +12,7 @@
 { "type": "Feature", "properties": { "name": "Jenks", "osm_id": "6897012", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.480425442533445, 42.487818346312395 ] } },
 { "type": "Feature", "properties": { "name": "Arborwood", "osm_id": "6946413", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.43642850142372, 42.464004789028316 ] } },
 { "type": "Feature", "properties": { "name": "North Acton Community Gardens", "osm_id": "29761444", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.404818707935505, 42.516440391948926 ] } },
-{ "type": "Feature", "properties": { "name": "Great Hill", "osm_id": "29763031", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.449607010596011, 42.467224947584313 ] } },
+{ "type": "Feature", "properties": { "name": "Great Hill", "osm_id": "29763031", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.44960702679532, 42.467224954186364 ] } },
 { "type": "Feature", "properties": { "name": "Pacy", "osm_id": "29763866", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.461572089664955, 42.465206494934613 ] } },
 { "type": "Feature", "properties": { "name": "Nagog Hill", "osm_id": "29764243", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.434727153845046, 42.502653181812178 ] } },
 { "type": "Feature", "properties": { "name": "Acton Arboretum", "osm_id": "29768867", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.434354955387178, 42.480123583692787 ] } },
@@ -25,11 +25,11 @@
 { "type": "Feature", "properties": { "name": "Patriots Hill", "osm_id": "29776697", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.449673061196137, 42.483669015430443 ] } },
 { "type": "Feature", "properties": { "name": "Putnam", "osm_id": "29776921", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.439234208443011, 42.491148266553644 ] } },
 { "type": "Feature", "properties": { "name": "McGloin", "osm_id": "29778038", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.449919028915502, 42.446269194044007 ] } },
-{ "type": "Feature", "properties": { "name": "Morrison Farm", "osm_id": "29778386", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.418599026319271, 42.481592733987668 ] } },
+{ "type": "Feature", "properties": { "name": "Morrison Farm", "osm_id": "29778386", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.418599027797967, 42.481592735073541 ] } },
 { "type": "Feature", "properties": { "name": "Bulette - Town Forest", "osm_id": "323358960", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.462467908461932, 42.496453572408143 ] } },
 { "type": "Feature", "properties": { "name": "Acton Canoe Launch", "osm_id": "449483835", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.429289677890608, 42.440045889891131 ] } },
 { "type": "Feature", "properties": { "name": "Caouette Farm", "osm_id": "460684752", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.457142178590587, 42.457958982815072 ] } },
-{ "type": "Feature", "properties": { "name": "Dunn", "osm_id": "471682685", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.482537037772246, 42.458056140885432 ] } },
+{ "type": "Feature", "properties": { "name": "Dunn", "osm_id": "471682685", "labelsize": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.482540747971115, 42.458054101125676 ] } },
 { "type": "Feature", "properties": { "name": "Stoneymeade", "osm_id": "490426385", "labelsize": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.400791968382407, 42.485588332336093 ] } }
 ]
 }

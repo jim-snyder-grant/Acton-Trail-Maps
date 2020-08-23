@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.1002 b121d216">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-04-11T02:12:02Z" areas="2020-03-06T11:03:01Z"/>
+<meta osm_base="2020-07-21T21:39:03Z" areas="2020-03-06T11:03:01Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -988,7 +988,7 @@
     <tag k="amenity" v="parking"/>
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>
     <tag k="source" v="massgis_import_v0.1_20071009100433"/>
-    <tag k="website" v="http://www.actontrails.org/spring-hill/"/>
+    <tag k="website" v="https://trails.actonma.gov/spring-hill/"/>
   </node>
   <node id="6211716944" lat="42.4983013" lon="-71.4522247"/>
   <node id="6211716945" lat="42.4984056" lon="-71.4522589"/>
@@ -1031,9 +1031,11 @@
   <node id="7027547088" lat="42.4621803" lon="-71.4467445"/>
   <node id="7027547090" lat="42.4633478" lon="-71.4472380"/>
   <node id="7064840593" lat="42.4656686" lon="-71.4766794"/>
+  <node id="7593886611" lat="42.5222594" lon="-71.4200042"/>
   <way id="9515848">
     <nd ref="73237546"/>
     <nd ref="73209430"/>
+    <nd ref="7593886611"/>
     <nd ref="2147343656"/>
     <tag k="access" v="yes"/>
     <tag k="attribution" v="Office of Geographic and Environmental Information (MassGIS)"/>

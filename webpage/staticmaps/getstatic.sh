@@ -7,6 +7,7 @@ wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/stati
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.48206,42.48093,15.2,0,0/500x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >Guggins.jpg
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.47434,42.46187,14.2,0,0/310x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >HeathHen.jpg
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.48083,42.48801,15.6,0,0/480x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >Jenks.jpg
+wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.42047,42.48115,15.5,0,0/800x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >MorrisonFarm.jpg
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.43562,42.50331,14.5,0,0/460x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >NagogHill.jpg
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.40899,42.50824,14.5,0,0/474x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >NashobaBrook.jpg
 wget -O - https://api.mapbox.com/styles/v1/jimsg/civ17sdex00l02io48dp99x1m/static/-71.46149,42.46528,15.6,0,0/400x600@2x?access_token=pk.eyJ1Ijoiamltc2ciLCJhIjoiNDhhdHdCZyJ9.ZV92MDJEE14leO3JMm89Yw >pacy.jpg

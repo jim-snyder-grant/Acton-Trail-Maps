@@ -295,5 +295,12 @@
 	</SchemaData></ExtendedData>
       <Point><coordinates>-71.4760032,42.4641172</coordinates></Point>
   </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">7563109325</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4335004,42.4772042</coordinates></Point>
+  </Placemark>
 </Folder>
 </Document></kml>
