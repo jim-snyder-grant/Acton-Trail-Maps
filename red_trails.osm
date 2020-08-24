@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
+<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-07-21T21:39:03Z" areas="2020-03-06T11:03:01Z"/>
+<meta osm_base="2020-08-24T02:35:02Z" areas="2020-08-24T01:48:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -714,6 +714,12 @@
   <node id="3171407347" lat="42.5041643" lon="-71.3997775"/>
   <node id="3189557894" lat="42.4794310" lon="-71.4834110"/>
   <node id="3208409056" lat="42.4819954" lon="-71.4318196"/>
+  <node id="3306442217" lat="42.4974260" lon="-71.4579947"/>
+  <node id="3306442219" lat="42.4974472" lon="-71.4572977"/>
+  <node id="3306442221" lat="42.4976540" lon="-71.4561642"/>
+  <node id="3306442223" lat="42.4976759" lon="-71.4559326"/>
+  <node id="3306442224" lat="42.4977208" lon="-71.4569639"/>
+  <node id="3306442225" lat="42.4977664" lon="-71.4564313"/>
   <node id="3929606360" lat="42.4654212" lon="-71.4767898"/>
   <node id="3929606361" lat="42.4657941" lon="-71.4767004"/>
   <node id="3929606362" lat="42.4660465" lon="-71.4768273"/>
@@ -2096,6 +2102,21 @@
     <nd ref="2139378440"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="name" v="Red"/>
+    <tag k="surface" v="dirt"/>
+  </way>
+  <way id="323871704">
+    <nd ref="3306442223"/>
+    <nd ref="3306442221"/>
+    <nd ref="3306442225"/>
+    <nd ref="3306442224"/>
+    <nd ref="3306442219"/>
+    <nd ref="3306442217"/>
+    <tag k="access" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="path"/>
+    <tag k="history" v="Retrieved from v2"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Red"/>
     <tag k="surface" v="dirt"/>
   </way>
