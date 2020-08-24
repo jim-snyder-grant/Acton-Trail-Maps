@@ -1317,13 +1317,6 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4559326,42.4976759 -71.4561642,42.497654 -71.4564313,42.4977664 -71.4569639,42.4977208 -71.4572977,42.4974472 -71.4579947,42.497426</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.458416,42.4980509 -71.4583941,42.4980326 -71.4583419,42.4979538 -71.4582822,42.4978853 -71.4581207,42.4976273</coordinates></LineString>
   </Placemark>
   <Placemark>
@@ -1492,7 +1485,7 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4332217,42.5025475 -71.4329738,42.5024357 -71.4321277,42.5022888 -71.4314625,42.5022097 -71.4298102,42.5020357 -71.42966,42.5019407 -71.4294884,42.5012763 -71.4294025,42.5009441 -71.4292523,42.5006435 -71.4283726,42.4999316 -71.4267847,42.500422 -71.4262697,42.5003746 -71.4256689,42.5004062 -71.4252612,42.5004537 -71.4250037,42.4994728 -71.4245746,42.4990773 -71.4241669,42.4987134 -71.4235446,42.4985078 -71.4229438,42.4986343 -71.4225146,42.4989191 -71.4220211,42.4990773 -71.4212701,42.4989033 -71.42065,42.498813</coordinates></LineString>
+      <LineString><coordinates>-71.4332217,42.5025475 -71.4329738,42.5024357</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -2563,56 +2556,28 @@
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.438459,42.50872 -71.4384899,42.5091106 -71.4385971,42.5093004 -71.4388332,42.5094586 -71.4395198,42.5096801 -71.4400134,42.5098541 -71.4406571,42.5099648 -71.4414296,42.5100439 -71.4422879,42.5099015 -71.4430389,42.5096643 -71.4441976,42.5092688 -71.4444887,42.5091797 -71.4453349,42.5089208 -71.4459571,42.5086994 -71.4467296,42.5084305 -71.4478883,42.5083672 -71.4488539,42.5080983 -71.449326,42.5079085 -71.449634,42.507868</coordinates></LineString>
+      <LineString><coordinates>-71.438459,42.50872 -71.4384745,42.5088678</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.443413,42.506142 -71.4433178,42.5064532 -71.4434895,42.5067537 -71.4435753,42.5073232 -71.4438328,42.5078926 -71.4443478,42.5084621 -71.4444122,42.5086994 -71.4444887,42.5091797</coordinates></LineString>
+      <LineString><coordinates>-71.443413,42.506142 -71.4433178,42.5064532 -71.4434895,42.5067537 -71.4435753,42.5073232 -71.4438328,42.5078926 -71.4443478,42.5084621 -71.4444122,42.5086994</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4438328,42.5078926 -71.4435968,42.5083514 -71.4431247,42.5090632 -71.4422879,42.5099015</coordinates></LineString>
+      <LineString><coordinates>-71.4438328,42.5078926 -71.4437631,42.5080904</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.43544,42.508431 -71.4350459,42.5087488 -71.4347991,42.5089426 -71.4345416,42.5091442 -71.4343539,42.5092668 -71.4339408,42.509516 -71.4335761,42.5097097 -71.4334902,42.5096939 -71.4333025,42.5095199 -71.4330933,42.5093538 -71.4329377,42.5093024 -71.4325085,42.5094013 -71.432412,42.5095081 -71.4322851,42.5096713</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4334902,42.5096939 -71.4333293,42.5097651 -71.4332005,42.5099035 -71.4329431,42.5099865 -71.4328411,42.5100221 -71.4328465,42.5100933 -71.4328577,42.5101396</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4328774,42.5102211 -71.4329538,42.5105362 -71.432927,42.5108605 -71.4331845,42.5113429 -71.4336351,42.5120428 -71.4338818,42.5124224 -71.4342949,42.5128277 -71.4346811,42.5133576 -71.434727,42.5139236</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4328577,42.5101396 -71.4328774,42.5102211</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="color">black</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4283726,42.4999316 -71.4282438,42.4991089 -71.4280292,42.4983654 -71.4274928,42.4977009 -71.426656,42.4974319 -71.4259908,42.4974003 -71.4255616,42.4973687 -71.4253685,42.4968782 -71.425111,42.4960239 -71.4247891,42.495391 -71.4246961,42.4952593</coordinates></LineString>
+      <LineString><coordinates>-71.4283726,42.4999316 -71.4283565,42.4997734</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -2718,6 +2683,27 @@
 		<SimpleData name="color">black</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4182328,42.4821055 -71.4178898,42.4822153 -71.4173319,42.4822984 -71.4170101,42.4823696</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="color">black</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.428512,42.5000305 -71.4283726,42.4999316 -71.4267847,42.500422 -71.4262697,42.5003746 -71.4256689,42.5004062 -71.4252612,42.5004537 -71.4250037,42.4994728 -71.4245746,42.4990773 -71.4241669,42.4987134 -71.4235446,42.4985078 -71.4229438,42.4986343 -71.4225146,42.4989191 -71.4220211,42.4990773 -71.4212701,42.4989033 -71.42065,42.498813</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="color">black</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4437631,42.5080904 -71.4431247,42.5090632 -71.4422879,42.5099015</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FFFF00FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="color">black</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4444122,42.5086994 -71.4444887,42.5091797</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FF0000FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -3119,6 +3105,13 @@
 		<SimpleData name="color">red</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4506476,42.5007065 -71.4506408,42.5006623 -71.4505717,42.5005881 -71.4505448,42.5004573 -71.4506899,42.500275 -71.4506629,42.5002045</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>FF0000FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="color">red</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4559326,42.4976759 -71.4561642,42.497654 -71.4564313,42.4977664 -71.4569639,42.4977208 -71.4572977,42.4974472 -71.4579947,42.497426</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>FF0000FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
