@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
+<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-07-21T20:52:08Z" areas="2020-03-06T11:03:01Z"/>
+<meta osm_base="2020-08-24T02:34:03Z" areas="2020-08-24T01:48:03Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -1016,16 +1016,6 @@
   <node id="1492068931" lat="42.5753814" lon="-71.5795730"/>
   <node id="1492068946" lat="42.5762469" lon="-71.5789720"/>
   <node id="1492068955" lat="42.5771541" lon="-71.5786006"/>
-  <node id="1517886091" lat="42.4098912" lon="-71.3591541"/>
-  <node id="1517886094" lat="42.4104862" lon="-71.3611598"/>
-  <node id="1517886123" lat="42.4093593" lon="-71.3607877"/>
-  <node id="1517886141" lat="42.4105116" lon="-71.3616254"/>
-  <node id="1517886153" lat="42.4101587" lon="-71.3617226"/>
-  <node id="1517886170" lat="42.4090086" lon="-71.3595883"/>
-  <node id="1517886171" lat="42.4098261" lon="-71.3617511"/>
-  <node id="1517886175" lat="42.4095684" lon="-71.3616857"/>
-  <node id="1517886190" lat="42.4085204" lon="-71.3591480"/>
-  <node id="1517886304" lat="42.4092853" lon="-71.3603223"/>
   <node id="1527364942" lat="42.6059187" lon="-71.3403580"/>
   <node id="1527365145" lat="42.6062804" lon="-71.3397395"/>
   <node id="1527365446" lat="42.6071535" lon="-71.3379976"/>
@@ -1169,9 +1159,6 @@
     <tag k="ref" v="Gate Post"/>
     <tag k="tourism" v="information"/>
   </node>
-  <node id="1975309764" lat="42.4085824" lon="-71.3589122"/>
-  <node id="1975309765" lat="42.4098545" lon="-71.3590979"/>
-  <node id="1975309770" lat="42.4100360" lon="-71.3595516"/>
   <node id="1978762702" lat="42.6015556" lon="-71.5022514"/>
   <node id="1978814232" lat="42.6222863" lon="-71.5248623"/>
   <node id="1978814243" lat="42.6226789" lon="-71.5233518"/>
@@ -1905,10 +1892,6 @@
   <node id="3075496161" lat="42.4294882" lon="-71.3358710"/>
   <node id="3075496162" lat="42.4297738" lon="-71.3356999"/>
   <node id="3075496164" lat="42.4307053" lon="-71.3348973"/>
-  <node id="3077104554" lat="42.4094363" lon="-71.3612093"/>
-  <node id="3077104558" lat="42.4101948" lon="-71.3599684"/>
-  <node id="3077104561" lat="42.4104485" lon="-71.3618070"/>
-  <node id="3077104562" lat="42.4103590" lon="-71.3604723"/>
   <node id="3173935312" lat="42.4365498" lon="-71.4525954"/>
   <node id="3265943858" lat="42.3661519" lon="-71.3469632"/>
   <node id="3441083088" lat="42.5683084" lon="-71.3811070"/>
@@ -3535,11 +3518,10 @@
   <node id="7705572340" lat="42.3663757" lon="-71.3451203"/>
   <node id="7705618177" lat="42.3671117" lon="-71.3389272"/>
   <node id="7705618178" lat="42.3689415" lon="-71.3232118"/>
-  <node id="7716821882" lat="42.4085398" lon="-71.3592106"/>
   <node id="7717924108" lat="42.6665790" lon="-71.5735111"/>
-  <node id="7725680219" lat="42.4101033" lon="-71.3597350"/>
-  <node id="7725680220" lat="42.4099622" lon="-71.3593481"/>
-  <node id="7725680228" lat="42.4097921" lon="-71.3590569"/>
+  <node id="7785844096" lat="42.6025112" lon="-71.4977636"/>
+  <node id="7785844097" lat="42.6028182" lon="-71.4978451"/>
+  <node id="7785844098" lat="42.6032944" lon="-71.4980760"/>
   <way id="8842446">
     <nd ref="64055791"/>
     <nd ref="64055786"/>
@@ -3576,11 +3558,9 @@
     <tag k="name" v="Nashua River Rail Trail"/>
     <tag k="note:old_railway_operator" v="Worcester, Nashua and Rochester"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
-    <tag k="oneway" v="no"/>
     <tag k="railway" v="abandoned"/>
-    <tag k="segregated" v="no"/>
     <tag k="surface" v="paved"/>
-    <tag k="width" v="2"/>
+    <tag k="width" v="3"/>
   </way>
   <way id="8842536">
     <nd ref="860754391"/>
@@ -3962,8 +3942,8 @@
     <tag k="note:old_railway_operator" v="Worcester, Nashua and Rochester"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
-    <tag k="segregated" v="no"/>
     <tag k="surface" v="paved"/>
+    <tag k="width" v="3"/>
   </way>
   <way id="156398220">
     <nd ref="1686451930"/>
@@ -3980,8 +3960,8 @@
     <tag k="note:old_railway_operator" v="Worcester, Nashua and Rochester"/>
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
-    <tag k="segregated" v="no"/>
     <tag k="surface" v="paved"/>
+    <tag k="width" v="3"/>
   </way>
   <way id="156705656">
     <nd ref="996961258"/>
@@ -4419,6 +4399,9 @@
     <nd ref="2472155666"/>
     <nd ref="2472155670"/>
     <nd ref="327565877"/>
+    <nd ref="7785844096"/>
+    <nd ref="7785844097"/>
+    <nd ref="7785844098"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Special Ops (♦)"/>
     <tag k="surface" v="ground"/>
@@ -4971,40 +4954,6 @@
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Claypit Brook Trail"/>
     <tag k="segregated" v="no"/>
-  </way>
-  <way id="303358751">
-    <nd ref="7725680228"/>
-    <nd ref="1975309765"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Bay Circuit Trail"/>
-  </way>
-  <way id="303358755">
-    <nd ref="1975309765"/>
-    <nd ref="1517886091"/>
-    <nd ref="7725680220"/>
-    <nd ref="1975309770"/>
-    <nd ref="7725680219"/>
-    <nd ref="3077104558"/>
-    <nd ref="3077104562"/>
-    <nd ref="1517886094"/>
-    <nd ref="1517886141"/>
-    <nd ref="3077104561"/>
-    <nd ref="1517886153"/>
-    <nd ref="1517886171"/>
-    <nd ref="1517886175"/>
-    <nd ref="3077104554"/>
-    <nd ref="1517886123"/>
-    <nd ref="1517886304"/>
-    <nd ref="1517886170"/>
-    <nd ref="7716821882"/>
-    <nd ref="1517886190"/>
-    <nd ref="1975309764"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Oxbow Meadows Trail"/>
   </way>
   <way id="337603242">
     <nd ref="3445935548"/>

@@ -19,7 +19,7 @@
 		<SimpleData name="osm_id">8842446</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">5</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;oneway&quot;=&gt;&quot;no&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;2&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;lit&quot;=&gt;&quot;no&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.572997,42.606577 -71.573268,42.60681 -71.573647,42.6070482 -71.573899,42.607189 -71.574546,42.607523 -71.575514,42.608118 -71.576176,42.608439 -71.577112,42.609058 -71.577805,42.609498 -71.578564,42.610069 -71.579177,42.610545 -71.579661,42.610902 -71.58021,42.611402 -71.581001,42.612163 -71.581469,42.612687 -71.582438,42.613889 -71.58302,42.614782 -71.583375,42.615413 -71.583699,42.616056 -71.58399,42.616651 -71.584168,42.617294 -71.5842408,42.6178145 -71.5842237,42.618259 -71.5842056,42.6183969 -71.5841855,42.6185502</coordinates></LineString>
   </Placemark>
@@ -166,7 +166,7 @@
 		<SimpleData name="osm_id">156398213</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">5</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.5841269,42.618801 -71.584025,42.619104 -71.583929,42.619497 -71.583672,42.61989 -71.583414,42.620248 -71.58306,42.620641 -71.582512,42.621153 -71.581981,42.621547 -71.58103,42.622226 -71.580305,42.622703 -71.579564,42.623192 -71.578388,42.624169 -71.577905,42.62467 -71.57739,42.625325 -71.5771677,42.6256594 -71.576973,42.62603 -71.5767652,42.6263908 -71.5766221,42.6267525 -71.5764721,42.627155 -71.5764439,42.6272581 -71.57636,42.627565 -71.576251,42.627892 -71.5761784,42.6283428 -71.576184,42.628399 -71.576217,42.629304 -71.576218,42.630352 -71.576122,42.63109 -71.576011,42.631864 -71.5758544,42.632454 -71.575834,42.632519 -71.5754,42.633746 -71.5752877,42.6341243 -71.575223,42.634342 -71.5750035,42.6350999 -71.574854,42.635652 -71.5747927,42.6359785 -71.5747389,42.6362989 -71.5746836,42.63701 -71.574727,42.637653 -71.574825,42.63857 -71.575068,42.639534 -71.57536,42.640499 -71.5754403,42.6407382 -71.575748,42.641654 -71.5760555,42.6423694 -71.576152,42.642594 -71.5766024,42.6441463 -71.576865,42.644868 -71.577092,42.645738 -71.5771703,42.6460141 -71.577206,42.646345 -71.577255,42.646762 -71.5772174,42.6475799</coordinates></LineString>
   </Placemark>
@@ -177,7 +177,7 @@
 		<SimpleData name="osm_id">156398220</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">25</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.5841855,42.6185502 -71.5841269,42.618801</coordinates></LineString>
   </Placemark>
@@ -328,7 +328,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.5022514,42.6015556 -71.5022129,42.6017137 -71.5022324,42.6018481 -71.5023618,42.6019251 -71.5024135,42.6019803 -71.5023811,42.6020166 -71.5023105,42.6020253 -71.502196,42.6019983 -71.5021507,42.6020014 -71.5021545,42.6020359 -71.5021891,42.6021122 -71.5021836,42.602221 -71.5020922,42.602363 -71.5020116,42.6022585 -71.5018096,42.6021062 -71.501711,42.6020797 -71.5016285,42.6021133 -71.5015812,42.6021956 -71.5015103,42.6022579 -71.5014223,42.6022159 -71.5013501,42.6021552 -71.501273,42.6021468 -71.5011943,42.6021498 -71.5010069,42.6020617 -71.5008467,42.6019895 -71.5007121,42.6020746 -71.5005668,42.6021313 -71.5004428,42.6020696 -71.5002603,42.6019576 -71.5001031,42.601825 -71.5001207,42.6016596 -71.5001096,42.6014979 -71.4999024,42.6011969 -71.4997173,42.6008745 -71.4997965,42.6005481 -71.4997841,42.6003338 -71.4997228,42.6002684 -71.499628,42.6002283 -71.4995377,42.6001992 -71.4994285,42.6001872 -71.4993995,42.6002348 -71.4993512,42.6002684 -71.4992793,42.6002562 -71.4992157,42.6002284 -71.4990748,42.6002643 -71.4989353,42.6003151 -71.4988248,42.6004372 -71.4985353,42.6004935 -71.4983674,42.6006284 -71.4981939,42.6007968 -71.4981754,42.6008755 -71.4981947,42.6010108 -71.498155,42.6011978 -71.4980505,42.6013385 -71.4979684,42.6013151 -71.4979388,42.6012391 -71.4980513,42.6011461 -71.49808,42.6011054 -71.4980793,42.6010555 -71.4980234,42.6010759 -71.4979806,42.6011094 -71.4978624,42.6011474 -71.497595,42.6012038 -71.4974528,42.6011298 -71.4972774,42.6012068 -71.4972359,42.6013613 -71.4971,42.6014952 -71.4971687,42.6016503 -71.4971766,42.6018378</coordinates></LineString>
+      <LineString><coordinates>-71.5022514,42.6015556 -71.5022129,42.6017137 -71.5022324,42.6018481 -71.5023618,42.6019251 -71.5024135,42.6019803 -71.5023811,42.6020166 -71.5023105,42.6020253 -71.502196,42.6019983 -71.5021507,42.6020014 -71.5021545,42.6020359 -71.5021891,42.6021122 -71.5021836,42.602221 -71.5020922,42.602363 -71.5020116,42.6022585 -71.5018096,42.6021062 -71.501711,42.6020797 -71.5016285,42.6021133 -71.5015812,42.6021956 -71.5015103,42.6022579 -71.5014223,42.6022159 -71.5013501,42.6021552 -71.501273,42.6021468 -71.5011943,42.6021498 -71.5010069,42.6020617 -71.5008467,42.6019895 -71.5007121,42.6020746 -71.5005668,42.6021313 -71.5004428,42.6020696 -71.5002603,42.6019576 -71.5001031,42.601825 -71.5001207,42.6016596 -71.5001096,42.6014979 -71.4999024,42.6011969 -71.4997173,42.6008745 -71.4997965,42.6005481 -71.4997841,42.6003338 -71.4997228,42.6002684 -71.499628,42.6002283 -71.4995377,42.6001992 -71.4994285,42.6001872 -71.4993995,42.6002348 -71.4993512,42.6002684 -71.4992793,42.6002562 -71.4992157,42.6002284 -71.4990748,42.6002643 -71.4989353,42.6003151 -71.4988248,42.6004372 -71.4985353,42.6004935 -71.4983674,42.6006284 -71.4981939,42.6007968 -71.4981754,42.6008755 -71.4981947,42.6010108 -71.498155,42.6011978 -71.4980505,42.6013385 -71.4979684,42.6013151 -71.4979388,42.6012391 -71.4980513,42.6011461 -71.49808,42.6011054 -71.4980793,42.6010555 -71.4980234,42.6010759 -71.4979806,42.6011094 -71.4978624,42.6011474 -71.497595,42.6012038 -71.4974528,42.6011298 -71.4972774,42.6012068 -71.4972359,42.6013613 -71.4971,42.6014952 -71.4971687,42.6016503 -71.4971766,42.6018378 -71.4977636,42.6025112 -71.4978451,42.6028182 -71.498076,42.6032944</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Boombox (■)</name>
@@ -503,28 +503,6 @@
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3682706,42.6503859 -71.3677962,42.6498643 -71.3676114,42.6498523 -71.3673578,42.6498359 -71.3669287,42.6501091 -71.3667715,42.6505645 -71.3666061,42.6508376 -71.3660148,42.650803 -71.3660541,42.6509909 -71.3663364,42.6513384 -71.3669071,42.6516698 -71.3675778,42.6518535 -71.3678328,42.6519233 -71.3675478,42.6522919 -71.3672726,42.6527256 -71.3667848,42.6529323 -71.3662604,42.6529496 -71.3656413,42.6529279 -71.3658084,42.6532676 -71.3652483,42.6537663 -71.3647569,42.6545035 -71.3637969,42.6554239 -71.3628112,42.6559417 -71.3626244,42.6561513 -71.3623788,42.6567873 -71.3623002,42.6570602 -71.3622988,42.657065 -71.3622888,42.6570924</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Bay Circuit Trail</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">303358751</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3590569,42.4097921 -71.3590979,42.4098545</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Oxbow Meadows Trail</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">303358755</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3590979,42.4098545 -71.3591541,42.4098912 -71.3593481,42.4099622 -71.3595516,42.410036 -71.359735,42.4101033 -71.3599684,42.4101948 -71.3604723,42.410359 -71.3611598,42.4104862 -71.3616254,42.4105116 -71.361807,42.4104485 -71.3617226,42.4101587 -71.3617511,42.4098261 -71.3616857,42.4095684 -71.3612093,42.4094363 -71.3607877,42.4093593 -71.3603223,42.4092853 -71.3595883,42.4090086 -71.3592106,42.4085398 -71.359148,42.4085204 -71.3589122,42.4085824</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Assabet River Rail Trail</name>
