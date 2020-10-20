@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
+<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-07-20T23:45:02Z"/>
+<meta osm_base="2020-10-20T02:05:03Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -3617,7 +3617,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="488"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Massachusetts Avenue"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
@@ -4901,7 +4901,7 @@
     <nd ref="4563051796"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="landuse" v="farmland"/>
-    <tag k="name" v="Caouette Farm Conservation Land"/>
+    <tag k="name" v="Caouette-Simeone Conservation Land"/>
     <tag k="owner" v="Town of Acton"/>
     <tag k="ownership" v="municipal"/>
     <tag k="protect_class" v="5"/>
@@ -5062,7 +5062,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="41"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Tuttle Dr"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
@@ -5182,7 +5182,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="501 behind"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Massachusetts Avenue"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
@@ -5265,7 +5265,6 @@
     <nd ref="4689862133"/>
     <nd ref="4689862134"/>
     <tag k="access" v="yes"/>
-    <tag k="boundary" v="protected_area"/>
     <tag k="landuse" v="conservation"/>
     <tag k="leisure" v="nature_reserve"/>
     <tag k="name" v="Dunn Conservation Land"/>
@@ -5311,7 +5310,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="133"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="River St"/>
     <tag k="boundary" v="protected_area"/>
     <tag k="leisure" v="nature_reserve"/>
@@ -5382,7 +5381,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="145 Rear"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Great Road"/>
     <tag k="area" v="yes"/>
     <tag k="boundary" v="protected_area"/>
