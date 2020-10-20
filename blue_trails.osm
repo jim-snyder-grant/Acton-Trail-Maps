@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-07-21T20:53:02Z" areas="2020-07-21T20:12:03Z"/>
+<meta osm_base="2020-10-20T02:04:02Z" areas="2020-10-20T01:04:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -40,7 +40,7 @@
   <node id="2118697688" lat="42.4808785" lon="-71.4365461"/>
   <node id="2118697689" lat="42.4809280" lon="-71.4364195"/>
   <node id="2118697691" lat="42.4809528" lon="-71.4362918"/>
-  <node id="2118697692" lat="42.4809991" lon="-71.4362278"/>
+  <node id="2118697692" lat="42.4809961" lon="-71.4362426"/>
   <node id="2118697693" lat="42.4811063" lon="-71.4331455"/>
   <node id="2118697695" lat="42.4812133" lon="-71.4362282"/>
   <node id="2118697696" lat="42.4814744" lon="-71.4332700"/>
@@ -767,7 +767,7 @@
   <node id="4245264381" lat="42.4825060" lon="-71.4805920"/>
   <node id="4245264382" lat="42.4826140" lon="-71.4804470"/>
   <node id="4245264383" lat="42.4827200" lon="-71.4803590"/>
-  <node id="4245264384" lat="42.4829130" lon="-71.4802740"/>
+  <node id="4245264384" lat="42.4829235" lon="-71.4802740"/>
   <node id="4245264385" lat="42.4831070" lon="-71.4803050"/>
   <node id="4245264386" lat="42.4832090" lon="-71.4803940"/>
   <node id="4245264387" lat="42.4832690" lon="-71.4804840"/>
@@ -998,6 +998,7 @@
   <node id="7468595526" lat="42.4778092" lon="-71.4788634"/>
   <node id="7468595527" lat="42.4776725" lon="-71.4783478"/>
   <node id="7468595530" lat="42.4785167" lon="-71.4787042"/>
+  <node id="7911380574" lat="42.4810454" lon="-71.4362287"/>
   <way id="61912339">
     <nd ref="771666440"/>
     <nd ref="4567020370"/>
@@ -1128,14 +1129,19 @@
     <nd ref="2118697703"/>
     <nd ref="2118697697"/>
     <nd ref="2118697695"/>
+    <nd ref="7911380574"/>
     <nd ref="2118697692"/>
     <nd ref="2118697691"/>
     <nd ref="2118697689"/>
     <nd ref="2118697688"/>
     <nd ref="2118697687"/>
+    <tag k="access" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
+    <tag k="surface" v="fine_gravel"/>
+    <tag k="wheelchair" v="yes"/>
   </way>
   <way id="202989777">
     <nd ref="2129514406"/>
