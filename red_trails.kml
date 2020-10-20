@@ -54,7 +54,7 @@
 		<SimpleData name="z_order">10</SimpleData>
 		<SimpleData name="other_tags">&quot;bridge&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.48369,42.47922 -71.4838667,42.4791202</coordinates></LineString>
+      <LineString><coordinates>-71.48369,42.47922 -71.4837932,42.4791617 -71.4838667,42.4791202</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red</name>
@@ -555,7 +555,7 @@
 		<SimpleData name="osm_id">206189198</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.41293,42.50565 -71.413,42.50571 -71.41305,42.50578 -71.41311,42.50585 -71.41312,42.50589</coordinates></LineString>
   </Placemark>
