@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-08-24T02:34:03Z" areas="2020-08-24T01:48:03Z"/>
+<meta osm_base="2020-10-20T02:04:02Z" areas="2020-10-20T01:38:02Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -3522,6 +3522,18 @@
   <node id="7785844096" lat="42.6025112" lon="-71.4977636"/>
   <node id="7785844097" lat="42.6028182" lon="-71.4978451"/>
   <node id="7785844098" lat="42.6032944" lon="-71.4980760"/>
+  <node id="8001556991" lat="42.3220944" lon="-71.4348176"/>
+  <node id="8001556992" lat="42.3228309" lon="-71.4330044"/>
+  <node id="8001556993" lat="42.3233990" lon="-71.4311465"/>
+  <node id="8001556994" lat="42.3235222" lon="-71.4297643"/>
+  <node id="8001556995" lat="42.3237416" lon="-71.4277681"/>
+  <node id="8001556996" lat="42.3240001" lon="-71.4248491"/>
+  <node id="8001556997" lat="42.3244540" lon="-71.4211577"/>
+  <node id="8001556998" lat="42.3245652" lon="-71.4201128"/>
+  <node id="8001556999" lat="42.3245999" lon="-71.4198973"/>
+  <node id="8001557000" lat="42.3242377" lon="-71.4229168"/>
+  <node id="8001557001" lat="42.3240354" lon="-71.4245621"/>
+  <node id="8001557002" lat="42.3226430" lon="-71.4334671"/>
   <way id="8842446">
     <nd ref="64055791"/>
     <nd ref="64055786"/>
@@ -7379,6 +7391,23 @@
     <tag k="segregated" v="no"/>
     <tag k="sidewalk" v="none"/>
     <tag k="surface" v="paved"/>
+  </way>
+  <way id="858338707">
+    <nd ref="8001556991"/>
+    <nd ref="8001557002"/>
+    <nd ref="8001556992"/>
+    <nd ref="8001556993"/>
+    <nd ref="8001556994"/>
+    <nd ref="8001556995"/>
+    <nd ref="8001556996"/>
+    <nd ref="8001557001"/>
+    <nd ref="8001557000"/>
+    <nd ref="8001556997"/>
+    <nd ref="8001556998"/>
+    <nd ref="8001556999"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
   </way>
 
 </osm>

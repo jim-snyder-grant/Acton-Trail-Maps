@@ -1195,5 +1195,15 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.576673,42.6499911 -71.576629,42.650109 -71.576437,42.651097 -71.576309,42.651859 -71.57631,42.652372 -71.576343,42.653134 -71.576521,42.653681 -71.576909,42.654539 -71.577233,42.655467 -71.577395,42.655979 -71.577638,42.656813 -71.577768,42.657718 -71.577689,42.658921 -71.577514,42.660695 -71.5773632,42.6615796 -71.577364,42.6616286 -71.577321,42.661827 -71.5772315,42.6620869 -71.576984,42.662851 -71.576452,42.663733 -71.57584,42.664483 -71.5753964,42.6649693 -71.5748885,42.6655074 -71.574502,42.665862 -71.5741325,42.6661658 -71.5735814,42.6665414 -71.5735111,42.666579</coordinates></LineString>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">858338707</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4348176,42.3220944 -71.4334671,42.322643 -71.4330044,42.3228309 -71.4311465,42.323399 -71.4297643,42.3235222 -71.4277681,42.3237416 -71.4248491,42.3240001 -71.4245621,42.3240354 -71.4229168,42.3242377 -71.4211577,42.324454 -71.4201128,42.3245652 -71.4198973,42.3245999</coordinates></LineString>
+  </Placemark>
 </Folder>
 </Document></kml>
