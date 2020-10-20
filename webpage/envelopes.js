@@ -25,7 +25,7 @@ var Envelopes = {
 "Morrison Farm": {"envelope":[[-71.421608,42.478197], [-71.416219,42.484381]],"url":"https://trails.actonma.gov/morrison-farm/"},
 "Bulette - Town Forest": {"envelope":[[-71.469468,42.491653], [-71.455993,42.499094]],"url":"https://trails.actonma.gov/bulette/"},
 "Acton Canoe Launch": {"envelope":[[-71.431089,42.438848], [-71.428078,42.441094]],"url":"https://trails.actonma.gov/canoe-launch/"},
-"Caouette Farm": {"envelope":[[-71.459006,42.456318], [-71.455579,42.459808]],"url":"None"},
+"Caouette-Simeone": {"envelope":[[-71.459006,42.456318], [-71.455579,42.459808]],"url":"None"},
 "Dunn": {"envelope":[[-71.484461,42.456674], [-71.480237,42.459397]],"url":"None"},
 "Stoneymeade": {"envelope":[[-71.405619,42.481211], [-71.397551,42.489547]],"url":"https://trails.actonma.gov/stoneymeade/"},
 };
