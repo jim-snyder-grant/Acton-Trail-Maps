@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
+<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-07-21T20:54:02Z" areas="2020-07-21T20:12:03Z"/>
+<meta osm_base="2020-10-20T02:05:03Z" areas="2020-10-20T01:38:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -46,6 +46,11 @@
   <node id="2161970198" lat="42.5121646" lon="-71.3976351"/>
   <node id="2161970199" lat="42.5121972" lon="-71.3977263"/>
   <node id="2161970200" lat="42.5121972" lon="-71.3977963"/>
+  <node id="2523854853" lat="42.4785575" lon="-71.4212895"/>
+  <node id="2523854854" lat="42.4785647" lon="-71.4213942"/>
+  <node id="2523854855" lat="42.4785758" lon="-71.4215539"/>
+  <node id="2523854866" lat="42.4789839" lon="-71.4212351"/>
+  <node id="2523854869" lat="42.4790023" lon="-71.4214995"/>
   <node id="3804458533" lat="42.5195092" lon="-71.4146261"/>
   <node id="4029272875" lat="42.5014534" lon="-71.3906939"/>
   <node id="4029272876" lat="42.5015755" lon="-71.3908640"/>
@@ -227,7 +232,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="396"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Central St"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
@@ -344,6 +349,23 @@
     <tag k="surface" v="paved"/>
     <tag k="website" v="https://trails.actonma.gov/robbinsmill/"/>
   </way>
+  <way id="245139904">
+    <nd ref="2523854869"/>
+    <nd ref="2523854866"/>
+    <nd ref="2523854853"/>
+    <nd ref="2523854854"/>
+    <nd ref="2523854855"/>
+    <nd ref="2523854869"/>
+    <tag k="addr:city" v="Acton"/>
+    <tag k="addr:housenumber" v="104"/>
+    <tag k="addr:postcode" v="01720"/>
+    <tag k="addr:street" v="Concord Road"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="operator" v="Town of Acton"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="website" v="https://trails.actonma.gov/"/>
+  </way>
   <way id="400355073">
     <nd ref="4029272878"/>
     <nd ref="5431797240"/>
@@ -407,7 +429,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="13"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Carlisle Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="surface" v="unpaved"/>
@@ -438,7 +460,7 @@
     <tag k="addr:city" v="Acton"/>
     <tag k="addr:housenumber" v="116"/>
     <tag k="addr:postcode" v="01720"/>
-    <tag k="addr:state" v="ma"/>
+    <tag k="addr:state" v="MA"/>
     <tag k="addr:street" v="Concord Road"/>
     <tag k="amenity" v="parking"/>
     <tag k="capacity" v="5"/>

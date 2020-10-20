@@ -42,7 +42,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">115637309</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;396&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;ma&quot;,&quot;addr:street&quot;=&gt;&quot;Central St&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/jenks/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;396&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Central St&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/jenks/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4782064,42.4876222 -71.4783694,42.4875933 -71.4783866,42.4876417 -71.4784012,42.4876828 -71.4782399,42.4877136 -71.4782064,42.4876222</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
@@ -103,6 +103,15 @@
   <Placemark>
 	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">245139904</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;104&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:street&quot;=&gt;&quot;Concord Road&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;gravel&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4214995,42.4790023 -71.4212351,42.4789839 -71.4212895,42.4785575 -71.4213942,42.4785647 -71.4215539,42.4785758 -71.4214995,42.4790023</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">400355073</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
 		<SimpleData name="other_tags">&quot;operator&quot;=&gt;&quot;Acton Land Stewardship Committee&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/camp-acton/&quot;</SimpleData>
@@ -132,7 +141,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">476393372</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;13&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;ma&quot;,&quot;addr:street&quot;=&gt;&quot;Carlisle Road&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/robbinsmill/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;13&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Carlisle Road&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/robbinsmill/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4031895,42.5190436 -71.4030936,42.5188415 -71.4032552,42.5188108 -71.4034423,42.5190031 -71.4031895,42.5190436</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
@@ -150,7 +159,7 @@
 	<ExtendedData><SchemaData schemaUrl="#multipolygons">
 		<SimpleData name="osm_way_id">481898762</SimpleData>
 		<SimpleData name="amenity">parking</SimpleData>
-		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;116&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;ma&quot;,&quot;addr:street&quot;=&gt;&quot;Concord Road&quot;,&quot;capacity&quot;=&gt;&quot;5&quot;,&quot;capacity:disabled&quot;=&gt;&quot;0&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:housenumber&quot;=&gt;&quot;116&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Concord Road&quot;,&quot;capacity&quot;=&gt;&quot;5&quot;,&quot;capacity:disabled&quot;=&gt;&quot;0&quot;,&quot;operator&quot;=&gt;&quot;Town of Acton&quot;,&quot;parking&quot;=&gt;&quot;surface&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;website&quot;=&gt;&quot;https://trails.actonma.gov/&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.418259,42.4784988 -71.418259,42.4785428 -71.418259,42.4785918 -71.4183663,42.4785888 -71.4183743,42.4786383 -71.4184628,42.4786304 -71.4184414,42.4785077 -71.418259,42.4784988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
