@@ -39,7 +39,7 @@
 		<SimpleData name="place">town</SimpleData>
 		<SimpleData name="other_tags">&quot;addr:county&quot;=&gt;&quot;Middlesex County&quot;,&quot;population&quot;=&gt;&quot;21929&quot;,&quot;wikidata&quot;=&gt;&quot;Q344431&quot;,&quot;wikipedia&quot;=&gt;&quot;en:Acton, Massachusetts&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4285338,42.5288034 -71.4237948,42.5261896 -71.3995147,42.5340164 -71.3979464,42.5263361 -71.3915635,42.50682 -71.3849469,42.5044645 -71.430394,42.4369393 -71.4643283,42.45032 -71.498547,42.4637751 -71.4735288,42.5001773 -71.4439395,42.5090599 -71.4350172,42.5221704 -71.4285338,42.5288034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4285338,42.5288034 -71.4237948,42.5261896 -71.4019,42.5332475 -71.3995147,42.5340164 -71.3979464,42.5263361 -71.3915635,42.50682 -71.3849469,42.5044645 -71.430394,42.4369393 -71.4643317,42.4503295 -71.4985504,42.4637845 -71.4735288,42.5001773 -71.4439395,42.5090599 -71.4350172,42.5221704 -71.4285338,42.5288034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 </Folder>
 </Document></kml>
