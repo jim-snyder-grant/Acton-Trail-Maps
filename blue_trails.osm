@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
+<osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-20T02:04:02Z" areas="2020-10-20T01:04:02Z"/>
+<meta osm_base="2021-01-03T03:20:03Z" areas="2021-01-03T02:49:02Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -408,16 +408,13 @@
   <node id="2138420058" lat="42.4700998" lon="-71.4503433"/>
   <node id="2138420059" lat="42.4699986" lon="-71.4523490"/>
   <node id="2138420077" lat="42.4703429" lon="-71.4504071"/>
-  <node id="2139046589" lat="42.5008348" lon="-71.4513945"/>
-  <node id="2139046590" lat="42.5007411" lon="-71.4506373"/>
-  <node id="2139046593" lat="42.5008747" lon="-71.4516407">
-    <tag k="amenity" v="bench"/>
-  </node>
+  <node id="2139046589" lat="42.5008243" lon="-71.4513628"/>
+  <node id="2139046590" lat="42.5007747" lon="-71.4506976"/>
   <node id="2139046594" lat="42.5008819" lon="-71.4516380"/>
   <node id="2139046595" lat="42.5008907" lon="-71.4516348">
     <tag k="amenity" v="bench"/>
   </node>
-  <node id="2139046627" lat="42.5018815" lon="-71.4470648"/>
+  <node id="2139046627" lat="42.5019201" lon="-71.4469535"/>
   <node id="2144442726" lat="42.4967201" lon="-71.4615789"/>
   <node id="2144442728" lat="42.4967210" lon="-71.4673270"/>
   <node id="2144442745" lat="42.4966080" lon="-71.4615342"/>
@@ -720,13 +717,12 @@
   <node id="2169262554" lat="42.5031300" lon="-71.3992510"/>
   <node id="2169262556" lat="42.5031360" lon="-71.3989640"/>
   <node id="2169262559" lat="42.5031500" lon="-71.3989100"/>
-  <node id="2169436930" lat="42.5003935" lon="-71.4479215"/>
-  <node id="2169436942" lat="42.5006051" lon="-71.4477766"/>
-  <node id="2169436950" lat="42.5007491" lon="-71.4508237"/>
+  <node id="2169436942" lat="42.5007356" lon="-71.4476660"/>
+  <node id="2169436950" lat="42.5007817" lon="-71.4510047"/>
   <node id="2169436952" lat="42.5007927" lon="-71.4512135"/>
   <node id="2169436957" lat="42.5008069" lon="-71.4476322"/>
-  <node id="2169436961" lat="42.5009414" lon="-71.4475410"/>
-  <node id="2169436965" lat="42.5010311" lon="-71.4474193"/>
+  <node id="2169436961" lat="42.5009063" lon="-71.4475718"/>
+  <node id="2169436965" lat="42.5009861" lon="-71.4474052"/>
   <node id="2169436975" lat="42.5012777" lon="-71.4472597"/>
   <node id="2169436987" lat="42.5015467" lon="-71.4471836"/>
   <node id="3009680504" lat="42.5091062" lon="-71.3939777"/>
@@ -999,6 +995,8 @@
   <node id="7468595527" lat="42.4776725" lon="-71.4783478"/>
   <node id="7468595530" lat="42.4785167" lon="-71.4787042"/>
   <node id="7911380574" lat="42.4810454" lon="-71.4362287"/>
+  <node id="8042816432" lat="42.5006540" lon="-71.4477449"/>
+  <node id="8042840575" lat="42.5008373" lon="-71.4513945"/>
   <way id="61912339">
     <nd ref="771666440"/>
     <nd ref="4567020370"/>
@@ -1567,8 +1565,8 @@
   </way>
   <way id="203893357">
     <nd ref="2139046589"/>
+    <nd ref="8042840575"/>
     <nd ref="2139046594"/>
-    <nd ref="2139046593"/>
     <nd ref="4566213609"/>
     <tag k="bridge" v="yes"/>
     <tag k="foot" v="designated"/>
@@ -1998,7 +1996,7 @@
     <tag k="surface" v="dirt"/>
   </way>
   <way id="206886706">
-    <nd ref="2169436930"/>
+    <nd ref="8042816432"/>
     <nd ref="2169436942"/>
     <nd ref="2169436957"/>
     <nd ref="2169436961"/>
@@ -2135,9 +2133,10 @@
     <nd ref="4503533174"/>
     <nd ref="4503533175"/>
     <nd ref="4503533177"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
     <tag k="name" v="Blue"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="surface" v="dirt"/>
   </way>
   <way id="461062467">
     <nd ref="2139046594"/>
@@ -2378,9 +2377,11 @@
     <nd ref="4503533894"/>
     <nd ref="4503533896"/>
     <nd ref="7064840591"/>
+    <tag k="foot" v="designated"/>
     <tag k="highway" v="path"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Blue"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="surface" v="dirt"/>
   </way>
   <way id="596655674">
     <nd ref="2147343628"/>
