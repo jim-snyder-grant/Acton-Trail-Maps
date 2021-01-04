@@ -58,23 +58,12 @@
 	<name>Mass Central Rail Trail -- Wayside</name>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">85892757</SimpleData>
+		<SimpleData name="osm_id">85892771</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;oneway&quot;=&gt;&quot;no&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3372245,42.367312 -71.3371513,42.3673208 -71.3317857,42.3679336 -71.3306326,42.3680839</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Mass Central Rail Trail -- Wayside</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">85892763</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3249925,42.3687287 -71.324814,42.3687486 -71.3238766,42.3688763 -71.3237223,42.3688742 -71.323607,42.3688604 -71.3234956,42.3688637 -71.3234058,42.3688881 -71.3233119,42.3689228 -71.3232381,42.3689382 -71.3232118,42.3689415 -71.320463,42.3692869 -71.319806,42.3692873</coordinates></LineString>
+      <LineString><coordinates>-71.3084072,42.3715462 -71.3087978,42.3714211 -71.3091834,42.3712904 -71.3099526,42.3710273 -71.3103464,42.3708952 -71.3108544,42.3707219 -71.3113697,42.3705513 -71.3115508,42.3704967 -71.3117677,42.3704412 -71.3121697,42.3703419 -71.3123712,42.3702958 -71.312575,42.3702532 -71.3129863,42.3701782 -71.3131721,42.3701476 -71.3135024,42.3701009 -71.3138333,42.3700605 -71.3144903,42.3699816 -71.3146721,42.3699605 -71.3148481,42.3699439 -71.3154168,42.3698782 -71.3159858,42.3698076 -71.3171232,42.3696703 -71.3173827,42.3696443 -71.3176842,42.3696103 -71.3180887,42.369562 -71.3185917,42.3695026 -71.3188059,42.3694777 -71.3190969,42.3694428 -71.3195398,42.3693892 -71.3195702,42.3693811 -71.3196013,42.3693667 -71.3196364,42.3693439 -71.3196782,42.369319 -71.3197217,42.3693024 -71.319805,42.3692875 -71.3199464,42.3692731 -71.3202411,42.3693008 -71.3204094,42.3692859 -71.3232098,42.3689509 -71.3233119,42.3689228 -71.3234058,42.3688881 -71.3234956,42.3688637 -71.323607,42.3688604 -71.3237223,42.3688742 -71.3238806,42.3688783 -71.3248184,42.3687699 -71.3256076,42.368678 -71.3287956,42.3683008</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -84,7 +73,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.395056,42.431385 -71.3949446,42.4314722 -71.3947178,42.4314867 -71.3946084,42.4315142 -71.3946212,42.4315421 -71.3948438,42.43155 -71.3948626,42.4315708 -71.3948538,42.4315904 -71.3948176,42.4315993 -71.3946896,42.4315956 -71.3946379,42.4316092 -71.3946534,42.4316362 -71.394699,42.431654 -71.394762,42.431654 -71.3948063,42.4316767 -71.3947955,42.4317074 -71.394772,42.4317181 -71.394703,42.4317134 -71.3945877,42.4317035 -71.3944823,42.4317211 -71.3944182,42.4317635</coordinates></LineString>
+      <LineString><coordinates>-71.3949068,42.4313842 -71.394891,42.4314597 -71.394871,42.4314856 -71.3948088,42.43153 -71.3947006,42.4315598 -71.3946196,42.4315909 -71.3946032,42.4316383 -71.3946567,42.4316744 -71.3947336,42.4316806 -71.3947991,42.4316907 -71.3948265,42.4317093 -71.3948358,42.4317446 -71.3948218,42.4317725 -71.3947777,42.4317907 -71.39457,42.4317669 -71.3945194,42.4318012 -71.3945094,42.431841 -71.3945614,42.4318834 -71.3946298,42.4318994 -71.3946434,42.4319313 -71.3946348,42.4319692 -71.3945158,42.4319935 -71.3944682,42.4320312 -71.3944735,42.4320762 -71.3945471,42.4321216 -71.3945657,42.4321672 -71.3944016,42.4321929</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -180,17 +169,6 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;bridge&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;layer&quot;=&gt;&quot;1&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.5841855,42.6185502 -71.5841269,42.618801</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Mass Central Rail Trail -- Wayside</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">156705656</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3249925,42.3687287 -71.3256029,42.3686579</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -548,7 +526,7 @@
       <LineString><coordinates>-71.5075898,42.625859 -71.5077243,42.6258434 -71.5078552,42.6258225 -71.5079366,42.6257861 -71.5079649,42.6257418 -71.5079508,42.6256793 -71.5078977,42.6256298 -71.5078304,42.6255855 -71.5077738,42.6255048 -71.5077597,42.6254371 -71.5077561,42.6253928 -71.5077915,42.6253616 -71.5078375,42.6253616 -71.5078729,42.6253538 -71.5078988,42.6253679 -71.5079249,42.6253516 -71.5079288,42.6253276 -71.5078975,42.6252623 -71.5078975,42.6252067 -71.507921,42.62515 -71.5079419,42.6251049 -71.5079758,42.6250694 -71.508024,42.6250291 -71.5080371,42.6250099 -71.5080449,42.6249561 -71.508054,42.6248813 -71.5080749,42.6248227 -71.5081101,42.6247642 -71.5081114,42.6247277 -71.5081075,42.6246816 -71.508088,42.6246327 -71.5080645,42.6246164 -71.5080227,42.624602 -71.5079927,42.624601 -71.5079614,42.6246116 -71.5079393,42.6246308 -71.5079275,42.6246874 -71.5079249,42.6247575 -71.5079001,42.6248304 -71.5078701,42.6248774 -71.5078192,42.6249293 -71.5077775,42.62496 -71.5077175,42.6249926 -71.5076888,42.625008 -71.5076601,42.625032 -71.507604,42.6250483 -71.5075518,42.6250396 -71.5075231,42.6250425 -71.5075075,42.6250214 -71.5075218,42.6249859 -71.5075362,42.6249561 -71.5075649,42.624936 -71.5076001,42.6249427 -71.507651,42.6249561 -71.5077253,42.6249053 -71.5077318,42.6248688 -71.5077566,42.6248352 -71.5077671,42.6247536 -71.5077905,42.6246836 -71.5078192,42.624672 -71.5078644,42.6246585 -71.5079132,42.6246241 -71.5079849,42.6245741 -71.508041,42.6245415 -71.5080867,42.6245242 -71.508144,42.6245204 -71.508178,42.6245242 -71.5081949,42.6245434 -71.5082067,42.6245674 -71.5082536,42.6245876 -71.5082888,42.6245991 -71.5082888,42.6246135 -71.5082641,42.6246154 -71.508238,42.6246058 -71.5082184,42.6246049 -71.5082067,42.6246193 -71.5082001,42.6246346 -71.508208,42.6246567 -71.508221,42.6247124 -71.5082119,42.6247911 -71.5081858,42.6248669 -71.5081349,42.6249216 -71.5080893,42.624959 -71.508071,42.6249993 -71.5080671,42.6250416 -71.5080462,42.6250857 -71.5080123,42.6251251 -71.5079901,42.6251462 -71.5079836,42.6251721 -71.5079888,42.6252019 -71.5080136,42.6252412 -71.5080501,42.6252854 -71.508071,42.6253007 -71.508084,42.6253305 -71.5082406,42.6253055 -71.5083475,42.6253074 -71.5084493,42.6253122 -71.5085119,42.6253113 -71.5085771,42.6253007 -71.5086084,42.6252902 -71.5086254,42.6252959 -71.5086254,42.6253094 -71.5086241,42.6253429 -71.5085941,42.6253909 -71.5085628,42.6254101 -71.5084989,42.6254245 -71.5084519,42.6254303 -71.5084258,42.6254332 -71.5084102,42.6254552 -71.5084128,42.6254773 -71.5084271,42.6255023 -71.5084545,42.6255253 -71.5084858,42.6255253 -71.5085249,42.6255205 -71.508568,42.6255023 -71.5086097,42.625486 -71.5086384,42.6254792 -71.5086671,42.6254792 -71.508705,42.6254812 -71.5087271,42.6254773 -71.5087584,42.625461 -71.5087793,42.6254245 -71.5087858,42.6253602 -71.5087467,42.6253074 -71.508701,42.6252681 -71.508658,42.6252326 -71.5086449,42.6251961 -71.5086502,42.6251462 -71.5086789,42.6250953 -71.5087402,42.6250281 -71.5087989,42.6249869 -71.5088484,42.6249485 -71.5089071,42.6249197 -71.5089437,42.624913 -71.5090089,42.6249235 -71.5090715,42.6249168 -71.5091015,42.6249053 -71.509155,42.6248746 -71.5091967,42.6248438 -71.5092385,42.6248285 -71.5092763,42.6248227 -71.5093363,42.6248189 -71.509382,42.6248103 -71.5094172,42.6248007 -71.5094954,42.6247699 -71.5095437,42.6247488 -71.5095828,42.6247325 -71.5096676,42.6246375</coordinates></LineString>
   </Placemark>
   <Placemark>
-	<name>Bruce Freeman Rail Trail (Phase2)</name>
+	<name>Bruce Freeman Rail Trail</name>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">374372272</SimpleData>
@@ -556,7 +534,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;old_name:1970&quot;=&gt;&quot;Lowell Branch&quot;,&quot;old_railway_operator&quot;=&gt;&quot;NYNH&amp;H&quot;,&quot;railway&quot;=&gt;&quot;razed&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;source:old_name:1970&quot;=&gt;&quot;New Haven Region Timetable No. 2, January 18, 1970&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3907744,42.4544974 -71.3904836,42.4542112 -71.3903533,42.4540829 -71.3901852,42.4538911 -71.3900674,42.4537383 -71.3899066,42.4535077 -71.3895842,42.4529963 -71.3893008,42.4522522 -71.3891953,42.4517124 -71.389188,42.451359 -71.389169,42.4501707 -71.3892283,42.4492806 -71.3895051,42.4483322 -71.3904147,42.4464354 -71.390773,42.4457904 -71.3911348,42.4451393 -71.3916717,42.4440044 -71.3922142,42.442695 -71.392258,42.4425547 -71.3928537,42.4406461 -71.3930249,42.4400975 -71.3933494,42.4388704 -71.3940861,42.4360843 -71.3942944,42.4353434 -71.3943761,42.435053 -71.3944378,42.4347362 -71.3944614,42.4346149 -71.3945277,42.4342746 -71.3945541,42.4336568 -71.3944266,42.4318815 -71.3944182,42.4317635 -71.3943985,42.4314892</coordinates></LineString>
+      <LineString><coordinates>-71.3907744,42.4544974 -71.3904836,42.4542112 -71.3903533,42.4540829 -71.3901852,42.4538911 -71.3900674,42.4537383 -71.3899066,42.4535077 -71.3895842,42.4529963 -71.3893008,42.4522522 -71.3891953,42.4517124 -71.389188,42.451359 -71.389169,42.4501707 -71.3892283,42.4492806 -71.3895051,42.4483322 -71.3904147,42.4464354 -71.390773,42.4457904 -71.3911348,42.4451393 -71.3916717,42.4440044 -71.3922142,42.442695 -71.392258,42.4425547 -71.3928537,42.4406461 -71.3930249,42.4400975 -71.3933494,42.4388704 -71.3940861,42.4360843 -71.3942944,42.4353434 -71.3943761,42.435053 -71.3944378,42.4347362 -71.3944614,42.4346149 -71.3945277,42.4342746 -71.3945541,42.4336568 -71.3944016,42.4321929 -71.3943443,42.4314719</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -575,7 +553,7 @@
 		<SimpleData name="osm_id">573717988</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.3537818,42.3653646 -71.3537222,42.3653713 -71.3536858,42.3653752</coordinates></LineString>
   </Placemark>
@@ -588,7 +566,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3373174,42.3673028 -71.3372557,42.3673085 -71.3372245,42.367312</coordinates></LineString>
+      <LineString><coordinates>-71.3373174,42.3673021 -71.3372557,42.3673085 -71.3372245,42.367312</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -628,9 +606,9 @@
 		<SimpleData name="osm_id">604216353</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3579908,42.3648245 -71.3579164,42.3648226 -71.357844,42.3648394 -71.3577622,42.3648771 -71.3577091,42.3648928 -71.3540158,42.3653275</coordinates></LineString>
+      <LineString><coordinates>-71.3579908,42.3648245 -71.3579161,42.3648169 -71.3578427,42.3648344 -71.3577622,42.3648771 -71.3577091,42.3648928 -71.3558888,42.3651088 -71.3540171,42.365331 -71.3537818,42.3653646</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Mass Central Rail Trail -- Wayside</name>
@@ -639,9 +617,9 @@
 		<SimpleData name="osm_id">604216354</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3536858,42.3653752 -71.3469632,42.3661519 -71.3451203,42.3663757 -71.3443951,42.3664638 -71.3434253,42.3665816 -71.3424393,42.3666947 -71.3389272,42.3671117 -71.3373174,42.3673028</coordinates></LineString>
+      <LineString><coordinates>-71.3536858,42.3653752 -71.3469652,42.3661569 -71.346045,42.3662708 -71.3451237,42.3663807 -71.3443951,42.3664638 -71.3434253,42.3665816 -71.3424403,42.3666959 -71.3389272,42.3671058 -71.3373174,42.3673021</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -651,7 +629,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3702814,42.3632009 -71.3702769,42.3632758 -71.370272,42.363357 -71.3703205,42.3633701</coordinates></LineString>
+      <LineString><coordinates>-71.3702814,42.3632009 -71.3702769,42.3632758 -71.370272,42.363357 -71.3703125,42.3633686</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Mass Central Rail Trail -- Wayside</name>
@@ -662,7 +640,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3703205,42.3633701 -71.3702908,42.3634415 -71.3699424,42.3635126 -71.3696738,42.3634694 -71.3687119,42.3636163 -71.3682838,42.3635822 -71.3675484,42.3636852 -71.3664439,42.363827 -71.3661305,42.3638343 -71.3649462,42.3639838 -71.3647223,42.3640064 -71.3636054,42.3641503 -71.3633407,42.364118 -71.3629809,42.3641861 -71.3627699,42.3641714 -71.3620022,42.3642806 -71.3618802,42.3642373 -71.3616957,42.3642658 -71.3613624,42.3642612 -71.3613067,42.3642935 -71.3612063,42.364362 -71.3611225,42.3643763 -71.3611483,42.3644736</coordinates></LineString>
+      <LineString><coordinates>-71.3703125,42.3633686 -71.370276,42.3634306 -71.369929,42.3635116 -71.3698523,42.3634982 -71.3697678,42.3634888 -71.3696712,42.3634844 -71.3695746,42.3634882 -71.3687381,42.3636066 -71.3682838,42.3635822 -71.3675504,42.3636693 -71.3670078,42.3637484 -71.3667335,42.3637846 -71.366458,42.3638102 -71.3661332,42.3638269 -71.3649462,42.3639838 -71.3647226,42.3640101 -71.3636094,42.3641528 -71.3634773,42.364146 -71.3633414,42.3641299 -71.3631561,42.3641411 -71.3629739,42.3641693 -71.3628705,42.3641708 -71.3627722,42.3641647 -71.3623931,42.3642206 -71.3621979,42.3642466 -71.3621077,42.3642602 -71.3620173,42.3642618 -71.3618792,42.3642425 -71.3616957,42.3642658 -71.3613624,42.3642612 -71.3613067,42.3642935 -71.3612063,42.364362 -71.3611175,42.3643736 -71.3611483,42.3644736</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Nashua River Rail Trail</name>
@@ -1045,7 +1023,7 @@
 		<SimpleData name="z_order">5</SimpleData>
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;old_name:1970&quot;=&gt;&quot;Lowell Branch&quot;,&quot;old_railway_operator&quot;=&gt;&quot;NYNH&amp;H&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;source:old_name:1970&quot;=&gt;&quot;New Haven Region Timetable No. 2, January 18, 1970&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3976372,42.4638328 -71.3965263,42.4623248</coordinates></LineString>
+      <LineString><coordinates>-71.397476,42.4638881 -71.3965263,42.4623248</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -1056,7 +1034,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3978448,42.4641592 -71.3977668,42.4641631 -71.3976923,42.4641669 -71.3976372,42.4638328</coordinates></LineString>
+      <LineString><coordinates>-71.3978448,42.4641592 -71.3977668,42.4641631 -71.3976923,42.4641669 -71.397476,42.4638881</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
@@ -1144,34 +1122,12 @@
 	<name>Mass Central Rail Trail -- Wayside</name>
 	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">825237571</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;crossing&quot;=&gt;&quot;zebra&quot;,&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;footway&quot;=&gt;&quot;crossing&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3540158,42.3653275 -71.3537818,42.3653646</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Mass Central Rail Trail -- Wayside</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">825237572</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3287956,42.3683008 -71.3285783,42.3683234 -71.3256029,42.3686579</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Mass Central Rail Trail -- Wayside</name>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">825237573</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3306326,42.3680839 -71.3305467,42.368091 -71.3287956,42.3683008</coordinates></LineString>
+      <LineString><coordinates>-71.3372245,42.367312 -71.3317951,42.367943 -71.3305454,42.368095 -71.3287956,42.3683008</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Mass Central Rail Trail -- Wayside</name>
@@ -1180,9 +1136,9 @@
 		<SimpleData name="osm_id">825242492</SimpleData>
 		<SimpleData name="highway">cycleway</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;fine_gravel&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;designation&quot;=&gt;&quot;Central Massachusetts Railroad&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Central Massachusetts&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;proposed&quot;=&gt;&quot;cycleway&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;,&quot;width&quot;=&gt;&quot;3&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.3611483,42.3644736 -71.3584378,42.3647785 -71.3583334,42.3648418 -71.3582651,42.3648906 -71.3582052,42.3649137 -71.3581544,42.36491 -71.358093,42.3648805</coordinates></LineString>
+      <LineString><coordinates>-71.3611483,42.3644736 -71.3584391,42.3647973 -71.3583341,42.3648329 -71.3582611,42.3648837 -71.3582025,42.3649063 -71.3581544,42.36491 -71.358093,42.3648805</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Nashua River Rail Trail</name>
@@ -1194,16 +1150,6 @@
 		<SimpleData name="other_tags">&quot;access&quot;=&gt;&quot;yes&quot;,&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;horse&quot;=&gt;&quot;yes&quot;,&quot;motor_vehicle&quot;=&gt;&quot;no&quot;,&quot;note:old_railway_operator&quot;=&gt;&quot;Worcester, Nashua and Rochester&quot;,&quot;old_railway_operator&quot;=&gt;&quot;B&amp;M&quot;,&quot;railway&quot;=&gt;&quot;abandoned&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;sidewalk&quot;=&gt;&quot;none&quot;,&quot;surface&quot;=&gt;&quot;paved&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.576673,42.6499911 -71.576629,42.650109 -71.576437,42.651097 -71.576309,42.651859 -71.57631,42.652372 -71.576343,42.653134 -71.576521,42.653681 -71.576909,42.654539 -71.577233,42.655467 -71.577395,42.655979 -71.577638,42.656813 -71.577768,42.657718 -71.577689,42.658921 -71.577514,42.660695 -71.5773632,42.6615796 -71.577364,42.6616286 -71.577321,42.661827 -71.5772315,42.6620869 -71.576984,42.662851 -71.576452,42.663733 -71.57584,42.664483 -71.5753964,42.6649693 -71.5748885,42.6655074 -71.574502,42.665862 -71.5741325,42.6661658 -71.5735814,42.6665414 -71.5735111,42.666579</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#lines">
-		<SimpleData name="osm_id">858338707</SimpleData>
-		<SimpleData name="highway">cycleway</SimpleData>
-		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;yes&quot;,&quot;foot&quot;=&gt;&quot;yes&quot;</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4348176,42.3220944 -71.4334671,42.322643 -71.4330044,42.3228309 -71.4311465,42.323399 -71.4297643,42.3235222 -71.4277681,42.3237416 -71.4248491,42.3240001 -71.4245621,42.3240354 -71.4229168,42.3242377 -71.4211577,42.324454 -71.4201128,42.3245652 -71.4198973,42.3245999</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
