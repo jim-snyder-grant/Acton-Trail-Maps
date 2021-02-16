@@ -62,6 +62,16 @@
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">58014674</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;no&quot;,&quot;horse&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4968767,42.4630639 -71.4968351,42.4632534 -71.4968238,42.4632909</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
 		<SimpleData name="osm_id">86979494</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
@@ -134,9 +144,9 @@
 		<SimpleData name="osm_id">204056250</SimpleData>
 		<SimpleData name="highway">path</SimpleData>
 		<SimpleData name="z_order">0</SimpleData>
-		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;designated&quot;,&quot;surface&quot;=&gt;&quot;unpaved&quot;</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;private&quot;,&quot;foot&quot;=&gt;&quot;private&quot;,&quot;horse&quot;=&gt;&quot;private&quot;,&quot;surface&quot;=&gt;&quot;ground&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4827049,42.4568435 -71.4829141,42.4568613 -71.4832521,42.4566713 -71.4838555,42.4565644 -71.484156,42.4562795 -71.4845583,42.4559371 -71.4848453,42.4558224 -71.4850379,42.4561776 -71.4852959,42.4566864 -71.4851895,42.4570608 -71.485214,42.4573227 -71.4850776,42.4575256 -71.4846746,42.4577999 -71.4842054,42.4579979 -71.4838937,42.4581753 -71.483414,42.4583857 -71.4830214,42.4580209 -71.4826083,42.4576726 -71.4825654,42.4573758 -71.4827049,42.4568435 -71.4825854,42.4566704 -71.4824796,42.4565169 -71.4825118,42.4559569 -71.4825788,42.4555057 -71.4825869,42.4550862 -71.4826915,42.4548645 -71.4829329,42.4547319 -71.4832522,42.4546104</coordinates></LineString>
+      <LineString><coordinates>-71.4827049,42.4568435 -71.4829141,42.4568613 -71.4832521,42.4566713 -71.4838555,42.4565644 -71.484156,42.4562795 -71.4845583,42.4559371 -71.4848453,42.4558224 -71.4850379,42.4561776 -71.4852959,42.4566864 -71.4851895,42.4570608 -71.485214,42.4573227 -71.4850776,42.4575256 -71.4846746,42.4577999 -71.4842054,42.4579979 -71.4838937,42.4581753 -71.483414,42.4583857 -71.4830214,42.4580209 -71.4826083,42.4576726 -71.4825654,42.4573758 -71.4827049,42.4568435 -71.4825854,42.4566704 -71.4824796,42.4565169 -71.4825118,42.4559569 -71.4825708,42.455569</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
