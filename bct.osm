@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-01-03T03:20:03Z"/>
+<meta osm_base="2021-02-16T18:27:03Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -197,7 +197,7 @@
   </node>
   <node id="64057966" lat="42.4638605" lon="-71.3522517"/>
   <node id="64058007" lat="42.4747408" lon="-71.3277368">
-    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing" v="marked"/>
     <tag k="highway" v="crossing"/>
   </node>
   <node id="64670531" lat="42.4192214" lon="-71.3293540"/>
@@ -2312,7 +2312,7 @@
   <node id="693003952" lat="42.4433699" lon="-71.3399310"/>
   <node id="693003953" lat="42.4436738" lon="-71.3399373"/>
   <node id="693003954" lat="42.4437803" lon="-71.3400146"/>
-  <node id="693918822" lat="42.4486767" lon="-71.3407751"/>
+  <node id="693918822" lat="42.4486549" lon="-71.3407443"/>
   <node id="693918823" lat="42.4485659" lon="-71.3407979"/>
   <node id="693918825" lat="42.4483299" lon="-71.3408165"/>
   <node id="693918827" lat="42.4480717" lon="-71.3407734"/>
@@ -5557,6 +5557,16 @@
   <node id="8256654803" lat="42.4247900" lon="-71.3289627"/>
   <node id="8258610794" lat="42.3651088" lon="-71.3558888"/>
   <node id="8258913521" lat="42.4043375" lon="-71.3319494"/>
+  <node id="8324991063" lat="42.4267877" lon="-71.3281048"/>
+  <node id="8334888417" lat="42.3618992" lon="-71.3644737"/>
+  <node id="8334888419" lat="42.3615480" lon="-71.3653815"/>
+  <node id="8365552231" lat="42.3496690" lon="-71.4558015"/>
+  <node id="8365552232" lat="42.3496609" lon="-71.4558379"/>
+  <node id="8365552233" lat="42.3496260" lon="-71.4558268"/>
+  <node id="8365552234" lat="42.3496735" lon="-71.4558254"/>
+  <node id="8365552235" lat="42.3496460" lon="-71.4558357"/>
+  <node id="8373979530" lat="42.3535580" lon="-71.3917455"/>
+  <node id="8373979537" lat="42.3535838" lon="-71.3912902"/>
   <way id="8842536">
     <nd ref="860754391"/>
     <nd ref="64034068"/>
@@ -6077,7 +6087,11 @@
     <nd ref="72270314"/>
     <nd ref="72230176"/>
     <nd ref="1989023148"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="track"/>
+    <tag k="horse" v="no"/>
+    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Bay Circuit Trail"/>
     <tag k="tracktype" v="grade3"/>
   </way>
@@ -6242,11 +6256,11 @@
     <nd ref="602821255"/>
     <nd ref="602821257"/>
     <nd ref="3075457872"/>
+    <tag k="access" v="yes"/>
     <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="name" v="Bay Circuit Trail"/>
-    <tag k="segregated" v="no"/>
   </way>
   <way id="47334394">
     <nd ref="602825031"/>
@@ -6332,6 +6346,7 @@
     <tag k="name" v="Fairyland Pond Loop (Yellow Dot)"/>
     <tag k="operator" v="ctc"/>
     <tag k="source" v="survey"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="55202156">
     <nd ref="693918822"/>
@@ -6346,6 +6361,7 @@
     <tag k="name" v="Fairyland Pond Loop"/>
     <tag k="operator" v="ctc"/>
     <tag k="source" v="survey"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="55203584">
     <nd ref="693945447"/>
@@ -7292,6 +7308,8 @@
     <nd ref="70301676"/>
     <nd ref="70274286"/>
     <nd ref="4560314235"/>
+    <nd ref="8334888419"/>
+    <nd ref="8334888417"/>
     <nd ref="70289849"/>
     <nd ref="2244009483"/>
     <nd ref="2244009472"/>
@@ -8103,6 +8121,7 @@
     <tag k="name" v="Fairyland Pond Loop (yellow)"/>
     <tag k="operator" v="ctc"/>
     <tag k="source" v="survey"/>
+    <tag k="surface" v="ground"/>
   </way>
   <way id="298641586">
     <nd ref="635883762"/>
@@ -8756,7 +8775,7 @@
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="source" v="http://www.bedforddepot.org/"/>
-    <tag k="surface" v="ground"/>
+    <tag k="surface" v="compacted"/>
   </way>
   <way id="309150562">
     <nd ref="2457410052"/>
@@ -8798,7 +8817,7 @@
     <tag k="old_railway_operator" v="B&amp;M"/>
     <tag k="railway" v="abandoned"/>
     <tag k="segregated" v="no"/>
-    <tag k="surface" v="ground"/>
+    <tag k="surface" v="compacted"/>
   </way>
   <way id="315676435">
     <nd ref="3218080901"/>
@@ -9014,7 +9033,7 @@
     <tag k="mtb:scale:imba" v="0"/>
     <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="railway" v="abandoned"/>
-    <tag k="surface" v="ground"/>
+    <tag k="surface" v="compacted"/>
   </way>
   <way id="378205122">
     <nd ref="3441036640"/>
@@ -9056,7 +9075,7 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="segregated" v="no"/>
-    <tag k="surface" v="ground"/>
+    <tag k="surface" v="compacted"/>
   </way>
   <way id="378205132">
     <nd ref="1680984372"/>
@@ -9082,7 +9101,7 @@
     <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Reformatory Branch Trail"/>
     <tag k="segregated" v="no"/>
-    <tag k="surface" v="ground"/>
+    <tag k="surface" v="compacted"/>
   </way>
   <way id="379682006">
     <nd ref="3025218938"/>
@@ -9477,6 +9496,11 @@
   </way>
   <way id="461417900">
     <nd ref="1416103461"/>
+    <nd ref="8365552233"/>
+    <nd ref="8365552235"/>
+    <nd ref="8365552232"/>
+    <nd ref="8365552234"/>
+    <nd ref="8365552231"/>
     <nd ref="1416103464"/>
     <nd ref="1416103459"/>
     <nd ref="1416103455"/>
@@ -10777,6 +10801,7 @@
     <nd ref="6886098215"/>
     <nd ref="64678698"/>
     <nd ref="64671789"/>
+    <nd ref="8324991063"/>
     <nd ref="7912950571"/>
     <nd ref="64671713"/>
     <nd ref="1282329237"/>
@@ -12128,34 +12153,22 @@
     <tag k="footway" v="crossing"/>
     <tag k="highway" v="footway"/>
   </way>
-  <way id="842205775">
-    <nd ref="7857201623"/>
-    <nd ref="7857201625"/>
-    <nd ref="7857201626"/>
-    <nd ref="7857201627"/>
-    <nd ref="7857201628"/>
-    <tag k="footway" v="sidewalk"/>
-    <tag k="highway" v="footway"/>
-  </way>
   <way id="842205776">
+    <nd ref="7857168919"/>
+    <nd ref="7857168918"/>
+    <nd ref="7857168917"/>
+    <nd ref="7857168916"/>
+    <nd ref="7857168915"/>
+    <nd ref="7857168914"/>
+    <nd ref="7857168913"/>
+    <nd ref="7857168912"/>
+    <nd ref="7857168911"/>
     <nd ref="7857201629"/>
     <nd ref="7857201628"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="footway" v="sidewalk"/>
-    <tag k="highway" v="footway"/>
-    <tag k="layer" v="1"/>
-  </way>
-  <way id="842209060">
-    <nd ref="7857201629"/>
-    <nd ref="7857168911"/>
-    <nd ref="7857168912"/>
-    <nd ref="7857168913"/>
-    <nd ref="7857168914"/>
-    <nd ref="7857168915"/>
-    <nd ref="7857168916"/>
-    <nd ref="7857168917"/>
-    <nd ref="7857168918"/>
-    <nd ref="7857168919"/>
+    <nd ref="7857201627"/>
+    <nd ref="7857201626"/>
+    <nd ref="7857201625"/>
+    <nd ref="7857201623"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
   </way>
@@ -12536,8 +12549,10 @@
     <nd ref="71077951"/>
     <nd ref="71051527"/>
     <nd ref="71037916"/>
+    <nd ref="8373979530"/>
     <nd ref="71088939"/>
     <nd ref="71099062"/>
+    <nd ref="8373979537"/>
     <nd ref="71087108"/>
     <nd ref="71112352"/>
     <nd ref="71136336"/>
