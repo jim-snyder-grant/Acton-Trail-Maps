@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="points" id="points">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="is_in" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>points</name>
+  <Placemark>
+	<name>Guggins Brook</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">771666477</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;notice&quot;,&quot;description&quot;=&gt;&quot;trail map and rules&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4845151,42.4778735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2118697728</SimpleData>
+		<SimpleData name="other_tags">&quot;hiking&quot;=&gt;&quot;yes&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;map_type&quot;=&gt;&quot;topo&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4374547,42.4817836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2118699216</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;board&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4311829,42.4799161</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2139046617</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;board&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4428332,42.5019506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2144378322</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4660184,42.4974857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pencil Factory Kiosk</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2159701983</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4128438,42.5055648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2159701989</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4138167,42.5027718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2159701995</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.405038,42.5132927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2159826151</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4112072,42.5081224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2784092806</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4198445,42.5221331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">2785937354</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.415871,42.520396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4425940124</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;notice&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4388497,42.5005363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4582907647</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4736055,42.4590254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4584791184</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3952896,42.5012506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4595595216</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4076524,42.5057581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4595595217</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4076565,42.5068743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4600266383</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4165942,42.4736243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4600633539</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4509248,42.4645288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4603995367</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4531096,42.4970111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4621559590</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4783994,42.4876286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">4673936591</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;nature&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4207506,42.5178177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5222105293</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4013971,42.486376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5423842774</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4441588,42.4563253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5423842775</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4357099,42.4547016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5425410274</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4558238,42.4675955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5432548686</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4507528,42.4624025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5432560922</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3908317,42.5017851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5434211827</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;map&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4031635,42.5188622</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5434211828</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3980089,42.5114705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5444217367</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4329784,42.441093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5976923756</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;empty&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4122664,42.5163661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5979676924</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4045252,42.5122231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">5979799356</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4068896,42.5081075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6053930221</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.407299,42.5080495</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6111664503</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.399848,42.5319484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6112031665</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4109357,42.5155697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6112075510</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4186307,42.4939072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6137804700</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4567558,42.4532471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">6255172047</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4340705,42.5078724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">7064760870</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4760032,42.4641172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">7563109325</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4335004,42.4772042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">7796915511</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4182778,42.4787403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">7988520545</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;nature&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4053458,42.5133795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">8083099561</SimpleData>
+		<SimpleData name="other_tags">&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4331903,42.4771373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pine Hawk</name>
+	<ExtendedData><SchemaData schemaUrl="#points">
+		<SimpleData name="osm_id">8163081586</SimpleData>
+		<SimpleData name="other_tags">&quot;board_type&quot;=&gt;&quot;history&quot;,&quot;information&quot;=&gt;&quot;board&quot;,&quot;tourism&quot;=&gt;&quot;information&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4365639,42.4416329</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
