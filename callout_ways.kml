@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="multipolygons" id="multipolygons">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="admin_level" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="boundary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="geological" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="land_area" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="military" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="other_tags" type="string"></SimpleField>
+</Schema>
+<Folder><name>multipolygons</name>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">196430265</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="man_made">storage_tank</SimpleData>
+		<SimpleData name="other_tags">&quot;addr:city&quot;=&gt;&quot;Acton&quot;,&quot;addr:country&quot;=&gt;&quot;US&quot;,&quot;addr:housenumber&quot;=&gt;&quot;287&quot;,&quot;addr:postcode&quot;=&gt;&quot;01720&quot;,&quot;addr:state&quot;=&gt;&quot;MA&quot;,&quot;addr:street&quot;=&gt;&quot;Nagog Hill Road&quot;,&quot;content&quot;=&gt;&quot;water&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4436529,42.5061979 -71.4436874,42.5062104 -71.4437107,42.5062231 -71.4437372,42.5062437 -71.4437576,42.5062678 -71.4437684,42.5062877 -71.4437762,42.5063155 -71.4437763,42.506344 -71.4437687,42.5063719 -71.4437581,42.5063918 -71.4437379,42.506416 -71.4437115,42.5064367 -71.4436175,42.5064658 -71.443579,42.506466 -71.4435412,42.5064604 -71.4435056,42.5064494 -71.4434738,42.5064334 -71.443447,42.5064129 -71.4434262,42.5063889 -71.4434124,42.5063623 -71.4434069,42.5063413 -71.4434063,42.5063128 -71.4434135,42.5062848 -71.4434282,42.5062584 -71.4434496,42.5062347 -71.4434858,42.5062098 -71.4435299,42.5061954 -71.4435772,42.5061892 -71.4436157,42.5061907 -71.4436529,42.5061979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>50BEBEBE</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#multipolygons">
+		<SimpleData name="osm_way_id">914529692</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="man_made">storage_tank</SimpleData>
+		<SimpleData name="other_tags">&quot;content&quot;=&gt;&quot;water&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-71.45421,42.4685392 -71.4541966,42.4685214 -71.4541953,42.4684937 -71.4542047,42.4684768 -71.4542234,42.468464 -71.4542462,42.468458 -71.4542744,42.468458 -71.4542972,42.468464 -71.454312,42.4684758 -71.4543187,42.4684966 -71.454316,42.4685164 -71.4543066,42.4685322 -71.4542905,42.4685441 -71.454269,42.468551 -71.4542476,42.468552 -71.4542275,42.46855 -71.45421,42.4685392</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
