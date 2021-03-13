@@ -16,9 +16,9 @@ import shutil    # higher level file operations
 import subprocess
 
 regularArguments = {
-    'bct', 'bike_trails', 'bike_trails_extended','blue_trails', 'bounds', 'callouts', 'camping',
-    'green_trails', 'outside_trails', 'parking', 'parking_street', 'red_trails', 'town',
-    'unblazed_trails', 'yellow_trails'
+    'bct', 'bike_trails', 'bike_trails_extended','blue_trails', 'bounds', 'callout_nodes',
+    'callout_ways', 'camping', 'green_trails', 'outside_trails', 'parking', 'parking_street',
+    'red_trails', 'town', 'unblazed_trails', 'yellow_trails'
 }
 allArg = 'all'
 helpArg = "help"
@@ -135,10 +135,14 @@ for arg in args:
         filters = '(way('+CANOE_LAUNCH_ID+');relation[boundary=protected_area][owner~"Town Of Acton",i];way[boundary=protected_area][owner~"Town Of Acton",i];way[leisure=nature_reserve][boundary!=protected_area][owner~"Town Of Acton",i];)'
         geometry = "multipolygons"
         got_new_bounds = True
-    elif arg == "callouts":
+    elif arg == "callout_nodes":
         KMLcolor = "50BEBEBE"
-        filters = 'node[tourism=information][information=board]'+IS_INSIDE_ACTON
+        filters = 'node[tourism=information][information=board]->.kiosks; node'+IS_INSIDE_ACTON+'->.intown; (node.kiosks.intown;)'
         geometry = "points"
+    elif arg == "callout_ways":
+        KMLcolor = "50BEBEBE"
+        filters = 'way[man_made=storage_tank]->.water_tower; way'+IS_INSIDE_ACTON+'->.intown; (way.water_tower.intown;)'
+        geometry = "multipolygons"
     elif arg == "camping":
         KMLcolor = "643C9614"
         filters = 'node[tourism=camp_site]'+IS_INSIDE_ACTON
