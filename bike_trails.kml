@@ -185,7 +185,7 @@
 		<SimpleData name="z_order">0</SimpleData>
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>-71.4124452,42.4766452 -71.4121342,42.4763093 -71.4118312,42.4759675 -71.4115444,42.4756004 -71.4113253,42.475287 -71.4112835,42.4752193 -71.4112552,42.4751537 -71.4111545,42.4748587 -71.4111342,42.4747918 -71.4110951,42.4747071 -71.4104498,42.4735956 -71.4102766,42.4733269</coordinates></LineString>
+      <LineString><coordinates>-71.4124452,42.4766452 -71.4121342,42.4763093 -71.4118312,42.4759675 -71.4115444,42.4756004 -71.4113253,42.475287 -71.4112835,42.4752193 -71.4112552,42.4751537 -71.4111545,42.4748587 -71.4111342,42.4747918 -71.4110951,42.4747071 -71.4104498,42.4735956 -71.410333,42.4734144 -71.4102616,42.4733037</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Bruce Freeman Rail Trail</name>
@@ -390,6 +390,16 @@
 		<SimpleData name="other_tags">&quot;foot&quot;=&gt;&quot;yes&quot;,&quot;segregated&quot;=&gt;&quot;no&quot;,&quot;surface&quot;=&gt;&quot;asphalt&quot;</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4109475,42.5118621 -71.4116241,42.5093875 -71.4117418,42.5089449 -71.4118033,42.5087831 -71.4118604,42.5086333 -71.4119661,42.5083938 -71.4120905,42.5081564 -71.4122052,42.5079622 -71.4123649,42.507737 -71.4125426,42.5075039 -71.4135856,42.5063023 -71.4137089,42.5061603 -71.4140047,42.5057866 -71.4143144,42.5053291</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>501450FF</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">916742123</SimpleData>
+		<SimpleData name="highway">cycleway</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+		<SimpleData name="other_tags">&quot;bicycle&quot;=&gt;&quot;designated&quot;,&quot;foot&quot;=&gt;&quot;designated&quot;</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.410333,42.4734144 -71.4102941,42.4734233 -71.4102565,42.4734224 -71.4102199,42.4734116 -71.4102014,42.4733886 -71.4101922,42.4733632 -71.410198,42.4733388 -71.4102153,42.4733206 -71.4102428,42.4733101 -71.4102616,42.4733037</coordinates></LineString>
   </Placemark>
 </Folder>
 </Document></kml>
