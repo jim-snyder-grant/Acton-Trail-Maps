@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-16T18:27:03Z"/>
+<meta osm_base="2021-03-16T19:46:22Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -3143,7 +3143,7 @@
   <node id="1692539571" lat="42.5715065" lon="-71.3804108">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="1692539574" lat="42.5759758" lon="-71.3795433"/>
+  <node id="1692539574" lat="42.5759366" lon="-71.3795502"/>
   <node id="1692539580" lat="42.5767146" lon="-71.3794064"/>
   <node id="1692539581" lat="42.5767389" lon="-71.3794018"/>
   <node id="1692539582" lat="42.5781970" lon="-71.3791275"/>
@@ -5539,7 +5539,7 @@
   <node id="7913003721" lat="42.3630644" lon="-71.3618603"/>
   <node id="8073552928" lat="42.4720483" lon="-71.3544684"/>
   <node id="8095189692" lat="42.3616419" lon="-71.4180040">
-    <tag k="railway" v="level_crossing"/>
+    <tag k="disused:railway" v="level_crossing"/>
   </node>
   <node id="8200123380" lat="42.3468044" lon="-71.4551249"/>
   <node id="8200123383" lat="42.3489347" lon="-71.4557303"/>
