@@ -79,7 +79,7 @@ def ourSED(inPattern, outPattern, filename):
 def ourCall(args):
     try:
         output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
-    except subprocess.CalledProcessError, e:
+    except subprocess.CalledProcessError as e:
         print("Execution failed with code ", e.returncode)
         print(e.output)
         exit(e.returncode)
@@ -90,7 +90,7 @@ def ourCall(args):
 def ourDiffCall(args):
     try:
         output_text = subprocess.check_output(args, stderr=subprocess.STDOUT)
-    except subprocess.CalledProcessError, e:
+    except subprocess.CalledProcessError as e:
         if 1 == e.returncode:
             return 1
         else:
