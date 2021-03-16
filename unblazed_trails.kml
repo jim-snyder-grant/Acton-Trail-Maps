@@ -2439,5 +2439,14 @@
 	</SchemaData></ExtendedData>
       <LineString><coordinates>-71.4427016,42.4427128 -71.4425439,42.4425766</coordinates></LineString>
   </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff00ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lines">
+		<SimpleData name="osm_id">916742124</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="z_order">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.4101922,42.4733632 -71.4100295,42.4734067</coordinates></LineString>
+  </Placemark>
 </Folder>
 </Document></kml>
