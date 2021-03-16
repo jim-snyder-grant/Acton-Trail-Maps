@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-16T18:28:02Z" areas="2021-02-16T15:05:03Z"/>
+<meta osm_base="2021-03-16T19:48:26Z" areas="2021-03-16T18:39:43Z"/>
 
   <bounds minlat="42.4330000" minlon="-71.5000000" maxlat="42.5340000" maxlon="-71.3840000"/>
 
@@ -4491,7 +4491,7 @@
   <node id="5099191074" lat="42.4773559" lon="-71.4015182"/>
   <node id="5099191075" lat="42.4768585" lon="-71.4018255"/>
   <node id="5099191076" lat="42.4761327" lon="-71.4020274"/>
-  <node id="5099191078" lat="42.4759338" lon="-71.4018866"/>
+  <node id="5099191078" lat="42.4759447" lon="-71.4018853"/>
   <node id="5099191080" lat="42.4788096" lon="-71.3991362"/>
   <node id="5099191081" lat="42.4784199" lon="-71.4015808"/>
   <node id="5099191082" lat="42.4782318" lon="-71.4015319"/>
@@ -5238,9 +5238,7 @@
     <tag k="distance" v="14.50 mile"/>
     <tag k="highway" v="milestone"/>
   </node>
-  <node id="7076351008" lat="42.4649069" lon="-71.3983923"/>
   <node id="7076351010" lat="42.4648690" lon="-71.3985265"/>
-  <node id="7076351019" lat="42.4648713" lon="-71.3982502"/>
   <node id="7076351024" lat="42.4641592" lon="-71.3978448"/>
   <node id="7076351025" lat="42.4641669" lon="-71.3976923"/>
   <node id="7076356703" lat="42.4604841" lon="-71.3953017"/>
@@ -8381,8 +8379,10 @@
     <nd ref="2424863467"/>
     <nd ref="1078465768"/>
     <tag k="bicycle" v="designated"/>
+    <tag k="bridge" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="railway" v="razed"/>
     <tag k="segregated" v="no"/>
@@ -13516,13 +13516,6 @@
     <tag k="segregated" v="no"/>
     <tag k="source:old_name:1970" v="New Haven Region Timetable No. 2, January 18, 1970"/>
   </way>
-  <way id="757718154">
-    <nd ref="7076351010"/>
-    <nd ref="7076351008"/>
-    <nd ref="7076351019"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="paved"/>
-  </way>
   <way id="757718157">
     <nd ref="7076351024"/>
     <nd ref="6562435062"/>
@@ -13534,24 +13527,20 @@
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="segregated" v="no"/>
   </way>
-  <way id="757718158">
-    <nd ref="1078465506"/>
-    <nd ref="2424863485"/>
-    <nd ref="2424863460"/>
-    <nd ref="1078466008"/>
-    <nd ref="2424863483"/>
-    <nd ref="2424863469"/>
-    <nd ref="2424863461"/>
-    <nd ref="2424863481"/>
-    <nd ref="2424863478"/>
-    <nd ref="2424863476"/>
-    <nd ref="2424863489"/>
-    <nd ref="1078465299"/>
-    <nd ref="7675006798"/>
-    <nd ref="1078465888"/>
-    <tag k="highway" v="cycleway"/>
-  </way>
   <way id="757718159">
+    <nd ref="1078465888"/>
+    <nd ref="7675006798"/>
+    <nd ref="1078465299"/>
+    <nd ref="2424863489"/>
+    <nd ref="2424863476"/>
+    <nd ref="2424863478"/>
+    <nd ref="2424863481"/>
+    <nd ref="2424863461"/>
+    <nd ref="2424863469"/>
+    <nd ref="2424863483"/>
+    <nd ref="1078466008"/>
+    <nd ref="2424863460"/>
+    <nd ref="2424863485"/>
     <nd ref="1078465506"/>
     <nd ref="7076351010"/>
     <nd ref="2424863472"/>
