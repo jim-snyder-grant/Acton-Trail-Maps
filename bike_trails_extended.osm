@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-16T18:27:03Z" areas="2021-02-16T17:27:03Z"/>
+<meta osm_base="2021-03-16T19:46:22Z" areas="2021-03-16T19:21:42Z"/>
 
   <bounds minlat="42.3230000" minlon="-71.6000000" maxlat="42.6530000" maxlon="-71.3200000"/>
 
@@ -1131,7 +1131,7 @@
   <node id="1692539571" lat="42.5715065" lon="-71.3804108">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="1692539574" lat="42.5759758" lon="-71.3795433"/>
+  <node id="1692539574" lat="42.5759366" lon="-71.3795502"/>
   <node id="1692539580" lat="42.5767146" lon="-71.3794064"/>
   <node id="1692539581" lat="42.5767389" lon="-71.3794018"/>
   <node id="1692539582" lat="42.5781970" lon="-71.3791275"/>
@@ -4434,8 +4434,10 @@
     <nd ref="2424863467"/>
     <nd ref="1078465768"/>
     <tag k="bicycle" v="designated"/>
+    <tag k="bridge" v="yes"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="railway" v="razed"/>
     <tag k="segregated" v="no"/>
@@ -7272,24 +7274,20 @@
     <tag k="name" v="Bruce Freeman Rail Trail"/>
     <tag k="segregated" v="no"/>
   </way>
-  <way id="757718158">
-    <nd ref="1078465506"/>
-    <nd ref="2424863485"/>
-    <nd ref="2424863460"/>
-    <nd ref="1078466008"/>
-    <nd ref="2424863483"/>
-    <nd ref="2424863469"/>
-    <nd ref="2424863461"/>
-    <nd ref="2424863481"/>
-    <nd ref="2424863478"/>
-    <nd ref="2424863476"/>
-    <nd ref="2424863489"/>
-    <nd ref="1078465299"/>
-    <nd ref="7675006798"/>
-    <nd ref="1078465888"/>
-    <tag k="highway" v="cycleway"/>
-  </way>
   <way id="757718159">
+    <nd ref="1078465888"/>
+    <nd ref="7675006798"/>
+    <nd ref="1078465299"/>
+    <nd ref="2424863489"/>
+    <nd ref="2424863476"/>
+    <nd ref="2424863478"/>
+    <nd ref="2424863481"/>
+    <nd ref="2424863461"/>
+    <nd ref="2424863469"/>
+    <nd ref="2424863483"/>
+    <nd ref="1078466008"/>
+    <nd ref="2424863460"/>
+    <nd ref="2424863485"/>
     <nd ref="1078465506"/>
     <nd ref="7076351010"/>
     <nd ref="2424863472"/>
