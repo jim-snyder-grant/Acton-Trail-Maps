@@ -69,8 +69,8 @@ def ourSED(inPattern, outPattern, filename):
         inContents = fin.read()
         outContents = re.sub(inPattern, outPattern, inContents,
                              flags=re.MULTILINE | re.IGNORECASE)
-        os.write(fid, outContents)
-        os.close(fid)
+        with open(fid, 'w') as fout:
+            fout.write(outContents)
     os.remove(filename)
     shutil.move(tempName, filename)
 
@@ -213,7 +213,7 @@ for arg in args:
         exit(1)
     contents = response.text
     argFile = open(osmFile, 'w')
-    argFile.write(contents.encode('utf8'))
+    argFile.write(contents)
     argFile.close()
 
     if os.path.exists(osmFile):
